@@ -1,5 +1,9 @@
-﻿using SearchEngine.IndexingConsole.Indexing.Workers;
+﻿using MongoDB.Driver;
+using SearchEngine.Database;
+using SearchEngine.Database.Models;
+using SearchEngine.IndexingConsole.Indexing.Workers;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,8 +21,17 @@ namespace SearchEngine.IndexingConsole.Indexing
       {
         MaxDegreeOfParallelism = RunSettings.MaxDegreeOfParallelism
       };
-      Parallel.ForEach(Master.Batch(locations, RunSettings.DocumentBatchSize), parallelOptions, Slave.ComputeDocumentsModule);
+      //Partitioner.Create()
+      Parallel.ForEach(locations, parallelOptions, Slave.ComputeDocumentsModule);
+      //Parallel.ForEach(Master.Batch(locations, RunSettings.DocumentBatchSize), parallelOptions, Slave.ComputeDocumentsModule);
+      Console.WriteLine("Creating an index on document modules collection");
+      CreateDbIndex();
+    }
 
+    private static void CreateDbIndex()
+    {
+      var collection = DbClient.Database.GetCollection<ModuleDocument>(DbClient.DocumentModulesCollectionName);
+      collection.Indexes.CreateOne(Builders<ModuleDocument>.IndexKeys.Ascending(_ => _.Location));
     }
   }
 }

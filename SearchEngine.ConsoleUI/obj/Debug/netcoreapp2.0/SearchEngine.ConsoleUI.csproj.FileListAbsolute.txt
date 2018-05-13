@@ -29,3 +29,10 @@ C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.ConsoleUI\obj\Debug\net
 C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.AssemblyInfo.cs
 C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.dll
 C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.pdb
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\exceptionwords.txt
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\full7z-mlteast-en.lem
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\stopwords.txt
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.IndexingConsole.dll
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.Miscellaneous.dll
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.Miscellaneous.pdb
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.IndexingConsole.pdb

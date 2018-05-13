@@ -1,5 +1,5 @@
-﻿using SearchEngine.ConsoleUI.EngineType;
-using SearchEngine.Database;
+﻿using SearchEngine.Database;
+using SearchEngine.Miscellaneous;
 using System;
 using System.Diagnostics;
 using System.Linq;

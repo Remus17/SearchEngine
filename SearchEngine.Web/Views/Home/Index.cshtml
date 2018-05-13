@@ -42,7 +42,7 @@
               $("#documents-list").empty();
               if (response.documents.length > 0) {
                 response.documents.forEach(function(x) {
-                  $("#documents-list").append("<li><div>Document: " + x.url + "</div><div>Similaritate cosinus: " + x.cosineSimilarity+"</div></li>");
+                  $("#documents-list").append("<li><div>Document: <a href='http://" + x.url + "'>"+x.url+"</a></div><div>Similaritate cosinus: " + x.cosineSimilarity+"</div></li>");
                 });
               }
               $("#miscellaneous-information").empty();

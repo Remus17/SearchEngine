@@ -27,6 +27,7 @@ namespace SearchEngine.Miscellaneous
         //searchTerms = searchTerms.GetRange(0, exclusionStartIndex);
       }
       var storedWords = GetWordDocuments(searchTerms);
+      var modules = GetDocumentModules(GetDocumentSet(storedWords));
       if (excludedTerms.Any())
       {
         var excludedWords = storedWords.Where(x => excludedTerms.Contains(x.Word)).ToList(); //GetWordDocuments(excludedTerms);
@@ -38,69 +39,72 @@ namespace SearchEngine.Miscellaneous
         }
       }
 
-      var documents = new Dictionary<string, Dictionary<string, float>>();
+      //dictionary with location as key and list of word data as value
+      var documents = new Dictionary<string, List<WordData>>();
       foreach (var item in storedWords)
       {
         AddToDictionary(documents, item.Locations.Select(x =>
-          new KeyValuePair<string, KeyValuePair<string, float>>(x.Location,
-            new KeyValuePair<string, float>(item.Word, x.FinalWeight))));
+          new KeyValuePair<string, WordData>(x.Location,
+            new WordData { Weight = x.FinalWeight, Word = item.Word })));
       }
 
 
       var vectorialTerms = GetVectorialSearchTerms(searchTerms, storedWords);
 
-      return GetResults(vectorialTerms, documents, ComputeVectorModule(vectorialTerms.Select(x => x.Weight))).OrderByDescending(x => x.Similarity);
+      return GetResults(vectorialTerms, documents, modules).OrderByDescending(x => x.Similarity);
     }
 
-    private List<VectorialResult> GetResults(List<VectorialTerm> searched, Dictionary<string, Dictionary<string, float>> storedWords, float queryModule)
+
+    private List<VectorialResult> GetResults(List<VectorialTerm> searched, Dictionary<string, List<WordData>> storedWords, List<ModuleDocument> modules)
     {
       var result = new List<VectorialResult>();
-
-
+      var queryModule = ComputeVectorModule(searched.Select(x => x.Weight));
       foreach (var documentKey in storedWords.Keys)
       {
+        var dbDocModule = modules.First(x => x.Location == documentKey).Module;
         result.Add(new VectorialResult()
         {
           Url = documentKey,
-          Similarity = ComputeDocumentCosinus(searched, storedWords[documentKey], queryModule)
+          Similarity = ComputeDocumentCosinus(searched, storedWords[documentKey], queryModule, dbDocModule)
         });
       }
       return result;
     }
 
-    private float ComputeDocumentCosinus(List<VectorialTerm> searchedWords, Dictionary<string, float> storedWords, float queryModule)
+    private float ComputeDocumentCosinus(List<VectorialTerm> searchedWords, List<WordData> storedWords, float queryModule, float dbDocModule)
     {
       float numerator = 0;
       foreach (var item in searchedWords)
       {
-        float dbWordWeight = 0;
-        storedWords.TryGetValue(item.Word, out dbWordWeight);
+        float dbWordWeight = storedWords.FirstOrDefault(x => x.Word == item.Word)?.Weight ?? 0;
         numerator += item.Weight * dbWordWeight;
       }
-      return numerator / (queryModule * ComputeVectorModule(storedWords.Values));
+      return numerator / (queryModule * dbDocModule);
     }
     //dictionary with location as key and list of word data as value
-    private void AddToDictionary(Dictionary<string, Dictionary<string, float>> dictionary, IEnumerable<KeyValuePair<string, KeyValuePair<string, float>>> items)
+    private void AddToDictionary(Dictionary<string, List<WordData>> dictionary, IEnumerable<KeyValuePair<string, WordData>> items)
     {
       foreach (var item in items)
       {
+        var newElement = new WordData() { Weight = item.Value.Weight, Word = item.Value.Word };
         if (dictionary.ContainsKey(item.Key))
         {
-          dictionary[item.Key].Add(item.Value.Key, item.Value.Value);
+          dictionary[item.Key].Add(newElement);
         }
         else
         {
-          dictionary.Add(item.Key, new Dictionary<string, float>() { { item.Value.Key, item.Value.Value } });
+          dictionary.Add(item.Key, new List<WordData>() { newElement });
         }
       }
     }
     private List<VectorialTerm> GetVectorialSearchTerms(List<string> words, List<ReducedWordDocument> storedWords)
     {
       var totalFilesNumber = storedWords.SelectMany(x => x.Locations).Count();
-      return words.Select(x => new VectorialTerm()
+      return words.Select(word => new VectorialTerm()
       {
-        Word = x,
-        Weight = (1 / (float)words.Count) * (float)Math.Log((totalFilesNumber / (float?)storedWords.FirstOrDefault(sw => sw.Word == x)?.Locations.Count ?? 0u) + 1)
+        Word = word,
+        Weight = (words.Where(y => y == word).Count() / (float)words.Count) * storedWords.FirstOrDefault(x => x.Word == word)?.InverseDocumentFrequency ?? 1
+        //(float)Math.Log((totalFilesNumber / (float?)storedWords.FirstOrDefault(sw => sw.Word == x)?.Locations.Count ?? 0u) + 1)
       }).ToList();
     }
 
@@ -112,9 +116,20 @@ namespace SearchEngine.Miscellaneous
       return collection.Find(x => words.Contains(x.Word)).ToList();
     }
 
+    private List<ModuleDocument> GetDocumentModules(List<string> docs)
+    {
+      var collection = DbClient.Database.GetCollection<ModuleDocument>(DbClient.DocumentModulesCollectionName);
+      return collection.Find(x => docs.Contains(x.Location)).ToList();
+    }
+
     private float ComputeVectorModule(IEnumerable<float> numbers)
     {
       return (float)Math.Sqrt(numbers.Select(x => x * x).Sum());
     }
+    private List<string> GetDocumentSet(List<ReducedWordDocument> storedWords)
+    {
+      return storedWords.SelectMany(x => x.Locations).Select(x => x.Location).Distinct().ToList();
+    }
+
   }
 }

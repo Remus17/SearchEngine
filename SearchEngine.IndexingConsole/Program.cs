@@ -48,7 +48,7 @@ namespace SearchEngine.IndexingConsole
       RunSettings.DatasetPath = siteDir;
 
 
-      RunSettings.LogType = LogType.Default;
+      RunSettings.LogType = LogType.Debug;
       RunSettings.DocumentBatchSize = 5;
       RunSettings.GroupedWordsBatchSize = 300; //used for calculating idf
 

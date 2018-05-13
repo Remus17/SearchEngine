@@ -664,36 +664,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Qbk\\.nuget\\packages\\": {},
+    "C:\\Users\\Remus\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Qbk\\Source\\repos\\ECBD\\SearchEngine\\SearchEngine.Tools\\SearchEngine.Tools.csproj",
+      "projectUniqueName": "D:\\C#\\RIW\\SearchEngine.Tools\\SearchEngine.Tools.csproj",
       "projectName": "SearchEngine.Tools",
-      "projectPath": "C:\\Users\\Qbk\\Source\\repos\\ECBD\\SearchEngine\\SearchEngine.Tools\\SearchEngine.Tools.csproj",
-      "packagesPath": "C:\\Users\\Qbk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Qbk\\Source\\repos\\ECBD\\SearchEngine\\SearchEngine.Tools\\obj\\",
+      "projectPath": "D:\\C#\\RIW\\SearchEngine.Tools\\SearchEngine.Tools.csproj",
+      "packagesPath": "C:\\Users\\Remus\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\RIW\\SearchEngine.Tools\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Qbk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        "C:\\Users\\Remus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
-        "C:\\Users\\Qbk\\.dotnet\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

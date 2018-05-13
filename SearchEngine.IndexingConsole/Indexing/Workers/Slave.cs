@@ -88,25 +88,23 @@ namespace SearchEngine.IndexingConsole.Indexing.Workers
 
     };
 
-    public static Action<IEnumerable<string>> ComputeDocumentsModule = documents =>
+    public static Action<string> ComputeDocumentsModule = doc =>
     {
       var modules = new List<ModuleDocument>();
-      foreach (var doc in documents)
+      var documentWords = GetDocumentReducedWords(doc);
+      //var a = documentWords.SelectMany(x => x.Locations).Select(x => x.Location).Distinct().ToList();
+      var wordWeights = documentWords.Select(x => x.Locations.First().FinalWeight);
+      var module = new ModuleDocument
       {
-        var documentWords = GetDocumentReducedWords(doc);
-        var wordWeights = documentWords.Select(x => x.Locations.First().FinalWeight);
-        var module = new ModuleDocument
-        {
-          Location = doc,
-          Module = (float)Math.Sqrt(wordWeights.Select(x => x * x).Sum())
-        };
-        modules.Add(module);
-        if(RunSettings.LogType == LogType.Debug)
-        {
-          Console.WriteLine($"Computed document module:{module.Module} for {doc}");
-        }
-
+        Location = doc,
+        Module = (float)Math.Sqrt(wordWeights.Select(x => x * x).Sum())
+      };
+      modules.Add(module);
+      if(RunSettings.LogType == LogType.Debug)
+      {
+        Console.WriteLine($"Computed document module:{module.Module} for {doc}");
       }
+
       FlushToDatabase(modules);
     };
 
