@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchEngine.Tools", "Searc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine.Web", "SearchEngine.Web\SearchEngine.Web.csproj", "{3C30DB5A-8D6D-426E-94BE-69DB83CE5F80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine.Miscellaneous", "SearchEngine.Miscellaneous\SearchEngine.Miscellaneous.csproj", "{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3C30DB5A-8D6D-426E-94BE-69DB83CE5F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C30DB5A-8D6D-426E-94BE-69DB83CE5F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C30DB5A-8D6D-426E-94BE-69DB83CE5F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

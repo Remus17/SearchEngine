@@ -16,7 +16,7 @@ namespace SearchEngine.Database
         {
           try
           {
-            _client = new MongoClient("");
+            _client = new MongoClient("mongodb+srv://remus:remus123$%^@cluster0-tgjbo.mongodb.net/test");
             Console.WriteLine("Db connection successfully initialized");
           }
           catch (DnsClient.DnsResponseException e)

@@ -7,3 +7,12 @@ D:\C#\RIW\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.As
 D:\C#\RIW\SearchEngine.Database\bin\Debug\netcoreapp2.0\SearchEngine.Database.pdb
 D:\C#\RIW\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.dll
 D:\C#\RIW\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.pdb
+C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.Database\bin\Debug\netcoreapp2.0\SearchEngine.Database.deps.json
+C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.Database\bin\Debug\netcoreapp2.0\SearchEngine.Database.dll
+C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.Database\bin\Debug\netcoreapp2.0\SearchEngine.Database.pdb
+C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.csprojResolveAssemblyReference.cache
+C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.csproj.CoreCompileInputs.cache
+C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.AssemblyInfoInputs.cache
+C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.AssemblyInfo.cs
+C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.dll
+C:\Users\Qbk\Source\repos\ECBD\SearchEngine\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.pdb

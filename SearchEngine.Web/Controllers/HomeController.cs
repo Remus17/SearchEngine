@@ -1,37 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using SearchEngine.Miscellaneous;
 using SearchEngine.Web.Models;
 
 namespace SearchEngine.Web.Controllers
 {
-    public class HomeController : Controller
+  public class HomeController : Controller
+  {
+    private readonly ISearchService searchService;
+
+    public HomeController(ISearchService searchService)
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+      this.searchService = searchService;
     }
+
+    public IActionResult Index()
+    {
+      return View();
+    }
+
+    public IActionResult ExecuteVectorialSearch(string input)
+    {
+      var result = searchService.ExecuteVectorialSearch(input);
+      return Json(result);
+    }
+
+    public IActionResult Error()
+    {
+      return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+  }
 }
