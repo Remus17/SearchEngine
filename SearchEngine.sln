@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchEngine.IndexingConsol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchEngine.Database", "SearchEngine.Database\SearchEngine.Database.csproj", "{4D642F90-470A-414D-86B1-03208D01067E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine.ConsoleUI", "SearchEngine.ConsoleUI\SearchEngine.ConsoleUI.csproj", "{F4646E7A-D6BD-4653-BB70-773CFABEEE29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchEngine.ConsoleUI", "SearchEngine.ConsoleUI\SearchEngine.ConsoleUI.csproj", "{F4646E7A-D6BD-4653-BB70-773CFABEEE29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine.Tools", "SearchEngine.Tools\SearchEngine.Tools.csproj", "{65FDDF4B-A790-48DF-8078-16714825164A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchEngine.Tools", "SearchEngine.Tools\SearchEngine.Tools.csproj", "{65FDDF4B-A790-48DF-8078-16714825164A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine.Web", "SearchEngine.Web\SearchEngine.Web.csproj", "{3C30DB5A-8D6D-426E-94BE-69DB83CE5F80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine.Miscellaneous", "SearchEngine.Miscellaneous\SearchEngine.Miscellaneous.csproj", "{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{65FDDF4B-A790-48DF-8078-16714825164A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65FDDF4B-A790-48DF-8078-16714825164A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65FDDF4B-A790-48DF-8078-16714825164A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C30DB5A-8D6D-426E-94BE-69DB83CE5F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C30DB5A-8D6D-426E-94BE-69DB83CE5F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C30DB5A-8D6D-426E-94BE-69DB83CE5F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C30DB5A-8D6D-426E-94BE-69DB83CE5F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1630E0-9E7C-4AF9-B6AE-ED3C38689060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
