@@ -1,0 +1,109 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.5.2 Filter Members
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.5.1 Filter Methods
+Up:
+4.5.5 Filter Object (mp_filter) 
+Next:
+4.5.6 Server Object (mp_server) 
+
+
+
+
+ 
+
+4.5.5.2 Filter Members
+
+
+
+closed
+
+  A boolean value indicating whether a filter is closed.
+  (Read-Only)
+
+
+
+name
+
+  String. The name under which this filter is registered.
+  (Read-Only)
+
+
+
+req
+
+  A reference to the request object.
+  (Read-Only)
+
+
+
+is_input
+
+  Boolean. True if this is an input filter.
+  (Read-Only)
+
+
+
+handler
+
+  String. The name of the Python handler for this filter as specified in
+  the configuration. 
+  (Read-Only)
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.5.1 Filter Methods
+Up:
+4.5.5 Filter Object (mp_filter) 
+Next:
+4.5.6 Server Object (mp_server) 
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

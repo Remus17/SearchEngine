@@ -1,0 +1,264 @@
+
+
+
+
+Gradual typing - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Gradual_typing","wgTitle":"Gradual typing","wgCurRevisionId":827097915,"wgRevisionId":827097915,"wgArticleId":39764472,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Type systems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Gradual_typing","wgRelevantArticleId":39764472,"wgRequestId":"WsD-@ApAICgAAHXQD@sAAAAR","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q16965428","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Gradual typing			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+Type systems
+
+
+General concepts
+
+
+
+
+Type safety
+
+
+
+
+Major categories
+
+
+
+
+Static vs. dynamic
+Manifest vs. inferred
+Nominal vs. structural
+Duck typing
+
+
+
+
+Minor categories
+
+
+
+
+Dependent
+Flow-sensitive
+Gradual
+Latent
+Substructural
+Unique
+
+
+
+
+See also
+
+
+
+
+Strong and weak typing
+
+
+
+
+Gradual typing is a type system in which some variables and expressions may be given types and the correctness of the typing is checked at compile-time (which is static typing) and some expressions may be left untyped and eventual type errors are reported at run-time (which is dynamic typing). Gradual typing allows software developers to choose either type paradigm as appropriate, from within a single language.[1] In many cases gradual typing is added to an existing dynamic language, creating a derived language allowing but not requiring static typing to be used. In some cases a language uses gradual typing from the start.
+
+
+
+Contents
+
+
+1 Implementation
+2 Examples
+3 References
+4 Further reading
+
+
+
+Implementation[edit]
+In particular, gradual typing uses a special type named dynamic to represent statically-unknown types, and gradual typing replaces the notion of type equality with a new relation called consistency that relates the dynamic type to every other type. The consistency relation is symmetric but not transitive.[2]
+Prior attempts at integrating static and dynamic typing tried to make the dynamic type be both the top and bottom of the subtype hierarchy. However, because subtyping is transitive, that results in every type becoming related to every other type, and so subtyping would no longer rule out any static type errors. The addition of a second phase of plausibility checking to the type system did not completely solve this problem.[3][4]
+Gradual typing can easily be integrated into the type system of an object-oriented language that already uses the subsumption rule to allow implicit up-casts with respect to subtyping. The main idea is that consistency and subtyping are orthogonal ideas that compose nicely. To add subtyping to a gradually-typed language, simply add the subsumption rule and add a subtyping rule that makes the dynamic type a subtype of itself, because subtyping is supposed to be reflexive. (But do not make the top of the subtyping order dynamic!)[5]
+Examples[edit]
+Examples of gradually typed languages derived from existing dynamically typed languages include Closure Compiler, TypeScript (both for JavaScript),[6] Hack (for PHP), PHP (since 7.0[7]), Typed Racket (for Racket), Typed Clojure (for Clojure),[8] Cython (a Python compiler), mypy (a static type checker for Python)[9] or cperl (a typed Perl 5). ActionScript is a gradually typed language[10] that is now a dialect of JavaScript, though it originally arose separately as a sibling, both influenced by Apple's HyperTalk.
+A system for the J programming language has been developed,[11] adding coercion, error propagation and filtering to the normal validation properties of the type system as well as applying type functions outside of function definitions, thereby the increasing flexibility of type definitions.
+Conversely, C# started as a statically typed language, but as of version 4.0 is gradually typed, allowing variables to be explicitly marked as dynamic by using the dynamic type.[12] Gradually typed languages not derived from a dynamically typed language include Dart, Dylan, and Perl 6 (influenced by Perl 5, but substantially different).
+Objective-C has gradual typing for object pointers with respect to method calls. Static typing is used when a variable is typed as pointer to a certain class of object: when a method call is made to the variable, the compiler statically checks that the class is declared to support such a method, or it generates a warning or error. However, if a variable of the type id is used, the compiler will allow any method to be called on it.
+References[edit]
+
+
+^ Siek, Jeremy. "What is gradual typing?". 
+^ Siek, Jeremy; Taha, Walid (September 2006). Gradual Typing for Functional Languages (PDF). Scheme and Functional Programming 2006. University of Chicago. pp. 81–92. 
+^ Thatte, Satish (1990). "Quasi-static typing". POPL 1990: ACM Principles of Programming Languages. ACM: 367–381. doi:10.1145/96709.96747. 
+^ Oliart, Alberto (1994). An Algorithm for Inferring Quasi-Static Types (Technical report). Boston University. 1994-013. 
+^ Siek, Jeremy; Taha, Walid (August 2007). "Gradual Typing for Objects". ECOOP 2007: European Conference on Object-Oriented Programming. Springer: 2–27. doi:10.1007/978-3-540-73589-2_2. 
+^ Swamy, N.; Fournet, C.; Rastogi, A.; Bhargavan, K.; Chen, J.; Strub, P. Y.; Bierman, G. (2014). "Gradual typing embedded securely in JavaScript". Proceedings of the 41st ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages - POPL '14 (PDF). pp. 425–437. doi:10.1145/2535838.2535889. ISBN 9781450325448. 
+^ "PHP: Function arguments - Manual » Strict typing". 
+^ Chas Emerick. "Typed Clojure User Guide". 
+^ Jukka Lehtosalo. "mypy - Optional Static Typing for Python". 
+^ Aseem Rastogi; Avik Chaudhuri; Basil Hosmer (January 2012). "The Ins and Outs of Gradual Type Inference" (PDF). Association for Computing Machinery (ACM). Retrieved 2014-09-23. 
+^ "type-system-j". 
+^ "dynamic (C# Reference)". MSDN Library. Microsoft. Retrieved 14 January 2014. 
+
+
+Further reading[edit]
+
+Siek, Jeremy G.; Vitousek, Michael M.; Cimini, Matteo; Boyland, John Tang (2015). Ball, Thomas; Bodik, Rastislav; Krishnamurthi, Shriram; Lerner, Benjamin S.; Morrisett, Greg, eds. "Refined Criteria for Gradual Typing". 1st Summit on Advances in Programming Languages (SNAPL 2015). Leibniz International Proceedings in Informatics (LIPIcs). Dagstuhl, Germany: Schloss Dagstuhl–Leibniz-Zentrum fuer Informatik. 32: 274–293. doi:10.4230/lipics.snapl.2015.274. ISBN 9783939897804. 
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Gradual_typing&oldid=827097915"					
+				Categories: Type systems				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+									
+				Add links			
+		
+				
+		
+				
+						
+								 This page was last edited on 22 February 2018, at 19:25.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.132","walltime":"0.162","ppvisitednodes":{"value":628,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":24567,"limit":2097152},"templateargumentsize":{"value":110,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":11754,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  145.060      1 -total"," 70.72%  102.592      1 Template:Reflist"," 38.23%   55.450      7 Template:Cite_web"," 19.68%   28.555      1 Template:Type_systems"," 18.35%   26.619      1 Template:Sidebar"," 10.86%   15.750      3 Template:Cite_journal","  7.97%   11.566      2 Template:Cite_conference","  3.61%    5.241      1 Template:Cite_techreport","  1.14%    1.658      1 Template:Main_other","  0.95%    1.382      1 Template:Column-width"]},"scribunto":{"limitreport-timeusage":{"value":"0.070","limit":"10.000"},"limitreport-memusage":{"value":3409564,"limit":52428800}},"cachereport":{"origin":"mw1327","timestamp":"20180316192811","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":83,"wgHostname":"mw1319"});});
+	
+

@@ -1,0 +1,100 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.5 PythonInitHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.4 PythonHeaderParserHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.6 PythonAccessHandler
+
+
+
+
+ 
+ 
+
+5.1.5 PythonInitHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+This handler is the first handler called in the request processing
+phases that is allowed both inside and outside .htaccess and
+directory.
+
+
+This handler is actually an alias to two different handlers. When
+specified in the main config file outside any directory tags, it is an
+alias to PostReadRequestHandler. When specified inside directory
+(where PostReadRequestHandler is not allowed), it aliases to
+PythonHeaderParserHandler.
+
+
+(This idea was borrowed from mod_perl)
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.4 PythonHeaderParserHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.6 PythonAccessHandler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

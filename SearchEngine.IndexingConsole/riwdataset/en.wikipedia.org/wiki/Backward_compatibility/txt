@@ -1,0 +1,237 @@
+
+
+
+
+Backward compatibility - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Backward_compatibility","wgTitle":"Backward compatibility","wgCurRevisionId":832877147,"wgRevisionId":832877147,"wgArticleId":4459,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from March 2018","Articles with unsourced statements from December 2017","Wikipedia articles needing page number citations from July 2016","Backward compatibility","Interoperability"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Backward_compatibility","wgRelevantArticleId":4459,"wgRequestId":"Wryx8gpAICgAAFHbu98AAABA","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q844605","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Backward compatibility			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+The original model of the Wii video game console, which usually uses wireless controllers, is also backwardly compatible with those from Nintendo's earlier GameCube console
+
+
+Backward compatibility is a property of a system, product, or technology that allows for interoperability with an older legacy system, or with input designed for such a system, especially in telecommunications and computing. Backward compatibility is sometimes also called downward compatibility.[1]
+Modifying a system in a way that does not allow backward compatibility is sometimes called "breaking" backward compatibility.[2]
+A complementary concept is forward compatibility. A design that is forward-compatible usually has a roadmap for compatibility with future standards and products.[3]
+
+
+
+Contents
+
+
+1 Benefits
+2 Costs
+3 Hardware
+4 Software
+5 See also
+6 References
+
+
+
+Benefits[edit]
+The associated benefits of backward compatibility are the appeal to an existing user base through an inexpensive upgrade path as well as the network effect, which is particularly important, as it increases the value of goods and services proportionally to the size of the user base.
+A good example is the Sony PlayStation 2 (PS2) which was backward compatible with games for its predecessor PlayStation (PS1). While the selection of PS2 games available at launch was small, sales of the console were nonetheless strong in 2000-2001 thanks to the large library of games for the preceding PS1. This bought time for the PS2 to grow a large installed base and developers to release more quality PS2 games for the crucial 2001 holiday season.[citation needed]
+Costs[edit]
+The associated costs of backward compatibility are a higher bill of materials if hardware is required to support the legacy systems; increased complexity of the product that may lead to longer time to market, technological hindrances, and slowing innovation; and increased expectations from users in terms of compatibility.[2]
+A good example is the Sony PlayStation 3, as the first PS3 iteration was expensive to manufacture in part due to including the Emotion Engine from the preceding PS2 in order to run PS2 games, since the PS3 architecture was completely different from the PS2. Subsequent PS3 hardware revisions have eliminated the Emotion Engine as it saved production costs while removing the ability to run PS2 titles, as Sony found out that backward compatibility was not a major selling point for the PS3 in 2006-2009, in contrast to the PS2 in 2000-2001. The PS3's chief competitor, the Microsoft Xbox 360, took a different approach to backward compatibility by using software emulation in order to run games from the first Xbox, rather than including legacy hardware from the original Xbox which was quite different than the Xbox 360, however Microsoft stopped releasing emulation profiles after 2007.
+Dennie van Tassel has remarked: "I've finally learned what 'upward compatible' means. It means we get to keep all our old mistakes."[citation needed]
+Hardware[edit]
+A simple example of both backward and forward compatibility is the introduction of FM radio in stereo. FM radio was initially mono, with only one audio channel represented by one signal. With the introduction of two-channel stereo FM radio, a large number of listeners had only mono FM receivers. Forward compatibility for mono receivers with stereo signals was achieved through sending the sum of both left and right audio channels in one signal and the difference in another signal. That allows mono FM receivers to receive and decode the sum signal while ignoring the difference signal, which is necessary only for separating the audio channels. Stereo FM receivers can receive a mono signal and decode it without the need for a second signal, and they can separate a sum signal to left and right channels if both sum and difference signals are received. Without the requirement for backward compatibility, a simpler method could have been chosen.[4]
+Full backward compatibility is particularly important in computer instruction set architectures, one of the most successful being the x86 family of microprocessors. Their full backward compatibility spans back to the 16-bit Intel 8086/8088 processors introduced in 1978. (The 8086/8088 in turn were designed with easy machine-translatability of programs written for its predecessor in mind, although they were not instruction-set compatible with the 8-bit Intel 8080 processor as of 1974. The Zilog Z80, however, was fully backward compatible with the Intel 8080.) Fully backward compatible processors can process the same binary executable software instructions as their predecessors, allowing the use of a newer processor without having to acquire new applications or operating systems.[5] Similarly, the success of the Wi-Fi digital communication standard is attributed to its broad forward and backward compatibility; it became more popular than other standards that were not backward compatible.[6]
+Software[edit]
+Compiler backward compatibility may refer to the ability of a compiler of a newer version of the language to accept programs or data that worked under the previous version.[7][page needed]
+A data format is said to be backward compatible with its predecessor if every message or file that is valid under the old format is still valid, retaining its meaning under the new format.[8]
+See also[edit]
+
+
+Bug compatibility, backward compatibility that maintains the known flaws
+Compatibility mode
+Computer compatibility
+Deprecation
+Downgrade attack
+Emulator
+Flag day (computing)
+Legacy mode
+List of Xbox 360 games compatible with Xbox One
+List of Xbox games compatible with Xbox 360
+Shim
+Software regression
+Vendor lock-in
+
+
+References[edit]
+
+
+^ J.K. Petersen (2002), The Telecommunications Illustrated Dictionary (Second ed.), CRC Press, ISBN 9781420040678 
+^ a b Paul Belleflamme; Martin Peitz (2010), "Strategies in standard wars", Industrial Organization: Markets and Strategies, Cambridge University Press, ISBN 9780521862998 
+^ Jeffrey Zeldman (2006). Designing with Web Standards. Peachpit Press. pp. 15–16. ISBN 0-321-38555-1. 
+^ Winder, Steve; Carr, Joseph (2002), Newnes Radio and RF Engineering Pocket Book (3 ed.), Newnes, pp. 121–123, ISBN 9780080497471 
+^ Naresh Jotwani (2009), Computer System Organization, Tata McGraw-Hill Education, pp. 320–324, ISBN 9781259081217 
+^ Perahia, Eldad; Stacey, Robert (2013), "Foreword", Next Generation Wireless LANs: 802.11n and 802.11ac, Cambridge University Press, ISBN 9781107016767 
+^ Kay, Michael (2004). XSLT 2.0 Programmer's Reference. Wiley. ISBN 0-7645-6909-0. 
+^ Bos, Bert (2003). "Backwards Compatibility". What is a Good Standard?. Retrieved July 12, 2016. 
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Backward_compatibility&oldid=832877147"					
+				Categories: Backward compatibilityInteroperabilityHidden categories: All articles with unsourced statementsArticles with unsourced statements from March 2018Articles with unsourced statements from December 2017Wikipedia articles needing page number citations from July 2016				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةČeštinaEspañolEsperantoفارسیFrançais한국어IdoItalianoעבריתҚазақшаNederlands日本語NorskPolskiPortuguêsРусскийSimple EnglishSlovenčinaSvenskaTürkçeУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 28 March 2018, at 13:33.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.144","walltime":"0.190","ppvisitednodes":{"value":969,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":23808,"limit":2097152},"templateargumentsize":{"value":3314,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":8557,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  167.847      1 -total"," 45.01%   75.547      1 Template:Reflist"," 36.77%   61.709      2 Template:Cn"," 34.56%   58.008      3 Template:Fix"," 28.62%   48.033      5 Template:Citation"," 18.23%   30.593      6 Template:Category_handler"," 14.34%   24.067      3 Template:Delink","  8.53%   14.316      1 Template:Page_needed","  8.00%   13.424      3 Template:Cite_book","  7.74%   12.989      1 Template:Columns-list"]},"scribunto":{"limitreport-timeusage":{"value":"0.078","limit":"10.000"},"limitreport-memusage":{"value":3535431,"limit":52428800}},"cachereport":{"origin":"mw1257","timestamp":"20180328181507","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":84,"wgHostname":"mw1319"});});
+	
+

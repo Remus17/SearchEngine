@@ -1,0 +1,126 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.7 PythonAuthenHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.6 PythonAccessHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.8 PythonAuthzHandler
+
+
+
+
+ 
+ 
+
+5.1.7 PythonAuthenHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+This routine is called to check the authentication information sent
+with the request (such as looking up the user in a database and
+verifying that the [encrypted] password sent matches the one in the
+database).
+
+
+To obtain the username, use req.user. To obtain the password
+entered by the user, use the req.get_basic_auth_pw() function.
+
+
+A return of apache.OK means the authentication succeeded. A
+return of apache.HTTP_UNAUTHORIZED with most browser will bring
+up the password dialog box again. A return of
+apache.HTTP_FORBIDDEN will usually show the error on the
+browser and not bring up the password dialog
+again. HTTP_FORBIDDEN should be used when authentication
+succeeded, but the user is not permitted to access a particular URL.
+
+
+An example authentication handler might look like this: 
+
+
+
+def authenhandler(req):
+
+    pw = req.get_basic_auth_pw()
+    user = req.user     
+    if user == "spam" and pw == "eggs":
+        return apache.OK
+    else:
+        return apache.HTTP_UNAUTHORIZED
+    
+
+
+Note:
+req.get_basic_auth_pw() must be called prior to using the
+  req.user value. Apache makes no attempt to decode the
+  authentication information unless req.get_basic_auth_pw() is called.
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.6 PythonAccessHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.8 PythonAuthzHandler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

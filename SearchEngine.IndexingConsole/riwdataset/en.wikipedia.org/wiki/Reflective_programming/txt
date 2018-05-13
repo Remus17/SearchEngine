@@ -1,0 +1,755 @@
+
+
+
+
+Reflection (computer programming) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Reflection_(computer_programming)","wgTitle":"Reflection (computer programming)","wgCurRevisionId":829286417,"wgRevisionId":829286417,"wgArticleId":314905,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from July 2015","Articles needing additional references from January 2008","All articles needing additional references","Programming constructs"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Reflection_(computer_programming)","wgRelevantArticleId":314905,"wgRequestId":"Wr54jApAMFsAAB-ZqdcAAAAG","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Reflective_programming","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Reflection_(computer_programming)","wgWikibaseItemId":"Q1056451","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Reflection (computer programming)			
+				From Wikipedia, the free encyclopedia				  (Redirected from Reflective programming)
+								
+					Jump to:					navigation, 					search
+				
+				
+
+Programming paradigms
+
+
+
+
+Action
+Agent-oriented
+Array-oriented
+Automata-based
+Concurrent computing
+
+Relativistic programming
+
+
+Data-driven
+Declarative (contrast: Imperative)
+
+Functional
+
+Functional logic
+Purely functional
+
+
+Logic
+
+Abductive logic
+Answer set
+Concurrent logic
+Functional logic
+Inductive logic
+
+
+Constraint
+
+Constraint logic
+
+Concurrent constraint logic
+
+
+
+
+Dataflow
+
+Flow-based
+Cell-oriented (spreadsheets)
+Reactive
+
+
+
+
+Dynamic/scripting
+Event-driven
+
+Service-oriented
+Time-driven
+
+
+Function-level (contrast: Value-level)
+
+Point-free style
+
+Concatenative
+
+
+
+
+Generic
+Imperative (contrast: Declarative)
+
+Procedural
+Object-oriented
+
+
+Literate
+Language-oriented
+
+Natural-language programming
+Discipline-specific
+Domain-specific
+Grammar-oriented
+Intentional
+
+
+Metaprogramming
+
+Automatic
+
+Inductive programming
+
+
+Reflective
+
+Attribute-oriented
+
+
+Homoiconic
+Macro
+Template
+
+
+Non-structured (contrast: Structured)
+
+Array
+
+
+Nondeterministic
+Parallel computing
+
+Process-oriented
+
+
+Probabilistic
+Structured (contrast: Non-structured)
+
+Block-structured
+Modular (contrast: Monolithic)
+Object-oriented
+
+Actor-based
+Class-based
+Concurrent
+Prototype-based
+By separation of concerns:
+
+Aspect-oriented
+Role-oriented
+Subject-oriented
+
+
+
+
+Recursive
+
+
+Value-level (contrast: Function-level)
+Quantum programming
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+In computer science, reflection is the ability of a computer program to examine, introspect, and modify its own structure and behavior at runtime.[1]
+
+
+
+Contents
+
+
+1 Historical background
+2 Uses
+3 Implementation
+4 Examples
+
+4.1 C#
+4.2 Delphi
+4.3 eC
+4.4 ECMAScript
+4.5 Go
+4.6 Java
+4.7 Objective-C
+4.8 Perl
+4.9 PHP
+4.10 Python
+4.11 R
+4.12 Ruby
+
+
+5 See also
+6 References
+7 Further reading
+8 External links
+
+
+
+Historical background[edit]
+The earliest computers were programmed in their native assembly language, which were inherently reflective, as these original architectures could be programmed by defining instructions as data and using self-modifying code. As programming moved to compiled higher-level languages such as Algol, Cobol, and Fortran (but also Pascal and C and many other languages), this reflective ability largely disappeared until programming languages with reflection built into their type systems appeared.[citation needed]
+Brian Cantwell Smith's 1982 doctoral dissertation[2][3] introduced the notion of computational reflection in procedural programming languages and the notion of the meta-circular interpreter as a component of 3-Lisp.
+Uses[edit]
+Reflection helps programmers make generic software libraries to display data, process different formats of data, perform serialization or deserialization of data for communication, or do bundling and unbundling of data for containers or bursts of communication.
+Effective use of reflection almost always requires a plan: A design framework, encoding description, object library, a map of a database or entity relations.
+Reflection makes a language more suited to network-oriented code. For example, it assists languages such as Java to operate well in networks by enabling libraries for serialization, bundling and varying data formats. Languages without reflection (e.g. C) have to use auxiliary compilers, e.g. for Abstract Syntax Notation, to produce code for serialization and bundling.
+Reflection can be used for observing and modifying program execution at runtime. A reflection-oriented program component can monitor the execution of an enclosure of code and can modify itself according to a desired goal related to that enclosure. This is typically accomplished by dynamically assigning program code at runtime.
+In object-oriented programming languages such as Java, reflection allows inspection of classes, interfaces, fields and methods at runtime without knowing the names of the interfaces, fields, methods at compile time. It also allows instantiation of new objects and invocation of methods.
+Reflection is often used as part of software testing, such as for the runtime creation/instantiation of mock objects.
+Reflection is also a key strategy for metaprogramming.
+In some object-oriented programming languages, such as C# and Java, reflection can be used to override member accessibility rules. For example, reflection makes it possible to change the value of a field marked "private" in a third-party library's class.
+Implementation[edit]
+
+
+
+
+
+
+This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be challenged and removed. (January 2008) (Learn how and when to remove this template message)
+
+
+
+A language supporting reflection provides a number of features available at runtime that would otherwise be difficult to accomplish in a lower-level language. Some of these features are the abilities to:
+
+Discover and modify source-code constructions (such as code blocks, classes, methods, protocols, etc.) as first-class objects at runtime.
+Convert a string matching the symbolic name of a class or function into a reference to or invocation of that class or function.
+Evaluate a string as if it were a source-code statement at runtime.
+Create a new interpreter for the language's bytecode to give a new meaning or purpose for a programming construct.
+
+These features can be implemented in different ways. In MOO, reflection forms a natural part of everyday programming idiom. When verbs (methods) are called, various variables such as verb (the name of the verb being called) and this (the object on which the verb is called) are populated to give the context of the call. Security is typically managed by accessing the caller stack programmatically: Since callers() is a list of the methods by which the current verb was eventually called, performing tests on callers()[1] (the command invoked by the original user) allows the verb to protect itself against unauthorised use.
+Compiled languages rely on their runtime system to provide information about the source code. A compiled Objective-C executable, for example, records the names of all methods in a block of the executable, providing a table to correspond these with the underlying methods (or selectors for these methods) compiled into the program. In a compiled language that supports runtime creation of functions, such as Common Lisp, the runtime environment must include a compiler or an interpreter.
+Reflection can be implemented for languages not having built-in reflection facilities by using a program transformation system to define automated source-code changes.
+Examples[edit]
+The following code snippets create an instance foo of class Foo and invoke its method PrintHello. For each programming language, normal and reflection-based call sequences are shown.
+C#[edit]
+The following is an example in C#:
+
+
+// Without reflection
+Foo foo = new Foo();
+foo.PrintHello();
+
+// With reflection
+Object foo = Activator.CreateInstance("complete.classpath.and.Foo");
+MethodInfo method = foo.GetType().GetMethod("PrintHello");
+method.Invoke(foo, null);
+
+Delphi[edit]
+This Delphi example assumes that a TFoo class has been declared in a unit called Unit1:
+
+
+uses RTTI, Unit1;
+
+procedure WithoutReflection;
+var
+  Foo: TFoo;
+begin
+  Foo := TFoo.Create;
+  try
+    Foo.Hello;
+  finally
+    Foo.Free;
+  end;
+end;
+
+procedure WithReflection;
+var
+  RttiContext: TRttiContext;
+  RttiType: TRttiInstanceType;
+  Foo: TObject;
+begin
+  RttiType := RttiContext.FindType('Unit1.TFoo') as TRttiInstanceType;
+  Foo := RttiType.GetMethod('Create').Invoke(RttiType.MetaclassType, []).AsObject;
+  try
+    RttiType.GetMethod('Hello').Invoke(Foo, []);
+  finally
+    Foo.Free;
+  end;
+end;
+
+This is a notable example, since Delphi is an unmanaged, fully natively compiled language, unlike most other languages that support reflection. Its language architecture inherits from strongly typed Pascal, but with significant influence from Smalltalk. Compare with the other examples here, many of which are dynamic or script languages like Perl, Python or PHP, or languages with a runtime like Java or C#.
+eC[edit]
+The following is an example in eC:
+
+
+// Without reflection
+Foo foo { };
+foo.hello();
+
+// With reflection
+Class fooClass = eSystem_FindClass(__thisModule, "Foo");
+Instance foo = eInstance_New(fooClass);
+Method m = eClass_FindMethod(fooClass, "hello", fooClass.module);
+((void (*)())(void *)m.function)(foo);
+
+ECMAScript[edit]
+The following is an example in ECMAScript, and therefore also applies to JavaScript and ActionScript:
+
+
+// Without reflection
+new Foo().hello()
+
+// With reflection
+
+// assuming that Foo resides in this
+new this['Foo']()['hello']()
+
+// or without assumption
+new (eval('Foo'))()['hello']()
+
+// or simply
+eval('new Foo().hello()')
+
+// Using ECMAScript 2015's new Reflect class:
+Reflect.construct(Foo, [])['hello']()
+
+Go[edit]
+The following is an example in Go:
+
+
+import "reflect"
+
+// Without reflection
+f := Foo{}
+f.Hello()
+
+// With reflection
+fT := reflect.TypeOf(Foo{})
+fV := reflect.New(fT)
+
+m := fV.MethodByName("Hello")
+if m.IsValid() {
+    m.Call(nil)
+}
+
+Java[edit]
+The following is an example in Java:
+
+
+// Without reflection
+Foo foo = new Foo();
+
+foo.hello();
+
+// With reflection
+Object foo = Class.forName("complete.classpath.and.Foo").newInstance();
+// Alternatively: Object foo = Foo.class.newInstance();
+Method m = foo.getClass().getDeclaredMethod("hello", new Class<?>[0]);
+m.invoke(foo);
+
+Objective-C[edit]
+The following is an example in Objective-C, implying either the OpenStep or Foundation Kit framework is used:
+
+
+// Foo class.
+@interface Foo : NSObject
+- (void)hello;
+@end
+
+// Sending "hello" to a Foo instance without reflection.
+Foo *obj = [[Foo alloc] init];
+[obj hello];
+
+// Sending "hello" to a Foo instance with reflection.
+id obj = [[NSClassFromString(@"Foo") alloc] init];
+[obj performSelector: @selector(hello)];
+
+Perl[edit]
+The following is an example in Perl:
+
+
+# Without reflection
+my $foo = Foo->new;
+$foo->hello;
+
+# or
+Foo->new->hello;
+
+# With reflection
+my $class = "Foo"
+my $constructor = "new";
+my $method = "hello";
+
+my $f = $class->$constructor;
+$f->$method;
+
+# or
+$class->$constructor->$method;
+
+# with eval
+eval "new Foo->hello;";
+
+PHP[edit]
+The following is an example in PHP:
+
+
+// Without reflection
+$foo = new Foo();
+$foo->hello();
+
+// With reflection, using Reflections API
+$reflector = new ReflectionClass('Foo');
+$foo = $reflector->newInstance();
+$hello = $reflector->getMethod('hello');
+$hello->invoke($foo);
+
+// With reflection, using callback
+$foo = new Foo();
+call_user_func(array($foo, 'hello'));
+
+// With reflection, using variable variables syntax
+$className = 'Foo';
+$foo = new $className();
+$method = 'hello';
+$foo->$method();
+
+Python[edit]
+The following is an example in Python:
+
+
+# without reflection
+obj = Foo()
+obj.hello()
+
+# with reflection
+class_name = "Foo"
+method = "hello"
+obj = globals()[class_name]()
+getattr(obj, method)()
+
+# with eval
+eval("Foo().hello()")
+
+R[edit]
+The following is an example in R:
+
+
+# Without reflection, assuming foo() returns an S3-type object that has method "hello"
+obj <- foo()
+hello(obj)
+
+# With reflection
+the.class <- "foo"
+the.method <- "hello"
+obj <- do.call(the.class, list())
+do.call(the.method, alist(obj))
+
+Ruby[edit]
+The following is an example in Ruby:
+
+
+# without reflection
+obj = Foo.new
+obj.hello
+
+# with reflection
+class_name = "Foo"
+method_name = :hello
+obj = Object.const_get(class_name).new
+obj.send method_name
+
+# with eval
+eval "Foo.new.hello"
+
+See also[edit]
+
+List of reflective programming languages and platforms
+Mirror (programming)
+Programming paradigms
+Self-hosting
+Self-modifying code
+Type introspection
+
+References[edit]
+Notes
+
+
+
+^ A Tutorial on Behavioral Reflection and its Implementation by Jacques Malenfant et al.
+^ Brian Cantwell Smith, Procedural Reflection in Programming Languages, Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, PhD dissertation, 1982.
+^ Brian C. Smith. Reflection and semantics in a procedural language. Technical Report MIT-LCS-TR-272, Massachusetts Institute of Technology, Cambridge, Mass., January 1982.
+
+
+
+Documents
+
+Jonathan M. Sobel and Daniel P. Friedman. An Introduction to Reflection-Oriented Programming (1996), Indiana University.
+Anti-Refection technique using C# and C++/CLI wrapper to prevent code thief
+
+Further reading[edit]
+
+Ira R. Forman and Nate Forman, Java Reflection in Action (2005), ISBN 1-932394-18-4
+Ira R. Forman and Scott Danforth, Putting Metaclasses to Work (1999), ISBN 0-201-43305-2
+
+External links[edit]
+
+Reflection in logic, functional and object-oriented programming: a short comparative study
+An Introduction to Reflection-Oriented Programming
+Brian Foote's pages on Reflection in Smalltalk
+Java Reflection API Tutorial from Oracle
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Types of programming languages
+
+
+
+
+
+
+Actor-based
+Array
+Aspect-oriented
+Class-based
+Concatenative
+Concurrent
+Data-structured
+Dataflow
+Declarative
+Domain-specific
+Dynamic
+Esoteric
+Event-driven
+Extensible
+Functional
+Imperative
+Logic
+Macro
+Metaprogramming
+Multi-paradigm
+Object-based
+Object-oriented
+Pipeline
+Procedural
+Prototype-based
+Reflective
+Rule-based
+Scripting
+Synchronous
+Templating
+
+
+
+
+
+
+
+
+Assembly
+Compiled
+Interpreted
+Machine
+
+
+
+
+
+
+
+
+Low-level
+High-level
+Very high-level
+
+
+
+
+
+
+
+
+First generation
+Second generation
+Third generation
+Fourth generation
+Fifth generation
+
+
+
+
+
+
+
+
+Non-English-based
+Visual
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Reflection_(computer_programming)&oldid=829286417"					
+				Categories: Programming constructsHidden categories: All articles with unsourced statementsArticles with unsourced statements from July 2015Articles needing additional references from January 2008All articles needing additional references				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةAzərbaycancaCatalàČeštinaDeutschΕλληνικάEspañolFrançais한국어ItalianoעבריתLietuviųBahasa MelayuNederlands日本語PolskiPortuguêsРусскийSlovenščinaСрпски / srpskiУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 7 March 2018, at 18:41.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.136","walltime":"0.181","ppvisitednodes":{"value":1008,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":35348,"limit":2097152},"templateargumentsize":{"value":1435,"limit":2097152},"expansiondepth":{"value":15,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":20708,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  139.541      1 -total"," 27.53%   38.412      1 Template:Citation_needed"," 23.81%   33.219      1 Template:Fix"," 21.80%   30.415      2 Template:ISBN"," 19.57%   27.303      1 Template:Programming_paradigms"," 15.88%   22.166      1 Template:Sidebar"," 15.58%   21.746      2 Template:Category_handler"," 11.08%   15.463      1 Template:Unreferenced_section","  9.26%   12.926      2 Template:Catalog_lookup_link","  9.19%   12.822      1 Template:Unreferenced"]},"scribunto":{"limitreport-timeusage":{"value":"0.039","limit":"10.000"},"limitreport-memusage":{"value":1591026,"limit":52428800}},"cachereport":{"origin":"mw1308","timestamp":"20180324051242","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":77,"wgHostname":"mw1256"});});
+	
+

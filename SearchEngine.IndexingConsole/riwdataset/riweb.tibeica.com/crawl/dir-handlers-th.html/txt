@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.3 PythonTransHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.2 PythonPostReadRequestHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.4 PythonHeaderParserHandler
+
+
+
+
+ 
+ 
+
+5.1.3 PythonTransHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host
+Override:
+not None
+Module:
+mod_python.c
+
+
+This handler gives allows for an opportunity to translate the URI into
+an actual filename, before the server's default rules (Alias
+directives and the like) are followed.
+
+
+Note:
+At the time when this phase of the request is being processed, the
+  URI has not been translated into a path name, therefore this
+  directive will never be executed by Apache if specified within
+  <Directory>, <Location>, <File> directives or
+  in an .htaccess file. The only place this can be specified is
+  the main configuration file, and the code for it will execute in the
+  main interpreter.
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.2 PythonPostReadRequestHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.4 PythonHeaderParserHandler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

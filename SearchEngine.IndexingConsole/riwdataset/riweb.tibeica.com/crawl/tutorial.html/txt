@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Tutorial
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.5 Troubleshooting
+Up:
+Mod_python Manual
+Next:
+3.1 A Quick Start
+
+
+
+
+ 
+
+3. Tutorial
+
+
+
+
+So how can I make this work?
+
+
+
+
+This is a quick guide to getting started with mod_python 
+  programming once you have it installed. This is not an
+  installation manual!
+
+
+It is also highly recommended to read (at least the top part of)
+  Section 4, Python API after
+  completing this tutorial.
+
+
+
+
+
+Subsections
+
+
+3.1 A Quick Start with the Publisher Handler
+3.2 Quick Overview of how Apache Handles Requests
+3.3 So what Exactly does Mod-python do?
+3.4 Now something More Complicated - Authentication
+3.5 Your Own 404 Handler
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.5 Troubleshooting
+Up:
+Mod_python Manual
+Next:
+3.1 A Quick Start
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

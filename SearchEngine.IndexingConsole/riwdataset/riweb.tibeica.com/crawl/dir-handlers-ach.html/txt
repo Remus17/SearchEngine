@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.6 PythonAccessHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.5 PythonInitHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.7 PythonAuthenHandler
+
+
+
+
+ 
+ 
+
+5.1.6 PythonAccessHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+This routine is called to check for any module-specific restrictions
+placed upon the requested resource.
+
+
+For example, this can be used to restrict access by IP number. To do
+so, you would return HTTP_FORBIDDEN or some such to indicate
+that access is not allowed.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.5 PythonInitHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.7 PythonAuthenHandler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

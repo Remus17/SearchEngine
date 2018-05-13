@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.6 Server Object (mp_server) 
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.5.2 Filter Members
+Up:
+4.5 apache - Access
+Next:
+4.5.6.1 Server Methods
+
+
+
+
+ 
+
+4.5.6 Server Object (mp_server) 
+
+
+
+The request object is a Python mapping to the Apache request_rec
+structure. The server structure describes the server (possibly virtual
+server) serving the request.
+
+
+
+
+
+Subsections
+
+
+4.5.6.1 Server Methods
+4.5.6.2 Server Members
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.5.2 Filter Members
+Up:
+4.5 apache - Access
+Next:
+4.5.6.1 Server Methods
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

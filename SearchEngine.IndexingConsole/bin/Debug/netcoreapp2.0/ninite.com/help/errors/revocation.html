@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+
+How to fix Failed - Certificate error (revocation check) 221 | Ninite Help
+
+</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="https://d8f7mp21btv4f.cloudfront.net/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="https://d8f7mp21btv4f.cloudfront.net/css/crystal-2f9dde9064cc1885f150d6ae84e9c1d7.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<link href="https://d8f7mp21btv4f.cloudfront.net/crystal/js/respond-proxy-1ac71ee4ee5fb602995fbd6fca5468b4.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/robots.txt" id="respond-redirect" rel="respond-redirect" />
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/oldie-78ee42ef96d2d8f3e4cd3a939f7231d8.js"></script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-10831845-1']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'https://ssl.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="ninite-brand" href="/">
+<img src="https://d8f7mp21btv4f.cloudfront.net/crystal/img/brand-95c4357c0068bf934474cf8b7721890a.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="/help/">Help</a></li>
+<li><a href="/feedback">Feedback</a></li>
+
+<li><a href="/pro">Ninite Pro</a></li>
+<li><a href="/signin">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+
+<h3>How to fix Failed - Certificate error (revocation check) 221</h3>
+
+<p>This error means that Windows is unable to connect to our security certificate's revocation server.</p>
+
+<p>The first thing to check is that your date and time are set correctly.</p>
+
+<p>If that's set properly and you're still having trouble, the easiest way to fix it is to change an Internet Explorer setting (Ninite uses the same settings).</p>
+
+<p>Since Ninite runs as Administrator, you may need to log in as Administrator and change these settings for that account.</p>
+
+<ol>
+<li><p>Open Internet Explorer.</p></li>
+<li><p>In the <strong>Tools</strong> menu select <strong>Internet Options</strong>.</p></li>
+<li><p>Pick the <strong>Advanced</strong> tab and then scroll down to the <strong>Security</strong> section as pictured below.</p></li>
+<li><p>Then turn off or uncheck <strong>Check for server certificate revocation</strong>, highlighted below.</p></li>
+<li><p>Click OK at the bottom of the window.</p></li>
+</ol>
+
+<p><img src="https://d8f7mp21btv4f.cloudfront.net/help/revocation-8be622cd8c612f1f01bbceca9c88866d.png" alt="Turn off check for server certificate revocation"></p>
+
+<h3>Technical Details</h3>
+
+<p>The underlying issue with this error is that a machine is being blocked from contacting the revocation servers for our web server's SSL certificate. To pass the check a machine needs to contact at least one revocation server over HTTP/port 80.</p>
+
+<p>The servers are:</p>
+
+<ul>
+<li>ocsp.digicert.com</li>
+<li>crl3.digicert.com</li>
+<li>crl4.digicert.com</li>
+</ul>
+
+<p>Adding those to any firewall or proxy whitelists you may have would be a good way to solve this problem on multiple machines at once.</p>
+
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="/jobs">jobs</a></li>
+<li><a class="footer-link" href="/about">about</a></li>
+<li><a class="footer-link" href="/press">press</a></li>
+<li><a class="footer-link" href="/news">updates</a></li>
+<li><a class="footer-link" href="/security">security</a></li>
+<li><a class="footer-link" href="/privacy">privacy</a></li>
+<li><a class="footer-link" href="/terms">terms</a></li>
+</ul>
+<p class="small">
+&copy;2018 Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/bundle-3737f22be190c9564031d54327c43962.js"></script>
+</body>
+</html>

@@ -1,0 +1,468 @@
+
+
+
+
+Nim (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Nim_(programming_language)","wgTitle":"Nim (programming language)","wgCurRevisionId":832380736,"wgRevisionId":832380736,"wgArticleId":45413679,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 Bulgarian-language sources (bg)","Pages with citations lacking titles","Pages with citations having bare URLs","CS1 errors: external links","Pages using web citations with no URL","Articles lacking reliable references from February 2018","All articles lacking reliable references","Articles to be expanded from February 2018","All articles to be expanded","Articles using small message boxes","Articles with multiple maintenance issues","Concurrent programming languages","Functional languages","Multi-paradigm programming languages","Procedural programming languages","Programming languages created in 2008","Software using the MIT license","Statically typed programming languages","Systems programming languages","2008 software","Programming languages","Cross-platform software","Free compilers and interpreters"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Nim_(programming_language)","wgRelevantArticleId":45413679,"wgRequestId":"Wrz@HgpAIC4AAIV@9oIAAAAP","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q20080327","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Nim (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+
+
+
+
+
+
+
+This article relies too much on references to primary sources. Please improve this by adding secondary or tertiary sources. (February 2018) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+This section needs expansion. You can help by adding to it. (February 2018)
+
+
+
+
+
+(Learn how and when to remove this template message)
+
+
+
+
+Nim
+
+Paradigm
+multi-paradigm: compiled, concurrent, procedural, imperative, object-oriented
+
+
+Designed by
+Andreas Rumpf
+
+
+First appeared
+2008; 10 years ago (2008)
+
+
+
+
+
+Preview release
+
+0.18.0[1] / 1 March 2018; 28 days ago (2018-03-01)
+
+
+
+
+
+
+Typing discipline
+static,[2] strong,[3] inferred, structural
+
+
+OS
+Cross-platform[4]
+
+
+License
+MIT[5][6]
+
+
+Filename extensions
+.nim
+
+
+Website
+nim-lang.org
+
+
+Influenced by
+
+
+Ada, Modula-3, Lisp, C++, Object Pascal, Python, Oberon
+
+
+Nim (formerly named Nimrod) is an imperative, multi-paradigm, compiled programming language[7] designed and developed by Andreas Rumpf. It is designed to be "efficient, expressive, and elegant",[8] supporting metaprogramming, functional, message passing,[5] procedural, and object-oriented programming styles by providing several features such as compile time code generation, algebraic data types, a foreign function interface (FFI) with C and compiling to JavaScript, C and C++.
+
+
+
+Contents
+
+
+1 Description
+2 History
+3 Language design
+4 Compiler
+5 Tools
+
+5.1 Nimble
+5.2 c2nim
+5.3 Choosenim
+5.4 Nimfix
+5.5 pas2nim
+5.6 py2nim
+
+
+6 Libraries
+7 Examples
+
+7.1 Hello world
+7.2 Reversing a string
+7.3 Stropping
+7.4 Metaprogramming
+7.5 Wrapping C functions
+
+
+8 Community
+9 See also
+10 References
+11 External links
+
+
+
+Description[edit]
+Nim is statically typed, with a simple syntax.[9] It supports compile-time metaprogramming features such as syntactic macros and term rewriting macros.[10] Term rewriting macros enable library implementations of common data structures such as bignums and matrices to be implemented with an efficiency as if they were builtin language facilities.[11] Iterators are supported and can be used as first class entities[10] in the language as can functions, these features allow for functional programming to be used. Object-oriented programming is supported by inheritance and multiple dispatch. Functions can be generic and can also be overloaded, generics are further enhanced by the support for type classes. Operator overloading is also supported.[10] Nim includes tunable automatic garbage collection based on deferred reference counting with cycle detection.[12] Andrew Binstock (editor-in-chief of Dr. Dobb's) says Nim (formerly known as Nimrod) "presents a most original design that straddles Pascal and Python and compiles to C code or JavaScript."[13] Today, Nim compiles to C++ too.
+History[edit]
+
+
+
+
+This section needs expansion. You can help by adding to it. (February 2018)
+
+
+
+The initial development of Nim began in 2005 by Andreas Rumpf. The first version of the Nim compiler was written in Pascal.[14] In 2008, a version of the compiler written in Nim was released.[15] The compiler is open source and is being developed by a group of volunteers in addition to Andreas Rumpf.[16]
+Language design[edit]
+
+
+
+
+This section needs expansion. You can help by adding to it. (February 2018)
+
+
+
+The syntax of Nim is similar to Python.
+In details, it is influenced by:
+
+Modula-3: traced vs untraced pointers
+Delphi: type safe bit sets (set of char)
+Ada: subrange types, distinct type, safe variants / case objects
+C++: Overloading, generic programming
+Python: Off-side rule
+Lisp: Macro system, embrace the AST, homoiconicity
+Oberon: The export marker
+C#: Async / await, lambda macros
+Go: Defer
+
+In addition, Nim supports a Uniform Call Syntax[17] and identifier equality.[18]
+Compiler[edit]
+The Nim compiler emits optimized C code and defers compiling to an external compiler[19] (many compilers are supported including Clang and GNU Compiler Collection (GCC)) to leverage their optimizing and portability abilities. The compiler can also emit C++, Objective-C and JavaScript code to allow easy interfacing with application programming interfaces (APIs) written in those languages.[7] This allows writing applications for iOS and Android.
+The Nim compiler itself is written in the Nim programming language.[20]
+Tools[edit]
+Nimble[edit]
+Nimble[21] is the package manager used by Nim to package the Nim modules. It uses NimScript for the configuration. Nimble works on Git repositories as its primary source of packages. Its list of packages is stored in a JSON file which is freely accessible in the nim-lang/packages repository. This JSON file provides nimble with the required Git URL to clone the package and install it.
+c2nim[edit]
+c2nim[22] helps to generate new bindings by translating Ansi C code to Nim code. The output is human-readable Nim code that is meant to be tweaked by hand after the translation process.
+Choosenim[edit]
+Choosenim installs if Nim from official downloads and sources, enabling you to easily switch between stable and development compilers.[23]
+Nimfix[edit]
+Nimfix[24] is a tool that helps to convert old-style Nimrod code to Nim code. Nimfix is currently beta-quality.[25]
+pas2nim[edit]
+pas2nim[26] is a tool to translate Delphi/Pascal wrappers to Nim code. It was used to translate the original Nim compiler that was written in Pascal. Only what maps easily to Nim is supported. Delphi's class or other "fancy" features are not supported. At this point the project is largely unmaintained.
+py2nim[edit]
+py2nim[27] is a tool used for transpiling Python code into idiomatic Nim code. The project is in active development, with plans to extend the amount of Python code that can be entirely translated into Nim.
+Libraries[edit]
+A Nim program can use any library which can be used in a C and C++ program. Language bindings exist for many libraries, for example GTK+2, SDL2, Cairo, OpenGL, WinAPI, zlib, libzip, OpenSSL and cURL.[28] Nim works with PostgreSQL, MySQL and SQLite databases. Nim can interface with the Lua[29] and Python interpreter.[30]
+Examples[edit]
+The following code examples are valid as of Nim 0.17.0. Because Nim has not had its 1.0 release, syntax and semantics may change in subsequent versions.
+Hello world[edit]
+The "Hello, World!" program in Nim:
+
+
+echo("Hello, world!")
+# You can call procedure without parentheses
+echo "Hello, World!"
+
+Reversing a string[edit]
+A simple demonstration showing many of Nim's features.
+
+
+proc reverse(s: string): string =
+  result = "" # implicit result variable
+  for i in countdown(s.high, 0):
+    result.add s[i]
+
+let str1 = "Reverse This!"
+echo "Reversed: ", reverse(str1)
+
+One of the more exotic features is the implicit result variable: every procedure in Nim with a non-void return type has an implicit result variable that represents the value that will be returned. In the for loop we see an invocation of countdown which is an iterator, if an iterator is omitted then the compiler will attempt to use an items iterator if one is defined for the type that was specified in the for loop.
+Stropping[edit]
+Stropping is a method of explicitly marking letter sequences as having a special property. Stropping is not used in most modern languages – instead, keywords are reserved words and cannot be used as identifiers for variables or functions. Stropping allows the same letter sequence to be used both as a keyword and as an identifier, and simplifies parsing in that case – for example allowing a variable named if without clashing with the keyword if. In Nim, this is achieved via backticks, allowing any reserved word to be used as an identifier when inside backticks. [31]
+
+
+var `type`: int
+
+Metaprogramming[edit]
+This is an example of metaprogramming in Nim using its template facilities.
+
+
+template genType(name, fieldname: untyped, fieldtype: typedesc) =
+  type
+    name = object
+      fieldname: fieldtype
+
+genType(Test, foo, int)
+
+var x = Test(foo: 4566)
+echo(x.foo) # 4566
+
+The genType is invoked at compile-time and a Test type is created.
+Wrapping C functions[edit]
+The following program demonstrates the ease with which existing C code can be directly used in Nim.
+
+
+proc printf(formatstr: cstring) {.header: "<stdio.h>", varargs.}
+
+printf("%s %d\n", "foo", 5)
+
+In this code the well known printf function is imported into Nim and subsequently used.
+Community[edit]
+
+
+
+
+This section needs expansion. You can help by adding to it. (February 2018)
+
+
+
+The language has a bug tracker with wiki hosted by GitHub and a forum.[32][33] A presentation at O'Reilly Open Source Convention (OSCON) in 2015 took place.[34] O'Reilly Community: Essential Languages: Nim, Scala, Python.[35][36]
+See also[edit]
+
+
+Computer programming portal
+
+
+
+D (programming language)
+Go (programming language)
+Rust (programming language)
+UFCS, a feature supported by Nim
+
+References[edit]
+
+
+^ "Version 0.18.0 released". 2018-03-01. 
+^ "Nim by example". GitHub. Retrieved 2014-07-20. 
+^ Караджов, Захари; Станимиров, Борислав (2014). Метапрограмиране с Nimrod. VarnaConf (in Bulgarian). Retrieved 2014-07-27. 
+^ https://nim-lang.org/install.html
+^ a b "FAQ". Official website. Retrieved 2015-03-27. 
+^ "copying.txt". Nim. GitHub. Retrieved 2015-03-27. 
+^ a b Rumpf, Andreas (2014-02-11). "Nimrod: A new systems programming language". Dr. Dobb's Journal. Retrieved 2014-07-20. 
+^ "The Nim Programming Language". Official website. Retrieved 2014-07-20. 
+^ "Nim Syntax". akehrer. Retrieved 2015-01-05. 
+^ a b c "Nim Manual". Official website. Retrieved 2014-07-20. 
+^ "Strangeloop Nim presentation". Archived from the original on 2014-07-13. Retrieved 2015-04-30. 
+^ "Nim's Garbage Collector". Nim documentation. Retrieved 2018-01-10. 
+^ The Rise And Fall of Languages in 2013By Andrew Binstock, 7 January 2014 Dr. Dobb's
+^ "Nim Pascal Sources". Nim. GitHub. Retrieved 2013-04-05. 
+^ "News". Official website. Retrieved 2016-06-11. 
+^ "Contributors". Nim. GitHub. Retrieved 2013-04-05. 
+^ Nim Manual:Method call syntax
+^ Nim Manual:Identifier equality
+^ Rumpf, Andreas (2014-01-15). Nimrod: A New Approach to Metaprogramming. InfoQ. Event occurs at 2:23. Retrieved 2014-07-20. 
+^ https://github.com/nim-lang/Nim#compiling
+^ Nimble
+^ c2nim
+^ https://github.com/dom96/choosenim.  Missing or empty |title= (help)
+^ https://github.com/nim-lang/Nim/blob/devel/compiler/nimfix/nimfix.nim.  Missing or empty |title= (help)
+^ . https://nim-lang.org/docs/nimfix.html.  Missing or empty |title= (help); External link in |publisher= (help); Missing or empty |url= (help)
+^ https://github.com/nim-lang/pas2nim
+^ https://github.com/metacraft-labs/py2nim
+^ "Nim Standard Library". Nim documentation. Archived from the original on 2015-04-06. Retrieved 2015-04-04. 
+^ https://github.com/jangko/nimLUA
+^ https://akehrer.github.io/posts/connecting-nim-to-python/
+^ https://github.com/nim-lang/Nim/wiki/Tips-and-tricks
+^ "Primary source code repository and bug tracker". GitHub. Retrieved 2015-05-04. 
+^ "Nim Forum". nim-lang.org. Retrieved 2015-05-04. 
+^ "Nim at OSCON 2015". OSCON. 2015-07-20. Retrieved 2015-05-04. 
+^ "Essential Languages: Nim, Scala, Python". 
+^ Presentation of Nim by Andreas Rumpf on OSCON 2015 on YouTube
+
+
+External links[edit]
+
+Official website
+Nim on GitHub
+Information about Nim on Stack Overflow
+Nimble
+c2nim
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Nim_(programming_language)&oldid=832380736"					
+				Categories: Concurrent programming languagesFunctional languagesMulti-paradigm programming languagesProcedural programming languagesProgramming languages created in 2008Software using the MIT licenseStatically typed programming languagesSystems programming languages2008 softwareProgramming languagesCross-platform softwareFree compilers and interpretersHidden categories: CS1 Bulgarian-language sources (bg)Pages with citations lacking titlesPages with citations having bare URLsCS1 errors: external linksPages using web citations with no URLArticles lacking reliable references from February 2018All articles lacking reliable referencesArticles to be expanded from February 2018All articles to be expandedArticles using small message boxesArticles with multiple maintenance issues				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					Français日本語PortuguêsРусскийУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 25 March 2018, at 17:20.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.372","walltime":"0.464","ppvisitednodes":{"value":2374,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":68600,"limit":2097152},"templateargumentsize":{"value":7384,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":31681,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  396.681      1 -total"," 37.77%  149.841      1 Template:Reflist"," 28.18%  111.796      2 Template:Infobox"," 23.60%   93.626     21 Template:Cite_web"," 22.62%   89.727      1 Template:Infobox_programming_language"," 21.66%   85.926      6 Template:Ambox"," 16.51%   65.488      1 Template:Multiple_issues","  9.04%   35.860      2 Template:Start_date_and_age","  8.57%   33.990      1 Template:Official_website","  8.35%   33.124      1 Template:Infobox_software/simple"]},"scribunto":{"limitreport-timeusage":{"value":"0.178","limit":"10.000"},"limitreport-memusage":{"value":5341967,"limit":52428800}},"cachereport":{"origin":"mw1267","timestamp":"20180329065510","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":76,"wgHostname":"mw1325"});});
+	
+

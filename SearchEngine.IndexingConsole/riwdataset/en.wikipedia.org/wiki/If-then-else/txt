@@ -1,0 +1,788 @@
+
+
+
+
+Conditional (computer programming) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Conditional_(computer_programming)","wgTitle":"Conditional (computer programming)","wgCurRevisionId":831794353,"wgRevisionId":831794353,"wgArticleId":462839,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from November 2015","Articles with example pseudocode","Articles with example C code","Articles with example Pascal code","Articles with example Haskell code","Conditional constructs"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Conditional_(computer_programming)","wgRelevantArticleId":462839,"wgRequestId":"Wr0uZgpAICIAAHYYcdgAAADH","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"If-then-else","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Conditional_(computer_programming)","wgWikibaseItemId":"Q817862","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Conditional (computer programming)			
+				From Wikipedia, the free encyclopedia				  (Redirected from If-then-else)
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+If-Then-Else flow diagram
+
+
+
+
+
+
+A nested "If–Then–Else" flow diagram
+
+
+In computer science, conditional statements, conditional expressions and conditional constructs are features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false. Apart from the case of branch predication, this is always achieved by selectively altering the control flow based on some condition.
+In imperative programming languages, the term "conditional statement" is usually used, whereas in functional programming, the terms "conditional expression" or "conditional construct" are preferred, because these terms all have distinct meanings.
+A conditional is sometimes colloquially referred to as an "if-check," especially when perceived as a simple one and when its specific form is irrelevant or unknown.
+Although dynamic dispatch is not usually classified as a conditional construct, it is another way to select between alternatives at runtime.
+
+
+
+Contents
+
+
+1 If–then(–else)
+
+1.1 Else if
+1.2 If–then–else expressions
+
+1.2.1 Algol family
+1.2.2 Lisp dialects
+1.2.3 Haskell
+1.2.4 C-like languages
+1.2.5 In Small Basic
+1.2.6 In Visual Basic
+
+
+1.3 Arithmetic if
+1.4 Object-oriented implementation in Smalltalk
+1.5 JavaScript
+
+
+2 Lambda Calculus
+3 Case and switch statements
+4 Pattern matching
+5 Hash-based conditionals
+6 Predication
+7 Choice system cross reference
+8 See also
+9 References
+10 External links
+
+
+
+If–then(–else)[edit]
+"if-then-else" redirects here. For the album, see if_then_else.
+The if–then construct (sometimes called if–then–else) is common across many programming languages. Although the syntax varies from language to language, the basic structure (in pseudocode form) looks like this:
+
+
+If (boolean condition) Then
+    (consequent)
+Else
+    (alternative)
+End If
+
+In the example code above, the part represented by (boolean condition) constitutes a conditional expression, having intrinsic value (e.g., it may be substituted by either of the values True or False) but having no intrinsic meaning. In contrast, the combination of this expression, the If and Then surrounding it, and the consequent that follows afterward constitute a conditional statement, having intrinsic meaning (e.g., expressing a coherent logical rule) but no intrinsic value.
+When an interpreter finds an If, it expects a boolean condition – for example, x > 0, which means "the variable x contains a number that is greater than zero" – and evaluates that condition. If the condition is true, the statements following the then are executed. Otherwise, the execution continues in the following branch – either in the else block (which is usually optional), or if there is no else branch, then after the end If.
+After either branch has been executed, control returns to the point after the end If.
+In early programming languages, especially some dialects of BASIC in the 1980s home computers, an if–then statement could only contain GOTO statements. This led to a hard-to-read style of programming known as spaghetti programming, with programs in this style called spaghetti code. As a result, structured programming, which allows (virtually) arbitrary statements to be put in statement blocks inside an if statement, gained in popularity, until it became the norm even in most BASIC programming circles. Such mechanisms and principles were based on the older but more advanced ALGOL family of languages, and ALGOL-like languages such as Pascal and Modula-2 influenced modern BASIC variants for many years. While it is possible while using only GOTO statements in if–then statements to write programs that are not spaghetti code and are just as well structured and readable as programs written in a structured programming language, structured programming makes this easier and enforces it. Structured if–then–else statements like the example above are one of the key elements of structured programming, and they are present in most popular high-level programming languages such as C, Java, JavaScript and Visual Basic .
+A subtlety is that the optional else clause found in many languages means that the context-free grammar is ambiguous, since nested conditionals can be parsed in multiple ways. Specifically,
+
+if a then if b then s else s2
+
+can be parsed as
+
+if a then (if b then s) else s2
+
+or
+
+if a then (if b then s else s2)
+
+depending on whether the else is associated with the first if or second if. This is known as the dangling else problem, and is resolved in various ways, depending on the language.
+Else if[edit]
+By using else if, it is possible to combine several conditions. Only the statements following the first condition that is found to be true will be executed. All other statements will be skipped. The statements of
+
+
+if condition then
+   --statements
+elseif condition then
+    -- more statements
+elseif condition then
+    -- more statements;
+...
+else
+    -- other statements;
+end if;
+
+elseif, in Ada, is simply syntactic sugar for else followed by if. In Ada, the difference is that only one end if is needed, if one uses elseif instead of else followed by if. This is similar in Perl, which provides the keyword elsif to avoid the large number of braces that would be required by multiple if and else statements and also in Python, which uses the special keyword elif because structure is denoted by indentation rather than braces, so a repeated use of else and if would require increased indentation after every condition. Similarly, the earlier UNIX shells (later gathered up to the POSIX shell syntax[1]) use elif too, but giving the choice of delimiting with spaces, line breaks, or both.
+However, in many languages more directly descended from Algol, such as Algol68, Simula, Pascal, BCPL and C, this special syntax for the else if construct is not present, nor is it present in the many syntactical derivatives of C, such as Java, ECMA-script, PHP, and so on. This works because in these languages, any single statement (in this case if cond...) can follow a conditional without being enclosed in a block.
+This design choice has a slight "cost" in that code else if branch is, effectively, adding an extra nesting level, complicating the job for some compilers (or its implementors), which has to analyse and implement arbitrarily long else if chains recursively.
+If all terms in the sequence of conditionals are testing the value of a single expression (e.g., if x=0 ... else if x=1 ... else if x=2...), then an alternative is the switch statement, also called case-statement or select-statement. Conversely, in languages that do not have a switch statement, these can be produced by a sequence of else if statements.
+If–then–else expressions[edit]
+Many languages support if expressions, which are similar to if statements, but return a value as a result. Thus, they are true expressions (which evaluate to a value), not statements (which changes the program state or perform some kind of action).
+Algol family[edit]
+ALGOL 60 and some other members of the ALGOL family allow if–then–else as an expression:
+
+  myvariable := if x > 10 then 1 else 2
+
+Lisp dialects[edit]
+In dialects of Lisp – Scheme, Racket and Common Lisp – the first of which was inspired to a great extent by ALGOL:
+
+
+;; Scheme
+(define myvariable (if (> x 12) 1 2))   ; Assigns 'myvariable' to 1 or 2, depending on the value of 'x'
+
+
+
+;; Common Lisp
+(let ((x 10))
+  (setq myvariable (if (> x 12) 2 4)))  ; Assigns 'myvariable' to 2
+
+Haskell[edit]
+In Haskell 98, there is only an if expression, no if statement, and the else part is compulsory, as every expression must have some value.[2] Logic that would be expressed with conditionals in other languages is usually expressed with pattern matching in recursive functions.
+Because Haskell is lazy, it is possible to write control structures, such as if, as ordinary expressions; the lazy evaluation means that an if function can evaluate only the condition and proper branch (where a strict language would evaluate all three). It can be written like this:[3]
+
+
+if' :: Bool -> a -> a -> a
+if' True x _ = x
+if' False _ y = y
+
+C-like languages[edit]
+C and C-like languages have a special ternary operator (?:) for conditional expressions with a function that may be described by a template like this:
+
+condition ? evaluated-when-true : evaluated-when-false
+
+This means that it can be inlined into expressions, unlike if-statements, in C-like languages:
+
+
+my_variable = (x > 10) ? "foo" : "bar";  // In C-like languages
+
+which can be compared to the Algol-family if–then–else expressions (and similar in Ruby and Scala, among others).
+To accomplish the same using an if-statement, this would take more than one line of code (under typical layout conventions):
+
+
+if (x > 10)
+    my_variable = 'foo';
+else
+    my_variable = 'bar';
+
+Some argue that the explicit if/then statement is easier to read and that it may compile to more efficient code than the ternary operator,[4] while others argue that concise expressions are easier to read than statements spread over several lines.
+In Small Basic[edit]
+
+
+x = TextWindow.ReadNumber()
+If (x > 10) Then
+    TextWindow.WriteLine("My variable is named 'foo'.")
+Else
+    TextWindow.WriteLine("My variable is named 'bar'.")
+EndIf
+
+First, when the user runs the program, a cursor appears waiting for the reader to type a number. If that number is greater than 10, the text "My variable is named 'foo'." is displayed on the screen. If the number is smaller than 10, then the message "My variable is named 'bar'." is printed on the screen.
+In Visual Basic[edit]
+In Visual Basic and some other languages, a function called IIf is provided, which can be used as a conditional expression. However, it does not behave like a true conditional expression, because both the true and false branches are always evaluated; it is just that the result of one of them is thrown away, while the result of the other is returned by the IIf function.
+Arithmetic if[edit]
+Up to Fortran 77, the language Fortran has an "arithmetic if" statement which is halfway between a computed IF and a case statement, based on the trichotomy x < 0, x = 0, x > 0. This was the earliest conditional statement in Fortran:[5]
+
+
+IF (e) label1, label2, label3
+
+Where e is any numeric expression (not necessarily an integer); this is equivalent to
+
+
+IF (e .LT. 0) GOTO label1
+IF (e .EQ. 0) GOTO label2
+GOTO label3
+
+Because this arithmetic IF is equivalent to multiple GOTO statements that could jump to anywhere, it is considered to be an unstructured control statement, and should not be used if more structured statements can be used. In practice it has been observed that most arithmetic IF statements referenced the following statement with one or two of the labels.
+This was the only conditional control statement in the original implementation of Fortran on the IBM 704 computer. On that computer the test-and-branch op-code had three addresses for those three states. Other computers would have "flag" registers such as positive, zero, negative, even, overflow, carry, associated with the last arithmetic operations and would use instructions such as 'Branch if accumulator negative' then 'Branch if accumulator zero' or similar. Note that the expression is evaluated once only, and in cases such as integer arithmetic where overflow may occur, the overflow or carry flags would be considered also.
+Object-oriented implementation in Smalltalk[edit]
+In contrast to other languages, in Smalltalk the conditional statement is not a language construct but defined in the class Boolean as an abstract method that takes two parameters, both closures. Boolean has two subclasses, True and False, which both define the method, True executing the first closure only, False executing the second closure only.[6]
+
+
+var = condition 
+    ifTrue: [ 'foo' ]
+    ifFalse: [ 'bar' ]
+
+JavaScript[edit]
+Two examples in JavaScript:
+
+
+if (Math.random() < 0.5) {
+console.log("You got Heads!");
+} else {
+console.log("You got Tails!");
+}
+
+
+
+var x = Math.random();
+if (x < 1/3) {
+console.log("One person won!");
+} else if (x < 2/3) {
+console.log("Two people won!");
+} else {
+console.log("It's a three-way tie!");
+}
+
+Lambda Calculus[edit]
+In Lambda Calculus, the concept of an if-then-else conditional can be expressed using the expressions:
+
+true = λx. λy. x
+false = λx. λy. y
+ifThenElse = (λc. λx. λy. (c x y))
+
+
+true takes up to two arguments and once both are provided(see currying), it returns the first argument given.
+false takes up to two arguments and once both are provided(see currying), it returns the second argument given.
+ifThenElse takes up to three arguments and once all are provided, it passes both second and third argument to the first argument(which is a function that given two arguments, and produces a result). We expect ifThenElse to only take true or false as an argument, both of which project the given two arguments to their preferred single argument, which is then returned.
+
+note: if ifThenElse is passed two functions as the left and right conditionals; it is necessary to also pass an empty tuple () to the result of ifThenElse in order to actually call the chosen function, otherwise ifThenElse will just return the function object without getting called.
+In a system where numbers can be used without definition(like Lisp, Traditional paper math, so on), the above can be expressed as a single closure below:
+
+((λtrue. λfalse. λifThenElse.
+    (ifThenElse true 2 3)
+)(λx. λy. x)(λx. λy. y)(λc. λl. λr. c l r))
+
+Here, true, false, and ifThenElse are bound to their respective definitions which are passed to their scope at the end of their block.
+A working JavaScript analogy(using only functions of single variable for rigor) to this is:
+
+var computationResult = ((_true => _false => _ifThenElse => 
+    _ifThenElse(_true)(2)(3) 
+)(x => y => x)(x => y => y)(c => x => y => c(x)(y)));
+
+The code above with multivariable functions looks like this:
+
+var computationResult = ((_true, _false, _ifThenElse) =>
+    _ifThenElse(_true, 2, 3)
+)((x, y) => x, (x, y) => y, (c, x, y) => c(x, y));
+
+another version of the earlier example without a system where numbers are assumed is below.
+First example shows the first branch being taken, while second example shows the second branch being taken.
+
+((λtrue. λfalse. λifThenElse.
+    (ifThenElse true (λFirstBranch. FirstBranch) (λSecondBranch. SecondBranch))
+)(λx. λy. x)(λx. λy. y)(λc. λl. λr. c l r))
+
+
+((λtrue. λfalse. λifThenElse.
+    (ifThenElse false (λFirstBranch. FirstBranch) (λSecondBranch. SecondBranch))
+)(λx. λy. x)(λx. λy. y)(λc. λl. λr. c l r))
+
+Smalltalk uses a similar idea for its true and false representations, with True and False being singleton objects that respond to messages ifTrue/ifFalse differently.
+Haskell used to use this exact model for its Boolean type, but at the time of writing, most Haskell programs use syntactic sugar "if a then b else c" construct which unlike ifThenElse does not compose unless
+either wrapped in another function or re-implemented as shown in The Haskell section of this page.
+Case and switch statements[edit]
+Main article: Switch statement
+Switch statements (in some languages, case statements or multiway branches) compare a given value with specified constants and take action according to the first constant to match. There is usually a provision for a default action ('else','otherwise') to be taken if no match succeeds. Switch statements can allow compiler optimizations, such as lookup tables. In dynamic languages, the cases may not be limited to constant expressions, and might extend to pattern matching, as in the shell script example on the right, where the '*)' implements the default case as a regular expression matching any string.
+
+
+Pascal:
+C:
+Shell script:
+
+
+
+
+
+case someChar of
+  'a': actionOnA;
+  'x': actionOnX;
+  'y','z':actionOnYandZ;
+  else actionOnNoMatch;
+end;
+
+
+
+
+
+switch (someChar) {
+  case 'a': actionOnA; break;
+  case 'x': actionOnX; break;
+  case 'y':
+  case 'z': actionOnYandZ; break;
+  default: actionOnNoMatch;
+}
+
+
+
+
+
+case $someChar in 
+   a)    actionOnA; ;;
+   x)    actionOnX; ;;
+   [yz]) actionOnYandZ; ;;
+  *)     actionOnNoMatch  ;;
+esac
+
+
+
+
+Pattern matching[edit]
+Main article: Pattern matching
+Pattern matching may be seen as a more sophisticated alternative to both if–then–else, and case statements. It is available in many programming languages with functional programming features, such as Wolfram Language, ML and many others. Here is a simple example written in the OCaml language:
+
+
+match fruit with
+| "apple" -> cook pie
+| "coconut" -> cook dango_mochi
+| "banana" -> mix;;
+
+The power of pattern matching is the ability to concisely match not only actions but also values to patterns of data. Here is an example written in Haskell which illustrates both of these features:
+
+
+map _ []      = []
+map f (h : t) = f h : map f t
+
+This code defines a function map, which applies the first argument (a function) to each of the elements of the second argument (a list), and returns the resulting list. The two lines are the two definitions of the function for the two kinds of arguments possible in this case – one where the list is empty (just return an empty list) and the other case where the list is not empty.
+Pattern matching is not strictly speaking always a choice construct, because it is possible in Haskell to write only one alternative, which is guaranteed to always be matched – in this situation, it is not being used as a choice construct, but simply as a way to bind names to values. However, it is frequently used as a choice construct in the languages in which it is available.
+Hash-based conditionals[edit]
+In programming languages that have associative arrays or comparable data structures, such as Python, Perl, PHP or Objective-C, it is idiomatic to use them to implement conditional assignment.[7]
+
+
+pet = raw_input("Enter the type of pet you want to name: ")
+known_pets = {
+    "Dog": "Fido",
+    "Cat": "Meowsles",
+    "Bird": "Tweety",
+}
+my_name = known_pets[pet]
+
+In languages that have anonymous functions or that allow a programmer to assign a named function to a variable reference, conditional flow can be implemented by using a hash as a dispatch table.
+Predication[edit]
+Main article: Branch predication
+An alternative to conditional branch instructions is predication. Predication is an architectural feature that enables instructions to be conditionally executed instead of modifying the control flow.
+Choice system cross reference[edit]
+This table refers to the most recent language specification of each language. For languages that do not have a specification, the latest officially released implementation is referred to.
+
+
+Programming language
+Structured if
+switch–select–case
+Arithmetic if
+Pattern matching[A]
+
+
+then
+else
+else–if
+
+
+Ada
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+
+C, C++
+Yes
+Yes
+Unneeded[B]
+Fall-through
+No
+No
+
+
+C#
+Yes
+Yes
+Unneeded[B]
+Yes
+No
+No
+
+
+COBOL
+Yes
+Yes
+Unneeded[B]
+Yes
+No
+No
+
+
+Eiffel
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+
+F#
+Yes
+Yes
+Yes
+Unneeded[C]
+No
+Yes
+
+
+Fortran 90
+Yes
+Yes
+Yes
+Yes
+Yes[F]
+No
+
+
+Go
+Yes
+Yes
+Unneeded[B]
+Yes
+No
+No
+
+
+Haskell
+Yes
+Needed
+Unneeded[B]
+Yes, but unneeded[C]
+No
+Yes
+
+
+Java
+Yes
+Yes
+Unneeded[B]
+Fall-through[8]
+No
+No
+
+
+ECMAScript (JavaScript)
+Yes
+Yes
+Unneeded[B]
+Fall-through[9]
+No
+No
+
+
+Mathematica
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+
+
+Oberon
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+
+Perl
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+
+PHP
+Yes
+Yes
+Yes
+Fall-through
+No
+No
+
+
+Pascal, Object Pascal (Delphi)
+Yes
+Yes
+Unneeded
+Yes
+No
+No
+
+
+Python
+Yes
+Yes
+Yes
+No
+No
+No
+
+
+QuickBASIC
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+
+Ruby
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+
+Scala
+Yes
+Yes
+Unneeded[B]
+Fall-through[citation needed]
+No
+Yes
+
+
+SQL
+Yes[S]
+Yes
+Yes
+Yes[S]
+No
+No
+
+
+Swift
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+
+
+Visual Basic, classic
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+
+Visual Basic .NET
+Yes
+Yes
+Yes
+Yes
+No
+No
+
+
+Windows PowerShell
+Yes
+Yes
+Yes
+Fall-through
+No
+No
+
+
+
+^ This refers to pattern matching as a distinct conditional construct in the programming language – as opposed to mere string pattern matching support, such as regular expression support.
+1 2 3 4 5 The often-encountered else if in the C family of languages, and in COBOL and Haskell, is not a language feature but a set of nested and independent if then else statements combined with a particular source code layout. However, this also means that a distinct else–if construct is not really needed in these languages.
+1 2 In Haskell and F#, a separate constant choice construct is unneeded, because the same task can be done with pattern matching.
+^ In a Ruby case construct, regular expression matching is among the conditional flow-control alternatives available. For an example, see this Stack Overflow question.
+1 2 SQL has two similar constructs that fulfill both roles, both introduced in SQL-92. A "searched CASE" expression CASE WHEN cond1 THEN expr1 WHEN cond2 THEN expr2 [...] ELSE exprDflt END works like if ... else if ... else, whereas a "simple CASE" expression: CASE expr WHEN val1 THEN expr1 [...] ELSE exprDflt END works like a switch statement. For details and examples see Case (SQL).
+^ Arithmetic if is obsolescent in Fortran 90.
+
+See also[edit]
+
+Branch (computer science)
+Conditional compilation
+Dynamic dispatch for another way to make execution choices
+McCarthy Formalism for history and historical references
+Named condition
+Test (Unix)
+Yoda conditions
+Conditional move
+
+References[edit]
+
+
+
+^ POSIX standard shell syntax
+^ Haskell 98 Language and Libraries: The Revised Report
+^ "If-then-else Proposal on HaskellWiki"
+^ "Efficient C Tips #6 – Don't use the ternary operator « Stack Overflow". Embeddedgurus.com. 2009-02-18. Retrieved 2012-09-07. 
+^ "American National Standard Programming Language FORTRAN". 1978-04-03. Retrieved 2007-09-09. 
+^ "VisualWorks: Conditional Processing". 2006-12-16. Retrieved 2007-09-09. 
+^ "Pythonic way to implement switch/case statements". 
+^ Java.sun.com, Java Language Specification, 3rd Edition.
+^ Ecma-international.org ECMAScript Language Specification, 5th Edition.
+
+
+
+External links[edit]
+
+
+
+Look up then or else in Wiktionary, the free dictionary.
+
+
+
+IF NOT (ActionScript 3.0) video
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=831794353"					
+				Categories: Conditional constructsHidden categories: All articles with unsourced statementsArticles with unsourced statements from November 2015Articles with example pseudocodeArticles with example C codeArticles with example Pascal codeArticles with example Haskell code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةAzərbaycancaБългарскиCatalàČeštinaDeutschEestiEspañolفارسیFrançais한국어HrvatskiעבריתMagyar日本語Олык марийPolskiPortuguêsРусскийСрпски / srpskiSvenskaУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 22 March 2018, at 06:39.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.200","walltime":"0.268","ppvisitednodes":{"value":1937,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":30497,"limit":2097152},"templateargumentsize":{"value":2078,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":20560,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  194.967      1 -total"," 32.89%   64.116      1 Template:Reflist"," 24.92%   48.583      4 Template:Cite_web"," 23.47%   45.762     95 Template:Yes"," 22.08%   43.052      1 Template:Citation_needed"," 19.93%   38.865      1 Template:Fix"," 13.08%   25.500      1 Template:Redirect"," 12.58%   24.525      2 Template:Category_handler","  6.05%   11.800      1 Template:Delink","  4.36%    8.510      1 Template:Wiktionary"]},"scribunto":{"limitreport-timeusage":{"value":"0.061","limit":"10.000"},"limitreport-memusage":{"value":2685090,"limit":52428800}},"cachereport":{"origin":"mw1242","timestamp":"20180322063933","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":94,"wgHostname":"mw1332"});});
+	
+

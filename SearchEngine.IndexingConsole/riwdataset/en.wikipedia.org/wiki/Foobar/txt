@@ -1,0 +1,273 @@
+
+
+
+
+Foobar - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Foobar","wgTitle":"Foobar","wgCurRevisionId":828405720,"wgRevisionId":828405720,"wgArticleId":11178,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with specifically marked weasel-worded phrases","Articles with specifically marked weasel-worded phrases from November 2010","All articles with unsourced statements","Articles with unsourced statements from May 2009","Pages using RFC magic links","Placeholder names","Computer programming folklore"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Foobar","wgRelevantArticleId":11178,"wgRequestId":"WsCv8gpAMEsAABhD3wgAAABY","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q860","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Foobar			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				Not to be confused with FUBAR.
+"Foo" redirects here. For other uses, see Foo (disambiguation).
+The terms foobar (/ˈfuːbɑːr/), or foo and others are used as placeholder names (also referred to as metasyntactic variables) in computer programming or computer-related documentation.[1] They have been used to name entities such as variables, functions, and commands whose exact identity is unimportant and serve only to demonstrate a concept.
+
+
+
+Contents
+
+
+1 History and etymology
+2 Example use in code
+3 Examples in language
+4 See also
+5 References
+6 External links
+
+
+
+History and etymology[edit]
+
+
+
+
+Smokey Stover driving a "foomobile"
+
+
+The etymology of foo is obscure. Its use in connection with bar is generally traced to the World War II military slang FUBAR, later bowdlerised to foobar.[2] The word foo on its own was used earlier. Between about 1930 and 1952 it appeared in the comic Smokey Stover by Bill Holman, who stated that he used the word due to having seen it on the bottom of a jade Chinese figurine in Chinatown, San Francisco, purportedly signifying "good luck".[3] This may be related to the Chinese word fu ("福", sometimes transliterated foo), which can mean happiness or blessing.[2]
+The first known use of the terms in print in a programming context appears in a 1965 edition of MIT's Tech Engineering News.[4] Foobar may have come about as a result of the pre-existing "Foo" being conjoined with "bar", an addition borrowed from the military's FUBAR. The use of foo in a programming context is generally credited to the Tech Model Railroad Club (TMRC) of MIT from circa 1960.[1] In the complex model system, there were scram switches located at numerous places around the room that could be thrown if something undesirable was about to occur, such as a train going full-bore at an obstruction. Another feature of the system was a digital clock on the dispatch board. When someone hit a scram switch, the clock stopped and the display was replaced with the word "FOO"; at TMRC the scram switches are, therefore, called "Foo switches". Because of this, an entry in the 1959 Dictionary of the TMRC Language went something like this: "FOO: The first syllable of the misquoted sacred chant phrase 'foo mane padme hum.' Our first obligation is to keep the foo counters turning."[5] One book[which?] describing the MIT train room describes two buttons by the door: labeled "foo" and "bar". These were general purpose buttons and were often re-purposed for whatever fun idea the MIT hackers had at the time, hence the adoption of foo and bar as general purpose variable names. An entry in the Abridged Dictionary of the TMRC Language states:[6]
+
+Multiflush: stop-all-trains-button. Next best thing to the red door button. Also called FOO. Displays "FOO" on the clock when used.
+
+The term foobar was propagated through computer science circles in the 1960s and early 1970s by system manuals from Digital Equipment Corporation.[citation needed] Foobar was also used as a variable name in the Fortran code of Colossal Cave Adventure (1977 Crowther and Woods version). The variable FOOBAR was used to contain the player's progress in saying the magic phrase "Fee Fie Foe Foo".
+Example use in code[edit]
+In this Hello World code sample, foo and bar are used to illustrate string concatenation:
+
+
+/* C code */
+
+#include <stdio.h>
+
+int main() {
+   const char *foo = "Hello";
+   const char *bar = "World!";
+   fprintf(stdout, "%s %s\n", foo, bar);
+
+   return 0;
+}
+
+
+
+/* scheme code */
+
+(define foobar
+   (lambda (x)
+      (display x)))
+(foobar "Hello World!")
+
+Examples in language[edit]
+
+Foo Camp is an annual hacker convention.
+BarCamp, an international network of user generated conferences
+During the United States v. Microsoft Corp. trial, some evidence was presented that Microsoft had tried to use the Web Services Interoperability organization as a means to stifle competition, including e-mails in which top executives including Bill Gates referred to the WS-I using the codename "foo".[7]
+foobar2000 is an audio player.
+Google uses a web tool called foo.bar to recruit new employees.[8]
+Foo Fighters is an American rock band named after the foo fighters, unidentified flying objects reported by World War II pilots.
+Stanley Black & Decker has registered the trademark fubar, used as branding for a type of crowbar.[9]
+
+See also[edit]
+
+
+Computer programming portal
+
+
+
+xyzzy
+Foo was here
+Category:Variable (computer science)
+
+
+References[edit]
+
+
+
+^ a b Eastlake, D; Manros, C; Raymond, E. "Etymology of "Foo"". The Internet Engineering Task Force. Retrieved 17 April 2016. 
+^ a b "the definition of foo". Dictionary.com. Retrieved 2016-05-09. 
+^ "The History of Bill Holman". www.smokey-stover.com. Retrieved 2016-04-17. 
+^ Tech Engineering News, Volume 47. Massachusetts Institute of Technology. 1965. p. 63. Further, it is possible to search for an effective address; e.g., if an instruction such as "add 1 foo" were used, specifying indirect addressing thru location "foo", and location "foo" contained the address of location "foobar", than an effective word search for "foobar" would find location "foo" and the location containing the "add" instruction as well. 
+^ "Computer Dictionary Online". , computer-dictionary-online.org
+^ "Abridged Dictionary of the TMRC Language". MIT. 
+^ Microsoft ploy to block Sun exposed, news.com
+^ "Google Foobar: How searching the web earned a software graduate a job at Google". International Business Times UK. 2015-08-27. Retrieved 2016-05-09. 
+^ tmdb.eu. "Trademark FUBAR registered by Stanley Black & Decker, Inc. at OHIM". tmdb.eu. Retrieved 2016-05-10. 
+
+
+
+External links[edit]
+
+
+
+Look up foobar, foo, or bar in Wiktionary, the free dictionary.
+
+
+
+The Jargon File entry on "foobar", catb.org
+RFC 1639 – FTP Operation Over Big Address Records (FOOBAR)
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Foobar&oldid=828405720"					
+				Categories: Placeholder namesComputer programming folkloreHidden categories: All articles with specifically marked weasel-worded phrasesArticles with specifically marked weasel-worded phrases from November 2010All articles with unsourced statementsArticles with unsourced statements from May 2009Pages using RFC magic links				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					বাংলাCatalàDanskDeutschEspañolفارسیFrançaisIlokanoItalianoעבריתMagyarNederlands日本語NorskPolskiPortuguêsSlovenščinaСрпски / srpskiSuomiУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 2 March 2018, at 10:15.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.172","walltime":"0.236","ppvisitednodes":{"value":818,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":19931,"limit":2097152},"templateargumentsize":{"value":1494,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":10643,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  209.359      1 -total"," 40.98%   85.802      1 Template:Reflist"," 29.32%   61.387      7 Template:Cite_web"," 12.60%   26.380      1 Template:IPAc-en"," 12.59%   26.363      2 Template:Fix"," 11.54%   24.159      1 Template:Distinguish"," 10.89%   22.805      1 Template:Which","  6.59%   13.798      2 Template:Delink","  5.11%   10.700      1 Template:Citation_needed","  4.62%    9.681      3 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.088","limit":"10.000"},"limitreport-memusage":{"value":4068894,"limit":52428800}},"cachereport":{"origin":"mw1275","timestamp":"20180401100725","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":94,"wgHostname":"mw1240"});});
+	
+

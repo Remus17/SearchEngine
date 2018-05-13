@@ -1,0 +1,109 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.3 PythonImport
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.2 PythonDebug
+Up:
+5.4 Other Directives
+Next:
+5.4.4 PythonInterpPerDirectory
+
+
+
+
+ 
+ 
+
+5.4.3 PythonImport
+
+
+
+Syntax:
+PythonImport module interpreter_name
+Context:
+server config
+Module:
+mod_python.c
+
+
+Tells the server to import the Python module module at process startup
+under the specified interpreter name. This is useful for
+initialization tasks that could be time consuming and should not be
+done at the request processing time, e.g. initializing a database
+connection.
+
+
+The import takes place at child process initialization, so the module
+will actually be imported once for every child process spawned.
+
+
+Note:
+At the time when the import takes place, the configuration is not
+  completely read yet, so all other directives, including
+  PythonInterpreter have no effect on the behavior of modules imported
+  by this directive. Because of this limitation, the interpreter must
+  be specified explicitly, and must match the name under which
+  subsequent requests relying on this operation will execute. If you
+  are not sure under what interpreter name a request is running,
+  examine the interpreter member of the request object.
+
+
+
+See also Multiple Interpreters. 
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.2 PythonDebug
+Up:
+5.4 Other Directives
+Next:
+5.4.4 PythonInterpPerDirectory
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

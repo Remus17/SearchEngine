@@ -1,0 +1,309 @@
+
+
+
+
+Ellipsis (computer programming) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Ellipsis_(computer_programming)","wgTitle":"Ellipsis (computer programming)","wgCurRevisionId":827722631,"wgRevisionId":827722631,"wgArticleId":31498790,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with self-published sources","Articles with self-published sources from January 2011","Articles needing additional references from September 2014","All articles needing additional references","All articles with unsourced statements","Articles with unsourced statements from May 2017","Operators (programming)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Ellipsis_(computer_programming)","wgRelevantArticleId":31498790,"wgRequestId":"WsHfUApAMFkAAKTLl4MAAABK","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Ellipsis_(programming_operator)","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Ellipsis_(computer_programming)","wgWikibaseItemId":"Q5365776","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Ellipsis (computer programming)			
+				From Wikipedia, the free encyclopedia				  (Redirected from Ellipsis (programming operator))
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (September 2014) (Learn how and when to remove this template message)
+
+
+
+In computer programming, ellipsis notation (.. or ...) is used to denote ranges, an unspecified number of arguments, or a parent directory. Most programming languages other than Perl6 require the ellipsis to be written as a series of periods; a single (Unicode) ellipsis character cannot be used.
+
+
+
+Contents
+
+
+1 Ranges
+2 Parent directory
+3 Incomplete code
+4 Variable number of parameters
+
+4.1 C and C++
+4.2 Java
+4.3 PHP
+
+
+5 Multiple dimensions
+6 Other semantics
+7 References
+
+
+
+Ranges[edit]
+In some programming languages (including Ada, Perl, Ruby, Apache Groovy, Haskell, and Pascal), a shortened two-dot ellipsis is used to represent a range of values given two endpoints; for example, to iterate through a list of integers between 1 and 100 inclusive in Perl:
+
+foreach (1..100)
+
+In Ruby the ... operator denotes a half-open range, i.e. that includes the start value but not the end value.
+In Rust the ..= operator denotes an inclusive range for cases in matches and the .. operator represents a range not including the end value.
+Perl and Ruby overload the ".." operator in scalar context as a flip-flop operator - a stateful bistable Boolean test, roughly equivalent to "true while x but not yet y", similarly to the "," operator in sed and AWK.[1] In Perl6 an actual Unicode (U+2026) ellipsis (…) character is used to serve as a type of marker in a format string.[2]
+The GNU Compiler Collection has an extension to the C and C++ language to allow case ranges in switch statements:
+
+
+switch(u) {
+  case     0 ...   0x7F : putchar(c); break;
+  case  0x80 ...  0x7FF : putchar(0xC0 + c>>6);  putchar( 0x80 + c&0x3f); break;
+  case 0x800 ... 0xFFFF : putchar(0xE0 + c>>12); putchar( 0x80 + (c>>6)&0x3f); putchar( 0x80 + (c>>12) ); break;
+  default: error("not supported!");
+}
+
+Delphi / Turbo Pascal / Free Pascal:
+
+
+var FilteredChars: set of [#0..#32,#127,'a'..'z'];
+var CheckedItems: set of [4,10..38,241,58];
+
+In the Unified Modeling Language (UML), a two-character ellipsis is used to indicate variable cardinality of an association. For example, a cardinality of 1..* means that the number of elements aggregated in an association can range from 1 to infinity (a usage equivalent to Kleene plus).
+Parent directory[edit]
+On Windows and Unix-like operating systems, ".." is used to access the parent directory in a path.
+Incomplete code[edit]
+In Perl and Perl6 the 3-character ellipsis is also known as the "yadda yadda yadda" operator and, similarly to its linguistic meaning, serves as a "stand-in" for code to be inserted later.[citation needed]
+Python3 also allows the 3-character ellipsis to be used as an expressive place-holder for code to be inserted later.
+Variable number of parameters[edit]
+C and C++[edit]
+In the C programming language, an ellipsis is used to represent a variable number of parameters to a function. For example:
+
+int printf( const char* format, ... );[3]
+
+The above function in C could then be called with different types and numbers of parameters such as:
+
+printf("numbers %i %i %i", 5, 10, 15);
+
+and
+
+printf("input string %s, %f", "another string", 0.5);
+
+C99 introduced macros with a variable number of arguments.[4]
+C++11 included the C99 preprocessor,[5] and also introduced templates with a variable number of arguments.[6]
+Java[edit]
+As of version 1.5, Java has adopted this "varargs" functionality. For example:
+
+public int func(int num, String... strings)
+
+PHP[edit]
+PHP 5.6 supports[7] use of ellipsis to define an explicitly variadic function, where ... before an argument in a function definition means that arguments from that point on will be collected into an array. For example:
+
+
+function variadic_function($a, $b, ...$other) {
+    return $other;
+}
+
+var_dump(variadic_function(1, 2, 3, 4, 5));
+
+Produces this output:
+
+ array(3) {
+   [0]=>
+   int(3)
+   [1]=>
+   int(4)
+   [2]=>
+   int(5)
+ }
+
+Multiple dimensions[edit]
+In Python, particularly in numpy, an ellipsis is used for slicing an arbitrary number of dimensions for a high-dimensional array:[8]
+
+
+>>> import numpy as np
+>>> t = np.random.rand(2, 3, 4, 5)
+>>> t[..., 0].shape # select 1st element from last dimension, copy rest
+(2, 3, 4)
+>>> t[0, ...].shape # select 1st element from first dimension, copy rest
+(3, 4, 5)
+
+Other semantics[edit]
+In MATLAB, a three-character ellipsis is used to indicate line continuation,[9] making the sequence of lines
+
+x = [ 1 2 3 ...
+4 5 6 ];
+
+semantically equivalent to the single line
+
+x = [ 1 2 3 4 5 6 ];
+
+References[edit]
+
+
+
+^ perlop - perldoc.perl.org
+^ Exegesis 7: Formats - perl6[self-published source?]
+^ http://www.cplusplus.com/reference/cstdio/printf/
+^ Variadic Macros - Using the GNU Compiler Collection (GCC)
+^ Working draft changes for C99 preprocessor synchronization - http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2004/n1653.htm
+^ "Working Draft, Standard for Programming Language C++" (PDF). : 14.5.3 Variadic templates
+^ https://wiki.php.net/rfc/variadics
+^ http://docs.scipy.org/doc/numpy/reference/arrays.indexing.html
+^ Mathworks.com
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Ellipsis_(computer_programming)&oldid=827722631"					
+				Categories: Operators (programming)Hidden categories: All articles with self-published sourcesArticles with self-published sources from January 2011Articles needing additional references from September 2014All articles needing additional referencesAll articles with unsourced statementsArticles with unsourced statements from May 2017				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+									
+				Add links			
+		
+				
+		
+				
+						
+								 This page was last edited on 26 February 2018, at 10:02.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.120","walltime":"0.870","ppvisitednodes":{"value":583,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":10604,"limit":2097152},"templateargumentsize":{"value":1573,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":10182,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  851.988      1 -total","  7.57%   64.498      1 Template:Reflist","  6.02%   51.278      1 Template:Refimprove","  3.90%   33.251      1 Template:Cite_web","  3.57%   30.405      1 Template:Ambox","  2.87%   24.450      1 Template:Cn_span","  2.15%   18.357      1 Template:Fix-span","  2.15%   18.287      1 Template:Self-published_inline","  1.75%   14.929      1 Template:Fix","  1.33%   11.369      3 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.050","limit":"10.000"},"limitreport-memusage":{"value":2164327,"limit":52428800}},"cachereport":{"origin":"mw1287","timestamp":"20180320134050","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":71,"wgHostname":"mw1254"});});
+	
+

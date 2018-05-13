@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.9 PythonTypeHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.8 PythonAuthzHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.10 PythonFixupHandler
+
+
+
+
+ 
+ 
+
+5.1.9 PythonTypeHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+This routine is called to determine and/or set the various document
+type information bits, like Content-type (via r->content_type),
+language, et cetera.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.8 PythonAuthzHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.10 PythonFixupHandler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

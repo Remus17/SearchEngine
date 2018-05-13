@@ -1,0 +1,237 @@
+
+
+
+
+View source for Python (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_(programming_language)","wgTitle":"Python (programming language)","wgCurRevisionId":833660930,"wgRevisionId":0,"wgArticleId":23862,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_(programming_language)","wgRelevantArticleId":23862,"wgRequestId":"WsJJxQpAICIAABvvK6EAAABC","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.charinsert.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.charinsert","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+View source for Python (programming language)			
+								← Python (programming language)
+								
+					Jump to:					navigation, 					search
+				
+				You do not have permission to edit this page, for the following reasons:
+
+
+Your IP address is in a range which has been blocked on all wikis.
+
+The block was made by Vituzzu (meta.wikimedia.org).
+The reason given is hosting service with open proxies such as 67.207.94.79 .
+
+Start of block: 13:14, 23 October 2017
+Expiration of block: 13:14, 23 October 2022
+
+You can contact Vituzzu to discuss the block.
+You cannot use the "Email this user" feature unless a valid email address is specified in your account preferences and you have not been blocked from using it.
+Your current IP address is 67.207.88.228, and the blocked range is 67.207.64.0/19.
+Please include all above details in any queries you make.
+
+
+You are currently unable to edit Wikipedia.
+You are still able to view pages, but you are not currently able to edit, move, or create them.
+
+
+
+
+Editing from 67.207.64.0/19 has been blocked (disabled) by KrakatoaKatie for the following reason(s):
+
+
+
+
+The IP address that you are currently using has been blocked  because it is believed to be a web host provider. To prevent abuse, web hosts may be blocked from editing Wikipedia.
+
+
+You will not be able to edit Wikipedia using a web host provider.
+Since the web host acts like a proxy, because it hides your IP address, it has been blocked. To prevent abuse, these IPs may be blocked from editing Wikipedia. If you do not have any other way to edit Wikipedia, you will need to request an IP block exemption.
+If you do not believe you are using a web host, you may appeal this block by adding the following text on your talk page: {{unblock|reason=Caught by a web host block but this host or IP is not a web host. Place any further information here. ~~~~}}. If you are using a Wikipedia account you will need to request an IP block exemption by either using the unblock template or by submitting an appealing using the unblock ticket request system. If you wish to keep your IP address private you can email the functionaries team.
+Administrators: The IP block exemption user right should only be applied to allow users to edit using web host in exceptional circumstances, and they should usually be directed to the functionaries team via email. If you intend to give the IPBE user right, a CheckUser needs to take a look at the account. This can be requested most easily at SPI Quick Checkuser Requests. Unblocking an IP or IP range with this template is highly discouraged without at least contacting the blocking administrator.
+
+: 
+This block has been set to expire: 12:56, 12 August 2020.
+Even if blocked, you will usually still be able to edit your user talk page and email other editors and administrators.
+
+
+
+
+
+Other useful links: Blocking policy · Username policy ·  
+Appealing blocks: policy and guide
+
+If the block notice is unclear, or it does not appear to relate to your actions, please ask for assistance as described at Help:I have been blocked.
+
+
+
+You can view and copy the source of this page:
+== Implementations ==
+{{See also|List of Python software#Python implementations}}
+
+=== Reference implementation ===
+[[CPython]] is the [[reference implementation]] of Python. It is written in [[C (programming language)|C]], meeting the [[C89 (C version)|C89]] standard with several select [[C99]] features.<ref name="AutoNT-66" /> It compiles Python programs into an intermediate [[bytecode]]<ref name="AutoNT-67" /> which is then executed by its [[virtual machine]].<ref name="AutoNT-68" /> CPython is distributed with a large standard library written in a mixture of C and native Python. It is available for many platforms, including [[Microsoft Windows|Windows]] and most modern [[Unix-like]] systems. Platform portability was one of its earliest priorities.<ref name="AutoNT-69" />
+
+=== Other implementations ===
+[[PyPy]] is a fast, compliant<ref name="AutoNT-70" /> interpreter of Python 2.7 and 3.5. Its [[Just-in-time compilation|just-in-time compiler]] brings a significant speed improvement over CPython.<ref name="AutoNT-71" />
+
+[[Stackless Python]] is a significant fork of CPython that implements [[microthread]]s; it does not use the C memory stack, thus allowing massively concurrent programs. PyPy also has a stackless version.<ref name="AutoNT-73" />
+
+[[MicroPython]] is a Python 3 variant optimised for [[microcontroller]]s.
+
+=== Unsupported implementations ===
+Other just-in-time Python compilers have been developed, but are now unsupported:
+
+* Google began a project named [[Unladen Swallow]] in 2009 with the aim of speeding up the Python interpreter fivefold by using the [[LLVM]], and of improving its multithreading ability to scale to thousands of cores.<ref name="AutoNT-74" />
+* [[Psyco]] is a [[Just-in-time compilation|just-in-time]] [[Run-time algorithm specialisation|specialising]] compiler that integrates with CPython and transforms bytecode to machine code at runtime. The emitted code is specialised for certain [[data type]]s and is faster than standard Python code.
+
+In 2005, [[Nokia]] released a Python interpreter for the [[Series 60]] mobile phones named [[PyS60]]. It includes many of the modules from the CPython implementations and some additional modules to integrate with the [[Symbian]] operating system. The project has been kept up-to-date to run on all variants of the S60 platform, and several third-party modules are available. The Nokia [[N900]] also supports Python with [[GTK]] widget libraries, enabling programs to be written and run on the target device.<ref>{{cite web |title=Python on the Nokia N900 |url=http://www.stochasticgeometry.ie/2010/04/29/python-on-the-nokia-n900/|website=Stochastic Geometry}}</ref>
+
+=== Cross-compilers to other languages ===
+There are several compilers to high-level [[object language]]s, with either unrestricted Python, a restricted subset of Python, or a language similar to Python as the source language:
+* [[Jython]] compiles into Java byte code, which can then be executed by every [[Java virtual machine]] implementation. This also enables the use of Java class library functions from the Python program.
+* [[IronPython]] follows a similar approach in order to run Python programs on the .NET [[Common Language Runtime]].
+* The [[RPython]] language can be compiled to [[C (programming language)|C]], [[Java bytecode]], or [[Common Intermediate Language]], and is used to build the PyPy interpreter of Python.
+* [[Pyjs]] compiles Python to [[JavaScript]].
+* [[Cython]] compiles Python to [[C (programming language)|C]] and [[C++]].
+* Pythran compiles Python to [[C++]].
+* Somewhat dated [[Pyrex (programming language)|Pyrex]] (latest release in 2010) and [[Shed Skin]] (latest release in 2013) compile to C and C++ respectively.
+* Google's Grumpy compiles Python to [[Go (programming language)|Go]].
+* [[Nuitka]] compiles Python into C++ <ref>{{cite web|url=http://nuitka.net/|title=Nuitka Home {{!}} Nuitka Home|website=nuitka.net|language=en|access-date=18 August 2017}}</ref>
+
+=== Performance ===
+A performance comparison of various Python implementations on a non-numerical (combinatorial) workload was presented at EuroSciPy '13.<ref>{{cite conference |title=Performance of Python runtimes on a non-numeric scientific code |last=Murri |first=Riccardo |conference=European Conference on Python in Science (EuroSciPy) |year=2013 |arxiv=1404.6388}}</ref>
+Return to Python (programming language).
+					
+						Retrieved from "https://en.wikipedia.org/wiki/Python_(programming_language)"					
+								
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPage informationWikidata item				
+							
+		
+			
+			Languages
+			
+								
+									
+							
+		
+				
+		
+				
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":145,"wgHostname":"mw1332"});});
+	
+

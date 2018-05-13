@@ -1,0 +1,217 @@
+
+
+
+
+Backporting - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Backporting","wgTitle":"Backporting","wgCurRevisionId":797026142,"wgRevisionId":797026142,"wgArticleId":946566,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software maintenance","Software quality","Patch utilities"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Backporting","wgRelevantArticleId":946566,"wgRequestId":"Wr@QqgpAIC4AABIIWzMAAAAO","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q430253","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Backporting			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				Backporting is the action of taking parts from a newer version of a software system or software component and porting them to an older version of the same software. It forms part of the maintenance step in a software development process, and it is commonly used for fixing security issues in older versions of the software and also for providing new features to older versions.
+
+
+
+Contents
+
+
+1 Overview
+2 Procedures
+3 Examples
+4 See also
+5 References
+
+
+
+Overview[edit]
+The simplest and probably most common situation of backporting is a fixed security hole in a newer version of a piece of software. Consider this simplified example:
+
+Software v2.0 had a security vulnerability that is fixed by changing the text 'is_unsecured' to 'is_secured'.
+The same security hole exists in Software v1.0, from which the codebase for the newer version is derived, but there the text may read 'is_notsecure'.
+
+By taking the modification that fixes Software v2.0 and changing it so that it applies to Software v1.0, one has effectively backported the fix.[1]
+In real-life situations, the modifications that a single aspect of the software has undergone may be simple (only a few lines of code have changed) up to heavy and massive (many modifications spread across multiple files of the code). In the latter case, backporting may become tedious and inefficient and should only be undergone if the older version of the software is really needed in favour of the newer (if, for example, the newer version still suffers stability problems that prevent its use in mission-critical situations).[2]
+Procedures[edit]
+The process of backporting can be roughly divided into these steps:[1]
+
+identification of the problem in the older version of the software that needs to be fixed by a backport
+finding out which (usually recent) modification of the code fixed the problem
+adapting the modification to the old code situation (the proper backporting)
+one or several levels of quality control –  testing whether the backported version maintains previous functionality as well as if it properly implements the new functionality.
+
+Usually, multiple such modifications are bundled in a patch set.
+Backports can be provided by the core developer group of the software. Since backporting needs access to the source code of a piece of software, this is the only way that backporting is done for closed source software –  the backports will usually be incorporated in binary upgrades along the old version line of the software. With open-source software, backports are sometimes created by software distributors and later sent upstream (that is, submitted to the core developers of the afflicted software).[2]
+Examples[edit]
+Many features of Windows Vista were backported to Windows XP when Service Pack 3 was released for Windows XP, thereby facilitating compatibility of applications (mostly games) originally with Vista as a minimum requirement to run on XP SP3 as a minimum requirement instead.[3]
+See also[edit]
+
+Retrofitting
+Java backporting tools
+
+References[edit]
+
+
+
+^ a b "Backporting Security Fixes". Red Hat. Retrieved 2013-10-24. 
+^ a b "Staying close to upstream projects". Fedora. Retrieved 2013-10-24. 
+^ Donald Melanson (2007-10-09). "Microsoft backports Vista features for new Windows XP SP3 beta". engadget.com. Retrieved 2013-10-24. 
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Backporting&oldid=797026142"					
+				Categories: Software maintenanceSoftware qualityPatch utilities				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةDeutschEspañolFrançaisItalianoPolskiРусский中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 24 August 2017, at 14:13.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.056","walltime":"0.077","ppvisitednodes":{"value":214,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":4395,"limit":2097152},"templateargumentsize":{"value":75,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3561,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   64.151      1 -total"," 94.06%   60.342      1 Template:Reflist"," 72.73%   46.658      3 Template:Cite_web","  4.22%    2.707      2 Template:Snd","  3.23%    2.074      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.024","limit":"10.000"},"limitreport-memusage":{"value":1778368,"limit":52428800}},"cachereport":{"origin":"mw1250","timestamp":"20180311154241","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":86,"wgHostname":"mw1325"});});
+	
+

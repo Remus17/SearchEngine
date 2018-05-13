@@ -1,0 +1,9 @@
+D:\C#\RIW\SearchEngine.Tools\bin\Debug\netcoreapp2.0\SearchEngine.Tools.deps.json
+D:\C#\RIW\SearchEngine.Tools\bin\Debug\netcoreapp2.0\SearchEngine.Tools.dll
+D:\C#\RIW\SearchEngine.Tools\bin\Debug\netcoreapp2.0\SearchEngine.Tools.pdb
+D:\C#\RIW\SearchEngine.Tools\obj\Debug\netcoreapp2.0\SearchEngine.Tools.csprojResolveAssemblyReference.cache
+D:\C#\RIW\SearchEngine.Tools\obj\Debug\netcoreapp2.0\SearchEngine.Tools.csproj.CoreCompileInputs.cache
+D:\C#\RIW\SearchEngine.Tools\obj\Debug\netcoreapp2.0\SearchEngine.Tools.AssemblyInfoInputs.cache
+D:\C#\RIW\SearchEngine.Tools\obj\Debug\netcoreapp2.0\SearchEngine.Tools.AssemblyInfo.cs
+D:\C#\RIW\SearchEngine.Tools\obj\Debug\netcoreapp2.0\SearchEngine.Tools.dll
+D:\C#\RIW\SearchEngine.Tools\obj\Debug\netcoreapp2.0\SearchEngine.Tools.pdb

@@ -1,0 +1,422 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.9 psp - Python Server Pages
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.8.2 Examples
+Up:
+4. Python API
+Next:
+5. Apache Configuration Directives
+
+
+
+
+ 
+
+4.9 psp - Python Server Pages
+
+
+
+
+The psp module provides a way to convert text documents
+(including, but not limited to HTML documents) containing Python code
+embedded in special brackets into pure Python code suitable for
+execution within a mod_python handler, thereby providing a versatile
+mechanism for delivering dynamic content in a style similar to ASP,
+JSP and others.
+
+
+The parser used by psp is written in C (generated using flex)
+and is therefore very fast.
+
+
+See 6.2 ``PSP Handler'' for additional PSP
+information.
+
+
+Inside the document, Python code needs to be surrounded by
+"<%" and "%>". Python expressions are enclosed in
+"<%=" and "%>". A directive can be enclosed in
+"<%@" and "%>". A comment (which will never be part of
+the resulting code) can be enclosed in "<%--" and "--%>"
+
+Here is a primitive PSP page that demonstrated use of both code and
+expression embedded in an HTML document:
+
+
+
+  <html>
+  <%
+  import time
+  %>
+  Hello world, the time is: <%=time.strftime("%Y-%m-%d, %H:%M:%S")%>
+  </html>
+
+
+
+Internally, the PSP parser would translate the above page into the
+following Python code:
+
+
+
+  req.write("""<html>
+  """)
+  import time
+  req.write("""
+  Hello world, the time is: """); req.write(str(time.strftime("%Y-%m-%d, %H:%M:%S"))); req.write("""
+  </html>
+  """)
+
+
+
+This code, when executed inside a handler would result in a page
+displaying words "Hello world, the time is: " followed by current time.
+
+
+Python code can be used to output parts of the page conditionally or
+in loops. Blocks are denoted from within Python code by
+indentation. The last indentation in Python code (even if it is a
+comment) will persist through the document until either end of
+document or more Python code.
+
+
+Here is an example:
+
+  <html>
+  <%
+  for n in range(3):
+      # This indent will persist
+  %>
+  <p>This paragraph will be 
+  repeated 3 times.</p>
+  <%
+  # This line will cause the block to end
+  %>
+  This line will only be shown once.<br>
+  </html>
+
+
+
+The above will be internally translated to the following Python code:
+
+
+
+  req.write("""<html>
+  """)
+  for n in range(3):
+      # This indent will persist
+      req.write("""
+  <p>This paragraph will be
+  repeated 3 times.</p>
+  """)
+  # This line will cause the block to end
+  req.write("""
+  This line will only be shown once.<br>
+  </html>
+  """)
+
+
+
+The parser is also smart enough to figure out the indent if the last
+line of Python ends with ":" (colon). Considering this, and that the
+indent is reset when a newline is encountered inside "<% %>", the
+above page can be written as:
+
+
+
+  <html>
+  <%
+  for n in range(3):
+  %>
+  <p>This paragraph will be 
+  repeated 3 times.</p>
+  <%
+  %>
+  This line will only be shown once.<br>
+  </html>
+
+
+
+However, the above code can be confusing, thus having descriptive
+comments denoting blocks is highly recommended as a good practice.
+
+
+The only directive supported at this time is include, here is
+how it can be used:
+
+
+
+<%@ include file="/file/to/include"%>
+
+
+
+If the parse() function was called with the dir
+argument, then the file can be specified as a relative path, otherwise
+it has to be absolute.
+
+
+
+  class PSP(
+  req, [, filename, string, vars])
+
+  This class represents a PSP object.
+
+
+req is a request object; filename and string are
+  optional keyword arguments which indicate the source of the PSP
+  code. Only one of these can be specified. If neither is specified,
+  req.filename is used as filename.
+
+
+vars is a dictionary of global variables. Vars passed in the
+  run() method will override vars passed in here.
+
+
+This class is used internally by the PSP handler, but can also be
+  used as a general purpose templating tool.
+
+
+When a file is used as the source, the code object resulting from
+  the specified file is stored in a memory cache keyed on file name
+  and file modification time. The cache is global to the Python
+  interpreter. Therefore, unless the file modification time changes,
+  the file is parsed and resulting code is compiled only once per
+  interpreter.
+
+
+The cache is limited to 512 pages, which depending on the size of
+  the pages could potentially occupy a significant amount of
+  memory. If memory is of concern, then you can switch to dbm file
+  caching. Our simple tests showed only 20% slower performance using
+  bsd db. You will need to check which implementation anydbm
+  defaults to on your system as some dbm libraries impose a limit on
+  the size of the entry making them unsuitable. Dbm caching can be
+  enabled via PSPDbmCache Python option, e.g.:
+
+
+
+PythonOption PSPDbmCache ``/tmp/pspcache.dbm''
+
+  Note that the dbm cache file is not deleted when the server
+  restarts.
+
+
+Unlike with files, the code objects resulting from a string are
+  cached in memory only. There is no option to cache in a dbm file at
+  this time.
+
+
+
+  run(
+  [vars])
+
+    This method will execute the code (produced at object
+    initialization time by parsing and compiling the PSP
+    source). Optional argument vars is a dictionary keyed by
+    strings that will be passed in as global variables.
+
+
+Additionally, the PSP code will be given global variables
+    req, psp, session and form. A session
+    will be created and assigned to session variable only if
+    session is referenced in the code (the PSP handler examines
+    co_names of the code object to make that
+    determination). Remember that a mere mention of session
+    will generate cookies and turn on session locking, which may or
+    may not be what you want. Similarly, a mod_python
+    FieldStorage object will be instantiated if form is
+    referenced in the code.
+
+
+The object passed in psp is an instance of
+    PSPInstance.
+
+
+
+
+
+
+  display_code(
+  )
+
+    Returns an HTML-formatted string representing a side-by-side
+    listing of the original PSP code and resulting Python code
+    produced by the PSP parser. 
+  
+
+
+Here is an example of how PSP can be used as a templating
+  mechanism:
+
+
+The template file:
+  
+<html>
+  <!-- This is a simple psp template called template.html -->
+  <h1>Hello, <%=what%>!</h1>
+</html>
+
+  The handler code:
+  
+from mod_python import apache, psp
+
+def handler(req):
+    template = psp.PSP(req, filename='template.html')
+    template.run({'what':'world'})
+    return apache.OK
+
+
+
+
+
+
+
+  class PSPInstance(
+  )
+
+  An object of this class is passed as a global variable psp to
+  the PSP code. Objects of this class are instantiated internally and
+  the interface to __init__ is purposely undocumented.
+
+
+
+  set_error_page(
+  filename)
+
+    Used to set a psp page to be processed when an exception
+    occurs. If the path is absolute, it will be appended to document
+    root, otherwise the file is assumed to exist in the same directory
+    as the current page. The error page will receive one additional
+    variable, exception, which is a 3-tuple returned by
+    sys.exc_info().
+  
+
+
+
+  apply_data(
+  object[, **kw])
+
+    This method will call the callable object object, passing form
+    data as keyword arguments, and return the result.
+  
+
+
+
+  redirect(
+  location[, permanent=0])
+
+    This method will redirect the browser to location
+    location. If permanent is true, then
+    MOVED_PERMANENTLY will be sent (as opposed to
+    MOVED_TEMPORARILY).
+
+
+Note:
+Redirection can only happen before any data is sent to the
+      client, therefore the Python code block calling this method must
+      be at the very beginning of the page. Otherwise an
+      IOError exception will be raised.
+    
+
+
+Example:
+    
+<%
+
+# note that the '<' above is the first byte of the page!
+psp.redirect('http://www.modpython.org')
+%>
+    
+  
+
+
+
+
+
+Additionally, the psp module provides the following low level
+functions:
+
+
+
+  parse(
+  filename[, dir])
+
+
+
+This function will open file named filename, read and parse its
+  content and return a string of resulting Python code.
+
+
+If dir is specified, then the ultimate filename to be parsed
+  is constructed by concatenating dir and filename, and
+  the argument to include directive can be specified as a
+  relative path. (Note that this is a simple concatenation, no path
+  separator will be inserted if dir does not end with one).
+
+
+
+
+  parsestring(
+  string)
+
+
+
+This function will parse contents of string and return a string
+  of resulting Python code.
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.8.2 Examples
+Up:
+4. Python API
+Next:
+5. Apache Configuration Directives
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

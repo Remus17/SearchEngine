@@ -1,0 +1,105 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.7 PythonHandlerModule
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.6 PythonInterpreter
+Up:
+5.4 Other Directives
+Next:
+5.4.8 PythonAutoReload
+
+
+
+
+ 
+ 
+
+5.4.7 PythonHandlerModule
+
+
+
+Syntax:
+PythonHandlerModule module 
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+PythonHandlerModule can be used an alternative to Python*Handler
+directives. The module specified in this handler will be searched for
+existence of functions matching the default handler function names,
+and if a function is found, it will be executed.
+
+
+For example, instead of:
+
+  PythonAuthenHandler mymodule
+  PythonHandler mymodule
+  PythonLogHandler mymodule
+    
+
+
+one can simply say
+
+  PythonHandlerModule mymodule
+    
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.6 PythonInterpreter
+Up:
+5.4 Other Directives
+Next:
+5.4.8 PythonAutoReload
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

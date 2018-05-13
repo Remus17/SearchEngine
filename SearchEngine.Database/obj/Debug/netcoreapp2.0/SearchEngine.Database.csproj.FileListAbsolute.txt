@@ -1,0 +1,9 @@
+D:\C#\RIW\SearchEngine.Database\bin\Debug\netcoreapp2.0\SearchEngine.Database.deps.json
+D:\C#\RIW\SearchEngine.Database\bin\Debug\netcoreapp2.0\SearchEngine.Database.dll
+D:\C#\RIW\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.csprojResolveAssemblyReference.cache
+D:\C#\RIW\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.csproj.CoreCompileInputs.cache
+D:\C#\RIW\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.AssemblyInfoInputs.cache
+D:\C#\RIW\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.AssemblyInfo.cs
+D:\C#\RIW\SearchEngine.Database\bin\Debug\netcoreapp2.0\SearchEngine.Database.pdb
+D:\C#\RIW\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.dll
+D:\C#\RIW\SearchEngine.Database\obj\Debug\netcoreapp2.0\SearchEngine.Database.pdb

@@ -1,0 +1,474 @@
+
+
+
+
+NOP - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"NOP","wgTitle":"NOP","wgCurRevisionId":832290845,"wgRevisionId":832290845,"wgArticleId":390580,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Machine code","Computing acronyms","X86 instructions","Nothing"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"NOP","wgRelevantArticleId":390580,"wgRequestId":"Wr@eyQpAMFgAAAJoBJwAAAAE","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1791410","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+NOP			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				This article is about the "No Operation" computer instruction. For other uses, see NOP (disambiguation).
+"NOOP" redirects here. For other uses, see NOOP (disambiguation).
+"Null statement" redirects here. It is not to be confused with Null function.
+"Do nothing instruction" redirects here. It is not to be confused with Do Nothing (disambiguation).
+In computer science, a NOP, no-op, or NOOP (pronounced "no op"; short for no operation) is an assembly language instruction, programming language statement, or computer protocol command that does nothing.
+
+
+
+Contents
+
+
+1 Machine set of directions
+2 Code
+
+2.1 Ada
+2.2 C and derivatives
+2.3 Fortran
+2.4 Pascal
+2.5 Python
+2.6 jQuery
+2.7 Angular
+2.8 Shell Scripting (bash, zsh, etc)
+2.9 Lodash
+
+
+3 NOP protocol commands
+4 Cracking
+5 Security exploits
+6 See also
+7 References
+
+
+
+Machine set of directions[edit]
+Some computer instruction sets include an instruction whose explicit purpose is to not change the state of any of the programmer-accessible registers, status flags, or memory. It often takes a well-defined number of clock cycles to execute. In other instruction sets, a NOP can be simulated by executing an instruction having operands that cause the same effect; e.g., on the SPARC processor, the instruction sethi 0, %g0 is the recommended solution.
+A NOP is most commonly used for timing purposes, to force memory alignment, to prevent hazards, to occupy a branch delay slot, to render void an existing instruction such as a jump, or as a place-holder to be replaced by active instructions later on in program development (or to replace removed instructions when reorganizing would be problematic or time-consuming). In some cases, a NOP can have minor side effects; for example, on the Motorola 68000 series of processors, the NOP opcode causes a synchronization of the pipeline.[1]
+Listed below are the NOP instruction for some CPU architectures:
+
+
+CPU architecture
+Instruction Mnemonic
+Bytes
+Opcode
+Notes
+
+
+Intel x86 CPU family
+NOP
+1; 1–9 for i686
+0x90; 0x66 0x90[2]
+0x90 decodes to xchg eax, eax in all modes except long mode, which has no effect. In long mode, the opcode 0x90 has no effect still but is no longer equal to xchg eax, eax.
+
+
+Intel 8051 / MCS-51 family
+NOP
+1
+0x00
+
+
+
+ARM A32
+NOP
+4
+0x00000000
+This stands for andeq r0, r0, r0 which has no effect. The assembly instruction nop will most likely expand to mov r0, r0 which is encoded 0xE1A00000.[3]
+
+
+ARM T32 (16 bit)
+NOP
+2
+0xb000
+Opcode for ADD SP, #0 - Add zero to the stack pointer (No operation). The assembly instruction nop will most likely expand to mov r8, r8 which is encoded 0x46C0.[4]
+
+
+ARM T32 (32 bit)
+NOP
+4
+0xf3af 8000
+
+
+
+ARM A64 (64 bit)
+NOP
+4
+0xd503201f
+
+
+
+IBM System/360, IBM System/370, UNIVAC Series 90
+NOP
+4
+0x47000000 or 0x470nnnnn or 0x47n0nnnn where "n" is any 4-bit value.
+The NOP ("No-Op") and NOPR ("No-Op Register") are a subset of the "Branch on Condition" or "Branch on Condition Register" instructions, respectively, both versions have two options for generating a NO-OP.
+In the case of both the NOP and NOPR instructions, the first 0 in the second byte is the "mask" value, the condition to test such as equal, not equal, high, low, etc. If the mask is 0, no branch occurs.
+In the case of the NOPR instruction, the second value in the second byte is the register to branch on. If register 0 is chosen, no branch occurs regardless of the mask value. Thus, if either of the two values in the second byte is 0, the branch will not happen.
+In the case of the NOP instruction, the second value in the second byte is the "base" register of a combined base register, displacement register and offset address. If the base register is also 0, the branch is not taken regardless of the value of the displacement register or displacement address.
+
+
+
+NOPR
+2
+0x0700 or 0x070n or 0x07n0 where "n" is any 4-bit value.
+
+
+SuperH
+NOP
+2
+0x0009
+
+
+
+MIPS
+NOP
+4
+0x00000000
+Stands for sll r0,r0,0
+
+
+MIPS-X
+NOP
+4
+0x60000019
+(extended opcode for add r0,r0,r0)
+
+
+MIX
+NOP
+1 word
+± * * * * 0
+The * bytes are arbitrary, and can be anything from 0 to the maximum byte (required to be in the range 63-99). MIX uses sign-magnitude representation.
+
+
+MMIX
+SWYM
+4
+0xfd******
+SWYM stands for “Sympathize with your machinery.” The * digits can be chosen arbitrarily.
+
+
+Motorola 68000 family
+NOP
+2
+0x4e71
+This synchronizes the pipeline and prevents instruction overlap.[1]
+
+
+Motorola 6809
+NOP
+1
+0x12
+
+
+
+MOS Technology 65xx (e.g. 6502)
+NOP
+1
+0xea
+NOP consumes two clock cycles.  Undefined opcodes in the NMOS versions of the 65xx family were converted to be NOPs of varying instruction lengths and cycle times in the 65C02.
+
+
+PowerPC
+NOP
+4
+0x60000000
+(extended opcode for ori r0,r0,0)
+
+
+PIC microcontroller
+NOP
+12 bits
+0b000000000000
+
+
+
+SPARC
+NOP
+4
+0x01000000
+Stands for sethi 0, %g0 which zeroes the %g0 register[5] (this has no effect because this SPARC register is hardwired to zero)
+
+
+Z80
+NOP
+1
+0x00
+There are some other instructions without any effect (and the same timing): LD A, A, LD B, B etc.
+
+
+PDP-11
+NOP
+16 bits
+000240 (octal)
+
+
+VAX
+NOP
+1
+0x01
+Delay is dependent on processor type
+
+
+From a hardware design point of view, unmapped areas of a bus are often designed to return zeroes; since the NOP slide behavior is often desirable, it gives a bias to coding it with the all-zeroes opcode.
+Code[edit]
+NOP is sometimes used as a description for the action performed by a function or a sequence of programming language statements if the function or code has no effect (it might also be called redundant code). A common compiler optimization is the detection and removal of this kind of code. Such code may be required by the grammar of the programming language, which does not allow a blank.
+Ada[edit]
+In Ada, the null statement serves as a NOP.[6] As the syntax forbids that control statements or functions be empty, the null statement must be used to specify that no action is required. (Thus, if the programmer forgets to write a sequence of statements, the program will fail to compile.)
+C and derivatives[edit]
+The second line below is an example of a single C statement that behaves like a NOP. In practice, most compilers will not generate code for this statement:
+
+  int i = 0;
+  i+1;
+
+This statement performs an addition and discards the result. Indeed, any statement without side effects (and that does not affect control flow, e.g., break, return) can be removed, as the result of the computation is discarded.
+The simplest possible statement in C that behaves like a NOP is the so-called null statement, which is just a semi-colon in a context requiring a statement. (A compiler is not required to generate a NOP instruction in this case; typically, no instructions whatsoever would be generated.)
+
+  ;
+
+Alternatively, an empty block (compound statement) may be used, and may be more legible:
+
+  {}
+
+In some cases, such as the body of a function, a block must be used, but this can be empty. In C, statements cannot be empty – simple statements must end with a ; (semicolon) while compound statements are enclosed in {} (braces), which does not itself need a following semicolon. Thus in contexts where a statement is grammatically required, some such null statement can be used.
+The null statement is useless by itself, but it can have a syntactic use in a wider context, e.g., within the context of a loop:
+
+
+  while (getchar() != '\n') {}
+
+alternatively,
+
+
+  while (getchar() != '\n')
+      ;
+
+or more tersely:
+
+
+  while (getchar() != '\n');
+
+(note that the last form may be confusing, and as such generates a warning with some compilers or compiler options, as semicolon usually indicates an end of function call instruction when placed after a round parenthesis on the end of line).
+The above code continues calling the function getchar() until it returns a \n (newline) character, essentially fast-forwarding the current reading location of standard input to the beginning of next line.
+Fortran[edit]
+In Fortran, the CONTINUE statement is used in some contexts such as the last statement in a DO loop, although it can be used anywhere, and does not have any functionality.
+Pascal[edit]
+As with C, the ; used by itself can be used as a null statement. In fact, due to the specification of the language, in a BEGIN / END block, the semicolon is optional before the END statement, thus a semicolon used there is superfluous.
+Also, a block consisting of BEGIN END; may be used as a placeholder to indicate no action, even if placed inside another BEGIN / END block.
+Python[edit]
+The Python programming language has a pass statement which has no effect when executed and thus serves as a NOP. It is primarily used to ensure correct syntax due to Python's indentation-sensitive syntax; for example the syntax for definition of a class requires an indented block with the class logic, which has to be expressed as pass when it should be empty.
+jQuery[edit]
+The jQuery library provides a function jQuery.noop(), which does nothing.[7]
+Angular[edit]
+The Angular framework provides angular.noop function that performs no operations.
+Shell Scripting (bash, zsh, etc)[edit]
+The ':' [colon] character is a shell builtin that has similar effect to a "NOP" (a do-nothing operation). It's not technically an NOP, as it changes the special parameter $? (exit status of last command) to 0. It may be considered a synonym for the shell builtin 'true', and its exit status is true (0).[8][9][10]
+Lodash[edit]
+The Lodash library provides a function _.noop(), which returns undefined and does nothing.[11]
+NOP protocol commands[edit]
+Many computer protocols, such as telnet, include a NOP command that a client can issue to request a response from the server without requesting any other actions. Such a command can be used to ensure the connection is still alive or that the server is responsive. A NOOP command is part of the following protocols (this is a partial list):
+
+telnet
+FTP
+SMTP
+X11
+POP3
+NNTP
+finger
+IMAP4
+BitTorrent
+Character encoding: the null control character
+
+Note that unlike the other protocols listed, the IMAP4 NOOP command has a specific purpose - it allows the server to send any pending notifications to the client.
+While most telnet or FTP servers respond to a NOOP command with "OK" or "+OK", some programmers have added quirky responses to the client. For example, the ftpd daemon of MINIX responds to NOOP with the message:[12]
+
+200 NOOP to you too!
+
+Cracking[edit]
+NOPs are often involved when cracking software that checks for serial numbers, specific hardware or software requirements, presence or absence of hardware dongles, etc. This is accomplished by altering functions and subroutines to bypass security checks and instead simply return the expected value being checked for. Because most of the instructions in the security check routine will be unused, these would be replaced with NOPs, thus removing the software's security functionality without attracting any attention.
+Security exploits[edit]
+The NOP opcode can be used to form a NOP slide, which allows code to execute when the exact value of the instruction pointer is indeterminate (e.g., when a buffer overflow causes a function's return address on the stack to be overwritten).
+See also[edit]
+
+Computer architecture
+HLT (x86 instruction)
+Identity function – the functional programming equivalent to NOOP
+xyzzy (command) – a command sometimes used instead of NOOP
+IEFBR14
+Filler text
+Comment (computer programming) – annotations generally for programmers that are ignored by compilers and interpreters
+
+References[edit]
+
+
+
+^ a b "Motorola 68000 Programmer's Reference Manual" (PDF). 
+^ "Intel 64 and IA-32 Architectures Software Developer's Manual: Instruction Set Reference A-Z" (PDF). Retrieved 2012-03-01. 
+^ ARM Information Center - a32 nop
+^ ARM Information Center - t32 nop
+^ Weaver, D. L.; Germond, T., eds. (1994). The SPARC Architecture Manual, Version 9 (PDF). SPARC International, Inc. Prentice Hall. ISBN 0-13-825001-4. Archived from the original (PDF) on 2012-01-18. Retrieved 2014-01-09. Note that NOP is a special case of the SETHI instruction, with imm22 = 0 and rd = 0. 
+^ Ada Reference Manual — null statements. "The execution of a null_statement has no effect."
+^ jQuery.noop() from jQuery API documentation
+^ Advanced Bash-Scripting Guide > Chapter 3. Special Characters
+^ bash manpage > SHELL BUILTIN COMMANDS
+^ zsh manpage (zshbuiltins) > SHELL BUILTIN COMMANDS
+^ "Lodash Documentation". lodash.com. Retrieved 2017-12-15. 
+^ "ftpd.c". Retrieved 2016-06-19. 
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=NOP&oldid=832290845"					
+				Categories: Machine codeComputing acronymsX86 instructionsNothing				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					DeutschFrançais한국어ItalianoNederlands日本語PolskiPortuguêsРусскийУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 25 March 2018, at 01:38.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.128","walltime":"0.175","ppvisitednodes":{"value":494,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":8693,"limit":2097152},"templateargumentsize":{"value":67,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":9017,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  134.959      1 -total"," 54.67%   73.778      1 Template:Reflist"," 31.88%   43.023      4 Template:Cite_web"," 25.95%   35.025      1 Template:About","  6.32%    8.535      1 Template:Redirect","  6.31%    8.513      2 Template:Redirect-distinguish","  4.16%    5.611      1 Template:Cite_book","  1.33%    1.798      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.053","limit":"10.000"},"limitreport-memusage":{"value":2890523,"limit":52428800}},"cachereport":{"origin":"mw1258","timestamp":"20180331105826","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":72,"wgHostname":"mw1253"});});
+	
+

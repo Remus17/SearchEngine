@@ -1,0 +1,626 @@
+
+
+
+
+Metaprogramming - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Metaprogramming","wgTitle":"Metaprogramming","wgCurRevisionId":824504288,"wgRevisionId":824504288,"wgArticleId":393460,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from August 2011","All articles needing additional references","Wikipedia articles needing style editing from February 2017","All articles needing style editing","Articles with multiple maintenance issues","All articles with unsourced statements","Articles with unsourced statements from August 2011","Metaprogramming","Programming paradigms"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Metaprogramming","wgRelevantArticleId":393460,"wgRequestId":"Wr9nwgpAICgAAI19zr8AAABN","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q661075","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Metaprogramming			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				This article is about the computer programming technique. For the management technique, see Charles Simonyi.
+
+
+
+
+
+
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (August 2011) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+
+
+This article's tone or style may not reflect the encyclopedic tone used on Wikipedia. See Wikipedia's guide to writing better articles for suggestions. (February 2017) (Learn how and when to remove this template message)
+
+
+
+
+
+(Learn how and when to remove this template message)
+
+
+
+
+
+Programming paradigms
+
+
+
+
+Action
+Agent-oriented
+Array-oriented
+Automata-based
+Concurrent computing
+
+Relativistic programming
+
+
+Data-driven
+Declarative (contrast: Imperative)
+
+Functional
+
+Functional logic
+Purely functional
+
+
+Logic
+
+Abductive logic
+Answer set
+Concurrent logic
+Functional logic
+Inductive logic
+
+
+Constraint
+
+Constraint logic
+
+Concurrent constraint logic
+
+
+
+
+Dataflow
+
+Flow-based
+Cell-oriented (spreadsheets)
+Reactive
+
+
+
+
+Dynamic/scripting
+Event-driven
+
+Service-oriented
+Time-driven
+
+
+Function-level (contrast: Value-level)
+
+Point-free style
+
+Concatenative
+
+
+
+
+Generic
+Imperative (contrast: Declarative)
+
+Procedural
+Object-oriented
+
+
+Literate
+Language-oriented
+
+Natural-language programming
+Discipline-specific
+Domain-specific
+Grammar-oriented
+Intentional
+
+
+Metaprogramming
+
+Automatic
+
+Inductive programming
+
+
+Reflective
+
+Attribute-oriented
+
+
+Homoiconic
+Macro
+Template
+
+
+Non-structured (contrast: Structured)
+
+Array
+
+
+Nondeterministic
+Parallel computing
+
+Process-oriented
+
+
+Probabilistic
+Structured (contrast: Non-structured)
+
+Block-structured
+Modular (contrast: Monolithic)
+Object-oriented
+
+Actor-based
+Class-based
+Concurrent
+Prototype-based
+By separation of concerns:
+
+Aspect-oriented
+Role-oriented
+Subject-oriented
+
+
+
+
+Recursive
+
+
+Value-level (contrast: Function-level)
+Quantum programming
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+Metaprogramming is a programming technique in which computer programs have the ability to treat programs as their data. It means that a program can be designed to read, generate, analyse or transform other programs, and even modify itself while running.[1][2] In some cases, this allows programmers to minimize the number of lines of code to express a solution, thus reducing the development time.[3] It also allows programs greater flexibility to efficiently handle new situations without recompilation.
+Metaprogramming can be used to move computations from run-time to compile-time, to generate code using compile time computations, and to enable self-modifying code. The language in which the metaprogram is written is called the metalanguage. The language of the programs that are manipulated is called the attribute-oriented programming language. The ability of a programming language to be its own metalanguage is called reflection or "reflexivity".[4] Reflection is a valuable language feature to facilitate metaprogramming.
+Metaprogramming was popular in the 1970s and 1980s using list processing languages such as LISP. LISP hardware machines were popular in the 1980s and enabled applications that could process code. They were frequently used for artificial intelligence applications.
+
+
+
+Contents
+
+
+1 Approaches
+2 Examples
+3 Support and challenges
+4 Uses in programming languages
+
+4.1 Macro systems
+
+4.1.1 Macro assemblers
+
+
+4.2 Metaclasses
+4.3 Template metaprogramming
+4.4 Staged metaprogramming
+4.5 With dependent types
+
+
+5 Implementations
+6 See also
+7 References
+8 External links
+
+
+
+Approaches[edit]
+Metaprogramming enables developers to write programs and develop code that falls under the generic programming paradigm. Having the programming language itself as a first-class data type (as in Lisp, Prolog, SNOBOL, or Rebol) is also very useful; this is known as homoiconicity. Generic programming invokes a metaprogramming facility within a language by allowing one to write code without the concern of specifying data types since they can be supplied as parameters when used.
+Metaprogramming usually works in one of three ways.[5]
+
+The first approach is to expose the internals of the run-time engine to the programming code through application programming interfaces (APIs) like that for the .NET IL emitter.
+The second approach is dynamic execution of expressions that contain programming commands, often composed from strings, but can also be from other methods using arguments or context, like Javascript.[6] Thus, "programs can write programs." Although both approaches can be used in the same language, most languages tend to lean toward one or the other.
+The third approach is to step outside the language entirely. General purpose program transformation systems such as compilers, which accept language descriptions and carry out arbitrary transformations on those languages, are direct implementations of general metaprogramming. This allows metaprogramming to be applied to virtually any target language without regard to whether that target language has any metaprogramming abilities of its own. One can see this at work with Scheme and how it allows to tackle some limitations faced in C by using constructs that were part of the Scheme language itself to extend C.[7]
+
+Examples[edit]
+A simple example of a metaprogram is this POSIX Shell script, which is an example of generative programming:
+
+
+#!/bin/sh
+# metaprogram
+echo '#!/bin/sh' > program
+for i in $(seq 992)
+do
+    echo "echo $i" >> program
+done
+chmod +x program
+
+This script (or program) generates a new 993-line program that prints out the numbers 1–992. This is only an illustration of how to use code to write more code; it is not the most efficient way to print out a list of numbers. Nonetheless, a programmer can write and execute this metaprogram in less than a minute, and will have generated exactly 1000 lines of code in that amount of time.
+A quine is a special kind of metaprogram that produces its own source code as its output. Quines are generally of recreational or theoretical interest only.
+Not all metaprogramming involves generative programming. If programs are modifiable at runtime or if incremental compilation is available (such as in C#, Forth, Frink, Groovy, JavaScript, Lisp, Elixir, Lua, Perl, PHP, Python, REBOL, Ruby, SAS, Smalltalk, and Tcl), then techniques can be used to perform metaprogramming without actually generating source code.
+Lisp is probably the quintessential language with metaprogramming facilities, both because of its historical precedence and because of the simplicity and power of its metaprogramming. In Lisp metaprogramming, the unquote operator (typically a comma) introduces code that is evaluated at program definition time rather than at run time; see Self-evaluating forms and quoting in Lisp. The metaprogramming language is thus identical to the host programming language, and existing Lisp routines can be directly reused for metaprogramming, if desired.
+This approach has been implemented in other languages by incorporating an interpreter in the program, which works directly with the program’s data. There are implementations of this kind for some common high-level languages, such as RemObjects’ Pascal Script for Object Pascal.
+One style of metaprogramming is to employ domain-specific languages (DSLs). A fairly common example of using DSLs involves generative metaprogramming: lex and yacc, two tools used to generate lexical analyzers and parsers, let the user describe the language using regular expressions and context-free grammars, and embed the complex algorithms required to efficiently parse the language.
+Support and challenges[edit]
+One of the benefits of metaprogramming is that it increases the productivity of developers once they get past the convention over configuration phase in the learning phase. Some argue that there is a sharp learning curve to make complete use of the metaprogramming features and to take advantage of it.[8] Since metaprogramming gives more flexibility and configurability at runtime, misuse or incorrect use of the metaprogramming can result in unwarranted and unexpected errors that can be extremely difficult to debug to an average developer. It can introduce risks in the system and make it more vulnerable if not used with care. Some of the common problems which can occur due to wrong use of metaprogramming are inability of the compiler to identify missing configuration parameters, invalid or incorrect data can result in unknown exception or different results.[9] Due to this, some believe[8] that only high-skilled developers should work on developing features which exercise metaprogramming in a language or platform and average developers must learn how to use these features as part of convention.
+Uses in programming languages[edit]
+Macro systems[edit]
+
+Scheme hygienic macros
+MacroML
+Template Haskell
+Scala macros
+
+Macro assemblers[edit]
+The IBM/360 and derivatives had powerful macro assembler facilities that were often used to generate complete assembly language programs[citation needed] or sections of programs (for different operating systems for instance). Macros provided with CICS transaction processing system had assembler macros that generated COBOL statements as a pre-processing step.
+Other assemblers, such as MASM, also support macros.
+Metaclasses[edit]
+Metaclasses are provided by the following programming languages:
+
+Python
+Nil
+Groovy
+Ruby
+
+Template metaprogramming[edit]
+Main article: Template metaprogramming
+
+C "X Macros"
+C++ Templates
+D
+
+Staged metaprogramming[edit]
+
+MetaML
+MetaOCaml
+Scala using the Lightweight Modular Staging Framework[10][11]
+
+With dependent types[edit]
+
+Usage of dependent types allows proving that generated code is never invalid.[12] However, this approach is bleeding-edge and is rarely found outside of research programming languages.
+
+Implementations[edit]
+See also: List of Program Transformation Systems
+
+
+ASF+SDF Meta Environment
+DMS Software Reengineering Toolkit
+Joose (JavaScript)
+JetBrains MPS
+Moose (Perl)
+Nemerle
+Rascal Metaprogramming Language
+Stratego/XT
+Template Haskell
+
+
+See also[edit]
+
+
+Computer Science portal
+Information technology portal
+
+
+
+
+Aspect weaver
+Comparison of code generation tools
+Compile-time reflection
+Genetic programming
+Homoiconicity
+Inferential programming
+Instruction set simulator
+Intentional Programming
+Interpreted language
+Machine learning
+Metacompiler
+Metaobject
+Partial evaluation
+Reflection (computer programming)
+Self-interpreter
+Self-modifying code
+Source code generation
+
+Source-to-source compilation: automated translation from one programming language to another
+
+
+
+
+References[edit]
+
+
+
+^ Harald Sondergaard. "Course on Program Analysis and Transformation". Retrieved 18 September 2014. 
+^ Czarnecki, Krzysztof; Eisenecker, Ulrich W. (2000). Generative Programming. ISBN 0-201-30977-7. 
+^ Walker, Max. "The Art of Metaprogrmming in Java". New Circle. Retrieved 28 January 2014. 
+^ Krauss, Aaron. "Programming Concepts: Type Introspection and Reflection". The Societa. Retrieved 14 September 2014. 
+^ Joshi, Prateek. "What Is Metaprogramming? – Part 2/2". Perpetual Enigma. Retrieved 14 August 2014. 
+^ for example, instance_eval in Ruby takes a string or an anonymous function. "Rdoc for Class: BasicObject (Ruby 1.9.3) - instance_eval". Retrieved 30 December 2011. 
+^ "Art of Metaprogramming". 
+^ a b Bicking, Ian. "The challenge of metaprogramming". IanBicking.org. Retrieved 21 September 2016. 
+^ Terry, Matt. "Beware of Metaprogramming". Medium.com. Medium Corporation. Retrieved 21 August 2014. 
+^ "LMS: Program Generation and Embedded Compilers in Scala". scala-lms.github.io. Retrieved 2017-12-06. 
+^ Rompf, Tiark; Odersky, Martin (June 2012). "Lightweight Modular Staging: A Pragmatic Approach to Runtime Code Generation and Compiled DSLs". Commun. ACM. 55 (6): 121–130. doi:10.1145/2184319.2184345. ISSN 0001-0782. 
+^ Chlipala, Adam (June 2010). "Ur: statically-typed metaprogramming with type-level record computation" (PDF). ACM SIGPLAN Notices. PLDI '10. 45 (6): 122–133. doi:10.1145/1809028.1806612. Retrieved 29 August 2012. 
+
+
+
+External links[edit]
+
+c2.com Wiki: Metaprogramming article
+Meta Programming on the Program Transformation Wiki
+Code generation Vs Metaprogramming
+"Solenoid": The first metaprogramming framework for eXist-db
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Types of programming languages
+
+
+
+
+
+
+Actor-based
+Array
+Aspect-oriented
+Class-based
+Concatenative
+Concurrent
+Data-structured
+Dataflow
+Declarative
+Domain-specific
+Dynamic
+Esoteric
+Event-driven
+Extensible
+Functional
+Imperative
+Logic
+Macro
+Metaprogramming
+Multi-paradigm
+Object-based
+Object-oriented
+Pipeline
+Procedural
+Prototype-based
+Reflective
+Rule-based
+Scripting
+Synchronous
+Templating
+
+
+
+
+
+
+
+
+Assembly
+Compiled
+Interpreted
+Machine
+
+
+
+
+
+
+
+
+Low-level
+High-level
+Very high-level
+
+
+
+
+
+
+
+
+First generation
+Second generation
+Third generation
+Fourth generation
+Fifth generation
+
+
+
+
+
+
+
+
+Non-English-based
+Visual
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Metaprogramming&oldid=824504288"					
+				Categories: MetaprogrammingProgramming paradigmsHidden categories: Articles needing additional references from August 2011All articles needing additional referencesWikipedia articles needing style editing from February 2017All articles needing style editingArticles with multiple maintenance issuesAll articles with unsourced statementsArticles with unsourced statements from August 2011				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةБългарскиČeštinaDeutschEestiΕλληνικάEspañolEsperantoFrançais한국어ՀայերենMagyarNederlands日本語NorskPolskiPortuguêsRomânăРусскийСрпски / srpskiไทยУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 7 February 2018, at 19:19.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.288","walltime":"0.390","ppvisitednodes":{"value":1265,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":67457,"limit":2097152},"templateargumentsize":{"value":6216,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":13396,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  313.730      1 -total"," 37.00%  116.091      1 Template:Reflist"," 22.34%   70.093      3 Template:Ambox"," 22.26%   69.845      9 Template:Cite_web"," 20.25%   63.538      1 Template:Multiple_issues"," 11.99%   37.604      1 Template:About","  7.67%   24.056      1 Template:Citation_needed","  6.90%   21.659      1 Template:Refimprove","  6.68%   20.954      1 Template:Fix","  4.94%   15.494      2 Template:Cite_journal"]},"scribunto":{"limitreport-timeusage":{"value":"0.132","limit":"10.000"},"limitreport-memusage":{"value":4665562,"limit":52428800}},"cachereport":{"origin":"mw1261","timestamp":"20180331103044","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":95,"wgHostname":"mw1319"});});
+	
+

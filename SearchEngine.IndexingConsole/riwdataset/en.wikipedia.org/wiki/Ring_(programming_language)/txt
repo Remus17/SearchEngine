@@ -1,0 +1,596 @@
+
+
+
+
+Ring (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Ring_(programming_language)","wgTitle":"Ring (programming language)","wgCurRevisionId":827449559,"wgRevisionId":827449559,"wgArticleId":52912829,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Programming languages","Natural programming","Cross-platform free software","Programming languages created in 2016","High-level programming languages","2016 software","Dynamic programming languages","Dynamically typed programming languages","Scripting languages","Egyptian inventions","Free software projects","Object-oriented programming languages","Functional languages","Software using the MIT license","Free software programmed in C","Free computer libraries","Embedded systems","Educational programming languages","Text-oriented programming languages","Video game development software","Programming tools for Windows","Linux programming tools","Mac OS development","MacOS development","Multi-paradigm programming languages","Stack-oriented programming languages","Extensible syntax programming languages"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Ring_(programming_language)","wgRelevantArticleId":52912829,"wgRequestId":"WsGIfQpAMFkAAGGZ@8wAAABB","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q25462748","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Ring (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+Ring
+
+Paradigm
+multi-paradigm: object-oriented, imperative, functional, procedural, reflective, Declarative, Natural language programming
+
+
+Designed by
+Mahmoud Fayed
+
+
+Developer
+The Ring Development Team
+
+
+First appeared
+2016; 2 years ago (2016)
+
+
+
+
+
+Stable release
+
+1.7 / January 25, 2018; 2 months ago (2018-01-25)
+
+
+
+
+
+
+Typing discipline
+Dynamic, weak
+
+
+Implementation language
+C (primarily; some components C++)
+
+
+OS
+Linux, Mac OS X and Microsoft Windows
+
+
+License
+MIT License
+
+
+Filename extensions
+.ring, .rh, .rform
+
+
+Website
+http://ring-lang.net
+
+
+Influenced by
+
+
+Lua, Python, Ruby, C, C#, BASIC, QML, xBase, Supernova[1]
+
+
+
+
+ Ring at Wikibooks
+
+
+
+
+Ring is a dynamic and general-purpose programming language. It can be embedded in C/C++ projects, extended using C/C++ code and/or used as a standalone language. The supported programming paradigms are imperative, procedural, object-oriented, functional, meta, declarative using nested structures, and natural programming. The language is portable (Windows, Linux, Mac OS X, Android, etc.) and can be used to create console, GUI, web, game and mobile applications.[2][3][4][5][6][7][8] [9] [10]
+
+
+
+Contents
+
+
+1 History
+2 Goals
+3 Hello World Program
+4 References
+5 External links
+
+
+
+History[edit]
+
+In November 2011, the idea of the new language was conceived.
+In Sept. 2013, the design and the implementation was started.
+In April 2015, the language name was selected.
+In May 2015, the compiler was implemented.
+In Sept. 2015, the documentation was done.
+In January 2016, Ring 1.0 was released.
+In October 2016, Ring 1.1 was released.
+In January 25, 2017, Ring 1.2 was released.
+In May 15, 2017, Ring 1.3 was released.
+In June 29, 2017, Ring 1.4 was released.
+In August 21, 2017, Ring 1.5 was released.
+In November 30, 2017, Ring 1.6 was released.
+In January 25, 2018, Ring 1.7 was released.
+
+[11] [12]
+Goals[edit]
+
+Applications programming language.
+Productivity and developing high quality solutions that can scale.
+Small and fast language that can be embedded in C/C++ projects.
+Simple language that can be used in education and introducing Compiler/VM concepts.
+General-Purpose language that can be used for creating domain-specific libraries, frameworks and tools.
+Practical language designed for creating the next version of the Programming Without Coding Technology software.
+
+[13] [14] [15][16][17]
+Hello World Program[edit]
+The same program can be written using different styles.
+The first style
+
+See "Hello, World!"
+
+The Second style
+
+Put "Hello, World!"
+
+The Third style
+
+Load "stdlib.ring"
+Print("Hello, World!")
+
+[18] [19][20][21] [22]
+References[edit]
+
+
+^ Ring Team (3 December 2017). "Ring and other languages". ring-lang.net. 
+^ RosettaCode (18 January 2017). "Ring Samples (RosettaCode)". rosettacode.org. Rosetta_Code. 
+^ Wikibooks (18 January 2017). "Ring Book (Wikibooks)". en.wikibooks.org. Wikibooks. 
+^ Majdi Sobain (2 June 2017). "Ring Extension". sourceforge.org. Sourceforge. 
+^ Majdi Sobain (2 May 2017). "Squares Puzzle using RingAllegro". codeproject.com. Code_Project. 
+^ Hany Salah (11 January 2016). "Ring: A New programming language". youm7.com. youm7. 
+^ Ilya Bubnov (12 December 2017). "5 languages for 5 years". geekbrains. 
+^ Ciklum (12 December 2017). "New Programming Languages – A Hype Or Reality?". ciklum.com. Ciklum. 
+^ Lea Karam (25 February 2017). "New programming languages that grab my attention!". In Agile web and app development. 
+^ SafeStars Team (5 July 2017). "Code Review: The Evolution of Computer Programming". Education. 
+^ Rubin Liu (7 February 2018). "The evolution of the Ring programming language". codeproject.com. Code_Project. 
+^ Ring Team (18 January 2017). "Ring Reference". ring-lang.net. 
+^ Mones Hawas (23 November 2016). "Using the Ring programming language to develop PWCT 2.0". youm7.com. youm7. 
+^ Ring Team (18 January 2017). "Ring Reference". ring-lang.net. 
+^ Werdy Team (2 June 2017). "Werdy Application (Developed using Ring)". Werdy Team. GitHub. 
+^ TIOBE Index (9 Mar 2017). "TIOBE Index". tiobe.com. TIOBE_index. 
+^ Ring Team (9 Mar 2017). "Ring programming language in TIOBE Index (Top 100 programming languages)". ring-lang.net. 
+^ Rubin Liu (28 December 2017). "Different styles for writing Hello World program in the Ring programming language". codeproject.com. Code_Project. 
+^ Amr Essam (12 December 2017). "Amr Essam Tutorials". ribdev. 
+^ Belal Mohammed (12 December 2017). "Belal Mohammed Tutorials". geeksboard. 
+^ Sara Hamdy (12 December 2017). "Sara Hamdy Tutorials". ringprogramming4arab. 
+^ CodeProject (18 January 2017). "Syntax Flexibility in Ring (Article)". Code_Project. 
+
+
+External links[edit]
+
+Ring home page
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Free and open-source software
+
+
+
+General
+
+
+
+Alternative terms for free software
+Comparison of open-source and closed-source software
+Comparison of source code hosting facilities
+Free software
+Free software project directories
+Gratis versus libre
+Long-term support
+Open-source software
+Open-source software development
+Outline
+
+
+
+
+
+Software
+packages
+
+
+
+Audio
+Bioinformatics
+Codecs
+Collaboration
+Configuration management
+Device drivers
+
+Graphics
+Wireless
+
+
+Geophysics
+Health
+Mathematics
+Operating systems
+Programming languages
+Routing
+Statistics
+Television
+Video games
+Web applications
+
+Content management systems
+E-commerce
+
+
+Word processors
+Android apps
+iOS apps
+Commercial
+Trademarked
+Formerly proprietary
+
+
+
+
+
+Community
+
+
+
+Free software movement
+History
+Open-source software movement
+Organizations
+Events
+
+
+
+
+
+Licenses
+
+
+
+AFL
+Apache
+APSL
+Artistic
+Beerware
+Boost
+BSD
+CC0
+CDDL
+EPL
+Free Software Foundation
+
+GNU GPL
+GNU LGPL
+
+
+ISC
+MIT
+MPL
+Ms-PL/RL
+Python
+Python Software Foundation License
+Sleepycat
+Unlicense
+WTFPL
+zlib
+
+
+
+
+
+License types
+and standards
+
+
+
+Comparison of free and open-source software licenses
+Contributor License Agreement
+Copyleft
+Debian Free Software Guidelines
+Definition of Free Cultural Works
+Free license
+The Free Software Definition
+The Open Source Definition
+Open-source license
+Permissive software licence
+Public domain
+Viral license
+
+
+
+
+
+Challenges
+
+
+
+Binary blob
+Digital rights management
+Hardware restrictions
+License proliferation
+Mozilla software rebranding
+Proprietary software
+SCO/Linux controversies
+Secure boot
+Software patents
+Software security
+Trusted Computing
+
+
+
+
+
+Related topics
+
+
+
+The Cathedral and the Bazaar
+Forking
+Microsoft Open Specification Promise
+Open-source hardware
+Revolution OS
+
+
+
+
+
+
+
+
+ Book
+ Category
+ Commons
+ Portal
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Programming languages
+
+
+
+
+
+
+Comparison
+Timeline
+History
+
+
+
+
+
+
+
+
+APL
+Assembly
+BASIC
+C
+C++
+C#
+COBOL
+Fortran
+Go
+Groovy
+Haskell
+Java
+JavaScript (JS)
+Lisp
+Lua
+Objective-C
+Pascal
+Perl
+PHP
+Python
+Ruby
+Shell
+Smalltalk
+Swift
+Visual Basic .NET (VB.NET)
+more...
+
+
+
+
+
+
+
+
+ Category
+ Lists
+
+Alphabetical
+Categorical
+Generational
+Non-English-based
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Ring_(programming_language)&oldid=827449559"					
+				Categories: Programming languagesNatural programmingCross-platform free softwareProgramming languages created in 2016High-level programming languages2016 softwareDynamic programming languagesDynamically typed programming languagesScripting languagesEgyptian inventionsFree software projectsObject-oriented programming languagesFunctional languagesSoftware using the MIT licenseFree software programmed in CFree computer librariesEmbedded systemsEducational programming languagesText-oriented programming languagesVideo game development softwareProgramming tools for WindowsLinux programming toolsMac OS developmentMacOS developmentMulti-paradigm programming languagesStack-oriented programming languagesExtensible syntax programming languages				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربية				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 24 February 2018, at 20:09.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.256","walltime":"0.312","ppvisitednodes":{"value":1604,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":72432,"limit":2097152},"templateargumentsize":{"value":2151,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":23599,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  262.708      1 -total"," 48.56%  127.584      2 Template:Infobox"," 40.03%  105.151     22 Template:Cite_web"," 38.85%  102.052      1 Template:Infobox_programming_language"," 13.88%   36.470      1 Template:Infobox_software/simple"," 12.01%   31.540      2 Template:Start_date_and_age","  7.80%   20.498      2 Template:Navbox","  7.06%   18.551      1 Template:FOSS","  4.65%   12.217      1 Template:Time_ago","  3.73%    9.793      6 Template:Icon"]},"scribunto":{"limitreport-timeusage":{"value":"0.121","limit":"10.000"},"limitreport-memusage":{"value":3668014,"limit":52428800}},"cachereport":{"origin":"mw1332","timestamp":"20180402011725","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":68,"wgHostname":"mw1254"});});
+	
+

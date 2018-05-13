@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.4 Connection Object (mp_conn) 
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.3.2 Request Members
+Up:
+4.5 apache - Access
+Next:
+4.5.4.1 Connection Methods
+
+
+
+
+ 
+
+4.5.4 Connection Object (mp_conn) 
+
+
+
+The connection object is a Python mapping to the Apache conn_rec
+structure.
+
+
+
+
+
+Subsections
+
+
+4.5.4.1 Connection Methods
+4.5.4.2 Connection Members
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.3.2 Request Members
+Up:
+4.5 apache - Access
+Next:
+4.5.4.1 Connection Methods
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

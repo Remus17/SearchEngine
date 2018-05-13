@@ -1,0 +1,132 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.2 Table Object (mp_table) 
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.1 Functions
+Up:
+4.5 apache - Access
+Next:
+4.5.3 Request Object 
+
+
+
+
+ 
+
+4.5.2 Table Object (mp_table) 
+
+
+
+ 
+
+  class table(
+  [mapping-or-sequence])
+
+  Returns a new empty object of type mp_table. See Section
+  4.5.2 for description of the table object. The
+  mapping-or-sequence will be used to provide initial values for
+  the table.  
+
+
+The table object is a wrapper around the Apache APR table. The table
+  object behaves very much like a dictionary (including the Python 2.2
+  features such as support of the in operator, etc.), with the 
+  following differences:
+
+
+
+
+Both keys and values must be strings.
+
+Key lookups are case-insensitive.
+
+Duplicate keys are allowed (see add() below). When there is
+    more than one value for a key, a subscript operation returns a list.
+  
+
+
+
+
+Much of the information that Apache uses is stored in tables. For
+  example, req.headers_in and req.headers_out.
+
+
+All the tables that mod_python provides inside the request
+  object are actual mappings to the Apache structures, so changing the
+  Python table also changes the underlying Apache table.
+
+
+In addition to normal dictionary-like behavior, the table object also
+  has the following method:
+
+
+
+  add(
+  key, val)
+
+    add() allows for creating duplicate keys, which is useful 
+    when multiple headers, such as Set-Cookie: are required.
+  
+
+
+
+New in version 3.0.
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.1 Functions
+Up:
+4.5 apache - Access
+Next:
+4.5.3 Request Object 
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

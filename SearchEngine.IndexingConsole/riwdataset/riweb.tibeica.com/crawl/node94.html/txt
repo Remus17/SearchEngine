@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6.1.3 Form Data
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1.2.3 Authentication
+Up:
+6.1 Publisher Handler
+Next:
+6.2 PSP Handler
+
+
+
+
+
+6.1.3 Form Data
+
+
+
+In the process of matching arguments, the Publisher handler creates an
+instance of FieldStorage
+class. A reference to this instance is stored in an attribute form
+of the Request object.
+
+
+Since a FieldStorage can only be instantiated once per
+request, one must not attempt to instantiate FieldStorage when
+using the Publisher handler and should use
+Request.form instead.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1.2.3 Authentication
+Up:
+6.1 Publisher Handler
+Next:
+6.2 PSP Handler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

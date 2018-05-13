@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.8 PythonAutoReload
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.7 PythonHandlerModule
+Up:
+5.4 Other Directives
+Next:
+5.4.9 PythonOptimize
+
+
+
+
+ 
+ 
+
+5.4.8 PythonAutoReload
+
+
+
+Syntax:
+PythonAutoReload {On, Off} 
+Default:
+PythonAutoReload On
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+If set to Off, instructs mod_python not to check the modification date
+of the module file. 
+
+
+By default, mod_python checks the time-stamp of the file and reloads
+the module if the module's file modification date is later than the
+last import or reload. This way changed modules get automatically
+reimported, eliminating the need to restart the server for every
+change.
+
+
+Disabling autoreload is useful in production environment where the
+modules do not change; it will save some processing time and give a
+small performance gain.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.7 PythonHandlerModule
+Up:
+5.4 Other Directives
+Next:
+5.4.9 PythonOptimize
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

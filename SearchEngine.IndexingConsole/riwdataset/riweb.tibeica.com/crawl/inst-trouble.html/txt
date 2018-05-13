@@ -1,0 +1,137 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.5 Troubleshooting
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.4 Testing
+Up:
+2. Installation
+Next:
+3. Tutorial
+
+
+
+
+ 
+
+2.5 Troubleshooting
+
+
+
+There are a few things you can try to identify the problem: 
+
+
+
+
+Carefully study the error output, if any. 
+
+
+
+Check the server error log file, it may contain useful clues. 
+
+
+
+Try running Apache from the command line in single process mode:
+  
+    ./httpd -X
+
+  This prevents it from backgrounding itself and may provide some useful
+  information.
+
+
+
+Beginning with mod_python 3.2.0, you can use the mod_python.testhandler
+  to diagnose your configuration. Add this to your httpd.conf file :
+
+
+
+    <Location /mpinfo>
+      SetHandler mod_python
+      PythonHandler mod_python.testhandler
+    </Location>
+
+
+
+Now point your browser to the /mpinfo URL
+  (e.g. http://localhost/mpinfo) and note down the information given.
+  This will help you reporting your problem to the mod_python list.
+
+
+
+Ask on the mod_python list. Make sure to provide specifics such as:
+
+
+
+
+Mod_python version.
+
+Your operating system type, name and version.
+
+Your Python version, and any unusual compilation options.
+
+Your Apache version.
+
+Relevant parts of the Apache config, .htaccess.
+
+Relevant parts of the Python code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.4 Testing
+Up:
+2. Installation
+Next:
+3. Tutorial
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

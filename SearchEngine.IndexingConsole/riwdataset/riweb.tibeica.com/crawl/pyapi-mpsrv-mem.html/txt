@@ -1,0 +1,209 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.6.2 Server Members
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.6.1 Server Methods
+Up:
+4.5.6 Server Object (mp_server) 
+Next:
+4.6 util - Miscellaneous
+
+
+
+
+ 
+
+4.5.6.2 Server Members
+
+
+
+defn_name
+
+  String. The name of the configuration file where the server definition
+  was found.
+  (Read-Only)
+
+
+
+defn_line_number
+
+  Integer. Line number in the config file where the server definition is
+  found.
+  (Read-Only)
+
+
+
+server_admin
+
+  Value of the ServerAdmin directive. 
+  (Read-Only)
+
+
+
+server_hostname
+
+  Value of the ServerName directive. Same as CGI SERVER_NAME.(Read-Only)
+
+
+
+names
+
+  Tuple. List of normal server names specified in the ServerAlias 
+  directive.  This list does not include wildcarded names, which are listed
+  separately in wild_names. (Read-Only)
+
+
+
+wild_names
+
+  Tuple. List of wildcarded server names specified in the ServerAlias
+  directive. (Read-Only)
+
+
+
+port
+
+  Integer. TCP/IP port number. Same as CGI SERVER_PORT.
+  This member appears to be 0 on Apache 2.0, look at req.connection.local_addr instead
+  (Read-Only)
+
+
+
+error_fname
+
+  The name of the error log file for this server, if any.
+  (Read-Only)
+
+
+
+loglevel
+
+  Integer. Logging level.
+  (Read-Only)
+
+
+
+is_virtual
+
+  Boolean. True if this is a virtual server.
+  (Read-Only)
+
+
+
+timeout
+
+  Integer. Value of the Timeout directive.
+  (Read-Only)
+
+
+
+keep_alive_timeout
+
+  Integer. Keepalive timeout.
+  (Read-Only)
+
+
+
+keep_alive_max
+
+  Maximum number of requests per keepalive.
+  (Read-Only)
+
+
+
+keep_alive
+
+  Use persistent connections?
+  (Read-Only)
+
+
+
+path
+
+  String. Path for ServerPath
+  (Read-Only)
+
+
+
+pathlen
+
+  Integer. Path length.
+  (Read-Only)
+
+
+
+limit_req_line
+
+  Integer. Limit on size of the HTTP request line.
+  (Read-Only)
+
+
+
+limit_req_fieldsize
+
+  Integer. Limit on size of any request header field.
+  (Read-Only)
+
+
+
+limit_req_fields
+
+  Integer. Limit on number of request header fields.
+  (Read-Only)
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.6.1 Server Methods
+Up:
+4.5.6 Server Object (mp_server) 
+Next:
+4.6 util - Miscellaneous
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

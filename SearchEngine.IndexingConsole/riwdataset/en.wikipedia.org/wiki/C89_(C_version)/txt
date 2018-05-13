@@ -1,0 +1,745 @@
+
+
+
+
+ANSI C - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"ANSI_C","wgTitle":"ANSI C","wgCurRevisionId":817434494,"wgRevisionId":817434494,"wgArticleId":3172,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from July 2010","All articles needing additional references","All articles with specifically marked weasel-worded phrases","Articles with specifically marked weasel-worded phrases from August 2017","Articles needing additional references from June 2011","All articles with unsourced statements","Articles with unsourced statements from January 2016","ANSI standards","C (programming language)","Programming language standards"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"ANSI_C","wgRelevantArticleId":3172,"wgRequestId":"Wr1ErApAIEIAALy@O54AAABI","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"C89_(C_version)","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/ANSI_C#C89","wgWikibaseItemId":"Q1931402","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+ANSI C			
+				From Wikipedia, the free encyclopedia				  (Redirected from C89 (C version))
+								
+					Jump to:					navigation, 					search
+				
+				This article is about the programming language standard. For the paper size, see Paper size § ANSI paper sizes.
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (July 2010) (Learn how and when to remove this template message)
+
+
+
+ANSI C, ISO C and Standard C refer to the successive standards for the C programming language published by the American National Standards Institute (ANSI) and the International Organization for Standardization (ISO). Historically, the names referred specifically to the original and best-supported version of the standard (known as C89 or C90). Software developers writing in C are encouraged to conform to the standards, as doing so helps portability between compilers.
+
+
+
+Contents
+
+
+1 History and outlook
+
+1.1 C89
+1.2 C90
+1.3 C95
+
+1.3.1 Preprocessor test for C95 compatibility
+
+
+1.4 C99
+1.5 C11
+1.6 Other related ISO publications
+
+
+2 Support from major compilers
+
+2.1 Compliance detectability
+
+
+3 Compilers supporting ANSI C
+4 See also
+5 References
+6 External links
+
+
+
+History and outlook[edit]
+The first standard for C was published by ANSI. Although this document was subsequently adopted by International Organization for Standardization (ISO) and subsequent revisions published by ISO have been adopted by ANSI, many programmers still use "ANSI C" to refer to the standard.[who?] While some software developers use the term ISO C, others are standards-body neutral and use Standard C.
+C89[edit]
+In 1983, the American National Standards Institute formed a committee, X3J11, to establish a standard specification of C. The standard was completed in 1989 and ratified as ANSI X3.159-1989 "Programming Language C." This version of the language is often referred to as "ANSI C". Later on sometimes the label "C89" is used to distinguish it from C99 but using the same labelling method.
+C90[edit]
+The same standard as C89 was ratified by the International Organization for Standardization as ISO/IEC 9899:1990, with only formatting changes,[1] which is sometimes referred to as C90. Therefore, the terms "C89" and "C90" refer to essentially the same language.
+This standard has been withdrawn by both ANSI/INCITS[2] and ISO/IEC.[3]
+C95[edit]
+In 1995, the ISO published an extension, called Amendment 1, for the ANSI-C standard. Its full name finally was ISO/IEC 9899/AMD1:1995 or nicknamed C95. Aside from error correction there were further changes to the language capabilities,[4][5] such as:
+
+Improved multi-byte and wide character support in the standard library, introducing <wchar.h> and <wctype.h> as well as multi-byte I/O
+Addition of digraphs to the language
+Specification of standard macros for the alternative specification of operators, e.g. and for &&
+Specification of the standard macro __STDC_VERSION__
+
+In addition to the amendment, two technical corrigenda were published by ISO for C90:
+
+ISO/IEC 9899 TCOR1 in 1995
+ISO/IEC 9899 TCOR2 in 1996
+
+Preprocessor test for C95 compatibility[edit]
+
+
+#if defined(__STDC_VERSION__) && __STDC_VERSION__ >= 199409L
+
+/* C95 compatible source code. */
+#elif defined(__ANSI__)
+/* C89 compatible source code. */
+#endif
+
+C99[edit]
+Main article: C99
+In March 2000, ANSI adopted the ISO/IEC 9899:1999 standard. This standard is commonly referred to as C99. Some notable additions to the previous standard include:
+
+New built-in data types: long long, _Bool, _Complex, and _Imaginary
+Several new core language features, including static array indices, designated initializers, compound literals, variable-length arrays, flexible array members, variadic macros, and restrict keyword
+Several new library headers, including stdint.h, <tgmath.h>, fenv.h, <complex.h>
+Improved compatibility with several C++ features, including inline functions, single-line comments with //, mixing declarations and code, and universal character names in identifiers
+Removed several dangerous C89 language features such as implicit function declarations and implicit int
+
+Three technical corrigenda were published by ISO for C99:
+
+ISO/IEC 9899:1999/Cor.1:2001(E)
+ISO/IEC 9899:1999/Cor.2:2004(E)
+ISO/IEC 9899:1999/Cor.3:2007(E), notable for deprecating the standard library function gets
+
+This standard has been withdrawn by both ANSI/INCITS[6] and ISO/IEC[7] in favour of C11.
+C11[edit]
+Main article: C11
+"C11" is the current standard for the C programming language. Notable features introduced over the previous revision include improved Unicode support, type-generic expressions using the new _Generic keyword, a cross-platform multi-threading API (threads.h) and atomic types support in both core language and the library (stdatomic.h).
+One technical corrigendum has been published by ISO for C11:
+
+ISO/IEC 9899:2011/Cor 1:2012[8]
+
+Other related ISO publications[edit]
+As part of the standardization process, ISO also publishes technical reports and specifications related to the C language:
+
+ISO/IEC TR 19769:2004,[9] on library extensions to support Unicode transformation formats, integrated into C11
+ISO/IEC TR 24731-1:2007,[10] on library extensions to support bounds-checked interfaces, integrated into C11
+ISO/IEC TR 18037:2008,[11] on embedded C extensions
+ISO/IEC TR 24732:2009,[12] on decimal floating point arithmetic, superseded by ISO/IEC TS 18661-2:2015
+ISO/IEC TR 24747:2009,[13] on special mathematical functions,
+ISO/IEC TR 24731-2:2010,[14] on library extensions to support dynamic allocation functions
+ISO/IEC TS 17961:2013,[15] on secure coding in C
+ISO/IEC TS 18661-1:2014,[16] on IEC 60559:2011-compatible binary floating-point arithmetic
+ISO/IEC TS 18661-2:2015,[17] on IEC 60559:2011-compatible decimal floating point arithmetic
+ISO/IEC TS 18661-3:2015,[18] on IEC 60559:2011-compatible interchange and extended floating-point types
+ISO/IEC TS 18661-4:2015,[19] on IEC 60559:2011-compatible supplementary functions
+
+More technical specifications are in development and pending approval, including the fifth and final part of TS 18661, a software transactional memory specification, and parallel library extensions.[20]
+Support from major compilers[edit]
+
+
+
+
+
+
+This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be challenged and removed. (June 2011) (Learn how and when to remove this template message)
+
+
+
+ANSI C is now supported by almost all the widely used compilers. Most of the C code being written nowadays is based on ANSI C. Any program written only in standard C and without any hardware dependent assumptions is virtually guaranteed to compile correctly on any platform with a conforming C implementation. Without such precautions, most programs may compile only on a certain platform or with a particular compiler, due, for example, to the use of non-standard libraries, such as GUI libraries, or to the reliance on compiler- or platform-specific attributes such as the exact size of certain data types and byte endianness.
+Compliance detectability[edit]
+To mitigate the differences between K&R C and the ANSI C standard, the __STDC__ ("standard c") macro can be used to split code into ANSI and K&R sections.
+
+
+ #if defined(__STDC__) && __STDC__
+ extern int getopt(int, char * const *, const char *);
+ #else
+ extern int getopt();
+ #endif
+
+In the above example, a prototype is used in a function declaration for ANSI compliant implementations, while an obsolescent non-prototype declaration is used otherwise. Those are still ANSI-compliant as of C99. Note how this code checks both definition and evaluation: this is because some implementations may set __STDC__ to zero to indicate non-ANSI compliance.[citation needed]
+Compilers supporting ANSI C[edit]
+
+Amsterdam Compiler Kit (C K&R and C89/90)
+ARM RealView
+Clang, using LLVM backend
+GCC (full C89/90, C99 and C11)
+HP C/ANSI C compiler (C89 and C99)[21]
+IBM XL C/C++ (C11, starting with version 12.1)[22]
+Intel's ICC
+LabWindows/CVI
+LCC
+OpenWatcom (C89/90 and some C99)
+Microsoft Visual C++ (C89/90 and some C99)
+Pelles C (C99 and C11. Windows only.)
+vbcc (C89/90 and C99)
+Tiny C Compiler (C89/90 and some C99)
+
+See also[edit]
+
+
+Computer programming portal
+
+
+
+Compatibility of C and C++
+C++17, C++14, C++11, C++03, C++98, versions of the C++ programming language standard
+C++ Technical Report 1
+
+References[edit]
+
+
+^ "Standards - Using the GNU Compiler Collection (GCC)". Retrieved 2012-06-24. 
+^ http://www.techstreet.com/cgi-bin/detail?doc_no=incits_iso_iec%7C9899;product_id=232462
+^ "ISO/IEC 9899:1990 - Programming Languages -- C". Retrieved 2012-06-24. 
+^ Clive D.W. Feather (2010-09-12). "A brief description of Normative Addendum 1". 
+^ "ISO/IEC 9899:1990/Amd 1:1995". International Organization for Standardization. 2013-03-22. 
+^ "INCITS/ISO/IEC 9899-2012". ANSI. 
+^ "ISO/IEC 9899:1999 - Programming Languages -- C". Retrieved 2012-06-24. 
+^ "ISO/IEC 9899:2011/Cor 1:2012". International Organization for Standardization. 
+^ "ISO/IEC TR 19769:2004". International Organization for Standardization. 
+^ "ISO/IEC TR 24731-1:2007". International Organization for Standardization. 
+^ "ISO/IEC TR 18037:2008". International Organization for Standardization. 
+^ "ISO/IEC TR 24732:2009". International Organization for Standardization. 
+^ "ISO/IEC TR 24747:2009". International Organization for Standardization. 
+^ "ISO/IEC TR 24731-2:2010". International Organization for Standardization. 
+^ "ISO/IEC TS 17961:2013". International Organization for Standardization. 
+^ "ISO/IEC TS 18661-1:2014". International Organization for Standardization. 
+^ "ISO/IEC TS 18661-2:2015". International Organization for Standardization. 
+^ "ISO/IEC TS 18661-3:2015". International Organization for Standardization. 
+^ "ISO/IEC TS 18661-4:2015". International Organization for Standardization. 
+^ See a list at http://en.cppreference.com/w/c/experimental Visited 16 January 2016.
+^ "HP C/ANSI C developer's bundle". Retrieved 2015-07-12. 
+^ Support for ISO C11 added to IBM XL C/C++ compilers
+
+
+External links[edit]
+
+ISO C working group
+Draft ANSI C Standard (ANSI X3J11/88-090) (May 13, 1988), Third Public Review
+Draft ANSI C Rationale (ANSI X3J11/88-151) (Nov 18, 1988)
+C Information Bulletin #1 (ANSI X3J11/93-007) (May 27, 1992)
+ANSI C Yacc grammar
+
+ANSI C grammar, Lex specification
+
+
+Schreiner, Axel-Tobias. Object oriented programming with ANSI-C. Hanser. hdl:1850/8544. ISBN 3-446-17426-5. 
+"ISO/IEC 9899:1999 Programming Languages -- C". American National Standards Institute. 
+"ANSI Standards Action Vol. 36, #48" (PDF). American National Standards Institute. 2005-12-02. 
+
+
+
+
+
+
+
+v
+t
+e
+
+
+List of International Electrotechnical Commission standards
+
+
+
+IEC standards
+
+
+
+IEC 60027
+IEC 60034
+IEC 60038
+IEC 60062
+IEC 60063
+IEC 60068
+IEC 60112
+IEC 60228
+IEC 60269
+IEC 60297
+IEC 60309
+IEC 60320
+IEC 60364
+IEC 60446
+IEC 60559
+IEC 60601
+IEC 60870
+
+IEC 60870-5
+IEC 60870-6
+
+
+IEC 60906-1
+IEC 60908
+IEC 60929
+IEC 60958
+
+AES3
+S/PDIF
+
+
+IEC 61030
+IEC 61131
+
+IEC 61131-3
+
+
+IEC 61158
+IEC 61162
+IEC 61334
+IEC 61346
+IEC 61355
+IEC 61400
+IEC 61499
+IEC 61508
+IEC 61511
+IEC 61850
+IEC 61851
+IEC 61883
+IEC 61960
+IEC 61968
+IEC 61970
+IEC 62014-4
+IEC 62056
+IEC 62061
+IEC 62196
+IEC 62262
+IEC 62264
+IEC 62304
+IEC 62325
+IEC 62351
+IEC 62365
+IEC 62366
+IEC 62379
+IEC 62386
+IEC 62455
+IEC 62680
+IEC 62682
+IEC 62700
+
+
+
+
+
+ISO/IEC standards
+
+
+
+ISO/IEC 646
+ISO/IEC 2022
+ISO/IEC 4909
+ISO/IEC 5218
+ISO/IEC 6429
+ISO/IEC 6523
+ISO/IEC 7810
+ISO/IEC 7811
+ISO/IEC 7812
+ISO/IEC 7813
+ISO/IEC 7816
+ISO/IEC 7942
+ISO/IEC 8613
+ISO/IEC 8632
+ISO/IEC 8652
+ISO/IEC 8859
+ISO/IEC 9126
+ISO/IEC 9293
+ISO/IEC 9592
+ISO/IEC 9593
+ISO/IEC 9899
+ISO/IEC 9945
+ISO/IEC 9995
+ISO/IEC 10021
+ISO/IEC 10116
+ISO/IEC 10165
+ISO/IEC 10179
+ISO/IEC 10646
+ISO/IEC 10967
+ISO/IEC 11172
+ISO/IEC 11179
+ISO/IEC 11404
+ISO/IEC 11544
+ISO/IEC 11801
+ISO/IEC 12207
+ISO/IEC 13250
+ISO/IEC 13346
+ISO/IEC 13522-5
+ISO/IEC 13568
+ISO/IEC 13818
+ISO/IEC 14443
+ISO/IEC 14496
+ISO/IEC 14882
+ISO/IEC 15288
+ISO/IEC 15291
+ISO/IEC 15408
+ISO/IEC 15444
+ISO/IEC 15445
+ISO/IEC 15504
+ISO/IEC 15511
+ISO/IEC 15693
+ISO/IEC 15897
+ISO/IEC 15938
+ISO/IEC 16262
+ISO/IEC 17024
+ISO/IEC 17025
+ISO/IEC 18000
+ISO/IEC 18004
+ISO/IEC 18014
+ISO/IEC 19752
+ISO/IEC 19757
+ISO/IEC 19770
+ISO/IEC 19788
+ISO/IEC 20000
+ISO/IEC 21000
+ISO/IEC 21827
+ISO/IEC 23000
+ISO/IEC 23003
+ISO/IEC 23008
+ISO/IEC 23270
+ISO/IEC 23360
+ISO/IEC 24707
+ISO/IEC 24727
+ISO/IEC 24744
+ISO/IEC 24752
+ISO/IEC 26300
+ISO/IEC 27000
+ISO/IEC 27000-series
+ISO/IEC 27002
+ISO/IEC 27040
+ISO/IEC 29119
+ISO/IEC 33001
+ISO/IEC 38500
+ISO/IEC 42010
+ISO/IEC 80000
+
+
+
+
+
+Related
+
+
+
+International Electrotechnical Commission
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+C programming language
+
+
+
+
+
+
+ANSI C
+
+C89 and C90
+
+
+C99
+C11
+Embedded C
+MISRA C
+
+
+
+
+
+Features
+
+
+
+Functions
+Header files
+Libraries
+Operators
+String
+Syntax
+Preprocessor
+Data types
+
+
+
+
+
+Standard library
+functions
+
+
+
+Char (ctype.h)
+File I/O (stdio.h)
+Math (math.h)
+Dynamic memory (stdlib.h)
+String (string.h)
+Time (time.h)
+Variadic (stdarg.h)
+POSIX
+
+
+
+
+
+Standard
+libraries
+
+
+
+Bionic
+
+libhybris
+
+
+dietlibc
+EGLIBC
+glibc
+klibc
+Microsoft Run-time Library
+musl
+Newlib
+uClibc
+BSD libc
+
+
+
+
+
+Compilers
+
+
+
+Comparison of compilers
+ACK
+Borland Turbo C
+Clang
+GCC
+ICC
+LCC
+Pelles C
+PCC
+SDCC
+TCC
+Microsoft Visual Studio / Express / C++
+Watcom C/C++
+
+
+
+
+
+IDEs
+
+
+
+Comparison of IDEs
+Anjuta
+Code::Blocks
+CodeLite
+Eclipse
+Geany
+Microsoft Visual Studio
+NetBeans
+
+
+
+
+
+Comparison with
+other languages
+
+
+
+Compatibility of C and C++
+Comparison with Embedded C
+Comparison with Pascal
+Comparison of programming languages
+
+
+
+
+
+Descendant
+languages
+
+
+
+C++
+C#
+D
+Objective-C
+Alef
+Limbo
+Go
+Vala
+
+
+
+
+
+
+
+
+ Category
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=ANSI_C&oldid=817434494#C89"					
+				Categories: ANSI standardsC (programming language)Programming language standardsHidden categories: Articles needing additional references from July 2010All articles needing additional referencesAll articles with specifically marked weasel-worded phrasesArticles with specifically marked weasel-worded phrases from August 2017Articles needing additional references from June 2011All articles with unsourced statementsArticles with unsourced statements from January 2016				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةБългарскиČeštinaDeutschEspañolفارسی한국어Bahasa Indonesia日本語NorskNorsk nynorskРусскийSvenskaTürkçe中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 28 December 2017, at 10:15.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.384","walltime":"0.443","ppvisitednodes":{"value":1248,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":75827,"limit":2097152},"templateargumentsize":{"value":1221,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":19116,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  337.720      1 -total"," 39.85%  134.589     21 Template:Cite_web"," 10.24%   34.573      2 Template:Fix","  8.93%   30.145      1 Template:Refimprove","  8.18%   27.630      2 Template:Ambox","  7.80%   26.335      2 Template:Navbox","  7.72%   26.082      1 Template:Who","  6.70%   22.624      1 Template:About","  5.70%   19.238      2 Template:Delink","  5.16%   17.418      1 Template:CProLang"]},"scribunto":{"limitreport-timeusage":{"value":"0.187","limit":"10.000"},"limitreport-memusage":{"value":5643070,"limit":52428800}},"cachereport":{"origin":"mw1310","timestamp":"20180328045722","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":78,"wgHostname":"mw1329"});});
+	
+

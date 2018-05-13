@@ -1,0 +1,509 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.3.2 Request Members
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.3.1 Request Methods
+Up:
+4.5.3 Request Object 
+Next:
+4.5.4 Connection Object (mp_conn) 
+
+
+
+
+ 
+
+4.5.3.2 Request Members
+
+
+
+connection
+
+  A connection object associated with this request. See
+  Connection Object below for details.
+  (Read-Only)
+
+
+
+server
+
+  A server object associate with this request. See Server Object below
+  for details.
+  (Read-Only)
+
+
+
+next
+
+  If this is an internal redirect, the request object we redirect to. 
+  (Read-Only)
+
+
+
+prev
+
+  If this is an internal redirect, the request object we redirect from.
+  (Read-Only)
+
+
+
+main
+
+  If this is a sub-request, pointer to the main request. 
+  (Read-Only)
+
+
+
+the_request
+
+  String containing the first line of the request.
+  (Read-Only)
+
+
+
+assbackwards
+
+  Indicates an HTTP/0.9 ``simple'' request. This means that the
+  response will contain no headers, only the body. Although this
+  exists for backwards compatibility with obsolescent browsers, some
+  people have figred out that setting assbackwards to 1 can be a
+  useful technique when including part of the response from an
+  internal redirect to avoid headers being sent.
+
+
+
+proxyreq
+
+  A proxy request: one of apache.PROXYREQ_* values.
+  (Read-Only)
+
+
+
+header_only
+
+  A boolean value indicating HEAD request, as opposed to GET. 
+  (Read-Only)
+
+
+
+protocol
+
+  Protocol, as given by the client, or "HTTP/0.9". Same as CGI SERVER_PROTOCOL.
+  (Read-Only)
+
+
+
+proto_num
+
+  Integer. Number version of protocol; 1.1 = 1001 
+  (Read-Only)
+
+
+
+hostname
+
+  String. Host, as set by full URI or Host: header.
+  (Read-Only)
+
+
+
+request_time
+
+  A long integer. When request started.
+  (Read-Only)
+
+
+
+status_line
+
+  Status line. E.g. "200 OK". 
+  (Read-Only)
+
+
+
+status
+
+  Status. One of apache.HTTP_* values.
+
+
+
+method
+
+  A string containing the method - 'GET', 'HEAD', 'POST', etc.
+  Same as CGI REQUEST_METHOD.
+  (Read-Only)
+
+
+
+method_number
+
+  Integer containing the method number.
+  (Read-Only)
+
+
+
+allowed
+
+  Integer. A bitvector of the allowed methods. Used to construct the
+  Allowed: header when responding with
+  HTTP_METHOD_NOT_ALLOWED or
+  HTTP_NOT_IMPLEMENTED. This field is for Apache's internal
+  use, to set the Allowed: methods use req.allow_methods()
+  method, described in section 4.5.3. 
+  (Read-Only)
+
+
+
+allowed_xmethods
+
+  Tuple. Allowed extension methods.
+  (Read-Only)
+
+
+
+allowed_methods
+
+  Tuple. List of allowed methods. Used in relation with
+  METHOD_NOT_ALLOWED. This member can be modified via req.allow_methods() 
+  described in section 4.5.3.
+  (Read-Only)
+
+
+
+sent_bodyct
+
+  Integer. Byte count in stream is for body. (?)
+  (Read-Only)
+
+
+
+bytes_sent
+
+  Long integer. Number of bytes sent.
+  (Read-Only)
+
+
+
+mtime
+
+  Long integer. Time the resource was last modified.
+  (Read-Only)
+
+
+
+chunked
+
+  Boolean value indicating when sending chunked transfer-coding.
+  (Read-Only)
+
+
+
+range
+
+  String. The Range: header.
+  (Read-Only)
+
+
+
+clength
+
+  Long integer. The ``real'' content length.
+  (Read-Only)
+
+
+
+remaining
+
+  Long integer. Bytes left to read. (Only makes sense inside a read
+  operation.)
+  (Read-Only)
+
+
+
+read_length
+
+  Long integer. Number of bytes read.
+  (Read-Only)
+
+
+
+read_body
+
+  Integer. How the request body should be read.
+  (Read-Only)
+
+
+
+read_chunked
+
+  Boolean. Read chunked transfer coding.
+  (Read-Only)
+
+
+
+expecting_100
+
+  Boolean. Is client waiting for a 100 (HTTP_CONTINUE) response.
+  (Read-Only)
+
+
+
+headers_in
+
+  A table object containing headers sent by the client.
+
+
+
+headers_out
+
+  A table object representing the headers to be sent to the
+  client. 
+
+
+
+err_headers_out
+
+  These headers get send with the error response, instead of
+  headers_out.
+
+
+
+subprocess_env
+
+  A table object containing environment information typically usable for CGI.
+  You may have to call req.add_common_vars() first to fill in the information
+  you need.
+
+
+
+notes
+
+  A table object that could be used to store miscellaneous
+  general purpose info that lives for as long as the request lives. If
+  you need to pass data between handlers, it's better to simply add
+  members to the request object than to use notes.
+
+
+
+phase
+
+  The phase currently being being processed, e.g. "PythonHandler".
+  (Read-Only)
+
+
+
+interpreter
+
+  The name of the subinterpreter under which we're running.
+  (Read-Only)
+
+
+
+content_type
+
+  String. The content type. Mod_python maintains an internal flag
+  (req._content_type_set) to keep track of whether
+  content_type was set manually from within Python. The
+  publisher handler uses this flag in the following way: when
+  content_type isn't explicitly set, it attempts to guess the
+  content type by examining the first few bytes of the output.
+
+
+
+content_languages
+
+  Tuple. List of strings representing the content languages. 
+
+
+
+handler
+
+  The name of the handler currently being processed. This is the handler
+  set by mod_mime, not the mod_python handler. In most cases it will be
+  ""mod_python". (Read-Only)
+
+
+
+content_encoding
+
+  String. Content encoding.
+  (Read-Only)
+
+
+
+vlist_validator
+
+  Integer. Variant list validator (if negotiated).
+  (Read-Only)
+
+
+
+user
+
+  If an authentication check is made, this will hold the user
+  name. Same as CGI REMOTE_USER.
+  (Read-Only)
+  Note:
+req.get_basic_auth_pw() must be called prior to using this value.
+  
+
+
+
+ap_auth_type
+
+  Authentication type. Same as CGI AUTH_TYPE.
+  (Read-Only)
+
+
+
+no_cache
+
+  Boolean. No cache if true.
+  (Read-Only)
+
+
+
+no_local_copy
+
+  Boolean. No local copy exists.
+  (Read-Only)
+
+
+
+unparsed_uri
+
+  The URI without any parsing performed.
+  (Read-Only)
+
+
+
+uri
+
+  The path portion of the URI.
+  (Read-Only)
+
+
+
+filename
+
+  String. File name being requested.
+
+
+
+canonical_filename
+
+  String. The true filename (req.filename is canonicalized if
+  they don't match).  (Read-Only)
+
+
+
+path_info
+
+  String. What follows after the file name, but is before query args, if
+  anything. Same as CGI PATH_INFO.
+
+
+
+args
+
+  String. Same as CGI QUERY_ARGS.
+  (Read-Only)
+
+
+
+finfo
+
+  Tuple. A file information structure, analogous to POSIX stat,
+  describing the file pointed to by the URI.  (mode, ino,
+    dev, nlink, uid, gid, size, atime, mtime, ctime, fname,
+    name). The apache module defines a set of FINFO_*
+  constants that should be used to access elements of this
+  tuple. Example:
+  
+fname = req.finfo[apache.FINFO_FNAME]
+
+  (Read-Only)
+
+
+
+parsed_uri
+
+  Tuple. The URI broken down into pieces.
+  (scheme, hostinfo, user, password, hostname, port, path, query, fragment). 
+  The apache module defines a set of URI_* constants that
+  should be used to access elements of this tuple. Example:
+  
+fname = req.parsed_uri[apache.URI_PATH]
+
+  (Read-Only)
+
+
+
+used_path_info
+
+  Flag to accept or reject path_info on current request.
+  (Read-Only)
+
+
+
+eos_sent
+
+  Boolean. EOS bucket sent.
+  (Read-Only)
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.3.1 Request Methods
+Up:
+4.5.3 Request Object 
+Next:
+4.5.4 Connection Object (mp_conn) 
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

@@ -1,0 +1,866 @@
+
+
+
+
+Monty Python's Flying Circus - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Monty_Python's_Flying_Circus","wgTitle":"Monty Python's Flying Circus","wgCurRevisionId":832234268,"wgRevisionId":832234268,"wgArticleId":23372115,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: Uses authors parameter","Pages using citations with accessdate and no URL","CS1 Danish-language sources (da)","EngvarB from June 2016","Use dmy dates from June 2016","Articles needing additional references from October 2009","All articles needing additional references","All articles with unsourced statements","Articles with unsourced statements from June 2017","Articles with unsourced statements from March 2012","Official website different in Wikidata and Wikipedia","1969 British television programme debuts","1974 British television programme endings","1960s British television sketch shows","1970s British television sketch shows","BBC television sketch shows","British black comedy television programmes","British satirical television programmes","English-language television programs","Metafictional television series","Monty Python","Postmodernism","Self-reflexive television","Television programs adapted into films","Television programs adapted into video games"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Monty_Python's_Flying_Circus","wgRelevantArticleId":23372115,"wgRequestId":"Wr@ZjApAAEMAAJaNREcAAAAK","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q16401","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Monty Python's Flying Circus			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				For other uses, see Monty Python's Flying Circus (disambiguation).
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (October 2009) (Learn how and when to remove this template message)
+
+
+
+
+
+Monty Python’s Flying Circus
+
+
+
+
+
+Genre
+Sketch comedy
+Surreal comedy
+Satire
+Black comedy
+
+
+Created by
+Graham Chapman
+John Cleese
+Terry Gilliam
+Eric Idle
+Terry Jones
+Michael Palin
+
+
+Written by
+
+
+
+Monty Python
+Neil Innes
+Douglas Adams
+
+
+
+
+
+Directed by
+
+
+
+Ian MacNaughton
+John Howard Davies
+
+
+
+
+
+Starring
+Graham Chapman
+John Cleese
+Terry Gilliam
+Eric Idle
+Terry Jones
+Michael Palin
+Carol Cleveland
+Ian Davidson
+Connie Booth
+
+
+Opening theme
+"The Liberty Bell" by John Philip Sousa
+
+
+Composer(s)
+Neil Innes
+Fred Tomlinson Singers
+
+
+Country of origin
+United Kingdom
+
+
+No. of series
+4
+
+
+No. of episodes
+45 (list of episodes)
+
+
+Production
+
+
+Running time
+approx. 25–30 minutes
+
+
+Release
+
+
+Original network
+BBC1 (1969–1973)
+BBC2 (1974)
+
+
+Original release
+5 October 1969 (1969-10-05) – 5 December 1974 (1974-12-05)
+
+
+Chronology
+
+
+Followed by
+And Now for Something Completely Different
+
+
+External links
+
+
+Website
+
+
+Monty Python’s Flying Circus (known during the final series as just Monty Python) was a British sketch comedy series created by the comedy group Monty Python and broadcast by the BBC from 1969 to 1974. The shows were composed of surreality, risqué or innuendo-laden humour, sight gags and observational sketches without punchlines. It also featured animations by group member Terry Gilliam, often sequenced or merged with live action. The first episode was recorded on 7 September and premiered on 5 October 1969 on BBC One, with 45 episodes airing over four series from 1969 to 1974, plus two episodes for German TV.
+The show often targets the idiosyncrasies of British life, especially that of professionals, and is at times politically charged. The members of Monty Python were highly educated. Terry Jones and Michael Palin are Oxford University graduates; Eric Idle, John Cleese, and Graham Chapman attended Cambridge University; and American-born member Terry Gilliam is an Occidental College graduate. Their comedy is often pointedly intellectual, with numerous erudite references to philosophers and literary figures. The series followed and elaborated upon the style used by Spike Milligan in his ground breaking series Q5, rather than the traditional sketch show format. The team intended their humour to be impossible to categorise, and succeeded (although, by their perspective, failed) so completely that the adjective "Pythonesque" was invented to define it and, later, similar material.
+The Pythons play the majority of the series characters themselves, including the majority of the female characters, but occasionally they cast an extra actor. Regular supporting cast members include Carol Cleveland (referred to by the team as the unofficial "Seventh Python"), Connie Booth (Cleese's first wife), series producer Ian MacNaughton, Ian Davidson, Neil Innes (in the fourth series), and Fred Tomlinson and the Fred Tomlinson Singers (for musical numbers).[1][2]
+The theme music is the Band of the Grenadier Guards' rendition of John Philip Sousa's "The Liberty Bell" which was first published in 1893.[3] Under the Berne Convention's "country of origin" concept, the composition was subject to United States copyright law which states that any works first published prior to 1923 was in the public domain due to copyright expiration.[4] This enabled Gilliam to co-opt the march for the series without having to make any royalty payments.[5]
+
+
+
+Contents
+
+
+1 Title
+2 Recurring characters
+
+2.1 Frequently recurring characters (six or more appearances)
+2.2 Characters who made multiple appearances
+
+
+3 Popular character traits
+
+3.1 Chapman
+3.2 Cleese
+3.3 Gilliam
+3.4 Idle
+3.5 Jones
+3.6 Palin
+
+
+4 Lost sketches
+5 Monty Python's Fliegender Zirkus
+6 Stage incarnations
+7 Landing of Flying Circus
+8 Awards and honours
+9 Legacy
+10 Production
+11 Transnational themes
+12 See also
+13 References
+14 External links
+
+
+
+Title[edit]
+The title Monty Python's Flying Circus was partly the result of the group's reputation at the BBC. Michael Mills, the BBC's Head of Comedy, wanted their name to include the word "circus" because the BBC referred to the six members wandering around the building as a circus, in particular, "Baron Von Took's Circus", after Barry Took, who had brought them to the BBC.[6] The group added "flying" to make it sound less like an actual circus and more like something from World War I. The group was coming up with their name at a time when the 1966 Royal Guardsmen song Snoopy vs. the Red Baron had been at a peak. Manfred von Richthofen, the World War I German flying ace known as The Red Baron, commanded a squadron of planes known as "The Flying Circus." The words "Monty Python" were added because they claimed it sounded like a really bad theatrical agent, the sort of person who would have brought them together, with John Cleese suggesting "Python" as something slimy and slithery, and Eric Idle suggesting "Monty".[7] They later explained that the name Monty "...made us laugh because Monty to us means Lord Montgomery, our great general of the Second World War".[8]
+The BBC had rejected some other names put forward by the group including Whither Canada?, The Nose Show, Ow! It's Colin Plint!, A Horse, a Spoon and a Basin, The Toad Elevating Moment and Owl Stretching Time.[7] Several of these titles were later used for individual episodes.
+Recurring characters[edit]
+In contrast to many other sketch comedy shows, Flying Circus had only a handful of recurring characters, many of whom were involved only in titles and linking sequences. Continuity for many of these recurring characters was frequently non-existent from sketch to sketch, with sometimes even the most basic information (such as a character's name) being changed from one appearance to the next.
+Frequently recurring characters (six or more appearances)[edit]
+
+The "It's" Man (Palin), a Robinson Crusoe-type castaway with torn clothes and a long, unkempt beard who would appear at the beginning of the programme. Often he is seen performing a long or dangerous task, such as falling off a tall, jagged cliff or running through a mine field a long distance towards the camera before introducing the show by just saying, "It's..." before being abruptly cut off by the opening titles and Terry Gilliam's animation sprouting the words 'Monty Python’s Flying Circus'. It's was an early candidate for the title of the series.
+A BBC continuity announcer in a dinner jacket (Cleese), seated at a desk, often in highly incongruous locations, such as a forest or a beach. His line, "And now for something completely different," was used variously as a lead-in to the opening titles and a simple way to link sketches. Though Cleese is best known for it, Idle first introduced the phrase in Episode 2, where he introduced a man with three buttocks. It eventually became the show’s catch phrase and served as the title for the troupe’s first movie. In Series 3 the line was shortened to simply: "And now..." and was often combined with the "It's" man in introducing the episodes.
+
+
+
+
+
+Gumbys on parade
+
+
+
+The Gumbys, a group of slow-witted individuals identically attired in gumboots (from which they take their name), high-water trousers, braces, Fair Isle tanktops, and round, wire-rimmed glasses, with toothbrush moustaches and knotted handkerchiefs worn on their heads (a stereotype of the English working-class holidaymaker). They hold their arms stiffly at their sides, speak slowly in loud, throaty voices punctuated by frequent grunts and groans, and have a fondness for pointless violence. All of them are surnamed Gumby: D.P. Gumby, R.S. Gumby, etc. Even though all Pythons played Gumbys in the show's run, the character is most closely associated with Michael Palin.
+The Knight with a Raw Chicken (Gilliam), who would hit characters over the head with the chicken when they said something particularly silly. The knight was a regular during the first series and made another appearance in the third.
+A nude organist (played in his first appearance by Gilliam, later by Jones) who provided a brief fanfare to punctuate certain sketches, most notably on a sketch poking fun at Sale of the Century or as yet another way to introduce the opening titles. This character was addressed as "Onan" by Palin's host character in the ersatz game show sketch "Blackmail".
+The "Pepperpots" are screeching middle-aged, lower-middle class housewives, played by the Pythons in frocks, and engage in surreal and inconsequential conversation. "The Pepperpots" was the in-house name that the Pythons used to identify these characters, and were never identified as such on-screen. On the rare occasion these women were named, it was often for comic effect, featuring such names as Mrs. Scum, Mrs. Non-Gorilla, or the duo Mrs. Premise and Mrs. Conclusion. "Pepperpot" refers to what the Pythons believed was the typical body shape of middle-class, British housewives, as explained by John Cleese in How to Irritate People.[9] Terry Jones is perhaps most closely associated with the Pepperpots, but all the Pythons were frequent in performing the drag characters.
+Brief black-and-white stock footage, lasting only two or three seconds, of middle-aged women sitting in an audience and applauding. The film was taken from a Women’s Institute meeting and was sometimes presented with a colour tint.[10] This was used as a reference to the types of audiences they had to face during the first series.[citation needed]
+
+Characters who made multiple appearances[edit]
+
+"The Colonel" (Chapman), a British Army officer who interrupts sketches that are "too silly" or that contain material he finds offensive. The Colonel also appears when non-BBC broadcast repeats need to be cut off for time constraints in syndication.
+Arthur Pewtey (Palin), a socially inept, extremely dull man who appears most notably in the "Marriage Guidance Counsellor" and "Ministry of Silly Walks" sketches. His sketches all take the form of an office appointment with an authority figure (usually played by Cleese), which are used to parody the officious side of the British establishment by having the professional employed in the most bizarre field of expertise. The spelling of Pewtey's surname is changed, between appearances.
+The Reverend Arthur Belling is the vicar of St Loony-Up-The-Cream-Bun-and-Jam. He is known for his bizarrely eccentric behaviour. In one sketch (within Series 2, played by Chapman), he makes an appeal to the insane people of the world to drive sane people insane. In another sketch (within Series 3, played by Palin), which is among the pantheon of fan favourites, he politely joins a honeymooning couple at an outdoor café, repeatedly insisting he does not wish to disturb them; he then sits down, opens a suitcase full of props, and calmly proceeds to smash plates on the table, shake a baby doll in their faces, bounce a rubber crab from a ping-pong paddle, and spray shaving cream all over his face, all whilst loudly chanting nonsense syllables. Rev. Belling's odd version of 'not being disturbing' serves to convert the couple to his bizarre sect of Christianity.
+A somewhat disreputable shopkeeper, played by Palin, is a staple of many a two-person sketch (notably "Dead Parrot Sketch"). He often speaks with a strong Cockney accent, and has no consistent name.
+Mr. Badger (Idle), a Scotsman whose speciality was interrupting sketches ('I won't ruin your sketch, for a pound'). He was once interviewed, in a sketch opposite Cleese, regarding his interpretation of the Magna Carta, which Badger believes was actually a piece of chewing gum on a bedspread in Dorset. He has also been seen as an aeroplane hijacker whose demands grow increasingly eccentric.
+Mr. Eric Praline, an eccentric, disgruntled man, played by Cleese and who often wears a Pac-a-Mac. His most famous appearance is in the "Dead Parrot sketch". His name is only mentioned once on-screen, during the "Fish Licence" sketch, but his attire (together with Cleese's distinctive, nasal performance) distinguishes him as a recognisable character who makes multiple appearances throughout the first two series. An audio re-recording of "Fish Licence" also reveals that he has multiple pets of wildly differing species, all of them named "Eric".
+Mr. Cheeky, a well-dressed moustachioed man, referred to in the published scripts as "Mr. Nudge" (Idle), who pointedly annoys uptight characters (usually Jones). He is characterised by his constant nudging gestures and cheeky innuendo. His most famous appearance is in his initial sketch, "Nudge Nudge", though he appears in several later sketches too, including "The Visitors", where he claimed his name was Arthur Name.
+Biggles (Chapman, and in one instance Jones), a World War I pilot. Derived from the famous series of fiction stories by W. E. Johns.
+Luigi Vercotti (Palin), a mafioso entrepreneur and pimp featured during the first series, accompanied in his first appearance by his brother Dino (Jones). He appears as the manager for Ron Obvious, the owner of La Gondola restaurant and as a victim of the Piranha Brothers. With his brother, he attempts to talk the Colonel into paying for protection of his Army base.
+The Spanish Inquisition would burst into a previously unrelated sketch whenever their name was mentioned. Their catchphrase was 'Nobody expects the Spanish Inquisition!' They consist of Cardinal Ximinez (Palin), Cardinal Fang (Gilliam), and Cardinal Biggles (Jones). They premiered in series two and Ximinez had a cameo in "The Buzz Aldrin Show".
+Frenchmen: Cleese and Palin would sometimes dress in stereotypical French garb, e.g. striped shirt, tight pants, beret, and speak in garbled French, with incomprehensible accents. They had one fake moustache between them, and each would stick it onto the other's lip when it was his turn to speak. They appear giving a demonstration of the technical aspects of the flying sheep in episode 2 ("Sex and Violence"), and appear in the Ministry of Silly Walks sketch as the developers of "La Marche Futile". They also make an appearance in Monty Python and the Holy Grail.
+The Compère (Palin), a sleazy nightclub emcee in a red jacket. He linked sketches by introducing them as nightclub acts, and was occasionally seen after the sketch, passing comment on it. In one link, he was the victim of the Knight with a Raw Chicken.
+Spiny Norman, a Gilliam animation of a giant hedgehog. He is introduced in Episode 1 of Series 2 in "Piranha Brothers" as an hallucination experienced by Dinsdale Piranha when he is depressed. Later, Spiny Norman appears randomly in the background of animated cityscapes, shouting 'Dinsdale!'
+Cardinal Richelieu (Palin) is impersonated by someone or is impersonating someone else. He is first seen as a witness in court, but he turns out to be Ron Higgins, a professional Cardinal Richelieu impersonator. He is later seen during the "Historical Impersonations" sketch as himself impersonating Petula Clark.
+Ken Shabby (Palin), an unkempt, disgusting man who cleaned public lavatories, appeared in his own sketch in the first series, attempting to get approval from another man (Chapman) to marry his daughter (Booth). In the second series, he appeared in several vox populi segments. He later founded his own religion (as part of the "Crackpot Religions" sketch) and called himself Archbishop Shabby.
+Raymond Luxury-Yacht (Chapman) is described as one of Britain's leading skin specialists. He wears an enormous fake nose made of polystyrene. He proudly proclaims that his name 'is spelled "Raymond Luxury-Yach-t", but it is pronounced "Throat-Wobbler Mangrove"'.
+A Madman (Chapman) Often appears in vox pops segments. He wears a bowler hat and has a bushy moustache. He will always rant and ramble about his life whenever he appears and will occasionally foam at the mouth and fall over backwards. He appears in "The Naked Ant", "The Buzz Aldrin Show", and "It's a Living".
+
+Other returning characters include a married couple, often mentioned but never seen, Ann Haydon-Jones and her husband Pip. In "Election Night Special", Pip has lost a political seat to Engelbert Humperdinck. Several recurring characters are played by different Pythons. Both Palin and Chapman played the insanely violent Police Constable Pan Am. Both Jones and Palin portrayed police sergeant Harry 'Snapper' Organs of Q division. Various historical figures were played by a different cast member in each appearance, such as Mozart (Cleese, then Palin), or Queen Victoria (Jones, then Palin, then all five Pythons in Series 4).
+Some of the Pythons' real-life targets recurred more frequently than others. Reginald Maudling, a contemporary Conservative politician, was singled out for perhaps the most consistent ridicule.[11] Then-Secretary of State for Education and Science, and (well after the programme had ended) Prime Minister Margaret Thatcher, was occasionally mentioned, in particular referring to Thatcher's brain as being in her shin received a hearty laugh from the studio audience. Then-US President Richard Nixon was also frequently mocked, as was Conservative party leader Edward Heath, prime minister for much of the series' run. The British police were also a favourite target, often acting bizarrely, stupidly, or abusing their authority, frequently in drag.
+Popular character traits[edit]
+Although there were few recurring characters, and the six cast members played many diverse roles, each perfected some character traits.
+Chapman[edit]
+Graham Chapman often portrayed straight-faced men, of any age or class, frequently authority figures such as military officers, policemen or doctors. His characters could, at any moment, engage in "Pythonesque" maniacal behaviour and then return to their former sobriety.[12] He was also skilled in abuse, which he brusquely delivered in such sketches as "The Argument Clinic" and "Flying Lessons". He adopted a dignified demeanour as the leading "straight man" in the Python feature films Holy Grail (King Arthur) and Life of Brian (title character Brian).[13]
+Cleese[edit]
+John Cleese played ridiculous authority figures. Gilliam claims that Cleese is the funniest of the Pythons in drag, as he barely needs to be dressed up to look hilarious, with his square chin and 6'5" (196 cm) frame (see the "Mr. and Mrs. Git" sketch).[citation needed] Cleese also played intimidating maniacs, such as an instructor in the "Self Defence Against Fresh Fruit" sketch. His character Mr. Praline, the put-upon consumer, featured in some of the most popular sketches, most famously in "Dead Parrot".[14] One star turn that proved most memorable among Python fans was "The Ministry of Silly Walks", where he worked for the eponymous government department. The sketch features some rather extravagant physical comedy from the notoriously tall and loose-limbed Cleese. Despite its popularity, particularly among American fans, Cleese himself particularly disliked the sketch, feeling that many of the laughs it generated were cheap and that no balance was provided by what could have been the true satirical centrepoint.[citation needed] Another of his trademarks is his over-the-top delivery of abuse, particularly his screaming "You bastard!"
+Cleese often played foreigners with ridiculous accents, especially Frenchmen, most of the time with Palin. Sometimes this extended to the use of actual French or German (such as "The Funniest Joke in the World", "Hitler in Minehead", or "La Marche Futile" at the end of "The Ministry of Silly Walks"), but still with a very heavy accent (or impossible to understand, as for example Hitler's speech).
+Gilliam[edit]
+
+
+
+
+The famous Python Foot can here be seen in its original format in the bottom left corner of "Venus, Cupid, Folly and Time"
+
+
+Many Python sketches were linked together by the cut-out animations of Terry Gilliam, including the opening titles featuring the iconic giant foot that became a symbol of all that was 'Pythonesque'.[15] Gilliam’s unique visual style was characterised by sudden, dramatic movements and deliberate mismatches of scale, set in surrealist landscapes populated by engravings of large buildings with elaborate architecture, grotesque Victorian gadgets, machinery, and people cut from old Sears Roebuck catalogues. Gilliam added airbrush illustrations and many famous pieces of art. All of these elements were combined in incongruous ways to obtain new and humorous meanings in the tradition of surrealist collage assemblies.[citation needed]
+The surreal nature of the series allowed Gilliam’s animation to go off on bizarre, imaginative tangents. Some running gags derived from these animations were a giant hedgehog named Spiny Norman who appeared over the tops of buildings shouting, "Dinsdale!", further petrifying the paranoid Dinsdale Piranha; and The Foot of Cupid, the giant foot that suddenly squashed things. The latter is appropriated from the figure of Cupid in the Agnolo Bronzino painting "Venus, Cupid, Folly and Time".
+Notable Gilliam sequences for the show include Conrad Poohs and his Dancing Teeth, the rampage of the cancerous black spot, The Killer Cars and a giant cat that stomps its way through London, destroying everything in its path.
+Initially only hired to be the animator of the series, Gilliam was not thought of (even by himself) as an on-screen performer at first, being American and not very good at the deep and sometimes exaggerated English accent of his fellows. The others felt they owed him something and so he sometimes appeared before the camera, usually in the parts that no one else wanted to play, generally because they required a lot of make-up or involved uncomfortable costumes.[16] The most recurrent of these was The-Knight-Who-Hits-People-With-A-Chicken, a knight in armour who would walk on-set and hit another character on the head with a plucked chicken when they said something really corny. Some of Gilliam's other on-screen portrayals included:
+
+A man with a stoat through his head
+Cardinal Fang in "The Spanish Inquisition"
+A dandy wearing only a mask, bikini underwear and a cape, in "The Visitors"
+A hotel clerk in "The Cycling Tour" episode
+A trouser-less man with a multi coloured wig and a Goat on a lead asking for "Mrs. Rogers" at the start of the New Gas Cooker sketch.
+A fat young man covered in beans in "Most Awful Family In Britain"
+A wheelchair using security guard, sporting an enormous sword through his head.
+Percy Bysshe Shelley in the "Michael Ellis" episode
+
+Gilliam soon became distinguished as the go-to member for the most obscenely grotesque characters. This carried over into the Holy Grail film, where Gilliam played King Arthur's hunchbacked page 'Patsy' and the bridgekeeper at the Bridge of Death. It has also been claimed that he was originally asked by Terry Jones to play Mr. Creosote in The Meaning Of Life, but turned it down.
+Idle[edit]
+Eric Idle is known for his roles as a cheeky, suggestive playboy ("Nudge Nudge"), a variety of pretentious television presenters (such as his over-the-top portrayal of Philip Jenkinson in the segments connecting the "Cheese Shop" and "Salad Days" sketches), a crafty, slick salesman ("Door-to-Door Joke Salesman", "Encyclopedia Salesman") and the merchant who loves to haggle in Monty Python’s Life of Brian. He is acknowledged as 'the master of the one-liner' by the other Pythons.[17] He is also considered the best singer/songwriter in the group; for example, he wrote and performed "Always Look on the Bright Side of Life" from The Life of Brian.[18] Unlike Jones, he often played female characters in a more straightforward way, only altering his voice slightly, as opposed to the falsetto shrieking used by the others. Several times, Idle appeared as upper-class, middle-aged females, such as Rita Fairbanks ("Reenactment of the Battle Of Pearl Harbor") and the sexually-repressed Protestant wife in the "Every Sperm is Sacred" sketch, The Meaning of Life.
+Because he was not from an already-established writing partnership prior to Python, Idle wrote his sketches alone.[19]
+Jones[edit]
+Although all of the Pythons played women, Terry Jones is renowned by the rest to be 'the best Rat-Bag woman in the business'.[citation needed] His portrayal of a middle-aged housewife was louder, shriller, and more dishevelled than that of any of the other Pythons. Examples of this are the "Dead Bishop" sketch, his role as Brian's mother Mandy in Life of Brian, Mrs. Linda S-C-U-M in "Mr. Neutron" and the café proprietor in "Spam". Also recurring was the upper-class reserved men, in "Nudge, Nudge" and the "It's A Man's Life" sketch, and incompetent authority figures (Harry "Snapper" Organs). He also played the iconic Nude Organist that introduced all of series three. Generally, he deferred to the others as a performer, but proved himself behind the scenes, where he would eventually end up pulling most of the strings.[citation needed]
+Palin[edit]
+Michael Palin was regarded by the other members of the troupe as the one with the widest range, equally adept as a straight man or wildly over the top character.[citation needed] He portrayed many working-class northerners, often portrayed in a disgusting light: "The Funniest Joke in the World" sketch and the "Every Sperm Is Sacred" segment of Monty Python's The Meaning of Life. In contrast, Palin also played weak-willed, put-upon men such as the husband in the "Marriage Guidance Counsellor" sketch, or the boring accountant in the "Vocational Guidance Counsellor" sketch. He was equally at home as the indefatigable Cardinal Ximinez of Spain in "The Spanish Inquisition" sketch. Another high-energy character that Palin portrays is the slick TV show host, constantly smacking his lips together and generally being over-enthusiastic ("Blackmail" sketch). In one sketch, he plays the role with an underlying hint of self-revulsion, where he wipes his oily palms on his jacket, makes a disgusted face, then continues. One of his most famous creations[citation needed] was the shopkeeper who attempts to sell useless goods by very weak attempts at being sly and crafty, which are invariably spotted by the customer (often played by Cleese), as in the "Dead Parrot" and "Cheese Shop" sketches. Palin is also well known for his leading role in "The Lumberjack Song".
+Palin also often plays heavy-accented foreigners, mostly French ("La marche futile") or German ("Hitler in Minehead"), usually alongside Cleese. In one of the last episodes, he delivers a full speech, first in English, then in French, then in heavily accented German.
+Of all the Pythons, Palin played the fewest female roles.[citation needed] Among his portrayals of women are: Queen Victoria in the "Michael Ellis" episode, Debbie Katzenberg the American in Monty Python's The Meaning of Life, or as a rural idiot's wife in the "Idiot in rural society" sketch.
+Lost sketches[edit]
+Some material originally recorded went missing later, such as the use of the word "masturbation" in the "Summarise Proust" sketch (which was muted during the first airing, and later cut out entirely) or "What a silly bunt" in the Travel Agent sketch (which featured a character [Idle] who has a speech impediment that makes him pronounce "C"s as "B"s),[20] which was cut before the sketch ever went to air. However, when this sketch was included in the album Monty Python's Previous Record and the Live at the Hollywood Bowl film, the line remained intact.
+Some sketches were deleted in their entirety and later recovered. One such sketch is the "Party Political Broadcast (Choreographed)", where a Conservative Party spokesman (Cleese) delivers a party political broadcast before getting up and dancing, being coached by a choreographer (Idle), and being joined by a chorus of spokesmen dancing behind him. The camera passes two Labour Party spokesmen practising ballet, and an animation featuring Edward Heath in a tutu. Once deemed lost, a home-recorded tape of this sketch, captured from a broadcast from Buffalo, New York PBS outlet WNED-TV, turned up on YouTube in 2008.[21] Another high-quality recording of this sketch, broadcast on WTTW in Chicago, has also turned up on YouTube.[22] The Buffalo version can be seen as an extra on the new Region 2/4 eight-disc The Complete Monty Python's Flying Circus DVD set.[citation needed] The Region 1 DVD of Before The Flying Circus, which is included in The Complete Monty Python's Flying Circus Collector's Edition Megaset and Monty Python: The Other British Invasion, also contains the Buffalo version as an extra.[23]
+Another lost sketch is the "Satan" animation following the "Crackpot Religion" piece and the "Cartoon Religion Ltd" animation, and preceding the "How Not To Be Seen" sketch: this had been edited out of the official tape. Six frames of the animation can be seen at the end of the episode, wherein that particular episode is repeated in fast-forward. A black and white 16 mm film print has since turned up (found by a private film collector in the US) showing the animation in its entirety.
+At least two references to cancer were censored, both during the second series. In the sixth episode ("It's A Living" or "School Prizes"), Carol Cleveland's narration of a Gilliam cartoon suddenly has Michael Palin's voice dub 'gangrene' over the word cancer (although the word 'cancer' was used unedited when the animation appeared in the movie And Now for Something Completely Different as well as the 2006 special Terry Gilliam's Personal Best). Another reference was removed from the sketch "Conquistador Coffee Campaign", in the eleventh episode "How Not to Be Seen", although a reference to leprosy remained intact. This line has also been recovered from the same 16 mm film print as the above-mentioned "Satan" animation.
+A sketch from Episode 7 of Series 2 (subtitled 'The Attila the Hun Show') featured a parody of Michael Miles, the 1960s TV game show host (played by Cleese) and was introduced as 'Spot The Braincell'. This sketch was deleted shortly afterwards from a repeat broadcast as a mark of respect following the death of Miles in February 1971.
+A restored Region 2 DVD release of Series 1–4 was released in 2007, with no additional features.
+Monty Python's Fliegender Zirkus[edit]
+Main article: Monty Python's Fliegender Zirkus
+Two episodes were produced in German for WDR (Westdeutscher Rundfunk), both entitled Monty Python's Fliegender Zirkus, the literal German translation of the English title. While visiting the UK in the early 1970s, German entertainer and TV producer Alfred Biolek caught notice of the Pythons. Excited by their innovative, absurd sketches, he invited them to Germany in 1971 and 1972 to write and act in two special German episodes.
+The first episode, advertised as Monty Python’s Fliegender Zirkus: Blödeln für Deutschland ("Monty Python's Flying Circus: Clowning around for Germany"), was produced in 1971 and performed in German. The second episode, advertised as Monty Python’s Fliegender Zirkus: Blödeln auf die feine englische Art ("Monty Python's Flying Circus: Clowning around in the distinguished English way"), produced in 1972, was recorded in English and dubbed into German for its broadcast in Germany. The original English recording was transmitted by the BBC in October 1973.
+Stage incarnations[edit]
+The members of Monty Python embarked on a series of stage shows during and after the television series. These mostly consisted of sketches from the series, though they also included other famous sketches that had preluded them. One such sketch was the Four Yorkshiremen sketch, written by Cleese and Chapman, and performed for At Last the 1948 Show; the sketch subsequently became part of the live Python repertoire. The shows also included songs from collaborator Neil Innes.
+Recordings of four of these stage shows have subsequently appeared as separate works:
+
+Monty Python Live at Drury Lane (aka Monty Python Live at the Theatre Royal, Drury Lane), released in the UK in 1974 as their fifth record album
+Monty Python Live at City Center, performed in New York City and released as a record in 1976 in the US
+Monty Python Live at the Hollywood Bowl, recorded in Los Angeles in 1980 and released as a film in 1982
+Monty Python Live (Mostly): One Down, Five to Go, the troupe's reunion / farewell show, ran for 10 shows at The O2 Arena in London in July 2014. The final performance on 20 July was live streamed to cinemas worldwide. A re-edited version was later released on Blu-Ray, DVD and double Compact Disc; the CD version is exclusive to the deluxe version of the release which contains all 3 formats on 4 discs housed in a 60-page hardback book.
+
+Graham Chapman also performed on stage at the Knebworth Festival in 1975 with Pink Floyd.[24]
+In 2005 a troupe of actors headed by Rémy Renoux, translated and "adapted" a stage version of Monty Python’s Flying Circus into French. Usually the original actors defend their material very closely, but given in this case the "adaptation" and also the translation into French (with subtitles), the group supported this production. The adapted material sticks close to the original text, mainly deviating when it comes to ending a sketch, something the Python members themselves changed many times over the course of their stage performances.[25][26] Language differences also occur in the lyrics of several songs. For example, "Sit on My Face" (which translated into French would be "Asseyez-vous sur mon visage") becomes "cum in my mouth".[27]
+Landing of Flying Circus[edit]
+John Cleese left the show after the third series and did not appear in the six episodes of the fourth and final series. (However, he did receive writing credits for sketches derived from the writing sessions for the film of Holy Grail). Neil Innes and Douglas Adams are the only two non-Pythons to get writing credits in the show – Innes for songs in episodes 40, 42 and 45 (and for contributing to a sketch in episode 45), and Adams for contributing to a sketch about a doctor whose patients are stabbed by his nurse, in episode 45. (He also had walk-on acting parts in episodes 42 and 44.) Innes frequently appeared in the Pythons' stage shows and can also be seen as Sir Robin's lead minstrel in Monty Python and the Holy Grail and (briefly) in Life of Brian. Adams had become friends with Graham Chapman, and they later went on to write the failed sketch show pilot Out of the Trees.
+Although Cleese stayed for the third series, he claimed that he and Chapman only wrote two original sketches ("Dennis Moore" and "Cheese Shop"), whereas he felt everything else was derivative of previous material. Either the third series, or the fourth series, made without Cleese, are often seen as the weakest and most uneven of the four series, by both fans and the Pythons themselves.[citation needed] However, with the fourth series, the Pythons started making episodes into more coherent stories that would be a precursor to their films, and featured Terry Gilliam onscreen more.[citation needed]
+The final episode of Series 4 was recorded on 16 November and broadcast on 5 December 1974. That year NBC's summer replacement series, Dean Martin's Comedyworld aired several segments from the Python shows. This paid enough to the BBC-TV distributors, Time-Life Films, to finally pay for the conversion of the Flying Circus programmes from PAL to the American NTSC system, and meant the PBS stations could afford the series at last.[citation needed] It was an instant hit, rapidly garnering an enormous loyal cult following nationwide that surprised even the Pythons themselves, who did not believe that their humour was exportable without being tailored specifically, even without a language barrier.[citation needed]
+In 1974, the PBS station KERA in Dallas was the first television station in the United States to broadcast episodes of Monty Python's Flying Circus, and is often credited with introducing the programme to American audiences.[28] When several episodes were broadcast by ABC in their Wide World of Entertainment showcase in 1975, the episodes were re-edited, thus losing the continuity and flow intended in the originals. When ABC refused to stop treating the series in this way, the Pythons took them to court. Initially the court ruled that their artistic rights had indeed been violated, but it refused to stop the ABC broadcasts. However, on appeal the team gained control over all subsequent US broadcasts of its programmes.[29] The case also led to their gaining the rights from the BBC, once their original contracts ended at the end of 1980.
+The show also aired on MTV during the network's infancy;[30] Monty Python was part of a two-hour comedy block on Sunday nights that also included another BBC series, The Young Ones.
+In April 2006, Monty Python's Flying Circus returned to non-cable American television on PBS. In connection with this, PBS commissioned Monty Python's Personal Best, a six-episode series featuring each Python’s favourite sketches, plus a tribute to Chapman, who died in 1989. BBC America has aired the series on a sporadic basis since the mid-2000s, in an extended 40-minute time slot in order to include commercials. Independent Film Channel acquired the rights to the show in 2009, though not exclusive, as BBC America still airs occasional episodes of the show. IFC also presented a six-part documentary Monty Python: Almost the Truth (The Lawyers Cut), produced by Terry Jones' son Bill.
+Awards and honours[edit]
+Monty Python's Flying Circus placed fifth on a list of the BFI TV 100, drawn up by the British Film Institute in 2000, and voted for by industry professionals.
+Time magazine included the show on its 2007 list of the "100 Best TV Shows of All Time".[31]
+In a list of the 50 Greatest British Sketches released by Channel 4 in 2005, five Monty Python sketches made the list:[32]
+
+#2 – Dead Parrot
+#12 – The Spanish Inquisition
+#15 – Ministry of Silly Walks
+#31 – Nudge Nudge
+#49 – The Lumberjack Song
+
+In 2004[33] and 2007, Monty Python's Flying Circus was ranked #5 and #6 on TV Guide's Top Cult Shows Ever.[34]
+In 2013, the programme was ranked #58 on TV Guide's list of the 60 Best Series of All Time.[35]
+Legacy[edit]
+Douglas Adams, creator of The Hitchhiker's Guide to the Galaxy and co-writer of the "Patient Abuse" sketch, once quoted "I loved Monty Python's Flying Circus. For years I wanted to be John Cleese, I was most disappointed when I found out the job had been taken."[36]
+Lorne Michaels counts the show as a major influence on his Saturday Night Live sketches.[37] Cleese and Palin re-enacted the Dead Parrot sketch on SNL in 1997.
+The show was a major influence on the Danish cult sketch show Casper & Mandrilaftalen (1999)[38] and Cleese starred in its 50th episode.[39][40]
+In computing, the terms spam and the Python programming language[41] are both derived from the series.
+As of 2013, questions concerning the Pythons' most famous sketches are incorporated in the examinations required of those seeking to become British citizens.[42]
+Production[edit]
+The production team was headed by Ian MacNaughton. Other regular team members included Hazel Pethig (costumes), Madelaine Gaffney (makeup) and John Horton (video effects designer). Maggie Weston, who worked on both makeup and design, married Gilliam in 1973 and are still together. The series was primarily filmed in London studios and nearby locations, although location shooting to take in beaches and villages included filming in Somerset and Norwich.
+Transnational themes[edit]
+The overall humour of Monty Python's Flying Circus is built on an inherent Britishness; it is “based on observations of British life, society, and institutions”.[43] However, part of this focus is achieved through seeing the ‘other’ through a British lens.[43][44] The often “excessive generalization and utterly banal stereotypes” can be seen as a persiflage of the views held by the British public, rather than poking fun at the cultures that were depicted.[43]
+For example, while American culture is not often in the foreground in many sketches, it is rather a frequent side note in many skits. Almost all of the 45 episodes produced for the BBC contain a reference to Americans or American culture, with 230 references total, resulting in approximately five references per show, but increasing over the course of the show.[44] In total, 140 references to the American entertainment industry are made. Entertainment tropes, such as Westerns, Film Noir, and Hollywood are referenced 39 times. Further, there are 12 references to arts and literature, 15 to US politics, 5 to the American military, 7 to US historical events, 12 to locations in the US, 7 to space and science fiction, 21 economic references, such as brands like Pan-Am, Time-Life, and Spam, and 8 sports references. Some references do double count in various categories.[44] It is also notable that American music is regularly heard in the show, such as the theme to the television series Dr. Kildare, but most prominently the show's theme tune (The Liberty Bell by John Philip Sousa). While American entertainment was a pervasive cultural influence in Britain[44] at the time of the production of the series, not all references to American culture can be seen as conscious decisions. For example, Terry Jones did not know that Spam was an American product at the time he wrote the sketch.[44] Kevin Kern summarises in his analysis of references to the US 'that portrayals of American themes reflected three broad responses to American hegemony: 1) minor or passing references to specific individuals, events, or products of American culture, 2) American cultural tropes used to serve a general comedic purpose, and 3) satire aimed at American targets, specifically US economic power, the crassness or banality of American culture, or American violence and militarism'.[44] However, Kern does not see this as exhibiting anti-American tendencies, but as 'a natural extension of the Pythons’ frequent (…) satirical focus on vulgarity, banality, violence, and militarism in the United Kingdom (…)' [44]
+See also[edit]
+
+
+Television portal
+
+
+
+At Last the 1948 Show
+Do Not Adjust Your Set
+List of Monty Python's Flying Circus episodes
+List of recurring Monty Python's Flying Circus characters
+
+References[edit]
+Notes
+
+
+^ "Fred Tomlinson, singer on Monty Python – obituary". The Daily Telegraph. 2016-08-02. Retrieved 2016-08-15. 
+^ Slotnik, Daniel E. (2016-08-04). "Fred Tomlinson, Singer Who Led a 'Monty Python' Troupe, Dies at 88". New York Times. Retrieved 2016-08-15. 
+^ All Music Guide to Classical Music: The Definitive Guide to Classical Music. San Francisco, CA: Backbeat Books, 2005. Retrieved February 11, 2018
+^ Copyright Term and the Public Domain in the United States – Cornell University Library Copyright Information Center. Retrieved February 11, 2018
+^ Clark, Philip. "Monty Python: Sousa, two-sheds and musical subversions," The Guardian, Friday, July 11, 2014. Retrieved February 12, 2018
+^ The term flying circus first being applied to Baron von Richthofen's Jagdgeschwader 1
+^ a b Palin, Michael (2008). Diaries 1969–1979 : the Python Years / Michael Palin. Griffin. p. 650. ISBN 0-312-38488-2. 
+^ "Live At Aspen". Retrieved 10 January 2013. 
+^ Larsen 2008, p. 13.
+^ Larsen 2008, p. 292.
+^ Larsen 2008, p. 288.
+^ Sketches "An Appeal from the Vicar of St. Loony-up-the-Cream-Bun-and-Jam", "The One-Man Wrestling Match", "Johann Gambolputty..." and "Argument Clinic"
+^ Zack Handlen (2011). If You Like Monty Python...: Here Are Over 200 Movies, TV Shows and Other Oddities That You Will Love. Limelight Editions. ISBN 9780879104320. 
+^ Chapman, Graham; Cleese, John; Gilliam, Terry; Idle, Eric; Jones, Terry; Palin, Michael (1989). Wilmut, Roger, ed. The Complete Monty Python's Flying Circus: All the Words, Volume One. New York, New York: Pantheon Books. p. 320 (Appendix). ISBN 0-679-72647-0. 
+^ Sean Adams (2017). The Designer's Dictionary of Color. Abrams. p. 104. ISBN 9781683350026. 
+^ Terry Gilliam (2004). David Sterritt, Lucille Rhodes, ed. Terry Gilliam: Interviews (illustrated ed.). Univ. Press of Mississippi. p. 80. ISBN 9781578066247. 
+^ Graham Chapman, John Cleese, Terry Gilliam, Michael Palin, Eric Idle, Terry Jones (2005). Bob McCabe, ed. The Pythons: Autobiography (illustrated ed.). Macmillan. p. 14. ISBN 9780312311452. CS1 maint: Uses authors parameter (link)
+^ Palin, Michael (2006). Diaries 1969–1979: The Python Years. Weidenfeld & Nicolson. p. 473.  |access-date= requires |url= (help)
+^ Bill Cooke (2006). Dictionary of Atheism, Skepticism, and Humanism. Prometheus Books. p. 349. ISBN 9781615923656. 
+^ "Travel Agent / Watney's Red Barrell". www.orangecow.org. Retrieved 13 July 2009. 
+^ Monty Python (18 December 1971). "Monty Python - political choreographer". Monty Python - political choreographer. Spiny Norman. Retrieved 17 June 2013. 
+^ Monty Python (18 December 1971). "Lost Sketch- Choreographed Party Political Broadcast from WTTW-11". Lost Sketch- Choreographed Party Political Broadcast - Monty Python's Flying Circus WTTW Channel. MontyPythoNET. Retrieved 23 January 2012. 
+^ "DVD Talk Review: The Complete Monty Python's Flying Circus - Collectors Edition Megaset". 18 November 2008. 
+^ Monty Pythons Flying Circus | Vintagerock's Weblog
+^ Rebecca Thomas (3 August 2003). "Monty Python learns French". BBC Online News. BBC. Archived from the original on 6 August 2003. Retrieved 4 January 2010. 
+^ Clive Davis (31 January 2005). "Monty Python's Flying Circus – At Last, in French". The Times Online. Retrieved 4 January 2010. 
+^ Logan, Brian (4 August 2003). "Ce perroquet est mort: Monty Python in French? Brian Logan meets the team behind a world first". The Times. London. p. 18.  Accessed through ProQuest, 1 March 2012.
+^ Peppard, Alan (25 August 2011). "Alan Peppard: Bob Wilson hailed in KERA documentary". The Dallas Morning News. Archived from the original on 19 May 2014. Retrieved 25 January 2013. 
+^ Monty Python, v. American Broadcasting Companies, Inc., 538 F.2d 14 (2d Cir 1976)
+^ MTV Monty Python Warning. YouTube. 31 May 2007. 
+^ "The 100 Best TV Shows of All-TIME". TIME. 6 September 2007. Retrieved 14 July 2009. 
+^ "Channel 4's 50 Greatest Comedy Sketches". Channel4.com. Archived from the original on 27 June 2009. Retrieved 14 July 2009. 
+^ "25 Top Cult Shows Ever!". TV Guide Magazine Group. 30 May 2004. 
+^ TV Guide Names the Top Cult Shows Ever - Today's News: Our Take TV Guide: 29 June 2007
+^ "TV Guide Magazine's 60 Best Series of All Time". TV Guide. 
+^ "Douglas Adams - Biography - IMdb". 
+^ "Lorne Michaels - Biography - IMDb". 
+^ Hansen, Helle Kastholm (April 2, 2017). "LARS HJORTSHØJ: Mine børn sætter mig på plads". Ekstra Bladet (in Danish). JP/Politikens Hus. p. 16 (4th section). Archived from the original on May 1, 2017. 
+^ "Casper & mandrilaftalen". Casper & Mandrilaftalen (DK, 1999). Archived from the original on October 7, 2017.
+^ "K'nyt: Cleese i Mandrillen". Dagbladet Information (in Danish). September 4, 1999. p. 9 (1st section). I aftes, fredag, optrådte den store engelske komiker John Cleese som gæst i 'Casper og Mandrilaftalen'. 
+^ "General Python FAQ — Python 2.7.10 documentation". python.org. 
+^ "Weird but true". New York Post. 28 January 2013. Retrieved 24 July 2013. 
+^ a b c Dobrogoszcz, Tomasz (2014). Dobrogoszcz, Tomasz, ed. The British Look Abroad: Monty Python and the Foreign. Lanham, Maryland: Rowman & Littlefield. 
+^ a b c d e f g Kern, Kevin F. (2014). Dobrogoszcz, Tomasz, ed. Twentieth-Century Vole, Mr. Neutron, and Spam: Portrayals of American Culture in the Work of Monty Python. Lanham, Maryland: Rowman & Littlefield. 
+
+
+
+Bibliography
+
+Landy, Marcia (2005). Monty Python’s Flying Circus. Wayne State University Press. ISBN 0-8143-3103-3. 
+Larsen, Darl (2008). Monty Python's Flying Circus: An Utterly Complete, Thoroughly Unillustrated, Absolutely Unauthorized Guide to Possibly All the References From Arthur "Two Sheds" Jackson to Zambesi. Scarecrow Press. ISBN 9780810861312. 
+Larsen, Darl. Monty Python's Flying Circus: An Utterly Complete, Thoroughly Unillustrated, Absolutely Unauthorized Guide to Possibly All the References From Arthur "Two Sheds" Jackson to Zambesi, Volumes 1 and 2. Scarecrow Press, 2013. ISBN 9781589797123 (vol. 1) and ISBN 9781589798076 (vol. 2)
+
+
+External links[edit]
+
+
+
+Wikiquote has quotations related to: Monty Python's Flying Circus
+
+
+
+Official website
+Monty Python’s Flying Circus on IMDb
+Museum of Broadcast Television
+British Film Institute Screen Online
+Monty Python’s Flying Circus – Nostalgia Central
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Monty Python
+
+
+
+
+
+
+Graham Chapman
+John Cleese
+Terry Gilliam
+Eric Idle
+Terry Jones
+Michael Palin
+
+
+Carol Cleveland
+Neil Innes
+
+
+
+
+
+Television series
+
+
+
+Flying Circus
+
+episodes
+
+
+Fliegender Zirkus
+Personal Best
+
+
+
+
+
+Films
+
+
+
+And Now for Something Completely Different
+Holy Grail
+Life of Brian
+Live at the Hollywood Bowl
+The Meaning of Life
+
+The Crimson Permanent Assurance
+
+
+
+
+
+
+
+Studio albums
+
+
+
+Another Record
+Previous Record
+Matching Tie and Handkerchief
+Holy Grail
+Life of Brian
+Contractual Obligation
+The Meaning of Life
+
+
+
+
+
+Compilation albums
+
+
+
+Instant Record Collection
+Final Rip Off
+Sings
+Ultimate Rip Off
+Instant CD Collection
+Total Rubbish
+
+
+
+
+
+Live albums
+
+
+
+Flying Circus
+Live at Drury Lane
+Live at City Center
+
+
+
+
+
+Specials
+
+
+
+Parrot Sketch Not Included
+Live at Aspen
+Python Night
+
+
+
+
+
+Documentaries
+
+
+
+The Pythons
+Life of Python
+Almost the Truth (Lawyers Cut)
+And Now for Something Rather Similar
+The Meaning of Live
+
+
+
+
+
+Stage productions
+
+
+
+Spamalot
+Not the Messiah (He's a Very Naughty Boy)
+An Evening Without Monty Python
+Live (Mostly)
+
+
+
+
+
+Literature
+
+
+
+Big Red Book
+Brand New Bok
+Holy Grail (Book)
+Life of Brian/SCRAPBOOK
+The Meaning of Life
+Just the Words
+Song Book
+A Pocketful of Python
+The Pythons Autobiography
+Live!
+
+
+
+
+
+Video games
+
+
+
+Flying Circus
+Complete Waste of Time
+Quest for the Holy Grail
+The Meaning of Life
+Cow Tossing
+
+
+
+
+
+Characters
+
+
+
+Mr Praline
+Gumbys
+The Colonel
+Mr Creosote
+Rabbit of Caerbannog
+Ron Obvious
+Other characters
+
+
+
+
+
+Sketches
+
+
+
+Albatross!
+Anne Elk's Theory on Brontosauruses
+Architects
+Argument Clinic
+Bishop
+Bruces
+Cheese Shop
+Colin "Bomber" Harris vs Colin "Bomber" Harris
+Crunchy Frog
+Dead Parrot
+Dirty Fork
+Dirty Hungarian Phrasebook
+Election Night Special
+Fish Licence
+Fish-Slapping Dance
+Four Yorkshiremen
+The Funniest Joke in the World
+How Not to Be Seen
+Kilimanjaro Expedition
+Lifeboat
+Marriage Guidance Counsellor
+Ministry of Silly Walks
+Mouse Problem
+Nudge Nudge
+Patient Abuse
+Philosophers' Football Match
+Piranha Brothers
+Sam Peckinpah's "Salad Days"
+Seduced Milkmen
+Self Defence Against Fresh Fruit
+Spam
+Spanish Inquisition
+Undertakers
+Upper Class Twit of the Year
+Vocational Guidance Counsellor
+World Forum/Communist Quiz
+
+
+
+
+
+Songs
+
+
+
+"Always Look on the Bright Side of Life"
+"Brian Song"
+"Bruces' Philosophers Song"
+"Decomposing Composers"
+"Eric the Half-a-Bee"
+"Every Sperm Is Sacred"
+"Finland"
+"Galaxy Song"
+"I Bet You They Won't Play This Song on the Radio"
+"I Like Chinese"
+"I've Got Two Legs"
+"The Lumberjack Song"
+"Medical Love Song"
+"Never Be Rude to an Arab"
+"Oliver Cromwell"
+"Sit on My Face"
+
+
+
+
+
+Related articles
+
+
+
+Filmography
+Cambridge Circus
+I'm Sorry, I'll Read That Again
+The Frost Report
+At Last the 1948 Show
+Twice a Fortnight
+Do Not Adjust Your Set
+We Have Ways of Making You Laugh
+How to Irritate People
+The Complete and Utter History of Britain
+Teach Yourself Heath
+Tiny Black Round Thing
+Bert Fegg's Nasty Book for Boys and Girls
+Rutland Weekend Television
+Fawlty Towers
+Ripping Yarns
+Out of the Trees
+The Secret Policeman's Ball
+Python On Song
+All You Need Is Cash
+The Hastily Cobbled Together for a Fast Buck Album
+Monty Python Live
+Concert for George
+Diaries 1969–1979: The Python Years
+The Seventh Python
+Holy Flying Circus
+A Liar's Autobiography: The Untrue Story of Monty Python's Graham Chapman
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Monty_Python%27s_Flying_Circus&oldid=832234268"					
+				Categories: 1969 British television programme debuts1974 British television programme endings1960s British television sketch shows1970s British television sketch showsBBC television sketch showsBritish black comedy television programmesBritish satirical television programmesEnglish-language television programsMetafictional television seriesMonty PythonPostmodernismSelf-reflexive televisionTelevision programs adapted into filmsTelevision programs adapted into video gamesHidden categories: CS1 maint: Uses authors parameterPages using citations with accessdate and no URLCS1 Danish-language sources (da)EngvarB from June 2016Use dmy dates from June 2016Articles needing additional references from October 2009All articles needing additional referencesAll articles with unsourced statementsArticles with unsourced statements from June 2017Articles with unsourced statements from March 2012Official website different in Wikidata and Wikipedia				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikiquote				
+							
+		
+			
+			Languages
+			
+								
+					БългарскиČeštinaCymraegDanskDeutschEspañolFrançaisHrvatskiBahasa IndonesiaItalianoעבריתMagyarМакедонскиNederlands日本語NorskPolskiPortuguêsРусскийSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 24 March 2018, at 17:41.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.664","walltime":"0.804","ppvisitednodes":{"value":5302,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":132486,"limit":2097152},"templateargumentsize":{"value":10173,"limit":2097152},"expansiondepth":{"value":18,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":39884,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  681.702      1 -total"," 31.39%  214.011      1 Template:Reflist"," 17.78%  121.204     14 Template:Fix"," 16.55%  112.811     13 Template:Citation_needed"," 11.30%   77.029     10 Template:Cite_news"," 10.89%   74.225      1 Template:Infobox_television","  9.50%   64.757     14 Template:Delink","  8.82%   60.145      1 Template:Infobox","  7.24%   49.348     12 Template:Cite_book","  6.97%   47.509     28 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.330","limit":"10.000"},"limitreport-memusage":{"value":6793069,"limit":52428800}},"cachereport":{"origin":"mw1326","timestamp":"20180331102710","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":84,"wgHostname":"mw1272"});});
+	
+

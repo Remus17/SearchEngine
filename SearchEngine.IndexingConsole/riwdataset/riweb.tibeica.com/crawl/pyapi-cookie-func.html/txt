@@ -1,0 +1,119 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.7.2 Functions
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.7.1 Classes
+Up:
+4.7 Cookie - HTTP
+Next:
+4.7.3 Examples
+
+
+
+
+ 
+
+4.7.2 Functions
+
+
+
+
+  add_cookie(
+  req, cookie[, value, attributes])
+
+  This is a convenience function for setting a cookie in request
+  headers. req is a mod_python Request object.  If
+  cookie is an instance of Cookie (or subclass thereof),
+  then the cookie is set, otherwise, cookie must be a string, in
+  which case a Cookie is constructed using cookie as
+  name, value as the value, along with any valid Cookie
+  attributes specified as keyword arguments.
+
+
+This function will also set "Cache-Control:
+  no-cache="set-cookie"" header to inform caches that the cookie value
+  should not be cached.
+
+
+Here is one way to use this function:
+  
+c = Cookie.Cookie('spam', 'eggs', expires=time.time()+300)
+Cookie.add_cookie(req, c)
+
+  Here is another:
+  
+Cookie.add_cookie(req, 'spam', 'eggs', expires=time.time()+300)
+
+
+
+
+
+  get_cookies(
+  req [, Class, data])
+
+  This is a convenience function for retrieving cookies from incoming
+  headers. req is a mod_python Request
+  object. Class is a class whose parse() method will be
+  used to parse the cookies, it defaults to Cookie. Data
+  can be any number of keyword arguments which, will be passed to
+  parse() (This is useful for signedCookie and
+  MarshalCookie which require secret as an additional
+  argument to parse).
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.7.1 Classes
+Up:
+4.7 Cookie - HTTP
+Next:
+4.7.3 Examples
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

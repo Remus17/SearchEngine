@@ -1,0 +1,678 @@
+
+
+
+
+IronPython - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"IronPython","wgTitle":"IronPython","wgCurRevisionId":827239426,"wgRevisionId":827239426,"wgArticleId":1179348,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking reliable references from January 2013","All articles lacking reliable references","Articles to be expanded from July 2012","All articles to be expanded","Articles using small message boxes",".NET programming languages","Python implementations","Python libraries","Software using the Apache license"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"IronPython","wgRelevantArticleId":1179348,"wgRequestId":"Wr2jagpAADoAAGx@NdQAAAAV","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q657498","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.math.scripts","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+IronPython			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+This article relies too much on references to primary sources. Please improve this by adding secondary or tertiary sources. (January 2013) (Learn how and when to remove this template message)
+
+
+
+
+IronPython
+
+
+
+
+Original author(s)
+Jim Hugunin
+
+
+Developer(s)
+Dino Viehland
+
+
+Initial release
+September 5, 2006; 11 years ago (2006-09-05)[1]
+
+
+
+
+
+Stable release
+
+2.7.8 / February 16, 2018; 42 days ago (2018-02-16)[2]
+
+
+
+
+
+
+Repository
+
+
+
+https://github.com/IronLanguages/ironpython2
+https://github.com/IronLanguages/ironpython3
+
+
+
+
+
+Written in
+C#
+
+
+Platform
+.NET Framework, .NET Core, Mono
+
+
+Type
+Python programming language implementation
+
+
+License
+Apache License, v2.0
+
+
+Website
+ironpython.net
+
+
+IronPython is an implementation of the Python programming language targeting the .NET Framework and Mono. Jim Hugunin created the project and actively contributed to it up until Version 1.0 which was released on September 5, 2006.[3] Thereafter, it was maintained by a small team at Microsoft until the 2.7 Beta 1 release; Microsoft abandoned IronPython (and its sister project IronRuby) in late 2010, after which Hugunin left to work at Google.[4] IronPython 2.0 was released on December 10, 2008.[5] The project is currently maintained by a group of volunteers at GitHub. It is free and open-source software, and can be implemented with Python Tools for Visual Studio, which is a free and open-source extension for free, isolated, and commercial versions of Microsoft's Visual Studio IDE.[6][7]
+IronPython is written entirely in C#, although some of its code is automatically generated by a code generator written in Python.
+IronPython is implemented on top of the Dynamic Language Runtime (DLR), a library running on top of the Common Language Infrastructure that provides dynamic typing and dynamic method dispatch, among other things, for dynamic languages.[8] The DLR is part of the .NET Framework 4.0 and is also a part of Mono since version 2.4 from 2009.[9] The DLR can also be used as a library on older CLI implementations.
+
+
+
+Contents
+
+
+1 Status and roadmap
+
+1.1 Differences with CPython
+
+
+2 Silverlight
+3 License
+4 Interface extensibility
+5 Examples
+6 Performance
+7 See also
+8 References
+9 External links
+
+
+
+Status and roadmap[edit]
+
+Release 2.0, released on December 10, 2008, and updated as 2.0.3 on October 23, 2009, targets CPython 2.5.[10] IronPython 2.0.3 is only compatible up to .NET Framework 3.5.
+Release 2.6, released on December 11, 2009, and updated on April 12, 2010, targets CPython 2.6.[11] IronPython 2.6.1 versions is binary compatible only with .NET Framework 4.0. IronPython 2.6.1 must be compiled from sources to run on .NET Framework 3.5. Iron Python 2.6.2, released on October 21, 2010, is binary compatible with both .NET Framework 4.0 and .NET Framework 3.5.
+Release 2.7 was released on March 12, 2011 and it targets CPython 2.7.[12]
+Release 2.7.1 was released on October 21, 2011 and it targets CPython 2.7.[13]
+Release 2.7.2.1 was released on March 13, 2012. It enables support for ZIP file format libraries, SQLite, and compiled executables.[14]
+Release 2.7.4 was released on September 7, 2013.[15]
+Release 2.7.5 was released on December 6, 2014 and mostly consists of bug fixes.[16]
+Release 2.7.6 was released on August 21, 2016 and only consists of bug fixes.[17]
+Release 2.7.7 was released on December 7, 2016 and only consists of bug fixes.[18]
+Release 2.7.8 was released on February 16, 2018 and consists of bug fixes, reorganized code, and an updated test infrastructure (including significant testing on Linux under Mono). It is also the first release to support .NET Core.[2]
+
+Differences with CPython[edit]
+
+
+
+
+This section needs expansion. You can help by adding to it. (July 2012)
+
+
+
+There are some differences between the Python reference implementation CPython and IronPython.[19] Some projects built on top of IronPython are known not to work under CPython.[20] Conversely, CPython applications that depend on extensions to the language that are implemented in C (e.g. NumPy) are not compatible with IronPython.[21]
+Silverlight[edit]
+IronPython is supported on Silverlight. It can be used as a scripting engine in the browser just like the JavaScript engine.[22] IronPython scripts are passed like simple client-side JavaScript scripts in <script>-tags. It is then also possible to modify embedded XAML markup.
+The technology behind this is called Gestalt.
+
+
+//DLR initiation script.
+<script src="http://gestalt.ironpython.net/dlr-latest.js" type="text/javascript"></script>
+
+//Client-side script passed to IronPython and Silverlight.
+<script type="text/python">
+    window.Alert("Hello from Python")
+</script>
+
+The same works for IronRuby.
+License[edit]
+Until version 0.6 IronPython was released under the Common Public License.[23] Following recruitment of the project lead in August 2004, IronPython was made available as part of Microsoft's Shared Source initiative. This license is not OSI approved but the authors claim it meets the Open Source Definition.[24] With the 2.0 alpha release the license was changed to the Microsoft Public License,[25] which the Open Source Initiative has confirmed complies with their definition of open source. The latest versions are released under the Apache License 2.0.
+Interface extensibility[edit]
+One of IronPython's key advantages is in its function as an extensibility layer to application frameworks written in a .NET language. It is relatively simple to integrate an IronPython interpreter into an existing .NET application framework. Once in place, downstream developers can use scripts written in IronPython that interact with .NET objects in the framework, thereby extending the functionality in the framework's interface, without having to change any of the framework's code base.[26]
+IronPython makes extensive use of reflection. When passed in a reference to a .NET object, it will automatically import the types and methods available to that object. This results in a highly intuitive experience when working with .NET objects from within an IronPython script.
+Examples[edit]
+The following IronPython script manipulates .NET Framework objects. This script can be supplied by a third-party client-side application developer and passed into the server-side framework through an interface. Note that neither the interface, nor the server-side code is modified to support the analytics required by the client application.
+
+
+from BookService import BookDictionary
+ 
+booksWrittenByBookerPrizeWinners = [book.Title for book in BookDictionary.GetAllBooks() 
+                                    if "Booker Prize" in book.Author.MajorAwards]
+
+In this case, assume that the .NET Framework implements a class, BookDictionary, in a module called BookService, and publishes an interface into which IronPython scripts can be sent and executed.
+This script, when sent to that interface, will iterate over the entire list of books maintained by the framework, and pick out those written by Booker Prize-winning authors.
+What's interesting is that the responsibility for writing the actual analytics reside with the client-side developer. The demands on the server-side developer are minimal, essentially just providing access to the data maintained by the server. This design pattern greatly simplifies the deployment and maintenance of complex application frameworks.
+The following script uses the .NET Framework to create a simple Hello World message.
+
+
+import clr
+clr.AddReference("System.Windows.Forms")
+
+from System.Windows.Forms import MessageBox
+MessageBox.Show("Hello World")
+
+Performance[edit]
+The performance characteristics of IronPython compared to CPython, the reference implementation of Python, depends on the exact benchmark used. IronPython performs worse than CPython on most benchmarks taken with the PyStone script but better on other benchmarks.[27] IronPython may perform better in Python programs that use threads or multiple cores, as it has a JIT, and also because it doesn't have the Global Interpreter Lock.[28][29]
+See also[edit]
+
+
+Free software portal
+Computer programming portal
+
+
+
+Boo – a language for the .NET Framework and Mono with Python-inspired syntax and features borrowed from C# and Ruby
+Cobra
+IronLisp
+IronRuby
+IronScheme
+Jython – an implementation of Python for the Java Virtual Machine
+Cython
+pypy – a self-hosting interpreter for the Python programming language
+Tao Framework
+Unladen Swallow – A (now-defunct) branch of CPython that aimed to provide superior performance using an LLVM-based just-in-time compiler
+
+
+References[edit]
+
+
+
+^ http://ironpython.codeplex.com/releases/view/423
+^ a b "2.7.8". github.com. Retrieved 2018-01-05. 
+^ "Jim Hugunin's blog: IronPython 1.0 released today!". 2006-09-05. Retrieved 2006-12-14. 
+^ Clarke, Gavin (2010-10-22). "Microsoft cuts loose Iron languages". The Register. Retrieved 2012-04-05. 
+^ "Release dates for ironpython". 2008-12-10. Retrieved 2009-01-25. 
+^ "IronPython.net". IronPython.net. Retrieved 2013-07-03. 
+^ "Python Tools for Visual Studio- Home". Python Tools for Visual Studio. Retrieved 2013-07-03. 
+^ "Dynamic Language Runtime Overview". Microsoft. Retrieved 2014-04-01. 
+^ https://github.com/mono/mono/commit/340222ffe8b958cd22d9eb0388488f326845b363
+^ "2.0.3". ironpython.codeplex.com. Retrieved 2010-10-16. 
+^ "2.6". ironpython.codeplex.com. Retrieved 2010-10-16. 
+^ "2.7". ironpython.codeplex.com. Retrieved 2011-03-12. 
+^ "2.7.1". ironpython.codeplex.com. Retrieved 2011-12-30. 
+^ "2.7.2.1". ironpython.codeplex.com. Retrieved 2012-03-24. 
+^ "2.7.4". ironpython.codeplex.com. Retrieved 2014-12-07. 
+^ "2.7.5". ironpython.codeplex.com. Retrieved 2014-12-07. 
+^ "2.7.6". github.com. Retrieved 2016-08-21. 
+^ "2.7.7". github.com. Retrieved 2018-01-05. 
+^ "Differences between IronPython 1.0 and CPython 2.4.3". Microsoft. 2007-12-18. Retrieved 2008-02-09. 
+^ Foord, Michael. "New Project: Implementing .NET Libraries in Pure Python". Retrieved 2008-02-09. 
+^ Eby, Phillip. "Children of a Lesser Python". Retrieved 2008-07-09. 
+^ "Write browser applications in Python". IronPython.net. Archived from the original on 2013-03-17. 
+^ "Original IronPython homepage". 2004-07-28. Archived from the original on February 23, 2010. Retrieved 2007-05-13. 
+^ "Shared Source License for IronPython". 2006-04-28. Retrieved 2007-05-13. 
+^ "Microsoft permissive license". 2007-04-28. Retrieved 2007-05-13. 
+^ "Using .NET objects from IronPython in Resolver One". Retrieved 2008-11-18. 
+^ "IronPython Performance Report". Retrieved 2009-10-05. 
+^ "IronPython at python.org". python.org. Retrieved 2011-04-04. IronPython has no GIL and multi-threaded code can use multi core processors. 
+^ http://jeffknupp.com/blog/2013/06/30/pythons-hardest-problem-revisited/
+
+
+
+External links[edit]
+
+Official website
+IronPython 2 on GitHub
+IronPython 3 on GitHub
+IronPython in Action – first English book on IronPython with foreword by Jim Hugunin
+The Dynamic Language Runtime and the Iron Languages from The Architecture of Open Source Applications: Volume 2
+Chiles, Bill (October 2007). "CLR Inside Out: IronPython and the Dynamic Language Runtime". MSDN Magazine. Microsoft. Archived from the original on 2015-04-02. 
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Python
+
+
+
+Implementations
+
+
+
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+
+
+
+
+
+
+
+
+IDE
+
+
+
+Boa
+Eric Python IDE
+IDLE
+PyDev
+SPE
+Ninja-IDE
+more...
+
+
+
+
+
+Topics
+
+
+
+WSGI
+
+
+
+
+
+
+
+
+software (list)
+Python Software Foundation
+PyCon
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Common Language Infrastructure
+
+
+
+Architecture
+
+
+
+Application domain
+Code Access Security
+Common Intermediate Language (CIL)
+
+CIL instructions
+
+
+Common Type System (CTS)
+Platform Invocation Services (P/Invoke)
+Virtual Execution System (VES)
+
+
+
+
+
+Components
+
+
+
+Assembly
+Delegate
+Global Assembly Cache (GAC)
+Manifest
+Metadata
+
+
+
+
+
+Standard
+Libraries
+
+
+
+
+Kernel Profile
+
+
+
+Base Class Library (BCL)
+Runtime Infrastructure Library
+
+
+
+
+
+Compact Profile
+
+
+
+Network Library
+Reflection Library
+XML Library
+
+
+
+
+
+
+
+
+Extended Array Library
+Extended Numerics Library
+Parallel Library
+Vararg Library
+
+
+
+
+
+
+
+
+Implementations
+
+
+
+
+Microsoft
+
+
+
+.NET Framework
+.NET Compact Framework
+.NET Micro Framework
+Shared Source Common Language Infrastructure
+
+
+
+
+
+Other
+
+
+
+.NET Core
+Mono
+Portable.NET
+
+
+
+
+
+
+
+
+Languages
+
+
+
+
+Microsoft
+
+
+
+C#
+Visual Basic .NET
+C++/CLI
+
+Managed
+
+
+F#
+Q#
+J#
+JScript .NET
+PowerShell
+
+
+
+
+
+Other
+
+
+
+Axum
+A#
+Boo
+Cobra
+IronScheme
+
+IronLisp
+
+
+IronPython
+IronRuby
+Nemerle
+Oxygene
+Phalanger
+P#
+Scala
+
+
+
+
+
+Comparison
+
+
+
+C# and Java
+C# and Visual Basic .NET
+Java and .NET platforms
+Visual Basic and Visual Basic .NET
+
+
+
+
+
+
+
+
+Organizations
+
+
+
+.NET Foundation
+DotGNU
+Microsoft
+Xamarin
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=IronPython&oldid=827239426"					
+				Categories: .NET programming languagesPython implementationsPython librariesSoftware using the Apache licenseHidden categories: Articles lacking reliable references from January 2013All articles lacking reliable referencesArticles to be expanded from July 2012All articles to be expandedArticles using small message boxes				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةCatalàČeštinaDeutschEspañolFrançais한국어ItalianoעבריתNederlands日本語PolskiPortuguêsРусскийСрпски / srpskiSuomiУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 23 February 2018, at 15:46.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.384","walltime":"0.465","ppvisitednodes":{"value":2318,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":92452,"limit":2097152},"templateargumentsize":{"value":2092,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":27889,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  410.678      1 -total"," 34.47%  141.569      1 Template:Reflist"," 34.07%  139.927      2 Template:Infobox"," 32.35%  132.866      1 Template:Infobox_software"," 28.19%  115.766     26 Template:Cite_web"," 12.53%   51.475      1 Template:Primary_sources","  8.45%   34.694      2 Template:Ambox","  6.25%   25.683      1 Template:Plainlist","  5.77%   23.692      1 Template:Wikidata","  5.52%   22.685      1 Template:Infobox_software/simple"]},"scribunto":{"limitreport-timeusage":{"value":"0.191","limit":"10.000"},"limitreport-memusage":{"value":6332035,"limit":52428800}},"cachereport":{"origin":"mw1263","timestamp":"20180330023938","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":556,"wgHostname":"mw1263"});});
+	
+

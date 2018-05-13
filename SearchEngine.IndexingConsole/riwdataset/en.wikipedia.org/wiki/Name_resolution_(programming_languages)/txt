@@ -1,0 +1,285 @@
+
+
+
+
+Name resolution (programming languages) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Name_resolution_(programming_languages)","wgTitle":"Name resolution (programming languages)","wgCurRevisionId":772213612,"wgRevisionId":772213612,"wgArticleId":47765871,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Computer libraries","Compiler construction"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Name_resolution_(programming_languages)","wgRelevantArticleId":47765871,"wgRequestId":"WsJJqwpAAEAAAFi9Fe0AAAAJ","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q22682029","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Name resolution (programming languages)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				See also: Name resolution (computer systems)
+In programming languages, name resolution refers to the resolution of the tokens within program expressions to the intended program components.
+
+
+
+Contents
+
+
+1 Overview
+2 Static versus dynamic
+3 Name masking
+4 Alpha renaming to make name resolution trivial
+5 See also
+6 References
+
+
+
+Overview[edit]
+Expressions in computer programs reference variables, data types, functions, classes, objects, libraries, packages and other entities by name. In that context, name resolution refers to the association of those not-necessarily-unique names with the intended program entities. The algorithms that determine what those identifiers refer to in specific contexts are part of the language definition.
+The complexity of these algorithms is influenced by the sophistication of the language. For example, name resolution in assembly language usually involves only a single simple table lookup, while name resolution in C++ is extremely complicated as it involves:
+
+namespaces, which make it possible for an identifier to have different meanings depending on its associated namespace;
+scopes, which make it possible for an identifier to have different meanings at different scope levels, and which involves various scope overriding and hiding rules. At the most basic level name resolution usually attempts to find the binding in the smallest enclosing scope, so that for example local variables supersede global variables; this is called shadowing.
+visibility rules, which determine whether identifiers from specific namespaces or scopes are visible from the current context;
+overloading, which makes it possible for an identifier to have different meanings depending on how it is used, even in a single namespace or scope;
+accessibility, which determines whether identifiers from an otherwise visible scope are actually accessible and participate in the name resolution process.
+
+Static versus dynamic[edit]
+In programming languages, name resolution can be performed either at compile time or at runtime. The former is called static name resolution, the latter is called dynamic name resolution.
+A somewhat common misconception is that dynamic typing implies dynamic name resolution. However, static typing does imply static name resolution. For example, Erlang is dynamically typed but has static name resolution.
+Static name resolution catches, at compile time, use of variables that are not in scope; preventing programmer errors. Languages with dynamic scope resolution sacrifice this safety for more flexibility; they can typically set and get variables in the same scope at runtime.
+For example, in Python:
+
+
+>>> locals()['num'] = 999 # equivalent to: num = 999
+>>> noun = "troubles"
+>>> noun2 = "hound"
+>>> # which variables to use are decided at runtime
+>>> print("{num} {noun} and a {noun2} ain't one".format(**locals()))
+999 troubles and a hound ain't one
+
+However, relying on dynamic name resolution in code is discouraged by the Python community.[1][2] The feature also may be removed in a later version of Python.[3]
+Examples of languages that use static name resolution include C, C++, E, Erlang, Haskell, Java, Pascal, Scheme, and Smalltalk. Examples of languages that use dynamic name resolution include some Lisp dialects, Perl, PHP, Python, REBOL, and Tcl.
+Name masking[edit]
+Masking occurs when the same identifier is used for different entities in overlapping lexical scopes. At the level of variables (rather than names), this is known as variable shadowing. An identifier I' (for variable X') masks an identifier I (for variable X) when two conditions are met
+
+I' has the same name as I
+I' is defined in a scope which is a subset of the scope of I
+
+The outer variable X is said to be shadowed by the inner variable X'.
+For example, the parameter x masks the local variable in this common pattern:
+
+
+  private int foo;  // A declaration with name "foo" in an outer scope
+  public void setFoo(int foo) {  // A declaration with the same name in the inner scope
+    // "foo" is resolved by looking in the innermost scope first,
+    // so the author uses a different syntax, this.foo, to refer to the name "foo"
+    // in the outer scope.
+    this.foo = foo;
+  }
+  // "foo" here means the same as this.foo below,
+  // since setFoo's parameter is no longer in scope.
+  public int getFoo() { return foo; }
+
+Name masking can cause complications in function overloading, due to overloading not happening across scopes in some languages, notably C++, thus requiring all overloaded functions to be redeclared or explicitly imported into a given namespace.
+Alpha renaming to make name resolution trivial[edit]
+In programming languages with lexical scoping that do not reflect over variable names, α-conversion (or α-renaming) can be used to make name resolution easy by finding a substitution that makes sure that no variable name masks another name in a containing scope. Alpha-renaming can make static code analysis easier since only the alpha renamer needs to understand the language's scoping rules.
+For example, in this code:
+
+
+  class Point {
+  private:
+    double x, y;
+ 
+  public:
+    Point(double x, double y) {  // x and y declared here mask the privates
+      setX(x);
+      setY(y);
+    }
+
+    void setX(double newx) { x = newx; }
+    void setY(double newy) { y = newy; }
+  }
+
+within the Point constructor, the class variables x and y are shadowed by local variables of the same name. This might be alpha-renamed to:
+
+
+  class Point {
+  private:
+    double x, y;
+
+  public:
+    Point(double a, double b) {
+      setX(a);
+      setY(b);
+    }
+
+    void setX(double newx) { x = newx; }
+    void setY(double newy) { y = newy; }
+  }
+
+In the new version, there is no masking, so it is immediately obvious which uses correspond to which declarations.
+See also[edit]
+
+Namespace (programming)
+Scope (programming)
+Naming collision
+
+References[edit]
+
+
+
+^ "[Python-Ideas] str.format utility function". 9 May 2009. Retrieved 2011-01-23. 
+^ "8.6. Dictionary-based string formatting". diveintopython.org. Mark Pilgrim. Retrieved 2011-01-23. 
+^ "9. Classes - Python v2.7.1 documentation". Retrieved 2011-01-23. search for names is done dynamically, at run time — however, the language definition is evolving towards static name resolution 
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Name_resolution_(programming_languages)&oldid=772213612"					
+				Categories: Computer librariesCompiler construction				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 25 March 2017, at 23:50.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.084","walltime":"0.448","ppvisitednodes":{"value":248,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":5071,"limit":2097152},"templateargumentsize":{"value":103,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":9111,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  431.447      1 -total"," 13.05%   56.292      1 Template:Reflist"," 10.13%   43.708      3 Template:Cite_web","  6.48%   27.971      1 Template:See_also","  0.51%    2.221      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.035","limit":"10.000"},"limitreport-memusage":{"value":1936506,"limit":52428800}},"cachereport":{"origin":"mw1246","timestamp":"20180331105836","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":98,"wgHostname":"mw1269"});});
+	
+

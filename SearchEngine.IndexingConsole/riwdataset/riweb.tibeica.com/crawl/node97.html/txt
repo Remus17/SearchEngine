@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A. Changes from Version (3.2.7)
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.3 CGI Handler
+Up:
+Mod_python Manual
+Next:
+B. Changes from Version
+
+
+
+
+ 
+
+A. Changes from Version (3.2.7)
+
+
+
+ 
+
+Security Fix 
+
+
+
+
+Fixed possible directory traversal attack in FileSession. The session
+    id is now checked to ensure it only contains valid characters. This
+    check is performed for all sessions derived from the BaseSession 
+    class.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.3 CGI Handler
+Up:
+Mod_python Manual
+Next:
+B. Changes from Version
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

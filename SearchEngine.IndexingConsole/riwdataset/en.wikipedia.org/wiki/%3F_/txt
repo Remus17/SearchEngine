@@ -1,0 +1,1036 @@
+
+
+
+
+?: - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"?:","wgTitle":"?:","wgCurRevisionId":833420843,"wgRevisionId":833420843,"wgArticleId":667443,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from July 2015","Interlanguage link template link number","Articles with example code","Conditional constructs","Operators (programming)","Ternary operations"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"?:","wgRelevantArticleId":667443,"wgRequestId":"Wr@PEApAME4AAHvLhdsAAAAW","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q2984985","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+?:			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				This article is about the use of the ?: operator as a ternary operator. For use as a binary operator, see Elvis operator.
+In computer programming, ?: is a ternary operator that is part of the syntax for basic conditional expressions in several programming languages. It is commonly referred to as the conditional operator, inline if (iif), or ternary if. An expression a ? b : c evaluates to b if the value of a is true, and otherwise to c.
+It originally comes from CPL, in which equivalent syntax for e1 ? e2 : e3 was e1 → e2, e3.[1][2]
+Although many ternary operators are possible, the conditional operator is so common, and other ternary operators so rare, that the conditional operator is commonly referred to as the ternary operator.
+
+
+
+Contents
+
+
+1 Variant forms
+2 Equivalence to map
+3 Conditional assignment
+4 Usage
+
+4.1 ActionScript 3
+4.2 Ada
+4.3 ALGOL 68
+4.4 APL
+4.5 AWK
+4.6 Bash
+4.7 C
+4.8 C++
+4.9 C#
+4.10 CFML
+
+4.10.1 Lucee, Railo, and ColdFusion 11-specific
+
+
+4.11 CoffeeScript
+4.12 Common Lisp
+4.13 Delphi
+4.14 Fortran
+4.15 Haskell
+4.16 Java
+4.17 JavaScript
+4.18 Lua
+4.19 SQL
+
+4.19.1 MySQL
+4.19.2 Oracle SQL
+
+
+4.20 Perl
+
+4.20.1 Perl 6
+
+
+4.21 PHP
+
+4.21.1 PHP 5.3
+
+
+4.22 Python
+4.23 R
+4.24 Ruby
+4.25 Rust
+4.26 Scheme
+4.27 Smalltalk
+4.28 Swift
+4.29 Tcl
+4.30 TestStand
+4.31 Verilog
+4.32 Visual Basic
+
+
+5 Result type
+6 ?: in style guidelines
+
+6.1 Initialization
+6.2 Case selectors
+
+
+7 Programming languages without the conditional operator
+8 See also
+9 References
+10 External links
+
+
+
+Variant forms[edit]
+Perhaps confusingly, "the" ternary operator differs significantly from language to language.
+A top level distinction from one language to another is whether the expressions permit side effects (as in most procedural languages) and whether the language provides short-circuit evaluation semantics, whereby only the selected expression is evaluated (most standard operators in most languages evaluate all arguments).
+If the language supports expressions with side effects but does not specify short-circuit evaluation, then a further distinction exists about which expression evaluates first—if the language guarantees any specific order (bear in mind that the conditional also counts as an expression).
+Furthermore, if no order is guaranteed, a distinction exists about whether the result is then classified as indeterminate (the value obtained from some order) or undefined (any value at all at the whim of the compiler in the face of side effects, or even a crash).
+If the language does not permit side-effects in expressions (common in functional languages), then the order of evaluation has no value semantics—though it may yet bear on whether an infinite recursion terminates, or have other performance implications (in a functional language with match expressions, short-circuit evaluation is inherent, and natural uses for the ternary operator arise less often, so this point is of limited concern).
+For these reasons, in some languages the statement form variable = condition ? expr1 : expr2; can have subtly different semantics than the block conditional form if (condition) { variable = expr1; } else { variable = expr2; } (in the C language—the syntax of the example given—these are in fact equivalent).
+The associativity of nested ternary operators can also differ from language to language. In almost all languages, the ternary operator is right associative so that a == 1 ? "one" : a == 2 ? "two" : "many" evaluates intuitively as a == 1 ? "one" : (a == 2 ? "two" : "many"), but PHP in particular is notoriously left-associative,[3] and evaluates as follows: (a == 1 ? "one" : a == 2) ? "two" : "many", which is rarely what any programmer expects. (The given examples assume that the ternary operator has low operator precedence, which is true in all C-family languages, and many others.)
+Equivalence to map[edit]
+The ternary operator can also be viewed as a binary map operation.
+In R—and other languages with literal expression tuples—one can simulate the ternary operator with something like the R expression c(expr1,expr2)[1+condition] (this idiom is slightly more natural in languages with 0-origin subscripts).
+However, in this idiom it is almost certain that the entire tuple expression will evaluate prior to the subscript expression, so there will be no short-circuit semantics.
+Nested ternaries can be simulated as c(expr1,expr2,expr3)[which.first((c(cond1,cond2,TRUE))] where the function which.first returns the index of the first true value in the condition vector. Note that both of these map equivalents are binary operators, revealing that the ternary operator is ternary in syntax, rather than semantics. These constructions can be regarded as a weak form of currying based on data concatenation rather than function composition.
+If the language provides a mechanism of futures or promises, then short-circuit evaluation can sometimes also be simulated in the context of a binary map operation.
+Conditional assignment[edit]
+?: is used as follows:
+
+condition ? value_if_true : value_if_false
+
+The condition is evaluated true or false as a Boolean expression. On the basis of the evaluation of the Boolean condition, the entire expression returns value_if_true if condition is true, but value_if_false otherwise. Usually the two sub-expressions value_if_true and value_if_false must have the same type, which determines the type of the whole expression. The importance of this type-checking lies in the operator's most common use—in conditional assignment statements. In this usage it appears as an expression on the right side of an assignment statement, as follows:
+
+variable = condition ? value_if_true : value_if_false
+
+The ?: operator is similar to the way conditional expressions (if-then-else constructs) work in functional programming languages, like Scheme, ML, and Haskell, since if-then-else forms an expression instead of a statement in those languages.
+Usage[edit]
+The conditional operator's most common usage is to make a terse simple conditional assignment statement. For example, if we wish to implement some C code to change a shop's normal opening hours from 9 o'clock to 12 o'clock on Sundays, we may use
+
+
+int opening_time = (day == SUNDAY) ? 12 : 9;
+
+instead of the more verbose
+
+
+int opening_time;
+
+if (day == SUNDAY)
+    opening_time = 12;
+else
+    opening_time = 9;
+
+The two forms are nearly equivalent. Keep in mind that the ?: is an expression and if-then-else is a statement. Note that neither the true nor false portions can be omitted from the conditional operator without an error report upon parsing. This contrasts with if-then-else statements, where the else clause can be omitted.
+Most of the languages emphasizing functional programming don't need such an operator as their regular conditional expression(s) is an expression in the first place e.g. the Scheme expression (if (> a b) a b) is equivalent in semantics to the C expression (a > b) ? a : b. This is also the case in many imperative languages, starting with ALGOL where it is possible to write result := if a > b then a else b, or Smalltalk (result := (a > b) ifTrue: [ a ] ifFalse: [ b ]) or Ruby (result = if a > b then a else b end, although result = a > b ? a : b works as well).
+Note that some languages may evaluate 'both' the true- and false-expressions, even though only one or the other will be assigned to the variable. This means that if the true- or false-expression contain a function call, that function may be called and executed (causing any related side-effects due to the function's execution), regardless of whether or not its result will be used. Programmers should consult their programming language specifications or test the ternary operator to determine whether or not the language will evaluate both expressions in this way. If it does, and this is not the desired behaviour, then an if-then-else statement should be used.
+ActionScript 3[edit]
+
+
+condition ? value_if_true : value_if_false
+
+Ada[edit]
+The 2012 edition of Ada has introduced conditional expressions (using if and case), as part of an enlarged set of expressions including quantified expressions and expression functions. The Rationale for Ada 2012[4] states motives for Ada not having had them before, as well as motives for now adding them, such as to support "contracts" (also new).
+
+  Pay_per_Hour := (if Day = Sunday
+     then 12.50
+     else 10.00);
+
+When the value of an if_expression is itself of Boolean type, then the else part may be omitted, the value being True. Multiple conditions may chained using elsif.
+ALGOL 68[edit]
+Both ALGOL 68's choice clauses (if and the case clauses) provide the coder with a choice of either the "bold" syntax or the "brief" form.
+
+Single if choice clause:
+
+
+ if condition then statements [ else statements ] fi
+ "brief" form:  ( condition | statements | statements )
+
+
+Chained if choice clause:
+
+
+ if condition1 then statements elif condition2 then statements [ else statements ] fi
+ "brief" form:  ( condition1 | statements |: condition2 | statements | statements )
+
+APL[edit]
+
+
+result←value_if_true{condition:⍺ ⋄ ⍵}value_if_false
+
+or
+
+
+result←value_if_true⊣⍣condition⊢value_if_false
+
+AWK[edit]
+
+
+result = condition ? value_if_true : value_if_false
+
+Bash[edit]
+A true ternary operator only exists for arithmetic expressions:
+
+
+((result = condition ? value_if_true : value_if_false))
+
+For strings there only exist workarounds, like e.g.:
+
+
+result=$([ "$a" == "$b" ] && echo "value_if_true" || echo "value_if_false")
+
+(where "$a" == "$b" can be any condition test, respective [, can evaluate.)
+C[edit]
+A traditional if-else construct in C, Java and JavaScript is written:[5]
+
+
+if (a > b) {
+    result = x;
+}
+else {
+    result = y;
+}
+
+This can be rewritten as the following statement:
+
+
+result = a > b ? x : y;
+
+As in the if-else construct only one of the expressions 'x' and 'y' is evaluated. This is significant if the evaluation of 'x' or 'y' has side effects.[6] The behaviour is undefined if an attempt is made to use the result of the conditional operator as an lvalue.[6]
+A GNU extension to C allows omitting the second operand, and using implicitly the first operand as the second also:
+
+
+a = x ? : y;
+
+The expression is equivalent to
+
+
+a = x ? x : y;
+
+except that if x is an expression, it is evaluated only once. The difference is significant if evaluating the expression has side effects. This shorthand form is sometimes known as the Elvis operator in other languages.
+C++[edit]
+Unlike in C, the precedence of the ?: operator in C++ is the same as that of the assignment operator (= or OP=), and it can return an lvalue.[7] This means that expressions like q ? a : b = c and (q ? a : b) = c are both legal and are parsed differently, the former being equivalent to q ? a : (b = c).
+In C++ there are conditional assignment situations where use of the if-else statement is impossible, since this language explicitly distinguishes between initialization and assignment. In such case it is always possible to use a function call, but this can be cumbersome and inelegant. For example, to pass conditionally different values as an argument for a constructor of a field or a base class, it is impossible to use a plain if-else statement; in this case we can use a conditional assignment expression, or a function call. Bear in mind also that some types allow initialization, but do not allow assignment, or even that the assignment operator and the constructor do totally different things. This last is true for reference types, for example:
+
+
+#include <iostream>
+#include <fstream>
+#include <string>
+int main(int argc, char *argv[])
+{
+    std::string name;
+    std::ofstream fout;
+    if (argc > 1 && argv[1])
+    {
+        name = argv[1];
+        fout.open(name.c_str(), std::ios::out | std::ios::app);
+    }
+
+    std::ostream &sout = name.empty() ? std::cout : fout;
+    sout << "Hello, world!" << std::endl;
+    return 0;
+}
+
+In this case there is no possibility of using an if-else statement in place of the ?: operator (Although we can replace the use of ?: with a function call, inside of which can be an if-else statement).
+Furthermore, the conditional operator can yield an lvalue, i.e. a value to which another value can be assigned. Consider the following example:
+
+
+#include <iostream>
+int main(int argc, char *argv[]) 
+{
+    int a = 0;
+    int b = 0;
+    (argc > 1 ? a : b) = 1;
+    std::cout << "a: " << a
+              << " b: " << b
+              << std::endl;
+    return 0;
+}
+
+NOTE:In C++ and other various languages, Ternary operators like a>b>c are also possible but are very rare.
+In this example, if the boolean expression argc > 1 yields the value true in line 5, the value 1 is assigned to the variable a, otherwise, it is assigned to b.
+C#[edit]
+In C#, if condition is true, first expression is evaluated and becomes the result; if false, the second expression is evaluated and becomes the result. As with Java only one of two expressions is ever evaluated.
+
+
+//condition ? first_expression : second_expression;
+
+static double sinc(double x) 
+{
+     return x != 0.0 ? Math.Sin(x)/x : 1.0;
+}
+
+CFML[edit]
+
+
+result = randRange(0,1) ? "heads" : "tails";
+
+Roughly 50% of the time the randRange() expression will return 1 (true) or 0 (false); meaning result will take the value "heads" or "tails" respectively.
+Lucee, Railo, and ColdFusion 11-specific[edit]
+Lucee, Railo, and ColdFusion 11 also implement the Elvis operator, ?:[citation needed] which will return the value of the expression if it is not-null, otherwise the specified default.
+Syntax:
+
+
+result = expression ?: value_if_expression_is_null
+
+Example:
+
+
+result = f() ?: "default";
+
+// where...
+function f(){
+    if (randRange(0,1)){ // either 0 or 1 (false / true)
+        return "value";
+    }
+}
+writeOutput(result);
+
+The function f() will return value roughly 50% of the time, otherwise will not return anything. If f() returns "value", result will take that value, otherwise will take the value "default".
+CoffeeScript[edit]
+Example of using this operator in CoffeeScript:
+
+
+if 1 is 2 then "true value" else "false value"
+
+Returns "false value".
+Common Lisp[edit]
+Assignment using a conditional expression in Common Lisp:
+
+
+(setf result (if (> a b) x y))
+
+Alternative form:
+
+
+(if (> a b)
+  (setf result x)
+  (setf result y))
+
+Delphi[edit]
+In Delphi the IfThen function can be used to achieve the same as ?:. If the System.Math library is used, the IfThen function returns a numeric value such as an Integer, Double or Extended. If the System.StrUtils library is used, this function can also return a string value.
+Using System.Math
+
+
+function IfThen(AValue: Boolean; const ATrue: Integer; const AFalse: Integer): Integer;
+function IfThen(AValue: Boolean; const ATrue: Int64; const AFalse: Int64): Int64;
+function IfThen(AValue: Boolean; const ATrue: UInt64; const AFalse: UInt64): UInt64;
+function IfThen(AValue: Boolean; const ATrue: Single; const AFalse: Single): Single;
+function IfThen(AValue: Boolean; const ATrue: Double; const AFalse: Double): Double;
+function IfThen(AValue: Boolean; const ATrue: Extended; const AFalse: Extended): Extended;
+
+Using the System.StrUtils library
+
+
+function IfThen(AValue: Boolean; const ATrue: string; AFalse: string = ''): string;
+
+Usage example:
+
+
+function GetOpeningTime(Weekday: Integer): Integer;
+begin
+  { This function will return the opening time for the given weekday: 12 for Sundays, 9 for other days }
+  Result := IfThen((Weekday = 1) or (Weekday = 7), 12, 9);
+end;
+
+Unlike a true ternary operator however, both of the results are evaluated prior to performing the comparison. For example, if one of the results is a call to a function which inserts a row into a database table, that function will be called whether or not the condition to return that specific result is met.
+Fortran[edit]
+With the additions to the code in the 1995 release, the ternary operator was added to the Fortran compiler as the intrinsic function merge:
+
+
+variable = merge(x,y,a>b)
+
+Haskell[edit]
+The built-in if-then-else syntax is inline: the expression
+
+
+if predicate then expr1 else expr2
+
+has type
+
+
+Bool -> a -> a -> a
+
+The base library also provides the function Data.Bool.bool:
+
+
+bool :: a -> a -> Bool -> a
+
+In both cases, no special treatment is needed to ensure that only the selected expression is evaluated, since Haskell is non-strict by default. This also means an operator can be defined that, when used in combination with the $ operator, functions exactly like ?: in most languages:
+
+
+(?) :: Bool -> a -> a -> a
+(?) pred x y = if pred then x else y
+infix 1 ?
+
+-- example (vehicle will evaluate to "airplane"):
+arg = 'A'
+vehicle = arg == 'B' ? "boat" $
+          arg == 'A' ? "airplane" $
+          arg == 'T' ? "train" $
+                       "car"
+
+However, it is more idiomatic to use pattern guards
+
+
+-- example (vehicle will evaluate to "airplane"):
+arg = 'A'
+vehicle | arg == 'B' = "boat"
+        | arg == 'A' = "airplane"
+        | arg == 'T' = "train"
+        | otherwise  = "car"
+
+Java[edit]
+In Java this expression evaluates to:
+If foo is selected, assign selected foo to bar. If not, assign baz to bar.
+
+
+Object bar = foo.isSelected() ? foo : baz;
+
+Note that Java, in a manner similar to C#, only evaluates the used expression and will not evaluate the unused expression.[8]
+JavaScript[edit]
+The conditional operator in JavaScript is similar to that of C++ and Java, except for the fact the middle expression cannot be a comma expression. Also, as in C++, but unlike in C or perl, it will not bind tighter than an assignment to its right -- q ? a : b = c is equivalent to q ? a : (b = c) instead of (q ? a : b) = c.[9]
+
+
+var timeout = settings !== null ? settings.timeout : 1000;
+
+Just like C# and Java, the expression will only be evaluated if, and only if, the expression is the matching one for the condition given; the other expression will not be evaluated.
+Lua[edit]
+Lua does not have a traditional conditional operator. However, the short-circuit behaviour of its "and" and "or" operators allows the emulation of this behaviour:
+
+
+-- equivalent to var = cond ? a : b;
+var = cond and a or b
+
+This will succeed unless "a" is logically false (false or nil); in this case, the expression will always result in b. This can result in some surprising behaviour if ignored.
+SQL[edit]
+The SQL CASE expression is a generalization of the ternary operator. Instead of one conditional and two results, n conditionals and n+1 results can be specified.
+With one conditional it is equivalent (although more verbose) to the ternary operator:
+
+
+SELECT (CASE WHEN a > b THEN x ELSE y END) AS "Conditional_Example"
+  FROM tab;
+
+This can be expanded to several conditionals:
+
+
+SELECT (CASE WHEN a > b THEN x WHEN a < b THEN y ELSE z END) AS "Conditional_Example"
+  FROM tab;
+
+MySQL[edit]
+In addition to the standard CASE expression, MySQL provides an IF function as an extension:
+
+
+IF(cond,a,b);
+
+Oracle SQL[edit]
+In addition to the standard CASE expression, Oracle has a variadic functional counterpart which operates similarly to a switch statement and can be used to emulate the conditional operator when testing for equality.
+
+
+-- General syntax takes case-result pairs, comparing against an expression, followed by a fall-back result:
+DECODE(expression, case1, result1,
+                   ...
+                   caseN, resultN,
+                          resultElse)
+
+-- We can emulate the conditional operator by just selecting one case:
+DECODE(expression, condition, true, false)
+
+The DECODE function is, today, deprecated in favour of the standard CASE expression. This can be used in both Oracle SQL queries as well as PL/SQL blocks, whereas decode can only be used in the former.
+Perl[edit]
+A traditional if-else construct in Perl or PHP is written:
+
+
+if ($a > $b) {
+    $result = $x;
+} else {
+    $result = $y;
+}
+
+Rewritten to use the conditional operator:
+
+
+$result = $a > $b ? $x : $y;
+
+Unlike C, perl allows the use of the conditional expression as an Lvalue, e.g.
+
+
+$a > $b ? $x : $y = $result;
+
+will assign '$result' to either '$x' or '$y' depending on the logical expression.
+Perl 6[edit]
+Uses double "?" symbols and double "!" instead of ":"[10]
+
+
+$result = $a > $b ?? $x !! $y;
+
+PHP[edit]
+A simple PHP implementation is this:
+
+
+<?php
+$abs = $value >= 0 ? $value : -$value;
+?>
+
+Due to an unfortunate design of the language grammar, the conditional operator in PHP is left associative in contrast to other languages, thus given a value of T for arg, the PHP code in the following example would yield the value horse instead of train as one might expect:[11]
+
+
+<?php
+$arg = "T";
+$vehicle = ( ( $arg == 'B' ) ? 'bus' : 
+             ( $arg == 'A' ) ? 'airplane' : 
+             ( $arg == 'T' ) ? 'train' : 
+             ( $arg == 'C' ) ? 'car' : 
+             ( $arg == 'H' ) ? 'horse' : 
+                               'feet' );
+echo $vehicle;
+?>
+
+The reason is that nesting two conditional operators produces an oversized condition with the last two options as its branches: c1 ? o1 : c2 ? o2 : o3 is really ((c1 ? o1 : c2) ? o2 : o3). This is acknowledged[12] and will probably not change.[13] To avoid this, nested parenthesis are needed, as in this example:
+
+
+<?php
+$arg = "T";
+$vehicle = $arg == "B" ? "bus" :
+          ($arg == "A" ? "airplane" :
+          ($arg == "T" ? "train" :
+          ($arg == "C" ? "car" :
+          ($arg == "H" ? "horse" :
+                         "feet"))));
+echo $vehicle;
+?>
+
+This will produce the result of train being printed to the output, analogous to a right associative conditional operator.
+PHP 5.3[edit]
+Main article: Elvis operator
+Since PHP 5.3 there is a short-hand of the conditional operator,[14] sometimes referred to as the "Elvis Operator". The syntax for this short-hand is below:
+
+
+$c = $a ?: $b; // equivalent to $c = $a ? $a : $b;
+
+Python[edit]
+Though it had been delayed for several years by disagreements over syntax, an operator for a conditional expression in Python was approved as Python Enhancement Proposal 308 and was added to the 2.5 release in September 2006. Python's conditional operator differs from the common ?: operator in the order of its operands. The general form is:
+
+
+result = x if a > b else y
+
+This form invites considering x as the normal value and y as an exceptional case. One can use the syntax
+
+
+result = (lambda:y, lambda:x)[a > b]()
+
+as a workaround for code that also needs to run under Python versions before 2.5. Note that operands are lazily evaluated, it is possible to remove the lambdas and function calls but the operands will be eagerly evaluated which isn't consistent with the conditional operator of most other languages, e.g. by indexing a tuple,
+
+
+result = (y, x)[a > b]
+
+or using an explicitly constructed dictionary:
+
+
+result = {True: x, False: y}[a > b]
+
+A less reliable but simpler to read alternative is to abuse the and and or operators and write
+
+
+result = (a > b) and x or y
+
+but this code would break if x could be a "falsy" value (None, False, 0, an empty sequence or collection, …) as the expression would return y (whether it was truthy or falsy) instead of the (falsy) x. A possible workaround is to make x and y lists or tuples, so they are never falsy, and then grab the first element of the resulting sequence as in the following
+
+
+result = ((a > b) and [x] or [y])[0]
+
+or
+
+
+result = ((a > b) and (x,) or (y,))[0]
+
+NB when wrapping Python's conditional construct into a utility function, the unalterably eager nature of the more intuitive language construct for side-effect functions
+
+
+>>> func = lambda b,a1,a2 : (a1,a2)[not b]
+>>> def true():
+...     print "true"
+...     return "truly"
+>>> def false():
+...     print "false"
+...     return "falsely"
+>>> func(True, true(), false())
+true
+false
+'truly'
+>>> func(False, true(), false())
+true
+false
+'falsely'
+
+similar results from
+
+
+func = lambda b,a1,a2: a1 if b else a2
+func = lambda b,a1,a2: (b and [a1] or [a2])[0]
+func = lambda b,a1,a2: (lambda:a1, lambda:a2)[not b]()
+
+as the correct call would be
+
+
+>>> func(True, true, false)()
+true
+'truly'
+>>> func(False, true, false)()
+false
+'falsely'
+
+however the python 2.5 construct is safer; calling the construct directly works more intuitively
+
+
+>>> true() if True else false()
+true
+'truly'
+>>> true() if False else false()
+false
+'falsely'
+
+clearly the reason being that in the case of
+
+
+func(True, true(), false())
+
+the functions are called when sent as parameters rather than when returned from func()
+R[edit]
+The traditional if-else construct in R (which is an implementation of S) is:
+
+
+if (a < b) {
+  x <- "true"
+} else {
+  x <- "false"
+}
+
+If there is only one statement in each block, braces can be omitted, like in C:
+
+
+if (a < b)
+  x <- "true"
+else
+  x <- "false"
+
+The code above can be written in the following non-standard condensed way:
+
+
+x <- if (a < b) "true" else "false"
+
+There exists also the function ifelse that allows rewriting the expression above as:
+
+
+x <- ifelse (a < b, "true", "false")
+
+The ifelse function is automatically vectorized. For instance:
+
+
+> ifelse (c (0, 2) < 1, "true", "false")
+[1] "true"  "false"
+
+Ruby[edit]
+Example of using this operator in Ruby:
+
+
+1 == 2 ? "true value" : "false value"
+
+Returns "false value".
+A traditional if-else construct in Ruby is written:[15]
+
+
+if a > b
+  result = x
+else
+  result = y
+end
+
+This could also be written as:
+
+
+result = if a > b
+  x
+else
+  y
+end
+
+These can be rewritten as the following statement:
+
+
+result = a > b ? x : y
+
+Rust[edit]
+Being an expression-oriented programming language, rust's existing if expr1 else expr2 syntax can behave as the traditional ?:; ternary operator does. Earlier versions of the language did have the ?:; operator but it was removed[16] due to duplication with if.[17]
+Note the lack of semi-colons in the code below compared to a more declarative if...else block, and the semi-colon at the end of the assignment to y.
+
+
+let x = 5;
+
+let y = if x == 5 {
+    10
+} else {
+    15
+};
+
+Scheme[edit]
+Same as in Common Lisp. Every expression has a value. Thus the builtin if can be used:
+
+
+(let* ((x 5)
+       (y (if (= x 5) 10 15)))
+  ...)
+
+Smalltalk[edit]
+Every expression (message send) has a value. Thus ifTrue:ifFalse: can be used:
+
+
+|x y|
+
+x := 5.
+y := (x == 5) ifTrue:[10] ifFalse:[15].
+
+Swift[edit]
+The ternary conditional operator of Swift is written in the usual way of the C tradition, and is used within expressions.
+
+
+   let result = a > b ? a : b
+
+Tcl[edit]
+Example of using this operator in Tcl:
+
+
+   set x 5
+   set y [expr $x == 5 ? 10 : 15]
+
+TestStand[edit]
+In a National Instruments TestStand expression, if condition is true, the first expression is evaluated and becomes the output of the conditional operation; if false, the second expression is evaluated and becomes the result. Only one of two expressions is ever evaluated.
+
+
+condition ? first_expression : second_expression
+
+For example:
+
+
+RunState.Root.Parameters.TestSocket.Index == 3 ? Locals.UUTIndex = 3 : Locals.UUTIndex = 0
+
+Sets the UUTIndex local variable to 3 if TestSocket.Index is 3, otherwise it sets UUTIndex to 0.
+Similar to other languages, first_expression and second_expression do not need to be autonomous expressions, allowing the operator to be used for variable assignment:
+
+
+Locals.UUTIndex = ( RunState.Root.Parameters.TestSocket.Index == 3 ? 3 : 0 )
+
+Verilog[edit]
+Verilog is technically a hardware description language, not a programming language though the semantics of both are very similar. It uses the ?: syntax for the ternary operator.
+
+
+// using blocking assignment
+wire out;
+assign out = sel ? a : b;
+
+This is equivalent to the more verbose Verilog code
+
+
+// using blocking assignment
+wire out;
+if (sel)
+    assign out = a;
+else
+    assign out = b;
+
+Visual Basic[edit]
+Visual Basic doesn't use ?: per se, but has a very similar implementation of this shorthand if...else statement. Using the first example provided in this article, it can do:
+
+
+' variable = IIf(condition, value_if_true, value_if_false)
+Dim opening_time As Integer = IIf((day = SUNDAY), 12, 9)
+
+In the above example, IIf is a ternary function, but not a ternary operator. As a function, the values of all three portions are evaluated before the function call occurs. This imposed limitations, and in Visual Basic .Net 9.0, released with Visual Studio 2008, an actual conditional operator was introduced, using the If keyword instead of IIf. This allows the following example code to work:
+
+
+Dim name As String = If(person Is Nothing, "", person.Name)
+
+Using IIf, person.Name would be evaluated even if person is null (Nothing), causing an exception. With a true short-circuiting conditional operator, person.Name is not evaluated unless person is not null.
+Visual Basic Version 9 has added the operator If() in addition to the existing IIf() function that existed previously. As a true operator, it does not have the side effects and potential inefficiencies of the IIf() function.
+The syntaxes of the tokens are similar: If([condition], op1, op2) vs IIf(condition, op1, op2). As mentioned above, the function call has significant disadvantages, because the sub-expressions must all be evaluated, according to Visual Basic's evaluation strategy for function calls and the result will always be of type variant (VB) or object (VB.NET). The If()operator however does not suffer from these problems as it supports conditional evaluation and determines the type of the expression based on the types of its operands.
+Result type[edit]
+Clearly the type of the result of the ?: operator must be in some sense the type unification of the types of its second and third operands. In C this is accomplished for numeric types by arithmetic promotion; since C does not have a type hierarchy for pointer types, pointer operands may only be used if they are of the same type (ignoring type qualifiers) or one is void or NULL. It is undefined behaviour to mix pointer and integral or incompatible pointer types; thus
+
+
+number = spell_out_numbers ? "forty-two" : 42;
+
+will result in a compile-time error in most compilers.
+?: in style guidelines[edit]
+Conditional operators are widely used and can be useful in certain circumstances to avoid the use of an if statement, either because the extra verbiage would be too lengthy or because the syntactic context does not permit a statement. For example:
+
+#define MAX(a, b) (((a)>(b)) ? (a) : (b))
+
+or
+
+
+ for (i = 0; i < MAX_PATTERNS; i++)
+    c_patterns[i].ShowWindow(m_data.fOn[i] ? SW_SHOW : SW_HIDE);
+
+(The latter example uses the Microsoft Foundation Classes Framework for Win32.)
+Initialization[edit]
+An important use of the conditional operator is in allowing a single initialization statement, rather than multiple initialization statements. In many cases this also allows single assignment and for an identifier to be a constant.
+The simplest benefit is avoiding duplicating the variable name, as in Python:
+
+
+x = 'foo' if b else 'bar'
+
+instead of:
+
+
+if b:
+  x = 'foo'
+else:
+  x = 'bar'
+
+More importantly, in languages with block scope, such as C++, the blocks of an if/else statement creates new scopes, and thus variables must be declared before the if/else statement, as:
+
+
+std::string s;
+if (b)
+  s = "foo";
+else
+  s = "bar";
+
+Use of the conditional operator simplifies this:
+
+
+std::string s = b ? "foo" : "bar";
+
+Further, since initialization is now part of the declaration, rather than a separate statement, the identifier can be a constant (formally, of const type):
+
+
+const std::string s = b ? "foo" : "bar";
+
+Case selectors[edit]
+When properly formatted, the conditional operator can be used to write simple and coherent case selectors. For example:
+
+
+vehicle = arg == 'B' ? bus :
+          arg == 'A' ? airplane :
+          arg == 'T' ? train :
+          arg == 'C' ? car :
+          arg == 'H' ? horse :
+                       feet;
+
+Appropriate use of the conditional operator in a variable assignment context reduces the probability of a bug from a faulty assignment as the assigned variable is stated just once as opposed to multiple times.
+Programming languages without the conditional operator[edit]
+The following are examples of notable general-purpose programming languages that don't provide a conditional operator:
+
+Coffeescript
+Go programming language[18]
+MATLAB
+Pascal Although Object Pascal / Delphi do have a function IfThen to do the same (with caveats)
+Rust The if..else construct is an expression and can be used to get the same functionality.[19]
+XProfan (de)
+Fortran
+
+See also[edit]
+
+IIf, inline if function
+Null coalescing operator, ?? operator
+Elvis operator, ?:, or sometimes ?., as a shorthand binary operator
+Conditioned disjunction, equivalent ternary logical connective.
+
+References[edit]
+
+
+^ Strachey, Christopher (2000). "Fundamental Concepts in Programming Languages". Higher-Order and Symbolic Computation. 13: 11–49. doi:10.1023/A:1010000313106. 
+^ "5.5 Conditional expressions". The BCPL Reference Manual (PDF). 1967. pp. 16–17. Retrieved 2017-03-15. 
+^ Wastl, Eric. "Ternary operator associativity". phpsadness.com. PHP Sadness. Retrieved 20 September 2017. 
+^ "Rationale for Ada 2012". ACAA. Retrieved 10 December 2015. 
+^ Learning GNU C: The Conditional Operator
+^ a b ISO.IEC 9899:1999 (E) 6.5.15.4
+^ "C++ Operator Precedence" (MediaWiki). en.cppreference.com. section: "Notes". 
+^ Java 7 Specification: 15.25 Conditional Operator ? :
+^ "ECMA-262 Edition 5.1". Ecma Language Specification. Ecma International. Retrieved 7 September 2013. 
+^ "Perl6 Operators". Larry Wall. Retrieved 2010-05-18. 
+^ Eevee (2012-04-09). "PHP: a fractal of bad design". Retrieved 2015-10-04. 
+^ "Comparison Operators, Example #3: Non-obvious Ternary Behaviour". PHP website. Retrieved 2013-04-26. 
+^ "PHP Bug #61915: incorrect associativity of ternary operator". PHP website. 2012-05-02. Retrieved 2013-04-26. We can't fix this without breaking code 
+^ "PHP 5.3.0 Release Announcement". PHP website. Retrieved 2013-04-26. Syntax additions: NOWDOC, ternary short cut "?:" and jump label (limited goto), __callStatic() 
+^ Programming Ruby: Conditional Execution
+^ https://github.com/rust-lang/rust/pull/1705
+^ https://github.com/rust-lang/rust/issues/1698
+^ "Does Go have the ?: operator?". The Go Programming Language FAQ. Retrieved 2012-08-05. 
+^ "If expressions". The Rust Reference. Retrieved 2015-07-21. 
+
+
+External links[edit]
+
+Description of Conditional Operator in C#
+Description of If operator in Visual Basic
+Description of Conditional Expression in Python (PEP 308)
+Alternative workaround for conditional operator expression in Python
+Description in the Java Language Specification
+Description in the PHP Language Documentation
+Visual Basic 9.0 Language Specification
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=%3F:&oldid=833420843"					
+				Categories: Conditional constructsOperators (programming)Ternary operationsHidden categories: All articles with unsourced statementsArticles with unsourced statements from July 2015Interlanguage link template link numberArticles with example code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					ČeštinaDeutsch한국어Italiano日本語PolskiPortuguêsРусскийУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 31 March 2018, at 12:35.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.296","walltime":"0.391","ppvisitednodes":{"value":1635,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":20914,"limit":2097152},"templateargumentsize":{"value":769,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":74490,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  309.796      1 -total"," 44.23%  137.032      1 Template:Reflist"," 18.50%   57.318     11 Template:Cite_web"," 14.23%   44.098      1 Template:Citation_needed"," 13.53%   41.915      1 Template:Cite_journal"," 12.57%   38.954      1 Template:Fix"," 11.18%   34.624      1 Template:About","  7.72%   23.931      2 Template:Category_handler","  5.10%   15.792      1 Template:Ill","  3.87%   11.990      1 Template:Delink"]},"scribunto":{"limitreport-timeusage":{"value":"0.117","limit":"10.000"},"limitreport-memusage":{"value":4760828,"limit":52428800}},"cachereport":{"origin":"mw1310","timestamp":"20180331123513","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":70,"wgHostname":"mw1243"});});
+	
+

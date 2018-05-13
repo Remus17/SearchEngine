@@ -1,0 +1,710 @@
+
+
+
+
+Groovy (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Groovy_(programming_language)","wgTitle":"Groovy (programming language)","wgCurRevisionId":828838238,"wgRevisionId":828838238,"wgArticleId":508401,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from May 2012","Articles with unsourced statements from November 2008","Articles with unsourced statements from October 2017","Articles with unsourced statements from June 2016","Articles with Curlie links","Articles with example code","Dynamically typed programming languages","Java programming language family","Java specification requests","JVM programming languages","Object-oriented programming languages","Programming languages created in 2003","Scripting languages","Software using the Apache license","Programming languages","Dynamic programming languages","2003 software","Cross-platform free software","Cross-platform software","High-level programming languages"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Groovy_(programming_language)","wgRelevantArticleId":508401,"wgRequestId":"Wr2feQpAICgAAAfA6XMAAACB","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q504453","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.math.scripts","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Groovy (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+Groovy
+
+
+Groovy-logo
+
+
+
+Paradigm
+Object-oriented, imperative, scripting
+
+
+Designed by
+James Strachan
+
+
+Developer
+Guillaume Laforge (PMC Chair)
+Jochen Theodorou (Tech Lead)
+Paul King
+Cedric Champeau
+
+
+First appeared
+2003; 15 years ago (2003)
+
+
+
+
+
+Stable release
+
+2.4.14 / February 24, 2018; 34 days ago (2018-02-24)
+
+
+
+Preview release
+
+3.0.0 Alpha 1 / November 25, 2017; 4 months ago (2017-11-25)
+
+
+
+
+
+
+Typing discipline
+Dynamic, static, strong, duck
+
+
+Platform
+Java SE
+
+
+License
+Apache 2.0
+
+
+Filename extensions
+.groovy
+
+
+Website
+groovy-lang.org
+
+
+Influenced by
+
+
+Java, Python, Ruby, Perl, Smalltalk, Objective-C
+
+
+Influenced
+
+
+Kotlin
+
+
+Apache Groovy is an object-oriented programming language for the Java platform. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as a scripting language for the Java Platform, is dynamically compiled to Java virtual machine (JVM) bytecode, and interoperates with other Java code and libraries. Groovy uses a Java-like curly-bracket syntax. Most Java code is also syntactically valid Groovy, although semantics may be different.
+Groovy 1.0 was released on January 2, 2007, and Groovy 2.0 in July, 2012. Since version 2, Groovy can also be compiled statically, offering type inference, and performance near that of Java.[1][2] Groovy 2.4 was the last major release under Pivotal Software's sponsorship which ended in March 2015.[3] Groovy has since changed its governance structure to a Project Management Committee (PMC) in the Apache Software Foundation.[4]
+
+
+
+Contents
+
+
+1 History
+2 Features
+
+2.1 GroovyBeans, properties
+2.2 Prototype extension
+2.3 Dot and parentheses
+2.4 Functional programming
+
+2.4.1 Closures
+2.4.2 Curry
+
+
+2.5 JSON and XML processing
+2.6 String interpolation
+2.7 Abstract syntax tree transformation
+2.8 Traits
+
+
+3 Adoption
+4 IDE support
+5 Dialects
+6 See also
+7 References
+
+7.1 Citations
+7.2 Sources
+
+
+8 External links
+
+
+
+History[edit]
+James Strachan first talked about the development of Groovy on his blog in August 2003.[5] In March 2004, Groovy was submitted to the JCP as JSR 241[6] and accepted by ballot. Several versions were released between 2004 and 2006. After the Java Community Process (JCP) standardization effort began, the version numbering changed, and a version called "1.0" was released on January 2, 2007. After various betas and release candidates numbered 1.1, on December 7, 2007, Groovy 1.1 Final was released and immediately renumbered as Groovy 1.5 to reflect the many changes made.
+In 2007, Groovy won the first prize at JAX 2007 innovation award.[7] In 2008, Grails, a Groovy web framework, won the second prize at JAX 2008 innovation award.[8]
+In November 2008, SpringSource acquired the Groovy and Grails company (G2One).[9] In August 2009 VMWare acquired SpringSource.[10]
+In April 2012, after eight years of inactivity, the Spec Lead changed the status of JSR 241 to dormant.[6]
+Strachan had left the project silently a year before the Groovy 1.0 release in 2007.[citation needed] In Oct 2016, Strachan stated "I still love groovy (jenkins pipelines are so groovy!), java, go, typescript and kotlin".[11]
+On July 2, 2012, Groovy 2.0 was released, which, among other new features, added static compiling and static type checking.
+When the Pivotal Software joint venture was spun-off by EMC Corporation (EMC) and VMware in April 2013, Groovy and Grails formed part of its product portfolio. Pivotal ceased sponsoring Groovy and Grails from April 2015.[3] That same month, Groovy changed its governance structure from a Codehaus repository to a Project Management Committee (PMC) in the Apache Software Foundation via its incubator.[4] Groovy graduated from Apache's incubator and became a top-level project in November 2015.[12]
+Features[edit]
+Most valid Java files are also valid Groovy files. Although the two languages are similar, Groovy code can be more compact, because it does not need all the elements that Java needs.[13] This makes it possible for Java programmers to learn Groovy gradually by starting with familiar Java syntax before acquiring more Groovy programming idioms.[14]
+Groovy features not available in Java include both static and dynamic typing (with the keyword def), operator overloading, native syntax for lists and associative arrays (maps), native support for regular expressions, polymorphic iteration, expressions embedded inside strings, added helper methods, and the safe navigation operator ?. to check automatically for null pointers (for example, variable?.method(), or variable?.field).[15]
+Since version 2 Groovy also supports modularity (being able to ship only the needed jars according to the project needs, thus reducing the size of Groovy's library), type checking, static compiling, Project Coin syntax enhancements, multicatch blocks and ongoing performance enhancements using JDK7's invoke dynamic instruction.[16]
+Groovy provides native support for various markup languages such as XML and HTML, accomplished via an inline Document Object Model (DOM) syntax. This feature enables the definition and manipulation of many types of heterogeneous data assets with a uniform and concise syntax and programming methodology.[citation needed]
+Unlike Java, a Groovy source code file can be executed as an (uncompiled) script, if it contains code outside any class definition, if it is a class with a main method, or if it is a Runnable or GroovyTestCase. A Groovy script is fully parsed, compiled, and generated before executing (similar to Perl and Ruby). This occurs under the hood, and the compiled version is not saved as an artifact of the process.[17]
+GroovyBeans, properties[edit]
+GroovyBeans are Groovy's version of JavaBeans. Groovy implicitly generates getters and setters. In the following code, setColor(String color) and getColor() are implicitly generated. The last two lines, which appear to access color directly, are actually calling the implicitly generated methods.[18]
+
+
+class AGroovyBean {
+  String color
+}
+
+def myGroovyBean = new AGroovyBean()
+
+myGroovyBean.setColor('baby blue')
+assert myGroovyBean.getColor() == 'baby blue'
+
+myGroovyBean.color = 'pewter'
+assert myGroovyBean.color == 'pewter'
+
+Groovy offers simple, consistent syntax for handling lists and maps, reminiscent of Java's array syntax.[19]
+
+
+def movieList = ['Dersu Uzala', 'Ran', 'Seven Samurai']  // Looks like an array, but is a list
+assert movieList[2] == 'Seven Samurai'
+movieList[3] = 'Casablanca'  // Adds an element to the list
+assert movieList.size() == 4
+
+def monthMap = [ 'January' : 31, 'February' : 28, 'March' : 31 ]  // Declares a map
+assert monthMap['March'] == 31  // Accesses an entry
+monthMap['April'] = 30  // Adds an entry to the map
+assert monthMap.size() == 4
+
+Prototype extension[edit]
+Groovy offers support for prototype extension through ExpandoMetaClass, Extension Modules (only in Groovy 2), Objective-C-like Categories and DelegatingMetaClass.[20]
+ExpandoMetaClass offers a domain-specific language (DSL) to express the changes in the class easily, similar to Ruby's open class concept:
+
+
+Number.metaClass {
+  sqrt = { Math.sqrt(delegate) }
+}
+
+assert 9.sqrt() == 3
+assert 4.sqrt() == 2
+
+Groovy's changes in code through prototyping are not visible in Java, since each attribute/method invocation in Groovy goes through the metaclass registry. The changed code can only be accessed from Java by going to the metaclass registry.
+Groovy also allows overriding methods as getProperty(), propertyMissing() among others, enabling the developer to intercept calls to an object and specify an action for them, in a simplified aspect-oriented way. The following code enables the class java.lang.String to respond to the hex property:
+
+
+enum Color {
+  BLACK('#000000'), WHITE('#FFFFFF'), RED('#FF0000'), BLUE('#0000FF')
+  String hex
+  Color(String hex) { 
+    this.hex = hex 
+  }
+}
+
+String.metaClass.getProperty = { String property ->
+  def stringColor = delegate
+  if (property == 'hex') {
+    Color.values().find { it.name().equalsIgnoreCase stringColor }?.hex
+  }
+}
+
+assert "WHITE".hex == "#FFFFFF"
+assert "BLUE".hex == "#0000FF"
+assert "BLACK".hex == "#000000"
+assert "GREEN".hex == null
+
+The Grails framework uses metaprogramming extensively to enable GORM dynamic finders, like User.findByName('Josh') and others.[21]
+Dot and parentheses[edit]
+Groovy's syntax permits omitting parentheses and dots in some situations. The following groovy code
+
+
+take(coffee).with(sugar, milk).and(liquor)
+
+can be written as
+
+
+take coffee with sugar, milk and liquor
+
+enabling the development of domain-specific languages (DSLs) that look like plain English.
+Functional programming[edit]
+Although Groovy is mostly an object-oriented language, it also offers functional programming features.
+Closures[edit]
+According to Groovy's documentation: "Closures in Groovy work similar to a 'method pointer', enabling code to be written and run in a later point in time".[22] Groovy's closures support free variables, i.e. variables that have not been explicitly passed as a parameter to it, but exist in its declaration context, partial application (that it terms 'currying'[23]), delegation, implicit, typed and untyped parameters.
+When working on Collections of a determined type, the closure passed to an operation on the collection can be inferred:
+
+
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+/* 
+ * Non-zero numbers are coerced to true, so when it % 2 == 0 (even), it is false.
+ * The type of the implicit "it" parameter can be inferred as an Integer by the IDE.
+ * It could also be written as:
+ * list.findAll { Integer i -> i % 2 }
+ * list.findAll { i -> i % 2 }
+ */
+def odds = list.findAll { it % 2 }
+
+assert odds == [1, 3, 5, 7, 9]
+
+A group of expressions can be written in a closure block without reference to an implementation and the responding object can be assigned at a later point using delegation:
+
+
+// This block of code contains expressions without reference to an implementation
+def operations = {
+  declare 5
+  sum 4
+  divide 3
+  print
+}
+
+
+
+/* 
+ * This class will handle the operations that can be used in the closure above. Another class
+ * could be declared having the same methods, but using, for example, webservice operations
+ * in the calculations.
+ */
+class Expression {
+  BigDecimal value
+
+  /* 
+   * Though an Integer is passed as a parameter, it is coerced into a BigDecimal, as was 
+   * defined. If the class had a 'declare(Integer value)' method, it would be used instead.
+   */
+  def declare(BigDecimal value) {
+    this.value = value
+  }
+  
+  def sum(BigDecimal valueToAdd) {
+    this.value += valueToAdd
+  }
+  
+  def divide(BigDecimal divisor) {
+    this.value /= divisor
+  }
+  
+  def propertyMissing(String property) {
+    if (property == "print") println value
+  }
+}
+
+
+
+// Here is defined who is going to respond the expressions in the block of code above.
+operations.delegate = new Expression()
+operations()
+
+Curry[edit]
+Usually called partial application,[23] this Groovy feature allows closures' parameters to be set to a default parameter in any of their arguments, creating a new closure with the bound value. Supplying one argument to the curry() method will fix argument one. Supplying N arguments will fix arguments 1 .. N.
+
+
+def joinTwoWordsWithSymbol = { symbol, first, second -> first + symbol + second }
+assert joinTwoWordsWithSymbol('#', 'Hello', 'World') == 'Hello#World'
+
+def concatWords = joinTwoWordsWithSymbol.curry(' ')
+assert concatWords('Hello', 'World') == 'Hello World'
+
+def prependHello = concatWords.curry('Hello')
+//def prependHello = joinTwoWordsWithSymbol.curry(' ', 'Hello')
+assert prependHello('World') == 'Hello World'
+
+Curry can also be used in the reverse direction (fixing arguments N to N - 1) using rcurry().
+
+
+def power = { BigDecimal value, BigDecimal power ->
+  value**power
+}
+
+def square = power.rcurry(2)
+def cube = power.rcurry(3)
+
+assert power(2, 2) == 4
+assert square(4) == 16
+assert cube(3) == 27
+
+Groovy also supports lazy evaluation,[24][25] reduce/fold,[26] infinite structures and immutability,[27] among others.[28]
+JSON and XML processing[edit]
+On JavaScript Object Notation (JSON) and XML processing, Groovy employs the Builder pattern, making the production of the data structure less verbose. For example, the following XML:
+
+
+<languages>
+  <language year="1995">
+    <name>Java</name>
+    <paradigm>object oriented</paradigm>
+    <typing>static</typing>
+  </language>
+  <language year="1995">
+    <name>Ruby</name>
+    <paradigm>functional, object oriented</paradigm>
+    <typing>duck typing, dynamic</typing>
+  </language>
+  <language year="2003">
+    <name>Groovy</name>
+    <paradigm>functional, object oriented</paradigm>
+    <typing>duck typing, dynamic, static</typing>
+  </language>
+</languages>
+
+can be generated via the following Groovy code:
+
+
+def writer = new StringWriter()
+def builder = new groovy.xml.MarkupBuilder(writer)
+builder.languages {
+  language(year: 1995) {
+    name "Java"
+    paradigm "object oriented"
+    typing "static"
+  }
+  language (year: 1995) {
+    name "Ruby"
+    paradigm "functional, object oriented"
+    typing "duck typing, dynamic"
+  }
+  language (year: 2003) {
+    name "Groovy"
+    paradigm "functional, object oriented"
+    typing "duck typing, dynamic, static"
+  }
+}
+
+and also can be processed in a streaming way through StreamingMarkupBuilder. To change the implementation to JSON, the MarkupBuilder can be swapped to JsonBuilder.[29]
+To parse it and search for a functional language, Groovy's findAll method can serve:
+
+
+def languages = new XmlSlurper().parseText writer.toString()
+
+// Here is employed Groovy's regex syntax for a matcher (=~) that will be coerced to a 
+// boolean value: either true, if the value contains our string, or false otherwise.
+def functional = languages.language.findAll { it.paradigm =~ "functional" }
+assert functional.collect { it.name } == ["Groovy", "Ruby"]
+
+String interpolation[edit]
+In Groovy, strings can be interpolated with variables and expressions by using GStrings:[30]
+
+
+BigDecimal account = 10.0
+def text = "The account shows currently a balance of $account"
+assert text == "The account shows currently a balance of 10.0"
+
+GStrings containing variables and expressions must be declared using double quotes.
+A complex expression must be enclosed in curly brackets. This prevents parts of it from being interpreted as belonging to the surrounding string instead of to the expression:
+
+
+BigDecimal minus = 4.0
+text = "The account shows currently a balance of ${account - minus}"
+assert text == "The account shows currently a balance of 6.0"
+
+// Without the brackets to isolate the expression, this would result:
+text = "The account shows currently a balance of $account - minus"
+assert text == "The account shows currently a balance of 10.0 - minus"
+
+Expression evaluation can be deferred by employing arrow syntax:
+
+
+BigDecimal tax = 0.15
+text = "The account shows currently a balance of ${->account - account*tax}"
+tax = 0.10
+
+// The tax value was changed AFTER declaration of the GString. The expression 
+// variables are bound only when the expression must actually be evaluated:
+assert text == "The account shows currently a balance of 9.000"
+
+Abstract syntax tree transformation[edit]
+According to Groovy's own documentation, "When the Groovy compiler compiles Groovy scripts and classes, at some point in the process, the source code will end up being represented in memory in the form of a Concrete Syntax Tree, then transformed into an Abstract Syntax Tree. The purpose of AST Transformations is to let developers hook into the compilation process to be able to modify the AST before it is turned into bytecode that will be run by the JVM. AST Transformations provides Groovy with improved compile-time metaprogramming capabilities allowing powerful flexibility at the language level, without a runtime performance penalty."[31]
+Examples of ASTs in Groovy are:
+
+Category and Mixin transformation
+Immutable AST Macro
+Newify transformation
+Singleton transformation
+
+among others.
+Traits[edit]
+According to Groovy's documentation, "Traits are a structural construct of the language that allows: composition of behaviors, runtime implementation of interfaces, behavior overriding, and compatibility with static type checking/compilation."
+Traits can be seen as interfaces carrying both default implementations and state. A trait is defined using the trait keyword:
+
+
+trait FlyingAbility { /* declaration of a trait */
+  String fly() { "I'm flying!" } /* declaration of a method inside a trait */
+}
+
+Then, it can be used like a normal interface using the keyword implements:
+
+
+class Bird implements FlyingAbility {} /* Adds the trait FlyingAbility to the Bird class capabilities */
+def bird = new Bird() /* instantiate a new Bird */
+assert bird.fly() == "I'm flying!" /* the Bird class automatically gets the behavior of the FlyingAbility trait */
+
+Traits allow a wide range of abilities, from simple composition to testing.
+Adoption[edit]
+
+Apache OFBiz, the open-source enterprise resource planning (ERP) system, uses Groovy.[32][33]
+DataMelt integrates Groovy into a numeric and statistic data-analysis framework
+Eucalyptus, a cloud management system, uses a significant amount of Groovy.
+Freeplane (freemind), free mind mapping and knowledge building software uses Groovy as scripting language.[citation needed]
+LinkedIn uses Groovy and Grails for some of their subsystems.[34]
+Jenkins, a platform for continuous integration. With version 2, Jenkins includes a Pipeline plugin that allows for build instructions to be written in Groovy.[35]
+Oracle Sales Cloud uses Groovy as the main scripting language to enhance the application.[36]
+Sky.com uses Groovy and Grails to serve massive online media content.[37]
+SmartThings, an open platform for smart homes and the consumer Internet of Things, uses a security-oriented subset of Groovy[38]
+SoapUI provides Groovy as a language for webservice tests development.[39]
+Survata, a market research startup, uses Groovy and Grails.[citation needed]
+The European Patent Office (EPO) developed a dataflow programming language in Groovy "to leverage similarities in the processes for communicating with each individual country’s patent office, and transform them into a single, universal process."[citation needed]
+Though Groovy can be integrated into any JVM environment, the JBoss Seam framework provides Groovy, besides Java, as a development language, out of the box.[40]
+vCalc.com uses Groovy for all of the user defined mathematics in its math crowd-sourcing engine.[41]
+Wired.com uses Groovy and Grails for the Product Reviews standalone section of the website.[42]
+XWiki SAS uses Groovy as scripting language in their collaborative open-source product.[43]
+
+IDE support[edit]
+Many integrated development environments (IDEs) and text editors support Groovy:
+
+Android Studio, IDE used for making Android apps
+Atom IDE
+DataMelt Java IDE
+Eclipse, through Groovy-Eclipse
+Emacs, using the groovy-emacs-mode project's groovy-mode.
+IntelliJ IDEA, Community Edition, Grails/Griffon in the Ultimate Edition only
+JDeveloper, for use with Oracle ADF
+jEdit, an advanced text editor for the Java platform
+Kate, an advanced text editor for KDE supports Groovy and over 200 other file formats
+NetBeans, since version 6.5
+Notepad++, an advanced text editor for Microsoft Windows
+Sublime Text 2, a cross platform text editor
+TextMate
+Visual Studio Code
+UltraEdit, general purpose program editor
+
+Dialects[edit]
+There is one alternative implementation of Groovy:
+
+Grooscript converts Groovy code to JavaScript code.[44] Although Grooscript has some limitations compared to Apache Groovy, it can use domain classes in both the server and the client.[45] Plugin support for Grails version 3.0 is provided, as well as online code conversions.[46]
+
+See also[edit]
+
+
+Free and open-source software portal
+
+
+
+Comparison of programming languages
+Gradle – a build automation tool
+Griffon (framework) – a desktop framework
+Project Zero
+Spock (testing framework)
+
+References[edit]
+Citations[edit]
+
+
+^ "Groovy 2.0 Performance compared to Java". 25 Aug 2012. 
+^ "Java vs Groovy2.0 vs Scala Simple Performance Test". 10 Jul 2012. 
+^ a b "Groovy 2.4 And Grails 3.0 To Be Last Major Releases Under Pivotal Sponsorship". 19 Jan 2015. 
+^ a b "Groovy joins Apache Incubator". 11 Mar 2015. 
+^ James Strachan (29 Aug 2003). "Groovy - the birth of a new dynamic language for the Java platform". 
+^ a b "Java Community Process JSR 241". 
+^ "Groovy wins first prize at JAX 2007 innovation award". 2007-04-26. 
+^ "They say a lot can happen over a cup of coffee". 
+^ "SpringSource Acquires Groovy and Grails company (G2One)". 11 Nov 2008. 
+^ "VMWare Acquires SpringSource". 10 Aug 2009. 
+^ "Tweet from James Strachan". November 24, 2016. Retrieved 2016-11-24. 
+^ "Announcement on dev mailing list". 
+^ König 2007, pg. 32
+^ "Groovy style and language feature guidelines for Java developers". Groovy.codehaus.org. Retrieved 2015-01-22. 
+^ "Groovy – Differences from Java". Groovy.codehaus.org. Archived from the original on 2009-03-17. Retrieved 2013-08-12. 
+^ "What's new in Groovy 2.0?". 28 Jun 2012. 
+^ König 2007, pp. 37-8
+^ König 2007, pp. 38-9
+^ König 2007, pp. 41-3
+^ "JN3525-MetaClasses". 
+^ "Metaprogramming Techniques in Groovy and Grails". 11 Jun 2009. 
+^ "Groovy - Closures". Archived from the original on 2012-05-22. 
+^ a b "Does groovy call partial application 'currying'", 10 Aug 2013
+^ "Groovy - Lazy Transformation". 
+^ "Side Notes: Lazy lists in Groovy". 3 Feb 2011. 
+^ "Groovy's Fold". 20 Jun 2011. 
+^ "Functional Programming with Groovy". 5 Nov 2011. 
+^ "Function programming in Groovy". 
+^ "JsonBuilder". 
+^ "Groovy Strings - Different ways of creating them". 26 Dec 2009. 
+^ "Compile-time Metaprogramming - AST Transformations". 
+^ "Groovy DSL for OFBiz business logic". Apache OFBiz Project Open Wiki. 
+^ "Simple-methods examples using Groovy". Apache OFBiz Project Open Wiki. 
+^ "Grails at LinkedIn". Retrieved 2015-06-02. 
+^ "Jenkins Pipeline". 
+^ "Oracle Sales Cloud Groovy Scripting Reference" (PDF). Retrieved 2017-04-26. 
+^ Rocher, Graeme (October 2, 2008). "Graeme Rocher's Blog: Sky.com relaunches written in Grails". Graeme Rocher's Blog. Retrieved 2015-06-02. 
+^ Security Analysis of Emerging Smart Home Applications
+^ "Scripting and the Script Library | Scripting & Properties". www.soapui.org. Retrieved 2015-06-02. 
+^ "Chapter 11. Groovy integration". docs.jboss.org. Retrieved 2015-06-02. 
+^ "vCalc, the First ever Social Platform for the world of Math". Retrieved 2016-05-05. 
+^ "Wired.Com" (PDF). www.springsource.org. Retrieved 2015-06-02. 
+^ "XWiki SAS" (PDF). www.springsource.org. Retrieved 2015-06-02. 
+^ "Grooscript Documentation". 12 Sep 2016. 
+^ "Presentation at SpringOne/2GX on Grooscript". 13 Dec 2015. 
+^ "Grooscript online conversions". 15 May 2017. 
+
+
+Sources[edit]
+
+
+König, Dierk; Paul King; Guillaume Laforge; Hamlet D'Arcy; Cédric Champeau; Erik Pragt; Jon Skeet (2015). Groovy in Action, Second Edition. Manning. ISBN 978-1-935182-44-3. 
+Barclay, Kenneth; John Savage. Groovy Programming: An Introduction for Java Developers. ISBN 978-0-12-372507-3. 
+Davis, Scott. Groovy Recipes: Greasing the Wheels of Java. ISBN 978-0-9787392-9-4. 
+Subramaniam, Venkat. Programming Groovy: Dynamic Productivity for the Java Developer. ISBN 978-1-934356-09-8. 
+
+
+External links[edit]
+
+Official website
+Groovy at Curlie (based on DMOZ)
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Groovy_(programming_language)&oldid=828838238"					
+				Categories: Dynamically typed programming languagesJava programming language familyJava specification requestsJVM programming languagesObject-oriented programming languagesProgramming languages created in 2003Scripting languagesSoftware using the Apache licenseProgramming languagesDynamic programming languages2003 softwareCross-platform free softwareCross-platform softwareHigh-level programming languagesHidden categories: All articles with unsourced statementsArticles with unsourced statements from May 2012Articles with unsourced statements from November 2008Articles with unsourced statements from October 2017Articles with unsourced statements from June 2016Articles with Curlie linksArticles with example code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةБългарскиCatalàČeštinaDeutschEspañolفارسیFrançais한국어ItalianoעבריתქართულიMagyarNederlands日本語PolskiPortuguêsRomânăРусскийСрпски / srpskiSvenskaไทยTürkçeУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 5 March 2018, at 01:45.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.444","walltime":"0.529","ppvisitednodes":{"value":3258,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":79210,"limit":2097152},"templateargumentsize":{"value":5391,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":64846,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  476.547      1 -total"," 36.81%  175.410      1 Template:Reflist"," 30.61%  145.862      2 Template:Infobox"," 29.27%  139.484     40 Template:Cite_web"," 22.84%  108.860      1 Template:Infobox_programming_language"," 18.76%   89.381      5 Template:Citation_needed"," 16.62%   79.211      5 Template:Fix","  9.72%   46.297      1 Template:Infobox_software/simple","  8.54%   40.691     10 Template:Category_handler","  8.30%   39.541      3 Template:Start_date_and_age"]},"scribunto":{"limitreport-timeusage":{"value":"0.242","limit":"10.000"},"limitreport-memusage":{"value":5173628,"limit":52428800}},"cachereport":{"origin":"mw1319","timestamp":"20180330022249","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":611,"wgHostname":"mw1319"});});
+	
+

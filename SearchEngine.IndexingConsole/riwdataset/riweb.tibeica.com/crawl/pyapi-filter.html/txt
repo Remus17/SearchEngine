@@ -1,0 +1,156 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.3 Overview of a Filter Handler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.2 Overview of a
+Up:
+4. Python API
+Next:
+4.4 Overview of a
+
+
+
+
+ 
+
+4.3 Overview of a Filter Handler
+
+ 
+
+A filter handler is a function that can alter the input or the
+output of the server. There are two kinds of filters - input and
+output that apply to input from the client and output to the
+client respectively.
+
+
+At this time mod_python supports only request-level filters, meaning
+that only the body of HTTP request or response can be filtered. Apache
+provides support for connection-level filters, which will be supported
+in the future.
+
+
+A filter handler receives a filter object as its argument. The
+request object is available as well via filter.req, but all
+writing and reading should be done via the filter's object read and
+write methods.
+
+
+Filters need to be closed when a read operation returns None 
+(indicating End-Of-Stream).
+
+
+The return value of a filter is ignored. Filters cannot decline
+processing like handlers, but the same effect can be achieved
+by using the filter.pass_on() method.
+
+
+Filters must first be registered using PythonInputFilter or
+PythonOutputFilter, then added using the Apache
+Add/SetInputFilter or Add/SetOutputFilter directives. 
+
+
+Here is an example of how to specify an output filter, it tells the
+server that all .py files should processed by CAPITALIZE filter:
+
+
+
+  PythonOutputFilter capitalize CAPITALIZE
+  AddOutputFilter CAPITALIZE .py
+
+
+
+And here is what the code for the capitalize.py might look
+like:
+
+
+
+from mod_python import apache
+  
+def outputfilter(filter):
+
+    s = filter.read()
+    while s:
+        filter.write(s.upper())
+        s = filter.read()
+
+    if s is None:
+        filter.close()
+
+
+
+When writing filters, keep in mind that a filter will be called any
+time anything upstream requests an IO operation, and the filter has no
+control over the amount of data passed through it and no notion of
+where in the request processing it is called. For example, within a
+single request, a filter may be called once or five times, and there
+is no way for the filter to know beforehand that the request is over
+and which of calls is last or first for this request, thought
+encounter of an EOS (None returned from a read operation) is a fairly
+strong indication of an end of a request.
+
+
+Also note that filters may end up being called recursively in
+subrequests. To avoid the data being altered more than once, always
+make sure you are not in a subrequest by examining the req.main
+value.
+
+
+For more information on filters, see
+http://httpd.apache.org/docs-2.0/developer/filters.html.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.2 Overview of a
+Up:
+4. Python API
+Next:
+4.4 Overview of a
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

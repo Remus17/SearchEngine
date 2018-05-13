@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.8 Session - Session Management
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.7.3 Examples
+Up:
+4. Python API
+Next:
+4.8.1 Classes
+
+
+
+
+ 
+
+4.8 Session - Session Management
+
+
+
+
+The Session module provides objects for maintaining persistent
+sessions across requests.
+
+
+The module contains a BaseSession class, which is not meant to
+be used directly (it provides no means of storing a session), 
+DbmSession class, which uses a dbm to store sessions, and
+FileSession class, which uses individual files to store
+sessions.
+
+
+The BaseSession class also provides session locking, both
+across processes and threads. For locking it uses APR global_mutexes
+(a number of them is pre-created at startup) The mutex number is
+computed by using modulus of the session id
+hash(). (Therefore it's possible that different session
+id's will have the same hash, but the only implication is that those
+two sessions cannot be locked at the same time resulting in a slight
+delay.)
+
+
+
+
+
+Subsections
+
+
+4.8.1 Classes
+4.8.2 Examples
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.7.3 Examples
+Up:
+4. Python API
+Next:
+4.8.1 Classes
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

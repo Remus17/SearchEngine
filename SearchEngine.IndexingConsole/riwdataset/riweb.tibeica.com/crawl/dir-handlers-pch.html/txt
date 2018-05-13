@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.13 PythonCleanupHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.12 PythonLogHandler
+Up:
+5.1 Request Handlers
+Next:
+5.2 Filters
+
+
+
+
+ 
+ 
+
+5.1.13 PythonCleanupHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+This is the very last handler, called just before the request object
+is destroyed by Apache.
+
+
+Unlike all the other handlers, the return value of this handler is
+ignored. Any errors will be logged to the error log, but will not be
+sent to the client, even if PythonDebug is On.
+
+
+This handler is not a valid argument to the rec.add_handler()
+function. For dynamic clean up registration, use
+req.register_cleanup().
+
+
+Once cleanups have started, it is not possible to register more of
+them. Therefore, req.register_cleanup() has no effect within this
+handler.
+
+
+Cleanups registered with this directive will execute after cleanups
+registered with req.register_cleanup().
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.12 PythonLogHandler
+Up:
+5.1 Request Handlers
+Next:
+5.2 Filters
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

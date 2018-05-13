@@ -1,0 +1,743 @@
+
+
+
+
+Python for S60 - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_for_S60","wgTitle":"Python for S60","wgCurRevisionId":813785650,"wgRevisionId":813785650,"wgArticleId":18805500,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template webcite links","Wikipedia external links cleanup from March 2013","Wikipedia spam cleanup from March 2013","Use dmy dates from July 2012","Class-based programming languages","Dynamically typed programming languages","Mobile software programming tools","Nokia services","Object-oriented programming languages","Python (programming language)","Python implementations","S60 (software platform)","Scripting languages","Smartphones","Symbian software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_for_S60","wgRelevantArticleId":18805500,"wgRequestId":"WsI69QpAMFgAAIDiIacAAACI","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"PyS60","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Python_for_S60","wgWikibaseItemId":"Q7263936","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Python for S60			
+				From Wikipedia, the free encyclopedia				  (Redirected from PyS60)
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+This article's use of external links may not follow Wikipedia's policies or guidelines. Please improve this article by removing excessive or inappropriate external links, and converting useful links where appropriate into footnote references. (March 2013) (Learn how and when to remove this template message)
+
+
+
+
+Python for S60
+
+Paradigm
+multi-paradigm: object-oriented, imperative, functional
+
+
+Designed by
+Guido van Rossum
+
+
+Developer
+Python Software Foundation
+
+
+First appeared
+2006; 12 years ago (2006)
+
+
+
+
+
+Stable release
+
+2.0.0 / 11 February 2010; 8 years ago (2010-02-11)
+
+
+
+
+
+
+Implementation language
+C++, Python
+
+
+OS
+Symbian OS, S60 platform
+
+
+License
+Apache license, Python Software Foundation License
+
+
+Website
+garage.maemo.org/projects/pys60/
+
+
+The Python for S60 also called PyS60 (Unix name), was Nokia’s port of the general Python programming language to its S60 software platform, originally based on Python 2.2.2 from 2002.[1] The latest final version, PyS60-2.0.0, released on 11 February 2010 updated the python core to version 2.5.4.[2]
+
+
+
+Contents
+
+
+1 Release history
+2 See also
+3 References
+4 External links
+
+
+
+Release history[edit]
+
+
+
+
+Python Shell on Nokia 6120 Classic
+
+
+First released in 2005, it featured a relatively small set of modules and functions. Version 1.2, the last non-opensource release and the second version of PyS60, brought many improvements and was made available on 21 October 2005 on Forum Nokia.
+After becoming open source, PyS60 had the advantage of a strong and dedicated community that could actively contribute to improving it. The milestone release was Version 1.3.11.
+The final version to support[3] S60 2nd Edition platform, 1.4.5, was released on 3 December 2008. On 24 December 2008, a developer version, 1.9.0, was released. It featured several improvements, the main of which was a new core based on Python 2.5.1. The latest final version, 2.0.0, was released on 11 February 2010. Its core is based on Python 2.5.4.[2]
+See also[edit]
+
+
+Free software portal
+
+
+
+List of Python software
+List of integrated development environments for Python
+Open Programming Language for older Symbian devices
+
+References[edit]
+
+
+
+^ Nokia - Nokia to Release Python for S60 Source Code to Open-Source Software Developer Community
+^ a b "Download:Ensymble v0.29 - Now a distutils package". Code.google.com. 2010-05-17. Retrieved 2014-01-28. 
+^ Python for S60 version history Archived 14 February 2011 at WebCite
+
+
+
+External links[edit]
+
+
+
+Wikibooks has a book on the topic of: Python Programming
+
+
+
+
+
+Wikiversity has learning resources about Python
+
+
+
+Nokia Research Center - Python for S60
+Maemo Garage - Python for S60
+SourceForge.net - Python for S60
+Nokia Wiki - Python for S60
+Python - Developer Discussion Boards
+Forum Nokia Wiki - Category:Python
+Maemo - Garage - Python for S60 - Project Filelist
+Tutorials
+
+Python for Series 60 tutorial by Jurgen Scheible
+PyS60 tutorials at Croozeus.com
+
+
+SymbianFreak freeware collection - Python Applications and Games
+Python on Symbian complete online book by Pankaj Nathani and Bogdan Galiceanu also hardcopy ISBN 978-1-4537-4799-5
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Python
+
+
+
+Implementations
+
+
+
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+
+
+
+
+
+
+
+
+IDE
+
+
+
+Boa
+Eric Python IDE
+IDLE
+PyDev
+SPE
+Ninja-IDE
+more...
+
+
+
+
+
+Topics
+
+
+
+WSGI
+
+
+
+
+
+
+
+
+software (list)
+Python Software Foundation
+PyCon
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Free and open-source software
+
+
+
+General
+
+
+
+Alternative terms for free software
+Comparison of open-source and closed-source software
+Comparison of source code hosting facilities
+Free software
+Free software project directories
+Gratis versus libre
+Long-term support
+Open-source software
+Open-source software development
+Outline
+
+
+
+
+
+Software
+packages
+
+
+
+Audio
+Bioinformatics
+Codecs
+Collaboration
+Configuration management
+Device drivers
+
+Graphics
+Wireless
+
+
+Geophysics
+Health
+Mathematics
+Operating systems
+Programming languages
+Routing
+Statistics
+Television
+Video games
+Web applications
+
+Content management systems
+E-commerce
+
+
+Word processors
+Android apps
+iOS apps
+Commercial
+Trademarked
+Formerly proprietary
+
+
+
+
+
+Community
+
+
+
+Free software movement
+History
+Open-source software movement
+Organizations
+Events
+
+
+
+
+
+Licenses
+
+
+
+AFL
+Apache
+APSL
+Artistic
+Beerware
+Boost
+BSD
+CC0
+CDDL
+EPL
+Free Software Foundation
+
+GNU GPL
+GNU LGPL
+
+
+ISC
+MIT
+MPL
+Ms-PL/RL
+Python
+Python Software Foundation License
+Sleepycat
+Unlicense
+WTFPL
+zlib
+
+
+
+
+
+License types
+and standards
+
+
+
+Comparison of free and open-source software licenses
+Contributor License Agreement
+Copyleft
+Debian Free Software Guidelines
+Definition of Free Cultural Works
+Free license
+The Free Software Definition
+The Open Source Definition
+Open-source license
+Permissive software licence
+Public domain
+Viral license
+
+
+
+
+
+Challenges
+
+
+
+Binary blob
+Digital rights management
+Hardware restrictions
+License proliferation
+Mozilla software rebranding
+Proprietary software
+SCO/Linux controversies
+Secure boot
+Software patents
+Software security
+Trusted Computing
+
+
+
+
+
+Related topics
+
+
+
+The Cathedral and the Bazaar
+Forking
+Microsoft Open Specification Promise
+Open-source hardware
+Revolution OS
+
+
+
+
+
+
+
+
+ Book
+ Category
+ Commons
+ Portal
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Nokia services before 2014
+
+
+
+Consumer services
+
+
+
+1legcall
+Accounts & SSO
+Maliit
+Mobile Web Server
+MOSH
+Nokia Accessibility
+Nokia Browser for Symbian
+Nokia Car App
+Nokia Care
+Nokia Conference
+Nokia Business Center
+Nokia Life
+Nokia Lifeblog
+Nokia Mail and Nokia Chat
+Nokia MixRadio
+Nokia Motion Data
+Nokia Motion Monitor
+Nokia network monitor
+Nokia Pure
+Nokia Sensor
+Nokia Sports Tracker
+Nokia Sync
+Nokia Xpress
+OFono
+OTA bitmap
+Ovi
+Plazes
+Smart Messaging
+Twango
+WidSets
+
+
+
+
+
+Nokia imaging apps
+
+
+
+Nokia Camera
+Nokia Cinemagraph
+Nokia Creative Studio
+Nokia Glam Me
+Nokia Panorama
+Nokia PhotoBeamer
+Nokia Play To
+Nokia Refocus
+Nokia Share
+Nokia Smart Shoot
+Nokia Storyteller
+Nokia Video Director
+Nokia Video Trimmer
+Nokia Video Tuner
+Nokia Video Upload
+
+
+
+
+
+Navigation services
+
+
+
+Boston University JobLens
+HERE.com
+Here maps
+HERE Map Creator
+HERE Drive
+HERE Transit
+HERE City Lens
+Nokia Internships Lens
+Nokia JobLens
+Nokia Point & Find
+Trapster
+
+
+
+
+
+Desktop apps
+
+
+
+Nokia Software Recovery Tool
+Nokia Software Updater
+Nokia Suite
+Nokia PC Suite
+
+
+
+
+
+Humanitarian services
+
+
+
+Nokia Data Gathering
+Nokia Education Delivery
+Nokia Mobile-Mathematics
+
+
+
+
+
+Developer tools
+
+
+
+Nokia DVLUP
+Python for S60
+
+
+
+
+
+Websites
+
+
+
+Dopplr
+Nokia Beta Labs
+Nokia Conversations
+Nokia Discussions
+Noknok.tv
+
+
+
+
+
+Video gaming
+
+
+
+N-Gage
+Nokia Climate Mission
+Nokia Climate Mission 3D
+Nokia Game
+Nokia Modern Mayor
+Scalable Network Application Package
+
+
+
+
+
+
+List of Nokia products
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Python_for_S60&oldid=813785650"					
+				Categories: Class-based programming languagesDynamically typed programming languagesMobile software programming toolsNokia servicesObject-oriented programming languagesPython (programming language)Python implementationsS60 (software platform)Scripting languagesSmartphonesSymbian softwareHidden categories: Webarchive template webcite linksWikipedia external links cleanup from March 2013Wikipedia spam cleanup from March 2013Use dmy dates from July 2012				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					Српски / srpski				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 5 December 2017, at 06:26.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.256","walltime":"0.355","ppvisitednodes":{"value":1645,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":68811,"limit":2097152},"templateargumentsize":{"value":2786,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":2290,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  262.986      1 -total"," 38.12%  100.256      2 Template:Infobox"," 30.42%   79.988      1 Template:Infobox_programming_language"," 18.72%   49.239      1 Template:Reflist"," 16.13%   42.421      1 Template:External_links"," 12.10%   31.833      1 Template:Cite_web"," 11.72%   30.828      1 Template:Infobox_software/simple"," 11.16%   29.346      1 Template:Ambox"," 10.12%   26.608      2 Template:Start_date_and_age","  9.29%   24.436      1 Template:ISBN"]},"scribunto":{"limitreport-timeusage":{"value":"0.085","limit":"10.000"},"limitreport-memusage":{"value":3642377,"limit":52428800}},"cachereport":{"origin":"mw1256","timestamp":"20180402093832","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":93,"wgHostname":"mw1253"});});
+	
+

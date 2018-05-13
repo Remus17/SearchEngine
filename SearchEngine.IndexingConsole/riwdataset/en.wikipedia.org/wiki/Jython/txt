@@ -1,0 +1,370 @@
+
+
+
+
+Jython - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Jython","wgTitle":"Jython","wgCurRevisionId":808415107,"wgRevisionId":808415107,"wgArticleId":390263,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from March 2017","JVM programming languages","Object-oriented programming languages","Python implementations","Scripting languages","Software using the PSF license"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Jython","wgRelevantArticleId":390263,"wgRequestId":"Wr5Z3ApAMFIAADHKfa4AAACN","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1053999","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Jython			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+Jython
+
+
+
+
+Initial release
+January 17, 2001; 17 years ago (2001-01-17)[1]
+
+
+
+
+
+Stable release
+
+2.7.1 / July 1, 2017; 8 months ago (2017-07-01)[2]
+
+
+
+
+
+
+Repository
+
+
+
+https://hg.python.org/jython
+
+
+
+
+
+Written in
+Python and Java
+
+
+Operating system
+Cross-platform
+
+
+Platform
+Java Virtual Machine
+
+
+Type
+Python Programming Language Interpreter
+
+
+License
+Python Software Foundation License (for older releases see License terms)
+
+
+Website
+www.jython.org
+
+
+Jython is an implementation of the Python programming language designed to run on the Java platform. It is the successor of JPython.[3]
+
+
+
+Contents
+
+
+1 Overview
+2 History
+3 Status and roadmap
+4 License terms
+5 Usage
+6 See also
+7 References
+8 External links
+
+
+
+Overview[edit]
+Jython programs can import and use any Java class. Except for some standard modules, Jython programs use Java classes instead of Python modules. Jython includes almost all of the modules in the standard Python programming language distribution, lacking only some of the modules implemented originally in C. For example, a user interface in Jython could be written with Swing, AWT or SWT. Jython compiles to Java bytecode (intermediate language) either on demand or statically.
+History[edit]
+Jython was initially created in late 1997 to replace C with Java for performance-intensive code accessed by Python programs, moving to SourceForge in October 2000. The Python Software Foundation awarded a grant in January 2005. Jython 2.5 was released in June 2009.[4]
+Status and roadmap[edit]
+The most recent release is Jython 2.7.1. It was released on 1 July 2017 and is compatible with Python 2.7.[2]
+Although Jython implements the Python language specification, it has some differences and incompatibilities with CPython, which is the reference implementation of Python.[5][6]
+License terms[edit]
+From version 2.2 on, Jython (including the standard library) is released under the Python Software Foundation License (v2). Older versions are covered by the Jython 2.0, 2.1 license and the JPython 1.1.x Software License.[7]
+The command line interpreter is available under the Apache Software License.
+Usage[edit]
+Jython is one of two scripting languages (with Jacl) used in WebSphere Application Server. It is used in IBM Rational development tools, where Jython projects can be created using wizards.
+
+JBoss – Application Server's CLI (command line interface) scripting using Jython
+wlst - Oracle Weblogic Server Application Server tool scripting using Jython
+wsadmin – IBM WebSphere Application Server tool scripting using Jython
+ZK – a Java Ajax framework that allows glue logic written in Jython
+DMelt – a Java framework for numerical and statistical calculations with 2D/3D math visualization (graphs, charts, histograms)
+Arm DS-5 Development Studio - a complete tool-suite for C/C++ development targeting ARM-based SoCs, including Eclipse, ARM Compiler, DS-5 Debugger, Mali Graphics Debugger and Streamline.
+
+See also[edit]
+
+
+Computer programming portal
+
+
+
+List of Java scripting languages
+IronPython – an implementation of Python for .NET and Mono
+PyPy – a self-hosting interpreter for the Python programming language.
+
+References[edit]
+
+
+^ Wierzbicki, Frank (2015-03-22). "jython: 3d8067c56a1d NEWS". Retrieved 2015-03-28. 
+^ a b Wierzbicki, Frank (2017-07-01). "Jython 2.7.1 final released!". Frank Wierzbicki's Weblog. Retrieved 2015-07-14. 
+^ "JythonFaq/GeneralInfo - JythonWiki". 2014-04-03. Retrieved 2015-03-28. 
+^ Wierzbicki, Frank (2009-06-16). "Jython 2.5.0 Final is out!". Retrieved 2009-07-02. 
+^ "JythonFaq". Jython's project. Retrieved 2009-07-05. 
+^ "Differences between CPython and Jython". Jython's project. Retrieved 2009-07-05. 
+^ "The Jython License". Jython's project. Retrieved 2008-02-09. 
+
+
+External links[edit]
+
+Official website
+Official wiki
+#jython connect
+Jython on SourceForge.net
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Python
+
+
+
+Implementations
+
+
+
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+
+
+
+
+
+
+
+
+IDE
+
+
+
+Boa
+Eric Python IDE
+IDLE
+PyDev
+SPE
+Ninja-IDE
+more...
+
+
+
+
+
+Topics
+
+
+
+WSGI
+
+
+
+
+
+
+
+
+software (list)
+Python Software Foundation
+PyCon
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Jython&oldid=808415107"					
+				Categories: JVM programming languagesObject-oriented programming languagesPython implementationsScripting languagesSoftware using the PSF licenseHidden categories: Use dmy dates from March 2017				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةCatalàČeštinaDeutschEspañolفارسیFrançais한국어Bahasa IndonesiaItalianoBahasa Melayu日本語PolskiPortuguêsРусскийСрпски / srpskiТоҷикӣTürkçeУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 2 November 2017, at 18:50.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.252","walltime":"0.328","ppvisitednodes":{"value":1422,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":32490,"limit":2097152},"templateargumentsize":{"value":2159,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":6751,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  296.377      1 -total"," 60.16%  178.288      2 Template:Infobox"," 58.82%  174.315      1 Template:Infobox_software"," 25.06%   74.275      1 Template:Reflist"," 20.35%   60.317      7 Template:Cite_web"," 11.60%   34.365      1 Template:Plainlist"," 10.51%   31.139      1 Template:Wikidata"," 10.37%   30.737      2 Template:Start_date_and_age","  7.77%   23.034      1 Template:Infobox_software/simple","  5.31%   15.736      1 Template:Use_dmy_dates"]},"scribunto":{"limitreport-timeusage":{"value":"0.108","limit":"10.000"},"limitreport-memusage":{"value":3818260,"limit":52428800}},"cachereport":{"origin":"mw1267","timestamp":"20180328045712","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":82,"wgHostname":"mw1247"});});
+	
+

@@ -1,0 +1,238 @@
+
+
+
+
+Standard library - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Standard_library","wgTitle":"Standard library","wgCurRevisionId":831080947,"wgRevisionId":831080947,"wgArticleId":374669,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing cleanup from November 2016","All pages needing cleanup","Articles with sections that need to be turned into prose from November 2016","Programming libraries","Programming language standards"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Standard_library","wgRelevantArticleId":374669,"wgRequestId":"WryMUwpAICEAAJkd1KkAAAAS","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1199356","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Standard library			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				A standard library in computer programming is the library made available across implementations of a programming language. These libraries are conventionally described in programming language specifications; however, contents of a language's associated library may also be determined (in part or whole) by more informal practices of a language's community.
+
+
+
+Contents
+
+
+1 Overview
+2 Contents
+3 Philosophies
+4 Examples of standard libraries
+5 References
+
+
+
+Overview[edit]
+A language's standard library is often treated as part of the language by its users, although the designers may have treated it as a separate entity. Many language specifications define a core set that must be made available in all implementations, in addition to other portions which may be optionally implemented. The line between a language and its libraries therefore differs from language to language. Indeed, some languages are designed so that the meanings of certain syntactic constructs cannot even be described without referring to the core library. For example, in Java, a string literal is defined as an instance of the java.lang.String class; similarly, in Smalltalk, an anonymous function expression (a "block") constructs an instance of the library's BlockContext class. Conversely, Scheme contains multiple coherent subsets that suffice to construct the rest of the language as library macros, and so the language designers do not even bother to say which portions of the language must be implemented as language constructs, and which must be implemented as parts of a library.
+Contents[edit]
+Standard libraries typically include definitions for commonly used algorithms, data structures, and mechanisms for input and output. Depending on the constructs made available by the host language, a standard library may include:
+
+Subroutines
+Macro definitions
+Global variables
+Class definitions
+Templates
+
+Most standard libraries include definitions for at least the following commonly used facilities:
+
+Algorithms (such as sorting algorithms)
+Data structures (such as lists, trees, and hash tables)
+Interaction with the host platform, including input/output and operating system calls
+
+Philosophies[edit]
+Philosophies of standard library design vary widely. For example, Bjarne Stroustrup, designer of C++, writes:
+
+What ought to be in the standard C++ library? One ideal is for a programmer to be able to find every interesting, significant, and reasonably general class, function, template, etc., in a library. However, the question here is not, "What ought to be in some library?" but "What ought to be in the standard library?" The answer "Everything!" is a reasonable first approximation to an answer to the former question but not the latter. A standard library is something every implementer must supply so that every programmer can rely on it.[1]
+
+This suggests a relatively small standard library, containing only the constructs that "every programmer" might reasonably require when building a large collection of software. This is the philosophy that is used in the C and C++ standard libraries.
+By contrast, Guido van Rossum, designer of Python, has embraced a much more inclusive vision of the standard library; in the Python tutorial, he writes:
+
+Python has a "batteries included" philosophy. This is best seen through the sophisticated and robust capabilities of its larger packages.[2]
+
+Van Rossum goes on to list libraries for processing XML, XML-RPC, email messages, and localization, facilities that the C++ standard library omits. This other philosophy is often found in scripting languages (as in Python or Ruby) or languages that use a virtual machine, such as Java or the .NET Framework languages. In C++, such facilities are not part of the standard library, but instead other libraries, such as Boost.
+Examples of standard libraries[edit]
+
+
+
+
+
+
+This article is in a list format that may be better presented using prose. You can help by converting this article to prose, if appropriate. Editing help is available. (November 2016)
+
+
+
+
+C standard library, for the C programming language
+C++ standard library, for the C++ programming language
+Framework Class Library (FCL), for the .NET Framework
+Java Class Library (JCL), for the Java programming language, and Java Platform
+Factor standard library, for the Factor programming language
+Ruby standard library, for the Ruby programming language
+Python standard library, for the Python programming language
+Standard Libraries (CLI)
+
+References[edit]
+
+
+^ Bjarne Stroustrup. The C++ Programming Language. 3rd Ed. Addison-Wesley, 1997
+^ Guido van Rossum. [1].
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Standard_library&oldid=831080947"					
+				Categories: Programming librariesProgramming language standardsHidden categories: Articles needing cleanup from November 2016All pages needing cleanupArticles with sections that need to be turned into prose from November 2016				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةČeštinaDeutschΕλληνικάFrançais한국어HrvatskiÍslenska日本語PolskiРусскийСрпски / srpskiSuomiУкраїнська文言中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 18 March 2018, at 17:03.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.044","walltime":"0.058","ppvisitednodes":{"value":206,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":3873,"limit":2097152},"templateargumentsize":{"value":755,"limit":2097152},"expansiondepth":{"value":5,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":736,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   42.341      1 -total"," 86.91%   36.797      1 Template:List"," 54.11%   22.909      1 Template:Ambox"," 12.70%    5.376      2 Template:Quote"]},"scribunto":{"limitreport-timeusage":{"value":"0.015","limit":"10.000"},"limitreport-memusage":{"value":835507,"limit":52428800}},"cachereport":{"origin":"mw1301","timestamp":"20180329060405","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":73,"wgHostname":"mw1331"});});
+	
+

@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.1 Performance
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+1. Introduction
+Up:
+1. Introduction
+Next:
+1.2 Flexibility
+
+
+
+
+ 
+
+1.1 Performance
+
+
+
+One of the main advantages of mod_python is the increase in
+  performance over traditional CGI. Below are results of a very crude
+  test. The test was done on a 1.2GHz Pentium machine running Red Hat
+  Linux
+  7.3. Ab
+  was used to poll 4 kinds of scripts, all of which imported the
+  standard cgi module (because this is how a typical Python cgi script
+  begins), then output a single word "Hello!". The results are
+  based on 10000 requests with concurrency of 1.
+
+
+
+    Standard CGI:               23 requests/s
+    Mod_python cgihandler:     385 requests/s
+    Mod_python publisher:      476 requests/s
+    Mod_python handler:       1203 requests/s
+         
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+1. Introduction
+Up:
+1. Introduction
+Next:
+1.2 Flexibility
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

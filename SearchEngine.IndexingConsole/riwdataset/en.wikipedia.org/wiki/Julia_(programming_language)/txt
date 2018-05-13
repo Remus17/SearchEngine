@@ -1,0 +1,1285 @@
+
+
+
+
+Julia (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Julia_(programming_language)","wgTitle":"Julia (programming language)","wgCurRevisionId":831438361,"wgRevisionId":831438361,"wgArticleId":38455554,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: Multiple names: authors list","Use dmy dates from October 2015","Official website different in Wikidata and Wikipedia","2012 software","Array programming languages","Computational notebook","Data mining and machine learning software","Data-centric programming languages","Dynamically typed programming languages","Free data analysis software","Free data visualization software","Free software projects","Free software programmed in C","Free statistical software","Functional languages","High-level programming languages","Numerical analysis software for Linux","Numerical analysis software for MacOS","Numerical analysis software for Windows","Numerical linear algebra","Numerical programming languages","Object-oriented programming languages","Parallel computing","Programming languages created in 2012","Software using the MIT license","Statistical programming languages"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Julia_(programming_language)","wgRelevantArticleId":38455554,"wgRequestId":"WsGJmgpAADwAACtcLiQAAAAO","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q2613697","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Julia (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+Julia
+
+
+Official Julia logo
+
+
+
+Paradigm
+Multi-paradigm: multiple dispatch ("object-oriented"), procedural, functional, meta, multistaged[1]
+
+
+Designed by
+Jeff Bezanson, Alan Edelman, Stefan Karpinski, Viral B. Shah
+
+
+Developer
+Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and other contributors[2][3]
+
+
+First appeared
+2012; 6 years ago (2012)[4]
+
+
+
+
+
+Stable release
+
+0.6.2[5] / 17 December 2017; 3 months ago (2017-12-17)[6]
+0.5.2 / 8 May 2017; 10 months ago (2017-05-08)[7][8]
+
+
+
+Preview release
+
+0.7.0-DEV / daily updates
+
+
+
+
+
+
+Typing discipline
+Dynamic, nominative, parametric
+
+
+Implementation language
+Julia, C, Scheme (the parser; using the FemtoLisp implementation), assembly and dependencies (i.e. LLVM) in C++; standard library: Julia (mostly), C (a few dependencies), Fortran (for BLAS)[9]
+
+
+Platform
+IA-32, x86-64
+
+
+OS
+Linux, macOS, Windows and community support for FreeBSD
+
+
+License
+MIT (core),[2] GPL v2;[9][10] a make-file option omits GPL libraries[11]
+
+
+Filename extensions
+.jl
+
+
+Website
+JuliaLang.org
+
+
+Influenced by
+
+
+
+
+
+C[4]
+Lisp[4]
+Lua[12]
+Mathematica[4] (strictly its Wolfram Language[4][13])
+MATLAB[4]
+Perl[12]
+Python[12]
+R[4]
+Ruby[12]
+Scheme[14]
+
+
+
+
+
+Julia is a high-level dynamic programming language designed to address the needs of high-performance numerical analysis and computational science, without the typical need of separate compilation to be fast, while also being effective for general-purpose programming,[15][16][17][18] web use[19][20] or as a specification language.[21]
+Distinctive aspects of Julia's design include a type system with parametric polymorphism and types in a fully dynamic programming language and multiple dispatch as its core programming paradigm. It allows concurrent, parallel and distributed computing, and direct calling of C and Fortran libraries without glue code.
+Julia is garbage-collected,[22] uses eager evaluation and includes efficient libraries for floating-point calculations, linear algebra, random number generation, fast Fourier transforms (using FFTW but only in current release versions; one of the library dependencies moved out of the standard library to a package[23] (since it's GPL licensed), and thus will not included in Julia 1.0 by default) and regular expression matching.
+
+
+
+Contents
+
+
+1 History
+2 Language features
+3 Interaction
+
+3.1 Use with other languages
+
+
+4 Implementation
+
+4.1 Current and future platforms
+4.2 Julia2C source-to-source compiler
+
+
+5 Julia Computing company
+6 See also
+7 Notes
+8 References
+9 External links
+
+
+
+History[edit]
+Work on Julia was started in 2009 by Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and Alan Edelman who set out to create a language that was both high-level and fast. On Valentine's Day 2012 the team launched[24] a website with a blog post explaining the language's mission. Since then, the Julia community has grown, with over 1,800,000 downloads as of January 2018.[25] It has attracted some high-profile clients, from investment manager BlackRock, which uses it for time-series analytics, to the British insurer Aviva, which uses it for risk calculations. In 2015, the Federal Reserve Bank of New York used Julia to make models of the US economy, noting that the language made model estimation "about 10 times faster" than before (previously used MATLAB). Julia's co-founders established Julia Computing in 2015 to provide paid support, training, and consulting services to clients, though Julia itself remains free to use. At the 2017 JuliaCon[26] conference, Jeff Reiger, Keno Fischer and others announced[27] that the Celeste project[28] used Julia to achieve "peak performance of 1.54 petaflop using 1.3 million threads"[29] on 9300 Knights Landing (KNL) nodes of the Cori supercomputer (the 5th fastest in the world at the time; 8th fastest as of November 2017). Julia thus joins C, C++, and Fortran as high-level languages in which petaflop computations have been written.
+A yearly academic conference on Julia, since 2014, is JuliaCon.
+Language features[edit]
+According to the official website, the main features of the language are:
+
+Multiple dispatch: providing ability to define function behavior across many combinations of argument types
+Dynamic type system: types for documentation, optimization, and dispatch
+Good performance, approaching that of statically-typed languages like C
+A built-in package manager
+Lisp-like macros and other metaprogramming facilities
+Call Python functions: use the PyCall package[a]
+Call C functions directly: no wrappers or special APIs
+Powerful shell-like abilities to manage other processes
+Designed for parallel and distributed computing
+Coroutines: lightweight green threading
+User-defined types are as fast and compact as built-ins
+Automatic generation of efficient, specialized code for different argument types
+Elegant and extensible conversions and promotions for numeric and other types
+Efficient support for Unicode, including but not limited to UTF-8
+
+Multiple dispatch (also termed multimethods in Lisp) is a generalization of single dispatch –  the polymorphic mechanism used in common object-oriented programming (OOP) languages –  that uses inheritance. In Julia, all concrete types are subtypes of abstract types, directly or indirectly subtypes of the Any type, which is the top of the type hierarchy. Concrete types can not be subtyped, but composition is used over inheritance, that is used by traditional object-oriented languages (see also inheritance vs subtyping).
+Julia draws significant inspiration from various dialects of Lisp, including Scheme and Common Lisp, and it shares many features with Dylan, also a multiple-dispatch-oriented dynamic language (which features an ALGOL-like free-form infix syntax rather than a Lisp-like prefix syntax, while in Julia "everything"[34] is an expression), and with Fortress, another numerical programming language (which features multiple dispatch and a sophisticated parametric type system). While Common Lisp Object System (CLOS) adds multiple dispatch to Common Lisp, not all functions are generic functions.
+In Julia, Dylan and Fortress extensibility is the default, and the system's built-in functions are all generic and extensible. In Dylan, multiple dispatch is as fundamental as it is in Julia: all user-defined functions and even basic built-in operations like + are generic. Dylan's type system, however, does not fully support parametric types, which are more typical of the ML lineage of languages. By default, CLOS does not allow for dispatch on Common Lisp's parametric types; such extended dispatch semantics can only be added as an extension through the CLOS Metaobject Protocol. By convergent design, Fortress also features multiple dispatch on parametric types; unlike Julia, however, Fortress is statically rather than dynamically typed, with separate compiling and executing phases. The language features are summarized in the following table:
+
+
+Language
+Type system
+Generic functions
+Parametric types
+
+
+Julia
+Dynamic
+Default
+Yes
+
+
+Common Lisp
+Dynamic
+Opt-in
+Yes (but no dispatch)
+
+
+Dylan
+Dynamic
+Default
+Partial (no dispatch)
+
+
+Fortress
+Static
+Default
+Yes
+
+
+By default, the Julia runtime must be pre-installed as user-provided source code is run, while another way is possible, where a standalone executable can be made that needs no Julia source code built with BuildExecutable.jl.[35][36]
+Julia's syntactic macros (used for metaprogramming), like Lisp macros, are more powerful and different from text-substitution macros used in the preprocessor of some other languages such as C, because they work at the level of abstract syntax trees (ASTs). Julia's macro system is hygienic, but also supports deliberate capture when desired (like for anaphoric macros) using the esc construct.
+Interaction[edit]
+The Julia official distribution includes an interactive session shell, called Julia's read–eval–print loop (REPL), which can be used to experiment and test code quickly.[37] The following fragment represents a sample session example where strings are concatenated automatically by println:[38]
+
+
+julia> p(x) = 2x^2 + 1; f(x, y) = 1 + 2p(x)y
+julia> println("Hello world!", " I'm on cloud ", f(0, 4), " as Julia supports recognizable syntax!")
+Hello world! I'm on cloud 9 as Julia supports recognizable syntax!
+
+The REPL gives user access to the system shell and to help mode, by pressing ; or ? after the prompt (preceding each command), respectively. It also keeps the history of commands, including between sessions.[39] Code that can be tested inside the Julia's interactive section or saved into a file with a .jl extension and run from the command line by typing:[34]
+
+
+ $ julia <filename>
+
+Julia is supported by Jupyter, an online interactive "notebooks" environment.[40]
+Use with other languages[edit]
+Julia's ccall keyword is used to call C-exported or Fortran shared library functions individually.
+Julia has Unicode 10 support,[41] with UTF-8 used for strings (by default) and for Julia source code, meaning allowing as an option common math symbols for many operators, such as ∈ for the in operator.
+Julia has packages supporting markup languages such as HTML, (and also for HTTP), XML, JSON and BSON; and for database and web use in general.
+Implementation[edit]
+Julia's core is implemented in Julia, C (and the LLVM dependency is in C++), assembly and its parser in Scheme ("FemtoLisp"). The LLVM compiler infrastructure project is used as the back end for generation of 64-bit or 32-bit optimized machine code depending on the platform Julia runs on. With some exceptions (e.g., PCRE), the standard library is implemented in Julia itself. The most notable aspect of Julia's implementation is its speed, which is often within a factor of two relative to fully optimized C code (and thus often an order of magnitude faster than Python or R),[42] although these benchmark claims are often disputed.[43][44] Development of Julia began in 2009 and an open-source version was publicized in February 2012.[4][45]
+Julia 0.6 "is now considered the stable line of releases and is recommended for most users, as it provides both language and API stability"[46] and is on a monthly release schedule where bugs are fixed and some new features from 0.7-DEV are backported. In contrast the 0.5 release line (and older) is not is actively worked on; it only gets backported with bug fixes on an irregular schedule and older lines are no longer maintained.
+Current and future platforms[edit]
+While Julia uses JIT[47] (MCJIT[48] from LLVM) –  it still means Julia generates native machine code, directly, before a function is first run (not a bytecode that is run on a virtual machine (VM) or translated as the bytecode is running, as with e.g., Java; the JVM or Dalvik in Android).
+Current support is for 32- and 64-bit x86 processors (all except for ancient pre-Pentium 4-era, to optimized for newer), while Julia also supports more, e.g. "fully supports ARMv8 (AArch64) processors, and supports ARMv7 and ARMv6 (AArch32) with some caveats."[49] Other platforms (other than those mainstream CPUs; or non-mainstream operating systems), have "Community" support, or "External" support (meaning in a package), e.g. for GPUs.
+At least some platforms may need to be compiled from source code (e.g. the original Raspberry Pi), with options changed, while the download page has otherwise executables (and the source) available. Julia has been "successfully built" on several ARM platforms, up to e.g. "ARMv8 Data Center & Cloud Processors", such as Cavium ThunderX (first ARM with 48 cores). ARM v7 (32-bit) and ARM v8 (64-bit) has "Official" support and binaries (first to get after x86), while PowerPC (64-bit) has "Community" support and PTX (64-bit) (meaning Nvidia's CUDA on GPUs) has "External" support.
+Julia is now supported in Raspbian[50] while support is better for newer (e.g.) ARMv7 Pis; the Julia support is promoted by the Raspberry Pi Foundation.[51] Support for GNU Hurd is being worked on (in JuliaLang's openlibm dependency project).[52]
+Julia2C source-to-source compiler[edit]
+A Julia2C source-to-source compiler from Intel Labs is available.[53] This source-to-source compiler is a fork of Julia, that emits C code (and makes the full Julia implementation not needed, for that generated C code) instead of native machine code, for functions or whole programs; this makes Julia effectively much more portable, as C is very portable with compilers available for most CPUs. The compiler is also meant to allow analyzing code at a higher level than C.[54]
+Intel's ParallelAccelerator.jl[55] can be thought of as a partial Julia to C++ compiler (and then to machine code transparently), but the objective is parallel speedup (can be "100x over plain Julia", for the older 0.4 version,[56] and could in cases also speed up serial code many fold for that version); not compiling the full Julia language to C++ (C++ is only an implementation detail, later versions might not compile to C++). It doesn't need to compile all of Julia's syntax, as the rest is handled by Julia.
+Julia Computing company[edit]
+Julia Computing, Inc. was founded by Viral B. Shah, Deepak Vinchhi, Alan Edelman, Jeff Bezanson, Stefan Karpinski and Keno Fischer.[57]
+In June 2017 Julia Computing raised $4.6M in seed funding from General Catalyst and Founder Collective.[58]
+See also[edit]
+
+Comparison of numerical analysis software
+
+Notes[edit]
+
+
+^ Calling newer Python 3 also works[30][31] (and PyPy[32]) and calling in the other direction, from Python to Julia, is also supported with pyjulia.[33] Even calling recursively (back and forth) between these languages is possible, without (or with) using Polyglot.jl,[32] that supports additional languages to Python.
+
+
+References[edit]
+
+
+^ "Smoothing data with Julia's @generated functions". 5 November 2015. Retrieved 9 December 2015. Julia's generated functions are closely related to the multistaged programming (MSP) paradigm popularized by Taha and Sheard, which generalizes the compile time/run time stages of program execution by allowing for multiple stages of delayed code execution. 
+^ a b "LICENSE.md". GitHub. 
+^ "Contributors to JuliaLang/julia". GitHub. 
+^ a b c d e f g h "Why We Created Julia". Julia website. February 2012. Retrieved 7 February 2013. 
+^ "Julia Downloads". JuliaLang.org. Retrieved 2017-12-14. 
+^ "v0.6.2". Github.com. 2017-12-13. Retrieved 2017-12-14. 
+^ "v0.5.2". Github.com. 2017-05-08. 
+^ https://github.com/JuliaLang/julia/commit/f4c6c9d4bbbd9587d84494e314f692c15ff1f9c0
+^ a b "Julia". Julia. NumFocus project. Retrieved 9 December 2016. Julia's Base library, largely written in Julia itself, also integrates mature, best-of-breed open source C and Fortran libraries for ... 
+^ "Non-GPL Julia?". Groups.google.com. Retrieved 2017-05-31. 
+^ "Introduce USE_GPL_LIBS Makefile flag to build Julia without GPL libraries". Note that this commit does not remove GPL utilities such as git and busybox that are included in the Julia binary installers on Mac and Windows. It allows building from source with no GPL library dependencies. 
+^ a b c d "Introduction". The Julia Manual. Read the Docs. Retrieved 6 December 2016. 
+^ "Programming Language Network". GitHub. Retrieved 6 December 2016. 
+^ "JuliaCon 2016". JuliaCon. Retrieved 6 December 2016. He has co-designed the programming language Scheme, which has greatly influenced the design of Julia 
+^ "The Julia Language" (official website). 
+^ Bryant, Avi (15 October 2012). "Matlab, R, and Julia: Languages for data analysis". O'Reilly Strata. 
+^ Krill, Paul (18 April 2012). "New Julia language seeks to be the C for scientists". InfoWorld. 
+^ Finley, Klint (3 February 2014). "Out in the Open: Man Creates One Programming Language to Rule Them All". Wired. 
+^ "Escher : With Escher you can build beautiful Web Uls entirely in Julia". Shasi.github.io. Retrieved 2017-05-31. 
+^ "Getting Started with Node Julia · Node Julia". Node-julia.readme.io. Retrieved 2017-05-31. 
+^ Moss, Robert (26 June 2015). "Using Julia as a Specification Language for the Next-Generation Airborne Collision Avoidance System". Archived from the original on 1 July 2015. Retrieved 29 June 2015. Airborne collision avoidance system 
+^ "Suspending Garbage Collection for Performance...good idea or bad idea?". Groups.google.com. Retrieved 2017-05-31. 
+^ "Remove the FFTW bindings from Base by ararslan · Pull Request #21956 · JuliaLang/julia". GitHub. Retrieved 2018-03-01. 
+^ Jeff Bezanson, Stefan Karpinski, Viral Shah, Alan Edelman. "Why We Created Julia". JuliaLang.org. Retrieved 5 June 2017. CS1 maint: Multiple names: authors list (link)
+^ "Newsletter Jan 2018 – Julia Computing". juliacomputing.com. Retrieved 2018-01-29. 
+^ "JuliaCon 2017". juliacon.org. Retrieved 2017-06-04. 
+^ Fisher, Keno. "The Celeste Project". juliacon.org. Retrieved 24 June 2017. 
+^ Regier, Jeffrey; Pamnany, Kiran; Giordano, Ryan; Thomas, Rollin; Schlegel, David; McAulife, Jon; Prabat. "Learning an Astronomical Catalog of the Visible Universe through Scalable Bayesian Inference". arxiv.org. Retrieved 24 June 2017. 
+^ Claster, Andrew (12 September 2017). "Julia Joins Petaflop Club". Julia Computing (Press release). Celeste is written entirely in Julia, and the Celeste team loaded an aggregate of 178 terabytes of image data to produce the most accurate catalog of 188 million astronomical objects in just 14.6 minutes [..] a performance improvement of 1,000x in single-threaded execution. 
+^ "PyCall.jl". stevengj. github.com. 
+^ "Using PyCall in julia on Ubuntu with python3". julia-users at Google Groups. to import modules (e.g. python3-numpy) 
+^ a b "Polyglot.jl". wavexx. github.com. 
+^ "python interface to julia". 
+^ a b "Learn Julia in Y Minutes". Learnxinyminutes.com. Retrieved 2017-05-31. 
+^ "Build a standalone executables from a Julia script". 
+^ ".jl to .exe". Groups.google.com. Retrieved 2017-05-31. 
+^ Getting Started
+^ See also: http://julia.readthedocs.org/en/stable/manual/strings/ for string interpolation and the string(greet, ", ", whom, ".\n") example for preferred ways to concatenate strings. Julia has the println and print functions, but also a @printf macro (i.e. not in function form) to eliminate run-time overhead of formatting (unlike the same function in C).
+^ "Julia Documentation". JuliaLang.org. Retrieved 18 November 2014. 
+^ "Project Jupyther". 
+^ "News about PCRE2 releases". Version 10.30 14-August-2017 [..] 10. The Unicode tables are upgraded from Unicode 8.0.0 to Unicode 10.0.0. 
+^ "Julia: A Fast Dynamic Language for Technical Computing" (PDF). 2012. 
+^ "How To Make Python Run As Fast As Julia". 2015. 
+^ "Basic Comparison of Python, Julia, R, Matlab and IDL". 2015. 
+^ Gibbs, Mark (9 January 2013). "Pure and Julia are cool languages worth checking out". Network World (column). Retrieved 7 February 2013. 
+^ https://julialang.org/blog/2017/06/julia-0.6-release
+^ "Support MCJIT". Github.com. Retrieved 26 May 2015. 
+^ "Using MCJIT with the Kaleidoscope Tutorial". 22 July 2013. Retrieved 26 May 2015. The older implementation (llvm::JIT) is a sort of ad hoc implementation that brings together various pieces of the LLVM code generation and adds its own glue to get dynamically generated code into memory one function at a time. The newer implementation (llvm::MCJIT) is heavily based on the core MC library and emits complete object files into memory then prepares them for execution. 
+^ julia: The Julia Language: A fresh approach to technical computing, The Julia Language, 2018-02-01, retrieved 2018-02-01, A list of known issues for ARM is available. 
+^ "Julia available in Raspbian on the Raspberry Pi". Julia works on all the Pi variants, we recommend using the Pi 3. 
+^ "Julia language for Raspberry Pi". Raspberry Pi Foundation. 
+^ "Fix building tests on GNU/kFreeBSD and GNU/Hurd by ginggs · Pull Request #129 · JuliaLang/openlibm". Github.com. Retrieved 2017-05-31. 
+^ "julia/j2c at j2c · IntelLabs/julia". Github.com. Retrieved 2017-05-31. 
+^ "Julia2C initial release". By translating Julia to C, we leverage the high-level abstractions (matrix, vector, ..), which are easier to analyze, and can potentially add the rich extensions of C (like openmp, tbb, ...).
+
+The tool may also extend Julia to new architectures where the only available tool chain is for C
+[..]
+Translation from C to Julia might be harder. 
+^ "The ParallelAccelerator package, part of the High Performance Scripting project at Intel Labs". Intel Labs. 
+^ Lindsey Kuper (2016-03-01). "An introduction to ParallelAccelerator.jl". JuliaLang.org. Retrieved 2017-05-31. 
+^ "About Us – Julia Computing". juliacomputing.com. Retrieved 2017-09-12. 
+^ https://juliacomputing.com/press/2017/06/19/funding.html
+
+
+External links[edit]
+
+
+
+Wikibooks has a book on the topic of: Introducing Julia
+
+
+
+Official website
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Programming languages
+
+
+
+
+
+
+Comparison
+Timeline
+History
+
+
+
+
+
+
+
+
+APL
+Assembly
+BASIC
+C
+C++
+C#
+COBOL
+Fortran
+Go
+Groovy
+Haskell
+Java
+JavaScript (JS)
+Lisp
+Lua
+Objective-C
+Pascal
+Perl
+PHP
+Python
+Ruby
+Shell
+Smalltalk
+Swift
+Visual Basic .NET (VB.NET)
+more...
+
+
+
+
+
+
+
+
+ Category
+ Lists
+
+Alphabetical
+Categorical
+Generational
+Non-English-based
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Free and open-source software
+
+
+
+General
+
+
+
+Alternative terms for free software
+Comparison of open-source and closed-source software
+Comparison of source code hosting facilities
+Free software
+Free software project directories
+Gratis versus libre
+Long-term support
+Open-source software
+Open-source software development
+Outline
+
+
+
+
+
+Software
+packages
+
+
+
+Audio
+Bioinformatics
+Codecs
+Collaboration
+Configuration management
+Device drivers
+
+Graphics
+Wireless
+
+
+Geophysics
+Health
+Mathematics
+Operating systems
+Programming languages
+Routing
+Statistics
+Television
+Video games
+Web applications
+
+Content management systems
+E-commerce
+
+
+Word processors
+Android apps
+iOS apps
+Commercial
+Trademarked
+Formerly proprietary
+
+
+
+
+
+Community
+
+
+
+Free software movement
+History
+Open-source software movement
+Organizations
+Events
+
+
+
+
+
+Licenses
+
+
+
+AFL
+Apache
+APSL
+Artistic
+Beerware
+Boost
+BSD
+CC0
+CDDL
+EPL
+Free Software Foundation
+
+GNU GPL
+GNU LGPL
+
+
+ISC
+MIT
+MPL
+Ms-PL/RL
+Python
+Python Software Foundation License
+Sleepycat
+Unlicense
+WTFPL
+zlib
+
+
+
+
+
+License types
+and standards
+
+
+
+Comparison of free and open-source software licenses
+Contributor License Agreement
+Copyleft
+Debian Free Software Guidelines
+Definition of Free Cultural Works
+Free license
+The Free Software Definition
+The Open Source Definition
+Open-source license
+Permissive software licence
+Public domain
+Viral license
+
+
+
+
+
+Challenges
+
+
+
+Binary blob
+Digital rights management
+Hardware restrictions
+License proliferation
+Mozilla software rebranding
+Proprietary software
+SCO/Linux controversies
+Secure boot
+Software patents
+Software security
+Trusted Computing
+
+
+
+
+
+Related topics
+
+
+
+The Cathedral and the Bazaar
+Forking
+Microsoft Open Specification Promise
+Open-source hardware
+Revolution OS
+
+
+
+
+
+
+
+
+ Book
+ Category
+ Commons
+ Portal
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Numerical analysis software
+
+
+
+Free
+
+
+
+Advanced Simulation Library
+ADMB
+Chapel
+Euler
+FeatFlow
+FEATool
+Fortress
+FreeFem++
+FreeMat
+Genius
+Gmsh
+GNU Octave
+gretl
+Julia
+Maxima
+OpenFOAM
+R
+SageMath
+Salome
+ScicosLab
+Scilab
+X10
+Weka
+
+
+
+
+
+Proprietary
+
+
+
+DADiSP
+GAUSS
+LabVIEW
+Maple
+Mathcad
+Mathematica
+MATLAB
+Speakeasy
+VisSim
+
+
+
+
+
+
+
+
+List of numerical analysis software
+Comparison of numerical analysis software
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Mathematical optimization software
+
+
+
+Data formats
+
+
+
+LP
+MPS
+nl
+OptML
+OSiL
+sol
+xMPS
+
+
+
+
+
+Modeling tools
+
+
+
+AIMMS
+AMPL
+APMonitor
+CMPL
+CVX
+CVXOPT
+CVXPY
+ECLiPSe-CLP
+GAMS
+GNU MathProg
+JuMP
+LINDO
+OPL
+MPL
+OptimJ
+PICOS
+PuLP
+Pyomo
+ROML
+TOMLAB
+Xpress-Mosel
+YALMIP
+ZIMPL
+
+
+
+
+
+LP, MILP∗ solvers
+
+
+
+ABACUS∗
+APOPT∗
+Artelys Knitro∗
+BCP∗
+BDMLP
+BPMPD
+BPOPT
+CLP
+CBC∗
+CPLEX∗
+CSDP
+DSDP
+FortMP∗
+GCG∗
+GIPALS32
+GLPK/GLPSOL∗
+Gurobi∗
+HOPDM
+LINDO∗
+Lp_solve
+LOQO
+MINOS
+MINTO∗
+MOSEK∗
+OOPS
+OOQP
+PCx
+QSopt
+SAS/OR∗
+SCIP∗
+SoPlex
+SOPT-IP∗
+Sulum Optimization Tools∗
+SYMPHONY∗
+XA∗
+Xpress-Optimizer∗
+
+
+
+
+
+QP, MIQP∗ solvers
+
+
+
+APOPT∗
+Artelys Knitro∗
+BPMPD
+BPOPT
+BQPD
+CBC∗
+CLP
+CPLEX∗
+FortMP∗
+GloMIQO∗
+Gurobi∗
+IPOPT
+LINDO∗
+LSSOL
+LOQO
+MINOS
+MOSEK∗
+OOPS
+OOQP
+OSQP
+QPOPT
+QPSOL
+SCIP∗
+XA Quadratic Solver
+Xpress-Optimizer∗
+
+
+
+
+
+QCP, MIQCP∗ solvers
+
+
+
+APOPT∗
+Artelys Knitro∗
+BPMPD
+BPOPT
+CPLEX∗
+GloMIQO∗
+Gurobi∗
+IPOPT
+LINDO∗
+LOQO
+MINOS
+MOSEK∗
+SCIP∗
+Xpress-Optimizer∗
+Xpress-SLP∗
+
+
+
+
+
+SOCP, MISOCP∗ solvers
+
+
+
+CPLEX∗
+DSDP
+Gurobi∗
+LINDO∗
+LOQO
+MOSEK∗
+SCIP∗
+SDPT3
+SeDuMi
+Xpress-Optimizer∗
+
+
+
+
+
+SDP, MISDP∗ solvers
+
+
+
+CSDP
+DSDP
+MOSEK
+PENBMI
+PENSDP
+SCIP-SDP∗
+SDPA
+SDPT3
+SeDuMi
+
+
+
+
+
+NLP, MINLP∗ solvers
+
+
+
+ALGENCAN
+AlphaECP∗
+ANTIGONE∗
+AOA∗
+APOPT∗
+Artelys Knitro∗
+BARON∗
+Bonmin∗
+BPOPT
+CONOPT
+Couenne∗
+DICOPT∗
+FilMINT∗
+FilterSQP
+Galahad library
+ipfilter
+IPOPT
+LANCELOT
+LINDO∗
+LOQO
+LRAMBO
+MIDACO∗
+MILANO∗
+MINLP BB∗
+MINOS
+Minotaur∗
+MISQP∗
+NLPQLP
+NPSOL
+OQNLP∗
+PATHNLP
+PENNON
+SBB∗
+SCIP∗
+SNOPT∗
+SQPlab
+WORHP
+Xpress-SLP∗
+
+
+
+
+
+GO solvers
+
+
+
+BARON
+Couenne∗
+LINDO
+SCIP
+
+
+
+
+
+CP solvers
+
+
+
+Artelys Kalis
+Choco
+Comet
+CPLEX CP Optimizer
+Gecode
+Google CP Solver
+JaCoP
+OscaR
+
+
+
+
+
+Metaheuristic solvers
+
+
+
+OptaPlanner
+LocalSolver
+
+
+
+
+
+
+
+
+List of optimization software
+Comparison of optimization software
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Statistical software
+
+
+
+Public domain
+
+
+
+Dataplot
+Epi Info
+CSPro
+X-12-ARIMA
+
+
+
+
+
+Open-source
+
+
+
+ADMB
+DAP
+gretl
+JASP
+JAGS
+JMulTi
+Julia
+GNU Octave
+H2O
+OpenBUGS
+Orange
+PSPP
+R (RStudio)
+SageMath
+SimFiT
+SOFA Statistics
+Stan
+XLispStat
+
+
+
+
+
+Freeware
+
+
+
+BV4.1
+CumFreq
+SegReg
+XploRe
+WinBUGS
+
+
+
+
+
+Commercial
+
+
+
+
+Cross-platform
+
+
+
+Data Desk
+GAUSS
+GraphPad InStat
+GraphPad Prism
+IBM SPSS Statistics
+IBM SPSS Modeler
+JMP
+Maple
+Mathcad
+Mathematica
+MATLAB
+OxMetrics
+RATS
+Revolution Analytics
+SAS
+SmartPLS
+Stata
+StatView
+SUDAAN
+S-PLUS
+TSP
+World Programming System (WPS)
+
+
+
+
+
+Windows only
+
+
+
+BMDP
+EViews
+GenStat
+LIMDEP
+LISREL
+MedCalc
+Microfit
+Minitab
+MLwiN
+NCSS
+SHAZAM
+SigmaStat
+Statistica
+StatsDirect
+StatXact
+SYSTAT
+The Unscrambler
+UNISTAT
+
+
+
+
+
+Excel add-ons
+
+
+
+Analyse-it
+SPC XL
+SigmaXL
+UNISTAT for Excel
+XLfit
+RExcel
+
+
+
+
+
+
+
+
+
+
+
+Category
+Comparison
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Julia_(programming_language)&oldid=831438361"					
+				Categories: 2012 softwareArray programming languagesComputational notebookData mining and machine learning softwareData-centric programming languagesDynamically typed programming languagesFree data analysis softwareFree data visualization softwareFree software projectsFree software programmed in CFree statistical softwareFunctional languagesHigh-level programming languagesNumerical analysis software for LinuxNumerical analysis software for MacOSNumerical analysis software for WindowsNumerical linear algebraNumerical programming languagesObject-oriented programming languagesParallel computingProgramming languages created in 2012Software using the MIT licenseStatistical programming languagesHidden categories: CS1 maint: Multiple names: authors listUse dmy dates from October 2015Official website different in Wikidata and Wikipedia				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia Commons				
+							
+		
+			
+			Languages
+			
+								
+					العربيةCatalàČeštinaDeutschEspañolفارسیFrançaisGalego한국어Italiano日本語PortuguêsРусскийСрпски / srpskiதமிழ்Türkçe中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 20 March 2018, at 16:23.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.616","walltime":"0.717","ppvisitednodes":{"value":3726,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":181857,"limit":2097152},"templateargumentsize":{"value":6722,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":57780,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  591.729      1 -total"," 54.74%  323.939      2 Template:Reflist"," 34.75%  205.630     47 Template:Cite_web"," 29.23%  172.985      2 Template:Infobox"," 24.18%  143.055      1 Template:Infobox_programming_language","  9.37%   55.472      2 Template:Official_website","  6.75%   39.971      1 Template:Infobox_software/simple","  6.17%   36.530      6 Template:Navbox","  4.94%   29.259      3 Template:Start_date_and_age","  4.05%   23.956      1 Template:Use_dmy_dates"]},"scribunto":{"limitreport-timeusage":{"value":"0.307","limit":"10.000"},"limitreport-memusage":{"value":5598815,"limit":52428800}},"cachereport":{"origin":"mw1254","timestamp":"20180402011314","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":88,"wgHostname":"mw1265"});});
+	
+

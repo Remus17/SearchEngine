@@ -1,0 +1,770 @@
+
+
+
+
+Source-to-source compiler - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Source-to-source_compiler","wgTitle":"Source-to-source compiler","wgCurRevisionId":832829125,"wgRevisionId":832829125,"wgArticleId":4270426,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking reliable references from October 2015","All articles lacking reliable references","Articles with self-published sources from October 2015","All articles with self-published sources","Articles with multiple maintenance issues","Pages using div col with deprecated parameters","Source-to-source compilers","Utility software types"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Source-to-source_compiler","wgRelevantArticleId":4270426,"wgRequestId":"WsE15wpAADoAABVPfDMAAAAN","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Transcompiler","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Source-to-source_compiler","wgWikibaseItemId":"Q2990416","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Source-to-source compiler			
+				From Wikipedia, the free encyclopedia				  (Redirected from Transcompiler)
+								
+					Jump to:					navigation, 					search
+				
+				Not to be confused with cross compiler.
+
+
+
+
+
+
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+
+
+
+
+
+
+
+This article relies too much on references to primary sources. Please improve this by adding secondary or tertiary sources. (October 2015) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+
+
+This article may contain improper references to self-published sources. Please help improve it by removing references to unreliable sources, where they are used inappropriately. (October 2015) (Learn how and when to remove this template message)
+
+
+
+
+
+(Learn how and when to remove this template message)
+
+
+
+
+
+Program execution
+
+
+General concepts
+
+
+
+
+Code
+Translation
+
+Compiler
+Optimizing compiler
+
+
+Intermediate representation (IR)
+Execution
+
+Runtime system
+Executable
+Interpreter
+Virtual machine
+
+
+
+
+
+
+Types of code
+
+
+
+
+Source code
+Object code
+Bytecode
+Machine code
+Microcode
+
+
+
+
+Compilation strategies
+
+
+
+
+Just-in-time (JIT)
+
+Tracing just-in-time
+
+
+Ahead-of-time (AOT)
+Transcompilation
+Recompilation
+
+
+
+
+Notable runtimes
+
+
+
+
+Android Runtime (ART)
+Common Language Runtime (CLR)
+crt0
+Java virtual machine (JVM)
+Node.js
+Zend Engine
+
+
+
+
+Notable compilers & toolchains
+
+
+
+
+GNU Compiler Collection (GCC)
+LLVM
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+
+
+Data transformation
+
+
+Concepts
+
+
+
+
+Metadata
+Data element
+Data mapping
+Data migration
+Data transformation
+Model transformation
+Macro
+Preprocessor
+
+
+
+
+Transformation languages
+
+
+
+
+ATL
+AWK
+MOFM2T
+QVT
+XML languages
+
+
+
+
+Techniques and transforms
+
+
+
+
+Identity transform
+Data refinement
+
+
+
+
+Applications
+
+
+
+
+Data migration
+Data conversion
+Extract, transform, load (ETL)
+Web template system
+
+
+
+
+Related
+
+
+
+
+Data conversion
+Data wrangling
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+A source-to-source compiler, transcompiler or transpiler is a type of compiler that takes the source code of a program written in one programming language as its input and produces the equivalent source code in another programming language. A source-to-source compiler translates between programming languages that operate at approximately the same level of abstraction, while a traditional compiler translates from a higher level programming language to a lower level programming language. For example, a source-to-source compiler may perform a translation of a program from Pascal to C. An automatic parallelizing compiler will frequently take in a high level language program as an input and then transform the code and annotate it with parallel code annotations (e.g., OpenMP) or language constructs (e.g. Fortran's forall statements).[1]
+Another purpose of source-to-source-compiling is translating legacy code to use the next version of the underlying programming language or an API that breaks backward compatibility. It will perform automatic code refactoring which is useful when the programs to refactor are outside the control of the original implementer (for example, converting programs from Python 2 to Python 3, or converting programs from an old API to the new API) or when the size of the program makes it impractical or time consuming to refactor it by hand.
+Transcompilers may either keep translated code as close to the source code as possible to ease development and debugging of the original source code, or may change the structure of the original code so much that the translated code does not look like the source code.[2] There are also debugging utilities that map the transpiled source code back to the original code; for example, the JavaScript Source Map[3] standard allows mapping of the JavaScript code executed by a web browser back to the original source in a transpiled-to-JavaScript language.[4]
+Examples of transcompiled languages include Closure Compiler, Coccinelle, CoffeeScript, Dart, Haxe, TypeScript[5] and Emscripten.[6]
+
+
+
+Contents
+
+
+1 History
+2 Programming language implementations
+3 Porting a codebase
+4 Transcompiler pipelines
+5 See also
+6 References
+
+
+
+History[edit]
+One of the earliest programs of this kind was Digital Research's XLT86 in 1981, a program written by Gary Kildall, which translated .ASM source code for the Intel 8080 processor into .A86 source code for the Intel 8086. Using global data flow analysis on 8080 register usage, the translator would also optimize the output for code size and take care of calling conventions, so that CP/M-80 and MP/M-80 programs could be ported to the CP/M-86 and MP/M-86 platforms automatically. XLT86 itself was written in PL/I-80 and was available for CP/M-80 platforms as well as for DEC VMS (for VAX 11/750 or 11/780).[7]
+A similar, but much less sophisticated program was TRANS.COM, written by Tim Paterson in 1980 as part of 86-DOS. It could translate some Z80 assembly source code into .ASM source code for the 8086, but supported only a subset of opcodes, registers and modes, often still requiring significant manual correction and rework afterwards. Also it did not carry out any register and jump optimizations.[8][9]
+Programming language implementations[edit]
+The first implementations of some programming languages started as transcompilers, and the default implementation for some of those languages are still transcompilers. In addition to the table below, a CoffeeScript maintainer provides a list of languages that compile to JavaScript.[10]
+
+
+Source language
+Target language
+Comment
+
+
+BASIC
+C
+Transcompiled using BaCon[11]
+
+
+BCX
+C
+
+
+
+BASIC
+Object Pascal
+Transcompiled using SHBASIC using his own BASIC dialect[12]
+
+
+C
+JavaScript
+Emscripten
+
+
+C
+Go
+c2go
+
+
+C++
+(originally known as "C with classes")
+C
+The cfront transcompiler was doing the conversion
+
+
+Chapel
+C
+
+
+
+ClojureScript
+JavaScript
+
+
+
+COBOL
+C
+Transcompiled using OpenCOBOL
+
+
+COBOL
+Java
+Transcompiled using P3COBOL
+
+
+CoffeeScript
+JavaScript
+
+
+
+C#
+JavaScript
+Transcompiled using ScriptSharp[13]
+
+
+Cython
+C
+The resulting code is intended to be compiled to a module for the Python interpreter CPython
+
+
+Dart
+JavaScript
+
+
+
+Delphi Web Script / Object Pascal
+JavaScript
+Transcompiled using Smart Mobile Studio[14]
+
+
+ECMAScript 6
+JavaScript
+Transcompiled using Babel[15] or traceur-compiler[16]
+
+
+Eiffel
+C
+
+
+
+Go
+JavaScript
+GopherJS
+
+
+Groovy
+JavaScript
+grooscript
+
+
+Haskell
+JavaScript
+Transcompiled using GHCJS
+
+
+Haxe
+JavaScript, PHP, C++, C#, Python, Java, Lua, and ActionScript
+
+
+Java
+Objective-C
+J2ObjC[17]
+
+
+Java
+JavaScript
+grooscript, GWT, JSweet, ST-JS
+
+
+Java
+TypeScript
+JSweet
+
+
+Java
+C
+java2c-transcompiler[18]
+
+
+JavaScript and/or QML
+C++
+QtQuickCompiler
+
+
+Julia
+C
+Julia generates native code and works well without C (or with), but a modified implementation of the Julia's implementation can compile individual functions or whole programs to C.[19][20]
+
+
+LESS
+CSS
+
+
+
+Lisaac
+C
+
+
+
+Mirah
+Java
+
+
+
+MoonScript[21]
+Lua
+
+
+
+Nim
+C, C++, Objective-C, JavaScript
+
+
+
+OCaml bytecode
+JavaScript
+Transcompiled using js_of_ocaml from the Ocsigen project
+
+
+PHP
+C++
+Transcompiled using HipHop for PHP
+
+
+Python
+JavaScript
+Brython, PyPyJs, Rapydscript, Skulpt, Transcrypt
+
+
+Python
+C++
+Transcompiled using Nuitka and ShedSkin[22]
+
+
+Python
+Go
+Grumpy
+
+
+Ratfor
+Fortran
+
+
+
+Ruby
+JavaScript
+Opal
+
+
+Sass[23]
+CSS
+
+
+
+Scheme
+C
+Stalin compiler, Chicken Scheme
+
+
+TypeScript
+JavaScript
+
+
+
+Vala
+C, with additional libraries such as GObject
+
+
+
+X10
+C++ and Java
+
+
+
+Xtend[24]
+Java
+
+
+
+Porting a codebase[edit]
+When developers want to switch to a different language while retaining most of an existing codebase, it might be better to use a transcompiler compared to rewriting the whole software by hand. Depending on the quality of the transcompiler, the code may or may not need manual intervention in order to work properly. This is different from "transcompiled languages" where the specifications demand that the output source code always works without modification. All transpilers used to port a codebase will expect manual adjustment of the output source code if there is a need to achieve maximum code quality in terms of readability and platform convention.
+
+
+Tool
+Source language
+Target language
+Comments
+
+
+2to3 script
+Python 2
+Python 3
+Even though 2to3 does its best at automating the translation process, further manual corrections are often needed.
+
+
+Emscripten
+LLVM bytecode
+JavaScript
+This allows running C/C++ codebases in a browser for example
+
+
+c2go[25]
+C
+Go
+Before the 1.5 release, the Go compiler was written in C. An automatic translator was developed to automatically convert the compiler codebase from C into Go.[26][27] Since Go 1.5, the "compiler and runtime are now implemented in Go and assembler, without C".
+
+
+Google Web Toolkit
+Java program that uses a specific API
+JavaScript
+The Java code is a little bit constrained compared to normal Java code.
+
+
+Js_of_ocaml[28] of Ocsigen
+OCaml
+JavaScript
+
+
+J2Eif[29]
+Java
+Eiffel
+The resulting Eiffel code has classes and structures similar to the Java program but following Eiffel syntax and conventions.
+
+
+C2Eif[30]
+C
+Eiffel
+The resulting Eiffel code has classes and structures that try to be as clean as possible. The tool is complete and relies on embedding the C and assembly code if it cannot translate it properly.
+
+
+Swiftify[31]
+Objective-C
+Swift
+Swiftify is an online source to source conversion tool from Objective-C into Swift. It assists developers who are migrating all or part of their iOS codebase into Swift. The conversion is aimed primarily at converting the syntax between Objective-C and Swift, and is helped because Apple took efforts to ensure compatibility between Swift and Objective-C runtimes.
+
+
+Runtime Converter[32]
+PHP
+Java
+The Runtime Converter is an automatic tool which converts php source code into java source code. There is a Java runtime library for certain features of the PHP language, as well as the ability to call into the PHP binary itself using JNI for PHP standard library and extension function calls.
+
+
+Transcompiler pipelines[edit]
+A transcompiler pipeline is what results from recursive transcompiling. By stringing together multiple layers of tech, with a transcompile step between each layer, technology can be repeatedly transformed, effectively creating a distributed language independent specification.
+XSLT is a general purpose transform tool which can be used between many different technologies, to create such a derivative code pipeline.
+See also[edit]
+
+
+Computer programming portal
+
+
+
+
+Preprocessor
+Post processor
+C to HDL
+DMS Software Reengineering Toolkit –  a source-to-source compiler framework using explicit pattern-directed rewrite rules
+Language interoperability
+Binary recompiler
+Code generation (compiler)
+Program transformation
+ROSE compiler framework –  a source-to-source compiler framework
+Compiler-compiler
+Translation (computing)
+Language binding
+Language-independent specification
+Monkey (programming language)
+Intermediate language
+Recursive transcompiling
+XSLT
+f2c –  a source-to-source compiler from Fortran 77 to C
+
+
+References[edit]
+
+
+^ "Types of compilers". compilers.net. 1997–2005. Retrieved 28 October 2010. 
+^ Fowler, Martin (February 12, 2013). "Transparent Compilation". Retrieved February 13, 2013. 
+^ Lenz, Fitzgerald (11 February 2011). "Source Map Revision 3 Proposal". 
+^ Seddon, Ryan (21 March 2012). "Introduction to JavaScript Source Maps". html5rocks.com. Retrieved 21 January 2015. 
+^ Henson, Valerie (January 20, 2009). "Semantic patching with Coccinelle". lwn.net. Retrieved 28 October 2010. 
+^ Epic Games; Mozilla. "HTML5 Epic Citadel". 
+^ Digital Research (1981). XLT86 - 8080 to 8086 Assembly Language Translator - User's Guide (PDF). Pacific Grove, CA, USA: Digital Research Inc. Archived (PDF) from the original on 2016-11-18. Retrieved 2016-11-18. 
+^ Seattle Computer Products (1980): 86-DOS - Disk Operating System for the 8086. User's manual, version 0.3 - Preliminary. Seattle Computer Products, Seattle ([1]).
+^ Paterson, Tim (2013-12-19) [1982]. "Microsoft DOS V1.1 and V2.0: Z80 to 8086 Translator version 2.21 /msdos/v11source/TRANS.ASM". Computer History Museum, Microsoft. Retrieved 2014-03-25.  (NB. While the publishers claim this would be MS-DOS 1.1 and 2.0, it actually is SCP MS-DOS 1.25 and TeleVideo PC DOS 2.11.)
+^ "List of languages that compile to JS". Retrieved 2018-03-11. 
+^ Peter van Eerten. "BaCon - A free BAsic CONverter for Unix, BSD and MacOSX". Basic-converter.org. Retrieved 2014-07-08. 
+^ Iushin Software. "SHBASIC". Iushin Softwares. Retrieved 2018-03-09. 
+^ "Script# by nikhilk". Scriptsharp.com. Retrieved 2013-08-02. 
+^ "Smart Mobile Studio". SmartMobileStudio.com. Retrieved 2014-03-09. 
+^ "Babel · The compiler for writing next generation JavaScript". babeljs.io. Retrieved 2016-04-10. 
+^ "Traceur is a JavaScript.next-to-JavaScript-of-today compiler". github.com. Retrieved 2014-07-02. 
+^ "j2objc - Java to iOS Objective-C translation tool and runtime". j2objc.org. 2014-02-13. Retrieved 2015-08-18. 
+^ "java2c-transcompiler - A simple source-to-source from Java to C - Google Project Hosting". Retrieved 8 October 2014. 
+^ "IntelLabs/julia". GitHub. 
+^ "Google Groups". google.com. 
+^ "MoonScript, a language that compiles to Lua". Retrieved 2016-09-21. 
+^ "Shed Skin, An experimental (restricted-Python)-to-C++ compiler". Retrieved 2014-10-01. 
+^ Maptastic Maple (3.3.9). "Sass: Syntactically Awesome Style Sheets". Sass-lang.com. Retrieved 2014-07-08. 
+^ "Xtend, modernized Java". Eclipse project. Retrieved 2014-10-01. 
+^ "C->Go translator". Retrieved 11 January 2018. 
+^ "Go 1.5 Release Notes". Retrieved 11 January 2018. 
+^ Russ Cox. "Go 1.3+ Compiler Overhaul". Retrieved 11 January 2018. 
+^ "Js_of_ocaml". Retrieved 8 October 2014. 
+^ "J2Eif Research Page - Chair of Software Engineering". Se.inf.ethz.ch. doi:10.1007/978-3-642-21952-8_4. Retrieved 2014-07-08. 
+^ "C2Eif Research Page - Chair of Software Engineering". Se.inf.ethz.ch. Retrieved 2014-07-08. 
+^ "Swiftify Objective-C to Swift Converter". Retrieved 2017-11-14. 
+^ "Runtime Converter". Retrieved 2017-11-14. 
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Source-to-source_compiler&oldid=832829125"					
+				Categories: Source-to-source compilersUtility software typesHidden categories: Articles lacking reliable references from October 2015All articles lacking reliable referencesArticles with self-published sources from October 2015All articles with self-published sourcesArticles with multiple maintenance issuesPages using div col with deprecated parameters				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةČeštinaفارسیFrançais日本語中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 28 March 2018, at 06:36.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.324","walltime":"0.390","ppvisitednodes":{"value":1721,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":72821,"limit":2097152},"templateargumentsize":{"value":6066,"limit":2097152},"expansiondepth":{"value":10,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":29178,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  327.318      1 -total"," 57.01%  186.594      1 Template:Reflist"," 43.82%  143.446     30 Template:Cite_web"," 21.61%   70.749      3 Template:Ambox"," 17.77%   58.155      1 Template:Multiple_issues","  8.72%   28.534      1 Template:Distinguish","  7.15%   23.409      1 Template:Primary_sources","  2.66%    8.701      1 Template:Program_execution","  2.24%    7.328      1 Template:Portal","  1.99%    6.525      1 Template:Cite_book"]},"scribunto":{"limitreport-timeusage":{"value":"0.169","limit":"10.000"},"limitreport-memusage":{"value":5505350,"limit":52428800}},"cachereport":{"origin":"mw1247","timestamp":"20180401100732","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":95,"wgHostname":"mw1263"});});
+	
+

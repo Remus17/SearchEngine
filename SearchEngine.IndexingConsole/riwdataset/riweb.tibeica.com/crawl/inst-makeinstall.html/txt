@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.3.1 Running make install
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.3 Installing
+Up:
+2.3 Installing
+Next:
+2.3.2 Configuring Apache
+
+
+
+
+ 
+
+2.3.1 Running make install
+
+
+
+
+
+This part of the installation needs to be done as root. 
+  
+    $ su
+    # make install
+
+  
+
+
+
+This will simply copy the library into your Apache libexec
+    directory, where all the other modules are.
+
+
+
+Lastly, it will install the Python libraries in site-packages and
+    compile them. 
+
+
+
+ 
+
+
+      NB: If you wish to selectively install just the Python libraries
+  or the DSO (which may not always require superuser
+  privileges), you can use the following make targets:
+  install_py_lib and install_dso
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.3 Installing
+Up:
+2.3 Installing
+Next:
+2.3.2 Configuring Apache
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

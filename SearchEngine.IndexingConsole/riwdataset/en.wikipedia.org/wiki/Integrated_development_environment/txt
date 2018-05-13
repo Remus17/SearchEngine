@@ -1,0 +1,555 @@
+
+
+
+
+Integrated development environment - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Integrated_development_environment","wgTitle":"Integrated development environment","wgCurRevisionId":829035129,"wgRevisionId":829035129,"wgArticleId":15305,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template wayback links","All articles with unsourced statements","Articles with unsourced statements from April 2016","Use dmy dates from January 2012","Integrated development environments"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Integrated_development_environment","wgRelevantArticleId":15305,"wgRequestId":"Wr9vywpAAD0AAGLz3LsAAABT","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q13741","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Integrated development environment			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				For other uses, see IDE.
+
+
+
+
+Anjuta, a C and C++ IDE for the GNOME environment
+
+
+An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools, and a debugger. Most modern IDEs have intelligent code completion. Some IDEs, such as NetBeans and Eclipse, contain a compiler, interpreter, or both; others, such as SharpDevelop and Lazarus, do not. The boundary between an integrated development environment and other parts of the broader software development environment is not well-defined. Sometimes a version control system, or various tools to simplify the construction of a Graphical User Interface (GUI), are integrated. Many modern IDEs also have a class browser, an object browser, and a class hierarchy diagram, for use in object-oriented software development.
+
+
+
+Contents
+
+
+1 Overview
+2 History
+3 Topics
+
+3.1 Visual programming
+3.2 Language support
+3.3 Attitudes across different computing platforms
+
+
+4 See also
+5 References
+
+
+
+Overview[edit]
+Integrated development environments are designed to maximize programmer productivity by providing tight-knit components with similar user interfaces. IDEs present a single program in which all development is done. This program typically provides many features for authoring, modifying, compiling, deploying and debugging software. This contrasts with software development using unrelated tools, such as vi, GCC or make.
+One aim of the IDE is to reduce the configuration necessary to piece together multiple development utilities, instead providing the same set of capabilities as a cohesive unit. Reducing that setup time can increase developer productivity, in cases where learning to use the IDE is faster than manually integrating all of the individual tools. Tighter integration of all development tasks has the potential to improve overall productivity beyond just helping with setup tasks. For example, code can be continuously parsed while it is being edited, providing instant feedback when syntax errors are introduced. That can speed learning a new programming language and its associated libraries.
+Some IDEs are dedicated to a specific programming language, allowing a feature set that most closely matches the programming paradigms of the language. However, there are many multiple-language IDEs.
+While most modern IDEs are graphical, text-based IDEs such as Turbo Pascal were in popular use before the widespread availability of windowing systems like Microsoft Windows and the X Window System (X11). They commonly use function keys or hotkeys to execute frequently used commands or macros.
+History[edit]
+
+
+
+
+GNU Emacs, an extensible editor that is commonly used as an IDE on Unix-like systems
+
+
+IDEs initially became possible when developing via a console or terminal. Early systems could not support one, since programs were prepared using flowcharts, entering programs with punched cards (or paper tape, etc.) before submitting them to a compiler. Dartmouth BASIC was the first language to be created with an IDE (and was also the first to be designed for use while sitting in front of a console or terminal).[citation needed] Its IDE (part of the Dartmouth Time Sharing System) was command-based, and therefore did not look much like the menu-driven, graphical IDEs popular after the advent of the Graphical User Interface. However it integrated editing, file management, compilation, debugging and execution in a manner consistent with a modern IDE.
+Maestro I is a product from Softlab Munich and was the world's first integrated development environment[1] for software. Maestro I was installed for 22,000 programmers worldwide. Until 1989, 6,000 installations existed in the Federal Republic of Germany. Maestro was arguably the world leader in this field during the 1970s and 1980s. Today one of the last Maestro I can be found in the Museum of Information Technology at Arlington.
+One of the first IDEs with a plug-in concept was Softbench. In 1995 Computerwoche commented that the use of an IDE was not well received by developers since it would fence in their creativity.
+As of March 2015, the most popular IDEs are Eclipse and Visual Studio.[2]
+Topics[edit]
+Visual programming[edit]
+Visual programming is a usage scenario in which an IDE is generally required. Visual Basic allows users to create new applications by moving programming, building blocks, or code nodes to create flowcharts or structure diagrams that are then compiled or interpreted. These flowcharts often are based on the Unified Modeling Language.
+This interface has been popularized with the Lego Mindstorms system, and is being actively pursued by a number of companies wishing to capitalize on the power of custom browsers like those found at Mozilla. KTechlab supports flowcode and is a popular opensource IDE and Simulator for developing software for microcontrollers. Visual programming is also responsible for the power of distributed programming (cf. LabVIEW and EICASLAB software). An early visual programming system, Max, was modelled after analog synthesizer design and has been used to develop real-time music performance software since the 1980s. Another early example was Prograph, a dataflow-based system originally developed for the Macintosh. The graphical programming environment "Grape" is used to program qfix robot kits.
+This approach is also used in specialist software such as Openlab, where the end users want the flexibility of a full programming language, without the traditional learning curve associated with one.
+Language support[edit]
+Some IDEs support multiple languages, such as GNU Emacs based on C and Emacs Lisp, and IntelliJ IDEA, Eclipse, MyEclipse or NetBeans, all based on Java, or MonoDevelop, based on C#.
+Support for alternative languages is often provided by plugins, allowing them to be installed on the same IDE at the same time. For example, Flycheck is a modern on-the-fly syntax checking extension for GNU Emacs 24 with support for 39 languages.[3] Eclipse, and Netbeans have plugins for C/C++, Ada, GNAT (for example AdaGIDE), Perl, Python, Ruby, and PHP, which are selected between automatically based on file extension, environment or project settings.
+Attitudes across different computing platforms[edit]
+Unix programmers can combine command-line POSIX tools into a complete development environment, capable of developing large programs such as the Linux kernel and its environment.[4] In this sense, the entire Unix system functions as an IDE.[5] The free software GNU tools (GNU Compiler Collection (GCC), GNU Debugger (gdb), and GNU make) are available on many platforms, including Windows.[6] The pervasive Unix philosophy of "everything is a text stream" enables developers who favor command-line oriented tools to use editors with support for many of the standard Unix and GNU build tools, building an IDE with programs like Emacs[7][8][9] or Vim. Data Display Debugger is intended to be an advanced graphical front-end for many text-based debugger standard tools. Some programmers prefer managing makefiles and their derivatives to the similar code building tools included in a full IDE. For example, most contributors to the PostgreSQL database use make and gdb directly to develop new features.[10] Even when building PostgreSQL for Microsoft Windows using Visual C++, Perl scripts are used as a replacement for make rather than relying on any IDE features.[11] Some Linux IDEs such as Geany attempt to provide a graphical front end to traditional build operations.
+On the various Microsoft Windows platforms, command-line tools for development are seldom used. Accordingly, there are many commercial and non-commercial products. However, each has a different design commonly creating incompatibilities. Most major compiler vendors for Windows still provide free copies of their command-line tools, including Microsoft (Visual C++, Platform SDK, .NET Framework SDK, nmake utility).
+IDEs have always been popular on the Apple Macintosh's classic Mac OS and macOS, dating back to Macintosh Programmer's Workshop, Turbo Pascal, THINK Pascal and THINK C environments of the mid-1980s. Currently macOS programmers can choose between native IDEs like Xcode and open-source tools such as Eclipse and Netbeans. ActiveState Komodo is a proprietary multilanguage IDE supported on macOS.
+With the advent of cloud computing, some IDEs are available online and run within web browsers.
+See also[edit]
+
+
+
+Wikimedia Commons has media related to Integrated development environments.
+
+
+
+
+Computer programming portal
+
+
+
+
+Comparison of integrated development environments
+Collaborative development environment (CDE)
+Computer-aided software engineering (CASE)
+Game integrated development environment
+Multiple document interface § IDE-style interface (MDI)
+Rapid application development (RAD)
+Read–Eval–Print Loop (REPL)
+Software development kit (SDK)
+Software engineering
+Web integrated development environment (Web IDE or WIDE)
+Requirements management
+Documentation generation tools
+Code analysis tools
+Source code refactoring tools
+Software building tools (the compiler, linker, etc., and the build automation tool used to control them)
+Version control, also called source repository (configuration management)
+Problem reporting and bug tracking tools
+
+
+References[edit]
+
+
+
+^ "Interaktives Programmieren als Systems-Schlager" from Computerwoche (German)
+^ Top IDE index
+^ "Archived copy". Archived from the original on 10 March 2014. Retrieved 10 March 2014. 
+^ Rehman, Christopher Paul, Christopher R. Paul. "The Linux Development Platform: Configuring, Using and Maintaining a Complete Programming Environment". 2002. ISBN 0-13-009115-4
+^ "UnixIsAnIde". 
+^ "Use Emacs with Microsoft Visual C++ ... use Emacs as an IDE" Archived 4 July 2013 at the Wayback Machine.
+^ "Emacs: the Free Software IDE"
+^ "Using Emacs as a Lisp IDE"
+^ "Emacs as a Perl IDE"
+^ PostgreSQL Developer FAQ
+^ PostgreSQL Installation from Source Code on Windows
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Integrated development environments
+
+
+
+C and C++
+
+
+
+
+Open
+source
+
+
+
+Android Studio
+Anjuta
+Code::Blocks
+CodeLite
+Dev-C++
+Eclipse
+Geany
+GNAT Programming Studio
+GNOME Builder
+KDevelop
+Kuzya
+MonoDevelop
+NetBeans
+QDevelop
+Qt Creator
+SharpDevelop
+Ultimate++
+OpenWatcom
+
+
+
+
+
+Freeware
+
+
+
+Pelles C
+Philasmicos Entwickler Studio
+Oracle Developer Studio
+Visual Studio Community
+Xcode
+
+
+
+
+
+Retail
+
+
+
+C++Builder
+Eclipse-based
+
+CodeWarrior
+MyEclipse
+
+
+Visual Studio
+By JetBrains
+
+IntelliJ IDEA
+AppCode
+CLion
+
+
+LabWindows/CVI
+LccWin32
+IBM Rational Software Architect
+Understand
+
+
+
+
+
+Discontinued
+
+
+
+IBM VisualAge
+
+
+
+
+
+
+
+
+Java
+
+
+
+
+Open source
+
+
+
+BlueJ
+DrJava
+Eclipse
+Geany
+Greenfoot
+IntelliJ IDEA Community Edition
+
+Android Studio
+
+
+NetBeans
+Servoy Community Edition
+
+
+
+
+
+Freeware
+
+
+
+jGRASP
+JDeveloper
+Xcode
+
+
+
+
+
+Retail
+
+
+
+JBuilder
+JCreator
+MyEclipse
+IBM
+
+Rational Application Developer
+WebSphere Integration Developer
+
+
+JetBrains IntelliJ IDEA
+Servoy Business Application Platform Edition
+Understand
+
+
+
+
+
+Discontinued
+
+
+
+Metrowerks CodeWarrior Pro for Java
+Sun Java Studio Creator (superseded by NetBeans)
+Visual Age (superseded by Eclipse)
+Visual Café (aka Espresso, superseded by JBuilder)
+Visual J++
+Xelfi (became NetBeans)
+
+
+
+
+
+
+
+
+CLI
+
+
+
+MonoDevelop
+SharpDevelop
+Visual Studio
+Visual Studio Code
+PascalABC.NET
+Rider
+
+
+
+
+
+Flash
+
+
+
+Adobe Flash Builder
+FlashDevelop
+Powerflasher FDT
+
+
+
+
+
+PHP
+
+
+
+Aptana
+NetBeans
+PhpStorm
+KDevelop
+
+
+
+
+
+Python
+
+
+
+Eric
+IntelliJ IDEA
+Light Table
+Ninja-IDE
+PyCharm
+PyDev
+Spyder
+Wing IDE
+KDevelop
+
+
+
+
+
+Pascal
+
+
+
+Delphi
+Lazarus
+
+
+
+
+
+R
+
+
+
+RStudio
+
+
+
+
+
+
+
+
+Category
+Comparison
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Integrated_development_environment&oldid=829035129"					
+				Categories: Integrated development environmentsHidden categories: Webarchive template wayback linksAll articles with unsourced statementsArticles with unsourced statements from April 2016Use dmy dates from January 2012				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia Commons				
+							
+		
+			
+			Languages
+			
+								
+					العربيةAsturianuAzərbaycancaবাংলাБългарскиCatalàČeštinaDanskDeutschΕλληνικάEspañolEsperantoفارسیFrançais한국어हिन्दीBahasa IndonesiaItalianoעבריתҚазақшаລາວLietuviųMagyarBahasa MelayuNederlands日本語NorskPolskiPortuguêsRomânăРусскийShqipSimple EnglishSlovenčinaSlovenščinaکوردیСрпски / srpskiSuomiSvenskaதமிழ்ไทยTürkçeУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 6 March 2018, at 06:43.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.268","walltime":"0.369","ppvisitednodes":{"value":1213,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":47684,"limit":2097152},"templateargumentsize":{"value":5680,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5562,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  295.450      1 -total"," 37.34%  110.317      1 Template:Reflist"," 17.57%   51.903      2 Template:Cite_web"," 17.17%   50.717      1 Template:Citation_needed"," 15.26%   45.082      1 Template:Fix"," 12.05%   35.610      1 Template:ISBN"," 11.01%   32.522      3 Template:Navbox"," 10.27%   30.334      1 Template:Other_uses"," 10.01%   29.586      2 Template:Category_handler","  9.59%   28.335      1 Template:Integrated_development_environments"]},"scribunto":{"limitreport-timeusage":{"value":"0.093","limit":"10.000"},"limitreport-memusage":{"value":3249147,"limit":52428800}},"cachereport":{"origin":"mw1245","timestamp":"20180331102033","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":106,"wgHostname":"mw1266"});});
+	
+

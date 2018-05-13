@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ninite - Install or Update Multiple Apps at Once</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="https://d8f7mp21btv4f.cloudfront.net/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="https://d8f7mp21btv4f.cloudfront.net/css/crystal-2f9dde9064cc1885f150d6ae84e9c1d7.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<link href="https://d8f7mp21btv4f.cloudfront.net/crystal/js/respond-proxy-1ac71ee4ee5fb602995fbd6fca5468b4.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/robots.txt" id="respond-redirect" rel="respond-redirect" />
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/oldie-78ee42ef96d2d8f3e4cd3a939f7231d8.js"></script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-10831845-1']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'https://ssl.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="ninite-brand" href="/">
+<img src="https://d8f7mp21btv4f.cloudfront.net/crystal/img/brand-95c4357c0068bf934474cf8b7721890a.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="/help/">Help</a></li>
+<li><a href="/feedback">Feedback</a></li>
+
+<li><a href="/pro">Ninite Pro</a></li>
+<li><a href="/signin">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<h1 class="sr-only">We also have a page for screenreader-friendly
+accessible apps at <a href="/accessible">ninite.com/accessible</a>.</h1>
+<div class="homepage-introduction">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<h4>Install and Update All Your Programs at Once</h4>
+<p>
+No toolbars. No clicking next. Just pick your apps and go.
+</p>
+<p>
+<img src="https://d8f7mp21btv4f.cloudfront.net/img/screenshot-d19f898aea36be8dcd93c3af7de4abb0.png" alt="A Ninite Installer" class="img-responsive img-rounded">
+</p>
+</div>
+<div class="col-sm-3">
+<h4>Always Up-to-date</h4>
+<p>You don't have to watch for updates. Our bots do that. Here's what's new:</p>
+
+<p>
+Skype updated to 8.17.<br>
+<span class="small">6 hours ago</span>
+</p>
+
+<p>
+Spotify updated to 1.0.75.483.<br>
+<span class="small">Friday at 6:06 pm</span>
+</p>
+
+<p>
+XnView updated to 2.44.<br>
+<span class="small">March 1 at 2:48 pm</span>
+</p>
+
+<p>
+Avast updated to 18.2.3827.<br>
+<span class="small">March 1 at 2:37 pm</span>
+</p>
+
+<p>
+LibreOffice updated to 6.0.2.<br>
+<span class="small">March 1 at 12:52 pm</span>
+</p>
+
+
+<p><a href="/news">more news</a></p>
+</div>
+<div class="col-sm-3">
+<h4>Trusted by Millions</h4>
+<p>
+We install and update about a million apps each day for our home users and <a href="/pro">Ninite Pro</a> subscribers.
+</p>
+<p>
+The <a href="/press">press</a> likes us too:
+</p>
+<p>
+“I'll bet the service saved me a couple hours”<br>
+<strong>PCWorld</strong>
+</p>
+<p>
+“Ninite.com frees up your day” <br>
+<strong>The Christian Science Monitor</strong>
+</p>
+<p>
+“This post can be fairly short because Ninite works exactly as advertised.”<br>
+<strong>Lifehacker</strong>
+</p>
+</div>
+</div>
+</div>
+</div>
+<form method="post">
+<input type="hidden" name="_xsrf" value="2|ed83a38e|8d80ec6990397a1bd627e1636d819293|1520364799"/>
+<div class="container">
+<h3 class="text-center">1. Pick the apps you want</h3>
+</div>
+<div>
+<div class="text-center">
+<h3>
+Accessible Apps &mdash; Unattended Installer by Ninite
+</h2>
+<p>
+This is a collection of apps that have been tested and known<br>
+to work with common screen reader software for visually-impaired people.<br>
+Please <a href="/feedback">let us know about errors or omissions</a>, thanks!<br>
+For more general issues please contact the maker of your screen reader.
+</p>
+</div>
+<ul class="list-unstyled center-block js-masonry" data-masonry-options='{"isFitWidth": true}'>
+
+
+<li class="homepage-app-section">
+<h4>Screen Readers</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_rrag3" class="homepage-app-label" title="Screen Reader 2017.4">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="nvda"
+id="cb_rrag3">
+<span class="icn16 icn16_svmxk"></span>
+NV Access
+</label>
+<p class="sr-only">Screen Reader 2017.4</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Web Browsers</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_kvedr" class="homepage-app-label" title="Fast Browser by Google 64.0.3282.186">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="chrome"
+id="cb_kvedr">
+<span class="icn16 icn16_dwmvp"></span>
+Chrome
+</label>
+<p class="sr-only">Fast Browser by Google 64.0.3282.186</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_22s4s" class="homepage-app-label" title="Extensible Browser 58.0.2">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="firefox"
+id="cb_22s4s">
+<span class="icn16 icn16_x4fcp"></span>
+Firefox
+</label>
+<p class="sr-only">Extensible Browser 58.0.2</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Messaging</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_2qq4h" class="homepage-app-label" title="Internet Telephone 8.17">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="skype"
+id="cb_2qq4h">
+<span class="icn16 icn16_ghnb7"></span>
+Skype
+</label>
+<p class="sr-only">Internet Telephone 8.17</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_4nn6w" class="homepage-app-label" title="Email Reader by Mozilla 52.6.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="thunderbird"
+id="cb_4nn6w">
+<span class="icn16 icn16_hxm2b"></span>
+Thunderbird
+</label>
+<p class="sr-only">Email Reader by Mozilla 52.6.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_eqp6r" class="homepage-app-label" title="Yahoo! IM Client 11.5.0.0228">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="yahoo"
+id="cb_eqp6r">
+<span class="icn16 icn16_l6zii"></span>
+Yahoo!
+</label>
+<p class="sr-only">Yahoo! IM Client 11.5.0.0228</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Media</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_hmiuc" class="homepage-app-label" title="Music/Media Manager 12.7.3.46">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="itunes"
+id="cb_hmiuc">
+<span class="icn16 icn16_24x7j"></span>
+iTunes
+</label>
+<p class="sr-only">Music/Media Manager 12.7.3.46</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_hbmpm" class="homepage-app-label" title="Music Player 1.3.17">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="foobar"
+id="cb_hbmpm">
+<span class="icn16 icn16_fod7p"></span>
+foobar2000
+</label>
+<p class="sr-only">Music Player 1.3.17</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_gs7lf" class="homepage-app-label" title="Music Player 5.6.6.3516">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="winamp"
+id="cb_gs7lf">
+<span class="icn16 icn16_kbnip"></span>
+Winamp
+</label>
+<p class="sr-only">Music Player 5.6.6.3516</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_htevm" class="homepage-app-label" title="Audio Editor 2.2.2">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="audacity"
+id="cb_htevm">
+<span class="icn16 icn16_7vlx3"></span>
+Audacity
+</label>
+<p class="sr-only">Audio Editor 2.2.2</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_xsupa" class="homepage-app-label" title="Video decoders plus MPC 2015.10.19">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="cccp"
+id="cb_xsupa">
+<span class="icn16 icn16_u7ro7"></span>
+CCCP
+</label>
+<p class="sr-only">Video decoders plus MPC 2015.10.19</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_w53be" class="homepage-app-label" title="Video decoders plus Media Player Classic 14.0.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="klitecodecs"
+id="cb_w53be">
+<span class="icn16 icn16_dksy3"></span>
+K-Lite Codecs
+</label>
+<p class="sr-only">Video decoders plus Media Player Classic 14.0.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_5hco5" class="homepage-app-label" title="Great Video Player 3.0.1">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vlc"
+id="cb_5hco5">
+<span class="icn16 icn16_qsikq"></span>
+VLC
+</label>
+<p class="sr-only">Great Video Player 3.0.1</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_2n6do" class="homepage-app-label" title="Image Viewer 4.51">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="irfanview"
+id="cb_2n6do">
+<span class="icn16 icn16_t5hdh"></span>
+IrfanView
+</label>
+<p class="sr-only">Image Viewer 4.51</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_7qwxr" class="homepage-app-label" title="Music Organizer 4.1.20.1864">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="mediamonkey"
+id="cb_7qwxr">
+<span class="icn16 icn16_jolkt"></span>
+MediaMonkey
+</label>
+<p class="sr-only">Music Organizer 4.1.20.1864</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Documents</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_iym3r" class="homepage-app-label" title="Free Office Suite 6.0.2 (JRE recommended)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="libreoffice"
+id="cb_iym3r">
+<span class="icn16 icn16_zzw4v"></span>
+LibreOffice
+</label>
+<p class="sr-only">Free Office Suite 6.0.2 (JRE recommended)</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_x52fw" class="homepage-app-label" title="Free Office Suite 4.1.5 (JRE recommended)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="openoffice"
+id="cb_x52fw">
+<span class="icn16 icn16_n536t"></span>
+OpenOffice
+</label>
+<p class="sr-only">Free Office Suite 4.1.5 (JRE recommended)</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Security</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_da233" class="homepage-app-label" title="Great Antivirus by Microsoft 4.10.209">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="essentials"
+id="cb_da233">
+<span class="icn16 icn16_2elel"></span>
+Essentials
+</label>
+<p class="sr-only">Great Antivirus by Microsoft 4.10.209</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_4mrni" class="homepage-app-label" title="AVG Free Antivirus 17.9.3040">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="avg"
+id="cb_4mrni">
+<span class="icn16 icn16_sxgxy"></span>
+AVG
+</label>
+<p class="sr-only">AVG Free Antivirus 17.9.3040</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_l3vzg" class="homepage-app-label" title="Avast Free Antivirus 18.2.3827">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="avast"
+id="cb_l3vzg">
+<span class="icn16 icn16_7l2fz"></span>
+Avast
+</label>
+<p class="sr-only">Avast Free Antivirus 18.2.3827</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_mgdaa" class="homepage-app-label" title="Malware Remover 3.3.1.2183">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="malwarebytes"
+id="cb_mgdaa">
+<span class="icn16 icn16_fjyik"></span>
+Malwarebytes
+</label>
+<p class="sr-only">Malware Remover 3.3.1.2183</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_fflxm" class="homepage-app-label" title="Spyware Remover 2.6.46">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="spybot2"
+id="cb_fflxm">
+<span class="icn16 icn16_2m5dt"></span>
+Spybot 2
+</label>
+<p class="sr-only">Spyware Remover 2.6.46</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Online Storage</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_f4z4i" class="homepage-app-label" title="Great Online Backup/File Sync 44.4.58">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="dropbox"
+id="cb_f4z4i">
+<span class="icn16 icn16_blu2e"></span>
+Dropbox
+</label>
+<p class="sr-only">Great Online Backup/File Sync 44.4.58</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_57ao2" class="homepage-app-label" title="Online File Sync by Microsoft 17.3.7076.1026">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="onedrive"
+id="cb_57ao2">
+<span class="icn16 icn16_zaizo"></span>
+OneDrive
+</label>
+<p class="sr-only">Online File Sync by Microsoft 17.3.7076.1026</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Runtimes</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_sp3sl" class="homepage-app-label" title="Java Runtime Environment (JRE) 8u161-b12">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="java"
+id="cb_sp3sl">
+<span class="icn16 icn16_ouklq"></span>
+Java
+</label>
+<p class="sr-only">Java Runtime Environment (JRE) 8u161-b12</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_fvijo" class="homepage-app-label" title="Microsoft .NET 3.5 SP1">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".net"
+id="cb_fvijo">
+<span class="icn16 icn16_t3mva"></span>
+.NET
+</label>
+<p class="sr-only">Microsoft .NET 3.5 SP1</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Other</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_jrd6u" class="homepage-app-label" title="Password Manager 2.38">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="keepass2"
+id="cb_jrd6u">
+<span class="icn16 icn16_jajsj"></span>
+KeePass 2
+</label>
+<p class="sr-only">Password Manager 2.38</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_r7qtr" class="homepage-app-label" title="MozyHome Online Backup 2.28.2.432">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="mozy"
+id="cb_r7qtr">
+<span class="icn16 icn16_rgi7m"></span>
+Mozy
+</label>
+<p class="sr-only">MozyHome Online Backup 2.28.2.432</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Utilities</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_pa3mm" class="homepage-app-label" title="Better File Copy 3.2.6">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="teracopy"
+id="cb_pa3mm">
+<span class="icn16 icn16_yfusb"></span>
+TeraCopy
+</label>
+<p class="sr-only">Better File Copy 3.2.6</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_lpcec" class="homepage-app-label" title="App Uninstaller/Reverse Ninite 2.0.4">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="revo"
+id="cb_lpcec">
+<span class="icn16 icn16_qht34"></span>
+Revo
+</label>
+<p class="sr-only">App Uninstaller/Reverse Ninite 2.0.4</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_7d32j" class="homepage-app-label" title="Disc Burner 4.5.8.6795 (requires .NET)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="cdburnerxp"
+id="cb_7d32j">
+<span class="icn16 icn16_wr2ic"></span>
+CDBurnerXP
+</label>
+<p class="sr-only">Disc Burner 4.5.8.6795 (requires .NET)</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_itq3h" class="homepage-app-label" title="Disc Burner 2.5.8.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="imgburn"
+id="cb_itq3h">
+<span class="icn16 icn16_gs5qd"></span>
+ImgBurn
+</label>
+<p class="sr-only">Disc Burner 2.5.8.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_ibqtw" class="homepage-app-label" title="Remote Access Tool 13.0.6447">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="teamviewer"
+id="cb_ibqtw">
+<span class="icn16 icn16_66qwh"></span>
+TeamViewer
+</label>
+<p class="sr-only">Remote Access Tool 13.0.6447</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_ih3nm" class="homepage-app-label" title="Directory Statistics 1.1.2.80">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="windirstat"
+id="cb_ih3nm">
+<span class="icn16 icn16_zx2hq"></span>
+WinDirStat
+</label>
+<p class="sr-only">Directory Statistics 1.1.2.80</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_6cxnu" class="homepage-app-label" title="Classic Shell Win8 Start Menu 4.3.1">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="classicstart"
+id="cb_6cxnu">
+<span class="icn16 icn16_ieb4n"></span>
+Classic Start
+</label>
+<p class="sr-only">Classic Shell Win8 Start Menu 4.3.1</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_addmm" class="homepage-app-label" title="Disc Burner 0.53.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="infrarecorder"
+id="cb_addmm">
+<span class="icn16 icn16_di5dp"></span>
+InfraRecorder
+</label>
+<p class="sr-only">Disc Burner 0.53.0</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Compression</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_bcaaf" class="homepage-app-label" title="Great Compression App 18.01">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="7zip"
+id="cb_bcaaf">
+<span class="icn16 icn16_kxiq2"></span>
+7-Zip
+</label>
+<p class="sr-only">Great Compression App 18.01</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_nxciq" class="homepage-app-label" title="Another Compression Tool 5.50 (Trial)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="winrar"
+id="cb_nxciq">
+<span class="icn16 icn16_lkput"></span>
+WinRAR
+</label>
+<p class="sr-only">Another Compression Tool 5.50 (Trial)</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Developer Tools</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_epxow" class="homepage-app-label" title="Great Programming Language 2.7.14">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="python"
+id="cb_epxow">
+<span class="icn16 icn16_4trph"></span>
+Python
+</label>
+<p class="sr-only">Great Programming Language 2.7.14</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_xqkaw" class="homepage-app-label" title="FTP Client 3.31.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="filezilla"
+id="cb_xqkaw">
+<span class="icn16 icn16_gax34"></span>
+FileZilla
+</label>
+<p class="sr-only">FTP Client 3.31.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_j2gws" class="homepage-app-label" title="Programmer&#39;s Editor 7.5.5">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="notepadplusplus"
+id="cb_j2gws">
+<span class="icn16 icn16_5r62h"></span>
+Notepad++
+</label>
+<p class="sr-only">Programmer&#39;s Editor 7.5.5</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_3nmgs" class="homepage-app-label" title="SCP Client 5.13.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="winscp"
+id="cb_3nmgs">
+<span class="icn16 icn16_v6uok"></span>
+WinSCP
+</label>
+<p class="sr-only">SCP Client 5.13.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_uriix" class="homepage-app-label" title="SSH client 0.70">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="putty"
+id="cb_uriix">
+<span class="icn16 icn16_ztm7r"></span>
+PuTTY
+</label>
+<p class="sr-only">SSH client 0.70</p>
+</li>
+
+
+</ul>
+</li>
+
+
+</ul>
+
+
+</div>
+<div class="container">
+<h3 class="text-center">2. Download and run your custom installer/updater</h3>
+<p class="text-center text-danger hidden js-homepage-no-apps">
+Please check off the apps you want above.
+</p>
+<p class="text-center">
+<button type="submit" class="btn btn-primary btn-lg js-homepage-get-installer" accesskey="g">Get Your Ninite</button>
+</p>
+<p class="text-center">
+<small>Ninite works on Windows 10, 8.x, 7, Vista, XP Service Pack 3, and equivalent Server versions.</small>
+</p>
+</div>
+</form>
+<div class="container">
+<hr>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<h4>Ninite will</h4>
+<ul>
+<li>start working as soon as you run it</li>
+<li>not bother you with any choices or options</li>
+<li>install apps in their default location</li>
+<li>say no to toolbars or extra junk</li>
+<li>install 64-bit apps on 64-bit machines</li>
+<li>install apps in your PC's language <a href="/help/features/language.html">or one you choose</a></li>
+<li>do all its work in the background</li>
+<li>install the latest stable version of an app</li>
+<li>skip up-to-date apps</li>
+<li>skip any reboot requests from installers</li>
+<li>use your proxy settings from Internet Explorer</li>
+<li>download apps from each publisher's official site</li>
+<li>verify digital signatures or hashes before running anything</li>
+<li>work best if you turn off any web filters or firewalls</li>
+<li>save you a lot of time!</li>
+</ul>
+<h4>Suggest an app</h4>
+<p>
+We only add popular user-requested apps to Ninite.
+</p>
+<p>
+<a href="#" class="js-homepage-suggest-app-show">Show suggestion form</a>
+</p>
+<form method="post" action="/suggest" class="hidden js-homepage-suggest-app">
+<input type="hidden" name="_xsrf" value="2|ed83a38e|8d80ec6990397a1bd627e1636d819293|1520364799"/>
+<p>
+I want to see
+<input name="name" id="suggestname" placeholder="app name">
+on Ninite.
+</p>
+<p>
+Email me at
+<input name="email" type="email" id="suggestemail"
+placeholder="your email (optional)">
+(optional) when it's ready.
+</p>
+<p>
+<button class="btn btn-primary" type="submit">Suggest this app</button>
+<span class="js-homepage-suggest-app-thanks hidden bg-success">Thanks!</span>
+</p>
+</form>
+</div>
+<div class="col-sm-6">
+<h4>Manage all your machines on the web with Ninite Pro</h4>
+<p>
+<a href="https://ninite.com/pro">
+<img src="https://d8f7mp21btv4f.cloudfront.net/img/proappsheet/appsheet_small-36d37ca6c6e9c3f2ff57a3d730fcc43f.jpg" alt="Ninite Pro's new web interface" class="img-responsive">
+</a>
+</p>
+<p><a href="https://ninite.com/pro">Ninite Pro</a> has a new web interface. <a href="https://ninite.com/pro">Click here to learn more.</a></p>
+<p>
+Our website is free for home use (money-wise, but also free of ads and junkware) because Pro users keep Ninite running.
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<h3 class="text-center">Thousands of organizations use <a href="/pro">Ninite Pro</a> to patch and secure software including</h3>
+<a href="/pro"><img src="https://d8f7mp21btv4f.cloudfront.net/img/logobomb-4c7fa59536337439840c2154387f983f.png" alt="A few Ninite Pro users" class="img-responsive"></a>
+<h3 class="text-center"><a href="/pro">Try it for free right now</a></h3>
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="/jobs">jobs</a></li>
+<li><a class="footer-link" href="/about">about</a></li>
+<li><a class="footer-link" href="/press">press</a></li>
+<li><a class="footer-link" href="/news">updates</a></li>
+<li><a class="footer-link" href="/security">security</a></li>
+<li><a class="footer-link" href="/privacy">privacy</a></li>
+<li><a class="footer-link" href="/terms">terms</a></li>
+</ul>
+<p class="small">
+&copy;2018 Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/bundle-3737f22be190c9564031d54327c43962.js"></script>
+</body>
+</html>

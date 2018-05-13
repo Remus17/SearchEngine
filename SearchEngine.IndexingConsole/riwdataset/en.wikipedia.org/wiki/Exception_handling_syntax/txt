@@ -1,0 +1,1315 @@
+
+
+
+
+Exception handling syntax - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Exception_handling_syntax","wgTitle":"Exception handling syntax","wgCurRevisionId":820573387,"wgRevisionId":820573387,"wgArticleId":3624756,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with example code","Programming language syntax","Control flow","Programming language comparisons"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Exception_handling_syntax","wgRelevantArticleId":3624756,"wgRequestId":"WsAuZApAAD4AAJpmEw0AAAAI","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5419496","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Exception handling syntax			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				Exception handling syntax varies between programming languages, partly to cover semantic differences but largely to fit into each language's overall syntactic structure. Some languages do not call the relevant concept 'exception handling'; others may not have direct facilities for it, but can still provide means to implement it.
+Most commonly, error handling uses a try...[catch...][finally...] block, and errors are created via a throw statement, but there is significant variation in naming and syntax.
+
+
+
+Contents
+
+
+1 Catalogue of exception handling syntaxes
+
+1.1 Ada
+1.2 Assembly language
+1.3 Bash
+1.4 BASIC
+1.5 C
+
+1.5.1 Microsoft-specific
+
+
+1.6 C#
+1.7 C++
+1.8 ColdFusion Markup Language (CFML)
+
+1.8.1 Script syntax
+1.8.2 Tag syntax
+1.8.3 Railo-Lucee specific syntax
+
+
+1.9 D
+1.10 Delphi
+1.11 Erlang
+1.12 Haskell
+1.13 Java
+1.14 JavaScript
+1.15 Lisp
+
+1.15.1 Common Lisp
+
+
+1.16 Lua
+1.17 Objective-C
+1.18 OCaml
+1.19 Perl
+1.20 PHP
+1.21 PowerBuilder
+1.22 PowerShell
+
+1.22.1 Version 1.0
+1.22.2 Version 2.0
+
+
+1.23 Python
+1.24 R
+1.25 Rebol
+1.26 Rexx
+1.27 Ruby
+1.28 S-Lang
+1.29 Smalltalk
+1.30 Swift
+1.31 Tcl
+1.32 VBScript
+1.33 Visual Basic
+
+1.33.1 Visual Basic .NET
+
+
+1.34 Visual Prolog
+1.35 X++
+
+
+2 References
+3 See also
+
+
+
+Catalogue of exception handling syntaxes[edit]
+Ada[edit]
+Further information: Ada (programming language)
+
+
+
+The Wikibook Ada Programming has a page on the topic of: Exceptions
+
+
+
+Exception declarations
+
+
+
+Some_Error : exception;
+
+
+Raising exceptions
+
+
+
+raise Some_Error;
+
+raise Some_Error with "Out of memory"; -- specific diagnostic message
+
+
+Exception handling and propagation
+
+
+
+with Ada.Exceptions, Ada.Text_IO;
+
+procedure Foo is
+  Some_Error : exception;
+begin
+  Do_Something_Interesting;
+exception -- Start of exception handlers
+  when Constraint_Error =>
+    ... -- Handle constraint error
+  when Storage_Error =>
+    -- Propagate Storage_Error as a different exception with a useful message
+    raise Some_Error with "Out of memory";
+  when Error : others => 
+    -- Handle all others
+    Ada.Text_IO.Put("Exception: ");
+    Ada.Text_IO.Put_Line(Ada.Exceptions.Exception_Name(Error));
+    Ada.Text_IO.Put_Line(Ada.Exceptions.Exception_Message(Error));
+end Foo;
+
+Assembly language[edit]
+Further information: Assembly language
+Most assembly languages will have a macro instruction or an interrupt address available for the particular system to intercept events such as illegal op codes, program check, data errors, overflow, divide by zero, and other such. IBM and Univac mainframes had the STXIT macro. Digital Equipment Corporation RT11 systems had trap vectors for program errors, i/o interrupts, and such. DOS has certain interrupt addresses. Microsoft Windows has specific module calls to trap program errors.
+Bash[edit]
+Further information: Bash (Unix shell)
+
+
+#!/usr/bin/env bash
+#set -e provides another error mechanism
+print_error(){
+	echo "there was an error"
+}
+trap print_error exit #list signals to trap
+tempfile=`mktemp`
+trap "rm $tempfile" exit
+./other.sh || echo warning: other failed
+echo oops)
+echo never printed
+
+One can set a trap for multiple errors, responding to any signal with syntax like:
+
+trap 'echo Error at line ${LINENO}' ERR
+
+BASIC[edit]
+Further information: BASIC
+An On Error goto/gosub structure is used in BASIC and is quite different from modern exception handling; in BASIC there is only one global handler whereas in modern exception handling, exception handlers are stacked.
+
+
+ON ERROR GOTO handler
+OPEN "Somefile.txt" FOR INPUT AS #1
+CLOSE #1
+PRINT "File opened successfully"
+END
+
+handler:
+PRINT "File does not exist"
+END  ' RESUME may be used instead which returns control to original position.
+
+C[edit]
+Further information: C (programming language)
+The most common way to implement exception handling in standard C is to use setjmp/longjmp functions:
+
+
+#include <setjmp.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+enum { SOME_EXCEPTION = 1 } exception;
+jmp_buf state;
+
+int main(void)
+{
+  if(!setjmp(state))                      // try
+  {
+    if(/* something happened */)
+    {
+      exception = SOME_EXCEPTION;
+      longjmp(state, 0);                  // throw SOME_EXCEPTION
+    }
+  } 
+  else switch(exception)
+  {             
+    case SOME_EXCEPTION:                  // catch SOME_EXCEPTION
+      puts("SOME_EXCEPTION caught");
+      break;
+    default:                              // catch ...
+      puts("Some strange exception");
+  }
+  return EXIT_SUCCESS;
+}
+
+Microsoft-specific[edit]
+Further information: Microsoft-specific exception handling mechanisms
+Two types exist:
+
+Structured Exception Handling (SEH)
+Vectored Exception Handling (VEH, introduced in Windows XP)
+
+Example of SEH in C programming language:
+
+
+int filterExpression (EXCEPTION_POINTERS* ep) {
+   ep->ContextRecord->Eip += 8; // divide instruction may be encoded from 2 to 8 bytes
+   return EXCEPTION_CONTINUE_EXECUTION;
+}
+int main(void) {
+   static int zero;
+   __try {
+       zero = 1/zero;
+       __asm {
+         nop
+         nop
+         nop
+         nop
+         nop
+         nop
+         nop
+       }
+       printf ("Past the exception.\n");
+   } __except (filterExpression (GetExceptionInformation())) {
+       printf ("Handler called.\n");
+   }
+   return 0;
+}
+
+C#[edit]
+Further information: C Sharp (programming language)
+
+
+public static void Main()
+{
+   try
+   {
+      // Code that could throw an exception
+   }
+   catch(System.Net.WebException ex)
+   {
+      // Process a WebException
+   }
+   catch(System.Exception)
+   {
+      // Process a System level CLR exception, that is not a System.Net.WebException,
+      // since the exception has not been given an identifier it cannot be referenced
+   }
+   catch
+   {
+      // Process a non-CLR exception
+   }
+   finally
+   {
+      // (optional) code that will *always* execute
+   }
+}
+
+C++[edit]
+Further information: C++
+
+
+#include <exception>
+int main() {
+   try {
+       // do something (might throw an exception)
+   }
+   catch (const std::exception& e) {
+        // handle exception e
+   }
+   catch (...) {
+        // catches all exceptions, not already caught by a catch block before
+        // can be used to catch exception of unknown or irrelevant type
+   }
+}
+
+In C++, a resource acquisition is initialization technique can be used to clean up resources in exceptional situations. C++ intentionally does not support finally.[1] The outer braces for the method are optional.
+ColdFusion Markup Language (CFML)[edit]
+Further information: ColdFusion Markup Language
+Script syntax[edit]
+
+
+<cfscript>
+try {
+	//throw CF9+
+	throw(type="TypeOfException", message="Oops", detail="xyz");
+	// alternate throw syntax:
+	throw "Oops"; // this equivalent to the "message" value in the above example
+} catch (any e) {
+	writeOutput("Error: " & e.message);
+	rethrow; //CF9+
+} finally { //CF9+
+	writeOutput("I run even if no error");
+}
+</cfscript>
+
+Adobe ColdFusion documentation[2]
+Tag syntax[edit]
+
+
+<cftry> 
+    code that may cause an exception 
+    <cfcatch ...> 
+        <cftry> 
+            First level of exception handling code 
+            <cfcatch ...> 
+                Second level of exception handling code 
+            </cfcatch>
+            <cffinally> 
+                    final code    
+             </cffinally> 
+        </cftry> 
+    </cfcatch> 
+</cftry>
+
+Adobe ColdFusion documentation[3]
+Railo-Lucee specific syntax[edit]
+Further information: Railo and Lucee
+Added to the standard syntax above, CFML dialects of Railo and Lucee allow a retry statement.[4]
+This statement returns processing to the start of the prior try block.
+CFScript example:
+
+
+try {
+	// code which could result in an exception 
+
+} catch (any e){
+	retry;
+}
+
+Tag-syntax example:
+
+
+<cftry>
+
+	<!--- code which could result in an exception --->
+
+	<cfcatch>
+		<cfretry>
+	</cfcatch>
+</cftry>
+
+D[edit]
+Further information: D (programming language)
+
+
+import std.stdio; // for writefln()
+int main() {
+  try {
+      // do something that might throw an exception
+  }
+  catch (FooException e) {
+       // handle exceptions of type FooException
+  }
+  catch (Object o) {
+       // handle any other exceptions
+       writefln("Unhandled exception: ", o);
+       return 1;
+  }
+  return 0;
+}
+
+In D, a finally clause or the resource acquisition is initialization technique can be used to clean up resources in exceptional situations.
+Delphi[edit]
+Further information: Delphi (programming language)
+
+Exception declarations
+
+
+
+type ECustom = class(Exception) // Exceptions are children of the class Exception.
+  private
+    FCustomData: SomeType;      // Exceptions may have custom extensions.
+  public
+    constructor CreateCustom(Data: SomeType); // Needs an implementation
+    property CustomData: SomeType read FCustomData;
+  end;
+
+
+Raising exceptions
+
+
+
+raise Exception.Create('Message');
+
+raise Exception.CreateFmt('Message with values: %d, %d',[value1, value2]); // See SysUtils.Format() for parameters. 
+
+raise ECustom.CreateCustom(X);
+
+
+Exception handling and propagation[5]
+
+
+
+try // For finally.
+  try // For except.
+    ... // Code that may raise an exception.
+  except
+    on C:ECustom do
+      begin
+        ... // Handle ECustom.
+        ... if Predicate(C.CustomData) then ...
+      end;
+    on S:ESomeOtherException do
+      begin
+        // Propagate as an other exception.
+        raise EYetAnotherException.Create(S.Message); 
+      end;
+    on E:Exception do
+      begin
+        ... // Handle other exceptions.
+        raise; // Propagate.
+      end;
+  end; 
+finally
+  // Code to execute whether or not an exception is raised (e.g., clean-up code).
+end;
+
+Erlang[edit]
+Further information: Erlang (programming language)
+
+
+try
+  % some dangerous code
+catch
+  throw:{someError, X} -> ok;    % handle an exception
+  error:X -> ok;                 % handle another exception
+  _:_ -> ok                      % handle all exceptions
+after
+  % clean up
+end
+
+Haskell[edit]
+Further information: Haskell (programming language)
+Haskell does not have special syntax for exceptions. Instead, a try/catch/finally/etc. interface is provided by functions.
+
+
+import Prelude hiding(catch)
+import Control.Exception
+instance Exception Int
+instance Exception Double
+main = do
+  catch
+    (catch
+      (throw (42::Int))
+      (\e-> print (0,e::Double)))
+    (\e-> print (1,e::Int))
+
+prints
+
+(1,42)
+
+in analogy with this C++
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  try
+    {throw (int)42;}
+  catch(double e)
+    {cout << "(0," << e << ")" << endl;}
+  catch(int e)
+    {cout << "(1," << e << ")" << endl;}
+}
+
+Another example is
+
+
+do {
+  -- Statements in which errors might be thrown
+} `catch` \ex -> do {
+  -- Statements that execute in the event of an exception, with 'ex' bound to the exception
+}
+
+In purely functional code, if only one error condition exists, the Maybe type may be sufficient, and is an instance of Haskell's Monad class by default. More complex error propagation can be achieved using the Error or ErrorT monads, for which similar functionality (using `catch`) is supported.
+Java[edit]
+Further information: Java (programming language)
+
+
+
+The Wikibook Java Programming has a page on the topic of: Exceptions
+
+
+
+
+try {
+   // Normal execution path
+   throw new EmptyStackException();
+} catch (ExampleException ee) {
+   //  deal with the ExampleException
+} finally {
+   // This optional section is executed upon termination of any of the try or catch blocks above, 
+   //  except when System.exit() is called in "try" or "catch" blocks;
+}
+
+JavaScript[edit]
+Further information: JavaScript
+
+
+try {
+  // Statements in which exceptions might be thrown
+  throw 'error';
+} catch(error) {
+  // Statements that execute in the event of an exception
+} finally {
+  // Statements that execute afterward either way
+}
+
+Lisp[edit]
+Further information: Lisp (programming language)
+Common Lisp[edit]
+Further information: Common Lisp
+
+
+(ignore-errors (/ 1 0))
+
+(handler-case
+    (progn
+      (print "enter an expression")
+      (eval (read)))
+  (error (e) (print e)))
+
+(unwind-protect
+    (progn
+       (print "enter an expression")
+       (eval (read)))
+  (print "This print will always be executed, similar to finally."))
+
+Lua[edit]
+Further information: Lua (programming language)
+Lua uses the pcall and xpcall functions, with xpcall taking a function to act as a catch block.
+
+Predefined function
+
+
+
+function foo(x)
+    if x then 
+        return x
+    else
+        error "Not a true value"
+    end
+end
+
+function attempt(arg)
+    success, value = pcall(foo, arg)
+
+    if not success then 
+        print("Error: " .. tostring(value))
+    else
+        print("Returned: " .. tostring(value))
+    end
+end
+
+attempt("hello")
+    -- Returned: hello
+
+attempt(nil)
+    -- Error: stdin:5: Not a true value
+
+attempt({})
+    -- Returned: table: 00809308
+    
+if foo(42) then print "Success" end
+    -- Success
+
+
+Anonymous function
+
+
+
+if pcall(
+    function()
+        -- Do something that might throw an error.
+    end) 
+then
+    print "No errors"  -- Executed if the protected call was successful.
+else
+    print "Error encountered"  -- Executed if the protected call failed.
+end
+
+print "Done"  -- Will always be executed
+
+Objective-C[edit]
+Further information: Objective-C
+
+Exception declarations
+
+
+
+NSException *exception = [NSException exceptionWithName:@"myException"
+                           reason:@"whatever"  userInfo:nil];
+
+
+Raising exceptions
+
+
+
+@throw exception;
+
+
+Exception handling and propagation
+
+
+
+@try {
+    ...
+}
+@catch (SomeException *se) {
+    // Handle a specific exception type.
+    ...
+}
+@catch (NSException *ne) {
+    // Handle general exceptions.
+    ...
+
+    // Propagate the exception so that it's handled at a higher level.
+    @throw;
+}
+@catch (id ue) {
+    // Catch all thrown objects.
+    ...
+}
+@finally {
+    // Perform cleanup, whether an exception occurred or not.
+    ...
+}
+
+OCaml[edit]
+Further information: OCaml
+
+
+exception MyException of string * int (* exceptions can carry a value *)
+let _ =
+  try
+    raise (MyException ("not enough food", 2));
+    print_endline "Not reached"
+  with
+  | MyException (s, i) -> 
+      Printf.printf "MyException: %s, %d\n" s i
+  | e ->  (* catch all exceptions *)
+     Printf.eprintf "Unexpected exception : %s" (Printexc.to_string e);
+     (*If using Ocaml >= 3.11, it is possible to also print a backtrace: *)
+     Printexc.print_backtrace stderr;
+       (* Needs to beforehand enable backtrace recording with
+           Printexc.record_backtrace true
+         or by setting the environment variable OCAMLRUNPARAM="b1"*)
+
+Perl[edit]
+Further information: Perl
+The Perl mechanism for exception handling uses die to throw an exception when wrapped inside an eval { ... }; block. After the eval, the special variable $@ contains the value passed from die. However, scoping issues can make doing this correctly quite ugly:
+
+
+my ( $error, $failed );
+{
+   local $@;
+   $failed = not eval {
+       # Code that could throw an exception (using 'die')
+       open(FILE, $file) || die "Could not open file: $!";
+       while (<FILE>) {
+           process_line($_);
+       }
+       close(FILE) || die "Could not close $file: $!";
+       return 1;
+   };
+   $error = $@;
+}
+
+if ( $failed ) {
+   warn "got error: $error";
+}
+
+Perl 5.005 added the ability to throw objects as well as strings. This allows better introspection and handling of types of exceptions.
+
+
+eval {
+  open(FILE, $file) || die MyException::File->new($!);
+  while (<FILE>) {
+    process_line($_);
+  }
+  close(FILE) || die MyException::File->new($!);
+};
+if ($@) {
+  # The exception object is in $@
+  if ($@->isa('MyException::File')) {
+    # Handle file exception
+  } else {
+    # Generic exception handling
+    # or re-throw with 'die $@'
+  }
+}
+
+The __DIE__ pseudo-signal can be trapped to handle calls to die. This is not suitable for exception handling since it is global. However it can be used to convert string-based exceptions from third-party packages into objects.
+
+
+local $SIG{__DIE__} = sub {
+  my $err = shift;
+  if ($err->isa('MyException')) {
+    die $err; # re-throw
+  } else {
+    # Otherwise construct a MyException with $err as a string
+    die MyException::Default->new($err);
+  }
+};
+
+The forms shown above can sometimes fail if the global variable $@ is changed between when the exception is thrown and when it is checked in the if ($@) statement. This can happen in multi-threaded environments, or even in single-threaded environments when other code (typically called in the destruction of some object) resets the global variable before the checking code. The following example shows a way to avoid this problem (see [1]). But at the cost of not being able to use return values:
+
+
+eval {
+  # Code that could throw an exception (using 'die') but does NOT use the return statement;
+  1;
+} or do {
+  # Handle exception here. The exception string is in $@
+};
+
+Several modules in the Comprehensive Perl Archive Network (CPAN) expand on the basic mechanism:
+
+Error provides a set of exception classes and allows use of the try/throw/catch/finally syntax.
+TryCatch and Try::Tiny both allow use of try/catch/finally syntax instead of boilerplate to handle exceptions correctly.
+Exception::Class is a base class and class-maker for derived exception classes. It provides a full structured stack trace in $@->trace and $@->trace->as_string.
+Fatal overloads previously defined functions that return true/false e.g., open, close, read, write, etc. This allows built-in functions and others to be used as if they threw exceptions.
+
+PHP[edit]
+Further information: PHP
+
+
+// Exception handling is only available in PHP versions 5 and greater.
+try
+{
+  // Code that might throw an exception
+  throw new Exception('Invalid URL.');
+}
+catch (FirstExceptionClass $exception) 
+{
+  // Code that handles this exception
+} 
+catch (SecondExceptionClass $exception) 
+{
+  // Code that handles a different exception
+}
+finally
+{
+  // Perform cleanup, whether an exception occurred or not.
+}
+
+PowerBuilder[edit]
+Further information: PowerBuilder
+Exception handling is available in PowerBuilder versions 8.0 and above.
+
+TRY
+   // Normal execution path
+CATCH (ExampleException ee)
+   //  deal with the ExampleException
+FINALLY
+   // This optional section is executed upon termination of any of the try or catch blocks above
+END TRY
+
+PowerShell[edit]
+Further information: PowerShell
+Version 1.0[edit]
+
+
+trap [Exception]
+{
+  # Statements that execute in the event of an exception
+}
+# Statements in which exceptions might be thrown
+
+Version 2.0[edit]
+
+
+Try {
+    Import-Module ActiveDirectory
+    }
+Catch [Exception1] {
+  # Statements that execute in the event of an exception, matching the exception
+    }
+Catch [Exception2],[Exception3etc] {
+  # Statements that execute in the event of an exception, matching any of the exceptions
+    }
+Catch {
+  # Statements that execute in the event of an exception, not handled more specifically
+    }
+
+Python[edit]
+Further information: Python (programming language)
+
+
+f = None
+try:
+   f = file("aFileName")
+   f.write(could_make_error())
+except IOError:
+   print "Unable to open file"
+except:   # catch all exceptions
+   print "Unexpected error"
+else:     # executed if no exceptions are raised
+   print "File write completed successfully"
+finally:  # clean-up actions, always executed
+   if f:
+      f.close()
+
+R[edit]
+Further information: R (programming language)
+
+
+tryCatch({
+   stop("Here an error is signaled")   # default S3-class is simpleError a subclass of error
+   cat("This and the following lines are not executed because the error is trapped before\n")
+   stop( structure(simpleError("mySpecialError message"),class=c("specialError","error","condition")) )
+}
+,specialError=function(e){
+    cat("catches errors of class specialError\n")
+}
+,error=function(e){
+    cat("catches the default error\n")
+}
+,finally={ cat("do some cleanup (e.g., setwd)\n") }
+)
+
+Rebol[edit]
+Further information: Rebol
+
+
+REBOL [
+    Title: "Exception and error handling examples"
+]
+
+; TRY a block; capturing an error! and converting to object!
+if error? exception: try [1 / 0][probe disarm exception]
+
+; ATTEMPT results in the value of the block or the value none on error
+print attempt [divide 1 0]
+
+; User generated exceptions can be any datatype!
+example: func ["A function to throw an exception"
+][
+    throw "I'm a string! exception"
+]
+catch [example]
+
+; User generated exceptions can also be named,
+;   and functions can include additional run time attributes 
+sophisticated: func ["A function to throw a named error exception"
+    [catch]
+][
+    throw/name make error! "I'm an error! exception" 'moniker
+]
+catch/name [sophisticated] 'moniker
+
+Rexx[edit]
+Further information: Rexx
+
+
+ signal on halt;
+ do a = 1
+	 say a
+	 do 100000 /* a delay */
+	 end
+ end
+ halt:
+ say "The program was stopped by the user"
+ exit
+
+Ruby[edit]
+Further information: Ruby (programming language)
+
+
+begin
+  # Do something nifty
+  raise SomeError, "This is the error message!"  # Uh-oh!
+rescue SomeError
+  # This is executed when a SomeError exception
+  # is raised
+rescue AnotherError => error
+  # Here, the exception object is referenced from the
+  # `error' variable
+rescue
+  # This catches all exceptions derived from StandardError
+  retry # This executes the begin section again
+else
+  # This is executed only if no exceptions were raised
+ensure
+  # This is always executed, exception or not
+end
+
+S-Lang[edit]
+Further information: S-Lang (programming library)
+
+ try 
+ {
+    % code that might throw an exception
+ }
+ catch SomeError: 
+ { 
+    % code that handles this exception
+ }
+ catch SomeOtherError:
+ {  
+    % code that handles this exception
+ }
+ finally   % optional block
+ {
+    % This code will always get executed
+ }
+
+New exceptions may be created using the new_exception function, e.g.,
+
+ new_exception ("MyIOError", IOError, "My I/O Error");
+
+will create an exception called MyIOError as a subclass of IOError. Exceptions may be generated using the throw statement, which can throw arbitrary S-Lang objects.
+Smalltalk[edit]
+Further information: Smalltalk
+
+
+  [ "code that might throw an exception" ]
+     on: ExceptionClass 
+     do: [:ex | "code that handles exception" ].
+
+The general mechanism is provided by the message on:do:.[6] Exceptions are just normal objects that subclass Error, you throw one by creating an instance and sending it a #signal message, e.g., MyException new signal. The handling mechanism (#on:do:) is again just a normal message implemented by BlockClosure. The thrown exception is passed as a parameter to the handling block closure, and can be queried, as well as potentially sending #resume to it, to allow execution flow to continue.
+Swift[edit]
+Further information: Swift (programming language)
+Exception handling is supported since Swift 2.
+
+
+enum MyException : ErrorType {
+  case Foo(String, Int)
+}
+func someFunc() throws {
+  throw MyException.Foo("not enough food", 2)
+}
+do {
+  try someFunc()
+  print("Not reached")
+} catch MyException.Foo(let s, let i) {
+  print("MyException: \(s), \(i)")
+} catch {
+  print("Unexpected exception : \(error)")
+}
+
+Tcl[edit]
+Further information: Tcl
+
+
+if { [ catch {
+   foo
+} err ] } {
+   puts "Error: $err"
+}
+
+Since Tcl 8.6, there is also a try command:
+
+
+try {
+    someCommandWithExceptions
+} on ok {res opt} {
+    # handle normal case.
+} trap ListPattern1 {err opt} {
+    # handle exceptions with an errorcode matching ListPattern1
+} trap ListPattern2 {err opt} {
+    # ...
+} on error {err opt} {
+    # handle everything else.
+} finally {
+    # run whatever commands must run after the try-block.
+}
+
+VBScript[edit]
+Further information: VBScript
+
+
+With New Try: On Error Resume Next
+    'Do Something (Only one statement recommended)
+.Catch :On Error GoTo 0: Select Case .Number
+    Case 0 'This line is required in VBScript when using 'Case Else' clause.
+        'No exception
+    Case ERRORNUMBER
+        'Handle exception
+    Case Else
+        'Unknown exception
+End Select: End With
+
+' *** Try Class ***
+Class Try
+    Private mstrDescription
+    Private mlngHelpContext
+    Private mstrHelpFile
+    Private mlngNumber
+    Private mstrSource
+
+    Public Sub Catch()
+        mstrDescription = Err.Description
+        mlngHelpContext = Err.HelpContext
+        mstrHelpFile = Err.HelpFile
+        mlngNumber = Err.Number
+        mstrSource = Err.Source
+    End Sub
+
+    Public Property Get Source()
+        Source = mstrSource
+    End Property
+    
+    Public Property Get Number()
+        Number = mlngNumber
+    End Property
+
+    Public Property Get HelpFile()
+        HelpFile = mstrHelpFile
+    End Property
+    
+    Public Property Get HelpContext()
+        HelpContext = mlngHelpContext
+    End Property
+    
+    Public Property Get Description()
+        Description = mstrDescription
+    End Property
+End Class
+
+[7]
+Visual Basic[edit]
+Further information: Visual Basic
+
+
+With New Try: On Error Resume Next
+    'Do Something (Only one statement recommended)
+.Catch :On Error GoTo 0: Select Case .Number
+    Case ERRORNUMBER
+        'Handle exception
+    Case Is <> 0
+        'Unknown exception
+End Select: End With
+
+' *** Try Class ***
+Private mstrDescription  As String
+Private mlngHelpContext  As Long
+Private mstrHelpFile     As String
+Private mlngLastDllError As Long
+Private mlngNumber       As Long
+Private mstrSource       As String
+
+Public Sub Catch()
+    mstrDescription = Err.Description
+    mlngHelpContext = Err.HelpContext
+    mstrHelpFile = Err.HelpFile
+    mlngLastDllError = Err.LastDllError
+    mlngNumber = Err.Number
+    mstrSource = Err.Source
+End Sub
+
+Public Property Get Source() As String
+    Source = mstrSource
+End Property
+
+Public Property Get Number() As Long
+    Number = mlngNumber
+End Property
+
+Public Property Get LastDllError() As Long
+    LastDllError = mlngLastDllError
+End Property
+
+Public Property Get HelpFile() As String
+    HelpFile = mstrHelpFile
+End Property
+
+Public Property Get HelpContext() As Long
+    HelpContext = mlngHelpContext
+End Property
+
+Public Property Get Description() As String
+    Description = mstrDescription
+End Property
+
+[7]
+Visual Basic .NET[edit]
+Further information: Visual Basic .NET
+
+
+Try
+   ' code to be executed here
+Catch ex As Exception When condition
+   ' Handle Exception when a specific condition is true
+Catch ex As ExceptionType
+   ' Handle Exception of a specified type (i.e. DivideByZeroException, OverflowException, etc.)
+Catch ex As Exception
+   ' Handle Exception (catch all exceptions of a type not previously specified)
+Finally
+   ' Cleanup, close connections, etc
+   ' NB this code is always executed regardless of if an Exception was raised or not!
+End Try
+
+Visual Prolog[edit]
+Further information: Visual Prolog
+http://wiki.visual-prolog.com/index.php?title=Language_Reference/Terms#Try-catch-finally
+
+
+try
+    % Block to protect
+catch TraceId do
+    % Code to execute in the event of an exception; TraceId gives access to the exception information
+finally
+    % Code will be executed regardles however the other parts behave
+end try
+
+X++[edit]
+Further information: Microsoft Dynamics AX
+
+
+public static void Main(Args _args)
+{
+   try
+   {
+      // Code that could throw an exception
+   }
+   catch (Exception::Error) // Or any other exception type
+   {
+      // Process the error
+   }
+   catch
+   {
+      // Process any other exception type not handled previously
+   }
+
+   // Code here will execute as long as any exception is caught
+}
+
+References[edit]
+
+
+
+^ Bjarne Stroustrup's FAQ
+^ Handling exceptions
+^ Exception handling tags
+^ https://issues.jboss.org/browse/RAILO-2176 # JBoss Community issue tracker ticket for adding retry
+^ Borland, Delphi Version 7.0, Online help
+^ Pharo by Example
+^ a b Try-Catch for VB
+
+
+
+See also[edit]
+
+Exception handling for the semantics of exception handling
+Syntax for definition of syntax in computer science
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Exception_handling_syntax&oldid=820573387"					
+				Categories: Programming language syntaxControl flowProgramming language comparisonsHidden categories: Articles with example code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					한국어				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 15 January 2018, at 11:58.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.324","walltime":"18.000","ppvisitednodes":{"value":1641,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":16327,"limit":2097152},"templateargumentsize":{"value":1104,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":79432,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 17940.904      1 -total"," 18.93% 3396.015     20 Template:Perl2"," 10.49% 1882.463      9 Template:Haskell","  6.92% 1241.146      7 Template:Smalltalk","  2.97%  532.191      3 Template:S-Lang","  1.11%  199.325      1 Template:D-lang","  1.09%  195.823      1 Template:Cpp","  0.94%  169.352      1 Template:Code","  0.50%   90.217     39 Template:Further_information","  0.08%   14.272      1 Template:Reflist"]},"scribunto":{"limitreport-timeusage":{"value":"0.063","limit":"10.000"},"limitreport-memusage":{"value":1460959,"limit":52428800}},"cachereport":{"origin":"mw1333","timestamp":"20180331105946","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":74,"wgHostname":"mw1267"});});
+	
+

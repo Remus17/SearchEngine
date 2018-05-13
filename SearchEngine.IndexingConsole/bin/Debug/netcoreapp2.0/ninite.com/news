@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ninite - Install or Update Multiple Apps at Once</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="https://d8f7mp21btv4f.cloudfront.net/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="https://d8f7mp21btv4f.cloudfront.net/css/crystal-2f9dde9064cc1885f150d6ae84e9c1d7.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<link href="https://d8f7mp21btv4f.cloudfront.net/crystal/js/respond-proxy-1ac71ee4ee5fb602995fbd6fca5468b4.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/robots.txt" id="respond-redirect" rel="respond-redirect" />
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/oldie-78ee42ef96d2d8f3e4cd3a939f7231d8.js"></script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-10831845-1']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'https://ssl.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="ninite-brand" href="/">
+<img src="https://d8f7mp21btv4f.cloudfront.net/crystal/img/brand-95c4357c0068bf934474cf8b7721890a.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="/help/">Help</a></li>
+<li><a href="/feedback">Feedback</a></li>
+
+<li><a href="/pro">Ninite Pro</a></li>
+<li><a href="/signin">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://ninite.com/news.rss">
+<div class="press">
+<div class="writing">
+<h2>Our latest updates</h2>
+
+<p>
+Skype updated to 8.17.<br>
+<span class="small">6 hours ago</span>
+</p>
+
+<p>
+Spotify updated to 1.0.75.483.<br>
+<span class="small">Friday at 6:06 pm</span>
+</p>
+
+<p>
+XnView updated to 2.44.<br>
+<span class="small">March 1 at 2:48 pm</span>
+</p>
+
+<p>
+Avast updated to 18.2.3827.<br>
+<span class="small">March 1 at 2:37 pm</span>
+</p>
+
+<p>
+LibreOffice updated to 6.0.2.<br>
+<span class="small">March 1 at 12:52 pm</span>
+</p>
+
+<p>
+Blender updated to 2.79.1.<br>
+<span class="small">February 28 at 5:14 pm</span>
+</p>
+
+<p>
+VLC updated to 3.0.1.<br>
+<span class="small">February 28 at 11:27 am</span>
+</p>
+
+<p>
+Notepad++ updated to 7.5.5.<br>
+<span class="small">February 27 at 11:03 pm</span>
+</p>
+
+<p>
+Avira updated to 15.0.34.27.<br>
+<span class="small">February 27 at 8:36 pm</span>
+</p>
+
+<p>
+Dropbox updated to 44.4.58.<br>
+<span class="small">February 27 at 8:27 pm</span>
+</p>
+
+<p>
+IrfanView updated to 4.51.<br>
+<span class="small">February 27 at 8:08 pm</span>
+</p>
+
+<p>
+Skype updated to 8.16.<br>
+<span class="small">February 26 at 10:02 pm</span>
+</p>
+
+<p>
+FileZilla updated to 3.31.0.<br>
+<span class="small">February 23 at 1:38 pm</span>
+</p>
+
+<p>
+Chrome updated to 64.0.3282.186.<br>
+<span class="small">February 23 at 2:19 am</span>
+</p>
+
+<p>
+Opera Chromium updated to 51.0.2830.40.<br>
+<span class="small">February 22 at 8:18 pm</span>
+</p>
+
+<p>
+Audacity updated to 2.2.2.<br>
+<span class="small">February 21 at 9:17 am</span>
+</p>
+
+<p>
+K-Lite Codecs updated to 14.0.0.<br>
+<span class="small">February 19 at 6:46 pm</span>
+</p>
+
+<p>
+WinSCP updated to 5.13.0.<br>
+<span class="small">February 19 at 3:42 pm</span>
+</p>
+
+<p>
+PeaZip updated to 6.5.1.<br>
+<span class="small">February 18 at 3:29 pm</span>
+</p>
+
+<p>
+Avira updated to 15.0.34.23.<br>
+<span class="small">February 16 at 3:28 pm</span>
+</p>
+
+<p>
+Evernote updated to 6.9.7.6770.<br>
+<span class="small">February 16 at 2:14 pm</span>
+</p>
+
+<p>
+qBittorrent updated to 4.0.4.<br>
+<span class="small">February 16 at 2:12 pm</span>
+</p>
+
+<p>
+Opera Chromium updated to 51.0.2830.34.<br>
+<span class="small">February 15 at 5:35 pm</span>
+</p>
+
+<p>
+Spotify updated to 1.0.74.380.<br>
+<span class="small">February 15 at 5:27 pm</span>
+</p>
+
+<p>
+Visual Studio Code updated to 1.20.1.<br>
+<span class="small">February 14 at 4:29 pm</span>
+</p>
+
+<p>
+Chrome updated to 64.0.3282.167.<br>
+<span class="small">February 14 at 4:09 am</span>
+</p>
+
+<p>
+Avast updated to 18.1.3800.<br>
+<span class="small">February 12 at 2:48 pm</span>
+</p>
+
+<p>
+VLC updated to 3.0.0.<br>
+<span class="small">February 10 at 2:48 pm</span>
+</p>
+
+<p>
+Evernote updated to 6.9.6.6729.<br>
+<span class="small">February 9 at 10:01 pm</span>
+</p>
+
+<p>
+Dropbox updated to 43.4.50.<br>
+<span class="small">February 9 at 7:20 pm</span>
+</p>
+
+<p>
+Everything updated to 1.4.1.895.<br>
+<span class="small">February 9 at 6:44 pm</span>
+</p>
+
+<p>
+LibreOffice updated to 6.0.1.<br>
+<span class="small">February 9 at 4:30 am</span>
+</p>
+
+<p>
+Visual Studio Code updated to 1.20.0.<br>
+<span class="small">February 7 at 8:56 pm</span>
+</p>
+
+<p>
+Firefox updated to 58.0.2.<br>
+<span class="small">February 7 at 8:43 pm</span>
+</p>
+
+<p>
+Opera Chromium updated to 51.0.2830.26.<br>
+<span class="small">February 7 at 2:08 pm</span>
+</p>
+
+<p>
+Dropbox updated to 43.4.49.<br>
+<span class="small">February 6 at 11:34 pm</span>
+</p>
+
+<p>
+Google Earth updated to 7.3.1.4507.<br>
+<span class="small">February 6 at 10:32 pm</span>
+</p>
+
+<p>
+Glary updated to 5.92.0.114.<br>
+<span class="small">February 5 at 6:22 pm</span>
+</p>
+
+<p>
+Avira updated to 15.0.34.20.<br>
+<span class="small">February 2 at 6:31 pm</span>
+</p>
+
+<p>
+Chrome updated to 64.0.3282.140.<br>
+<span class="small">February 2 at 2:42 am</span>
+</p>
+
+<p>
+K-Lite Codecs updated to 13.8.0.<br>
+<span class="small">January 31 at 11:39 pm</span>
+</p>
+
+<p>
+Google Backup and Sync updated to 3.39.8370.7843.<br>
+<span class="small">January 31 at 5:03 pm</span>
+</p>
+
+<p>
+Spotify updated to 1.0.73.345.<br>
+<span class="small">January 31 at 4:41 pm</span>
+</p>
+
+<p>
+LibreOffice updated to 6.0.0.<br>
+<span class="small">January 31 at 3:53 pm</span>
+</p>
+
+<p>
+Google Backup and Sync updated to 3.39.8297.0200.<br>
+<span class="small">January 29 at 7:55 pm</span>
+</p>
+
+<p>
+Firefox updated to 58.0.1.<br>
+<span class="small">January 29 at 6:58 pm</span>
+</p>
+
+<p>
+7-Zip updated to 18.01.<br>
+<span class="small">January 29 at 4:49 pm</span>
+</p>
+
+<p>
+SugarSync updated to 3.9.2.1.151467.<br>
+<span class="small">January 27 at 2:23 am</span>
+</p>
+
+<p>
+MediaMonkey updated to 4.1.20.1864.<br>
+<span class="small">January 26 at 4:19 pm</span>
+</p>
+
+<p>
+Thunderbird updated to 52.6.0.<br>
+<span class="small">January 26 at 4:07 pm</span>
+</p>
+
+<p>
+Visual Studio Code updated to 1.19.3.<br>
+<span class="small">January 25 at 9:47 pm</span>
+</p>
+
+<p>
+SugarSync updated to 3.9.1.1.151423.<br>
+<span class="small">January 25 at 9:40 pm</span>
+</p>
+
+<p>
+PDFCreator updated to 3.1.2.10844.<br>
+<span class="small">January 25 at 7:45 pm</span>
+</p>
+
+<p>
+Google Earth updated to 7.3.1.4505.<br>
+<span class="small">January 25 at 2:58 am</span>
+</p>
+
+<p>
+Chrome updated to 64.0.3282.119.<br>
+<span class="small">January 24 at 8:12 pm</span>
+</p>
+
+<p>
+Dropbox updated to 42.4.114.<br>
+<span class="small">January 24 at 3:35 pm</span>
+</p>
+
+<p>
+iTunes updated to 12.7.3.46.<br>
+<span class="small">January 23 at 10:14 pm</span>
+</p>
+
+<p>
+Firefox updated to 58.0.<br>
+<span class="small">January 23 at 2:47 pm</span>
+</p>
+
+<p>
+Opera Chromium updated to 50.0.2762.67.<br>
+<span class="small">January 22 at 2:55 pm</span>
+</p>
+
+<p>
+SugarSync updated to 3.9.0.28.151334.<br>
+<span class="small">January 19 at 3:59 pm</span>
+</p>
+
+<p>
+Google Backup and Sync updated to 3.38.7642.3857.<br>
+<span class="small">January 18 at 3:58 pm</span>
+</p>
+
+<p>
+MusicBee updated to 3.1.6590.32668.<br>
+<span class="small">January 17 at 4:05 pm</span>
+</p>
+
+<p>
+JDK 8 updated to 8u161-b12.<br>
+<span class="small">January 16 at 9:14 pm</span>
+</p>
+
+<p>
+JDK x64 8 updated to 8u161-b12.<br>
+<span class="small">January 16 at 9:14 pm</span>
+</p>
+
+<p>
+Java 8 updated to 8u161-b12.<br>
+<span class="small">January 16 at 7:02 pm</span>
+</p>
+
+<p>
+Spotify updated to 1.0.72.117.<br>
+<span class="small">January 16 at 2:52 pm</span>
+</p>
+
+<p>
+Paint.NET updated to 4.21.6589.7045.<br>
+<span class="small">January 15 at 2:25 pm</span>
+</p>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="/jobs">jobs</a></li>
+<li><a class="footer-link" href="/about">about</a></li>
+<li><a class="footer-link" href="/press">press</a></li>
+<li><a class="footer-link" href="/news">updates</a></li>
+<li><a class="footer-link" href="/security">security</a></li>
+<li><a class="footer-link" href="/privacy">privacy</a></li>
+<li><a class="footer-link" href="/terms">terms</a></li>
+</ul>
+<p class="small">
+&copy;2018 Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/bundle-3737f22be190c9564031d54327c43962.js"></script>
+</body>
+</html>

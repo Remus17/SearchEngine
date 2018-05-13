@@ -1,0 +1,806 @@
+
+
+
+
+CoffeeScript - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"CoffeeScript","wgTitle":"CoffeeScript","wgCurRevisionId":827293193,"wgRevisionId":827293193,"wgArticleId":27403236,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template wayback links","Pages using deprecated image syntax","All articles with unsourced statements","Articles with unsourced statements from January 2016","Dynamic programming languages","Programming languages created in 2009","JavaScript programming language family","Prototype-based programming languages","Software using the MIT license","Source-to-source compilers","High-level programming languages","2009 software","Free software projects"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"CoffeeScript","wgRelevantArticleId":27403236,"wgRequestId":"WsIl3QpAICEAAJHWBgwAAADY","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1106819","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+CoffeeScript			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+CoffeeScript
+
+
+
+
+Paradigm
+Multi-paradigm: prototype-based, functional, imperative, scripting
+
+
+Designed by
+Jeremy Ashkenas
+
+
+Developer
+Jeremy Ashkenas
+
+
+First appeared
+December 13, 2009; 8 years ago (2009-12-13)
+
+
+
+
+
+Stable release
+
+2.0.0 / September 18, 2017; 6 months ago (2017-09-18)
+
+
+
+
+
+
+OS
+Cross-platform
+
+
+License
+MIT License
+
+
+Filename extensions
+.coffee, .litcoffee
+
+
+Website
+coffeescript.org
+
+
+Influenced by
+
+
+Haskell, JavaScript, Perl,[citation needed] Python,[1] Ruby, YAML[2]
+
+
+Influenced
+
+
+MoonScript, LiveScript, JavaScript
+
+
+CoffeeScript is a programming language that transcompiles to JavaScript. It adds syntactic sugar inspired by Ruby, Python and Haskell in an effort to enhance JavaScript's brevity and readability.[3] Specific additional features include list comprehension and pattern matching.
+CoffeeScript support is included in Ruby on Rails version 3.1[4] and Play Framework.[5] In 2011, Brendan Eich referenced CoffeeScript as an influence on his thoughts about the future of JavaScript.[6][7]
+
+
+
+Contents
+
+
+1 History
+2 Syntax
+3 Examples
+
+3.1 Interval test
+3.2 Loops and comprehensions
+3.3 Functions and jQuery
+3.4 String interpolation
+
+
+4 Compiling
+5 Latest additions
+6 Adoption
+7 See also
+
+7.1 Other languages that compile to JavaScript
+
+
+8 References
+9 Further reading
+10 External links
+
+
+
+History[edit]
+On December 13, 2009, Jeremy Ashkenas made the first Git commit of CoffeeScript with the comment: "initial commit of the mystery language."[8] The compiler was written in Ruby. On December 24, he made the first tagged and documented release, 0.1.0. On February 21, 2010, he committed version 0.5, which replaced the Ruby compiler with a self-hosting version in pure CoffeeScript. By that time the project had attracted several other contributors on GitHub, and was receiving over 300 page hits per day.
+On December 24, 2010, Ashkenas announced the release of stable 1.0.0 to Hacker News, the site where the project was announced for the first time.[9][10]
+Syntax[edit]
+Almost everything is an expression in CoffeeScript, for example if, switch and for expressions (which have no return value in JavaScript) return a value. As in Perl, these control statements also have postfix versions; for example, if can also be written after the conditional statement.
+Many unnecessary parentheses and braces can be omitted; for example, blocks of code can be denoted by indentation instead of braces, function calls are implicit, and object literals are often detected automatically.
+Examples[edit]
+Interval test[edit]
+To compute the body mass index, one may do (here in JavaScript):
+
+
+var mass = 72;
+var height = 1.78;
+var BMI = mass / Math.pow(height, 2);
+if (18.5 < BMI && BMI < 25) alert('You are healthy!');
+
+With CoffeeScript the interval is directly described:
+
+
+mass = 72
+height = 1.78
+BMI = mass / height**2
+alert 'You are healthy!' if 18.5 < BMI < 25
+
+Loops and comprehensions[edit]
+To compute the greatest common divisor of two integers with the euclidean algorithm, in JavaScript one usually needs a while loop:
+
+
+gcd = (x, y) => {
+  do {
+    z = x % y
+    x = y
+    y = z
+  } while (y !== 0)
+  return x
+}
+
+Whereas in CoffeeScript one can use until and pattern-matching instead:
+
+
+gcd = (x, y) ->
+  [x, y] = [y, x%y] until y is 0
+  x
+
+Any for loop can be replaced by a list comprehension; so that to compute the squares of the positive odd numbers smaller than ten (i.e. numbers which remainder modulo 2 is 1), one can do:
+
+
+alert n*n for n in [1..10] when n%2 is 1
+
+Alternatively, there is:
+
+
+alert n*n for n in [1..10] by 2
+
+A linear search can be implemented with a one-liner using the when keyword:
+
+
+names = ["Ivan", "Joanna", "Nikolay", "Mihaela"]
+linearSearch = (searchName) -> alert(name) for name in names when name is searchName
+
+The for ... in syntax allows looping over arrays while the for ... of syntax allows looping over objects.
+The ? keyword quickly checks if a variable is null or undefined :
+
+
+personCheck = ->
+  if not person? then alert("No person") else alert("Have person")
+person = null
+personCheck()
+person = "Ivan"
+personCheck()
+
+This would alert "No person" if the variable is null or undefined and "Have person" if there is something there.
+Functions and jQuery[edit]
+A common JavaScript snippet using the jQuery library is:
+
+
+$(document).ready(function() {
+  // Initialization code goes here
+})
+
+Or even just:
+
+
+$(function() {
+  // Initialization code goes here
+})
+
+In CoffeeScript, the function keyword is replaced by the -> symbol, and indentation is used instead of curly braces, as in other off-side rule languages such as Python and Haskell. Also, parentheses can usually be omitted, using indentation level instead to denote a function or block. Thus, the CoffeeScript equivalent of the snippet above is:
+
+
+$(document).ready ->
+  # Initialization code goes here
+
+Or just:
+
+
+$ ->
+  # Initialization code goes here
+
+String interpolation[edit]
+Ruby-style string interpolation is included in CoffeeScript. Double-quoted strings allow for interpolated values, using #{ ... }, and single-quoted strings are literal.[11]
+
+
+author = "Wittgenstein"
+quote  = "A picture is a fact. -- #{ author }"
+
+sentence = "#{ 22 / 7 } is a decent approximation of π"
+
+Compiling[edit]
+The CoffeeScript compiler has been written in CoffeeScript since version 0.5 and is available as a Node.js utility; however, the core compiler does not rely on Node.js and can be run in any JavaScript environment.[12] One alternative to the Node.js utility is the Coffee Maven Plugin, a plugin for the popular Apache Maven build system. The plugin uses the Rhino JavaScript engine written in Java.
+The official site at CoffeeScript.org has a "Try CoffeeScript" button in the menu bar; clicking it opens a modal window in which users can enter CoffeeScript, see the JavaScript output, and run it directly in the browser. The js2coffee[13] site provides bi-directional translation.
+Latest additions[edit]
+
+Source maps allow users to de-bug their CoffeeScript code directly, supporting CoffeeScript tracebacks on run time errors.
+CoffeeScript supports a form of Literate Programming, using the .coffee.md or .litcoffee file extension. This allows CoffeeScript source code to be written in Markdown. The compiler will treat any indented blocks (Markdown's way of indicating source code) as code, and ignore the rest as comments.
+
+Adoption[edit]
+On September 13, 2012, Dropbox announced that their browser-side code base has been rewritten from JavaScript to CoffeeScript.[14]
+GitHub's internal style guide once said "write new JS in CoffeeScript", and while it no longer does, all the advice in the style guide references how to write good CoffeeScript,[15] and their Atom text editor is also written in the language.[16]
+See also[edit]
+
+Source-to-source compiler
+
+Other languages that compile to JavaScript[edit]
+
+
+Free software portal
+
+
+(In chronological order, with ones listed in the TIOBE index highlighted in bold.)
+
+Haxe (2006): a language that can be transpiled to C++, Java, C#, Python, Lua, PHP, and ActionScript; as well as JavaScript.
+
+
+Nim (2008): a statically-typed programming language with syntactical similarities to Python. The same Nim code can be compiled to C/C++ (optimized systems programming, server-side, etc) or to JavaScript (interpreted scripting, client-side).
+
+
+LiveScript (2011): an indirect descendant of CoffeeScript focusing on functional programming.
+
+
+Amber Smalltalk (2011): an implementation of the Smalltalk-80 language that runs on the JavaScript runtime.
+
+
+Dart (2011): a Google-led general-purpose OOP language with optional typing.
+
+
+Opa (2011): an integrated stack for developing scalable client-server Web applications.
+
+
+TypeScript (2012): a Microsoft-led strict superset of JavaScript with optional typing.
+
+
+Elm (2012): a statically-typed purely-functional language that compiles to JavaScript.
+
+References[edit]
+
+
+^ http://coffeescript.org/ "CoffeeScript borrows chained comparisons from Python"
+^ Heller, Martin (18 October 2011). "Turn up your nose at Dart and smell the CoffeeScript". JavaWorld. InfoWorld. Retrieved 2012-02-09. 
+^ Alex MacCaw (January 2012). The Little Book on CoffeScript. O'Reilly Media. ISBN 978-1-4493-2105-5. 
+^ Josh Peek (April 13, 2011). "Tweet by Rails Core Team Member". 
+^ "AssetsCoffeeScript - 2.5.x". www.playframework.com. Retrieved 2016-10-31. 
+^ Eich, Brendan. "Harmony of My Dreams"
+^ Eich, Brendan. "My JSConf.US Presentation"
+^ Github. 'initial commit of the mystery language'
+^ Hacker News. CoffeeScript 1.0.0 announcement posted by Jeremy Ashkenas on Dec 24, 2010
+^ Hacker News. Original CoffeeScript announcement posted by Jeremy Ashkenas on Dec 24, 2009
+^ "Official CoffeeScript Page". Retrieved 20 November 2013. 
+^ CoffeeScript Archived 2012-04-27 at the Wayback Machine.. Jashkenas.github.com. Retrieved on 2013-07-21.
+^ Sta Cruz, Rico. "js2coffee". Retrieved 11 May 2014. 
+^ Wheeler, Dan; Mahkovec, Ziga; Varenhorst, Chris (13 September 2012). "Dropbox dives into CoffeeScript". Retrieved 11 May 2013. 
+^ "JavaScript · Styleguide · GitHub". Github.com. Archived from the original on 2013-08-15. Retrieved 2015-11-30. 
+^ Atom source code. github.com. Retrieved on 2015-07-22.
+
+
+Further reading[edit]
+
+Lee, Patrick (May 14, 2014). "CoffeeScript in Action" (First ed.). Manning Publications: 432. ISBN 978-1617290626. 
+Grosenbach, Geoffrey (May 12, 2011). "Meet CoffeeScript" (First ed.). PeepCode. 
+Bates, Mark (May 31, 2012). "Programming in CoffeeScript" (First ed.). Addison-Wesley: 350. ISBN 0-321-82010-X. 
+MacCaw, Alex (January 31, 2012). "The Little Book on CoffeeScript" (First ed.). O'Reilly Media: 62. ISBN 978-1449321055. 
+Burnham, Trevor (August 3, 2011). "CoffeeScript: Accelerated JavaScript Development" (First ed.). Pragmatic Bookshelf: 138. ISBN 978-1934356784. 
+
+External links[edit]
+
+Official website
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Programming languages
+
+
+
+
+
+
+Comparison
+Timeline
+History
+
+
+
+
+
+
+
+
+APL
+Assembly
+BASIC
+C
+C++
+C#
+COBOL
+Fortran
+Go
+Groovy
+Haskell
+Java
+JavaScript (JS)
+Lisp
+Lua
+Objective-C
+Pascal
+Perl
+PHP
+Python
+Ruby
+Shell
+Smalltalk
+Swift
+Visual Basic .NET (VB.NET)
+more...
+
+
+
+
+
+
+
+
+ Category
+ Lists
+
+Alphabetical
+Categorical
+Generational
+Non-English-based
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+JavaScript
+
+
+
+Code analysis
+
+
+
+JSHint
+JSLint
+
+
+
+
+
+Transcompilers
+
+
+
+CoffeeScript
+Dart
+Emscripten
+Google Closure Compiler
+Google Web Toolkit
+Morfik
+TypeScript
+AtScript
+Opa
+Haxe
+ClojureScript
+
+
+
+
+
+Concepts
+
+
+
+Ajax
+Client-side
+Dynamic HTML
+JavaScript library
+JavaScript syntax
+Unobtrusive JavaScript
+
+
+
+
+
+Debuggers
+
+
+
+Firebug
+Komodo IDE
+Microsoft Script Debugger
+Microsoft Script Editor
+Opera Dragonfly
+Venkman
+Web Inspector
+
+
+
+
+
+Doc generators
+
+
+
+JSDoc
+
+
+
+
+
+Editors (comparison)
+
+
+
+Ace
+
+Cloud9 IDE
+
+
+Atom
+CodeMirror
+
+Light Table
+Brackets
+
+
+Koding
+Orion
+Visual Studio
+
+Visual Studio Express
+
+
+Visual Studio Code
+Visual Studio Team Services
+
+
+
+
+
+Engines
+
+
+
+Comparison of layout engines
+List of ECMAScript engines
+List of JavaScript engines
+
+
+
+
+
+Frameworks
+
+
+
+Comparison of JavaScript frameworks
+List of JavaScript libraries
+
+
+
+
+
+Related technologies
+
+
+
+Cascading Style Sheets
+Document Object Model
+HTML
+JSON
+WebAssembly
+
+
+
+
+
+Package managers
+
+
+
+npm
+NuGet
+
+
+
+
+
+Server-side
+
+
+
+Active Server Pages
+CommonJS
+JSGI
+Node.js
+Wakanda
+
+
+
+
+
+Unit testing
+
+
+
+Jasmine
+Mocha
+QUnit
+List of JavaScript unit testing frameworks
+
+
+
+
+
+People
+
+
+
+Douglas Crockford
+Brendan Eich
+John Resig
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Node.js
+
+
+
+Platform
+
+
+
+Node.js
+NPM
+V8
+CommonJS
+
+
+
+
+
+
+
+
+Frameworks
+
+
+
+MEAN
+
+MongoDB
+Express.js
+AngularJS/Angular
+
+
+MEEN (substituted with Ember.js)
+Backbone.js
+Meteor
+
+
+
+
+
+Libraries
+
+
+
+Lodash
+Underscore.js
+React.js
+
+
+
+
+
+Languages
+
+
+
+JavaScript
+CoffeeScript
+TypeScript
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=CoffeeScript&oldid=827293193"					
+				Categories: Dynamic programming languagesProgramming languages created in 2009JavaScript programming language familyPrototype-based programming languagesSoftware using the MIT licenseSource-to-source compilersHigh-level programming languages2009 softwareFree software projectsHidden categories: Webarchive template wayback linksPages using deprecated image syntaxAll articles with unsourced statementsArticles with unsourced statements from January 2016				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					AlemannischالعربيةCatalàDeutschEspañolفارسیFrançais한국어Italiano日本語PolskiPortuguêsРусскийТатарча/tatarçaTürkçeУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 23 February 2018, at 21:59.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.328","walltime":"0.622","ppvisitednodes":{"value":1916,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":67405,"limit":2097152},"templateargumentsize":{"value":3489,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":19023,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  550.402      1 -total"," 26.99%  148.549      2 Template:Infobox"," 24.52%  134.981      1 Template:Infobox_programming_language"," 15.14%   83.330      1 Template:Reflist","  8.10%   44.584      1 Template:Citation_needed","  7.26%   39.982      1 Template:Official_website","  7.20%   39.612      1 Template:Fix","  5.86%   32.255      1 Template:Cite_news","  5.40%   29.725      3 Template:Navbox","  5.02%   27.629      2 Template:Start_date_and_age"]},"scribunto":{"limitreport-timeusage":{"value":"0.163","limit":"10.000"},"limitreport-memusage":{"value":5132293,"limit":52428800}},"cachereport":{"origin":"mw1262","timestamp":"20180402011250","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":89,"wgHostname":"mw1331"});});
+	
+

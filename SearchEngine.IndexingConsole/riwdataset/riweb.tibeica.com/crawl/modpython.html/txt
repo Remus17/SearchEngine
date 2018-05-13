@@ -1,0 +1,205 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Next:
+Front Matter
+
+
+
+
+
+
+
+
+Mod_python Manual
+Gregory Trubetskoy
+
+        E-mail: grisha@apache.org
+
+Release 3.2.8
+February 19, 2006
+
+
+
+
+
+
+
+
+
+
+
+Front Matter
+Contents
+1. Introduction
+
+1.1 Performance
+1.2 Flexibility
+1.3 History
+
+2. Installation
+
+2.1 Prerequisites
+2.2 Compiling
+
+2.2.1 Running ./configure
+2.2.2 Running make
+
+2.3 Installing
+
+2.3.1 Running make install
+2.3.2 Configuring Apache
+
+2.4 Testing
+2.5 Troubleshooting
+
+3. Tutorial
+
+3.1 A Quick Start with the Publisher Handler
+3.2 Quick Overview of how Apache Handles Requests
+3.3 So what Exactly does Mod-python do?
+3.4 Now something More Complicated - Authentication
+3.5 Your Own 404 Handler
+
+4. Python API
+
+4.1 Multiple Interpreters
+4.2 Overview of a Request Handler
+4.3 Overview of a Filter Handler
+4.4 Overview of a Connection Handler
+4.5 apache - Access to Apache Internals.
+
+4.5.1 Functions
+4.5.2 Table Object (mp_table) 
+4.5.3 Request Object 
+4.5.4 Connection Object (mp_conn) 
+4.5.5 Filter Object (mp_filter) 
+4.5.6 Server Object (mp_server) 
+
+4.6 util - Miscellaneous Utilities
+
+4.6.1 FieldStorage class
+4.6.2 Field class
+4.6.3 Other functions
+
+4.7 Cookie - HTTP State Management
+
+4.7.1 Classes
+4.7.2 Functions
+4.7.3 Examples
+
+4.8 Session - Session Management
+
+4.8.1 Classes
+4.8.2 Examples
+
+4.9 psp - Python Server Pages
+
+5. Apache Configuration Directives
+
+5.1 Request Handlers
+
+5.1.1 Python*Handler Directive Syntax
+5.1.2 PythonPostReadRequestHandler
+5.1.3 PythonTransHandler
+5.1.4 PythonHeaderParserHandler
+5.1.5 PythonInitHandler
+5.1.6 PythonAccessHandler
+5.1.7 PythonAuthenHandler
+5.1.8 PythonAuthzHandler
+5.1.9 PythonTypeHandler
+5.1.10 PythonFixupHandler
+5.1.11 PythonHandler
+5.1.12 PythonLogHandler
+5.1.13 PythonCleanupHandler
+
+5.2 Filters
+
+5.2.1 PythonInputFilter
+5.2.2 PythonOutputFilter
+
+5.3 Connection Handler
+
+5.3.1 PythonConnectionHandler
+
+5.4 Other Directives
+
+5.4.1 PythonEnablePdb
+5.4.2 PythonDebug
+5.4.3 PythonImport
+5.4.4 PythonInterpPerDirectory
+5.4.5 PythonInterpPerDirective
+5.4.6 PythonInterpreter
+5.4.7 PythonHandlerModule
+5.4.8 PythonAutoReload
+5.4.9 PythonOptimize
+5.4.10 PythonOption
+5.4.11 PythonPath
+
+
+6. Standard Handlers
+
+6.1 Publisher Handler
+
+6.1.1 Introduction
+6.1.2 The Publishing Algorithm
+6.1.3 Form Data
+
+6.2 PSP Handler
+6.3 CGI Handler
+
+A. Changes from Version (3.2.7)
+B. Changes from Version (3.1.4)
+C. Changes from Previous Major Version (2.x)
+Index
+About this document ...
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Next:
+Front Matter
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

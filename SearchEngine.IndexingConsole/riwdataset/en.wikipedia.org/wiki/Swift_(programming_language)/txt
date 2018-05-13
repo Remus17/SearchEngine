@@ -1,0 +1,874 @@
+
+
+
+
+Swift (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Swift_(programming_language)","wgTitle":"Swift (programming language)","wgCurRevisionId":833218944,"wgRevisionId":833218944,"wgArticleId":42946389,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with dead external links","Articles with dead external links from February 2018","Pages with login required references or sources","Use mdy dates from October 2015","All articles with unsourced statements","Articles with unsourced statements from November 2017","Articles needing cleanup from February 2017","All pages needing cleanup","Articles with sections that need to be turned into prose from February 2017","Wikipedia articles with LCCN identifiers","Apple Inc.","Computer-related introductions in 2014","Object-oriented programming languages","Pattern matching programming languages","Programming languages","Programming languages created in 2014","Software using the Apache license","Statically typed programming languages","Systems programming languages"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Swift_(programming_language)","wgRelevantArticleId":42946389,"wgRequestId":"WsGEEQpAME8AAHZHNS0AAABJ","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q17118377","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.math.scripts","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Swift (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				This article is about the Apple programming language. For the scripting language, see Swift (parallel scripting language).
+
+Swift
+
+
+
+
+Paradigm
+Multi-paradigm: protocol-oriented, object-oriented, functional, imperative, block structured
+
+
+Designed by
+Chris Lattner and Apple Inc.
+
+
+Developer
+Apple Inc.
+
+
+First appeared
+June 2, 2014; 3 years ago (2014-06-02)[1]
+
+
+
+
+
+Stable release
+
+4.1[2] / March 29, 2018; 4 days ago (2018-03-29)
+
+
+
+
+
+
+Typing discipline
+Static, strong, inferred
+
+
+OS
+Darwin, Linux, FreeBSD
+
+
+License
+Apache License 2.0 (Swift 2.2 and later)
+Proprietary (up to Swift 2.2)[3][4]
+
+
+Filename extensions
+.swift
+
+
+Website
+swift.org
+
+
+Influenced by
+
+
+Objective-C,[5] Rust, Haskell, Ruby, Python, C#, CLU,[6] D,[7]Object Pascal[8]
+
+
+Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, and Linux. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C (ObjC) code written for Apple products. It is built with the open source LLVM compiler framework and has been included in Xcode since version 6. On platforms other than Linux,[9] it uses the Objective-C runtime library which allows C, Objective-C, C++ and Swift code to run within one program.[10]
+Apple intended Swift to support many core concepts associated with Objective-C, notably dynamic dispatch, widespread late binding, extensible programming and similar features, but "safer" (easier to catch software bugs); Swift has features addressing some common programming errors like null pointers and provides syntactic sugar to help avoid the pyramid of doom. Swift supports the concept of protocol extensibility, an extensibility system that can be applied to types, structs and classes, which Apple promotes as a real change in programming paradigms they term "protocol-oriented programming"[11] (similar to traits).[12]
+Swift was introduced at Apple's 2014 Worldwide Developers Conference (WWDC).[13] It underwent an upgrade to version 1.2 during 2014 and a more major upgrade to Swift 2 at WWDC 2015. Initially a proprietary language, version 2.2 was made open-source software under the Apache License 2.0 on December 3, 2015, for Apple's platforms and Linux.[14][15]
+In March 2017, Swift made the top 10 in the monthly TIOBE index ranking of popular programming languages,[16] and was ranked 11th at the end of 2017.[17]
+
+
+
+Contents
+
+
+1 History
+
+1.1 Version History
+
+
+2 Features
+
+2.1 Syntactic sugar
+2.2 Access control
+2.3 Optionals and chaining
+2.4 Value types
+2.5 Protocol-oriented programming
+2.6 Libraries, runtime and development
+2.7 Memory management
+2.8 Debugging and other elements
+2.9 Performance
+
+
+3 Comparisons to other languages
+4 Development and other implementations
+5 See also
+6 References
+7 External links
+
+
+
+History[edit]
+Development of Swift started in July 2010 by Chris Lattner, with the eventual collaboration of many other programmers at Apple. Swift took language ideas "from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list".[6] On June 2, 2014, the Apple Worldwide Developers Conference (WWDC) application became the first publicly released app written with Swift.[18] A beta version of the programming language was released to registered Apple developers at the conference, but the company did not promise that the final version of Swift would be source code compatible with the test version. Apple planned to make source code converters available if needed for the full release.[18]
+The Swift Programming Language, a free 500-page manual, was also released at WWDC, and is available on the iBooks Store and the official website.[19]
+Swift reached the 1.0 milestone on September 9, 2014, with the Gold Master of Xcode 6.0 for iOS.[20] Swift 1.1 was released on October 22, 2014, alongside the launch of Xcode 6.1.[21] Swift 1.2 was released on April 8, 2015, along with Xcode 6.3.[22] Swift 2.0 was announced at WWDC 2015, and was made available for publishing apps in the App Store in September 21, 2015.[23] Swift 3.0 was released on September 13, 2016.[24] Swift 4.0 was released on September 19, 2017.[25] Swift 4.1 was released on March 29, 2018.[26]
+Swift won first place for Most Loved Programming Language in the Stack Overflow Developer Survey 2015[27] and second place in 2016.[28]
+In December 2015, IBM announced its Swift Sandbox website, which allows developers to write Swift code in one pane and display output in another.[29][30][31]
+During the WWDC 2016, Apple announced an iPad exclusive app, named Swift Playgrounds, intended to teach people how to code in Swift. The app is presented in a 3D video game-like interface which provides feedback when lines of code are placed in a certain order and executed.[32][33][34]
+In January 2017, Chris Lattner announced his departure from Apple for a new position with Tesla Motors, with the Swift project lead role going to team veteran Ted Kremenek.[35][36]
+Version History[edit]
+
+
+Date
+Version
+
+
+2014-09-09
+Swift 1.0
+
+
+2014-10-22
+Swift 1.1
+
+
+2015-04-08
+Swift 1.2
+
+
+2015-09-21
+Swift 2.0
+
+
+2016-09-13
+Swift 3.0
+
+
+2017-09-19
+Swift 4.0
+
+
+2018-03-29
+Swift 4.1
+
+
+Features[edit]
+Swift is an alternative to the Objective-C language that employs modern programming-language theory concepts and strives to present a simpler syntax. During its introduction, it was described simply as "Objective-C without the C".[37][38]
+By default, Swift does not expose pointers and other unsafe accessors, in contrast to Objective-C, which uses pointers pervasively to refer to object instances. Also, Objective-C's use of a Smalltalk-like syntax for making method calls has been replaced with a dot-notation style and namespace system more familiar to programmers from other common object-oriented (OO) languages like Java or C#. Swift introduces true named parameters and retains key Objective-C concepts, including protocols, closures and categories, often replacing former syntax with cleaner versions and allowing these concepts to be applied to other language structures, like enumerated types (enums)[39]
+Syntactic sugar[edit]
+Under the Cocoa and Cocoa Touch environments, many common classes were part of the Foundation Kit library. This included the NSString string library (using Unicode), the NSArray and NSDictionary collection classes, and others. Objective-C provided various bits of syntactic sugar to allow some of these objects to be created on-the-fly within the language, but once created, the objects were manipulated with object calls. For instance, in Objective-C concatenating two NSStrings required method calls similar to this:
+
+
+NSString *str = @"hello,";
+str = [str stringByAppendingString:@" world"];
+
+In Swift, many of these basic types have been promoted to the language's core, and can be manipulated directly. For instance, strings are invisibly bridged to NSString (when Foundation is imported) and can now be concatenated with the + operator, allowing greatly simplified syntax; the prior example becoming:[40]
+
+
+var str = "hello,"
+str += " world"
+
+Access control[edit]
+Swift supports five access control levels for symbols: open, public, internal, fileprivate, and private. Unlike many object-oriented languages, these access controls ignore inheritance hierarchies: private indicates that a symbol is accessible only in the immediate scope, fileprivate indicates it is accessible only from within the file, internal indicates it is accessible within the containing module, public indicates it is accessible from any module, and open (only for classes and their methods) indicates that the class may be subclassed outside of the module.[41]
+Optionals and chaining[edit]
+An important new feature in Swift is option types, which allow references or values to operate in a manner similar to the common pattern in C, where a pointer may refer to a value or may be null. This implies that non-optional types cannot result in a null-pointer error; the compiler can ensure this is not possible.
+Optional types are created with the Optional mechanism—to make an Integer that is nullable, one would use a declaration similar to var optionalInteger: Optional<Int>. As in C#,[42] Swift also includes syntactic sugar for this, allowing one to indicate a variable is optional by placing a question mark after the type name, var optionalInteger: Int?.[43] Variables or constants that are marked optional either have a value of the underlying type or are nil. Optional types wrap the base type, resulting in a different instance. String and String? are fundamentally different types, the latter has more in common with Int? than String.
+To access the value inside, assuming it is not nil, it must be unwrapped to expose the instance inside. This is performed with the ! operator:
+
+
+    let myValue = anOptionalInstance!.someMethod()
+
+In this case, the ! operator unwraps anOptionalInstance to expose the instance inside, allowing the method call to be made on it. If anOptionalInstance is nil, a null-pointer error occurs. This can be annoying in practice, so Swift also includes the concept of optional chaining to test whether the instance is nil and then unwrap it if it is non-null:
+
+
+    let myValue = anOptionalInstance?.someMethod()
+
+In this case the runtime only calls someMethod if anOptionalInstance is not nil, suppressing the error. Normally this requires the programmer to test whether myValue is nil before proceeding. The origin of the term chaining comes from the more common case where several method calls/getters are chained together. For instance:
+
+
+    let aTenant = aBuilding.TenantList[5]
+    let theirLease = aTenant.leaseDetails
+    let leaseStart = theirLease?.startDate
+
+can be reduced to:
+
+
+   let leaseStart = aBuilding.TenantList[5].leaseDetails?.startDate
+
+The ? syntax circumvents the pyramid of doom.
+Swift 2 introduced the new keyword guard for cases in which code should stop executing if some condition is unmet:
+
+
+    guard let leaseStart = aBuilding.TenantList[5]?.leaseDetails?.startDate else {
+        //handle the error case where anything in the chain is nil
+        //else scope must exit the current method or loop
+    }
+    //continue, knowing that leaseStart is not nil
+
+Using guard has three benefits. While the syntax can act as an if statement, its primary benefit is inferring non-nullability. Where an if statement requires a case, guard assumes the case based on the condition provided. Also, since guard contains no scope, with exception of the else closure, leaseStart is presented as an unwrapped optional to the guard's super-scope. Lastly, if the guard statement's test fails, Swift requires the else to exit the current method or loop, ensuring leaseStart never is accessed when nil. This is performed with the keywords return, continue, break, or throw.
+ObjC was weakly typed, and allowed any method to be called on any object at any time. If the method call failed, there was a default handler in the runtime that returned nil. That meant that no unwrapping or testing was needed, the equivalent statement in ObjC:
+
+
+    leaseStart = [[[aBuilding tenantList:5] leaseDetails] startDate]
+
+would return nil and this could be tested. However, this also demanded that all method calls be dynamic, which introduces significant overhead. Swift's use of optionals provides a similar mechanism for testing and dealing with nils, but does so in a way that allows the compiler to use static dispatch because the unwrapping action is called on a defined instance (the wrapper), versus occurring in the runtime dispatch system.
+Value types[edit]
+In many object-oriented languages, objects are represented internally in two parts. The object is stored as a block of data placed on the heap, while the name (or "handle") to that object is represented by a pointer. Objects are passed between methods by copying the value of the pointer, allowing the same underlying data on the heap to be accessed by anyone with a copy. In contrast, basic types like integers and floating point values are represented directly; the handle contains the data, not a pointer to it, and that data is passed directly to methods by copying. These styles of access are termed pass-by-reference in the case of objects, and pass-by-value for basic types.
+Both concepts have their advantages and disadvantages. Objects are useful when the data is large, like the description of a window or the contents of a document. In these cases, access to that data is provided by copying a 32- or 64-bit value, versus copying an entire data structure. However, smaller values like integers are the same size as pointers (typically both are one word), so there is no advantage to passing a pointer, versus passing the value. Also, pass-by-reference inherently requires a dereferencing operation, which can produce noticeable overhead in some operations, typically those used with these basic value types, like mathematics.
+Similarly to C# and in contrast to most other OO languages,[citation needed] Swift offers built-in support for objects using either pass-by-reference or pass-by-value semantics, the former using the class declaration and the latter using struct. Structs in Swift have almost all the same features as classes: methods, implementing protocols, and using the extension mechanisms. For this reason, Apple terms all data generically as instances, versus objects or values. Structs do not support inheritance, however.[44]
+The programmer is free to choose which semantics are more appropriate for each data structure in the application. Larger structures like windows would be defined as classes, allowing them to be passed around as pointers. Smaller structures, like a 2D point, can be defined as structs, which will be pass-by-value and allow direct access to their internal data with no dereference. The performance improvement inherent to the pass-by-value concept is such that Swift uses these types for almost all common data types, including Int and Double, and types normally represented by objects, like String and Array.[44] Using value types can result in significant performance improvements in user applications also.[45]
+To ensure that even the largest structs do not cause a performance penalty when they are handed off, Swift uses copy on write so that the objects are copied only if and when the program attempts to change a value in them. This means that the various accessors have what is in effect a pointer to the same data storage, but this takes place far below the level of the language, in the computer's memory management unit (MMU). So while the data is physically stored as one instance in memory, at the level of the application, these values are separate, and physical separation is enforced by copy on write only if needed.[46]
+Protocol-oriented programming[edit]
+A key feature of ObjC is its support for categories, methods that can be added to extend classes at runtime. Categories allow extending classes in-place to add new functions with no need to subclass or even have access to the original source code. An example might be to add spell checker support to the base NSString class, which means all instances of NSString in the application gain spell checking. The system is also widely used as an organizational technique, allowing related code to be gathered into library-like extensions. Swift continues to support this concept, although they are now termed extensions, and declared with the keyword extension. Unlike ObjC, Swift can also add new properties accessors, types and enums to extant instances.
+Another key feature of ObjC is its use of protocols, known in most modern languages as interfaces. Protocols promise that a particular class implements a set of methods, meaning that other objects in the system can call those methods on any object supporting that protocol. This is often used in modern OO languages as a substitute for multiple inheritance, although the feature sets are not entirely similar. A common example of a protocol in Cocoa is the NSCopying protocol, which defines one method, copyWithZone, that implements deep copying on objects.[47]
+In ObjC, and most other languages implementing the protocol concept, it is up to the programmer to ensure that the required methods are implemented in each class.[48] Swift adds the ability to add these methods using extensions, and to use generic programming (generics) to implement them. Combined, these allow protocols to be written once and support a wide variety of instances. Also, the extension mechanism can be used to add protocol conformance to an object that does not list that protocol in its definition.[47]
+For example, a protocol might be declared called SupportsToString, which ensures that instances that conform to the protocol implement a toString method that returns a String. In Swift, this can be declared with code like this:
+
+
+protocol SupportsToString {
+    func toString() -> String
+}
+
+This protocol can now be added to String, with no access to the base class's source:
+
+
+extension String: SupportsToString {
+    func toString() -> String
+    {
+        return self
+    }
+}
+
+In Swift, like many modern languages supporting interfaces, protocols can be used as types, which means variables and methods can be defined by protocol instead of their specific type:
+
+
+var someSortOfPrintableObject: SupportsToString
+...
+print(someSortOfPrintableObject.toString())
+
+It does not matter what sort of instance someSortOfPrintableObject is, the compiler will ensure that it conforms to the protocol and thus this code is safe. This syntax also means that collections can be based on protocols also, like let printableArray = [SupportsToString].
+As Swift treats structs and classes as similar concepts, both extensions and protocols are extensively used in Swift's runtime to provide a rich API based on structs. For instance, Swift uses an extension to add the Equatable protocol to many of their basic types, like Strings and Arrays, allowing them to be compared with the == operator. A concrete example of how all of these features interact can be seen in the concept of default protocol implementations:
+
+
+func !=<T : Equatable>(lhs: T, rhs: T) -> Bool
+
+This function defines a method that works on any instance conforming to Equatable, providing a not equals function. Any instance, class or struct, automatically gains this implementation simply by conforming to Equatable. As many instances gain Equatable through their base implementations or other generic extensions, most basic objects in the runtime gain equals and not equals with no code.[49]
+This combination of protocols, defaults, protocol inheritance, and extensions allows many of the functions normally associated with classes and inheritance to be implemented on value types.[47] Properly used, this can lead to dramatic performance improvements with no significant limits in API. This concept is so widely used within Swift, that Apple has begun calling it a protocol-oriented programming language. They suggest addressing many of the problem domains normally solved though classes and inheritance using protocols and structs instead.
+Libraries, runtime and development[edit]
+Swift uses the same runtime as the extant Objective-C system, but requires iOS 7 or macOS 10.9 or higher.[50] Swift and Objective-C code can be used in one program, and by extension, C and C++ also. In contrast to C, C++ code cannot be used directly from Swift. An Objective-C or C wrapper must be created between Swift and C++.[51] In the case of Objective-C, Swift has considerable access to the object model, and can be used to subclass, extend and use Objective-C code to provide protocol support.[52] The converse is not true: a Swift class cannot be subclassed in Objective-C.[53]
+To aid development of such programs, and the re-use of extant code, Xcode 6 offers a semi-automated system that builds and maintains a bridging header to expose Objective-C code to Swift. This takes the form of an additional header file that simply defines or imports all of the Objective-C symbols that are needed by the project's Swift code. At that point, Swift can refer to the types, functions, and variables declared in those imports as though they were written in Swift. Objective-C code can also use Swift code directly, by importing an automatically maintained header file with Objective-C declarations of the project's Swift symbols. For instance, an Objective-C file in a mixed project called "MyApp" could access Swift classes or functions with the code #import "MyApp-Swift.h". Not all symbols are available through this mechanism, however—use of Swift-specific features like generic types, non-object optional types, sophisticated enums, or even Unicode identifiers may render a symbol inaccessible from Objective-C.[54]
+Swift also has limited support for attributes, metadata that is read by the development environment, and is not necessarily part of the compiled code. Like Objective-C, attributes use the @ syntax, but the currently available set is small. One example is the @IBOutlet attribute, which marks a given value in the code as an outlet, available for use within Interface Builder (IB). An outlet is a device that binds the value of the on-screen display to an object in code.
+Memory management[edit]
+Swift uses Automatic Reference Counting (ARC) to manage memory. Apple used to require manual memory management in Objective-C, but introduced ARC in 2011 to allow for easier memory allocation and deallocation.[55] One problem with ARC is the possibility of creating a strong reference cycle, where objects reference each other in a way that you can reach the object you started from by following references (e.g. A references B, B references A). This causes them to become leaked into memory as they are never released. Swift provides the keywords weak and unowned to prevent strong reference cycles. Typically a parent-child relationship would use a strong reference while a child-parent would use either weak reference, where parents and children can be unrelated, or unowned where a child always has a parent, but parent may not have a child. Weak references must be optional variables, since they can change and become nil.[56]
+A closure within a class can also create a strong reference cycle by capturing self references. Self references to be treated as weak or unowned can be indicated using a capture list.
+Debugging and other elements[edit]
+A key element of the Swift system is its ability to be cleanly debugged and run within the development environment, using a read–eval–print loop (REPL), giving it interactive properties more in common with the scripting abilities of Python than traditional system programming languages. The REPL is further enhanced with the new concept playgrounds. These are interactive views running within the Xcode environment that respond to code or debugger changes on-the-fly.[57] Playgrounds allow programmers to add in Swift code along with markdown documentation. If some code changes over time or with regard to some other ranged input value, the view can be used with the Timeline Assistant to demonstrate the output in an animated way. In addition, Xcode has debugging features for Swift development including breakpoints, step through and step over statements, as well as UI element placement breakdowns for app developers.
+Apple says that Swift "is the first industrial-quality systems programming language that is as expressive and enjoyable as a scripting language".[58]
+Performance[edit]
+Many of the features introduced with Swift also have well-known performance and safety trade-offs. Apple has implemented optimizations that reduce this overhead.[59]
+Comparisons to other languages[edit]
+
+
+
+
+
+
+This section is in a list format that may be better presented using prose. You can help by converting this section to prose, if appropriate. Editing help is available. (February 2017)
+
+
+
+Swift is similar to C in various ways:
+
+Most C operators are used in Swift, but there are some new operators.
+Curly braces are used to group statements.
+Variables are assigned using an equals sign, but compared using two consecutive equals signs. A new identity operator, ===, is provided to check if two data elements refer to the same object.
+Control statements while, if, and switch are similar, but have extended functions, e.g., a switch that takes non-integer cases, while and if supporting pattern matching and conditionally unwrapping optionals, etc.
+Square brackets are used with arrays, both to declare them and to get a value at a given index in one of them.
+
+It also has similarities to Objective-C:
+
+Basic numeric types (Int, UInt, Float, Double)
+Class methods are inherited, like instance methods; self in class methods is the class the method was called on.
+Similar for...in enumeration syntax.
+
+Differences from Objective-C include:
+
+Statements do not need to end with semicolons (;), though these must be used to allow more than one statement on a line.
+No header files.
+Uses type inference.
+Generic programming.
+Functions are first-class objects.
+Enumeration cases can have associated data (algebraic data types).
+Operators can be redefined for classes (operator overloading), and new operators can be defined.
+Strings fully support Unicode. Most Unicode characters can be used in either identifiers or operators.
+No exception handling. Swift 2 introduces a different and incompatible error-handling model.[60]
+Several notoriously error-prone behaviors of earlier C-family languages have been changed:
+
+Pointers are not exposed by default. There is no need for the programmer to keep track of and mark names for referencing or dereferencing.
+Assignments return no value. This prevents the common error of writing i = 0 instead of i == 0 by throwing a compile-time error.
+No need to use break statements in switch blocks. Individual cases do not fall through to the next case unless the fallthrough statement is used.
+Variables and constants are always initialized and array bounds are always checked.
+Integer overflows, which result in undefined behavior for signed integers in C, are trapped as a run-time error in Swift. Programmers can choose to allow overflows by using the special arithmetical operators &+, &-, &*, &/ and &%. The properties min and max are defined in Swift for all integer types and can be used to safely check for potential overflows, versus relying on constants defined for each type in external libraries.
+The one-statement form of if and while, which allows for the omission of braces around the statement, is unsupported.
+C-style enumeration for (int i = 0; i < c; i++), which is prone to off-by-one errors, is unsupported (from Swift 3 onward).[61]
+The pre- and post- increment and decrement operators (i++, --i ...) are unsupported (from Swift 3 onward), more so since C-style for statements are also unsupported from Swift 3 onward.[62]
+
+
+
+Development and other implementations[edit]
+Since the language is open-source, there are prospects of it being ported to the web.[63] Some web frameworks have already been developed, such as IBM's Kitura, Perfect and Vapor.
+An official "Server APIs" work group has also been started by Apple,[64] with members of the Swift developer community playing a central role.[65]
+A second free implementation of Swift that targets Cocoa, Microsoft's Common Language Infrastructure (.NET), and the Java and Android platform exists as part of the Elements Compiler from RemObjects Software.[66]
+See also[edit]
+
+
+Apple Inc. portal
+Computer programming portal
+
+
+
+Comparison of programming languages
+Objective-C
+Kotlin (programming language)
+Python (programming language)
+
+References[edit]
+
+
+^ "Swift Has Reached 1.0". Apple. September 9, 2014. Retrieved March 8, 2015. 
+^ https://swift.org/download/#releases/
+^ "Swift, Objectively". Swift is proprietary and closed: It is entirely controlled by Apple and there is no open source implementation. 
+^ Lattner, Chris (June 11, 2014). "Re: [LLVMdev] [cfe-dev] [Advertisement] open positions in Apple's Swift compiler team". Retrieved June 12, 2014. You can imagine that many of us want it to be open source and part of LLVM, but the discussion hasn't happened yet, and won't for some time. [dead link]
+^ Lattner, Chris (2014-06-03). "Chris Lattner's Homepage". Chris Lattner. Retrieved 2014-06-03. The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. 
+^ a b Lattner, Chris (June 3, 2014). "Chris Lattner's Homepage". Chris Lattner. Retrieved June 3, 2014. I started work on the Swift Programming Language in July of 2010. I implemented much of the basic language structure, with only a few people knowing of its existence. A few other (amazing) people started contributing in earnest late in 2011, and it became a major focus for the Apple Developer Tools group in July 2013 [...] drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. 
+^ "Building assert() in Swift, Part 2: __FILE__ and __LINE__". Retrieved September 25, 2014. 
+^ "Why Does Apple's Swift Use Pascal's Variable Declaration Syntax?". Inner Exception. Retrieved 10 March 2018. 
+^ "The Swift Linux Port". Swift.org. Apple Inc. Retrieved 3 August 2016. 
+^ Timmer, John (June 5, 2014). "A fast look at Swift, Apple's new programming language". Ars Technica. Condé Nast. Retrieved June 6, 2014. 
+^ Protocol-oriented Programming in Swift. Apple Inc. YouTube. 
+^ "Concepts are similar to Rust Traits". 
+^ Williams, Owen (June 2, 2014). "Tim Berners-Lee's sixtieth birthday Apple announces Swift, a new programming language for iOS". The Next Web. Retrieved June 2, 2014. 
+^ "Apple's new programming language Swift is now open source". The Verge. Retrieved 2015-12-05. 
+^ "Apple Open Sources Swift in Latest Pitch to the Enterprise". CIO Journal. The Wall Street Journal Blogs. 2015-12-03. Retrieved 2015-12-05. (Registration required (help)). 
+^ Hein, Buster (March 9, 2017). "Swift is already one of the world's most popular programming languages". Cult of Mac. 
+^ TIOBE index, accessed December 12, 2017.
+^ a b Platforms State of the Union, Session 102, Apple Worldwide Developers Conference, June 2, 2014
+^ The Swift Programming Language. Apple. June 2, 2014. Retrieved June 2, 2014. Lay summary. 
+^ "Swift Has Reached 1.0". September 9, 2014. Retrieved September 10, 2014. 
+^ "Xcode 6.1 Release Notes". October 22, 2014. Retrieved January 23, 2015. 
+^ "Xcode 6.3 Release Notes". April 8, 2015. Retrieved April 8, 2015. 
+^ "Swift 2 Apps in the App Store". Swift Blog. Retrieved 2016-03-13. 
+^ Inc., Apple (2016-09-13). "Swift 3.0 Released!". Swift.org. Retrieved 2016-10-26. 
+^ Inc., Apple (2017-09-17). "Swift 4.0 Released!". Swift.org. Retrieved 2018-03-01. 
+^ Inc., Apple (2018-03-29). "Swift 4.1 Released!". Swift.org. Retrieved 2018-03-30. 
+^ "Stack Overflow Developer Survey Results 2015". 
+^ "Stack Overflow Developer Survey Results 2016". 
+^ "Introducing the IBM Swift Sandbox — Swift". Swift. Retrieved 2015-12-05. 
+^ Mayo, Benjamin. "Write Swift code in a web browser with the IBM Swift Sandbox". 9to5Mac. Retrieved 2015-12-05. 
+^ "After Apple open sources it, IBM puts Swift programming in the cloud | ZDNet". ZDNet. Retrieved 2015-12-05. 
+^ "Swift Playgrounds". Apple Developer. Retrieved 2016-06-19. 
+^ "Swift Playgrounds — Preview". Apple. Retrieved 2016-06-19. 
+^ Mayo, Benjamin (2016-06-13). "Apple announces Swift Playgrounds for iPad at WWDC, public release in fall". 9to5Mac. Retrieved 2016-06-19. 
+^ Cunningham, Andrew (January 10, 2017). "Longtime Apple programmer and Swift creator leaves Apple for Tesla". Ars Technica. 
+^ Wuerthele, Mike (January 13, 2017). "New Swift project head Ted Kremenek said to be running the show behind the scenes for some time". AppleInsider. 
+^ Metz, Rachel (June 3, 2014). "Apple Seeks a Swift Way to Lure More Developers". Technology Review. 
+^ Weber, Harrison (June 2, 2014). "Apple announces 'Swift,' a new programming language for macOS & iOS". VentureBeat. 
+^ "Advantages Of Using Swift". themindstudios.com. Retrieved 2017-02-24. 
+^ "Strings and Characters". developer.apple.com. Apple Inc. Retrieved July 16, 2014. 
+^ "Access Control". developer.apple.com. Apple Inc. Retrieved October 25, 2016. 
+^ "Nullable Types", C# Programming Guide, Microsoft.
+^ "Types". developer.apple.com. Apple Inc. Retrieved July 16, 2014. 
+^ a b "Classes and Structures". Apple.com. 
+^ Guhit, Fiel. "Performance Case Study on Swift 1.1, Swift 1.2, and Objective-C". 
+^ Building Better Apps with Value Types. Apple. 
+^ a b c "NSCopying Protocol Reference". Apple. 
+^ "Working with Protocols". Apple. 
+^ Thompson, Mattt (September 2, 2014). "Swift Default Protocol Implementations". NSHipster. 
+^ "Do Swift-based apps work on macOS 10.9/iOS 7 and lower?", StackOverflow
+^ "Using Swift with Cocoa and Objective-C: Basic Setup". apple.com. January 6, 2015. 
+^ "Writing Swift Classes with Objective-C Behavior", Apple Inc.
+^ "Migrating Your Objective-C Code to Swift". 
+^ "Swift and Objective-C in the Same Project", Apple Inc.
+^ "Automatic Reference Counting", Apple Inc.
+^ Lanier, Brian; Groff, Joe. "Intermediate Swift". Apple. Retrieved July 3, 2014. 
+^ Metz, Cade. "Why Coders Are Going Nuts Over Apple's New Programming Language". Wired. Retrieved July 16, 2014. 
+^ About Swift, Apple Inc.
+^ "Optimizing Swift Performance". Apple, Inc. June 2015. 
+^ "Error-Handling in Swift-Language". stackoverflow.com. 
+^ "apple/swift-evolution". GitHub. Retrieved 2016-04-04. 
+^ "apple/swift-evolution". GitHub. Retrieved 2016-04-04. 
+^ Barbosa, Greg (2016-02-22). "IBM brings Swift to the cloud, releases web framework Kitura written in Apple's programming language". 9to5Mac. Retrieved 2016-05-16. 
+^ Inc., Apple (2016-10-25). "Server APIs Work Group". Swift.org. Retrieved 2016-10-28. 
+^ Inc., Apple. "Swift.org". Swift.org. Retrieved 2016-10-28. 
+^ "RemObjects Elements Compiler". Retrieved 2016-01-17. 
+
+
+External links[edit]
+
+Official website
+Swift at Apple Developer
+Swift's source code on GitHub
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Programming languages
+
+
+
+
+
+
+Comparison
+Timeline
+History
+
+
+
+
+
+
+
+
+APL
+Assembly
+BASIC
+C
+C++
+C#
+COBOL
+Fortran
+Go
+Groovy
+Haskell
+Java
+JavaScript (JS)
+Lisp
+Lua
+Objective-C
+Pascal
+Perl
+PHP
+Python
+Ruby
+Shell
+Smalltalk
+Swift
+Visual Basic .NET (VB.NET)
+more...
+
+
+
+
+
+
+
+
+ Category
+ Lists
+
+Alphabetical
+Categorical
+Generational
+Non-English-based
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Software by Apple Inc.
+
+
+
+OS
+
+
+
+Darwin
+iOS
+
+version history
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+
+macOS
+
+Public Beta
+"Cheetah"
+"Puma"
+"Jaguar"
+"Panther"
+"Tiger"
+"Leopard"
+"Snow Leopard"
+"Lion"
+"Mountain Lion"
+"Mavericks"
+"Yosemite"
+"El Capitan"
+"Sierra"
+"High Sierra"
+
+
+tvOS
+watchOS
+
+
+
+
+
+Consumer
+
+
+
+iBooks Author
+iCloud
+iLife
+
+iMovie
+GarageBand
+
+
+iWork
+
+Keynote
+Pages
+Numbers
+
+
+Clips
+
+
+
+
+
+Professional
+
+
+
+FileMaker
+Final Cut Studio
+
+Final Cut Pro X
+Motion
+Compressor
+
+
+Logic Studio
+
+Logic Pro
+Mainstage
+
+
+
+
+
+
+
+Education
+
+
+
+Classroom
+Schoolwork
+
+
+
+
+
+Bundled
+
+
+
+Calendar
+iTunes
+
+history
+
+
+Mail
+Messages
+Photo Booth
+Photos
+QuickTime
+Safari
+
+version history
+
+
+TextEdit
+
+
+
+
+
+Server
+
+
+
+Apple Remote Desktop
+macOS Server
+WebObjects
+Xsan
+
+
+
+
+
+Developer
+
+
+
+Dashcode
+Instruments
+Interface Builder
+Quartz Composer
+Xcode
+iAd Producer
+
+
+
+
+
+Discontinued
+
+
+
+.Mac
+Aperture
+AppleWorks
+Bento
+Classic Mac OS
+
+System 1
+6
+7
+8
+9
+
+
+Color
+DVD Studio Pro
+Final Cut Express
+Front Row
+HyperCard
+iChat
+iDVD
+iPhoto
+iWeb
+Logic Express
+MacDraw
+MacPaint
+MacProject
+MacTerminal
+MacWrite
+MobileMe
+ResEdit
+Shake
+Soundtrack Pro
+
+
+
+
+
+
+
+
+
+Authority control
+
+
+
+LCCN: sh2015001571
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Swift_(programming_language)&oldid=833218944"					
+				Categories: Apple Inc.Computer-related introductions in 2014Object-oriented programming languagesPattern matching programming languagesProgramming languagesProgramming languages created in 2014Software using the Apache licenseStatically typed programming languagesSystems programming languagesHidden categories: All articles with dead external linksArticles with dead external links from February 2018Pages with login required references or sourcesUse mdy dates from October 2015All articles with unsourced statementsArticles with unsourced statements from November 2017Articles needing cleanup from February 2017All pages needing cleanupArticles with sections that need to be turned into prose from February 2017Wikipedia articles with LCCN identifiers				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةБългарскиCatalàČeštinaDeutschEspañolEsperantoفارسیFrançais한국어ՀայերենBahasa IndonesiaÍslenskaItalianoעבריתMagyarBahasa MelayuNederlands日本語NorskPolskiPortuguêsРусскийSlovenčinaСрпски / srpskiSvenskaTürkçeУкраїнськаTiếng Việt粵語中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 30 March 2018, at 09:09.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.628","walltime":"0.746","ppvisitednodes":{"value":3547,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":128843,"limit":2097152},"templateargumentsize":{"value":4464,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":69358,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  654.433      1 -total"," 54.12%  354.183      1 Template:Reflist"," 36.40%  238.212     50 Template:Cite_web"," 13.22%   86.547      2 Template:Infobox"," 11.42%   74.727      1 Template:Infobox_programming_language","  5.00%   32.710      2 Template:Fix","  4.95%   32.384      1 Template:Cn","  4.34%   28.399      1 Template:Official_website","  3.92%   25.654      1 Template:Use_mdy_dates","  3.69%   24.155      1 Template:About"]},"scribunto":{"limitreport-timeusage":{"value":"0.340","limit":"10.000"},"limitreport-memusage":{"value":6748319,"limit":52428800}},"cachereport":{"origin":"mw1244","timestamp":"20180402011458","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":840,"wgHostname":"mw1244"});});
+	
+

@@ -1,0 +1,132 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.3 History
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+1.2 Flexibility
+Up:
+1. Introduction
+Next:
+2. Installation
+
+
+
+
+ 
+
+1.3 History
+
+
+
+Mod_python originates from a project called
+  Httpdapy
+  (1997). For a long time Httpdapy was not called mod_python because
+  Httpdapy was not meant to be Apache-specific. Httpdapy was designed
+  to be cross-platform and in fact was initially written for the
+  Netscape server (back then it was called Nsapy (1997).
+
+
+This excerpt from the Httpdapy README file describes well the
+  challenges and the solution provided by embedding Python within the
+  HTTP server:
+
+
+
+While developing my first WWW applications a few years back, I found
+that using CGI for programs that need to connect to relational
+databases (commercial or not) is too slow because every hit requires
+loading of the interpreter executable which can be megabytes in size,
+any database libraries that can themselves be pretty big, plus, the
+database connection/authentication process carries a very significant
+overhead because it involves things like DNS resolutions, encryption,
+memory allocation, etc.. Under pressure to speed up the application, I
+nearly gave up the idea of using Python for the project and started
+researching other tools that claimed to specialize in www database
+integration. I did not have any faith in MS's ASP; was quite
+frustrated by Netscape LiveWire's slow performance and bugginess; Cold
+Fusion seemed promising, but I soon learned that writing in html-like
+tags makes programs as readable as assembly. Same is true for
+PHP. Besides, I *really* wanted to write things in Python.
+
+Around the same time the Internet Programming With Python book came
+out and the chapter describing how to embed Python within Netscape
+server immediately caught my attention.  I used the example in my
+project, and developed an improved version of what I later called
+Nsapy that compiled on both Windows NT and Solaris.
+
+Although Nsapy only worked with Netscape servers, it was a very
+intelligent generic OO design that, in the spirit of Python, that lent
+itself for easy portability to other web servers.
+
+Incidently, the popularity of Netscape's servers was taking a turn
+south, and so I set out to port Nsapy to other servers starting with
+the most popular one, Apache. And so from Nsapy was born Httpdapy.
+
+
+
+...continuing this saga, yours truly later learned that writing
+  Httpdapy for every server is a task a little bigger and less
+  interesting than I originally imagined.
+
+
+Instead, it seemed like providing a Python counterpart to the
+  popular Perl Apache extension mod_perl that would give Python users
+  the same (or better) capability would be a much more exciting thing
+  to do.
+
+
+And so it was done. The first release of mod_python happened in May
+  of 2000.
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+1.2 Flexibility
+Up:
+1. Introduction
+Next:
+2. Installation
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

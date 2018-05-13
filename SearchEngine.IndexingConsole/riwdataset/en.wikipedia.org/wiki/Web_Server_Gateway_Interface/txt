@@ -1,0 +1,645 @@
+
+
+
+
+Web Server Gateway Interface - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Web_Server_Gateway_Interface","wgTitle":"Web Server Gateway Interface","wgCurRevisionId":825761449,"wgRevisionId":825761449,"wgArticleId":1441500,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from November 2016","Pages using div col with deprecated parameters","Wikipedia articles in need of updating from October 2017","All Wikipedia articles in need of updating","Python (programming language)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Web_Server_Gateway_Interface","wgRelevantArticleId":1441500,"wgRequestId":"Wr9soApAIC4AAFPRsmYAAAAQ","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q539164","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Web Server Gateway Interface			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				"WSGI" redirects here. For the radio station in Springfield, Tennessee, see WSGI (AM).
+
+
+
+Contents
+
+
+1 Background
+2 Specification overview
+3 Examples
+
+3.1 Example application
+3.2 Example of calling an application
+
+
+4 WSGI-compatible applications and frameworks
+5 WSGI and Python 3
+6 See also
+7 References
+8 External links
+
+
+
+The Web Server Gateway Interface (WSGI) is a specification for simple and universal interface between web servers and web applications or frameworks for the Python programming language. It was originally specified in Python Enhancement Proposal (PEP) 333[1] authored by Phillip J. Eby, and published on 7 December 2003. It has since been adopted as a standard for Python web application development. The latest version of the specification is v1.0.1, also known as PEP 3333, published on 26 September 2010.[2]
+Background[edit]
+Python web frameworks had been a problem for new Python users since the choice of web framework would limit the choice of usable web servers, and vice versa. Python applications were often designed for only one of CGI, FastCGI, mod_python, or some other custom API of a specific web server.[3]
+WSGI was created as a low-level interface between web servers and web applications or frameworks to promote common ground for portable web application development.[2]
+Specification overview[edit]
+The WSGI has two sides: the "server" or "gateway" side (often a web server such as Apache or Nginx), and the "application" or "framework" side (the Python script itself). To process a WSGI request, the server side executes the application and provides environment information and a callback function to the application side. The application processes the request, returning the response to the server side using the callback function it was provided.[citation needed]
+Between the server and the application, there may be a WSGI middleware, which implements both sides of the API. The server receives a request from a client and forwards it to the middleware. After processing, it sends a request to the application. The application's response is forwarded by the middleware to the server and ultimately to the client. There may be multiple middlewares forming a stack of WSGI-compliant applications.[citation needed]
+A "middleware" component can perform such functions as:[citation needed]
+
+Routing a request to different application objects based on the target URL, after changing the environment variables accordingly.
+Allowing multiple applications or frameworks to run side-by-side in the same process
+Load balancing and remote processing, by forwarding requests and responses over a network
+Performing content post-processing, such as applying XSLT stylesheets
+
+Examples[edit]
+Example application[edit]
+A WSGI-compatible "Hello, World" application written in Python:
+
+
+1 def application(environ, start_response):
+2     start_response('200 OK', [('Content-Type', 'text/plain')])
+3     yield 'Hello, World\n'
+
+Where:
+
+Line 1 defines a callable[4] named application, which takes two parameters, environ and start_response. environ is a dictionary containing environment variables in CGI. start_response is a callable taking two required parameters status and response_headers.
+Line 2 calls start_response, specifying "200 OK" as the status and a "Content-Type" header.
+Line 3 returns the body of the response as a string literal.
+
+Example of calling an application[edit]
+An example of calling an application and retrieving its response.[5] A web server gives a callback start_response to a web framework application. A start_response has an http protocol status, headers, and body. For Django, an HttpResponse object is returned.[6][7] The "environ" fragment consists of, for example, REQUEST_METHOD info.[8] Depending on this info, it might or might not call ("OPTIONS") this app.[citation needed]
+
+
+def call_application(app, environ):
+    body = []
+    status_headers = [None, None]
+    def start_response(status, headers):
+        status_headers[:] = [status, headers]
+        return body.append(status_headers)
+    app_iter = app(environ, start_response)
+    try:
+        for item in app_iter:
+            body.append(item)
+    finally:
+        if hasattr(app_iter, 'close'):
+            app_iter.close()
+    return status_headers[0], status_headers[1], ''.join(body)
+
+status, headers, body = call_application(app, {...environ...})
+
+WSGI-compatible applications and frameworks[edit]
+Numerous web frameworks support WSGI:
+
+
+BlueBream
+bobo[9]
+Bottle
+CherryPy
+Django[10]
+Eventlet[11]
+Flask
+Falcon (web framework) [12]
+Gevent-FastCGI[13]
+Google App Engine's webapp2
+Gunicorn
+prestans[14]
+mod_wsgi for use with Apache[15]
+netius
+pycnic[16]
+Pylons
+Pyramid
+restlite[17]
+Tornado
+Trac
+TurboGears
+Uliweb[18]
+uWSGI
+web.py[19]
+web2py
+weblayer[20]
+Werkzeug[21]
+Radicale[22]
+
+
+
+Currently wrappers are available for FastCGI, CGI, SCGI, AJP (using flup), twisted.web, Apache (using mod_wsgi or mod_python), Nginx (using ngx_http_uwsgi_module),[23] and Microsoft IIS (using WFastCGI,[24] isapi-wsgi,[25] PyISAPIe,[26] or an ASP gateway).
+WSGI and Python 3[edit]
+
+
+
+
+
+
+This section needs to be updated. Please update this article to reflect recent events or newly available information. (October 2017)
+
+
+
+The separation of binary and text data in Python 3 poses a problem for WSGI, as it specifies that header data should be strings, while it sometimes needs to be binary and sometimes text. This works in Python 2 where text and binary data both are kept in "string" variables, but in Python 3 binary data is kept in "bytes" variables and "string" variables are for unicode text data. An updated version of the WSGI specification that deals with this is PEP 3333.[27]
+A reworked WSGI spec Web3 has also been proposed, specified in PEP444. This standard is an incompatible derivative of WSGI designed to work on Python 2.6, 2.7, 3.1+.[28]
+See also[edit]
+
+Rack – Ruby web server interface
+PSGI – Perl Web Server Gateway Interface
+SCGI – Simple Common Gateway Interface
+JSGI – JavaScript web server gateway interface
+
+References[edit]
+
+
+^ "PEP 333 - Python Web Server Gateway Interface v1.0". Python.org. Retrieved 2017-01-27. 
+^ a b "PEP 3333 - Python Web Server Gateway Interface v1.0.1". Python.org. Retrieved 2017-01-27. 
+^ "FrontPage - Python Wiki". Python.org. Retrieved 2017-01-27. 
+^ i.e. "a function, method, class, or an instance with a __call__ method"
+^ "Creating WSGI Middleware - Alan Christopher Thomas - Minted - PythonKC". YouTube. 2015-08-28. Retrieved 2017-01-27. 
+^ "Request and response objects | Django documentation | Django". Docs.djangoproject.com. Retrieved 2017-01-27. 
+^ django (1970-01-01). "django/response.py at master · django/django · GitHub". Github.com. Retrieved 2017-01-27. 
+^ "PEP 333 - Python Web Server Gateway Interface v1.0". Python.org. Retrieved 2017-01-27. 
+^ "プエラリアジェルの効果は?". Bobo.digicool.com. Retrieved 2017-01-27. 
+^ "Django without mod_python, and WSGI support | Weblog | Django". Djangoproject.com. 2005-07-18. Retrieved 2017-01-27. 
+^ "wsgi – WSGI server — Eventlet 0.20.1 documentation". Eventlet.net. Retrieved 2017-01-27. 
+^ "Falcon - Bare-metal web API framework for Python". Retrieved 2017-10-22. 
+^ "gevent-fastcgi 1.0.2.1 : Python Package Index". Pypi.python.org. 2015-12-06. Retrieved 2017-01-27. 
+^ "anomaly/prestans: A WSGI compliant REST micro-framework". GitHub.com. Retrieved 2017-01-27. 
+^ "Google Code Archive - Long-term storage for Google Code Project Hosting". Code.google.com. Retrieved 2017-01-27. 
+^ "Pycnic Framework". Pycnic.nullism.com. Retrieved 2017-01-27. 
+^ "theintencity/restlite: Light-weight RESTful server tools in Python". GitHub.com. Retrieved 2017-01-27. 
+^ "limodou/uliweb: Simple and easy use python web framework". GitHub.com. Retrieved 2017-01-27. 
+^ "Welcome to". Web.py. 2009-09-11. Retrieved 2017-01-27. 
+^ "weblayer — weblayer v0.4.3 documentation". Packages.python.org. Retrieved 2017-01-27. 
+^ "Welcome | Werkzeug (The Python WSGI Utility Library)". Werkzeug.pocoo.org. Retrieved 2017-01-27. 
+^ "CalDAV and CardDAV Server - A Simple Calendar and Contact Server". Radicale.org. Retrieved 2017-01-27. 
+^ "Module ngx_http_uwsgi_module". Nginx.org. Retrieved 2017-01-27. 
+^ "Python Tools for Visual Studio - Documentation". Pytools.codeplex.com. Retrieved 2017-01-27. 
+^ "Google Code Archive - Long-term storage for Google Code Project Hosting". Code.google.com. Retrieved 2017-01-27. 
+^ "Python ISAPI Extension for IIS download | SourceForge.net". Pyisapie.sourceforge.net. 2012-04-24. Retrieved 2017-01-27. 
+^ Eby, P.J. (2010-09-26). "PEP 3333". Retrieved 2011-07-27. 
+^ McDonough, Chris; Ronacher, Armin (2010-07-19). "PEP 444 – Python Web3 Interface". Retrieved 2010-09-20. 
+
+
+External links[edit]
+
+PEP 333 – Python Web Server Gateway Interface
+PEP 3333 – Python Web Server Gateway Interface v1.0.1
+WSGI metaframework
+Comprehensive wiki about everything WSGI
+WSGI Tutorial
+Python standard library module wsgiref
+Getting Started with WSGI
+NWSGI – .NET implementation of the Python WSGI specification for IronPython and IIS
+Gevent-FastCGI server implemented using gevent coroutine-based networking library
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Python
+
+
+
+Implementations
+
+
+
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+
+
+
+
+
+
+
+
+IDE
+
+
+
+Boa
+Eric Python IDE
+IDLE
+PyDev
+SPE
+Ninja-IDE
+more...
+
+
+
+
+
+Topics
+
+
+
+WSGI
+
+
+
+
+
+
+
+
+software (list)
+Python Software Foundation
+PyCon
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Web interfaces
+
+
+
+Server-side
+
+
+
+
+Protocols
+
+
+
+HTTP
+CGI
+SCGI
+FCGI
+AJP
+WSRP
+WebSocket
+
+
+
+
+
+Server APIs
+
+
+
+C NSAPI
+C ASAPI
+C ISAPI
+COM ASP
+Java servlet
+
+container
+
+
+CLI OWIN
+ASP.NET Handler
+Python WSGI
+Ruby Rack
+JavaScript JSGI
+Perl PSGI
+Lua WSAPI
+Portlet
+
+container
+
+
+
+
+
+
+
+Apache modules
+
+
+
+mod_jk
+mod_lisp
+mod_mono
+mod_parrot
+mod_perl
+mod_php
+mod_proxy
+mod_python
+mod_wsgi
+mod_ruby
+Phusion Passenger
+
+
+
+
+
+Topics
+
+
+
+Web resource vs. Web service
+Open API
+Webhook
+Application server
+
+comparison
+
+
+Scripting
+
+
+
+
+
+
+
+
+Client-side
+
+
+
+
+Browser APIs
+
+
+
+C NPAPI
+
+LiveConnect
+XPConnect
+
+
+C NPRuntime
+C PPAPI
+
+NaCl
+
+
+ActiveX
+BHO
+XBAP
+WebAssembly
+
+
+
+
+
+Web APIs
+
+
+
+
+W3C
+
+
+
+Audio
+Canvas
+CORS
+DOM
+DOM events
+EME
+File
+Geolocation
+IndexedDB
+MSE
+SSE
+SVG
+Video
+WebRTC
+WebSocket
+Web messaging
+Web storage
+Web worker
+XMLHttpRequest
+
+
+
+
+
+Khronos
+
+
+
+WebCL
+WebGL
+
+
+
+
+
+Others
+
+
+
+Gears
+Web SQL Database (formerly W3C)
+
+
+
+
+
+
+
+
+Topics
+
+
+
+Ajax vs. DHTML
+Mashup
+Web IDL
+Scripting
+
+
+
+
+
+
+
+
+Topics
+
+
+
+Dynamic web page
+Open Web Platform
+Rich Internet application
+Web application
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Web_Server_Gateway_Interface&oldid=825761449"					
+				Categories: Python (programming language)Hidden categories: All articles with unsourced statementsArticles with unsourced statements from November 2016Pages using div col with deprecated parametersWikipedia articles in need of updating from October 2017All Wikipedia articles in need of updating				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					ČeštinaDeutschفارسیFrançais한국어ItalianoNederlands日本語PortuguêsРусскийУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 15 February 2018, at 07:09.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.320","walltime":"0.384","ppvisitednodes":{"value":1980,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":92214,"limit":2097152},"templateargumentsize":{"value":2885,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":30239,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  335.595      1 -total"," 46.45%  155.874      1 Template:Reflist"," 37.32%  125.237     27 Template:Cite_web"," 20.87%   70.045      4 Template:Fact"," 17.95%   60.228      4 Template:Fix","  9.61%   32.241      8 Template:Category_handler","  9.39%   31.497      1 Template:Redirect","  6.93%   23.261      5 Template:Navbox","  6.85%   22.992      4 Template:Delink","  6.83%   22.913      1 Template:Outdated_section"]},"scribunto":{"limitreport-timeusage":{"value":"0.172","limit":"10.000"},"limitreport-memusage":{"value":5014381,"limit":52428800}},"cachereport":{"origin":"mw1327","timestamp":"20180331105826","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":91,"wgHostname":"mw1325"});});
+	
+

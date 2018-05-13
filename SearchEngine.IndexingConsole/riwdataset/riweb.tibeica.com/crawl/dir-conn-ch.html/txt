@@ -1,0 +1,92 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.3.1 PythonConnectionHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.3 Connection Handler
+Up:
+5.3 Connection Handler
+Next:
+5.4 Other Directives
+
+
+
+
+ 
+ 
+
+5.3.1 PythonConnectionHandler
+
+
+
+Syntax:
+PythonConnectionHandler handler
+Context:
+server config
+Module:
+mod_python.c
+
+
+Specifies that the connection should be handled with handler
+connection handler. Handler will be passed a single argument -
+the connection object.
+
+
+Handler is a module name optionally followed :: and a
+callable object name. If callable object name is omitted, it will
+default to "connectionhandler".
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.3 Connection Handler
+Up:
+5.3 Connection Handler
+Next:
+5.4 Other Directives
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

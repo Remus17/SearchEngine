@@ -1,0 +1,183 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.4 Testing
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.3.2 Configuring Apache
+Up:
+2. Installation
+Next:
+2.5 Troubleshooting
+
+
+
+
+ 
+
+2.4 Testing
+
+
+
+Warning : These instructions are meant to be followed if you are
+using mod_python 3.x or later. If you are using mod_python 2.7.x (namely,
+if you are using Apache 1.3.x), please refer to the proper documentation.
+
+
+
+
+Make some directory that would be visible on your web site, for
+  example, htdocs/test.
+
+
+
+Add the following Apache directives, which can appear in either the
+  main server configuration file, or .htaccess.  If you are
+  going to be using the .htaccess file, you will not need the
+  <Directory> tag below (the directory then becomes the one in
+  which the .htaccess file is located), and you will need to
+  make sure the AllowOverride directive applicable to this
+  directory has at least FileInfo specified. (The default is
+  None, which will not work.)  
+  
+
+
+    <Directory /some/directory/htdocs/test> 
+        AddHandler mod_python .py
+        PythonHandler mptest 
+        PythonDebug On 
+    </Directory>
+
+
+
+(Substitute /some/directory above for something applicable to
+  your system, usually your Apache ServerRoot)
+
+
+
+This redirects all requests for URLs ending in .py to the mod_python
+  handler. mod_python receives those requests and looks for an appropriate
+  PythonHandler to handle them. Here, there is a single PythonHandler
+  directive defining mptest as the python handler to use. We'll see next
+  how this python handler is defined.
+
+
+
+At this time, if you made changes to the main configuration file, you
+  will need to restart Apache in order for the changes to take effect.
+
+
+
+Edit mptest.py file in the htdocs/test directory so
+  that is has the following lines (be careful when cutting and pasting
+  from your browser, you may end up with incorrect indentation and a
+  syntax error):
+
+
+
+    from mod_python import apache
+
+    def handler(req):
+        req.content_type = 'text/plain'
+        req.write("Hello World!")
+        return apache.OK
+
+
+
+
+Point your browser to the URL referring to the mptest.py;
+  you should see "Hello World!". If you didn't - refer to the
+  troubleshooting section next.
+
+
+
+Note that according to the configuration written above, you can
+  also point your browser to any URL ending in .py in the test directory.
+  You can for example point your browser to /test/foobar.py
+  and it will be handled by mptest.py. That's because you
+  explicitely set the handler to always be mptest, whatever the
+  requested file was. If you want to have many handler files named
+  handler1.py, handler2.py
+  and so on, and have them accessible on /test/handler1.py,
+  /test/handler2.py, etc., then you have to use a higher level
+  handler system such as the mod_python publisher (see 3.1),
+  mpservlets or Vampire. Those are just special mod_python handler
+  that know how to map requests to a dynamically loaded handler.
+
+
+
+If everything worked well, move on to Chapter 3, 
+  Tutorial. 
+
+
+
+
+
+
+
+  See Also:
+
+  
+    http://home.comcast.net/ d.popowich/mpservlets
+    mpservlets
+  
+  
+    http://www.dscpl.com.au/projects/vampire
+    Vampire
+  
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.3.2 Configuring Apache
+Up:
+2. Installation
+Next:
+2.5 Troubleshooting
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

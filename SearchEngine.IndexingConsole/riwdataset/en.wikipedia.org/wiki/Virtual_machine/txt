@@ -1,0 +1,944 @@
+
+
+
+
+Virtual machine - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Virtual_machine","wgTitle":"Virtual machine","wgCurRevisionId":833371453,"wgRevisionId":833371453,"wgArticleId":32353,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from November 2015","Articles with unsourced statements from March 2013","Articles needing additional references from July 2015","All articles needing additional references","Virtual machines","Operating system technology","Programming language implementation"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Virtual_machine","wgRelevantArticleId":32353,"wgRequestId":"Wr9kWApAICIAAHoD@KIAAAAP","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q192726","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Virtual machine			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+Program execution
+
+
+General concepts
+
+
+
+
+Code
+Translation
+
+Compiler
+Optimizing compiler
+
+
+Intermediate representation (IR)
+Execution
+
+Runtime system
+Executable
+Interpreter
+Virtual machine
+
+
+
+
+
+
+Types of code
+
+
+
+
+Source code
+Object code
+Bytecode
+Machine code
+Microcode
+
+
+
+
+Compilation strategies
+
+
+
+
+Just-in-time (JIT)
+
+Tracing just-in-time
+
+
+Ahead-of-time (AOT)
+Transcompilation
+Recompilation
+
+
+
+
+Notable runtimes
+
+
+
+
+Android Runtime (ART)
+Common Language Runtime (CLR)
+crt0
+Java virtual machine (JVM)
+Node.js
+Zend Engine
+
+
+
+
+Notable compilers & toolchains
+
+
+
+
+GNU Compiler Collection (GCC)
+LLVM
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+In computing, a virtual machine (VM) is an emulation of a computer system. Virtual machines are based on computer architectures and provide functionality of a physical computer. Their implementations may involve specialized hardware, software, or a combination.
+There are different kinds of virtual machines, each with different functions:
+
+System virtual machines (also termed full virtualization VMs) provide a substitute for a real machine. They provide functionality needed to execute entire operating systems. A hypervisor uses native execution to share and manage hardware, allowing for multiple environments which are isolated from one another, yet exist on the same physical machine. Modern hypervisors use hardware-assisted virtualization, virtualization-specific hardware, primarily from the host CPUs.
+Process virtual machines are designed to execute computer programs in a platform-independent environment.
+
+Some virtual machines, such as QEMU, are designed to also emulate different architectures and allow execution of software applications and operating systems written for another CPU or architecture. Operating-system-level virtualization allows the resources of a computer to be partitioned via the kernel's support for multiple isolated user space instances, which are usually called containers and may look and feel like real machines to the end users.
+
+
+
+Contents
+
+
+1 Definitions
+
+1.1 System virtual machines
+1.2 Process virtual machines
+
+
+2 History
+3 Full virtualization
+
+3.1 Hardware-assisted virtualization
+
+
+4 Operating-system-level virtualization
+5 See also
+6 References
+7 Further reading
+8 External links
+
+
+
+Definitions[edit]
+A "virtual machine" was originally defined by Popek and Goldberg as "an efficient, isolated duplicate of a real computer machine."[1] Current use includes virtual machines which have no direct correspondence to any real hardware.[2]
+System virtual machines[edit]
+See also: Hardware virtualization and Comparison of platform virtualization software
+The desire to run multiple operating systems was the initial motive for virtual machines, so as to allow time-sharing among several single-tasking operating systems. In some respects, a system virtual machine can be considered a generalization of the concept of virtual memory that historically preceded it. IBM's CP/CMS, the first systems to allow full virtualization, implemented time sharing by providing each user with a single-user operating system, the Conversational Monitor System (CMS). Unlike virtual memory, a system virtual machine entitled the user to write privileged instructions in their code. This approach had certain advantages, such as adding input/output devices not allowed by the standard system.[3]
+As technology evolves virtual memory for purposes of virtualization, new systems of memory overcommitment may be applied to manage memory sharing among multiple virtual machines on one computer operating system. It may be possible to share memory pages that have identical contents among multiple virtual machines that run on the same physical machine, what may result in mapping them to the same physical page by a technique termed Kernel SamePage Merging. This is especially useful for read-only pages, such as those holding code segments, which is the case for multiple virtual machines running the same or similar software, software libraries, web servers, middleware components, etc. The guest operating systems do not need to be compliant with the host hardware, thus making it possible to run different operating systems on the same computer (e.g., Windows, Linux, or prior versions of an operating system) to support future software.[4]
+The use of virtual machines to support separate guest operating systems is popular in regard to embedded systems. A typical use would be to run a real-time operating system simultaneously with a preferred complex operating system, such as Linux or Windows. Another use would be for novel and unproven software still in the developmental stage, so it runs inside a sandbox. Virtual machines have other advantages for operating system development, and may include improved debugging access and faster reboots.[5]
+Multiple VMs running their own guest operating system are frequently engaged for server consolidation.[6]
+Process virtual machines[edit]
+See also: Application virtualization, Runtime system, and Comparison of application virtualization software
+A process VM, sometimes called an application virtual machine, or Managed Runtime Environment (MRE), runs as a normal application inside a host OS and supports a single process. It is created when that process is started and destroyed when it exits. Its purpose is to provide a platform-independent programming environment that abstracts away details of the underlying hardware or operating system, and allows a program to execute in the same way on any platform.
+A process VM provides a high-level abstraction –  that of a high-level programming language (compared to the low-level ISA abstraction of the system VM). Process VMs are implemented using an interpreter; performance comparable to compiled programming languages can be achieved by the use of just-in-time compilation.[citation needed]
+This type of VM has become popular with the Java programming language, which is implemented using the Java virtual machine. Other examples include the Parrot virtual machine, and the .NET Framework, which runs on a VM called the Common Language Runtime. All of them can serve as an abstraction layer for any computer language.
+A special case of process VMs are systems that abstract over the communication mechanisms of a (potentially heterogeneous) computer cluster. Such a VM does not consist of a single process, but one process per physical machine in the cluster. They are designed to ease the task of programming concurrent applications by letting the programmer focus on algorithms rather than the communication mechanisms provided by the interconnect and the OS. They do not hide the fact that communication takes place, and as such do not attempt to present the cluster as a single machine.[citation needed]
+Unlike other process VMs, these systems do not provide a specific programming language, but are embedded in an existing language; typically such a system provides bindings for several languages (e.g., C and Fortran).[citation needed] Examples are Parallel Virtual Machine (PVM) and Message Passing Interface (MPI). They are not strictly virtual machines, as the applications running on top still have access to all OS services, and are therefore not confined to the system model.
+History[edit]
+See also: History of CP/CMS and Timeline of virtualization development
+
+
+
+
+
+
+This section needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (July 2015) (Learn how and when to remove this template message)
+
+
+
+Both system virtual machines and process virtual machines date to the 1960s, and continue to be areas of active development.
+System virtual machines grew out of time-sharing, as notably implemented in the Compatible Time-Sharing System (CTSS). Time-sharing allowed multiple users to use a computer concurrently: each program appeared to have full access to the machine, but only one program was executed at the time, with the system switching between programs in time slices, saving and restoring state each time. This evolved into virtual machines, notably via IBM's research systems: the M44/44X, which used partial virtualization, and the CP-40 and SIMMON, which used full virtualization and were early examples of hypervisors. The first widely available virtual machine architecture was the CP-67/CMS; see History of CP/CMS for details. An important distinction was between using multiple virtual machines on one host system for time-sharing, as in M44/44X and CP-40, and using one virtual machine on a host system for prototyping, as in SIMMON. Emulators, with hardware emulation of earlier systems for compatibility, date back to the IBM 360 in 1963,[7][8] while the software emulation (then-called "simulation") predates it.
+Process virtual machines arose originally as abstract platforms for an intermediate language used as the intermediate representation of a program by a compiler; early examples date to around 1966. An early 1966 example was the O-code machine, a virtual machine which executes O-code (object code) emitted by the front end of the BCPL compiler. This abstraction allowed the compiler to be easily ported to a new architecture by implementing a new back end that took the existing O-code and compiled it to machine code for the underlying physical machine. The Euler language used a similar design, with the intermediate language named P (portable).[9] This was popularized around 1970 by Pascal, notably in the Pascal-P system (1973) and Pascal-S compiler (1975), in which it was termed p-code and the resulting machine as a p-code machine. This has been influential, and virtual machines in this sense have been often generally called p-code machines. In addition to being an intermediate language, Pascal p-code was also executed directly by an interpreter implementing the virtual machine, notably in UCSD Pascal (1978); this influenced later interpreters, notably the Java virtual machine (JVM). Another early example was SNOBOL4 (1967), which was written in the SNOBOL Implementation Language (SIL), an assembly language for a virtual machine, which was then targeted to physical machines by transpiling to their native assembler via a macro assembler.[10] Macros have since fallen out of favor, however, so this approach has been less influential. Process virtual machines were a popular approach to implementing early microcomputer software, including Tiny BASIC and adventure games, from one-off implementations such as Pyramid 2000 to a general-purpose engine like Infocom's z-machine, which Graham Nelson argues is "possibly the most portable virtual machine ever created".[11]
+Significant advances occurred in the implementation of Smalltalk-80,[12] particularly the Deutsch/Schiffmann implementation[13] which pushed just-in-time (JIT) compilation forward as an implementation approach that uses process virtual machine.[14] Later notable Smalltalk VMs were VisualWorks, the Squeak Virtual Machine[15] and Strongtalk.[16] A related language that produced a lot of virtual machine innovation was the Self programming language,[17] which pioneered adaptive optimization[18] and generational garbage collection. These techniques proved commercially successful in 1999 in the HotSpot Java virtual machine.[19] Other innovations include having a register-based virtual machine, to better match the underlying hardware, rather than a stack-based virtual machine, which is a closer match for the programming language; in 1995, this was pioneered by the Dis virtual machine for the Limbo language.
+Full virtualization[edit]
+Main article: Full virtualization
+
+
+
+
+Logical diagram of full virtualization.
+
+
+In full virtualization, the virtual machine simulates enough hardware to allow an unmodified "guest" OS (one designed for the same instruction set) to be run in isolation. This approach was pioneered in 1966 with the IBM CP-40 and CP-67, predecessors of the VM family.
+Examples outside the mainframe field include Parallels Workstation, Parallels Desktop for Mac, VirtualBox, Virtual Iron, Oracle VM, Virtual PC, Virtual Server, Hyper-V, VMware Workstation, VMware Server (discontinued, formerly called GSX Server), VMware ESXi, QEMU, Adeos, Mac-on-Linux, Win4BSD, Win4Lin Pro, and Egenera vBlade technology.
+Hardware-assisted virtualization[edit]
+Main article: Hardware-assisted virtualization
+In hardware-assisted virtualization, the hardware provides architectural support that facilitates building a virtual machine monitor and allows guest OSes to be run in isolation.[20] Hardware-assisted virtualization was first introduced on the IBM System/370 in 1972, for use with VM/370, the first virtual machine operating system.
+In 2005 and 2006, Intel and AMD provided additional hardware to support virtualization. Sun Microsystems (now Oracle Corporation) added similar features in their UltraSPARC T-Series processors in 2005. Examples of virtualization platforms adapted to such hardware include KVM, VMware Workstation, VMware Fusion, Hyper-V, Windows Virtual PC, Xen, Parallels Desktop for Mac, Oracle VM Server for SPARC, VirtualBox and Parallels Workstation.
+In 2006, first-generation 32- and 64-bit x86 hardware support was found to rarely offer performance advantages over software virtualization.[21]
+Operating-system-level virtualization[edit]
+Main article: Operating-system-level virtualization
+In operating-system-level virtualization, a physical server is virtualized at the operating system level, enabling multiple isolated and secure virtualized servers to run on a single physical server. The "guest" operating system environments share the same running instance of the operating system as the host system. Thus, the same operating system kernel is also used to implement the "guest" environments, and applications running in a given "guest" environment view it as a stand-alone system. The pioneer implementation was FreeBSD jails; other examples include Docker, Solaris Containers, OpenVZ, Linux-VServer, LXC, AIX Workload Partitions, Parallels Virtuozzo Containers, and iCore Virtual Accounts.
+See also[edit]
+
+
+Computing portal
+
+
+
+
+Amazon Machine Image
+Linux Containers
+Native development kit
+Storage hypervisor
+Universal Turing machine
+Virtual appliance
+Virtual backup appliance
+Virtual disk image
+Virtual machine escape
+
+
+References[edit]
+
+
+^ Popek, Gerald; Goldberg, Robert (1974). "Formal requirements for virtualizable third generation architectures" (PDF). Communications of the ACM. ACM. 17 (7): 412–421. 
+^ Smith, James; Nair, Ravi (2005). "The Architecture of Virtual Machines". Computer. IEEE Computer Society. 38 (5): 32–38. doi:10.1109/MC.2005.173. 
+^ Smith and Nair, pp. 395–396
+^ Oliphant, Patrick. "Virtual Machines". VirtualComputing. Archived from the original on 2016-07-29. Retrieved 23 September 2015. Some people use that capability to set up a separate virtual machine running Windows on a Mac, giving them access to the full range of applications available for both platforms. 
+^ "Super Fast Server Reboots – Another reason Virtualization rocks". vmwarez.com. May 9, 2006. Archived from the original on 2006-06-14. Retrieved 2013-06-14. 
+^ "Server Consolidation and Containment With Virtual Infrastructure" (PDF). VMware. 2007. Archived (PDF) from the original on 2013-12-28. Retrieved 2015-09-29. 
+^ Pugh, Emerson W. (1995). Building IBM: Shaping an Industry and Its Technology. MIT. p. 274. ISBN 0-262-16147-8. 
+^ Pugh, Emerson W.; et al. (1991). IBM's 360 and Early 370 Systems. MIT. ISBN 0-262-16123-0.  pages 160–161
+^ Wirth, N.; Weber, H. (1966). EULER: a generalization of ALGOL, and its formal definition: Part II, Communications of the Association for Computing Machinery, Vol.9, No.2, pp.89–99. New York: ACM. 
+^ Griswold, Ralph E. The Macro Implementation of SNOBOL4. San Francisco, CA: W. H. Freeman and Company, 1972 (ISBN 0-7167-0447-1), Chapter 1.
+^ Nelson, Graham. "About Interpreters". Inform website. Archived from the original on 2009-12-03. Retrieved 2009-11-07. 
+^ Goldberg, Adele; Robson, David (1983). Smalltalk-80: The Language and its Implementation. Addison-Wesley Series in Computer Science. Addison-Wesley. ISBN 0-201-11371-6. 
+^ Deutsch, L. Peter; Schiffman, Allan M. (1984). "Efficient implementation of the Smalltalk-80 system". POPL. Salt Lake City, Utah: ACM. doi:10.1145/800017.800542. ISBN 0-89791-125-3. 
+^ Aycock, John (2003). "A brief history of just-in-time". ACM Comput. Surv. 35 (2): 97–113. doi:10.1145/857076.857077. 
+^ Ingalls, Dan; Kaehler, Ted; Maloney, John; Wallace, Scott; Kay, Alan (1997). "Back to the future: the story of Squeak, a practical Smalltalk written in itself". OOPSLA '97: Proceedings of the 12th ACM SIGPLAN conference on Object-oriented programming, systems, languages, and applications. New York, NY, USA: ACM Press. pp. 318–326. doi:10.1145/263698.263754. ISBN 0-89791-908-4. 
+^ Bracha, Gilad; Griswold, David (1993). "Strongtalk: Typechecking Smalltalk in a Production Environment". Proceedings of the Eighth Annual Conference on Object-oriented Programming Systems, Languages, and Applications. OOPSLA '93. New York, NY, USA: ACM. pp. 215–230. doi:10.1145/165854.165893. ISBN 978-0-89791-587-8. 
+^ Ungar, David; Smith, Randall B (December 1987). "Self: The power of simplicity". ACM SIGPLAN Notices. 22: 227–242. doi:10.1145/38807.38828. ISSN 0362-1340. 
+^ Hölzle, Urs; Ungar, David (1994). "Optimizing dynamically-dispatched calls with run-time type feedback". PLDI. Orlando, Florida, United States: ACM. pp. 326–336. doi:10.1145/178243.178478. ISBN 0-89791-662-X. 
+^ Paleczny, Michael; Vick, Christopher; Click, Cliff (2001). "The Java HotSpot server compiler". Proceedings of the Java Virtual Machine Research and Technology Symposium on Java Virtual Machine Research and Technology Symposium – Volume 1. Monterey, California: USENIX Association. 
+^ Uhlig, Rich; et al. (May 2005). "Intel virtualization technology". Computer. IEEE Computer Society. 38 (5): 48–56. doi:10.1109/MC.2005.163. 
+^ Keith Adams; Ole Agesen. A Comparison of Software and Hardware Techniques for x86 Virtualization (PDF). ASPLOS’06 21–25 October 2006. San Jose, California, USA. Archived (PDF) from the original on 20 August 2010. Surprisingly, we find that the first-generation hardware support rarely offers performance advantages over existing software techniques. We ascribe this situation to high VMM/guest transition costs and a rigid programming model that leaves little room for software flexibility in managing either the frequency or cost of these transitions. 
+
+
+Further reading[edit]
+
+James E. Smith, Ravi Nair, Virtual Machines: Versatile Platforms For Systems And Processes, Morgan Kaufmann, May 2005, ISBN 1-55860-910-5, 656 pages (covers both process and system virtual machines)
+Craig, Iain D. Virtual Machines. Springer, 2006, ISBN 1-85233-969-1, 269 pages (covers only process virtual machines)
+
+External links[edit]
+
+The Reincarnation of Virtual Machines, Article on ACM Queue by Mendel Rosenblum, Co-Founder, VMware
+Sandia National Laboratories Runs 1 Million Linux Kernels as Virtual Machines
+The design of the Inferno virtual machine by Phil Winterbottom and Rob Pike
+Software Portability by Virtual Machine Emulation by Stefan Vorkoetter
+Create new Virtual Machine in Windows Azure by Rahul Vijay Manekari
+A Virtual Machine for building Virtual Machines
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Virtualization software
+
+
+
+
+Comparison of platform virtualization software
+
+
+
+Hardware
+virtualization
+(hypervisors)
+
+
+
+
+Native
+
+
+
+Adeos
+CP/CMS
+Hyper-V
+KVM
+
+Red Hat Enterprise Virtualization
+
+
+LDoms / Oracle VM Server for SPARC
+LynxSecure
+PikeOS
+Proxmox VE
+SIMMON
+VMware ESXi
+
+VMware vSphere
+vCloud
+
+
+VMware Infrastructure
+Xen
+
+Oracle VM Server for x86
+XenClient
+
+
+XtratuM
+z/VM
+
+
+
+
+
+Hosted
+
+
+
+
+Specialized
+
+
+
+Basilisk II
+bhyve
+Bochs
+Cooperative Linux
+DOSBox
+DOSEMU
+PCem
+PikeOS
+SheepShaver
+SIMH
+Windows on Windows
+
+Virtual DOS machine
+
+
+Win4Lin
+
+
+
+
+
+Independent
+
+
+
+Microsoft Virtual Server
+Parallels Workstation
+Parallels Desktop for Mac
+Parallels Server for Mac
+PearPC
+QEMU
+VirtualBox
+Virtual Iron
+VMware Fusion
+VMware Player
+VMware Server
+VMware Workstation
+Windows Virtual PC
+
+
+
+
+
+
+
+
+Tools
+
+
+
+Ganeti
+oVirt
+System Center Virtual Machine Manager
+Virtual Machine Manager
+
+
+
+
+
+
+
+
+OS-level
+virtualization
+
+
+
+Docker
+cgroups
+
+lmctfy
+Linux-VServer
+LXC
+OpenVZ
+
+
+FreeBSD jail
+iCore Virtual Accounts
+Kubernetes
+Linux namespaces
+Solaris Containers
+Workload Partitions
+
+
+
+
+
+Desktop
+virtualization
+
+
+
+Citrix XenApp
+Citrix XenDesktop
+Remote Desktop Services
+VMware Horizon View
+Ulteo Open Virtual Desktop
+
+
+
+
+
+Application
+virtualization
+
+
+
+Ceedo
+Citrix XenApp
+Dalvik
+InstallFree
+Microsoft App-V
+Remote Desktop Services
+Symantec Workspace Virtualization
+Turbo
+VMware ThinApp
+ZeroVM
+
+
+
+
+
+Network
+virtualization
+
+
+
+Distributed Overlay Virtual Ethernet (DOVE)
+NVGRE
+Open vSwitch
+Virtual security switch
+Virtual Extensible LAN (VXLAN)
+
+
+
+
+
+
+See also: List of emulators
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Major fields of computer science
+
+
+
+
+Note: This template roughly follows the 2012 ACM Computing Classification System.
+
+
+
+Hardware
+
+
+
+Printed circuit board
+Peripheral
+Integrated circuit
+Very-large-scale integration
+Energy consumption
+Electronic design automation
+
+
+
+
+
+Computer systems
+organization
+
+
+
+Computer architecture
+Embedded system
+Real-time computing
+Dependability
+
+
+
+
+
+Networks
+
+
+
+Network architecture
+Network protocol
+Network components
+Network scheduler
+Network performance evaluation
+Network service
+
+
+
+
+
+Software organization
+
+
+
+Interpreter
+Middleware
+Virtual machine
+Operating system
+Software quality
+
+
+
+
+
+Software notations
+and tools
+
+
+
+Programming paradigm
+Programming language
+Compiler
+Domain-specific language
+Modeling language
+Software framework
+Integrated development environment
+Software configuration management
+Software library
+Software repository
+
+
+
+
+
+Software development
+
+
+
+Software development process
+Requirements analysis
+Software design
+Software construction
+Software deployment
+Software maintenance
+Programming team
+Open-source model
+
+
+
+
+
+Theory of computation
+
+
+
+Model of computation
+Formal language
+Automata theory
+Computational complexity theory
+Logic
+Semantics
+
+
+
+
+
+Algorithms
+
+
+
+Algorithm design
+Analysis of algorithms
+Randomized algorithm
+Computational geometry
+
+
+
+
+
+Mathematics
+of computing
+
+
+
+Discrete mathematics
+Probability
+Statistics
+Mathematical software
+Information theory
+Mathematical analysis
+Numerical analysis
+
+
+
+
+
+Information
+systems
+
+
+
+Database management system
+Information storage systems
+Enterprise information system
+Social information systems
+Geographic information system
+Decision support system
+Process control system
+Multimedia information system
+Data mining
+Digital library
+Computing platform
+Digital marketing
+World Wide Web
+Information retrieval
+
+
+
+
+
+Security
+
+
+
+Cryptography
+Formal methods
+Security services
+Intrusion detection system
+Hardware security
+Network security
+Information security
+Application security
+
+
+
+
+
+Human–computer
+interaction
+
+
+
+Interaction design
+Social computing
+Ubiquitous computing
+Visualization
+Accessibility
+
+
+
+
+
+Concurrency
+
+
+
+Concurrent computing
+Parallel computing
+Distributed computing
+Multithreading
+Multiprocessing
+
+
+
+
+
+Artificial
+intelligence
+
+
+
+Natural language processing
+Knowledge representation and reasoning
+Computer vision
+Automated planning and scheduling
+Search methodology
+Control method
+Philosophy of artificial intelligence
+Distributed artificial intelligence
+
+
+
+
+
+Machine learning
+
+
+
+Supervised learning
+Unsupervised learning
+Reinforcement learning
+Multi-task learning
+Cross-validation
+
+
+
+
+
+Graphics
+
+
+
+Animation
+Rendering
+Image manipulation
+Graphics processing unit
+Mixed reality
+Virtual reality
+Image compression
+Solid modeling
+
+
+
+
+
+Applied
+computing
+
+
+
+E-commerce
+Enterprise software
+Computational mathematics
+Computational physics
+Computational chemistry
+Computational biology
+Computational social science
+Computational engineering
+Computational healthcare
+Digital art
+Electronic publishing
+Cyberwarfare
+Electronic voting
+Video game
+Word processing
+Operations research
+Educational technology
+Document management
+
+
+
+
+
+
+
+
+ Book
+ Category
+ Portal
+WikiProject
+ Commons
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Virtual_machine&oldid=833371453"					
+				Categories: Virtual machinesOperating system technologyProgramming language implementationHidden categories: All articles with unsourced statementsArticles with unsourced statements from November 2015Articles with unsourced statements from March 2013Articles needing additional references from July 2015All articles needing additional references				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					AfrikaansالعربيةAzərbaycancaবাংলাБеларускаяБългарскиBosanskiCatalàČeštinaDanskDeutschEestiEspañolEuskaraفارسیFrançais한국어HrvatskiBahasa IndonesiaItalianoעבריתລາວMagyarമലയാളംBahasa Melayuမြန်မာဘာသာNederlands日本語NorskPolskiPortuguêsРусскийSimple EnglishSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaதமிழ்TürkçeУкраїнськаاردوTiếng Việtייִדיש中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 31 March 2018, at 04:22.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.412","walltime":"0.523","ppvisitednodes":{"value":2757,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":116925,"limit":2097152},"templateargumentsize":{"value":2910,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":24782,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  403.953      1 -total"," 43.12%  174.185      1 Template:Reflist"," 17.42%   70.350      3 Template:Citation_needed"," 15.56%   62.863      3 Template:Fix"," 15.44%   62.367      5 Template:Cite_journal","  9.90%   40.010      6 Template:Category_handler","  9.43%   38.081      3 Template:ISBN","  9.31%   37.613      4 Template:Navbox","  6.38%   25.760      1 Template:Program_execution","  6.01%   24.280      1 Template:Computer_science"]},"scribunto":{"limitreport-timeusage":{"value":"0.179","limit":"10.000"},"limitreport-memusage":{"value":6108471,"limit":52428800}},"cachereport":{"origin":"mw1269","timestamp":"20180331101937","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":86,"wgHostname":"mw1332"});});
+	
+

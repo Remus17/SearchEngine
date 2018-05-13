@@ -1,0 +1,561 @@
+
+
+
+
+Lock (computer science) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lock_(computer_science)","wgTitle":"Lock (computer science)","wgCurRevisionId":824113787,"wgRevisionId":824113787,"wgArticleId":244593,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages with citations lacking titles","Pages with citations having bare URLs","All articles with unsourced statements","Articles with unsourced statements from July 2011","Articles with unsourced statements from November 2013","Articles with example C Sharp code","Software design patterns","Concurrency control"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Lock_(computer_science)","wgRelevantArticleId":244593,"wgRequestId":"Wr@uAgpAAEEAADIE0@wAAABQ","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1427251","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Lock (computer science)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				In computer science, a lock or mutex (from mutual exclusion) is a synchronization mechanism for enforcing limits on access to a resource in an environment where there are many threads of execution. A lock is designed to enforce a mutual exclusion concurrency control policy.
+
+
+
+Contents
+
+
+1 Types
+2 Granularity
+3 Database locks
+4 Disadvantages
+
+4.1 Lack of composability
+
+
+5 Language support
+6 See also
+7 References
+8 External links
+
+
+
+Types[edit]
+Generally, locks are advisory locks, where each thread cooperates by acquiring the lock before accessing the corresponding data. Some systems also implement mandatory locks, where attempting unauthorized access to a locked resource will force an exception in the entity attempting to make the access.
+The simplest type of lock is a binary semaphore. It provides exclusive access to the locked data. Other schemes also provide shared access for reading data. Other widely implemented access modes are exclusive, intend-to-exclude and intend-to-upgrade.
+Another way to classify locks is by what happens when the lock strategy prevents progress of a thread. Most locking designs block the execution of the thread requesting the lock until it is allowed to access the locked resource. With a spinlock, the thread simply waits ("spins") until the lock becomes available. This is efficient if threads are blocked for a short time, because it avoids the overhead of operating system process re-scheduling. It is inefficient if the lock is held for a long time, or if the progress of the thread that is holding the lock depends on preemption of the locked thread.
+Locks typically require hardware support for efficient implementation. This support usually takes the form of one or more atomic instructions such as "test-and-set", "fetch-and-add" or "compare-and-swap". These instructions allow a single process to test if the lock is free, and if free, acquire the lock in a single atomic operation.
+Uniprocessor architectures have the option of using uninterruptable sequences of instructions—using special instructions or instruction prefixes to disable interrupts temporarily—but this technique does not work for multiprocessor shared-memory machines. Proper support for locks in a multiprocessor environment can require quite complex hardware or software support, with substantial synchronization issues.
+The reason an atomic operation is required is because of concurrency, where more than one task executes the same logic. For example, consider the following C code:
+
+
+if(lock == 0) {
+    // lock free, set it
+    lock = myPID;
+}
+
+The above example does not guarantee that the task has the lock, since more than one task can be testing the lock at the same time. Since both tasks will detect that the lock is free, both tasks will attempt to set the lock, not knowing that the other task is also setting the lock. Dekker's or Peterson's algorithm are possible substitutes if atomic locking operations are not available.
+Careless use of locks can result in deadlock or livelock. A number of strategies can be used to avoid or recover from deadlocks or livelocks, both at design-time and at run-time. (The most common strategy is to standardize the lock acquisition sequences so that combinations of inter-dependent locks are always acquired in a specifically defined "cascade" order.)
+Some languages do support locks syntactically. An example in C# follows:
+
+
+class Account {    // this is a monitor of an account
+    long val = 0;
+    object thisLock = new object();
+    public void deposit(const long x) {
+        lock(thisLock) {    // only one thread at a time may execute this statement
+            val += x;
+        }
+    }
+    public void withdraw(const long x) {
+        lock(thisLock) {    // only one thread at a time may execute this statement
+            val -= x;
+        }
+    }
+}
+
+The code lock(this) can lead to problems if the instance can be accessed publicly.[1]
+Similar to Java, C# can also synchronize entire methods, by using the MethodImplOptions.Synchronized attribute.[2][3]
+
+
+[MethodImpl(MethodImplOptions.Synchronized)]
+public void someMethod() {
+    // do stuff
+}
+
+Granularity[edit]
+Before being introduced to lock granularity, one needs to understand three concepts about locks:
+
+lock overhead: the extra resources for using locks, like the memory space allocated for locks, the CPU time to initialize and destroy locks, and the time for acquiring or releasing locks. The more locks a program uses, the more overhead associated with the usage;
+lock contention: this occurs whenever one process or thread attempts to acquire a lock held by another process or thread. The more fine-grained the available locks, the less likely one process/thread will request a lock held by the other. (For example, locking a row rather than the entire table, or locking a cell rather than the entire row.);
+deadlock: the situation when each of at least two tasks is waiting for a lock that the other task holds. Unless something is done, the two tasks will wait forever.
+
+There is a tradeoff between decreasing lock overhead and decreasing lock contention when choosing the number of locks in synchronization.
+An important property of a lock is its granularity. The granularity is a measure of the amount of data the lock is protecting. In general, choosing a coarse granularity (a small number of locks, each protecting a large segment of data) results in less lock overhead when a single process is accessing the protected data, but worse performance when multiple processes are running concurrently. This is because of increased lock contention. The more coarse the lock, the higher the likelihood that the lock will stop an unrelated process from proceeding. Conversely, using a fine granularity (a larger number of locks, each protecting a fairly small amount of data) increases the overhead of the locks themselves but reduces lock contention. Granular locking where each process must hold multiple locks from a common set of locks can create subtle lock dependencies. This subtlety can increase the chance that a programmer will unknowingly introduce a deadlock.[citation needed]
+In a database management system, for example, a lock could protect, in order of increasing granularity, part of a field, a field, a record, a data page, or an entire table. Coarse granularity, such as using table locks, tends to give the best performance for a single user, whereas fine granularity, such as record locks, tends to give the best performance for multiple users.
+Database locks[edit]
+Main article: Lock (database)
+Database locks can be used as a means of ensuring transaction synchronicity. i.e. when making transaction processing concurrent (interleaving transactions), using 2-phased locks ensures that the concurrent execution of the transaction turns out equivalent to some serial ordering of the transaction. However, deadlocks become an unfortunate side-effect of locking in databases. Deadlocks are either prevented by pre-determining the locking order between transactions or are detected using waits-for graphs. An alternate to locking for database synchronicity while avoiding deadlocks involves the use of totally ordered global timestamps.
+There are mechanisms employed to manage the actions of multiple concurrent users on a database—the purpose is to prevent lost updates and dirty reads. The two types of locking are pessimistic locking and optimistic locking:
+
+Pessimistic locking: a user who reads a record with the intention of updating it places an exclusive lock on the record to prevent other users from manipulating it. This means no one else can manipulate that record until the user releases the lock. The downside is that users can be locked out for a very long time, thereby slowing the overall system response and causing frustration.
+
+
+
+
+Where to use pessimistic locking: this is mainly used in environments where data-contention (the degree of users request to the database system at any one time) is heavy; where the cost of protecting data through locks is less than the cost of rolling back transactions, if concurrency conflicts occur. Pessimistic concurrency is best implemented when lock times will be short, as in programmatic processing of records. Pessimistic concurrency requires a persistent connection to the database and is not a scalable option when users are interacting with data, because records might be locked for relatively large periods of time. It is not appropriate for use in Web application development.
+
+
+
+
+Optimistic locking: this allows multiple concurrent users access to the database whilst the system keeps a copy of the initial-read made by each user. When a user wants to update a record, the application determines whether another user has changed the record since it was last read. The application does this by comparing the initial-read held in memory to the database record to verify any changes made to the record. Any discrepancies between the initial-read and the database record violates concurrency rules and hence causes the system to disregard any update request. An error message is generated and the user is asked to start the update process again. It improves database performance by reducing the amount of locking required, thereby reducing the load on the database server. It works efficiently with tables that require limited updates since no users are locked out. However, some updates may fail. The downside is constant update failures due to high volumes of update requests from multiple concurrent users - it can be frustrating for users.
+
+
+
+
+Where to use optimistic locking: this is appropriate in environments where there is low contention for data, or where read-only access to data is required. Optimistic concurrency is used extensively in .NET to address the needs of mobile and disconnected applications,[4] where locking data rows for prolonged periods of time would be infeasible. Also, maintaining record locks requires a persistent connection to the database server, which is not possible in disconnected applications.
+
+
+
+Disadvantages[edit]
+Lock-based resource protection and thread/process synchronization have many disadvantages:
+
+Contention: some threads/processes have to wait until a lock (or a whole set of locks) is released. If one of the threads holding a lock dies, stalls, blocks, or enters an infinite loop, other threads waiting for the lock may wait forever.
+Overhead: the use of locks adds overhead for each access to a resource, even when the chances for collision are very rare. (However, any chance for such collisions is a race condition.)
+Debugging: bugs associated with locks are time dependent and can be very subtle and extremely hard to replicate, such as deadlocks.
+Instability: the optimal balance between lock overhead and lock contention can be unique to the problem domain (application) and sensitive to design, implementation, and even low-level system architectural changes. These balances may change over the life cycle of an application and may entail tremendous changes to update (re-balance).
+Composability: locks are only composable (e.g., managing multiple concurrent locks in order to atomically delete item X from table A and insert X into table B) with relatively elaborate (overhead) software support and perfect adherence by applications programming to rigorous conventions.
+Priority inversion: a low-priority thread/process holding a common lock can prevent high-priority threads/processes from proceeding. Priority inheritance can be used to reduce priority-inversion duration. The priority ceiling protocol can be used on uniprocessor systems to minimize the worst-case priority-inversion duration, as well as prevent deadlock.
+Convoying: all other threads have to wait if a thread holding a lock is descheduled due to a time-slice interrupt or page fault.
+
+Some concurrency control strategies avoid some or all of these problems. For example, a funnel or serializing tokens can avoid the biggest problem: deadlocks. Alternatives to locking include non-blocking synchronization methods, like lock-free programming techniques and transactional memory. However, such alternative methods often require that the actual lock mechanisms be implemented at a more fundamental level of the operating software. Therefore, they may only relieve the application level from the details of implementing locks, with the problems listed above still needing to be dealt with beneath the application.
+In most cases, proper locking depends on the CPU providing a method of atomic instruction stream synchronization (for example, the addition or deletion of an item into a pipeline requires that all contemporaneous operations needing to add or delete other items in the pipe be suspended during the manipulation of the memory content required to add or delete the specific item). Therefore, an application can often be more robust when it recognizes the burdens it places upon an operating system and is capable of graciously recognizing the reporting of impossible demands.[citation needed]
+Lack of composability[edit]
+One of lock-based programming's biggest problems is that "locks don't compose": it is hard to combine small, correct lock-based modules into equally correct larger programs without modifying the modules or at least knowing about their internals. Simon Peyton Jones (an advocate of software transactional memory) gives the following example of a banking application:[5] design a class Account that allows multiple concurrent clients to deposit or withdraw money to an account; and give an algorithm to transfer money from one account to another. The lock-based solution to the first part of the problem is:
+
+class Account:
+    member balance : Integer
+    member mutex : Lock
+    method deposit(n : Integer)
+           mutex.lock()
+           balance ← balance + n
+           mutex.unlock()
+    method withdraw(n : Integer)
+           deposit(−n)
+
+The second part of the problem is much more complicated. A transfer routine that is correct for sequential programs would be
+
+function transfer(from : Account, to : Account, amount : integer)
+    from.withdraw(amount)
+    to.deposit(amount)
+
+In a concurrent program, this algorithm is incorrect because when one thread is halfway through transfer, another might observe a state where amount has been withdrawn from the first account, but not yet deposited into the other account: money has gone missing from the system. This problem can only be fixed completely by taking locks on both account prior to changing any of the two accounts, but then the locks have to be taken according to some arbitrary, global ordering to prevent deadlock:
+
+function transfer(from : Account, to : Account, amount : integer)
+    if from < to    // arbitrary ordering on the locks
+        from.lock()
+        to.lock()
+    else
+        to.lock()
+        from.lock()
+    from.withdraw(amount)
+    to.deposit(amount)
+    from.unlock()
+    to.unlock()
+
+This solution gets more complicated when more locks are involved, and the transfer function needs to know about all of the locks, so they cannot be hidden.
+Language support[edit]
+See also: Barrier (computer science)
+Programming languages vary in their support for synchronization:
+
+The ISO/IEC C standard provides a standard mutual exclusion (locks) API since C11. The current ISO/IEC C++ standard supports threading facilities since C++11. The OpenMP standard is supported by some compilers, and allows critical sections to be specified using pragmas. The POSIX pthread API provides lock support.[6] Visual C++ provides the synchronize attribute of methods to be synchronized, but this is specific to COM objects in the Windows architecture and Visual C++ compiler.[7] C and C++ can easily access any native operating system locking features.
+Objective-C provides the keyword @synchronized[8] to put locks on blocks of code and also provides the classes NSLock,[9] NSRecursiveLock,[10] and NSConditionLock[11] along with the NSLocking protocol[12] for locking as well.
+C# provides the lock keyword on a thread to ensure its exclusive access to a resource.
+VB.NET provides a SyncLock keyword like C#'s lock keyword.
+Java provides the keyword synchronized to lock code blocks, methods or objects[13] and libraries featuring concurrency-safe data structures.
+Python provides a low-level mutex mechanism without a keyword.[14]
+Ruby provides a low-level mutex object and no keyword.[15]
+Ada provides protected objects that have visible protected subprograms or entries[16] as well as rendezvous.[17]
+x86 assembly provides the LOCK prefix on certain operations to guarantee their atomicity.
+PHP provides a file based locking [18] as well as a Mutex class in the pthreads extension. [19]
+
+See also[edit]
+
+Critical section
+Double-checked locking
+File locking
+Lock-free and wait-free algorithms
+Monitor (synchronization)
+Mutual exclusion
+Read/write lock pattern
+Semaphore (programming)
+
+References[edit]
+
+
+^ "lock Statement (C# Reference)". 
+^ "ThreadPoolPriority, and MethodImplAttribute". http://msdn.microsoft.com/en-us/magazine/cc163896.aspx: MSDN. p. ??. Retrieved 2011-11-22. 
+^ "C# From a Java Developer's Perspective". http://www.25hoursaday.com/CsharpVsJava.html#attributes. Archived from the original on 2013-01-02. Retrieved 2011-11-22. 
+^ "Designing Data Tier Components and Passing Data Through Tiers". Microsoft. August 2002. Retrieved 2008-05-30. 
+^ Peyton Jones, Simon (2007). "Beautiful concurrency" (PDF). In Wilson, Greg; Oram, Andy. Beautiful Code: Leading Programmers Explain How They Think. O'Reilly. 
+^ Marshall, Dave (March 1999). "Mutual Exclusion Locks". Retrieved 2008-05-30. 
+^ "Synchronize". msdn.microsoft.com. Retrieved 2008-05-30. 
+^ "Apple Threading Reference". Apple, inc. Retrieved 2009-10-17. 
+^ "NSLock Reference". Apple, inc. Retrieved 2009-10-17. 
+^ "NSRecursiveLock Reference". Apple, inc. Retrieved 2009-10-17. 
+^ "NSConditionLock Reference". Apple, inc. Retrieved 2009-10-17. 
+^ "NSLocking Protocol Reference". Apple, inc. Retrieved 2009-10-17. 
+^ "Synchronization". Sun Microsystems. Retrieved 2008-05-30. 
+^ Lundh, Fredrik (July 2007). "Thread Synchronization Mechanisms in Python". Retrieved 2008-05-30. 
+^ "Programming Ruby: Threads and Processes". 2001. Retrieved 2008-05-30. 
+^ ISO/IEC 8652:2007. "Protected Units and Protected Objects". Ada 2005 Reference Manual. Retrieved 2010-02-27. A protected object provides coordinated access to shared data, through calls on its visible protected operations, which can be protected subprograms or protected entries. 
+^ ISO/IEC 8652:2007. "Example of Tasking and Synchronization". Ada 2005 Reference Manual. Retrieved 2010-02-27. 
+^ http://php.net/manual/en/function.flock.php.  Missing or empty |title= (help)
+^ http://php.net/manual/en/class.mutex.php.  Missing or empty |title= (help)
+
+
+External links[edit]
+
+Tutorial on Locks and Critical Sections
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Software design patterns
+
+
+
+Gang of Four
+patterns
+
+
+
+
+Creational
+
+
+
+Abstract factory
+Builder
+Factory method
+Prototype
+Singleton
+
+
+
+
+
+Structural
+
+
+
+Adapter
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Proxy
+
+
+
+
+
+Behavioral
+
+
+
+Chain of responsibility
+Command
+Interpreter
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template method
+Visitor
+
+
+
+
+
+
+
+
+Concurrency
+patterns
+
+
+
+Active object
+Balking
+Binding properties
+Double-checked locking
+Event-based asynchronous
+Guarded suspension
+Join
+Lock
+Monitor
+Proactor
+Reactor
+Read write lock
+Scheduler
+Thread pool
+Thread-local storage
+
+
+
+
+
+Architectural
+patterns
+
+
+
+Front controller
+Interceptor
+MVC
+ADR
+ECS
+n-tier
+Specification
+Publish–subscribe
+Naked objects
+Service locator
+Active record
+Identity map
+Data access object
+Data transfer object
+Inversion of control
+Model 2
+
+
+
+
+
+Other
+patterns
+
+
+
+Blackboard
+Business delegate
+Composite entity
+Dependency injection
+Intercepting filter
+Lazy loading
+Mock object
+Null object
+Object pool
+Servant
+Twin
+Type tunnel
+Method chaining
+
+
+
+
+
+Books
+
+
+
+Design Patterns
+Enterprise Integration Patterns
+Patterns of Enterprise Application Architecture
+Analysis patterns
+
+
+
+
+
+People
+
+
+
+Christopher Alexander
+Erich Gamma
+Ralph Johnson
+John Vlissides
+Grady Booch
+Kent Beck
+Ward Cunningham
+Martin Fowler
+Robert Martin
+Jim Coplien
+Douglas Schmidt
+Linda Rising
+
+
+
+
+
+Communities
+
+
+
+The Hillside Group
+The Portland Pattern Repository
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Lock_(computer_science)&oldid=824113787"					
+				Categories: Software design patternsConcurrency controlHidden categories: Pages with citations lacking titlesPages with citations having bare URLsAll articles with unsourced statementsArticles with unsourced statements from July 2011Articles with unsourced statements from November 2013Articles with example C Sharp code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةCatalàČeštinaDeutschEspañolفارسیFrançais한국어ItalianoעבריתLietuviųMagyar日本語PolskiРусскийУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 5 February 2018, at 11:51.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.212","walltime":"0.264","ppvisitednodes":{"value":1237,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":56659,"limit":2097152},"templateargumentsize":{"value":1138,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":22034,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  218.536      1 -total"," 55.26%  120.768      1 Template:Reflist"," 37.77%   82.548     16 Template:Cite_web"," 25.90%   56.590      2 Template:Citation_needed"," 19.37%   42.321      2 Template:Fix"," 11.51%   25.145      4 Template:Category_handler","  6.70%   14.644      1 Template:Design_Patterns_patterns","  6.49%   14.179      2 Template:Navbox","  6.46%   14.121      2 Template:Delink","  3.87%    8.462      1 Template:Main_article"]},"scribunto":{"limitreport-timeusage":{"value":"0.109","limit":"10.000"},"limitreport-memusage":{"value":4458571,"limit":52428800}},"cachereport":{"origin":"mw1254","timestamp":"20180331103637","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":64,"wgHostname":"mw1270"});});
+	
+

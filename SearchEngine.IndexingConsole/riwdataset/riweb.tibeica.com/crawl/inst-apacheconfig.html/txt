@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.3.2 Configuring Apache
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.3.1 Running make install
+Up:
+2.3 Installing
+Next:
+2.4 Testing
+
+
+
+
+ 
+
+2.3.2 Configuring Apache
+
+
+
+
+
+If you compiled mod_python as a DSO, you will need to tell Apache to
+  load the module by adding the following line in the Apache
+  configuration file, usually called httpd.conf or
+  apache.conf:
+
+
+
+    LoadModule python_module libexec/mod_python.so
+
+
+
+ 
+  The actual path to mod_python.so may vary, but make install
+  should report at the very end exactly where mod_python.so
+  was placed and how the LoadModule directive should appear.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.3.1 Running make install
+Up:
+2.3 Installing
+Next:
+2.4 Testing
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

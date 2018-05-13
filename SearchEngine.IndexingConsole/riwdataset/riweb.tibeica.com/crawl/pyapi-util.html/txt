@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.6 util - Miscellaneous Utilities
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.6.2 Server Members
+Up:
+4. Python API
+Next:
+4.6.1 FieldStorage class
+
+
+
+
+ 
+
+4.6 util - Miscellaneous Utilities
+
+
+
+
+The util module provides a number of utilities handy to a web
+application developer similar to those in the standard library
+cgi module. The implementations in the util module
+are much more efficient because they call directly into Apache API's
+as opposed to using CGI which relies on the environment to pass
+information.
+
+
+The recommended way of using this module is:
+
+from mod_python import util
+
+
+
+
+  See Also:
+
+  
+    Common Gateway Interface RFC Project Page
+    for detailed information on the CGI specification
+  
+
+
+
+
+
+
+Subsections
+
+
+4.6.1 FieldStorage class
+4.6.2 Field class
+4.6.3 Other functions
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.6.2 Server Members
+Up:
+4. Python API
+Next:
+4.6.1 FieldStorage class
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

@@ -1,0 +1,275 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.1 Functions
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5 apache - Access
+Up:
+4.5 apache - Access
+Next:
+4.5.2 Table Object (mp_table) 
+
+
+
+
+ 
+
+4.5.1 Functions
+
+
+
+
+  log_error(
+  message[, level, server])
+
+  An interface to the Apache ap_log_error()
+  function. message is a string with the error message,
+  level is one of the following flags constants:
+
+
+
+    APLOG_EMERG
+    APLOG_ALERT
+    APLOG_CRIT
+    APLOG_ERR
+    APLOG_WARNING
+    APLOG_NOTICE
+    APLOG_INFO
+    APLOG_DEBUG
+    APLOG_NOERRNO
+            
+
+
+server is a reference to a req.server object. If
+  server is not specified, then the error will be logged to the
+  default error log, otherwise it will be written to the error log for
+  the appropriate virtual server. When server is not specified,
+  the setting of LogLevel does not apply, the LogLevel is dictated by
+  an httpd compile-time default, usually warn.
+
+
+If you have a reference to a request object available, consider using
+  req.log_error instead, it will prepend request-specific
+  information such as the source IP of the request to the log entry.
+
+
+
+
+  import_module(
+  module_name[, autoreload=1, log=0, path=None])
+
+  This function can be used to import modules taking advantage of
+  mod_python's internal mechanism which reloads modules automatically
+  if they have changed since last import. 
+
+
+module_name is a string containing the module name (it can
+  contain dots, e.g. mypackage.mymodule); autoreload
+  indicates whether the module should be reloaded if it has changed since
+  last import; when log is true, a message will be written to
+  the logs when a module is reloaded; path allows restricting
+  modules to specific paths.
+
+
+Example:
+
+
+
+    from mod_python import apache
+    mymodule = apache.import_module('mymodule', log=1)
+
+
+
+
+
+  allow_methods(
+  [*args])
+
+  A convenience function to set values in req.allowed.
+  req.allowed is a bitmask that is used to construct the
+  "Allow:" header. It should be set before returning a
+  HTTP_NOT_IMPLEMENTED error.
+
+
+Arguments can be one or more of the following:
+  
+    M_GET
+    M_PUT
+    M_POST
+    M_DELETE
+    M_CONNECT
+    M_OPTIONS
+    M_TRACE
+    M_PATCH
+    M_PROPFIND
+    M_PROPPATCH
+    M_MKCOL
+    M_COPY
+    M_MOVE
+    M_LOCK
+    M_UNLOCK
+    M_VERSION_CONTROL
+    M_CHECKOUT
+    M_UNCHECKOUT
+    M_CHECKIN
+    M_UPDATE
+    M_LABEL
+    M_REPORT
+    M_MKWORKSPACE
+    M_MKACTIVITY
+    M_BASELINE_CONTROL
+    M_MERGE
+    M_INVALID
+
+
+
+
+
+
+
+  exists_config_define(
+  name)
+
+    This function returns True if the Apache server was launched
+    with the definition with the given name. This means
+    that you can test whether Apache was launched with the -DFOOBAR
+    parameter by calling apache.exists_config_define('FOOBAR').
+
+
+
+
+  register_cleanup(
+  handler[, data])
+
+  Registers a cleanup. Equivalent to req.register_cleanup()
+  or req.server.register_cleanup(), except that a server or request
+  object is not required.
+
+
+
+
+  config_tree(
+  )
+
+  Returns the server-level configuration tree. This tree does not
+  include directives from .htaccess files. This is a copy of
+  the tree, modifying it has no effect on the actual configuration.
+
+
+
+
+  server_root(
+  )
+
+  Returns the value of ServerRoot.
+
+
+
+
+  make_table(
+  )
+ 
+  This function is obsolete and is an alias to table (see below).
+
+
+
+
+  mpm_query(
+  code)
+
+  Allows querying of the MPM for various parameters such as numbers of
+  processes and threads. The return value is one of three constants:
+  
+AP_MPMQ_NOT_SUPPORTED      = 0  # This value specifies whether 
+                                # an MPM is capable of         
+                                # threading or forking.        
+AP_MPMQ_STATIC             = 1  # This value specifies whether 
+                                # an MPM is using a static # of
+                                # threads or daemons.          
+AP_MPMQ_DYNAMIC            = 2  # This value specifies whether 
+                                # an MPM is using a dynamic # of
+                                # threads or daemons.
+
+
+
+The code argument must be one of the following:
+  
+AP_MPMQ_MAX_DAEMON_USED    = 1  # Max # of daemons used so far 
+AP_MPMQ_IS_THREADED        = 2  # MPM can do threading         
+AP_MPMQ_IS_FORKED          = 3  # MPM can do forking           
+AP_MPMQ_HARD_LIMIT_DAEMONS = 4  # The compiled max # daemons   
+AP_MPMQ_HARD_LIMIT_THREADS = 5  # The compiled max # threads   
+AP_MPMQ_MAX_THREADS        = 6  # # of threads/child by config 
+AP_MPMQ_MIN_SPARE_DAEMONS  = 7  # Min # of spare daemons       
+AP_MPMQ_MIN_SPARE_THREADS  = 8  # Min # of spare threads       
+AP_MPMQ_MAX_SPARE_DAEMONS  = 9  # Max # of spare daemons       
+AP_MPMQ_MAX_SPARE_THREADS  = 10 # Max # of spare threads       
+AP_MPMQ_MAX_REQUESTS_DAEMON= 11 # Max # of requests per daemon 
+AP_MPMQ_MAX_DAEMONS        = 12 # Max # of daemons by config
+
+
+
+Example:
+  
+if apache.mpm_query(apache.AP_MPMQ_IS_THREADED):
+    # do something
+else:
+    # do something else
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5 apache - Access
+Up:
+4.5 apache - Access
+Next:
+4.5.2 Table Object (mp_table) 
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

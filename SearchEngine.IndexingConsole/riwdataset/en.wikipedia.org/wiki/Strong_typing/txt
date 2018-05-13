@@ -1,0 +1,242 @@
+
+
+
+
+Strong and weak typing - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Strong_and_weak_typing","wgTitle":"Strong and weak typing","wgCurRevisionId":819903165,"wgRevisionId":819903165,"wgArticleId":32046448,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from April 2017","Type systems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Strong_and_weak_typing","wgRelevantArticleId":32046448,"wgRequestId":"WsIfvgpAMFMAAGV3GEYAAACD","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Strong_typing","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Strong_and_weak_typing","wgWikibaseItemId":"Q991202","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Strong and weak typing			
+				From Wikipedia, the free encyclopedia				  (Redirected from Strong typing)
+								
+					Jump to:					navigation, 					search
+				
+				In computer programming, programming languages are often colloquially classified as to whether the language's type system makes it strongly typed or weakly typed (loosely typed). These terms do not have a precise definition, but in general, a strongly typed language has stricter typing rules and is more likely to generate an error or refuse to compile if the argument passed to a function does not closely match the expected type. On the other hand, a weakly typed language has looser typing rules and may produce unpredictable results or may perform implicit type conversion.[1] A different but related concept is latent typing.
+
+
+
+Contents
+
+
+1 History
+2 Definitions of "strong" or "weak"
+
+2.1 Implicit type conversions and "type punning"
+2.2 Pointers
+2.3 Untagged unions
+2.4 Static type-checking
+2.5 Dynamic type-checking
+
+
+3 Variation across programming languages
+4 See also
+5 References
+
+
+
+History[edit]
+In 1974, Liskov and Zilles defined a strongly-typed language as one in which "whenever an object is passed from a calling function to a called function, its type must be compatible with the type declared in the called function."[2] In 1977, Jackson wrote, "In a strongly typed language each data area will have a distinct type and each process will state its communication requirements in terms of these types."[3]
+Definitions of "strong" or "weak"[edit]
+A number of different language design decisions have been referred to as evidence of "strong" or "weak" typing. In fact, many of these are more accurately understood as the presence or absence of type safety, memory safety, static type-checking, or dynamic type-checking.
+"Strong typing" generally refers to use of programming language types in order to both capture invariants of the code, and ensure its correctness, and definitely exclude certain classes of programming errors. Thus there are many "strong typing" disciplines used to achieve these goals.
+Implicit type conversions and "type punning"[edit]
+Some programming languages make it easy to use a value of one type as if it were a value of another type. This is sometimes described as "weak typing".
+For example, Aahz Maruch opines that "Coercion occurs when you have a statically typed language and you use the syntactic features of the language to force the usage of one type as if it were a different type (consider the common use of void* in C). Coercion is usually a symptom of weak typing. Conversion, on the other hand, creates a brand-new object of the appropriate type."[4]
+As another example, GCC describes this as type-punning and warns that it will break strict aliasing. Thiago Macieira discusses several problems that can arise when type-punning causes the compiler to make inappropriate optimizations.[5]
+There are many examples of languages that allow implicit type conversions, but in a type-safe manner. For example, both C++ and C# allow programs to define operators to convert a value from one type to another in a semantically meaningful way. When a C++ compiler encounters such a conversion, it treats the operation just like a function call. In contrast, converting a value to the C type void* is an unsafe operation that is invisible to the compiler.
+Pointers[edit]
+Some programming languages expose pointers as if they were numeric values, and allow users to perform arithmetic on them. These languages are sometimes referred to as "weakly typed", since pointer arithmetic can be used to bypass the language's type system.
+Untagged unions[edit]
+Some programming languages support untagged unions, which allow a value of one type to be viewed as if it were a value of another type.
+Static type-checking[edit]
+In Luca Cardelli's article Typeful Programming,[6] a "strong type system" is described as one in which there is no possibility of an unchecked runtime type error. In other writing, the absence of unchecked run-time errors is referred to as safety or type safety; Tony Hoare's early papers call this property security[citation needed].
+Dynamic type-checking[edit]
+Some programming languages do not have static type-checking. In many such languages, it is easy to write programs that would be rejected by most static type-checkers. For example, a variable might store either a number or the Boolean value "false".
+Variation across programming languages[edit]
+Note that some of these definitions are contradictory, others are merely conceptually independent, and still others are special cases (with additional constraints) of other, more "liberal" (less strong) definitions. Because of the wide divergence among these definitions, it is possible to defend claims about most programming languages that they are either strongly or weakly typed. For instance:
+
+Java, Pascal, Ada and C require all variables to have a declared type, and support the use of explicit casts of arithmetic values to other arithmetic types. Java, C#, Ada and Pascal are sometimes said to be more strongly typed than C, a claim that is probably based on the fact that C supports more kinds of implicit conversions, and C also allows pointer values to be explicitly cast while Java and Pascal do not. Java itself may be considered more strongly typed than Pascal as manners of evading the static type system in Java are controlled by the Java virtual machine's type system. C# and VB.NET are similar to Java in that respect, though they allow disabling of dynamic type checking by explicitly putting code segments in an "unsafe context". Pascal's type system has been described as "too strong", because the size of an array or string is part of its type, making some programming tasks very difficult.[7]
+Smalltalk, Perl, Ruby, Python, and Self are all "strongly typed" in the sense that typing errors are prevented at runtime and they do little implicit type conversion, but these languages make no use of static type checking: the compiler does not check or enforce type constraint rules. The term duck typing is now used to describe the dynamic typing paradigm used by the languages in this group.
+The Lisp family of languages are all "strongly typed" in the sense that typing errors are prevented at runtime. Some Lisp dialects like Common Lisp or Clojure do support various forms of type declarations[8] and some compilers (CMUCL[9] and related) use these declarations together with type inference to enable various optimizations and also limited forms of compile time type checks.
+Standard ML, F#, OCaml, Haskell, and Rust are statically type-checked, but the compiler automatically infers a precise type for most values.
+Visual Basic is a hybrid language. In addition to variables with declared types, it is also possible to declare a variable of "Variant" data type that can store data of any type. Its implicit casts are fairly liberal where, for example, one can sum string variants and pass the result into an integer variable. Visual Basic is weakly typed.
+Assembly language and Forth have been said to be untyped. There is no type checking; it is up to the programmer to ensure that data given to functions is of the appropriate type. Any type conversion required is explicit.
+
+For this reason, writers who wish to write unambiguously about type systems often eschew the term "strong typing" in favor of specific expressions such as "type safety".
+See also[edit]
+
+Data type includes a more thorough discussion of typing issues
+Comparison of programming languages
+Latent typing
+Memory safety
+Type safety
+Type system
+
+References[edit]
+
+
+^ "CS1130. Transition to OO programming. – Spring 2012 --self-paced version". Cornell University, Department of Computer Science. 2005. Archived from the original on 2005. Retrieved 2015-11-23. 
+^ Liskov, B; Zilles, S (1974). "Programming with abstract data types". ACM SIGPLAN Notices. 9: 50–59. CiteSeerX 10.1.1.136.3043 . doi:10.1145/942572.807045. 
+^ Jackson, K. (1977). Parallel processing and modular software construction. Design and Implementation of Programming Languages. Lecture Notes in Computer Science. 54. pp. 436–443. doi:10.1007/BFb0021435. ISBN 3-540-08360-X. 
+^ Aahz. "Typing: Strong vs. Weak, Static vs. Dynamic". Retrieved 16 August 2015. 
+^ "Type-punning and strict-aliasing - Qt Blog". Qt Blog. Retrieved 16 August 2015. 
+^ Luca Cardelli, "Typeful programming"
+^ InfoWorld. Retrieved 16 August 2015. 
+^ "CLHS: Chapter 4". Retrieved 16 August 2015. 
+^ "CMUCL User's Manual: The Compiler". Retrieved 16 August 2015. 
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Strong_and_weak_typing&oldid=819903165"					
+				Categories: Type systemsHidden categories: All articles with unsourced statementsArticles with unsourced statements from April 2017				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةDeutschEestiEspañolفارسیFrançaisItalianoMagyarPolskiРусскийSuomiTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 11 January 2018, at 22:55.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.148","walltime":"0.204","ppvisitednodes":{"value":577,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":15623,"limit":2097152},"templateargumentsize":{"value":593,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":9833,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  171.956      1 -total"," 55.65%   95.690      1 Template:Reflist"," 41.29%   70.995      1 Template:Citation_needed"," 29.77%   51.185      5 Template:Cite_web"," 28.60%   49.185      1 Template:Fix"," 18.52%   31.838      2 Template:Category_handler","  7.88%   13.557      1 Template:Delink","  3.17%    5.444      1 Template:Cite_journal","  2.99%    5.147      1 Template:Cite_conference","  2.91%    5.010      1 Template:Cite_book"]},"scribunto":{"limitreport-timeusage":{"value":"0.067","limit":"10.000"},"limitreport-memusage":{"value":3085981,"limit":52428800}},"cachereport":{"origin":"mw1261","timestamp":"20180311155037","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":70,"wgHostname":"mw1248"});});
+	
+

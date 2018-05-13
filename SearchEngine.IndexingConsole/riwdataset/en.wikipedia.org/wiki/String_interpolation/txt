@@ -1,0 +1,612 @@
+
+
+
+
+String interpolation - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"String_interpolation","wgTitle":"String interpolation","wgCurRevisionId":832337238,"wgRevisionId":832337238,"wgArticleId":30925309,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Programming constructs","String (computer science)","Variable (computer science)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"String_interpolation","wgRelevantArticleId":30925309,"wgRequestId":"Wr@CbgpAAEMAAJmMFY4AAAAE","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q7623982","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+String interpolation			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				In computer programming, string interpolation (or variable interpolation, variable substitution, or variable expansion) is the process of evaluating a string literal containing one or more placeholders, yielding a result in which the placeholders are replaced with their corresponding values. It is a form of simple template processing[1] or, in formal terms, a form of quasi-quotation (or logic substitution interpretation). String interpolation allows easier and more intuitive string formatting and content-specification compared with string concatenation.[2]
+String interpolation is common in many programming languages which make heavy use of string representations of data, such as Apache Groovy, Kotlin, Perl, PHP, Python, Ruby, Scala, and Swift, and most Unix shells. Two modes of literal expression are usually offered: one with interpolation enabled, the other without (termed raw string). Placeholders are usually represented by a bare or a named sigil (typically $ or %), e.g. $placeholder or %123. Expansion of the string usually occurs at run time.
+
+
+
+Contents
+
+
+1 Variations
+2 Algorithms
+3 Security issues
+4 Examples
+
+4.1 Bash
+4.2 Boo
+4.3 C#
+4.4 ColdFusion Markup Language
+4.5 CoffeeScript
+4.6 Dart
+4.7 Groovy
+4.8 Haxe
+4.9 JavaScript
+4.10 Kotlin
+4.11 Nemerle
+4.12 Perl
+4.13 PHP
+4.14 Python
+4.15 Ruby / Crystal
+4.16 Rust
+4.17 Scala
+
+4.17.1 The standard interpolators
+
+
+4.18 Sciter (tiscript)
+4.19 Swift
+4.20 TypeScript
+
+
+5 See also
+6 Notes
+
+
+
+Variations[edit]
+Some languages do not offer string interpolation, instead offering a standard function where one parameter is the printf format string, and other(s) provide the values for each placeholder.
+Ruby uses the # symbol for interpolation, and allows interpolating any expression, not only variables. Other languages may support more advanced interpolation with a special formatting function, such as printf, in which the first argument, the format, specifies the pattern in which the remaining arguments are substituted.
+Algorithms[edit]
+There are two main types of expand variable algorithms for variable interpolation:[3]
+
+Replace and expand placeholders: creating a new string from the original one, by find-replace operations. Find variable-reference (placeholder), replace it by its variable-value. This algorithm offers no cache strategy.
+Split and join string: splitting the string into an array, and merging it with the corresponding array of values; then join items by concatenation. The split string can be cached to reuse.
+
+Security issues[edit]
+String interpolation, like string concatenation, may lead to security problems. If user input data is improperly escaped or filtered, the system will be exposed to SQL injection, script injection, XML External Entity Injection (XXE), and cross-site scripting (XSS) attacks.[4]
+An SQL injection example:
+
+query = "SELECT x, y, z FROM Table WHERE id='$id' "
+
+If $id is replaced with "'; DELETE FROM Table; SELECT * FROM Table WHERE id='", executing this query will wipe out all the data in Table.
+Examples[edit]
+The following Perl code works identically in PHP:
+
+
+$name = "Alice";
+print "${name} said Hello World to the crowd of people.";
+
+produces the output: Alice said Hello World to the crowd of people.
+Bash[edit]
+Main article: Bash (Unix shell)
+
+
+apples=4
+echo "I have $apples apples"
+# or
+echo "I have ${apples} apples"
+
+The output will be:
+
+
+I have 4 apples
+
+Boo[edit]
+Main article: Boo (programming language)
+
+
+apples = 4
+print("I have $(apples) apples")
+# or
+print("I have {0} apples" % apples)
+
+The output will be:
+
+
+I have 4 apples
+
+C#[edit]
+Main article: C Sharp (programming language)
+
+
+var apples = 4;
+var bananas = 3;
+// Before C# 6.0
+System.Console.WriteLine(String.Format("I have {0} apples", apples));
+System.Console.WriteLine(String.Format("I have {0} fruit", apples + bananas));
+// C# 6.0
+System.Console.WriteLine($"I have {apples} apples");
+System.Console.WriteLine($"I have {apples + bananas} fruit");
+
+[5]
+The output will be:
+
+
+I have 4 apples
+I have 7 fruit
+
+ColdFusion Markup Language[edit]
+Main article: ColdFusion Markup Language
+ColdFusion Markup Language (CFML) script syntax:
+
+
+apples = 4;
+writeOutput("I have #apples# apples");
+
+Tag syntax:
+
+
+<cfset apples = 4>
+<cfoutput>I have #apples# apples</cfoutput>
+
+The output will be:
+
+I have 4 apples
+
+CoffeeScript[edit]
+Main article: CoffeeScript
+
+
+apples = 4
+console.log "I have #{apples} apples"
+
+The output will be:
+
+
+I have 4 apples
+
+Dart[edit]
+Main article: Dart (programming language)
+
+
+int apples = 4, bananas = 3;
+print('I have $apples apples.');
+print('I have ${apples+bananas} fruit.');
+
+The output will be:
+
+
+I have 4 apples.
+I have 7 fruit.
+
+Groovy[edit]
+Main article: Groovy (programming language)
+In groovy, interpolated strings are known as GStrings:
+
+
+def quality = 'superhero'
+def sentence = "A developer is a ${quality}"
+print sentence
+
+The output will be:
+
+
+A developer is a superhero
+
+Haxe[edit]
+Main article: Haxe
+
+
+var apples = 4;
+var bananas = 3;
+trace('I have $apples apples.');
+trace('I have ${apples+bananas} fruit.');
+
+The output will be:
+
+
+I have 4 apples.
+I have 7 fruit.
+
+[6]
+JavaScript[edit]
+Main article: JavaScript
+JavaScript, as of the ECMAScript 2015 (ES6) standard, supports string interpolation using backticks ``. This feature is called template literals.[7] Here is an example:
+
+
+var apples = 4;
+var bananas = 3;
+console.log(`I have ${apples} apples`);
+console.log(`I have ${apples + bananas} fruit`);
+
+The output will be:
+
+
+I have 4 apples
+I have 7 fruit
+
+Kotlin[edit]
+Main article: Kotlin (programming language)
+
+
+val quality = "superhero"
+val apples = 4
+val bananas = 3
+val sentence = "A developer is a $quality. I have ${apples + bananas} fruit"
+println(sentence)
+
+The output will be:
+
+
+A developer is a superhero. I have 7 fruit
+
+Nemerle[edit]
+Main article: Nemerle
+
+
+def apples = 4;
+def bananas = 3;
+Console.WriteLine($"I have $apples apples.");
+Console.WriteLine($"I have $(apples + bananas) fruit.");
+
+It also supports advanced formatting features, such as:
+
+
+def fruit = ["apple", "banana"];
+Console.WriteLine($<#I have ..$(fruit; "\n"; f => f + "s")#>);
+
+The output will be:
+
+
+apples
+bananas
+
+Perl[edit]
+Main article: Perl
+
+
+my $apples = 4;
+my $bananas = 3;
+print "I have $apples apples.\n";
+print "I have @{[$apples+$bananas]} fruit.\n";  # Uses the Perl array (@) interpolation.
+
+The output will be:
+
+
+I have 4 apples.
+I have 7 fruit.
+
+PHP[edit]
+Main article: PHP
+
+
+<?php
+$apples = 5;
+$bananas = 3;
+echo "There are $apples apples and $bananas bananas.";
+echo "\n";
+echo "I have ${apples} apples and ${bananas} bananas.";
+
+The output will be:
+
+
+There are 5 apples and 3 bananas.
+I have 5 apples and 3 bananas.
+
+Python[edit]
+Main article: Python (programming language)
+
+
+# in all versions
+apples = 4
+print("I have %d apples" % apples) # no longer recommended
+print("I have %(apples)d apples" % locals())  # no longer recommended
+# with Python 2.6+
+print("I have {0} apples".format(apples))
+print("I have {a} apples".format(a=apples))
+# with Python 2.7+
+print("I have {} apples".format(apples))
+# or with Python 3.6+
+print("I have {apples} apples")
+
+[8][9]
+The output will be:
+
+
+I have 4 apples
+
+Ruby / Crystal[edit]
+Main article: Ruby (programming language)
+Main article: Crystal (programming language)
+
+
+apples = 4
+puts "I have #{apples} apples"
+# or
+puts "I have %s apples" % apples
+# or
+puts "I have %{a} apples" % {a: apples}
+
+The output will be:
+
+
+I have 4 apples
+
+Rust[edit]
+Main article: Rust (programming language)
+Rust provides string interpolation via the std::fmt module, which is interfaced with through various macros such as format!, write!, and print!. These macros are converted into Rust source code at compile-time, whereby each argument interacts with a formatter. The formatter supports positional parameters, named parameters, argument types, and defining various formatting traits.
+
+
+let (apples, bananas) = (4, 3);
+
+// Writing to a `String`
+let message = format!("There are {} apples and {} bananas.\n", apples, bananas);
+
+// Writing to standard output
+println!("There are {} apples and {} bananas.", apples, bananas);
+
+// Writing to standard error
+use std::io::{stderr, Write};
+let stderr = stderr();
+let stderr = &mut stderr.lock();
+writeln!(stderr, "There are {} apples and {} bananas.", apples, bananas).unwrap();
+
+// Writing to a file
+use std::io::Write;
+use std::fs::File;
+let mut file = File::open("path/to/file").unwrap();
+writeln!(&mut file, "There are {} apples and {} bananas.", apples, bananas).unwrap();
+
+The output of each of these will be:
+
+There are 4 apples and 3 bananas.
+
+Scala[edit]
+Main article: Scala (programming language)
+Scala 2.10+ has implemented the following string interpolators: s, f and raw. It is also possible to write custom ones or override the standard ones.
+The f interpolator is a compiler macro that rewrites a format string with embedded expressions as an invocation of String.format. It verifies that the format string is well-formed and well-typed.
+The standard interpolators[edit]
+Scala 2.10+'s string interpolation allows embedding variable references directly in processed string literals. Here is an example:
+
+
+val apples = 4
+val bananas = 3
+//before Scala 2.10
+printf("I have %d apples\n", apples)
+println("I have %d apples" format apples)
+//Scala 2.10+
+println(s"I have $apples apples")
+println(s"I have ${apples + bananas} fruits")
+println(f"I have $apples%d apples")
+
+[10] The output will be:
+
+
+I have 4 apples
+
+Sciter (tiscript)[edit]
+Main article: Sciter (HTML/CSS UI Engine)
+In Sciter any function with name starting from $ is considered as interpolating function and so interpolation is customizable and context sensitive:
+
+
+var apples = 4
+var bananas = 3
+var domElement = ...;
+
+domElement.$content(<p>I have {apples} apples</p>);
+domElement.$append(<p>I have {apples + bananas} fruits</p>);
+
+Where
+
+
+domElement.$content(<p>I have {apples} apples</p>);
+
+gets compiled to this:
+
+
+domElement.html = "<p>I have " + apples.toHtmlString() + " apples</p>";
+
+Swift[edit]
+Main article: Swift (programming language)
+In Swift, a new String value can be created from a mix of constants, variables, literals, and expressions by including their values inside a string literal. Each item inserted into the string literal is wrapped in a pair of parentheses, prefixed by a backslash.
+
+
+let apples = 4
+print("I have \(apples) apples")
+
+The output will be:
+
+
+I have 4 apples
+
+TypeScript[edit]
+Main article: TypeScript
+As of version 1.4, TypeScript supports string interpolation using backticks ``. Here is an example:
+
+
+var apples: number = 4;
+console.log(`I have ${apples} apples`);
+
+The output will be:
+
+
+I have 4 apples
+
+The console.log function can be used as a printf function. The above example can be rewritten, thusly:
+
+
+var apples: number = 4;
+console.log("I have %d apples", apples);
+
+The output remains the same.
+See also[edit]
+
+Concatenation
+Improper input validation
+printf format string
+Quasi-quotation
+String literal
+
+Notes[edit]
+
+
+
+^ "Enforcing Strict Model-View Separation in Template Engines", T. Parr (2004), WWW2004 conference.
+^ http://perlmeme.org/howtos/using_perl/interpolation.html
+^ "smallest-template-system/Simplest algorithms", a online tutorial for placeholder-template-systems.
+^ http://google-caja.googlecode.com/svn/changes/mikesamuel/string-interpolation-29-Jan-2008/trunk/src/js/com/google/caja/interp/index.html#-autogen-id-1
+^ https://github.com/dotnet/roslyn/wiki/Languages-features-in-C%23-6-and-VB-14
+^ "Haxe - Manual - String interpolation". Haxe - The Cross-platform Toolkit. Retrieved 2017-09-12. 
+^ https://developer.mozilla.org/docs/Web/JavaScript/Reference/Template_literals
+^ https://docs.python.org/3/whatsnew/3.0.html
+^ https://www.python.org/dev/peps/pep-0498/
+^ http://www.horstmann.com/
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=String_interpolation&oldid=832337238"					
+				Categories: Programming constructsString (computer science)Variable (computer science)				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					Bahasa Melayu日本語				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 25 March 2018, at 10:53.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.140","walltime":"0.569","ppvisitednodes":{"value":770,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":6306,"limit":2097152},"templateargumentsize":{"value":194,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":31686,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  532.094      1 -total"," 73.76%  392.472      2 Template:Code"," 10.44%   55.573      1 Template:Reflist","  7.54%   40.125     14 Template:Main","  7.42%   39.482      1 Template:Cite_news","  2.04%   10.872      7 Template:Main_article","  0.38%    2.042      1 Template:Samp","  0.29%    1.546      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.050","limit":"10.000"},"limitreport-memusage":{"value":1424353,"limit":52428800}},"cachereport":{"origin":"mw1243","timestamp":"20180331102810","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":73,"wgHostname":"mw1272"});});
+	
+

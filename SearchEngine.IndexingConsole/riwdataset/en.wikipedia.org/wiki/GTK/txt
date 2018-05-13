@@ -1,0 +1,2259 @@
+
+
+
+
+GTK+ - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"GTK+","wgTitle":"GTK+","wgCurRevisionId":830681314,"wgRevisionId":830681314,"wgArticleId":23534301,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: BOT: original-url status unknown","All articles with unsourced statements","Articles with unsourced statements from March 2015","Pages using deprecated image syntax","Pages using div col with deprecated parameters","Articles with unsourced statements from December 2015","Official website different in Wikidata and Wikipedia","Wikipedia articles with VIAF identifiers","Wikipedia articles with LCCN identifiers","Wikipedia articles with GND identifiers","Articles with example C code","GTK+","Application programming interfaces","C libraries","Cross-platform software","Free computer libraries","Free software programmed in C","GNOME","Software that uses Cairo","Software using the LGPL license","Widget toolkits","X-based libraries","Software that uses Meson"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"GTK+","wgRelevantArticleId":23534301,"wgRequestId":"WsAjBQpAICMAADUn@wQAAAAC","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"GTK","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/GTK%2B","wgWikibaseItemId":"Q189464","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+GTK+			
+				From Wikipedia, the free encyclopedia				  (Redirected from GTK)
+								
+					Jump to:					navigation, 					search
+				
+				"GTK" redirects here. For other uses, see GTK (disambiguation).
+
+GTK+
+
+
+
+
+
+gtk3-widget-factory, is a collection of examples demonstrating many of the GUI widgets in GTK+ version 3
+
+
+
+Original author(s)
+Spencer Kimball, Peter Mattis, eXperimental Computing Facility (XCF)
+
+
+Developer(s)
+The GNOME Project
+
+
+Initial release
+April 14, 1998; 19 years ago (1998-04-14)
+
+
+
+
+
+Stable release
+3.22.29 (March 13, 2018; 18 days ago (2018-03-13)) [±]
+
+
+Preview release
+3.93 (December 27, 2017; 3 months ago (2017-12-27)) [±]
+
+
+
+
+
+Repository
+
+
+
+https://gitlab.gnome.org/GNOME/gtk.git
+
+
+
+
+
+Written in
+C[1]
+
+
+Operating system
+Linux, Unix-like, macOS, Windows
+
+
+Type
+Widget toolkit
+
+
+License
+LGPL version 2.1
+
+
+Website
+gtk.org
+
+
+GTK+ (formerly GIMP Toolkit) is a cross-platform widget toolkit for creating graphical user interfaces.[2] It is licensed under the terms of the GNU Lesser General Public License, allowing both free and proprietary software to use it. It is, along with Qt, one of the most popular tool-kits for the Wayland and X11 windowing systems.[3]
+
+
+
+Contents
+
+
+1 Software architecture
+
+1.1 GIMP Drawing Kit (GDK)
+1.2 GTK+ Scene Graph Kit (GSK)
+1.3 GtkInspector
+1.4 GUI designers
+
+1.4.1 GtkBuilder
+
+
+1.5 Language bindings
+
+1.5.1 Gtk#
+
+
+1.6 GtkSourceView
+1.7 GtkSpell
+
+
+2 Development
+
+2.1 Build automation
+2.2 Criticisms
+
+
+3 Usage
+
+3.1 Applications
+3.2 Desktop environments
+
+3.2.1 Current
+3.2.2 Inactive
+3.2.3 Miscellaneous
+
+
+3.3 Window managers
+
+
+4 Example
+5 History
+
+5.1 Releases
+
+
+6 See also
+7 References
+8 Bibliography
+9 External links
+
+
+
+Software architecture[edit]
+
+
+
+
+Simplified software architecture of GTK+. Pango, GDK, ATK, GIO, Cairo and GLib
+
+
+
+
+
+
+GDK contains back-ends to X11, Wayland, Broadway (HTTP), Quartz and GDI and relies on Cairo for the rendering. Its new SceneGraph is work-in-progress.
+
+
+The GTK+ library contains a set of graphical control elements (widgets), version 3.22.16 contains 186 active and 36 deprecated widgets.[4] GTK+ is an object-oriented widget toolkit written in the C programming language; it uses GObject, that is the GLib object system, for the object orientation. While GTK+ is primarily targeted at windowing systems based upon X11 and Wayland, it works on other platforms, including Microsoft Windows (interfaced with the Windows API), and macOS (interfaced with Quartz). There is also an HTML5 back-end called Broadway[5][6].
+GTK+ can be configured to change the look of the widgets drawn; this is done using different display engines. Several display engines exist which try to emulate the look of the native widgets on the platform in use.
+Starting with version 2.8, released in 2005, GTK+ began the transition to using Cairo to render the majority of its graphical control elements.[7] Since GTK+ version 3.0, all the rendering is done using Cairo.[citation needed]
+On 2018-Jan-26 at DevConf.cz Matthias Clasen gave an overview of the current state of GTK+ 4 development, including a high-level explanation of how rendering and input worked in GTK+ 3, what changes are being made in GTK+ 4 (>3.90), and why these changes are being made! Some examples of things that will become possible with GTK+ 4.[8]
+ GIMP Drawing Kit (GDK)[edit]
+Main article: GDK
+GDK acts as a wrapper around the low-level functions provided by the underlying windowing and graphics systems.
+GDK is found in the /gdk directory.
+ GTK+ Scene Graph Kit (GSK)[edit]
+Main article: GTK+ Scene Graph Kit
+GSK is the rendering and scene graph API for GTK+. GSK lies between the graphical control elements (widgets) and the rendering. GSK was finally merged into GTK+ version 3.90 released March 2017.
+GSK is found in the /gsk directory.
+GtkInspector[edit]
+GtkInspector has been introduced with version 3.14.[9][10] GtkInspector can only be invoked after installing the development package libgtk-3-dev/gtk+-devel.
+GUI designers[edit]
+There are several GUI designers for GTK+. The following projects are active as of July 2011:
+
+Glade, supports GtkBuilder, which is a GTK+ built-in GUI description format.
+Gazpacho, GUI builder for the GTK+ toolkit written in Python[11]
+Crow Designer, relies on its own GuiXml format and GuiLoader library.[12]
+Stetic, part of MonoDevelop, oriented towards Gtk#.
+
+GtkBuilder[edit]
+GtkBuilder allows user interfaces to be designed without writing code. The interface is described in an Extensible Markup Language (XML) file, which is then loaded at runtime and the objects created automatically. The Glade Interface Designer allows creation of the user interface in a WYSIWYG manner. The description of the user interface is independent from the programming language being used.
+Language bindings[edit]
+Main article: List of language bindings for GTK+
+A library written in one programming language may be used in another language if bindings are written; GTK+ has a range of bindings for various languages.[13]
+Gtk#[edit]
+
+Gtk#
+
+
+
+
+Developer(s)
+Xamarin
+
+
+
+
+
+Stable release
+
+2.12.41[14] / September 22, 2016; 17 months ago (2016-09-22)
+
+
+
+Preview release
+
+2.99.3[15] / June 6, 2014; 3 years ago (2014-06-06)
+
+
+
+
+
+
+Repository
+
+
+
+https://gitlab.gnome.org/GNOME/gtk.git
+
+
+
+
+
+Written in
+C#, XML, Perl, C
+
+
+Operating system
+Windows, OS X, Linux
+
+
+Type
+Widget toolkit
+
+
+License
+GNU Lesser General Public License
+
+
+Website
+mono-project.com/GtkSharp
+
+
+Gtk# is a set of .NET bindings for the GTK+ GUI toolkit and assorted GNOME libraries. The library facilitates building graphical GNOME applications using Mono or any other compliant CLR. Gtk# is an event-driven system like any other modern windowing library where every widget allows you to associate handler methods, which get called when particular events happen.
+Applications built using Gtk# will run on many platforms including Linux, Windows and macOS. The Mono packages for Windows include GTK+, Gtk# and a native theme to make applications look like native Windows applications. Starting with Mono 1.9, running Gtk# applications on macOS no longer requires the user to run the X11 server.[16]
+Glade can be used with the Glade# bindings to easily design GUI applications. A GUI designer called Stetic is integrated with the MonoDevelop IDE.
+In addition to support the standard GTK/GNOME stack of development tools, the gtk-dotnet.dll assembly provides a bridge to consume functionality available on the .NET stack. At this point this includes the functionality to use System.Drawing to draw on a widget.
+GtkSourceView[edit]
+Main article: GtkSourceView
+For syntax highlighting there is GtkSourceView, "source code editing widget".
+GtkSourceView is maintained separately from GTK+ as a library: gtksourceview. There are plans to rename to gsv.
+GtkSpell[edit]
+GtkSpell is a distinct library separate to GTK+. GtkSpell depends on GTK+ and Enchant. Enchant is a wrapper for ispell, hunspell, etc, the actual spell checker engine/software. GtkSpell uses GTK's GtkTextView widget, to highlight misspelled words and offer replacement.
+
+gtkspell.sourceforge.net
+
+Development[edit]
+GTK+ is mainly developed by The GNOME Project, which also develops the GNOME Development Platform and the GNOME Desktop Environment.[17]
+GTK+ development is loosely managed. Discussion chiefly occurs on a number of public mailing lists.[18] GNOME developers and users gather at an annual GUADEC meeting to discuss the current state and the future direction of GNOME.[19] GNOME incorporates standards and programs from freedesktop.org to better interoperate with other desktops.
+GTK+ is mainly written in C.[20] A number of language bindings are available.
+On September 1, 2016 a post on the GTK development blog denoted, among other things, the future numbering scheme of GTK+.[21] GTK+ version 3.22 from autumn 2016 shall be the last 3.x release. After that all resources will flow into the GTK+ 4 development series with the version names 3.90, 3.92, etc. Even as the 4.x series enters development, notable applications still use GTK+ 2.x and have not been ported to 3.22. Regarding the future of legacy software using GTK+, there is no collective project to port GTK+ 2.x software to 3.22.
+Build automation[edit]
+In former times GTK+ (and GNOME, GLib, etc.) utilized the GNU Build System (called Autotools) as the build automation system of choice.
+The Meson build system is being prepared to be used with GTK.[22]
+On Saturday 13 August at GUADEC2016 Nirbheek Chauhan held a talk titled "Making your GNOME app compile 2.4x faster". The video is available on YouTube:
+
+www.youtube.com/watch?v=ae9_rNuFaQM&list=PLkmRdYgttscFeGAkxtAL9pr2AggQwke3j&index=27
+
+Criticisms[edit]
+The most common criticism towards GTK+ is a lack of backwards-compatibility in major updates, most notably in the API[23] and theming.[24]
+The compatibility breaks between minor releases during the GTK+ 3.x development cycle has been explained by Benjamin Otte as due to strong pressures to innovate, such as providing the features modern users expect and supporting the increasingly influential Wayland display server protocol. With the release of GTK+ 4, the pressure from the need to innovate will have been released and the balance between stability and innovation will tip towards stability.[25] Similarly, recent changes to theming are specifically intended to improve and stabilise that part of the API, meaning some investment now should be rewarded later.
+
+Dirk Hohndel, co-developer of Subsurface and member of Intel's Open-Source Technology Center, criticized the GTK+ developers for being abrasive and ignoring most community requests.[26]
+Hong Jen Yee, developer of LXDE, expressed disdain for version 3 of the GTK+ toolkit's radical API changes and increased memory usage, and ported PCManFM to Qt additionally. PCManFM is being developed with a GTK+ and with a Qt backend at the same time.[27]
+The Audacious music player plans to move back to GTK+ version 2 starting with version 3.6, with the long-term goal of migrating to Qt.[28] The reasons stated by the developers for this include a transition to client-side window decorations, which they claim cause the application to look "GNOME-y and out of place."[29]
+Wireshark also is transitioning to use Qt due to not having a good experience with GTK+'s cross-platform support.[30]
+
+Usage[edit]
+
+
+
+
+The GTK+ support for Wayland, co-requisites applications to be adapted to Wayland as well
+
+
+
+
+
+
+Screenshot of GIMP 2.8 - GTK+ is responsible for managing the interface components of the program, including the menus, buttons, and input fields.
+
+
+Applications[edit]
+Main articles: List of GTK+ applications and Category:Software that uses GTK+
+Some notable applications that use or once used GTK+ as a widget toolkit include:
+
+GNOME Core Applications –  as part of GNOME desktop environment, developed in concert with GTK+ itself.
+
+
+
+AbiWord –  Word processor
+Anjuta –  Integrated development environment (IDE)
+Ardour –  Digital audio workstation
+Chromium –  Web browser (Until version 34, replaced by Aura in version 35+)[citation needed]
+Ekiga (formerly GnomeMeeting) –  VoIP and video conferencing application
+GNU Emacs can use GTK when running under X.
+Evolution –  Personal information manager
+gconfig –  Linux kernel source configuration utility.
+Geany –  a lightweight cross-platform IDE and GTK+ text editor based on Scintilla.
+GIMP –  Raster graphics editor
+Gnumeric –  Spreadsheet application
+Gramps –  Genealogy software
+Inkscape –  Vector graphics editor for SVG
+LiVES –  Video editor
+Midori –  Minimalistic web browser using GTKWebKit as rendering engine and GTK+ as widget toolkit
+Pidgin –  Instant messenger application
+
+
+Desktop environments[edit]
+Main page: Desktop environments based on GTK+
+Several desktop environments utilize GTK+ as the widget toolkit.
+Current[edit]
+
+GNOME, based on GTK+, meaning that programs native to GNOME use GTK+
+Budgie, built from scratch for the SolusOS successor, Solus Operating System
+
+Planning to port to and focus on Qt
+
+
+Cinnamon, a fork of GNOME 3 and uses GTK+ version 3
+MATE, a fork of GNOME 2, which has been updated to support GTK+ 3
+Xfce, currently based on GTK+ 2 with support for and eventual plans for a migration to GTK+ 3
+Pantheon uses GTK+ 3 exclusively, being developed by elementary OS
+Sugar, a desktop environment oriented towards kids’ educations, which uses GTK+, especially PyGTK
+KDE, though based on Qt, has integration with GTK+ written programs and themes since version 4.2
+
+Inactive[edit]
+
+Unity, the former default desktop environment of Ubuntu
+LXDE (Lightweight X11 Desktop Environment) is based on GTK+ 2
+Access Linux Platform (successor of the Palm OS PDA platform)
+Consort, the GNOME 3.4 Fallback Mode – fork from SolusOS
+GPE, the GPE Palmtop Environment
+ROX Desktop, a lightweight desktop, with features from the GUI of RISC OS
+
+Miscellaneous[edit]
+GTK+ programs can be run on top of X11-based desktop environments or window managers even those not made with GTK+, provided the required libraries are installed; this includes macOS if X11.app is installed. GTK+ can be also run under Microsoft Windows, where it is used by some popular cross-platform applications like Pidgin and GIMP. wxWidgets, a cross-platform GUI tool-kit, uses GTK+ on Linux.[31] Other ports include DirectFB (used by the Debian installer, for example) and ncurses.[32]
+Window managers[edit]
+The following window managers use GTK+:
+
+
+Aewm
+AfterStep
+Amaterus
+Consortium
+IceWM
+Marco
+Metacity
+Muffin
+Mutter
+Sawfish
+Wmg
+Xfwm
+
+
+Example[edit]
+Documentation is available here:
+
+developer.gnome.org/gtk3/stable/
+
+The following code presents a graphical GTK+ hello-world program in the C programming language. This program has a window with the title "Hello, world!" and a label with similar text.
+
+
+// helloworld.c
+
+#include <gtk/gtk.h>
+
+int main (int argc, char *argv[])
+{
+    GtkWidget *window;
+    GtkWidget *label;
+
+    gtk_init(&argc, &argv);
+
+    /* Create the main, top level window */
+    window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+
+    /* Give it the title */
+    gtk_window_set_title(GTK_WINDOW(window), "Hello, world!");
+
+    /* Center the window */
+    gtk_window_set_position(GTK_WINDOW(window), GTK_WIN_POS_CENTER);
+
+    /* Set the window's default size */
+    gtk_window_set_default_size(GTK_WINDOW(window), 200, 100);
+
+    /*
+    ** Map the destroy signal of the window to gtk_main_quit;
+    ** When the window is about to be destroyed, we get a notification and
+    ** stop the main GTK+ loop by returning 0
+    */
+    g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
+
+    /*
+    ** Assign the variable "label" to a new GTK label,
+    ** with the text "Hello, world!"
+    */
+    label = gtk_label_new("Hello, world!");
+
+    /* Plot the label onto the main window */
+    gtk_container_add(GTK_CONTAINER(window), label);
+
+    /* Make sure that everything, window and label, are visible */
+    gtk_widget_show_all(window);
+
+    /*
+    ** Start the main loop, and do nothing (block) until
+    ** the application is closed
+    */
+    gtk_main();
+
+    return 0;
+}
+
+Needs installing the libraries first in debian or derivatives:
+$ sudo apt-get install libgtk-3-dev
+Using pkg-config in a Unix shell, this code can be compiled with the following command:
+$ cc -Wall `pkg-config --cflags gtk+-3.0` -o helloworld helloworld.c `pkg-config --libs gtk+-3.0`
+Invoke the program
+$ ./helloworld
+History[edit]
+GTK+ was originally designed and used in the GNU Image Manipulation Program (GIMP) as a replacement of the Motif toolkit; at some point Peter Mattis became disenchanted with Motif and began to write his own GUI toolkit called the GIMP toolkit and had successfully replaced Motif by the 0.60 release of GIMP.[33] Finally GTK was re-written to be object-oriented and was renamed GTK+.[34] This was first used in the 0.99 release of GIMP. GTK+ was subsequently adopted for maintenance by the GNOME Foundation, which uses it in the GNOME desktop environment.
+The GTK+ 2.0.0 release series introduced new features which include improved text rendering using Pango, a new theme engine, improved accessibility using the Accessibility Toolkit, transition to Unicode using UTF-8 strings, and a more flexible API. Starting with version 2.8, GTK+ 2 depends on the Cairo graphics library for rendering vector graphics.
+GTK+ version 3.0.0 included revised input device handling, support for themes written with CSS-like syntax, and the ability to receive information about other opened GTK+ applications.
+Releases[edit]
+
+
+Release history
+
+
+Release series
+Initial release
+Major enhancements
+Latest minor version
+
+
+Old version, no longer supported: 1.0
+1998-04-14
+First stable version
+1.0.6
+
+
+Old version, no longer supported: 1.2
+1999-02-27
+New widgets (GtkFontSelector, GtkPacker, GtkItemFactory, GtkCTree, GtkInvisible, GtkCalendar, GtkLayout, GtkPlug, GtkSocket)
+1.2.10
+
+
+GTK+ 2
+
+
+Old version, no longer supported: 2.0
+2002-03-11
+GObject, overall support for UTF-8
+2.0.9
+
+
+Old version, no longer supported: 2.2
+2002-12-22
+Multihead support
+2.2.4
+
+
+Old version, no longer supported: 2.4
+2004-03-16
+New widgets (GtkFileChooser, GtkComboBox, GtkComboBoxEntry, GtkExpander, GtkFontButton, GtkColorButton)
+2.4.14
+
+
+Old version, no longer supported: 2.6
+2004-12-16
+New widgets (GtkIconView, GtkAboutDialog, GtkCellView).
+The last to support Windows 98/ME.
+2.6.10
+
+
+Old version, no longer supported: 2.8
+2005-08-13
+Majority of the widgets are rendered by Cairo.
+2.8.20
+
+
+Old version, no longer supported: 2.10
+2006-07-03
+New widgets (GtkStatusIcon, GtkAssistant, GtkLinkButton,
+GtkRecentChooser) and print support (GtkPrintOperation)
+2.10.14
+
+
+Old version, no longer supported: 2.12
+2007-09-14
+GtkBuilder
+2.12.12
+
+
+Old version, no longer supported: 2.14
+2008-09-04
+JPEG 2000 load support
+2.14.7
+
+
+Old version, no longer supported: 2.16
+2009-03-13
+New widget (GtkOrientable), Caps Lock warning in password entry.
+Improvements on GtkScale, GtkStatusIcon, GtkFileChooser.
+2.16.6
+
+
+Old version, no longer supported: 2.18
+2009-09-23
+New widget (GtkInfoBar). Improvement on file chooser, printing.
+To remove much of the necessary IPC between the X11 application and the X11 server, GDK has been rewritten (mainly by Alexander Larsson) to use "client-side windows", i.e. the GdkWindow, which every widget is required to have, belongs now to the client.
+2.18.9
+
+
+Old version, no longer supported: 2.20
+2010-03-23
+New widgets (GtkSpinner, GtkToolPalette, GtkOffscreenWindow). Improvement on file chooser,
+keyboard handling, GDK. Introspection data is now included in GTK+.
+2.20.1
+
+
+Old version, no longer supported: 2.22
+2010-09-23
+GdkPixbuf moved to separate module, most GDK drawing are based on Cairo,
+many internal data are now private and can be sealed in preparation to GTK+ 3.
+2.22.1
+
+
+Old version, no longer supported: 2.24
+2011-01-30
+New widget (GtkComboBoxText), the CUPS print backend can send print jobs as PDF,
+GtkBuilder has gained support for text tags and menu toolbuttons and many introspection annotation fixes were added.
+2.24.32
+(2018-01-08)
+
+
+GTK+ 3
+
+
+Old version, no longer supported: 3.0
+2011-02-10
+Development and design of the GTK+ 3 release of the toolkit started in February 2009 during the GTK+ Theming Hackfest held in Dublin.[35] The first draft of the development roadmap was released on 9 April 2009.[36]
+completed mostly Project Ridley, the attempt to consolidate several libraries that were external to GTK+, including libgnome, libgnomeui, libgnomeprint22, libgnomeprintui22, libglade, libgnomecanvas, libegg, libeel, gtkglext, and libsexy.[37]
+all the rendering is done using Cairo;
+GDK became more X11 agnostic,
+XInput2, theme API is based upon CSS (worsening the achievable performance for 60 Hz frame rates)
+3.0.12
+
+
+Old version, no longer supported: 3.2
+2011-09-25
+New widgets (GtkLockButton, GtkOverlay), New Font Chooser dialog;
+new experimental backends (Wayland, HTML5 (called "Broadway"));
+3.2.4
+
+
+Old version, no longer supported: 3.4
+2012-03-26
+Menu support in GtkApplication, a new color chooser, added support for touch devices, added support for smooth scrolling,
+GtkScrolledWindow will do kinetic scrolling with touch devices, OS X support has been improved.
+This is the first version of GTK+ 3 that works well on Windows.
+The Wayland backend has been updated to the current Wayland version
+Spin buttons have received a new look.
+Accessibility: the treeview accessible support has been rewritten
+More complete CSS Theming support
+3.4.4
+
+
+Old version, no longer supported: 3.6
+2012-09-24
+GtkSearchEntry, GtkMenuButton, GtkLevelBar. Vertical spin buttons.
+CSS animations, blur shadows.
+Support for cross-fading and transitions in themes.
+3.6.5
+
+
+Old version, no longer supported: 3.8
+2013-05-13
+Wayland 1.0 stable support, support for the broadwayd server, improved theming, better geometry management,
+touch improvements, support with the window manager for the frame synchronization protocol;
+GdkFrameClock added[38]
+3.8.9
+
+
+Old version, no longer supported: 3.10
+2013-09-23
+New widgets (GtkHeaderBar, GtkPlacesSidebar, GtkStack, GtkStackSwitcher, GtkRevealer, GtkSearchBar, GtkListBox).
+Support for Wayland 1.2 (maximization, animated cursors, multiple monitors, settings, custom surfaces and frame synchronization)
+Added: client-side decorations, scaled output support on high-dpi screens, fine-adjustment mode for scrolling.
+Removed: support for the Motif DND protocol, support for multiple screens per display, gdk_window_get_display, gtk_widget_push_composite_child,
+Tear-off menu-items, plus a number of GTK+ settings.
+The modern GTK+ drawing model
+3.10.9
+
+
+Old version, no longer supported: 3.12
+2014-03-25
+GTK+ 3.12 introduced client-side decorations,[39] support for Wayland 1.5; new widgets: (GtkPopover, an alternative to menus and dialogs)
+3.12.2
+
+
+Old version, no longer supported: 3.14
+2014-09-30
+GtkInspector (a copy of gtkparasite) introduced;[40][41] improved support for gestures/multi-touch merged[42][43]
+Deprecate: GtkMisc, GtkAlignment, GtkArrow, GdkColor, Style regions, support for .icon files, gdk_window_flush, drawing outside of begin/end paint.[44] Most widgets converted to use gestures internally, Wayland supports GNOME Shell classic modus.[45]
+3.14.13
+
+
+Old version, no longer supported: 3.16
+2015-03-22
+GDK supports rendering windows using OpenGL for X11 and Wayland using libepoxy, new widgets (GtkGLArea, GtkStackSidebar, GtkModelButton, GtkPopoverMenu), scrolling overhauled (Scrollbar hidden by default[46]), experimental Mir backend[47]
+3.16.7
+
+
+Old version, no longer supported: 3.18
+2015-11-22
+Add CSS node infrastructure, More filechooser design refresh and Better filechooser search, Dropped Windows XP support, Model support for list and flow box, Kinetic touchpad scrolling, Touchpad gestures (Wayland), gtk-builder-tool utility, Output-only windows
+3.18.5
+
+
+Old version, no longer supported: 3.20
+2016-03-21
+Further Integration of CSS nodes,[48] move drag and drop down to GDK, New widgets: GtkShortcutsWindow: shows keyboard shortcuts and gestures of an application
+3.20.3
+
+
+Current stable version:  3.22
+2016-09-20
+last 3.x released[21]
+GTK+ Wayland tablet support is merged;[49] Support for graphics tablets is considered feature complete[50]
+GTK+ 3.22 shall be as rock-stable (and hence "boring") as GTK+ 2[25][51][52]
+for 3+ years
+3.22.26
+
+
+GTK+ 4 development series
+
+
+Old version, no longer supported: 3.90
+2017-03-24
+merge (GTK+ Scene Graph Kit (GSK))[53]
+remove any API marked as deprecated: before (2016-09-22) vs. after
+heavy development, break API&ABI.[51][52] A new Vulkan-renderer augments the old Cairo-renderer[54]
+3.89.1
+3.89.2
+3.89.4
+3.89.5
+3.90
+
+
+
+Current stable version: 3.92
+2017-10-18
+As GNOME 3.26 was released already on September, 13th. [55] it is not based on GTK+ 3.92! Please browse the git-history to determine what hindered GTK+ to release early enough for the latest GNOME to be based on it: https://git.gnome.org/browse/gtk+/
+GNU autotools was replaced with Meson;
+3.91.0
+3.91.1
+3.91.2
+3.92.1
+
+
+
+Latest preview version of a future release: 3.93
+2018 spring
+3.93: GdkScreen, GdkVisual removed, GdkDeviceManager replaced by GdkSeat, Clipboard handling has been moved from GTK to GDK, GdkEvent has been converted to an opaque GObject, The GL renderer in GSK has been substantially completed, and is now on par with the Vulkan renderer, The use of GdkPixbuf in APIs has been reduced, and the GskTexture object has been moved to GDK as GdkTexture, to take its place, The Wayland backend now implements the KDE server-side decoration protocol, Broadway has been ported to GSK, …
+3.93
+
+
+Future release: 3.96
+2018 autumn
+2018-Jan-26 at DevConf.cz: Matthias Clasen gave an overview of the current state of GTK+ 4 development, including a high-level explanation of how rendering and input worked in GTK+ 3, what changes we are making for GTK+ 4, and why we are making them! Some examples of things that will become possible with GTK+ 4. (https://mclasen.fedorapeople.org/gtk4-devconf2018.pdf)
+
+
+
+Future release: 4.0
+???
+remove any API marked as deprecated, i.e. at least everything in the deprecated directory
+
+
+
+GTK+ 5 development series
+GTK+ 4 stable series
+
+
+Future release: 4.90
+
+
+
+Future release: 4.2
+
+
+
+
+
+Future release: 4.92
+
+
+
+Future release: 4.4
+
+
+
+
+
+Future release: 4.94
+
+
+
+Future release: 4.6
+
+
+
+
+
+
+
+Legend:
+Old version
+Older version, still supported
+Latest version
+Latest preview version
+Future release
+
+
+
+
+
+The GNOME team releases new versions on a regular basis.[53]
+See also[edit]
+
+
+Free software portal
+
+
+
+Client-Side Decoration
+List of widget toolkits
+GDK – the GIMP Drawing Kit lies between the xlib and the GTK+ library, handling basic rendering such as drawing primitives, raster graphics (bitmaps), cursors, fonts, as well as window events and drag-and-drop functionality
+gtkmm – C++ bindings for GTK+
+Qt - cross platform framework and toolkit
+Xojo - cross-platform development tool and framework
+Enlightenment Foundation Libraries (EFL) – widget toolkit written for the Enlightenment window manager
+FLTK – A light, cross-platform, non-native widget toolkit
+FOX toolkit – A fast, open source, cross-platform widget toolkit
+IUP – a multi-platform toolkit for building native graphical user interfaces
+Ultimate++
+Visual Component Library (VCL)
+
+References[edit]
+
+
+^ "The GTK+ Open Source Project on Ohloh". Ohloh.net. Retrieved 2014-02-17. 
+^ The GTK+ Team. "GTK+ Features". Retrieved 8 September 2014. 
+^ "Developing X applications". 
+^ "GTK+ 3 Reference Manual". Retrieved 2017-07-15. 
+^ "Using GTK+ with Broadway". GNOME Developer. GNOME. Retrieved 6 March 2018. 
+^ "Broadway - GitHub symbiose/symbiose Wiki". GitHub. Retrieved 6 March 2018. 
+^ "GTK+ to Use Cairo Vector Engine". Retrieved 2009-12-27. 
+^ "Matthias Clasen DevConf.cz 2018 talk about GTK+ 4" (PDF). 2018-01-26. 
+^ "Introducing GtkInspector". 2014-05-15. 
+^ "Another GtkInspector update". 2014-07-11. 
+^ "Gazpacho in Debian". 
+^ "nothing-personal - A development site for Crow Designer, GuiLoader and Rally - Google Project Hosting". Retrieved 2014-02-17. 
+^ Team, The GTK+. "GTK+ Language Bindings". www.gtk.org. Retrieved 3 June 2017. 
+^ "Release 2.12.41". 
+^ "Release 2.99.3". 
+^ "Download [Gtk#]". The GTK+ Project. 
+^ "GNOME Quick SWOT Analysis". The GNOME Project. Retrieved March 18, 2014. 
+^ "GTK+ and GNOME Mailing Lists". The GNOME Project. Retrieved December 4, 2011. 
+^ "About". GUADEC. Archived from the original on October 4, 2011. Retrieved December 3, 2011. 
+^ "GNOME Languages". Ohloh. Black Duck Software. Retrieved May 22, 2014. 
+^ a b "Versioning and long term stability promise in GTK+". GTK development blog. 2016-09-01. 
+^ "Adaptation of Meson". 
+^ "How Does One Create A Gtk+ Application? – Morten Welinder". blogs.gnome.org. Retrieved 3 June 2017. 
+^ A GTK+ update, by mclasen, November 20, 2015, Goings on:
+^ a b "GUADEC2013: Benjamin Otte talks about GTK+". GUADEC. 
+^ Larabel, Michael (2014-01-12). "The Biggest Problem With GTK & What Qt Does Good". Phoronix. Retrieved 2014-09-10. 
+^ Hong Jen Yee (2013-03-26). "PCManFM Qt 0.1.0 released". Retrieved 2014-09-10. 
+^ Web Upd8 (2014-06-23). "Audacious Going Back To GTK2 Starting With Version 3.6". Retrieved 2014-10-21. 
+^ Lindgren, John (2014-05-06). "Ugly window decorations and how to fix them (GTK+ 3.12)". Retrieved 2014-10-21. 
+^ Gerald Combs (2013-10-15). "We're switching to Qt". Retrieved 2015-08-19. 
+^ "GTK+". WxWidgets Compared To Other Toolkits. 
+^ "GTK+ TTY Port". Slashdot. Retrieved 2010-08-31. 
+^ "LinuxWorld - Where did Spencer Kimball and Peter Mattis go?". Archived from the original on April 17, 1999. Retrieved 2013-08-19. CS1 maint: BOT: original-url status unknown (link)
+^ "What is the + in GTK+?". 2011. Archived from the original on 2012-03-26. Retrieved 2014-03-18. 
+^ "Gtk+ 3.0 Theming API Hackfest". Silicon Island. Retrieved 3 June 2017. 
+^ "Gtk+ 3 roadmap draft". Retrieved 3 June 2017. 
+^ "Project Ridley". 
+^ "GdkFrameClock". 
+^ "GTK 3.12 introduced client-side decorations". 
+^ Matthias Clasen (2014-05-15). "GtkInspector Author's blog entry". Retrieved 2014-05-17. 
+^ "GtkInspector in GNOME wiki". 2014-05-15. Retrieved 2014-05-17. 
+^ "Merging gestures into 3.14". 2014-05-23. Retrieved 2014-05-23. 
+^ "RFC: gestures". 2014-03-04. Retrieved 2014-05-23. 
+^ "gtk+ 3.13.2". 2014-05-27. 
+^ "gtk+ 3.13.3". 2014-06-24. 
+^ online, heise. "Linux-Desktop: Neues Gnome zeigt Nachrichten oben". heise online. Retrieved 3 June 2017. 
+^ "GTK+ 3.16.0 released". mail.gnome.org. Retrieved 3 June 2017. 
+^ "GTK+ 3.20 – Style Classes and Element Names". 2015-11-20. 
+^ "GTK+ Wayland tablet support merged". 
+^ "libinput as of September 2016". 
+^ a b "Gtk 4.0 will not be stable until Gtk 4.6". 2016-06-13. 
+^ a b "Gtk 5.0 will not be stable until Gtk 5.6". 2016-06-14. 
+^ a b "GNOME Wiki: roadmap for GTK+". 
+^ "gskvulkanrenderer.c". 
+^ "GNOME 3.26 Released". 2017-09-13. 
+
+
+Bibliography[edit]
+
+
+Krause, Andrew (April 23, 2007), Foundations of GTK+ Development (1st ed.), Apress, ISBN 978-1-59059-793-4 
+Wright, Peter (May 15, 2000), Beginning GTK+ and GNOME (1st ed.), Peer Information, ISBN 978-1-86100-381-2 
+Logan, Syd (September 6, 2001), Gtk+ Programming in C (1st ed.), Prentice Hall, ISBN 978-0-13-014264-1 
+
+
+External links[edit]
+
+
+
+Wikimedia Commons has media related to GTK+.
+
+
+
+
+
+The Wikibook X Window Programming has a page on the topic of: GTK+
+
+
+
+Official website
+GTK+ 3 Reference Manual
+Client-Side Decorations Initiative
+List of GTK+ applications
+GTK+ PyGObject for Windows on SourceForge.net - Python All-In-One PyGI/PyGObject for Windows Installer (GTK+ 3.18 +)
+GTK+ for Windows (MinGW) on SourceForge.net - (Only up to GTK+ 3.5.4)
+GtkSharp at Mono Project
+
+
+
+
+
+
+
+v
+t
+e
+
+
+GTK+ applications
+
+
+
+Platform
+
+
+
+
+GTK+
+
+
+
+GTK+
+
+GDK
+ATK
+ClutterActor
+GTK+ Scene Graph Kit
+Pango
+Language bindings
+
+PyGTK
+PyGObject
+
+
+
+
+GLib
+
+GObject
+GIO
+
+
+IBus
+Orca
+dconf
+Genie
+Vala
+Keyring
+GNOME-DB
+GVfs
+Hildon
+Librsvg
+MetaTracker
+libxslt
+libxml2
+
+
+
+
+
+freedesktop.org
+(shared)
+
+
+
+AppStream
+D-Bus
+GStreamer
+NetworkManager
+Poppler
+libcanberra
+Wayland
+X.Org Server
+PulseAudio
+PackageKit
+HarfBuzz
+Cairo
+
+
+
+
+
+Development
+
+
+
+
+GUI designer, RAD
+
+
+
+Glade Interface Designer
+GNOME Builder
+
+
+
+
+
+IDEs
+
+
+
+Anjuta
+Builder
+Bluefish
+Meld
+Devhelp
+Nemiver
+Poedit
+Geany
+Gtranslator
+gPHPedit
+PyRoom
+SciTE
+UberWriter
+PIDA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GNOME
+
+
+
+GNOME Shell
+GNOME Games
+Core Applications
+
+Boxes
+Calculator
+Character Map
+Dictionary
+Disks
+Files
+Software
+Terminal
+Videos
+Web
+
+
+Other
+
+dconf editor
+
+
+
+
+
+
+
+Cinnamon
+
+
+
+Nemo
+
+
+
+
+
+Xfce
+
+
+
+Thunar
+
+
+
+
+
+LXDE
+
+
+
+PCMan File Manager
+LXMusic
+
+
+
+
+
+Graphical shells
+
+
+
+GNOME Panel
+Docky
+GNOME Do
+Avant Window Navigator
+GLX-Dock
+
+
+
+
+
+3rd-party
+applications
+
+
+
+
+Office
+
+
+
+AbiWord
+Dia
+Gnumeric
+Evince (pdf)
+Evolution
+Dictionary
+Ease
+OCRFeeder
+
+
+
+
+
+Education
+
+
+
+Gramps
+GCompris
+DrGeo
+GeoGebra
+Ghemical
+Celestia
+Chemtool
+Wine-Doors
+
+
+
+
+
+Graphics
+
+
+
+GIMP
+GNU Paint
+Inkscape
+gThumb
+gPhoto
+Eye of GNOME
+Sushi
+Shotwell
+F-Spot
+Viewnior
+
+
+
+
+
+Internet
+
+
+
+Balsa
+Sylpheed
+Claws Mail
+Empathy
+Ekiga
+Gobby
+gtk-gnutella
+GpsDrive
+SFLphone
+Vino (VNC server)
+Vinagre
+Midori
+Uzbl
+transmission-gtk
+
+
+
+
+
+Audio
+
+
+
+Audacious
+Banshee
+Buzztrax
+Exaile
+Rhythmbox
+Sound Juicer
+SoundConverter
+Quod Libet
+
+Ex Falso
+
+
+EasyTag
+Asunder
+
+
+
+
+
+Video
+
+
+
+gtkam
+Avidemux
+Cinelerra
+Kino
+LiVES
+OpenShot Video Editor
+Pitivi
+Gnome MPlayer
+Cheese
+
+
+
+
+
+Utilities
+
+
+
+Archive Manager
+Brasero
+dconf-editor
+Diodon
+gedit
+gnote
+Screenshot
+GParted
+Guake
+Leafpad
+Tilda
+Tomboy
+Workrave
+
+
+
+
+
+
+
+
+
+
+
+ Category:GTK+
+ Category:Software that uses GTK+
+ Commons
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+GNU Project
+
+
+
+History
+
+
+
+GNU Manifesto
+Free Software Foundation
+
+Europe
+India
+Latin America
+
+
+History of free software
+
+
+
+
+
+Licenses
+
+
+
+GNU General Public License
+GNU Lesser General Public License
+GNU Affero General Public License
+GNU Free Documentation License
+GPL linking exception
+
+
+
+
+
+Software
+
+
+
+GNU (variants)
+Hurd
+Linux-libre
+glibc
+Bash
+coreutils
+findutils
+Build System
+GCC
+binutils
+GDB
+GRUB
+GNOME
+GNUstep
+GIMP
+GNU Ring
+GNU Emacs
+GNU TeXmacs
+GNU Octave
+GNU R
+GSL
+GMP
+GNU Electric
+GNU Archimedes
+GNUnet
+GNU Privacy Guard
+Gnuzilla (IceCat)
+GNU Health
+GNUmed
+GNU LilyPond
+GNU Go
+GNU Chess
+Gnash
+Guix
+Guix System Distribution
+more...
+
+
+
+
+
+Public
+speakers
+
+
+
+Alexandre Oliva
+Benjamin Mako Hill
+Bradley M. Kuhn
+Eben Moglen
+Federico Heinz
+Georg C. F. Greve
+John Sullivan
+Loïc Dachary
+Matt Lee
+Nagarjuna G.
+Ricardo Galli
+Richard Stallman
+Robert J. Chassell
+
+
+
+
+
+Other topics
+
+
+
+GNU/Linux naming controversy
+Revolution OS
+Free Software Foundation anti-Windows campaigns
+Defective by Design
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+List of widget toolkits
+
+
+
+Low-level
+
+
+
+
+On AmigaOS
+
+
+
+Intuition
+
+
+
+
+
+On Classic Mac OS
+and macOS
+
+
+
+
+Unknown/Native
+
+
+
+Macintosh Toolbox
+
+
+
+
+
+Object Pascal
+
+
+
+Carbon
+
+
+
+
+
+CLI
+
+
+
+
+Desktop
+
+
+
+Xamarin.Mac
+
+
+
+
+
+Mobile
+
+
+
+Xamarin.iOS
+
+
+
+
+
+
+
+
+
+
+
+On Windows
+
+
+
+Windows API
+
+
+
+
+
+On Unix,
+under X11
+
+
+
+Xlib
+XCB
+X Toolkit Intrinsics, Xt, X-Toolkit
+
+
+
+
+
+On BeOS/Haiku
+
+
+
+BeOS, ZETA, Haiku
+
+
+
+
+
+On Cross-platform
+
+
+
+
+CLI
+
+
+
+OpenTK
+
+
+
+
+
+C
+
+
+
+GDK
+
+
+
+
+
+Java
+
+
+
+JOGL
+
+
+
+
+
+
+
+
+On Android
+
+
+
+
+CLI
+
+
+
+Xamarin.Android
+
+
+
+
+
+
+
+
+
+
+
+High-level
+
+
+
+
+On AmigaOS
+
+
+
+BOOPSI
+MUI
+ReAction GUI
+Zune
+
+
+
+
+
+On Classic Mac OS
+and macOS
+
+
+
+
+Object Pascal
+
+
+
+Carbon
+MacApp
+
+
+
+
+
+Objective-C
+
+
+
+
+Desktop
+
+
+
+Cocoa
+
+
+
+
+
+Mobile
+
+
+
+Cocoa Touch
+
+
+
+
+
+
+
+
+C++
+
+
+
+MacZoop
+PowerPlant
+
+
+
+
+
+
+
+
+On Windows
+
+
+
+
+CLI
+
+
+
+
+Desktop
+
+
+
+Windows Forms
+XAML (Silverlight, WinRT XAML, WPF)
+XNA Framework
+
+
+
+
+
+Web
+
+
+
+XAML (Silverlight)
+
+
+
+
+
+Mobile
+
+
+
+XNA Framework
+
+
+
+
+
+
+
+
+C++
+
+
+
+MFC
+ATL
+WTL
+OWL
+
+
+
+
+
+Object Pascal
+
+
+
+VCL
+
+
+
+
+
+
+
+
+On Unix,
+under X11
+
+
+
+Athena (Xaw)
+InterViews
+LessTif
+Motif
+OLIT
+XForms
+
+
+
+
+
+On Android
+
+
+
+
+C++
+
+
+
+Qt for Android
+
+
+
+
+
+
+
+
+Cross-platform,
+by language
+
+
+
+
+C
+
+
+
+GTK+
+IUP
+Tk
+wxC
+XForms
+XVT
+
+
+
+
+
+C++
+
+
+
+CEGUI
+CLX
+FLTK
+FOX toolkit
+GLUI
+Gtkmm
+JUCE
+Nana
+Qt
+Rogue Wave Views
+TnFOX
+Ultimate++
+VCF
+Wt
+wxWidgets
+YAAF
+
+
+
+
+
+Objective-C
+
+
+
+GNUstep
+
+
+
+
+
+CLI
+
+
+
+
+Desktop
+
+
+
+Gtk#
+Tao (OpenTK, TaoClassic)
+wx.NET
+UIML.NET
+MonoGame
+
+
+
+
+
+Web
+
+
+
+Moonlight
+
+
+
+
+
+Mobile
+
+
+
+MonoGame
+Xamarin.Forms
+
+
+
+
+
+
+
+
+D
+
+
+
+DFL
+DlangUI
+DWT
+GtkD
+QtD
+wxD
+
+
+
+
+
+Flash
+
+
+
+Apache Flex (MXML)
+
+
+
+
+
+Haskell
+
+
+
+Gtk2Hs
+wxHaskell
+
+
+
+
+
+Java
+
+
+
+
+Desktop
+
+
+
+AWT
+FXML (JavaFX)
+Qt Jambi
+Swing
+SWT
+wx4j
+jUIML
+
+
+
+
+
+Web
+
+
+
+GWT
+FXML (JavaFX)
+
+
+
+
+
+Mobile
+
+
+
+LWUIT
+
+
+
+
+
+
+
+
+JavaScript
+
+
+
+Dojo Toolkit
+Echo
+Ext JS
+Google Closure
+jQuery UI
+Qooxdoo
+YUI
+
+
+
+
+
+Common Lisp
+
+
+
+CAPI
+CLIM
+Common Graphics
+Ltk
+McCLIM
+
+
+
+
+
+Lua
+
+
+
+IUP
+wxLua
+
+
+
+
+
+Pascal
+
+
+
+
+Desktop
+
+
+
+LCL
+
+
+
+
+
+Mobile
+
+
+
+LCL
+
+
+
+
+
+
+
+
+Object Pascal
+
+
+
+
+Desktop
+
+
+
+CLX
+fpGUI
+IP Pascal
+LCL
+
+
+
+
+
+Mobile
+
+
+
+LCL
+
+
+
+
+
+
+
+
+Perl
+
+
+
+Perl/Tk
+
+
+
+
+
+PHP
+
+
+
+PHP-GTK
+PHP-Qt
+wxPHP
+
+
+
+
+
+Python
+
+
+
+PyGObject
+PyGTK
+Pyjs
+PyQt
+PySide
+Tkinter
+wxPython
+
+
+
+
+
+Ruby
+
+
+
+Shoes
+QtRuby
+wxRuby
+
+
+
+
+
+Tcl
+
+
+
+Tcl/Tk
+
+
+
+
+
+XML
+
+
+
+Ample SDK
+GladeXML
+Lively Kernel
+Pyjs
+Rialto Toolkit
+XAML
+XUI
+XUL
+Wt
+
+
+
+
+
+shell
+
+
+
+whiptail
+dialog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Authority control
+
+
+
+WorldCat Identities
+VIAF: 179958458
+LCCN: n2001062971
+GND: 4618256-1
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=GTK%2B&oldid=830681314"					
+				Categories: GTK+Application programming interfacesC librariesCross-platform softwareFree computer librariesFree software programmed in CGNOMESoftware that uses CairoSoftware using the LGPL licenseWidget toolkitsX-based librariesSoftware that uses MesonHidden categories: CS1 maint: BOT: original-url status unknownAll articles with unsourced statementsArticles with unsourced statements from March 2015Pages using deprecated image syntaxPages using div col with deprecated parametersArticles with unsourced statements from December 2015Official website different in Wikidata and WikipediaWikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with GND identifiersArticles with example C code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia CommonsWikibooks				
+							
+		
+			
+			Languages
+			
+								
+					العربيةБългарскиCatalàČeštinaDanskDeutschΕλληνικάEspañolEsperantoEuskaraفارسیFrançais한국어हिन्दीBahasa IndonesiaÍslenskaItalianoעבריתLietuviųMagyarBahasa MelayuNederlands日本語NorskPolskiPortuguêsRomânăРусскийSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaதமிழ்తెలుగుไทยTürkçeУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 16 March 2018, at 09:34.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.836","walltime":"0.992","ppvisitednodes":{"value":10694,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":385302,"limit":2097152},"templateargumentsize":{"value":17664,"limit":2097152},"expansiondepth":{"value":29,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":51933,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  791.662      1 -total"," 31.01%  245.463      4 Template:Infobox"," 26.82%  212.301      2 Template:Infobox_software"," 26.43%  209.250      1 Template:Reflist"," 21.23%  168.100     54 Template:Cite_web"," 15.79%  125.017     22 Template:Navbox","  6.88%   54.481      2 Template:Citation_needed","  6.64%   52.604     27 Template:Date","  6.54%   51.785      2 Template:Infobox_software/simple","  6.17%   48.852      2 Template:Fix"]},"scribunto":{"limitreport-timeusage":{"value":"0.351","limit":"10.000"},"limitreport-memusage":{"value":8666554,"limit":52428800}},"cachereport":{"origin":"mw1320","timestamp":"20180331104915","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":106,"wgHostname":"mw1333"});});
+	
+

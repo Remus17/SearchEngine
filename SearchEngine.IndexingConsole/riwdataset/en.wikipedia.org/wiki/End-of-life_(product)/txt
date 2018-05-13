@@ -1,0 +1,241 @@
+
+
+
+
+End-of-life (product) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"End-of-life_(product)","wgTitle":"End-of-life (product)","wgCurRevisionId":824308188,"wgRevisionId":824308188,"wgArticleId":300571,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 German-language sources (de)","Articles needing additional references from August 2014","All articles needing additional references","Product lifecycle management","Software release"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"End-of-life_(product)","wgRelevantArticleId":300571,"wgRequestId":"Wr9ntQpAMF0AADCXeEIAAAAW","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q224887","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+End-of-life (product)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				"Discontinued" redirects here. For other uses, see Discontinuation.
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (August 2014) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+Milestones in a product life cycle: general availability (GA), end of life announcement (EOLA), last order date (LOD), and end-of-life (EOL)
+
+
+"End-of-life" (EOL) is a term used with respect to a product supplied to customers, indicating that the product is in the end of its useful life (from the vendor's point of view), and a vendor stops marketing, selling, or rework sustaining it. (The vendor may simply intend to limit or end support for the product.) In the specific case of product sales, a vendor may employ the more specific term "end-of-sale" (EOS). The time-frame after the last production date depends on the product and relates to the expected product lifetime from a customer's point of view. Different lifetime examples include toys from fast food chains (weeks or months), mobile phones (3 years) and cars (10 years).
+
+
+
+Contents
+
+
+1 Product support
+2 Computing
+3 See also
+4 References
+5 Further reading
+
+
+
+Product support[edit]
+Product support during EOL varies by product. For hardware with an expected lifetime of 10 years after production ends, the support includes spare parts, technical support and service. Spare-part lifetimes are price-driven due to increasing production costs: when the parts can no longer be supplied through a high-volume production site (often closed when series production ends), the cost increases.
+Computing[edit]
+In the computing field, the concept of end-of-life has significance in the production, supportability and purchase of software and hardware products. For example, Microsoft marked Windows 98 for end-of-life on June 30, 2006. Software produced after that date may not work for it. For example, Microsoft's product Office 2007 (released November 30, 2006), is not installable on Windows Millennium or any prior versions. Depending on vendor, end-of-life may differ from end of service life, which has the added distinction that a vendor of systems or software will no longer provide maintenance, troubleshooting or other support.[1] Such software which is abandoned service-wise by the original developers is also called abandonware. Sometimes, software vendors hand over software on end-of-life, end-of-sale or end-of-service to the user community, to allow them to provide service and further upgrades themselves.[2][3][4] Notable examples are the web browser Netscape Communicator, which was released 1998 by Netscape Communications under an open-source license to the public,[5][6] and the office suite StarOffice which was released by Sun Microsystems in October 2000 as OpenOffice.org (LibreOffice forked from this).[7] Sometimes, software communities continue the support on end-of-official-support even without endorsement of the original developer, such developments are then called unofficial patches, existing for instance for Windows 98[8][9] or many PC games.[10][11]
+See also[edit]
+
+Backward compatibility
+End of Life Vehicles Directive, a directive of the European Union
+Abandonware
+Digital obsolescence
+Planned obsolescence
+Product life cycle management
+Product lifetime
+Product change notification
+Service life
+
+References[edit]
+
+
+^ "End of Service Life". MidcomData. Archived from the original on 2014-07-25. Retrieved 2014-07-16. 
+^ Bell, John (October 1, 2009). "Opening the Source of Art". Technology Innovation Management Review. Archived from the original on March 30, 2014. Retrieved December 30, 2012. [...]that no further patches to the title would be forthcoming. The community was predictably upset. Instead of giving up on the game, users decided that if Activision wasn't going to fix the bugs, they would. They wanted to save the game by getting Activision to open the source so it could be kept alive beyond the point where Activision lost interest. With some help from members of the development team that were active on fan forums, they were eventually able to convince Activision to release Call to Power II's source code in October of 2003. 
+^ Largent, Andy (October 8, 2003). "Homeworld Source Code Released". www.insidemacgames.com. Archived from the original on October 12, 2013. Retrieved November 24, 2012. With the release of Homeworld 2 for the PC, Relic Entertainment has decided to give back to their impressive fan community by releasing the source code to the original Homeworld. 
+^ Colayco, Bob (February 6, 2004). "Microsoft pledges Allegiance to its fanbase". gamespot.com. Archived from the original on December 10, 2013. Retrieved July 22, 2011. The release of the source code came in response to the enthusiasm of Allegiance's small-but-dedicated fanbase. Microsoft's Joel Dehlin commented that the development team has "been amazed at the level to which some of the Allegiance fans have remained hard-core. We’re astounded at the progress that has been made at creating new factions, hosting new servers, replacing authentication, etc. It seems that Allegiance hasn’t really died. With that in mind, we’re releasing the Allegiance source code to the community." 
+^ "NETSCAPE ANNOUNCES PLANS TO MAKE NEXT-GENERATION COMMUNICATOR SOURCE CODE AVAILABLE FREE ON THE NET". Netscape Communications Corporation. January 22, 1998. Archived from the original on April 1, 2007. Retrieved August 8, 2013. BOLD MOVE TO HARNESS CREATIVE POWER OF THOUSANDS OF INTERNET DEVELOPERS; COMPANY MAKES NETSCAPE NAVIGATOR AND COMMUNICATOR 4.0 IMMEDIATELY FREE FOR ALL USERS, SEEDING MARKET FOR ENTERPRISE AND NETCENTER BUSINESSES  
+^ "MOUNTAIN VIEW, Calif., April 1 /PRNewswire/ -- Netscape Communications and open source developers are celebrating the first anniversary, March 31, 1999, of the release of Netscape's browser source code to mozilla.org". Netscape Communications. March 31, 1999. Archived from the original on March 26, 2014. Retrieved January 10, 2013. [...]The organization that manages open source developers working on the next generation of Netscape's browser and communication software. This event marked a historical milestone for the Internet as Netscape became the first major commercial software company to open its source code, a trend that has since been followed by several other corporations. Since the code was first published on the Internet, thousands of individuals and organizations have downloaded it and made hundreds of contributions to the software. Mozilla.org is now celebrating this one-year anniversary with a party Thursday night in San Francisco. 
+^ Proffitt, Brian (October 13, 2000). "StarOffice Code Released in Largest Open Source Project". linuxtoday.com. Archived from the original on October 16, 2013. Retrieved January 10, 2013. Sun's joint effort with CollabNet kicked into high gear on the OpenOffice Web site at 5 a.m. PST this morning with the release of much of the source code for the upcoming 6.0 version of StarOffice. According to Sun, this release of 9 million lines of code under GPL is the beginning of the largest open source software project ever. 
+^ Dirscherl, Hans-Christian (2005-11-29). "Nicht tot zu kriegen: Win 98 Service Pack 2.1" (in German). PCWelt.de. Archived from the original on 2013-10-12. Retrieved 2011-04-06. 
+^ Kuhbach, Sebastian (2005-08-04). "Inoffizielles Win98 SE Service Pack - neue Version" (in German). winfuture.de. Archived from the original on 2011-05-02. Retrieved 2011-04-06. 
+^ Sharkey, Mike (2012-03-14). "Unofficial Skyrim Patch Fixes Myriad Skyrim Bugs - Fan created uber patch designed to fix Skyrim's many problems". gamespy.com. Archived from the original on 2012-11-19. Retrieved 2012-12-22. 
+^ Thompson, Michael (2009-10-06). "Fan-restored KOTOR II content creates refined, expanded game KOTOR II wasn't the most complete Star Wars title ever released, due to an …". arstechnica.com. Archived from the original on 2012-04-22. Retrieved 2013-09-05. After years of development, the cut content has been finally restored and the most of the bugs have been fixed, thanks to a project known as known as the "Restored Content Mod. 
+
+
+
+JEDEC standard EOL : JESD48
+JEDEC standard PCN : JESD46
+
+Further reading[edit]
+
+Scharnhorst, W., Althaus, H.-J., Hilty, L. and Jolliet, O.: Environmental assessment of End-of-Life treatment options for an GSM 900 antenna rack, Int J LCA., 11 (6), pp: 426-436. 2006
+Scharnhorst, W., Althaus, H.-J., Classen, M., Jolliet, O. and Hilty, L. M.: End of Life treatment of second generation mobile phone networks: strategies to reduce the environmental impact, Env Imp Ass Rev 25 (5), pp: 540-566. 2005
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=End-of-life_(product)&oldid=824308188"					
+				Categories: Product lifecycle managementSoftware releaseHidden categories: CS1 German-language sources (de)Articles needing additional references from August 2014All articles needing additional references				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					DanskDeutschFrançaisPortuguês中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 6 February 2018, at 15:57.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.140","walltime":"0.177","ppvisitednodes":{"value":641,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":32001,"limit":2097152},"templateargumentsize":{"value":128,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":17736,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  157.482      1 -total"," 61.48%   96.816      1 Template:Reflist"," 47.70%   75.118     11 Template:Cite_web"," 19.56%   30.809      1 Template:Refimprove"," 15.98%   25.163      1 Template:Ambox"," 15.23%   23.985      1 Template:Redirect","  0.93%    1.467      1 Template:Main_other","  0.91%    1.430      1 Template:Column-width"]},"scribunto":{"limitreport-timeusage":{"value":"0.079","limit":"10.000"},"limitreport-memusage":{"value":3993602,"limit":52428800}},"cachereport":{"origin":"mw1258","timestamp":"20180331104926","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":274,"wgHostname":"mw1258"});});
+	
+

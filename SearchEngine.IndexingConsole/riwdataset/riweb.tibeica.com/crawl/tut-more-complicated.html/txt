@@ -1,0 +1,210 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.4 Now something More Complicated - Authentication
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+3.3 So what Exactly
+Up:
+3. Tutorial
+Next:
+3.5 Your Own 404
+
+
+
+
+ 
+
+3.4 Now something More Complicated - Authentication
+
+
+
+Now that you know how to write a primitive handler, let's try
+something more complicated.
+
+
+Let's say we want to password-protect this directory. We want the
+login to be "spam", and the password to be "eggs".
+
+
+First, we need to tell Apache to call our authentication
+handler when authentication is needed. We do this by adding the
+PythonAuthenHandler. So now our config looks like this:
+
+
+
+  <Directory /mywebdir>
+      AddHandler mod_python .py
+      PythonHandler myscript
+      PythonAuthenHandler myscript
+      PythonDebug On
+  </Directory>
+
+
+
+Notice that the same script is specified for two different
+handlers. This is fine, because if you remember, mod_python will look
+for different functions within that script for the different handlers.
+
+
+Next, we need to tell Apache that we are using Basic HTTP
+authentication, and only valid users are allowed (this is fairly basic
+Apache stuff, so we're not going to go into details here). Our config
+looks like this now:
+
+
+
+  <Directory /mywebdir>
+     AddHandler mod_python .py
+     PythonHandler myscript
+     PythonAuthenHandler myscript
+     PythonDebug On
+     AuthType Basic
+     AuthName "Restricted Area"
+     require valid-user
+  </Directory>
+          
+
+
+Now we need to write an authentication handler function in
+myscript.py. A basic authentication handler would look like
+this:
+
+
+
+from mod_python import apache
+
+def authenhandler(req):
+
+    pw = req.get_basic_auth_pw()
+    user = req.user
+
+    if user == "spam" and pw == "eggs":
+       return apache.OK
+    else:
+       return apache.HTTP_UNAUTHORIZED
+  
+
+
+Let's look at this line by line: 
+
+
+
+
+
+def authenhandler(req):
+
+
+
+This is the handler function declaration. This one is called
+  authenhandler because, as we already described above,
+  mod_python takes the name of the directive
+  (PythonAuthenHandler), drops the word "Python" and converts
+  it lower case.
+
+
+
+
+    pw = req.get_basic_auth_pw()
+
+
+
+This is how we obtain the password. The basic HTTP authentication
+  transmits the password in base64 encoded form to make it a little
+  bit less obvious. This function decodes the password and returns it
+  as a string. Note that we have to call this function before obtaining
+  the user name.
+
+
+
+
+    user = req.user
+
+
+
+This is how you obtain the username that the user entered. 
+
+
+
+
+    if user == "spam" and pw == "eggs":
+        return apache.OK
+
+
+
+We compare the values provided by the user, and if they are what we
+  were expecting, we tell Apache to go ahead and proceed by returning
+  apache.OK. Apache will then consider this phase of the
+  request complete, and proceed to the next phase. (Which in this case
+  would be handler() if it's a .py file).
+
+
+
+
+    else:
+        return apache.HTTP_UNAUTHORIZED
+
+
+
+Else, we tell Apache to return HTTP_UNAUTHORIZED to the
+  client, which usually causes the browser to pop a dialog box asking
+  for username and password.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+3.3 So what Exactly
+Up:
+3. Tutorial
+Next:
+3.5 Your Own 404
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

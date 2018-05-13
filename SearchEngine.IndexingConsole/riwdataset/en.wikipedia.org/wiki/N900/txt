@@ -1,0 +1,1758 @@
+
+
+
+
+Nokia N900 - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Nokia_N900","wgTitle":"Nokia N900","wgCurRevisionId":828308193,"wgRevisionId":828308193,"wgArticleId":24061104,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 Swedish-language sources (sv)","Webarchive template wayback links","Use dmy dates from January 2013","Pages using deprecated image syntax","Pages using Infobox information appliance with unknown parameters","Pages using div col with deprecated parameters","Digital audio players","Portable media players","Touchscreen portable media players","GPS navigation devices","Mobile Linux","Nokia mobile phones","Smartphones","Touchscreen mobile phones","Linux-based devices","Mobile phones with an integrated hardware keyboard","Open-source mobile phones"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Nokia_N900","wgRelevantArticleId":24061104,"wgRequestId":"Wr-XWgpAME4AAFdgmu0AAAAS","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"N900","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Nokia_N900","wgWikibaseItemId":"Q858241","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Nokia N900			
+				From Wikipedia, the free encyclopedia				  (Redirected from N900)
+								
+					Jump to:					navigation, 					search
+				
+				
+Nokia N900
+
+
+
+
+Manufacturer
+Nokia
+
+
+Type
+Mobile Internet device, handheld computer and smartphone
+
+
+Release date
+11 November 2009 (2009-11-11)
+
+
+Media
+microSD/microSDHC card[1]
+
+
+Operating system
+Maemo 5[2]
+
+
+CPU
+TI OMAP 3430 SoC
+600 MHz ARM Cortex-A8 CPU
+430 MHz C64x+ DSP[2]
+
+
+Memory
+256 MB Mobile DDR
+768 MB swap space for a total of 1 GB virtual memory[2]
+
+
+Storage
+256 MB NAND flash
+32 GB eMMC flash[2]
+
+
+Display
+TFT 800 × 480 resolution
+89 mm (3.5 in) diagonally
+105 pixels/cm, 267 ppi[2]
+
+
+Graphics
+PowerVR SGX530 GPU supporting OpenGL ES 2.0[2]
+
+
+Sound
+Stereo loudspeaker
+3.5 mm TRRS for Audio/Headphones/Video out
+
+
+Input
+Resistive touchscreen
+Localized backlit keyboard with variations for English, Italian, French, German, Russian, Scandinavian and Spanish
+microphone
+3-axis accelerometer
+Proximity sensor
+Ambient light sensor
+
+
+Camera
+5.0 MP (2,584×1,938) 1/2.5" sensor,[3] f/2.8 5.2mm (31.2mm focal length in 35mm terminology) Carl Zeiss Tessar lens (rear camera)
+0.3 MP (640×480) f/2.8 (front camera)[2][4]
+
+
+Connectivity
+GSM 850/900/1800/1900
+GPRS 107/64 kbit/s DL/UL
+EDGE 296/178 kbit/s DL/UL
+UMTS 900/1700/2100
+WCDMA 384/384 kbit/s DL/UL
+HSPA 10/2 Mbit/s DL/UL
+WLAN IEEE 802.11 b/g
+Bluetooth 2.1
+Integrated GPS with A-GPS[1]
+88-108 MHz FM receiver
+88-110 MHz FM transmitter
+Infrared transmitter
+
+
+Power
+
+BL-5J 1320 mAh battery[2]
+MicroUSB Battery Charger,
+
+
+Online services
+Skype, IM chats, Facebook
+
+
+Dimensions
+110.9 mm (4.37 in) (h)
+59.8 mm (2.35 in) (w)
+18 mm (0.71 in) (d)
+19.55 mm at thickest part[2]
+
+
+Weight
+approx. 181 g (0.399 lb)[2]
+
+
+Predecessor
+Nokia N810
+Nokia N97
+
+
+Successor
+Nokia N9
+Nokia N950 (Unreleased)
+
+
+The Nokia N900 is a smartphone made by Nokia.[5] It supersedes the Nokia N810. Its default operating system, Maemo 5, is a Linux-based OS originally developed for the Nokia 770 Internet Tablet. It is the first Nokia device based upon the Texas Instruments OMAP3 microprocessor with the ARM Cortex-A8 core. Unlike the three Nokia Internet tablets preceding it, the Nokia N900 is the first Maemo device to include phone functionality (quad-band GSM and 3G UMTS/HSDPA).[6]
+The N900 functions as a mobile Internet device, and includes e-mail, web browsing and access to online services, a 5-megapixel digital camera for still or video photography, a portable media player for music and video, calculator, games console and word processor, SMS, as well as mobile telephony using either a mobile network or VoIP via Internet (mobile or Wi-Fi).[7] Maemo provides an X-terminal interface for interacting with the core operating system.
+It was launched at Nokia World on 2 September 2009 and was released on 11 November 2009 in the United States and 9 European countries.
+The N900 was launched alongside Maemo 5, giving the device an overall more touch-friendly interface than its predecessors and a customizable home screen which mixes application icons with shortcuts and widgets. Maemo 5 supports Adobe Flash Player 9.4, and includes many applications designed specifically for the mobile platform such as a new touch-friendly media player.[8][9]
+
+
+
+Contents
+
+
+1 History and availability
+2 Hardware
+
+2.1 Processors
+2.2 Screen and input
+2.3 Buttons
+2.4 Audio and output
+2.5 Battery and SIM
+2.6 Storage
+
+
+3 Software
+
+3.1 SIM Application Toolkit
+
+
+4 Known issues
+5 Future
+6 See also
+7 Notes
+8 References
+9 External links
+
+
+
+History and availability[edit]
+The Nokia N900 was announced on 17 September 2008 during a keynote presentation by Dr. Ari Jaaksi of Nokia. New supported features were announced for Maemo 5 such as cellular connectivity over 3G/HSPA, TI OMAP3 processor and high definition camera support. No news on backward compatibility for older Internet Tablets and no time frame was established.[10] The release of the pre-alpha Maemo 5 software development kit, in December 2008[11] targeted exclusively the OMAP3 architecture, revamped the user interface, included support for hardware graphics acceleration and other functionalities not found in Internet Tablets at the time such as cellular data connectivity and high definition camera support.
+The first photo and specifications of the N900, codenamed Rover while being developed, came out in May 2009.[12][13] The release of FCC approval documents in August 2009 confirmed the device and provided the second codename RX-51.[14][15][16] The Nokia N900 was officially announced on 2 September 2009 at Nokia World 2009 in Germany. Nokia says it is step 4 of 5 in the line of Maemo devices which started in 2005 with the Nokia 770.[17]
+The device was initially available in selected markets starting November 2009 (4 December in the UK)[18] with a retail price of €599 in Finland,[19] Germany,[20] Italy,[21] Netherlands[22] and Spain,[23] €649 in France,[24] 2499 zł in Poland,[25] 5995 kr[26] in Sweden and £499[27] in the United Kingdom, all prices including VAT but excluding subsidies. The retail price at launch was US$649 in the United States excluding sales taxes and subsidies.[1][28] It will be available in Canada through independent retailers for around C$800.[29][30] As of March 2010 the Nokia site in Australia lists the N900 on the homepage, hinting at launch some time in the near future.[31][32] Black was the only color available at launch. Initially, availability was extremely limited, leading to further delays. The statement from Nokia was that there was higher pre-order demand than expected.[33] The Nokia N900 launched in Hong Kong on 29 May 2010, with added features to facilitate character handwriting input. Price at launch was 4998 HKD.[34] It has already been released to Australia via Optus.
+Hardware[edit]
+
+
+
+
+N900 showing system info.
+
+
+Processors[edit]
+The Nokia N900 is powered by OMAP 3430 ARM Cortex-A8, which is a system-on-a-chip made by Texas Instruments based on a 65 nanometer CMOS process. The OMAP 3430 is composed of three microprocessors; the Cortex A8 running at 600 MHz (up to 1.15 GHz with correct overclocking) used to run the OS and applications, the PowerVR SGX530 GPU made by Imagination Technologies which supports OpenGL ES 2.0 and is capable of up to 14 MPolys/s and a TMS320C64x, the digital signal processors, running at 430 MHz used to run the image processing (camera), audio processing (telephony) and data transmission. The TMS320 C64x main purpose is to offload the Cortex A8 from having to process audio and video signal.[35] Moreover, the OMAP 3430 on some N900 devices has been successfully over-clocked up to 1150 MHz by using a modified kernel and editing the kernel power configuration file.[36] The system has 256 MB of dedicated high performance RAM (Mobile DDR) paired with access to 768 MB swap space managed by the OS.[2] This provides a total of 1 GB of virtual memory.
+Screen and input[edit]
+The Nokia N900 has a 3.5-inch (89 mm) resistive touchscreen with a resolution of 800 × 480 pixel (WVGA, 267 ppi). According to both Nokia and the Xorg.log, it is capable of displaying up to 65k colours (565 RGB).[37] Nokia N900 camera capability is 2592x1944 pixels, Carl Zeiss optics, autofocus, Dual LED flash, video light, geo-tagging[38] The LCD is transflective to permit usability over a wide range of luminosity (from daylight to dark). Haptic feedback is provided to touchscreen input by applying a small vibration or a sound; the user can choose whether to have this feature enabled.[39] A stylus is provided to allow more precise touch input and access to smaller user interface elements. A 3-axis accelerometer allows the orientation of the screen to change between portrait and landscape mode in certain applications, or it can be used as user input in games and applications.[40] While the dashboard or desktop is active, rotating the device from landscape to portrait mode activates the phone application (a feature that can also be disabled at user discretion).[41] With update PR1.2, It became possible to view web pages in portrait mode.[42] Developers may add support for portrait mode in their applications if desired.[41][43] There is a proximity sensor which deactivates the display and touchscreen when the device is brought near the face during a call.[44]
+The slide-out 4-row keyboard and D-pad of the Nokia N810 have been replaced on the Nokia N900 with a slide-out 3-row backlit keyboard with arrow keys (as with previous Internet Tablets, an on-screen keyboard is also available). In addition to the English QWERTY layout, the slide out keyboard will be available in variants for Italian,[45] French,[46] German,[47] Russian,[48] Czech,[49] Nordic (Finnish, Swedish),[50][51] and Spanish. The Nokia N900 has an ambient light sensor that adjusts the display brightness and activates the backlit keyboard.[52] The OS comes with a word prediction software that can be configured to the user preferences (auto capitalization, word completion, auto spacing between words).[53]
+The device has an autonomous GPS with optional A-GPS functionality and comes pre-loaded with the Ovi Maps application. Ovi Maps provides typical mapping features such as alternate views (3D landmarks, satellite, and hybrid maps), address/places of interest searching, and route planning, although it does not have turn-by-turn navigation yet.[54][55]
+
+
+
+
+The 5-megapixel camera on the back of the Nokia N900. The hatch is open. The tilt stand is seen surrounding the camera.
+
+
+The 5-megapixel back camera has an autofocus feature, dual LED flash, 4:3 and 16:9 aspect ratio options, and 3× digital zoom. The focal length of this camera is 5.2 mm, the aperture is f/2.8, and the focus range is 10 cm to infinity.[4] It is capable of video recording at up to 848 × 480 pixels at 25 fps. The lens, while not in use, is protected by a sliding hatch. Opening the hatch launches the camera application. Although the 0.3-megapixel front camera is capable of video recording at up to 640 × 480 pixels[4] and pre-production units could be used for video calls over IP using Google Talk,[56] the retail version was delivered without any software enabling video calling or video chatting.[57] In update PR1.2 OTA (over-the-air) Skype video calling was added, enabling the fascia camera.[42] With some software updates the phone becomes capable of play/record/stream 720p video.[58]
+Buttons[edit]
+When holding the device facing the screen; on the top, from left to right, rocking buttons (which function as volume up/down or zoom in/out depending on the context), power on/off and camera button. Pressing the power button brings up a menu to change the profile, activate offline mode (a.k.a. "Airplane or Flight mode", which turns off all emitted signals), Lock Device (either "Secure" with key code, or simple lock),[59] and an option to end the current task.
+As the Nokia N900 has fewer hardware buttons, it makes use of the touchscreen to display on-screen buttons, for example, to accept, reject and end a call.
+Audio and output[edit]
+The N900 has a microphone and stereo speakers located on each side of the device. There is a 3.5 mm four-contact TRRS connector which simultaneously provides stereo audio output and either microphone input or video output.[60] PAL and NTSC TV out is possible using a Nokia Video Connectivity Cable (included upon purchase) or a standard TRRS -> 3x RCA cable.
+There is a High-Speed USB 2.0 USB Micro-B connector provided for data synchronization, mass storage mode (client) and battery charging. This micro-USB connector was prone to failure.[61] The Nokia N900, unlike previous versions of Nokia's Internet Tablet, hasn't enabled support for USB On-The-Go (the ability to act as a USB host) by default, this in order to meet the deadlines for production and USB certification.[62] There is an ongoing community effort to add this support subsequently, currently the software is in beta stage.[63] Requiring a non-standard USB cable or USB A-A adapter and software from the development repository.
+The built-in Bluetooth v2.1 supports wireless earpieces and headphones through the HSP profile. The Nokia N900 supports hardware capable of stereo audio output with the A2DP profile. Built-in car hands-free kits are also supported with the HFP profile. File transfer is supported (FTP) along with the OPP profile for sending/receiving objects. It is possible to remote control the device with the AVRCP profile.[4] The DUN profile which permits access to the Internet from a laptop by dialing up on a mobile phone wirelessly (tethering), the HID profile which provides support for devices such as Bluetooth keyboards and PAN profile for networking using Bluetooth are unsupported but can be enabled.[64]
+The Bluetooth set also functions as a FM Receiver, allowing one to listen to the FM radio. The N900 also has a 88.1–107.9 MHz FM transmitter which can, for example, play music through a separate radio. ( Note that the FM transmitter's frequency range can be extended to 76.0–107.9 MHz by community supported modifications to the operating system [65][66]) Furthermore, the Nokia N900 has Wi-Fi b/g connectivity with support for WEP, WPA and WPA2 (AES/TKIP) security protocols.[67]
+The Nokia N900 can synchronize with Microsoft Outlook through ActiveSync and various other e-mail and calendar clients through SyncML over bluetooth or the micro-USB.[4] Contact information can also be exchanged via the vCard file format which is supported commonly by e-mail programs, including Evolution and Microsoft Outlook.
+The device also features an infrared port (not compatible with IrDA[68]) that can be used to turn the Nokia N900 into a remote controller using third-party software.[69]
+Battery and SIM[edit]
+The battery life of the shipped BL-5J (1320mAh) battery in N900 seems very deficient and it was not able to make it through a full working day with an internet connection and call usage.[70] In a press release[71] Nokia stated they are aiming at "one day of full usage"[72] or "Always online : Up to 2-4 days (TCP/IP connected)" and "Active online usage: Up to 1+ day". Early reports from users range from 12 hours (Wi-Fi on, web browsing, video and some GPS),[73][74] to about 2 days online but not used continuously.[75] The value appears to be highly dependent on the user's choice of background software, active desktop widgets, IM and email polling, as well as mobile network signal quality (especially 3G) and in some cases, software bugs. Nokia reported talk times are around 9 hours with GSM and 5 hours with 3G.[76] Battery life can be extended significantly by switching off GPS/A-GPS, Wi-Fi, and Bluetooth and by replacing 3G by 2G / GPRS.
+While previous Internet Tablets used larger batteries (1500 mAh compared with the N900's 1320 mAh), they are based on a less efficient microprocessor. Typical battery time for the Nokia N810 is around 7 hours of continuous full usage, display and Wi-Fi on. In principle, on N900 figures are expected to be much higher. Third party extended batteries up to 2400 mAh capacity are available for the N900.[77] Also, there are community supported modifications that can be performed on 3rd party N900 compatible batteries, usually involving putting two of said batteries in parallel, which can increase the effective battery capacity of the Nokia N900 to over 3000 mAh.[78]
+The SIM card is located under the battery which can be accessed by removing the back panel of the Nokia N900. The microSD(HC) card socket is also located under the back cover (but not under the battery). No tool is necessary to remove the back panel.
+Storage[edit]
+The Nokia N900 has 32 GB eMMC and 256 MB NAND non-removable storage.[2] Additional storage is available via a hot swappable microSDHC card socket, which is claimed to support up to 64 GB of additional storage.[a] However, the SDHC specification supports cards only up to 32 GB in size, and some difficulty has been reported with the use of 64 GB SDXC cards. Sandisk claims that SDXC cards are not compatible with the N900.[79]
+Hot swapping is achieved via a software-supported magnetic sensor which detects removal of the back cover, so the partition residing on a microSDHC card is unmounted when the back cover is removed. The microSDHC card can be formatted with a supported file system such as ext2, ext3, FAT16 and FAT32.[80][81]
+The 32 GB eMMC is split into 3 partitions:[35]
+
+2 GB as ext3 mounted to /home
+768 MB as swap
+the remainder as VFAT mounted to /home/user/MyDocs with about 27 GB of free space.
+
+The 256 MB NAND is formatted as UBIFS[82] and contains the bootloader, kernel image and root directory "/"[83][84] with about 100 MB of free space.[85]
+Programs larger than 500 kB including dependencies should be stored in /opt  which is symlinked to /home/opt and therefore located on the 2 GB ext3 partition. The VFAT partition is also available for storage but needs to be used carefully as it is unmounted and exported if a USB cable is connected to the device.[85][86]
+Software[edit]
+Main article: Maemo 5
+
+
+
+
+Maemo 5 dashboard showing running applications.
+
+
+Maemo 5, also known as Fremantle, is the default operating system on the Nokia N900. Maemo 5 is Nokia's adaptation of the Linux desktop environment for a pocket-sized device.[87] The UI is fully customizable: the user is able to move widgets around, add/remove widgets, change the background and add shortcuts to applications.[88] The N900 comes preloaded with a variety of applications such as:
+
+Web: Mozilla-based web browser called MicroB, which includes Adobe Flash 9.4 and RSS reader.[89] (Updates to Flash 10.1 are available)
+Phone application
+VoIP: Session initiation protocol, Skype with video chat,[41] Google Talk with Video
+Conversations (IM chat and SMS, MMS (only with the PR1.2 software update)[90])
+Media: Camera, Photos, Media player
+Productivity: Email, Calendar, PDF reader, Contacts
+Ovi Maps (Find position on a map using the GPS, Search an address or location, Plan routes)
+Utilities: Clock, Notes, Calculator, Sketch, File manager
+System Tools: File manager, Application manager for downloads, Widgets
+Games: Bounce, Chess, Mahjong, Blocks (Tetris), Marbles
+
+More than 1500 additional applications (an overwhelming majority of them free to download and use) have been created by 3rd party developers.[91] Custom kernels are also available via the App Manager for users who need more out of their devices.
+Maemo uses upstart to reduce the boot time.[92]
+An application called "Easy Debian" installs a Debian LXDE image on the internal memory, enabling applications such as IceWeasel (Firefox browser) and all of the OpenOffice.org suite to run within Maemo. Other applications in the Synaptic package manager that are included in the Debian installation, such as GIMP, can run within the LXDE interface. Software can also be added to Debian using Maemo's chroot utility using Synaptic or apt-get at the command line, such as Stellarium or the zim desktop wiki, and this can then be accessed either via the LXDE desktop, by icons in the program manager, or by shortcuts on the desktop.
+SIM Application Toolkit[edit]
+In Nokia N900, there is no SIM Application Toolkit available (also known as "operator menu"), so it is not possible to use any services that require it. As a result, there is no support for a SIM to interact directly with the outside world and initiate commands independently of the handset and the network, making N900 not vulnerable to installation of malicious SIM Java applications via text messages.[93]
+Issues with various value-added services resulting from no availability of SIM Application Toolkit include the following:
+
+Estonia –  MobileID (mobile National ID) is not working on N900[94][95]
+Kenya –  MPESA & ZAP (mobile money transfer) services are not available on the N900
+Norway –  "mobile BankID" is not working (N900 cannot work as mobile banking token).[96][97]
+Philippines –  "Smart Menu" is not available on N900
+Romania –  DigiMobil Roaming is not working on N900
+Romania –  Vodafone Numar Dual (Dual Number) is not working on N900
+Sweden –  "Mobil BankID" is not working on N900
+Tanzania –  MPESA & ZAP (mobile money transfer) services are not available on N900
+
+Known issues[edit]
+Nokia often offers new N8 or E7 devices as warranty replacements for N900s. Although warranty terms and consumer rights legislation differ across jurisdictions, users have reported success in refusing those and pressing for an N900 in at least the EU and India as recently as August 2011. Owners who are not confident of getting an N900 as a warranty replacement often attempt to repair their own devices, or sell the Nokia-provided replacement to buy an N900 instead.[98]
+The N900's proximity sensor, which is designed to lock the touch screen when the phone is against the user's ear to prevent accidental operation, locks the screen unintentionally in bright light (usually outdoors) when a call is placed or received. Nokia has acknowledged that it is a "hardware issue" and cannot be addressed. To unlock the screen in a phone call, a tactile unlock switch in the right side of the device can be used. This however will keep the touch screen active and accidental operation of the phone keys in a call may occur when device is used as a handset. This issue has been blamed on the application of screen protectors, however N900 users without screen protectors are also experiencing the problem.[99]
+The N900's MicroUSB (charger) port is very fragile; some people have successfully fixed this problem either with epoxy glue, or by resoldering the USB port onto the circuit board.[100] Some of the chips in N900's GSM module might be badly soldered to the circuit board, resulting in multiple N900 devices reported as troubled by the inability for the SIM card to be detected. This issue is fixable by putting something between the GSM-related chips and their shielding, though a proper fix would be reballing.[101][102]
+Future[edit]
+It was announced in May 2010 that the Nokia N900 will be the last mobile communication device running the Maemo 5 operating system, which will be replaced by MeeGo. Nokia will continue to support the N900 with updates when necessary.[103]
+While transition to the succeeding MeeGo operating system is possible, this is mainly of interest to developers rather than consumers, as it is not officially supported by Nokia.[42][103] There has been some interest within the user community in working on backporting MeeGo developments to Maemo for the N900, and this places it as being an interesting device for people within the wider Open Source community more than consumers.[103]
+A download of the MeeGo operating system is available, but not officially supported by Nokia.[42][104] Nokia used to say that MeeGo was going to succeed Maemo for new devices; however, on 11 February 2011 Nokia announced it will be primarily concentrating on their alliance with Microsoft. MeeGo development will not be stopped and one MeeGo device will become available in 2011.[105]
+On 3 March 2011, Jukka Eklund, Product Manager, MeeGo OS at Nokia announced in the MeeGo-dev mailing list[106] that there will be a MeeGo 1.2 Developer Edition for N900 developed by a dedicated Nokia team led by Mika Leppinen.[107] The target of this particular edition is to be usable as a primary phone device for a developer/hacker person but not for regular end users.[107]
+The September 2011 announcement that Intel and the Linux Foundation were abandoning MeeGo in favor of Tizen[108] prompted the developer community to begin to seriously doubt the future of MeeGo on the N900. [109] [110] Subsequently, developers rapidly left the project, leading to an abrupt halt of discussion on the Meego-dev mailing list.[111] The MeeGo Developer Edition after a rename to MeeGo Community Edition evolved into Nemo, which is based on Mer [112] and is currently (October 2012) actively developed.
+The Nitdroid project, which ports Android to other devices as an alternate operating system, is also available for the N900.[113] However, little progress has been made on achieving voice calling under Nitdroid N900, and the main developer, who goes by the online handle "e-yes", has moved on to developing for other devices such as the Nokia N9.
+A community-based project aiming to provide a hardware upgrade for the N900, called Neo900, began in late 2013 as a collaboration between the Openmoko and Maemo communities.[114] The hardware upgrade will quadruple the device's RAM, provide a processor nearly twice as fast as the one in original N900, and integrate additional sensors such as a gyroscope and compass. It is likely that a more modern LTE modem will also be included.
+See also[edit]
+
+
+postmarketOS
+Internet appliance
+Internet tablet
+Nokia 770
+Nokia N800
+Nokia N810
+Nokia N97
+Nokia N9
+Nokia N950
+Nokia X platform
+Nokia X family
+Jolla
+Jolla (smartphone)
+Sailfish OS
+List of open source mobile phones
+
+
+Notes[edit]
+
+
+
+^ This number is based on what was available for certification and may not reflect future capacity support of the device.
+
+
+
+References[edit]
+
+
+^ a b c "Maemo 5 injects speed and power into mobile computing" (Press release). Nokia Corporation. 27 August 2009. Retrieved 19 September 2009. 
+^ a b c d e f g h i j k l m n "Maemo software – Nokia > Nokia N900 mobile computer > Technical specifications". Nokia Corporation. Archived from the original on 29 October 2009. Retrieved 19 September 2009. 
+^ "N86 Camera vs. N900 Camera [Archive] - maemo.org - Talk". Talk.maemo.org. Retrieved 2014-02-13. 
+^ a b c d e "Device Details – Nokia N900". Nokia Corporation. Retrieved 16 September 2009. 
+^ Ziegler, Chris (2010-01-19). "Nokia N900 review". Engadget.com. Retrieved 2014-02-13. 
+^ "N900 - Support, Updates, Downloads and User Guides, Troubleshooting - Nokia - UK". Nokia. 2011-08-12. Retrieved 2014-02-13. 
+^ Response from Nokia support to customer enquiry
+^ "Nokia N900 official, uses Linux to 'kill' iPhone". MNM Media, LLC. 27 August 2009. Retrieved 2 September 2009. 
+^ "(STEP BY STEP) How to Get Free Applications for Maemo5 OS". 27 August 2010. Retrieved 2 September 2010. 
+^ "Dr. Ari Jaaksi on Maemo 5 at Internet Tablet Talk". Internet Tablet Talk. 17 September 2008. Archived from the original on 25 December 2008. Retrieved 17 September 2009. 
+^ "maemo.org – Announcements: First Maemo 5 SDK Release Targeting Platform Developers". Nokia Corporation. Retrieved 17 September 2009. 
+^ "Exclusive: Everything There Is To Know About Nokia's Next Tablet". TechCrunch. 24 May 2009. Retrieved 17 September 2009. 
+^ "Nokia Rover is an N97 killer Internet tablet". CellPassion Networks. 25 May 2009. Archived from the original on 2 April 2010. Retrieved 17 September 2009. 
+^ "FCC Part 15C Compliance Test Report". US Federal Communications Commission. 16 July 2009. Retrieved 17 September 2009. 
+^ "SAR Compliance Test Report". US Federal Communications Commission. 7 July 2009. Retrieved 17 September 2009. 
+^ "FCC ID Label". US Federal Communications Commission. 3 July 2009. Retrieved 17 September 2009. 
+^ Olli-Pekka Kallasvuo, Anssi Vanjoki (2 September 2009). Nokia Keynotes on Sep 2 – Olli-Pekka Kallasvuo and Anssi Vanjoki (flash video) (keynote presentation). Nokia Corporation. Retrieved 17 September 2009. 
+^ "Nokia N900". Nokiaretail.co.uk. Retrieved 1 January 2010. 
+^ "Nokia Online Kauppa – Puhelimet | Puhelimet mallin mukaan | Nokia N900". Kauppa.nokia.fi. Retrieved 1 January 2010. 
+^ "Nokia Handys & Handy-Zubehör kaufen – Nokia Online Shop Deutschland – Mobiltelefone | Nseries | Nokia N900". Shop.nokia.de. Retrieved 1 January 2010. 
+^ "Nokia Italia Online Shop – Telefoni | Internet tablets | Nokia N900". Shop.nokia.it. Retrieved 1 January 2010. 
+^ "Nokia Online Shop Nederland – Telefoons | Multimedia | Nokia N900". Shop.nokia.nl. Retrieved 1 January 2010. 
+^ "Tienda Online de Nokia España – Móviles | Nseries | Nokia N900 + Manos Libres Bluetooth BH-212 GRATIS". Tienda.nokia.es. Retrieved 1 January 2010. 
+^ "Nokia Store – Achetez en ligne tous les téléphones mobiles et accessoires Nokia – Téléphones | Nseries | Nokia N900". Boutique.nokia.fr. Retrieved 1 January 2010. 
+^ "Sklep Online Nokia Poland – Telefony | Wszystkie telefony | Nokia N900". Sklep.nokia.pl. Retrieved 1 January 2010. 
+^ "Nokia mobiltelefoner och tillbehör - Webbplatsrubrik för sidrubrikinnehåll för SEO" (in Swedish). Shop.nokia.se. Retrieved 5 June 2010. 
+^ "Nokia Online Shop UK – Phones – All Phones – Nokia N900". Nokia Corporation. Retrieved 16 September 2009. 
+^ "Nokia USA – Nokia N900 – Products". Nokia Corporation. Retrieved 16 September 2009. 
+^ "Buy a Nokia N900 (Unlocked), #002L929 – eXpansys Canada". eXpansys plc. Archived from the original on 9 September 2017. Retrieved 1 December 2009. 
+^ "SN Traders Communications Technologies". SN Traders Communication Technologies Inc. Archived from the original on 16 July 2011. Retrieved 1 December 2009. 
+^ "Nokia Australia - Nokia N900 - Mobile Phone, Touchscreen, Linux Mobile Computer". Nokia. Retrieved 4 March 2010. 
+^ "Nokia N900 coming to retailers in April - ovi store, Nokia, N900, mobile linux, mobile applications, Maemo, app store". Computerworld. 3 March 2010. Retrieved 5 June 2010. 
+^ "Noknok.tv Nokia N900 delayed until 4th November". 
+^ "Nokia N900 will be officially launched in Hong Kong on May 5th - with PR1.2 & extra goodies! - maemo.org - Talk". Talk.maemo.org. Retrieved 12 August 2010. 
+^ a b "Nokia N900 Preview". My-Symbian.com. Retrieved 18 October 2009. 
+^ "Kernel Power". 
+^ "Nokia Suomi - Nokia N900 - Tarkka tuoteseloste". Nokia Corporation. Retrieved 8 September 2010. 
+^ "Nokia N900". Nokia Corporation. Archived from the original on 9 May 2010. Retrieved 9 September 2010. 
+^ "Easter egg in the RX-51? – Page 15 – maemo.org – Talk". Nokia Corporation. Retrieved 14 September 2009. 
+^ YouTube – New Bounce on nokia N900. YouTube, LLC. 7 September 2009. Retrieved 16 September 2009. 
+^ a b c "Maemo software – Nokia > Phone". Nokia Corporation. Archived from the original on 30 August 2009. Retrieved 16 September 2009. 
+^ a b c d Nokia N900 software update release 1.2 retrieved 28 May 2010
+^ "Using Fremantle Widgets – maemo.org wiki – Portrait Mode". Nokia Corporation. Retrieved 16 September 2009. 
+^ "maemo.org – Talk – View Single Post – N900 Specifications". Nokia Corporation. 2 September 2009. Retrieved 19 September 2009. 
+^ YouTube – Nokia N900 videopreview da Telefonino.net. YouTube, LLC. 16 September 2009. Retrieved 18 September 2009. 
+^ "SANY0779 on Flickr – Photo Sharing!". Yahoo! Inc. 12 September 2009. Retrieved 18 September 2009. 
+^ "Nokia Handys & Handy-Zubehör kaufen – Nokia Online Shop Deutschland – Mobiltelefone – Nseries – Nokia N900". Nokia Corporation. Retrieved 18 September 2009. 
+^ "N900keybru on Flickr – Photo Sharing!". Yahoo! Inc. 8 September 2009. Retrieved 18 September 2009. 
+^ "Nokia N900 Czech keyboard". MobilMania.cz. 6 December 2009. Retrieved 6 December 2009. 
+^ "maemo.org – Talk – View Single Post – N900 non-english keyboard layouts? Photos?". Nokia Corporation. 3 September 2009. Retrieved 18 September 2009. 
+^ Så fungerar Nokias Linux-mobil N900 (Adobe Flash). Mediaprovider Scandinavia AB. 4 September 2009. Retrieved 18 September 2009. 
+^ "maemo.org – Community Council: The N900 from a Community Perspective". Nokia Corporation. 2 September 2009. Retrieved 17 September 2009. 
+^ "Nokia N900 Review: First Impressions of Nokia's Mobile Computer (Hardware Preview + Live Pics inside!) « My Nokia Blog". Mynokiablog.com. 14 September 2009. Retrieved 1 January 2010. 
+^ "Maemo software – Nokia " Ovi Maps". Nokia Corporation. Retrieved 16 September 2009. 
+^ "Nokia Europe – Nokia N900 – Specifications – GPS and Navigation". Nokia Corporation. Retrieved 16 September 2009. 
+^ "maemo.org – Talk – View Single Post – N900 Questions for Nokia World Attendees". Nokia Corporation. 4 September 2009. Retrieved 16 September 2009. 
+^ Jerz, Michal http://my-symbian.com/forum/viewtopic.php?t=40267&start=555
+^ "[HOWTO]Watch 720p videos on n900 [09.12.2011 VIDEOCALL WORKS] - maemo.org - Talk". Talk.maemo.org. Retrieved 2014-02-13. 
+^ llaadd (19 September 2009). "Video: Nokia N900 Swipe to Unlock « My Nokia Blog". Mynokiablog.com. Retrieved 1 January 2010. 
+^ "Forum Nokia – Nokia AV 2.5pemm/3.5mm Connector". Nokia Corporation. Archived from the original on 30 August 2009. Retrieved 19 September 2009. 
+^ Nokia N900 micro-USB connectors prone to failure?
+^ "Maemo developer mailing list". Nokia R&D. Retrieved 1 December 2009. 
+^ "N900 Hardware USB Host - maemo.org wiki". maemo.org. Retrieved 31 May 2010. 
+^ "maemo.org – wiki – Fremantle Unsupported Bluetooth profiles". Nokia Corporation. Retrieved 25 September 2009. 
+^ "Unlocked FM-Transmitter frequency 76.0Mhz->107.9Mhz (Limitation Fixed) - maemo.org - Talk". Talk.maemo.org. Retrieved 16 September 2011. 
+^ "N900 FM radio transmitter - maemo.org wiki". wiki.maemo.org. Retrieved 19 September 2011. 
+^ "Device Details – Nokia N900". Nokia Corporation. 28 August 2009. Retrieved 21 September 2009. 
+^ "Nokia N900 User Guide" (PDF). Nokia.com. Retrieved 7 April 2011. 
+^ "Irreco for N900 – maemo.org – Talk". Talk.maemo.org. Retrieved 1 January 2010. 
+^ Nirave. "Nokia N900 Battery Test Results". Independent Web Blog on Mobile Smart Phones. Mobile Users Blog. Archived from the original on 30 January 2011. Retrieved 12 January 2011. 
+^ "Nokia N900 Data Sheet" (PDF) (Press release). Nokia Corporation. Archived from the original (PDF) on 7 October 2009. Retrieved 19 September 2009. 
+^ Jussi Mäkinen (2 September 2009). YouTube – The Nokia Blog's Nokia N900 Hands-on. YouTube, LLC. Retrieved 21 September 2009. 
+^ "maemo.org – Talk – View Single Post – N900 battery life". Nokia Corporation. 18 September 2009. Retrieved 18 September 2009. 
+^ "my-symbian.com – Forum – Questions for Nokia N900 preview". My-Symbian.com. 23 September 2009. Retrieved 18 September 2009. 
+^ "maemo.org – Talk – View Single Post – Awesome battery life for a device like this (N900) – 42 hours and still showing 20%". 12 December 2009. Retrieved 5 January 2010. 
+^ "Nokia N900 – Mobile Gazette – Mobile Phone News". Mobile Gazette. Retrieved 1 January 2010. 
+^ "The N900 Gets A BIGGER Battery (2400mAh)". nokiaaddict.com. Retrieved 9 February 2010. 
+^ "Battery Tests, Homemade 3000mAh XL Battery & Q&A (GOTO POST #1) - maemo.org - Talk". talk.maemo.org. Retrieved 25 September 2011. 
+^ "maemo.org - Talk > Devices > Nokia N900 > Will 64GB microSD fit in N900?". Retrieved 13 February 2014. 
+^ "Bug 8235 – SD Card unmounts itself, then sometimes comes back". Bugs.maemo.org. Retrieved 2014-02-13. 
+^ "Nokia N900 not finding memory card - maemo.org - Talk". Talk.maemo.org. Retrieved 2014-02-13. 
+^ timeless (2 April 2009). "maemo-community – Get the FAT Out". maemo-community (Mailing list). Nokia Corporation. Retrieved 17 September 2009. 
+^ "Nokia N900 Commented Hardware specs". Natisbad.org. 1970-01-01. Retrieved 2014-02-13. 
+^ "Nokia N900 specs, apps, tips, flashing, NitDroid and other useful resources". O Learn. 2014-02-07. Retrieved 2014-02-13. 
+^ a b "Documentation/Maemo 5 Developer Guide/Packaging, Deploying and Distributing/Installing under opt and MyDocs – maemo.org wiki". Nokia Corporation. Retrieved 16 September 2009. 
+^ "README – maemo-optify in Maemo Application Framework – Gitorious". Shortcut AS. Archived from the original on 14 September 2009. Retrieved 17 September 2009. 
+^ "Nokia bets on Linux in iPhone battle: sources". Thomson Reuters. 26 August 2009. Retrieved 17 September 2009. 
+^ "Panorama desktops". maemo.nokia.com. Archived from the original on 29 December 2009. Retrieved 16 September 2009. 
+^ Maemo Browser features Archived 29 December 2009 at the Wayback Machine.
+^ "maemo.org – Talk – View Single Post – Now it's official: Maemo 5 and the N900 launch!". Nokia Corporation. 30 August 2009. Retrieved 18 September 2009. 
+^ Complete Maemo 5 Software Directory
+^ Ubuntu Alpha 6 boot optimizations
+^ "Defcon 21 - The Secret Life of SIM Cards". youtube.com. Defcon 21. 2013-11-16. Retrieved 2014-06-18. 
+^ "When comes Mobile-ID support for N900 – Nokia Support Discussions". discussions.nokiausa.com. Retrieved 22 February 2011. 
+^ "Support for SIM Toolkit (SMS encryption)". talk.maemo.org. Retrieved 22 February 2011. 
+^ "Nokia N900 - Den store diskusjonstråden". www.diskusjon.no. Retrieved 22 February 2011. 
+^ "Norwegian N900 Review". talk.maemo.org. Retrieved 22 February 2011. 
+^ "N900 Sent For Repair". Retrieved 20 August 2011. 
+^ "A hack to unlock screen when locked by malfunctioning of proximity sensor". Retrieved 5 July 2011. 
+^ "Fixing your N900 usb port, before and after its too late". maemo.org. 20 August 2011. Retrieved 10 February 2014. 
+^ "N900 Cant access the modem". Retrieved 7 March 2013. 
+^ "Keeping the awesome N900 running a little longer after a hard life". jabawok.net. 2012-06-26. Retrieved 2013-12-27. 
+^ a b c "What can we realistically expect - maemo.org wiki". Wiki.maemo.org. Retrieved 5 June 2010. 
+^ Meego downloads retrieved 28 May 2010 Archived 1 March 2010 at the Wayback Machine.
+^ "Nokia CTO Rich Green Speaks About QT". nokia.com. Retrieved 18 February 2011. 
+^ Jukka Eklund. "Announcing MeeGo 1.2 Developer Edition for N900". Archived from the original on 24 May 2013. 
+^ a b MeeGo.com. "ARM/N900/DeveloperEdition". Archived from the original on 4 June 2013. 
+^ Toor, Amar (28 September 2011). "MeeGo to be folded into Linux-based Tizen OS, slated to arrive in 2012". Engadget. Retrieved 18 December 2011. 
+^ Alison Chaiken. "[MeeGo-dev] Where's the evidence that Tizen will contain *any* MeeGo code?". Archived from the original on 24 May 2013. 
+^ Thomas Rucker. "[MeeGo-dev] MeeGo Reconstructed - a plan of action and direction for MeeGo". Archived from the original on 25 May 2013. 
+^ Gabriel M. Beddingfield. "[MeeGo-dev] Error when rpmbuild meego kernel". Archived from the original on 24 May 2013. 
+^ "Nemo page at Mer project wiki". Mer project wiki. 
+^ Chris Davies. "Nokia N900 gets Android 2.3 Gingerbread port". Android Community. Retrieved 2014-02-13. 
+^ "Neo900". Retrieved 29 Aug 2014. 
+
+
+External links[edit]
+
+
+
+Wikimedia Commons has media related to Nokia N900.
+
+
+
+Nokia USA N900 product page
+Nokia Europe N900 product page
+Nokia N900 review – Engadget
+"The Digital Camera Revolution", Science News, 28 January 2012; Vol.181 #2 (N900 as the first commercial programmable camera)
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Nokia-branded mobile devices
+
+
+
+Nokia 1000 series
+
+
+
+1011
+1100/1101
+1110/1110i
+1112
+1200
+1202
+1208
+1280
+1600
+1610
+1616
+1650
+1661
+1680 classic
+1800
+
+
+
+
+
+Nokia 2000 series
+
+
+
+2010
+2110i
+2115i
+2310
+2600
+2600 classic
+2610
+2630
+2650
+2651
+2680 slide
+2690
+2700 classic
+2730 classic
+2760
+
+
+
+
+
+Nokia 3000 series
+
+
+
+3100/3100b/3105/3120
+3110
+3110 classic
+3120 classic
+3155
+3200/3200b/3205
+3210
+3220
+3230
+3250
+3300
+3310
+3310 (2017) (3310 3G/3310 4G)2
+3315
+3320
+3330
+3410
+3510 (3510i/3530/3590/3595)
+3500 classic
+3650 (3620/3660)
+3600 slide
+3710 fold
+3720 classic
+
+
+
+
+
+Nokia 5000 series
+
+
+
+5070
+5100
+5110
+5130 XpressMusic
+5200
+5210
+5220
+5230
+5233
+5250
+5300 XpressMusic
+5310 XpressMusic
+5320
+5330 Mobile TV Edition
+5500 Sport
+5510
+5530 XpressMusic
+5610
+5630
+5700
+5730
+5800 XpressMusic
+
+
+
+
+
+Nokia 6000 series
+
+
+
+6010
+6020/6021
+6030
+6070
+6080
+6085
+6100
+6101
+6103
+6110/6120
+6110 Navigator2
+6111
+6120/6121/6124 classic
+6131/6133
+6136
+6151
+6170
+6210
+6210 Navigator
+6220 classic
+6230
+6230i
+6233/6234
+6250
+6255i
+6260 Slide
+6263
+6265
+6270
+6275i
+6280/6288
+6290
+6300
+6300i
+6301
+6303 classic
+6310i
+6315i
+6500 classic
+6500 slide
+6510
+6555
+6600
+6600 fold
+6600 slide
+6610i
+6620
+6630
+6650
+6650 fold
+6670
+6680
+6681/6682
+6700 classic
+6700 slide
+6710 Navigator
+6720 classic
+6730
+6760 Slide
+6800
+6810
+6820
+6822
+
+
+
+
+
+Nokia 7000 series
+
+
+
+7110
+7160
+7210
+7230
+7250
+7280
+7360
+7370
+7373
+7380
+7390
+7500 Prism
+7510 Supernova
+7600
+7610
+7650
+7700
+7710
+7900 Prism
+7900 Crystal Prism
+
+
+
+
+
+Nokia 8000 series
+
+
+
+8110
+8110 4G2
+8210
+8250
+8310
+8600 Luna
+8800 Sirocco/Arte/Sapphire Arte/Carbon Arte/Gold Arte
+8810
+8850
+8910
+
+
+
+
+
+Nokia 9000 series
+(Nokia Communicator)
+
+
+
+9000
+9000i
+9110
+9110i
+9210
+9210i
+9290
+9300
+9300i
+9500
+
+
+
+
+
+Nokia 3-digit series
+(feature phone)
+
+
+
+100
+101
+103
+105
+105 (2015)1
+105 (2017)2
+106
+107
+108
+109
+110
+111
+112
+113
+114
+1301
+130 (2017)2
+1502
+206
+207
+208
+2151
+220
+2221
+225
+2301
+301
+515
+
+
+
+
+
+Nokia Asha
+
+
+
+Asha 200/201
+Asha 202
+Asha 203
+Asha 205
+Asha 210
+Asha 300
+Asha 302
+Asha 303
+Asha 305
+Asha 306
+Asha 308
+Asha 309
+Asha 310
+Asha 311
+
+
+
+
+
+Nokia Asha (Nokia Asha platform)
+
+
+
+Asha 230
+Asha 500
+Asha 501
+Asha 502
+Asha 503
+
+
+
+
+
+Nokia Cseries
+
+
+
+C1-00
+C1-01
+C1-02
+C2-00
+C2-01
+C2-02
+C2-03
+C2-05
+C2-06
+C3
+C3-01
+C5-00
+C5-03
+C6-00
+C6-01
+C7-00
+
+
+
+
+
+Nokia Eseries
+
+
+
+E5
+E50
+E51
+E52
+E55
+E6
+E60
+E61/E61i
+E62
+E63
+E65
+E66
+E7
+E70
+E71
+E72
+E73
+E75
+E90 Communicator
+
+
+
+
+
+Nokia Nseries
+
+
+
+N70
+N71
+N72
+N73
+N75
+N76
+N77
+N78
+N79
+N8
+N80
+
+Internet Edition
+
+
+N81
+
+N81 8GB
+
+
+N82
+N85
+N86 8MP
+N9
+N90
+N91
+
+N91 8GB
+
+
+N92
+N93
+N93i
+N95
+N95 8GB
+N96
+N97
+N97 mini
+
+
+
+
+Tablet
+
+
+
+N800
+N810
+
+WiMAX Edition
+
+
+N900
+N950
+
+
+
+
+
+
+
+
+Nokia Xseries
+
+
+
+X1-00
+X1-01
+X2-00
+X2-02
+X2-05
+X3-00
+X3-02
+X5
+X5-01
+X6
+X7-00
+
+
+
+
+
+Nokia 3-digit series
+(Symbian phone)
+
+
+
+500
+600
+603
+700
+701
+808 PureView
+
+
+
+
+
+Lumia
+
+
+
+Lumia 505
+Lumia 510
+Lumia 520
+Lumia 525
+Lumia 5301
+Lumia 610
+Lumia 620
+Lumia 625
+Lumia 630
+Lumia 635
+Lumia 6381
+Lumia 710
+Lumia 720
+Lumia 7301
+Lumia 7351
+Lumia 800
+Lumia 810
+Lumia 820
+Lumia 822
+Lumia 8301
+Lumia 900
+Lumia 920
+Lumia 925
+Lumia 928
+Lumia Icon
+Lumia 9301
+Lumia 1020
+Lumia 1320
+Lumia 1520
+
+
+
+
+Tablet
+
+
+
+Lumia 2520
+
+
+
+
+
+
+
+
+Nokia Internet Tablet
+
+
+
+N1
+770
+N800
+N810
+WiMAX Edition
+N900
+N950
+
+
+
+
+
+N-Gage
+
+
+
+Classic
+QD
+QD Silver Edition
+
+
+
+
+
+Nokia X family
+
+
+
+X
+X+
+XL
+X21
+XL 4G1
+
+
+
+
+
+Single-digit
+
+
+
+12
+22
+32
+52
+62
+6 (2018)2
+72
+7 plus2
+82
+8 Sirocco2
+
+
+
+
+
+Nokia Originals
+
+
+
+3310 (2017) (3310 3G/3310 4G)2
+8110 4G2
+
+
+
+
+
+Concept
+
+
+
+Nokia Morph
+
+
+
+
+
+
+1 Developed by Microsoft Mobile
+2 Developed by HMD Global
+
+List of Nokia products
+Nokia phone series
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Linux-powered devices
+
+
+
+Computers
+Components
+
+
+
+
+Nettops
+
+
+
+Aleutia
+Eee Box
+fit-PC
+Lemote
+Linutop
+ThinCan
+Zonbu
+
+
+
+
+
+Netbooks
+
+
+
+Acer Aspire One
+Averatec Buddy
+Classmate PC
+CloudBook
+ECS G10IL
+Eee PC
+Elonex ONE/ONEt
+Gigabyte M912
+HP Mini 1000/2133
+Inspiron Mini
+Doel
+MSI Wind
+NanoBook
+Noahpad
+OLPC
+One A110
+OpenBook
+Skytone Alpha-400
+Tianhua GX-1C
+
+
+
+
+
+Tablets
+
+
+
+Aakash
+Adam
+JooJoo
+Librem
+WeTab
+
+
+
+
+
+Networking
+
+
+
+Asus Routers
+BT Home Hub
+Buffalo AirStation
+Junxion Box
+Linksys WRT54G series
+Netgear DG834G
+Picotux
+Killer NIC
+
+
+
+
+
+Storage
+
+
+
+Buffalo LinkStation / TeraStation
+Drobo
+Linksys NSLU2
+Synology Inc.
+WD My Book
+QNAP
+
+
+
+
+
+Other
+
+
+
+BeagleBoard
+Chumby
+DragonBox Pyra
+Gumstix
+Librem
+Nvidia Drive
+Nvidia Jetson
+Palm Foleo
+Pandora
+Raspberry Pi
+SheevaPlug
+Stanley
+Asus Tinker Board
+
+
+
+
+
+
+
+
+
+
+
+Accessories
+
+
+
+
+Multimedia
+
+
+
+DBox2
+Dreambox
+Hauppauge MediaMVP
+Neuros OSD
+TiVo
+Vu+
+Roku Digital Video Player
+Sonos
+OpenTV 5 devices
+
+
+
+
+
+Handhelds
+
+
+
+Amazon Kindle
+Archos PMA400
+ILiad
+Leapfrog Didj
+Nokia 770 / N800 / N810 / N900
+Pepper Pad
+Zaurus
+Sony Reader
+Zipit
+Ben NanoNote
+
+
+
+
+
+Phones
+
+
+
+Motorola ROKR Z6 / RAZR2 V8
+Neo 1973 / FreeRunner
+Nokia N9
+Nokia N900
+Palm Pre
+Samsung Z1
+Samsung Z2
+Samsung Z3
+Samsung Z4
+
+
+
+
+
+Consoles
+
+
+
+DragonBox Pyra
+GP2X
+
+Wiz
+CAANOO
+
+
+mylo
+Pandora
+Dingoo A320
+Ouya
+GCW Zero
+
+
+
+
+
+
+
+
+Defunct/Historical
+
+
+
+Cherrypal
+Simputer
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Nokia-branded 3G phones
+
+
+
+2000 series
+
+
+
+2730 classic
+
+
+
+
+
+3000 series
+
+
+
+3120 classic
+3710 fold
+Nokia 3310 3G2
+
+
+
+
+
+5000 series
+
+
+
+5230
+5320
+5330 Mobile TV Edition
+5610
+5630
+5700
+5730
+5800
+
+
+
+
+
+6000 series
+
+
+
+6110 Navigator
+6120 Classic
+6121 classic
+6124 classic
+6210 Navigator
+6220 classic
+6233
+6260 slide
+6350
+6500 slide
+6555
+6600 fold
+6600 slide
+6630
+6650
+6650 fold
+6680
+6700 classic
+6700 slide
+6710 Navigator
+6720 classic
+6730 classic
+6750 Mural
+6760 slide
+6790 Surge
+
+
+
+
+
+7000 series
+
+
+
+7230
+7390
+
+
+
+
+
+3-digit series
+
+
+
+500
+515
+603
+700
+701
+808 PureView
+
+
+
+
+
+Asha series
+
+
+
+Asha 300
+Asha 302
+Asha 303
+Asha 311
+Asha 503
+
+
+
+
+
+Lumia series
+
+
+
+Lumia 505
+Lumia 510
+Lumia 520
+Lumia 521
+Lumia 530 1
+Lumia 610
+Lumia 620
+Lumia 625
+Lumia 630
+Lumia 638 1
+Lumia 710
+Lumia 720
+Lumia 730 1
+Lumia 7351
+Lumia 800
+Lumia 810
+Lumia 820
+Lumia 822
+Lumia 8301
+Lumia 900
+Lumia 920
+Lumia 925
+Lumia 928
+Lumia 9301
+Lumia 1020
+Lumia 1320
+Lumia 1520
+
+
+
+
+
+Cseries
+
+
+
+C2-01
+C3-01 (Touch and Type)
+C5-00
+C5-03
+C5-04
+C6-00
+C6-01
+C7-00
+C7 Astound
+Nokia Oro
+
+
+
+
+
+Eseries
+
+
+
+E5
+E51
+E52
+E55
+E60
+E61/E61i
+E63
+E65
+E66
+E6-00
+E7-00
+E71
+E72
+E73
+E75
+E79
+E9
+E90
+
+
+
+
+
+Nseries
+
+
+
+N70
+N71
+N73
+N75
+N76
+N77
+N78
+N79
+N8
+N80
+N81
+N82
+N85
+N86
+N9
+N91
+N92
+N93
+N93i
+N95
+N96
+N97
+N97 Mini
+N900
+
+
+
+
+
+Xseries
+
+
+
+X3-02 (Touch and Type)
+X5
+X6
+X7-00
+
+
+
+
+
+Nokia X family
+
+
+
+Nokia X
+Nokia X+
+Nokia XL
+Nokia X21
+
+
+
+
+
+Single-digit
+
+
+
+Nokia 82
+Nokia 72
+Nokia 62
+Nokia 52
+Nokia 32
+Nokia 22
+
+
+
+
+
+
+
+
+1Developed by Microsoft Mobile, Nokia branding under transitional license agreement
+2Developed by HMD Global, Nokia branding under transitional license agreement
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Nokia_N900&oldid=828308193"					
+				Categories: Digital audio playersPortable media playersTouchscreen portable media playersGPS navigation devicesMobile LinuxNokia mobile phonesSmartphonesTouchscreen mobile phonesLinux-based devicesMobile phones with an integrated hardware keyboardOpen-source mobile phonesHidden categories: CS1 Swedish-language sources (sv)Webarchive template wayback linksUse dmy dates from January 2013Pages using deprecated image syntaxPages using Infobox information appliance with unknown parametersPages using div col with deprecated parameters				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia Commons				
+							
+		
+			
+			Languages
+			
+								
+					العربيةCatalàČeštinaDeutschEspañolفارسیFrançais한국어ItalianoBasa JawaLatviešuമലയാളംBahasa MelayuNederlandsPolskiPortuguêsRomânăРусскийSuomiSvenskaதமிழ்中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 1 March 2018, at 20:15.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.984","walltime":"1.094","ppvisitednodes":{"value":5590,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":287309,"limit":2097152},"templateargumentsize":{"value":4224,"limit":2097152},"expansiondepth":{"value":17,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":118451,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  886.027      1 -total"," 61.77%  547.325      2 Template:Reflist"," 40.30%  357.111     98 Template:Cite_web"," 12.04%  106.673      1 Template:Infobox_information_appliance"," 10.57%   93.692      1 Template:Infobox","  5.01%   44.367      5 Template:Convert","  4.78%   42.333      7 Template:Navbox","  4.51%   39.979      2 Template:Cite_press_release","  3.68%   32.635      1 Template:Commons_category","  2.97%   26.309      1 Template:Use_dmy_dates"]},"scribunto":{"limitreport-timeusage":{"value":"0.473","limit":"10.000"},"limitreport-memusage":{"value":7272465,"limit":52428800}},"cachereport":{"origin":"mw1264","timestamp":"20180331102906","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":92,"wgHostname":"mw1243"});});
+	
+

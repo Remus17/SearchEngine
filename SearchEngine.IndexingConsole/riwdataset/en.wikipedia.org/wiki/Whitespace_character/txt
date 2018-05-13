@@ -1,0 +1,880 @@
+
+
+
+
+Whitespace character - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Whitespace_character","wgTitle":"Whitespace character","wgCurRevisionId":826624110,"wgRevisionId":826624110,"wgArticleId":2956700,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: Uses authors parameter","All articles with specifically marked weasel-worded phrases","Articles with specifically marked weasel-worded phrases from December 2014","Articles containing potentially dated statements from 2016","All articles containing potentially dated statements","Articles with specifically marked weasel-worded phrases from February 2018","Articles with specifically marked weasel-worded phrases from May 2012","Character encoding","Source code","Whitespace"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Whitespace_character","wgRelevantArticleId":2956700,"wgRequestId":"Wr9oqwpAMFgAAAqABf0AAAAD","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q591615","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Whitespace character			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				"Dot space" redirects here. For the animated film, see Dot in Space.
+In computer programming, white space is any character or series of characters that represent horizontal or vertical space in typography. When rendered, a whitespace character does not correspond to a visible mark, but typically does occupy an area on a page. For example, the common whitespace symbol U+0020   SPACE (HTML &#32;), also ASCII 32, represents a blank space punctuation character in text, used as a word divider in Western scripts.
+
+
+
+Contents
+
+
+1 Overview
+2 Definition and ambiguity
+
+2.1 Unicode
+
+2.1.1 Substitutes
+
+
+
+
+3 Whitespace and digital typography
+
+3.1 On-screen display
+3.2 Variable-width general-purpose space
+3.3 Hair spaces around dashes
+
+
+4 Computing applications
+
+4.1 Programming languages
+4.2 Command line user interfaces
+4.3 Markup languages
+4.4 File names
+
+
+5 See also
+6 References
+7 External links
+
+
+
+Overview[edit]
+
+
+
+
+Relative widths of various spaces in Unicode
+
+
+With many keyboard layouts, a horizontal whitespace character may be entered through the use of a spacebar. Horizontal white space may also be entered on many keyboards through the use of the Tab ↹ key, although the length of the space may vary. Vertical white space is a bit more varied as to how it is encoded, but the most obvious in typing is the ↵ Enter result which creates a 'newline' code sequence in applications programs. Older keyboards might instead say Return, abbreviating the typewriter keyboard meaning 'Carriage-Return' which generated an electromechanical return to the left stop (CR code in ASCII-hex &0D;) and a line feed or move to the next line (LF code in ASCII-hex &0A;); in some applications these were independently used to draw text cell based displays on monitors or for printing on tractor-guided printers—which might also contain reverse motions/positioning code sequences allowing yesterdays text base fancier displays. Many early computer games used such codes to draw a screen (e.g. Kingdom of Kroz).
+The term "white space" is based on the resulting appearance on ordinary paper. However they are coded inside an application, white space can be processed the same as any other character code and programs can do the proper action as defined for the context in which they occur.
+
+Definition and ambiguity[edit]
+The most common whitespace characters may be typed via the space bar or the tab key. Depending on context, a line-break generated by the return or enter key may be considered white space as well.
+Unicode[edit]
+The table below lists the twenty-five characters defined as whitespace ("WSpace=Y", "WS") characters in the Unicode Character Database.[1] Seventeen use a definition of white space consistent with the algorithm for bidirectional writing ("Bidirectional Character Type=WS") and are known as "Bidi-WS" characters. The remaining characters may also be used, but are not of this "Bidi" type.
+Note: Depending on the browser and fonts used to view the following table, not all spaces may be displayed properly.
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+Whitespace
+(Unicode character property "WSpace=Y") [a]
+
+
+Unicode character property "WSpace=Y"
+
+Code point
+ Name 
+Decimal
+ within "][" 
+ Wrap-
+  pable? 
+ in IDN? 
+ Script 
+ Block 
+General
+ category
+ Notes 
+
+
+000009U+0009
+character tabulation
+9
+]	[
+Yes
+No
+Common
+Basic Latin
+Other,
+control
+HT, Horizontal Tab. HTML/XML named entity: &Tab;, LaTeX: '\tab'
+
+
+000010U+000A
+line feed
+10
+
+
+
+Common
+Basic Latin
+Other,
+control
+LF, Line feed. HTML/XML named entity: &NewLine;
+
+
+000011U+000B
+line tabulation
+11
+
+
+
+Common
+Basic Latin
+Other,
+control
+VT, Vertical Tab
+
+
+000012U+000C
+form feed
+12
+
+
+
+Common
+Basic Latin
+Other,
+control
+FF, Form feed
+
+
+000013U+000D
+carriage return
+13
+
+
+
+Common
+Basic Latin
+Other,
+control
+CR, Carriage return
+
+
+000032U+0020
+space
+32
+] [
+Yes
+No
+Common
+Basic Latin
+Separator,
+space
+Most common (normal ASCII space)
+
+
+000133U+0085
+next line
+133
+
+
+
+Common
+Latin-1
+Supplement
+Other,
+control
+NEL, Next line
+
+
+000160U+00A0
+no-break space
+160
+] [
+No
+No
+Common
+Latin-1
+Supplement
+Separator,
+space
+Non-breaking space: identical to U+0020, but not a point at which a line may be broken. HTML/XML named entity: &nbsp;, LaTeX: '\ '
+
+
+005760U+1680
+ogham space mark
+5760
+] [
+Yes
+Yes
+Ogham
+Ogham
+Separator,
+space
+Used for interword separation in Ogham text. Normally a vertical line in vertical text or a horizontal line in horizontal text, but may also be a blank space in "stemless" fonts. Requires an Ogham font.
+
+
+008192U+2000
+en quad
+8192
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+Width of one en. U+2002 is canonically equivalent to this character; U+2002 is preferred.
+
+
+008193U+2001
+em quad
+8193
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+Also known as "mutton quad". Width of one em. U+2003 is canonically equivalent to this character; U+2003 is preferred.
+
+
+008194U+2002
+en space
+8194
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+Also known as "nut". Width of one en. U+2000 En Quad is canonically equivalent to this character; U+2002 is preferred. HTML/XML named entity: &ensp;, LaTeX: '\enspace'
+
+
+008195U+2003
+em space
+8195
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+Also known as "mutton". Width of one em. U+2001 Em Quad is canonically equivalent to this character; U+2003 is preferred. HTML/XML named entity: &emsp;, LaTeX: '\quad'
+
+
+008196U+2004
+three-per-em space
+8196
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+Also known as "thick space". One third of an em wide. HTML/XML named entity: &emsp13;
+
+
+008197U+2005
+four-per-em space
+8197
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+Also known as "mid space". One fourth of an em wide. HTML/XML named entity: &emsp14;
+
+
+008198U+2006
+six-per-em space
+8198
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+One sixth of an em wide. In computer typography, sometimes equated to U+2009.
+
+
+008199U+2007
+figure space
+8199
+] [
+No
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+Figure space. In fonts with monospaced digits, equal to the width of one digit. HTML/XML named entity: &numsp;
+
+
+008200U+2008
+punctuation space
+8200
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+As wide as the narrow punctuation in a font, i.e. the advance width of the period or comma.[2] HTML/XML named entity: &puncsp;
+
+
+008201U+2009
+thin space
+8201
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+One-fifth (sometimes one-sixth) of an em wide. Recommended for use as a thousands separator for measures made with SI units. Unlike U+2002 to U+2008, its width may get adjusted in typesetting.[3] HTML/XML named entity: &thinsp;; LaTeX: '\,'
+
+
+008202U+200A
+hair space
+8202
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+Thinner than a thin space. HTML/XML named entity: &hairsp;
+
+
+008232U+2028
+line separator
+8232
+
+
+
+Common
+General
+Punctuation
+Separator,
+line
+
+
+
+008233U+2029
+paragraph separator
+8233
+
+
+
+Common
+General
+Punctuation
+Separator,
+paragraph
+
+
+
+008239U+202F
+narrow no-break space
+8239
+] [
+No
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+Narrow no-break space. Similar in function to U+00A0 No-Break Space. When used with Mongolian, its width is usually one third of the normal space; in other context, its width sometimes resembles that of the Thin Space (U+2009).
+
+
+008287U+205F
+medium mathematical space
+8287
+] [
+Yes
+No[b]
+Common
+General
+Punctuation
+Separator,
+space
+MMSP. Used in mathematical formulae. Four-eighteenths of an em.[4] In mathematical typography, the widths of spaces are usually given in integral multiples of an eighteenth of an em, and 4/18 em may be used in several situations, for example between the a and the + and between the + and the b in the expression a + b.[5] HTML/XML named entity: &MediumSpace;
+
+
+012288U+3000
+ideographic space
+12288
+]　[
+Yes
+No[b]
+Common
+CJK Symbols
+and
+Punctuation
+Separator,
+space
+As wide as a CJK character cell (fullwidth). Used, for example, in tai tou.
+
+
+
+Related whitespace characters without Unicode character property "WSpace=Y"
+
+Code point
+ Name 
+Decimal
+ within "][" 
+ Wrap-
+  pable? 
+ in IDN? 
+ Script 
+ Block 
+General
+ category
+ Notes 
+
+
+006158U+180E
+mongolian vowel separator
+6158
+]᠎[
+Yes
+Yes
+Mongolian
+Mongolian
+Other,
+Format
+MVS. A narrow space character, used in Mongolian to cause the final two characters of a word to take on different shapes.[6] It is no longer classified as space character (i.e. in Zs category) in Unicode 6.3.0, even though it was in previous versions of the standard.
+
+
+008203U+200B
+zero width space
+8203
+]​[
+Yes
+No[b]
+?
+General
+Punctuation
+Other,
+Format
+ZWSP, zero-width space. Used to indicate word boundaries to text processing systems when using scripts that do not use explicit spacing. It is similar to the soft hyphen, with the difference that the latter is used to indicate syllable boundaries, and should display a visible hyphen when the line breaks at it. HTML/XML named entity: &NegativeMediumSpace;
+
+
+008204U+200C
+zero width non-joiner
+8204
+]‌[
+Yes
+Yes
+?
+General
+Punctuation
+Other,
+Format
+ZWNJ, zero-width non-joiner. When placed between two characters that would otherwise be connected, a ZWNJ causes them to be printed in their final and initial forms, respectively. HTML/XML named entity: &zwnj;
+
+
+008205U+200D
+zero width joiner
+8205
+]‍[
+Yes
+Yes
+?
+General
+Punctuation
+Other,
+Format
+ZWJ, zero-width joiner. When placed between two characters that would otherwise not be connected, a ZWJ causes them to be printed in their connected forms. HTML/XML named entity: &zwj;
+
+
+008288U+2060
+word joiner
+8288
+]⁠[
+No
+Yes
+?
+General
+Punctuation
+Other,
+Format
+WJ, word joiner. Similar to U+200B, but not a point at which a line may be broken. HTML/XML named entity: &NoBreak;
+
+
+065279U+FEFF
+zero width non-breaking
+space
+65279
+]﻿[
+No
+Yes
+?
+Arabic
+Presentation
+Forms-B
+Other,
+Format
+Zero-width non-breaking space. Used primarily as a Byte Order Mark. Use as an indication of non-breaking is deprecated as of Unicode 3.2; see U+2060 instead.
+
+
+
+
+
+
+
+
+^ "Unicode 10.0 UCD: PropList.txt". 2016-06-01. Retrieved 2017-03-10. 
+^ a b c d e f g h i j k l m n o This character is blacklisted for domain names by browsers because it might be used for phishing.[7]
+
+
+
+
+
+
+
+
+Substitutes[edit]
+Unicode also provides some visible characters that can be used to represent white space:
+
+Unicode space-illustrating characters (visible)
+
+Code
+Decimal
+Name
+Block
+Display
+Description
+
+
+ U+00B7 
+183
+Middle dot
+Latin-1 Supplement
+·
+Interpunct
+Named entity: &middot;
+
+
+U+237D
+9085
+ Shouldered open box 
+ Miscellaneous Technical 
+⍽
+Used to indicate a NBSP
+
+
+U+2420
+9248
+Symbol for space
+Control Pictures
+␠
+
+
+
+U+2422
+9250
+Blank symbol
+Control Pictures
+␢
+aka "substitute blank",[10] used in BCDIC,[10] EBCDIC,[10] ASCII-1963[10][11] etc. as word separator
+
+
+U+2423
+9251
+Open box
+Control Pictures
+␣
+Used in block letter handwriting at least since the 1980s when it is necessary to explicitly indicate the number of space characters (f.e. when programming with pen and paper). Used in a textbook[which?] (published c. 1985 by Springer-Verlag) on Modula-2, a programming language where space codes require explicit indication. Also used in the keypad silkscreening[n 1] of the Texas Instruments' TI-8x series of graphing calculators.
+Named entity: &blank;
+
+
+
+
+^ Above the zero "0" or negative "(‒)" key.
+
+
+
+Non-space blanks
+
+
+The Braille Patterns Unicode block contains U+2800 ⠀ Braille pattern blank (HTML &#10240;), a Braille pattern with no dots raised. Some fonts display the character as a fixed-width blank, however the Unicode standard explicitly states that it does not act as a space.
+
+
+Exact space
+
+
+The Cambridge Z88 provided a special "exact space" (codepoint 160 aka 0xA0) (invokable by key shortcut ⌑+SPACE,[12]) displayed as "…" by the operating system's display driver.[13][14] It was therefore also known as "dot space" in conjunction with BBC BASIC.[13][14]
+Under codepoint 224 (0xE0) the computer also provided a special three-character-cells-wide SPACE symbol "SPC" (analogous to Unicode's single-cell-wide U+2420).[13][14]
+
+Whitespace and digital typography[edit]
+On-screen display[edit]
+Text editors, word processors, and desktop publishing software differ in how they represent white space on the screen, and how they represent spaces at the ends of lines longer than the screen or column width. In some cases, spaces are shown simply as blank space; in other cases they may be represented by an interpunct or other symbols. Many different characters (described below) could be used to produce spaces, and non-character functions (such as margins and tab settings) can also affect white space.
+Variable-width general-purpose space[edit]
+In computer character encodings, there is a normal general-purpose space (Unicode character U+0020) whose width will vary according to the design of the typeface. Typical values range from 1/5 em to 1/3 em (in digital typography an em is equal to the nominal size of the font, so for a 10-point font the space will probably be between 2 and 3.3 points). Sophisticated fonts may have differently sized spaces for bold, italic, and small-caps faces, and often compositors will manually adjust the width of the space depending on the size and prominence of the text.
+In addition to this general-purpose space, it is possible to encode a space of a specific width. See the table below for a complete list.
+Hair spaces around dashes[edit]
+Em dashes used as parenthetical dividers, and en dashes when used as word joiners, are usually set continuous with the text.[15] However, such a dash can optionally be surrounded with a hair space, U+200A, or thin space, U+2009. The hair space can be written in HTML by using the numeric character references &#x200A; or &#8202;, or the named entity &hairsp;, but is not universally supported in browsers yet, as of 2016.[update][which?] The thin space is named entity &thinsp; and numeric references &#x2009; or &#8201;. These spaces are much thinner than a normal space (except in a monospaced (non-proportional) font), with the hair space being the thinner of the two.
+
+Normal space versus hair and thin spaces (as rendered by your browser)
+
+Normal space
+left right
+
+
+Normal space with em dash
+left — right
+
+
+Thin space with em dash
+left — right
+
+
+Hair space with em dash
+left — right
+
+
+No space with em dash
+left—right
+
+
+Computing applications[edit]
+Programming languages[edit]
+In programming language syntax, spaces are frequently used to explicitly separate tokens. Runs of whitespace characters (beyond the first) occurring within source code written in computer programming languages (outside of strings and other quoted regions) are ignored by most languages; such languages are called free-form. In a few languages, including Haskell, occam, ABC, and Python, white space and indentation are used for syntactical purposes. In the satirical language called Whitespace, whitespace characters are the only valid characters for programming, while any other characters are ignored.
+Still, for most programming languages, excessive use of white space, especially trailing white space at the end of lines, is considered a nuisance.[by whom?] However correct use of white space can make the code easier to read and help group related logic.
+The C language defines white space characters to be "space, horizontal tab, new-line, vertical tab, and form-feed".[16] The HTTP network protocol requires different types of white space to be used in different parts of the protocol, such as: only the space character in the status line, CRLF at the end of a line, and "linear white space" in header values.[17]
+Command line user interfaces[edit]
+In commands processed by command processors, e.g., in scripts and typed in, the space character can cause problems as it has two possible functions: as part of a command or parameter, or as a parameter or name separator. Ambiguity can be prevented either by prohibiting embedded spaces, or by enclosing a name with embedded spaces between quote characters.
+Markup languages[edit]
+Some markup languages, such as SGML, preserve white space as written.
+Web markup languages such as XML and HTML treat whitespace characters specially, including space characters, for programmers' convenience. One or more space characters read by conforming display-time processors of those markup languages are collapsed to 0 or 1 space, depending on their semantic context. For example, double (or more) spaces within text are collapsed to a single space, and spaces which appear on either side of the "=" that separates an attribute name from its value have no effect on the interpretation of the document. Element end tags can contain trailing spaces, and empty-element tags in XML can contain spaces before the "/>". In these languages, unnecessary white space increases the file size, and so may slow network transfers. On the other hand, unnecessary white space can also inconspicuously mark code, similar to, but less obvious than comments in code. This can be desirable to prove an infringement of license or copyright that was committed by copying and pasting.
+In XML attribute values, sequences of whitespace characters are treated as a single space when the document is read by a parser.[18] White space in XML element content is not changed in this way by the parser, but an application receiving information from the parser may choose to apply similar rules to element content. An XML document author can use the xml:space="preserve" attribute on an element to instruct the parser to discourage the downstream application from altering white space in that element's content.
+In most HTML elements, a sequence of whitespace characters is treated as a single inter-word separator, which may manifest as a single space character when rendering text in a language that normally inserts such space between words.[19] Conforming HTML renderers are required to apply a more literal treatment of white space within a few prescribed elements, such as the pre tag and any element for which CSS has been used to apply pre-like whitespace processing. In such elements, space characters will not be "collapsed" into inter-word separators.
+In both XML and HTML, the non-breaking space character, along with other non-"standard" spaces, is not treated as collapsible "white space", so it is not subject to the rules above.
+File names[edit]
+Such usage is similar to multiword file names written for operating systems and applications that are confused by embedded space codes—such file names instead use an underscore (_) as a word separator, as_in_this_phrase.
+Another such symbol was U+2422 ␢ Blank symbol. This was used in the early years of computer programming when writing on coding forms. Keypunch operators immediately recognized the symbol as an "explicit space".[10] It was used in BCDIC,[10] EBCDIC,[10] and ASCII-1963.[10]
+See also[edit]
+
+Carriage return
+Form feed
+Indent style
+Line feed
+Newline
+Programming style
+Prosigns for Morse code
+Regular expression#Character classes for the white-space character class.
+Space bar
+Space (punctuation)
+Tab key
+Trimming (computer programming)
+Whitespace (programming language)
+Zero-width space
+
+References[edit]
+
+
+^ "The Unicode Standard". Unicode Consortium. 
+^ "Character design standards – space characters". Character design standards. Microsoft. 1998–1999. Archived from the original on August 23, 2000. Retrieved 2009-05-18. 
+^ The Unicode Standard 5.0, printed edition, p.205
+^ "General Punctuation" (PDF). The Unicode Standard 5.1. Unicode Inc. 1991–2008. Retrieved 2009-05-13. 
+^ Sargent, Murray III (2006-08-29). "Unicode Nearly Plain Text Encoding of Mathematics (Version 2)". Unicode Technical Note #28. Unicode Inc. pp. 19–20. Retrieved 2009-05-19. 
+^ Gillam, Richard (2002). Unicode Demystified: A Practical Programmer's Guide to the Encoding Standard. Addison-Wesley. ISBN 0-201-70052-2. 
+^ "Network.IDN.blacklist chars". MozillaZine. 2009-02-24. Retrieved 18 September 2010. 
+^ a b c d e f g h Mackenzie, Charles E. (1980). Coded Character Sets, History and Development. The Systems Programming Series (1 ed.). Addison-Wesley Publishing Company, Inc. pp. 41, 47, 52, 102–103, 117, 119, 130, 132, 141, 148, 150–151, 212, 424. ISBN 0-201-14460-3. LCCN 77-90165. Retrieved 2016-05-22.  [1]
+^ "American Standard Code for Information Interchange, ASA X3.4-1963". American Standards Association (ASA). 1963-06-17. Archived from the original on 2016-05-26. Retrieved 2014-05-23. 
+^ "Cambridge Z88 User Guide". 4.7 (4th ed.). Cambridge Computer Limited. 2016 [1987]. Basic concepts - The keyboard. Archived from the original on 2016-12-12. Retrieved 2016-12-12. 
+^ a b c "Cambridge Z88 User Guide". 4.0 (4th ed.). Cambridge Computer Limited. 1987. Appendix D. Archived from the original on 2016-12-12. Retrieved 2016-12-12. 
+^ a b c "Cambridge Z88 User Guide". 4.7 (4th ed.). Cambridge Computer Limited. 2015 [1987]. Appendix D. Archived from the original on 2016-12-12. Retrieved 2016-12-12. 
+^ Usage of the different dash types is illustrated, e.g., in The Chicago Manual of Style, §§ 6.80, 6.83–6.86
+^ http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1548.pdf Section 6.4, paragraph 3
+^ R. Fielding et al., "2.2 Basic Rules", Hypertext Transfer Protocol—HTTP/1.1, RFC 2616  CS1 maint: Uses authors parameter (link)
+^ "3.3.3 Attribute-Value Normalization". Extensible Markup Language (XML) 1.0 (Fifth Edition). World Wide Web Consortium. 
+^ "9.1 White space". W3CHTML 4.01 Specification. World Wide Web Consortium. 
+
+
+External links[edit]
+
+Propertylist of Unicode Character Database
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Whitespace_character&oldid=826624110"					
+				Categories: Character encodingSource codeWhitespaceHidden categories: CS1 maint: Uses authors parameterAll articles with specifically marked weasel-worded phrasesArticles with specifically marked weasel-worded phrases from December 2014Articles containing potentially dated statements from 2016All articles containing potentially dated statementsArticles with specifically marked weasel-worded phrases from February 2018Articles with specifically marked weasel-worded phrases from May 2012				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					ČeštinaDeutschMagyarNederlandsPolskiSimple EnglishSuomi				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 20 February 2018, at 04:10.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.392","walltime":"0.498","ppvisitednodes":{"value":3768,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":78870,"limit":2097152},"templateargumentsize":{"value":6731,"limit":2097152},"expansiondepth":{"value":22,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":24035,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  418.037      1 -total"," 34.24%  143.149      2 Template:Reflist"," 31.47%  131.536      1 Template:Whitespace_(Unicode)"," 19.59%   81.896     12 Template:Cite_web"," 13.85%   57.890      3 Template:Unichar"," 12.96%   54.165      3 Template:Fix"," 12.86%   53.759      3 Template:Unichar/main"," 12.54%   52.407      2 Template:Which","  8.03%   33.551      1 Template:Redir","  6.54%   27.344      3 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.127","limit":"10.000"},"limitreport-memusage":{"value":4593147,"limit":52428800}},"cachereport":{"origin":"mw1326","timestamp":"20180331104733","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":70,"wgHostname":"mw1253"});});
+	
+

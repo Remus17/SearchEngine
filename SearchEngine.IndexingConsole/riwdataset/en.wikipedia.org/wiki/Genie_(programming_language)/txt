@@ -1,0 +1,715 @@
+
+
+
+
+Genie (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Genie_(programming_language)","wgTitle":"Genie (programming language)","wgCurRevisionId":828734227,"wgRevisionId":828734227,"wgArticleId":25291443,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking reliable references from September 2016","All articles lacking reliable references","Official website different in Wikidata and Wikipedia","All stub articles","2008 software","Cross-platform free software","GTK+ language bindings","High-level programming languages","Object-oriented programming languages","Programming languages created in 2008","Software using the LGPL license","Statically typed programming languages","Programming language topic stubs"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Genie_(programming_language)","wgRelevantArticleId":25291443,"wgRequestId":"WsGItwpAADoAADQ7fOcAAACY","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1106293","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Genie (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				Not to be confused with Genie ALGOL 68G or Geany.
+
+
+
+
+
+
+This article relies too much on references to primary sources. Please improve this by adding secondary or tertiary sources. (September 2016) (Learn how and when to remove this template message)
+
+
+
+
+Genie
+
+Paradigm
+multi-paradigm: imperative, structured, object-oriented
+
+
+Designed by
+Jamie McCracken
+
+
+Developer
+GNOME Project
+
+
+First appeared
+2008; 10 years ago (2008)
+
+
+
+
+
+Stable release
+
+0.38.8 / February 15, 2018; 46 days ago (2018-02-15)
+
+
+
+
+
+
+Typing discipline
+static, strong
+
+
+OS
+Cross-platform (every platform supported by GLib)
+
+
+License
+LGPL 2.1+
+
+
+Filename extensions
+.gs
+
+
+Website
+wiki.gnome.org/Projects/Genie
+
+
+Influenced by
+
+
+Python, Boo, D, Object Pascal
+
+
+
+
+Free software portal
+
+
+Genie is a modern, general-purpose high-level programming language in active development since 2008.[1] It was designed as an alternative, simpler and cleaner dialect for the Vala compiler, while preserving the same functionality of the Vala language. Genie uses the same compiler and libraries as Vala; the two can indeed be used alongside each other.[2] The differences are only syntactic.
+Genie's syntax is derived from numerous modern languages like Python, Boo, D and Delphi. In the vein of Python, Genie uses indentation rather than curly brackets to delimit blocks.
+Like Vala, Genie uses the GObject type system to create classes and interfaces declared in Genie source code, without imposing additional runtime requirements (i.e., unlike Python, Java or C#, it does not require a virtual machine).
+Genie allows access to C libraries, especially those based in GObject (like GTK+), without using a different application binary interface (ABI). During compilation, the code is first translated to C source and header files, which are then compiled to platform-specific machine code using any available C compiler like GCC, thus allowing cross-platform software development.
+Although both Vala and Genie are being developed and promoted by GNOME, programs developed in Vala and Genie don't depend on the GNOME Desktop Environment, usually requiring only GLib.
+
+
+
+Contents
+
+
+1 Code samples
+
+1.1 "Hello World"
+1.2 Objects
+
+
+2 References
+3 External links
+
+
+
+Code samples[edit]
+"Hello World"[edit]
+This sample explicitly uses four spaces for indentation.
+
+[indent=4]
+
+init
+    print "Hello, world!"
+
+Objects[edit]
+With no explicit indentation declaration, the default is tabs.
+
+class Sample
+
+        def run()
+                stdout.printf("Hello, world!\n")
+
+init
+        var sample = new Sample()
+        sample.run()
+
+References[edit]
+
+
+
+^ Jamie McCracken (2008). "Introducing Genie - the smart programming language". Archived from the original on 2011-08-18. 
+^ Using Genie and Vala together
+
+
+
+External links[edit]
+
+Official website
+Barry Kauler's page on Genie
+Using the Genie programming language under Puppy Linux
+Puppy Linux: Vala and Genie Programming
+API Documentation
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Programming languages
+
+
+
+
+
+
+Comparison
+Timeline
+History
+
+
+
+
+
+
+
+
+APL
+Assembly
+BASIC
+C
+C++
+C#
+COBOL
+Fortran
+Go
+Groovy
+Haskell
+Java
+JavaScript (JS)
+Lisp
+Lua
+Objective-C
+Pascal
+Perl
+PHP
+Python
+Ruby
+Shell
+Smalltalk
+Swift
+Visual Basic .NET (VB.NET)
+more...
+
+
+
+
+
+
+
+
+ Category
+ Lists
+
+Alphabetical
+Categorical
+Generational
+Non-English-based
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+GNOME
+
+
+
+Core Applications
+
+
+
+Boxes
+Calculator
+Character Map
+Dictionary
+Disks
+Files
+Software
+Terminal
+Videos
+Web
+
+
+
+
+
+
+
+
+
+
+Additional Applications
+
+
+
+
+Development
+
+
+
+Anjuta
+Builder
+Glade Interface Designer
+Meld
+GNOME Devhelp
+Nemiver
+Geany
+Gtranslator
+
+
+
+
+
+Office
+
+
+
+AbiWord
+Dia
+Gnumeric
+Evince
+Evolution
+LaTeXila
+OCRFeeder
+
+
+
+
+
+Graphics
+
+
+
+Eye of GNOME
+F-Spot
+GIMP
+gThumb
+Inkscape
+Shotwell
+Simple Scan
+
+
+
+
+
+Internet
+
+
+
+Balsa
+Empathy
+Ekiga
+Gobby
+Ring
+Vino
+Vinagre
+Transmission-gtk
+
+
+
+
+
+Media
+
+
+
+Banshee
+Cheese
+Pitivi
+Rhythmbox
+Sound Juicer
+SoundConverter
+EasyTag
+
+
+
+
+
+Games
+
+
+
+GNOME Games
+
+Chess
+Mines
+
+
+gbrainy
+PyChess
+
+
+
+
+
+Utilities
+
+
+
+Archive Manager
+Brasero
+dconf-editor
+gedit
+gnote
+GParted
+Tomboy
+
+
+
+
+
+
+
+
+Platform components
+
+
+
+
+User interface
+
+
+
+
+GNOME 3 and 4
+
+
+
+Client-Side Decoration
+GDM
+Mutter
+GNOME Shell
+Tango Desktop Project
+Orca
+
+
+
+
+
+GNOME 2
+
+
+
+Metacity
+GNOME Panel
+Clearlooks
+
+
+
+
+
+Other
+
+
+
+Cinnamon
+MATE
+Diodon
+GNOME Do
+Avant Window Navigator
+
+
+
+
+
+
+
+
+GNOME Base
+
+
+
+GTK+
+
+GDK
+ATK
+Clutter
+
+
+Pango
+GLib
+
+GObject
+GIO
+
+
+IBus
+
+
+
+
+
+Other
+
+
+
+dconf
+Genie
+Keyring
+GNOME-DB
+GVfs
+
+GnomeVFS
+
+
+Librsvg
+Tracker
+Vala
+libxslt
+libxml2
+
+
+
+
+
+freedesktop.org
+
+
+
+AppStream
+D-Bus
+GStreamer
+NetworkManager
+Poppler
+Wayland
+X.Org Server
+PulseAudio
+PackageKit
+HarfBuzz
+Cairo
+
+
+
+
+
+
+
+
+Community
+
+
+
+GNOME Foundation
+GUADEC
+The GNOME Project
+Outreach Program for Women
+
+
+
+
+
+People
+
+
+
+Miguel de Icaza
+Luis Villa
+Havoc Pennington
+Karen Sandler
+
+
+
+
+
+
+
+
+ Category
+ Commons
+
+
+
+
+
+
+
+
+
+This programming-language-related article is a stub. You can help Wikipedia by expanding it.
+
+
+v
+t
+e
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Genie_(programming_language)&oldid=828734227"					
+				Categories: 2008 softwareCross-platform free softwareGTK+ language bindingsHigh-level programming languagesObject-oriented programming languagesProgramming languages created in 2008Software using the LGPL licenseStatically typed programming languagesProgramming language topic stubsHidden categories: Articles lacking reliable references from September 2016All articles lacking reliable referencesOfficial website different in Wikidata and WikipediaAll stub articles				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					EspañolBahasa Melayu中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 4 March 2018, at 12:40.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.264","walltime":"0.361","ppvisitednodes":{"value":1262,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":70432,"limit":2097152},"templateargumentsize":{"value":2160,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1622,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  298.776      1 -total"," 36.09%  107.822      2 Template:Infobox"," 27.47%   82.074      1 Template:Infobox_programming_language"," 17.71%   52.911      1 Template:Reflist"," 14.15%   42.272      1 Template:Primary"," 14.14%   42.236      5 Template:Navbox"," 13.95%   41.687      1 Template:Cite_web"," 11.94%   35.664      1 Template:Infobox_software/simple"," 11.56%   34.552      1 Template:Ambox"," 10.51%   31.415      1 Template:Distinguish"]},"scribunto":{"limitreport-timeusage":{"value":"0.125","limit":"10.000"},"limitreport-memusage":{"value":3990033,"limit":52428800}},"cachereport":{"origin":"mw1310","timestamp":"20180402011726","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":90,"wgHostname":"mw1263"});});
+	
+

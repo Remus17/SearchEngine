@@ -1,0 +1,206 @@
+
+
+
+
+Reference implementation - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Reference_implementation","wgTitle":"Reference implementation","wgCurRevisionId":823469342,"wgRevisionId":823469342,"wgArticleId":29051386,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using web citations with no URL","Pages using citations with accessdate and no URL","Articles needing cleanup from January 2017","All pages needing cleanup","Cleanup tagged articles with a reason field from January 2017","Wikipedia pages needing cleanup from January 2017","All articles with unsourced statements","Articles with unsourced statements from January 2012","Standards","Test items","Software engineering terminology"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Reference_implementation","wgRelevantArticleId":29051386,"wgRequestId":"WsBWSApAAEEAAHuo-CEAAAAT","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q2136722","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Reference implementation			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				In the software development process, a reference implementation (or, less frequently, sample implementation or model implementation) is the standard from which all other implementations and corresponding customizations are derived. An improvement to a reference implementation reflects an unchanging specification. Conversely, a failed attempt at an implementation may prove that the specification is not suitable and needs improvement itself. Testing the implementation-vs.-specification relationship further enhances the production's inter-process efficiencies:
+
+A reference implementation is, in general, an implementation of a specification to be used as a definitive interpretation for that specification (This definition is a bit grandiloquent but works). During the development of the ... conformance test suite, at least one relatively trusted implementation of each interface is necessary to (1) discover errors or ambiguities in the specification, and (2) validate the correct functioning of the test suite.[1]
+
+
+Characteristics of a Reference Implementation:
+
+Developed concurrently with the specification and test suite;
+Verifies that specification is implementable;
+Enables the test suite to be tested;
+Serves as a Gold Standard against which other implementations can be measured;
+Helps to clarify the intent of the specification in situations where conformance tests are inadequate[2]
+
+
+Reference implementations of algorithms, for instance cryptographic algorithms, are often the result or the input of standardization processes. In this function they are often dedicated to the public domain with their source code as public domain software. Examples are the first CERN's httpd,[3] Serpent cipher, base64 variants,[4] and SHA-3.[5] The Openwall Project maintains a list of several algorithms with their reference source code in the public domain.[6]
+A reference implementation may or may not be production quality. For example, the Fraunhofer reference implementation of the MP3 standard usually does not compare favorably to other common implementations, such as LAME, in listening tests that determine sound quality.[citation needed] In contrast, CPython, the reference implementation of the Python programming language,[7] is also the implementation most widely used in production.
+References[edit]
+
+
+^ Dalci, Eric; Fong, Elizabeth; Goldfine, Alan (2003). Requirements for GSC-IS Reference Implementations. National Institute of Standards and Technology, Information Technology Laboratory. [https://web.archive.org/web/20060928231404/http://xw2k.sdct.itl.nist.gov/smartcard/document/ref-imp51.pdf Requirements for GSC-IS Reference Implementations]
+^ Curran, Patrick (2003). Conformance Testing: An Industry Perspective. Sun Microsystems. [1]
+^ The birth of the web Licensing the web on cern.ch (2014)
+^ libb64 on sourceforge
+^ KeccakReferenceAndOptimized-3.2.zip mainReference.c "The Keccak sponge function, designed by Guido Bertoni, Joan Daemen, Michaël Peeters and Gilles Van Assche. For more information, feedback or questions, please refer to our website: http://keccak.noekeon.org/Implementation by the designers, hereby denoted as "the implementer". To the extent possible under law, the implementer has waived all copyright and related or neighboring rights to the source code in this file. https://creativecommons.org/publicdomain/zero/1.0/"
+^ Source code snippets and frameworks placed in the public domain on openwall.info
+^ Snow, Eric (2012-01-26). "PEP 421 -- Adding sys.implementation". Python.org. Python Software Foundation. For a number of years now, the distinction between Python-the-language and CPython (the reference implementation) has been growing.  Missing or empty |url= (help); |access-date= requires |url= (help)
+
+
+
+
+
+
+This article may require cleanup to meet Wikipedia's quality standards. The specific problem is: Please fix URL here. Captcha is broken so I can't add it. Please help improve this article if you can. (January 2017) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Reference_implementation&oldid=823469342"					
+				Categories: StandardsTest itemsSoftware engineering terminologyHidden categories: Pages using web citations with no URLPages using citations with accessdate and no URLArticles needing cleanup from January 2017All pages needing cleanupCleanup tagged articles with a reason field from January 2017Wikipedia pages needing cleanup from January 2017All articles with unsourced statementsArticles with unsourced statements from January 2012				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					CatalàDeutschEspañol한국어ItalianoMagyarNederlands日本語PortuguêsРусскийTiếng Việt				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 1 February 2018, at 13:12.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.120","walltime":"0.174","ppvisitednodes":{"value":653,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":15028,"limit":2097152},"templateargumentsize":{"value":3124,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":6004,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  162.664      1 -total"," 53.56%   87.131      1 Template:Reflist"," 40.66%   66.140      1 Template:Citation_needed"," 29.10%   47.333      1 Template:Fix"," 27.70%   45.056      3 Template:Category_handler"," 22.32%   36.314      1 Template:Cite_web"," 20.65%   33.596      1 Template:Cleanup","  8.96%   14.575      2 Template:Main_other","  8.18%   13.301      1 Template:Delink","  7.60%   12.370      1 Template:Ambox"]},"scribunto":{"limitreport-timeusage":{"value":"0.055","limit":"10.000"},"limitreport-memusage":{"value":2311994,"limit":52428800}},"cachereport":{"origin":"mw1251","timestamp":"20180311162752","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":64,"wgHostname":"mw1270"});});
+	
+

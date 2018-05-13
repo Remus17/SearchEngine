@@ -1,0 +1,475 @@
+
+
+
+
+Cython - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Cython","wgTitle":"Cython","wgCurRevisionId":827934026,"wgRevisionId":827934026,"wgArticleId":18384111,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from February 2014","Articles with example Python code","Python (programming language)","Python implementations","Software using the Apache license"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Cython","wgRelevantArticleId":18384111,"wgRequestId":"WsD2xQpAMFYAAH2eissAAABM","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q975594","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Cython			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				Not to be confused with CPython.
+
+Cython
+
+
+
+
+Developer(s)
+Robert Bradshaw, Stefan Behnel, et al.
+
+
+Initial release
+28 July 2007; 10 years ago (2007-07-28)[1]
+
+
+
+
+
+Stable release
+0.27.3 (3 November 2017; 4 months ago (2017-11-03)) [±][2]
+
+
+
+
+
+Repository
+
+
+
+https://github.com/cython/cython
+
+
+
+
+
+Written in
+Python, C
+
+
+Type
+Programming language
+
+
+License
+Apache License
+
+
+Website
+cython.org
+
+
+Cython is a superset of the Python programming language, designed to give C-like performance with code that is mostly written in Python.[3][4]
+Cython is a compiled language that generates CPython extension modules. These extension modules can then be loaded and used by regular Python code using the import statement.
+Cython is written in Python and works on Windows, macOS, and Linux, producing source files compatible with CPython 2.6, 2.7, and 3.3 through 3.7.
+
+
+
+Contents
+
+
+1 Design
+2 History
+3 Example
+4 Using in IPython/Jupyter notebook
+5 Uses
+6 See also
+7 References
+8 External links
+
+
+
+Design[edit]
+Cython works by producing a standard Python module. However, the behavior differs from standard Python in that the module code, originally written in Python, is translated into C. While the resulting code is fast, it makes many calls into the CPython interpreter and CPython standard libraries to perform actual work. Choosing this arrangement saved considerably on Cython's development time, but modules have a dependency on the Python interpreter and standard library.
+Although most of the code is C-based, a small stub loader written in interpreted Python is usually required (unless the goal is to create a loader written entirely in C, which may involve work with the undocumented internals of CPython). However, this is not a major problem due to the presence of the Python interpreter.
+Cython has a foreign function interface for invoking C/C++ routines and the ability to declare the static type of subroutine parameters and results, local variables, and class attributes.
+A Cython program that implements the same algorithm as a corresponding Python program may consume fewer computing resources such as core memory and processing cycles due to differences between the CPython and Cython execution models. A basic Python program is loaded and executed by the CPython virtual machine, so both the runtime and the program itself consume computing resources. A Cython program is compiled to C code, which is further compiled to machine code, so the virtual machine is used only briefly when the program is loaded.[5][6][7][8]
+Cython employs:
+
+Optimistic optimizations
+Type inference (optional)
+Low overhead in control structures
+Low function call overhead[9][10]
+
+Performance depends both on what C code is generated by Cython and how that code is compiled by the C compiler.[11]
+History[edit]
+Cython is a derivative of the Pyrex language, and supports more features and optimizations than Pyrex.[12][13]
+Cython was forked from Pyrex in 2007 by developers of the Sage computer algebra package, because they were unhappy with Pyrex's limitations and could not get patches accepted by Pyrex's maintainer Greg Ewing, who envisioned a much smaller scope for his tool than the Sage developers had in mind. They then forked Pyrex as SageX. When they found people were downloading Sage just to get SageX, and developers of other packages (including Stefan Behnel, who maintains the XML library LXML) were also maintaining forks of Pyrex, SageX was split off the Sage project and merged with cython-lxml to become Cython.[14]
+Cython files have a .pyx extension. At its most basic, Cython code looks exactly like Python code. However, whereas standard Python is dynamically typed, in Cython, types can optionally be provided, allowing for improved performance, allowing loops to be converted into C loops where possible. For example:
+
+
+def primes(int kmax):  # The argument will be converted to int or raise a TypeError.
+    cdef int n, k, i  # These variables are declared with C types.
+    cdef int p[1000]  # Another C type
+    result = []  # A Python type
+    if kmax > 1000:
+        kmax = 1000
+    k = 0
+    n = 2
+    while k < kmax:
+        i = 0
+        while i < k and n % p[i] != 0:
+            i = i + 1
+        if i == k:
+            p[k] = n
+            k = k + 1
+            result.append(n)
+        n = n + 1
+    return result
+
+Example[edit]
+
+
+
+
+Hello World in Cython
+
+
+A sample hello world program for Cython is more complex than in most languages because it interfaces with the Python C API and the setuptools extension building facility. At least three files are required for a basic project:
+
+A setup.py file to invoke the setuptools build process that generates the extension module
+A main python program to load the extension module
+Cython source file(s)
+
+The following code listings demonstrate the build and launch process:
+
+
+# hello.pyx - Python Module, this code will be translated to C by Cython.
+def say_hello():
+    print "Hello World!"
+
+
+
+# launch.py - Python stub loader, loads the module that was made by Cython.
+
+# This code is always interpreted, like normal Python.
+# It is not compiled to C.
+
+import hello
+hello.say_hello()
+
+
+
+# setup.py - unnecessary if not redistributing the code, see below
+from setuptools import setup
+from Cython.Build import cythonize
+
+setup(name = 'Hello world app',
+      ext_modules = cythonize("*.pyx"))
+
+These commands build and launch the program:
+
+
+$ python setup.py build_ext --inplace
+$ python launch.py
+
+Using in IPython/Jupyter notebook[edit]
+A more straightforward way to start with Cython is through command-line IPython (or through in-browser python console called Jupyter notebook):
+
+
+In [1]: %load_ext Cython
+
+In [2]: %%cython
+   ...: def f(n):
+   ...:     a = 0
+   ...:     for i in range(n):
+   ...:         a += i
+   ...:     return a
+   ...: 
+   ...: cpdef g(int n):
+   ...:     cdef int a = 0, i
+   ...:     for i in range(n):
+   ...:         a += i
+   ...:     return a
+   ...: 
+
+In [3]: %timeit f(1000000)
+42.7 ms ± 783 µs per loop (mean ± std. dev. of 7 runs, 10 loops each)
+
+In [4]: %timeit g(1000000)
+74 µs ± 16.6 ns per loop (mean ± std. dev. of 7 runs, 10000 loops each)
+
+which gives a 585 times improvement over the pure-python version. More details on the subject in the official quickstart page.[15]
+Uses[edit]
+Cython is particularly popular among scientific users of Python,[7][16][17] where it has "the perfect audience" according to Python developer Guido van Rossum.[18] Of particular note:
+
+The free software SageMath computer algebra system depends on Cython, both for performance and to interface with other libraries.[19]
+Significant parts of the scientific computing libraries SciPy, pandas and scikit-learn are written in Cython.[20][21]
+Some high traffic websites such as Quora use Cython.[22]
+
+Cython's domain is not limited to just numerical computing. For example, the lxml XML toolkit is written mostly in Cython, and like its predecessor Pyrex, Cython is used to provide Python bindings for many C and C++ libraries like the messaging library ZeroMQ.[23] Cython can also be used to develop parallel programs for multi-core processor machines; this feature makes use of the OpenMP library.
+See also[edit]
+
+PyPy
+Numba
+
+References[edit]
+
+
+^ Dr. Behnel, Stefan (2008). "The Cython Compiler for C-Extensions in Python". EuroPython (28 July 2007: official Cython launch). Vilnius/Lietuva. 
+^ "Cython: C-Extensions for Python". 
+^ "Cython - an overview — Cython 0.19.1 documentation". Docs.cython.org. Retrieved 2013-07-21. 
+^ Smith, Kurt (2015). Cython: A Guide for Python Programmers. O'Reilly Media. ISBN 978-1-4919-0155-7. 
+^ Oliphant, Travis (2011-06-20). "Technical Discovery: Speeding up Python (NumPy, Cython, and Weave)". Technicaldiscovery.blogspot.com. Retrieved 2013-07-21. 
+^ Behnel, Stefan; Bradshaw, Robert; Citro, Craig; Dalcin, Lisandro; Seljebotn, Dag Sverre; Smith, Kurt (2011). "Cython: The Best of Both Worlds". Computing in Science and Engineering. 13 (2): 31–39. doi:10.1109/MCSE.2010.118. 
+^ a b Seljebot, Dag Sverre (2009). "Fast numerical computations with Cython". Proceedings of the 8th Python in Science Conference (SciPy 2009): 15–22. 
+^ Wilbers, I.; Langtangen, H. P.; Ødegård, Å. (2009). B. Skallerud; H. I. Andersson, ed. "Using Cython to Speed up Numerical Python Programs" (PDF). Proceedings of MekIT'09: 495–512. Retrieved 14 June 2011. 
+^ "wrapper benchmarks for several Python wrapper generators (except Cython)". 
+^ "wrapper benchmarks for Cython, Boost.Python and PyBindGen". 
+^ "Cython: C-Extensions for Python". Retrieved 22 November 2015. 
+^ "Differences between Cython and Pyrex". 
+^ Ewing, Greg (21 March 2011). "Re: VM and Language summit info for those not at Pycon (and those that are!)" (Message to the electronic mailing-list python-dev). Retrieved 5 May 2011. 
+^ Says Sage and Cython developer Robert Bradshaw at the Sage Days 29 conference (22 March 2011). "Cython: Past, Present and Future". youtube.com. Retrieved 5 May 2011. 
+^ "Building Cython code". cython.readthedocs.io. Retrieved 2017-04-24. 
+^ "inSCIght: The Scientific Computing Podcast" (Episode 6). 
+^ Millman, Jarrod; Aivazis, Michael (2011). "Python for Scientists and Engineers". Computing in Science and Engineering. 13 (2): 9–12. doi:10.1109/MCSE.2011.36. 
+^ Guido Van Rossum (21 March 2011). "Re: VM and Language summit info for those not at Pycon (and those that are!)" (Message to the electronic mailing-list python-dev). Retrieved 5 May 2011. 
+^ Erocal, Burcin; Stein, William (2010). "The Sage Project: Unifying Free Mathematical Software to Create a Viable Alternative to Magma, Maple, Mathematica and MATLAB" (PDF). Mathematical Software‚ ICMS 2010. Springer Berlin / Heidelberg. 6327: 12–27. doi:10.1007/978-3-642-15582-6_4. 
+^ "SciPy 0.7.2 release notes". 
+^ Pedregosa, Fabian; Varoquaux, Gaël; Gramfort, Alexandre; Michel, Vincent; Thirion, Bertrand; Grisel, Olivier; Blondel, Mathieu; Prettenhofer, Peter; Weiss, Ron; Dubourg, Vincent; Vanderplas, Jake; Passos, Alexandre; Cournapeau, David (2011). "Scikit-learn: Machine Learning in Python". Journal of Machine Learning Research. 12: 2825–2830. 
+^ "Is Quora still running on PyPy?". 
+^ "ØMQ: Python binding". 
+
+
+External links[edit]
+
+Official website
+Cython on GitHub
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Python
+
+
+
+Implementations
+
+
+
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+
+
+
+
+
+
+
+
+IDE
+
+
+
+Boa
+Eric Python IDE
+IDLE
+PyDev
+SPE
+Ninja-IDE
+more...
+
+
+
+
+
+Topics
+
+
+
+WSGI
+
+
+
+
+
+
+
+
+software (list)
+Python Software Foundation
+PyCon
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Cython&oldid=827934026"					
+				Categories: Python (programming language)Python implementationsSoftware using the Apache licenseHidden categories: Use dmy dates from February 2014Articles with example Python code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					CatalàDeutschEspañolفارسیFrançais한국어עברית日本語РусскийСрпски / srpskiУкраїнська				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 27 February 2018, at 16:29.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.324","walltime":"0.398","ppvisitednodes":{"value":2059,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":55344,"limit":2097152},"templateargumentsize":{"value":1731,"limit":2097152},"expansiondepth":{"value":29,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":31863,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  363.301      1 -total"," 44.11%  160.247      1 Template:Reflist"," 36.63%  133.079      2 Template:Infobox"," 35.11%  127.569      1 Template:Infobox_software"," 26.94%   97.878     16 Template:Cite_web","  8.94%   32.474      6 Template:Cite_journal","  8.83%   32.080      1 Template:Plainlist","  8.43%   30.612      1 Template:Wikidata","  6.19%   22.493      2 Template:Start_date_and_age","  6.17%   22.422      1 Template:Distinguish"]},"scribunto":{"limitreport-timeusage":{"value":"0.175","limit":"10.000"},"limitreport-memusage":{"value":5509188,"limit":52428800}},"cachereport":{"origin":"mw1262","timestamp":"20180401103352","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":75,"wgHostname":"mw1251"});});
+	
+

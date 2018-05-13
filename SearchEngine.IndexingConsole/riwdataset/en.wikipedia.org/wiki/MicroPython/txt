@@ -1,0 +1,350 @@
+
+
+
+
+MicroPython - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"MicroPython","wgTitle":"MicroPython","wgCurRevisionId":833519508,"wgRevisionId":833519508,"wgArticleId":50278739,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All stub articles","Software stubs","BBC computer literacy projects","Embedded systems","Microcontrollers","Python (programming language)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"MicroPython","wgRelevantArticleId":50278739,"wgRequestId":"WsBDDwpAICMAAB17plUAAAAI","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q25313489","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+MicroPython			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+MicroPython
+
+
+
+
+Original author(s)
+Damien George
+
+
+Initial release
+May 3, 2014; 3 years ago (2014-05-03)
+
+
+
+
+
+Stable release
+
+1.9.3 / October 31, 2017; 4 months ago (2017-10-31)
+
+
+
+
+
+
+Repository
+
+
+
+https://github.com/micropython/micropython
+
+
+
+
+
+Written in
+C
+
+
+Platform
+Micro Bit, Arduino, ESP8266, ESP32
+
+
+Type
+Python implementation
+
+
+License
+MIT license[1]
+
+
+Website
+micropython.org
+
+
+MicroPython[2] is a software implementation of the Python 3 programming language, written in C, that is optimized to run on a microcontroller.[3][4] MicroPython is a full Python compiler and runtime that runs on the micro-controller hardware. The user is presented with an interactive prompt (the REPL) to execute supported commands immediately. Included are a selection of core Python libraries, MicroPython includes modules which give the programmer access to low-level hardware.[2]
+MicroPython, was originally created by the Australian programmer and physicist Damien George, after a successful Kickstarter backed campaign in 2013.[5] While the original Kickstart campaign released MicroPython with a pyboard microcontroller, MicroPython supports a number of ARM based architectures.[6] MicroPython has since been run on Arduino,[7][8] ESP8266,[9] ESP32,[10] and Internet of things[11][12][13][14] hardware. In 2016 a version of MicroPython for the BBC Micro Bit was created as part of the Python Software Foundation's contribution to the Micro Bit partnership with the BBC.[15]
+The source code for the project can be found on GitHub.[16]
+References[edit]
+
+
+
+^ George, Damien P. (4 May 2014). "micropython/LICENSE at master · micropython/micropython". GitHub. Retrieved 11 February 2017. 
+^ a b "MicroPython - Python for microcontrollers". micropython.org. Retrieved 12 August 2017. 
+^ Venkataramanan, Madhumita (6 December 2013). "Micro Python: more powerful than Arduino, simpler than the Raspberry Pi". Wired. Retrieved 15 December 2016. 
+^ Yegulalp, Serdar (5 July 2014). "Micro Python's tiny circuits: Python variant targets microcontrollers". InfoWorld. Retrieved 15 December 2016. 
+^ "Micro Python: Python for microcontrollers". Kickstarter. Kickstarter. Retrieved 15 December 2016. 
+^ Beningo, Jacob (11 July 2016). "Prototype to production: MicroPython under the hood". EDN Network. Retrieved 15 December 2016. 
+^ Horsey, Julian (12 October 2016). "Pyduino Arduino Based Development Board That Supports MicroPython (video)". Geeky Gadgets. Retrieved 15 December 2016. 
+^ Beningo, Jacob (6 April 2016). "Getting Started with Micro Python". EDN Network. Retrieved 15 December 2016. 
+^ Williams, Elliot (21 July 2016). "MicroPython on the ESP8266: Kicking the Tires". Hackaday. Retrieved 15 December 2016. 
+^ "MicroPython ported to the ESP32". GitHub. Retrieved 8 March 2017. 
+^ "MicroPython on the ESP8266: beautifully easy IoT". Kickstarter. Kickstarter. Retrieved 6 December 2017. 
+^ "MICROPYTHON BRINGING PYTHON TO THE INTERNET OF THINGS". MICROPYTHON BRINGING PYTHON TO THE INTERNET OF THINGS. github.io. Retrieved 6 December 2017. 
+^ "FiPy – The world's first 5-network IoT dev board". Kickstarter. Retrieved 15 December 2016. 
+^ "Pycom Incorporating Sequans LTE-M Technology in New 5-Network IoT Development Board". Business Wire. 22 November 2016. Retrieved 15 December 2016. 
+^ Williams, Alun. "Hands on with the BBC Micro-Bit user interface". ElectronicsWeekly.com. Retrieved 8 July 2015. 
+^ "MicroPython on GitHub". 
+
+
+
+External links[edit]
+
+Official website
+micropython on GitHub
+GOTO 2016 • MicroPython & the Internet of Things • Damien George on YouTube
+MicroPython playlist on YouTube • Tutorials by Tony DiCola / Adafruit
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Python
+
+
+
+Implementations
+
+
+
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+
+
+
+
+
+
+
+
+IDE
+
+
+
+Boa
+Eric Python IDE
+IDLE
+PyDev
+SPE
+Ninja-IDE
+more...
+
+
+
+
+
+Topics
+
+
+
+WSGI
+
+
+
+
+
+
+
+
+software (list)
+Python Software Foundation
+PyCon
+
+
+
+
+
+
+
+
+
+This software article is a stub. You can help Wikipedia by expanding it.
+
+
+v
+t
+e
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=MicroPython&oldid=833519508"					
+				Categories: BBC computer literacy projectsEmbedded systemsMicrocontrollersPython (programming language)Hidden categories: All stub articlesSoftware stubs				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					ItalianoLatviešu日本語中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 1 April 2018, at 02:23.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.296","walltime":"0.364","ppvisitednodes":{"value":1716,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":47020,"limit":2097152},"templateargumentsize":{"value":1836,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":16806,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  324.604      1 -total"," 45.46%  147.576      2 Template:Infobox"," 44.53%  144.554      1 Template:Infobox_software"," 34.74%  112.783      1 Template:Reflist"," 20.02%   64.976      9 Template:Cite_web","  9.91%   32.175      1 Template:Plainlist","  9.31%   30.207      1 Template:Wikidata","  9.09%   29.518      2 Template:Start_date_and_age","  8.48%   27.541      7 Template:Cite_news","  5.36%   17.407      1 Template:Infobox_software/simple"]},"scribunto":{"limitreport-timeusage":{"value":"0.146","limit":"10.000"},"limitreport-memusage":{"value":4590772,"limit":52428800}},"cachereport":{"origin":"mw1346","timestamp":"20180401022348","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":73,"wgHostname":"mw1333"});});
+	
+

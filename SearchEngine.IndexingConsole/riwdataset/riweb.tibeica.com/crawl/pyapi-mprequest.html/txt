@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.3 Request Object 
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.2 Table Object (mp_table) 
+Up:
+4.5 apache - Access
+Next:
+4.5.3.1 Request Methods
+
+
+
+
+ 
+
+4.5.3 Request Object 
+
+
+
+The request object is a Python mapping to the Apache
+request_rec structure. When a handler is invoked, it is always
+passed a single argument - the request object. 
+
+
+You can dynamically assign attributes to it as a way to communicate
+between handlers.
+
+
+
+
+
+Subsections
+
+
+4.5.3.1 Request Methods
+4.5.3.2 Request Members
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.2 Table Object (mp_table) 
+Up:
+4.5 apache - Access
+Next:
+4.5.3.1 Request Methods
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

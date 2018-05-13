@@ -1,0 +1,764 @@
+
+
+
+
+LLVM - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"LLVM","wgTitle":"LLVM","wgCurRevisionId":832526271,"wgRevisionId":832526271,"wgArticleId":654611,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using deprecated image syntax","All articles with unsourced statements","Articles with unsourced statements from June 2012","Articles containing potentially dated statements from May 2017","All articles containing potentially dated statements","Use dmy dates from March 2016","Compilers","Free compilers and interpreters","Register-based virtual machines","Software using the NCSA license"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"LLVM","wgRelevantArticleId":654611,"wgRequestId":"Wr9jEApAMEkAAIew2G4AAABS","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q223490","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+LLVM			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+LLVM
+
+
+
+
+Original author(s)
+Vikram Adve, Chris Lattner
+
+
+Developer(s)
+LLVM Developer Group
+
+
+Initial release
+2003; 15 years ago (2003)
+
+
+
+
+
+Stable release
+
+6.0.0 / 8 March 2018; 23 days ago (2018-03-08)[1]
+
+
+
+
+
+
+Repository
+
+
+
+http://llvm.org/viewvc/llvm-project/
+
+
+
+
+
+Written in
+C++
+
+
+Operating system
+Cross-platform
+
+
+Type
+Compiler
+
+
+License
+University of Illinois/NCSA Open Source License[2]
+
+
+Website
+llvm.org
+
+
+The LLVM compiler infrastructure project is a "collection of modular and reusable compiler and toolchain technologies"[3] used to develop compiler front ends and back ends.
+LLVM is written in C++ and is designed for compile-time, link-time, run-time, and "idle-time" optimization of programs written in arbitrary programming languages. Originally implemented for C and C++, the language-agnostic design of LLVM has since spawned a wide variety of front ends: languages with compilers that use LLVM include ActionScript, Ada, C#,[4][5][6] Common Lisp, Crystal, CUDA, D, Delphi, Fortran, Halide, Haskell, Java bytecode, Julia, Kotlin, Lua, Objective-C, OpenGL Shading Language, Pony,[7] Python, R, Ruby,[8] Rust, Scala,[9] Swift, and Xojo.
+
+
+
+Contents
+
+
+1 History
+2 Features
+3 Components
+
+3.1 Front ends
+3.2 Intermediate representation
+3.3 Back ends
+3.4 Linker
+3.5 C++ Standard Library
+3.6 Debugger
+
+
+4 Version history
+5 See also
+6 Literature
+7 References
+8 External links
+
+
+
+History[edit]
+The LLVM project started in 2000 at the University of Illinois at Urbana–Champaign, under the direction of Vikram Adve and Chris Lattner. LLVM was originally developed as a research infrastructure to investigate dynamic compilation techniques for static and dynamic programming languages. LLVM was released under the University of Illinois/NCSA Open Source License,[2] a permissive free software licence. In 2005, Apple Inc. hired Lattner and formed a team to work on the LLVM system for various uses within Apple's development systems.[10] LLVM is an integral part of Apple's latest development tools for macOS and iOS.[11] Since 2013, Sony has been using LLVM's primary front end Clang compiler in the software development kit (SDK) of its PS4 console.[12]
+The name LLVM was originally an initialism for Low Level Virtual Machine. This initialism has officially been removed to avoid confusion, as the LLVM has evolved into an umbrella project that has little relationship to what most current developers think of as virtual machines.[13] Now, LLVM is a brand that applies to the LLVM umbrella project, the LLVM intermediate representation (IR), the LLVM debugger, the LLVM implementation of the C++ Standard Library (with full support of C++11 and C++14[14]), etc. LLVM is administered by the LLVM Foundation. Its president is compiler engineer Tanya Lattner.[15]
+The Association for Computing Machinery presented Adve, Lattner, and Evan Cheng with the 2012 ACM Software System Award for LLVM.[16]
+Features[edit]
+LLVM can provide the middle layers of a complete compiler system, taking intermediate representation (IR) code from a compiler and emitting an optimized IR. This new IR can then be converted and linked into machine-dependent assembly language code for a target platform. LLVM can accept the IR from the GNU Compiler Collection (GCC) toolchain, allowing it to be used with a wide array of extant compilers written for that project.
+LLVM can also generate relocatable machine code at compile-time or link-time or even binary machine code at run-time.
+LLVM supports a language-independent instruction set and type system.[17] Each instruction is in static single assignment form (SSA), meaning that each variable (called a typed register) is assigned once and then frozen. This helps simplify the analysis of dependencies among variables. LLVM allows code to be compiled statically, as it is under the traditional GCC system, or left for late-compiling from the IR to machine code via just-in-time compilation (JIT), similar to Java. The type system consists of basic types such as integer or floating point numbers and five derived types: pointers, arrays, vectors, structures, and functions. A type construct in a concrete language can be represented by combining these basic types in LLVM. For example, a class in C++ can be represented by a mix of structures, functions and arrays of function pointers.
+The LLVM JIT compiler can optimize unneeded static branches out of a program at runtime, and thus is useful for partial evaluation in cases where a program has many options, most of which can easily be determined unneeded in a specific environment. This feature is used in the OpenGL pipeline of Mac OS X Leopard (v10.5) to provide support for missing hardware features.[18]
+Graphics code within the OpenGL stack can be left in intermediate representation, and then compiled when run on the target machine. On systems with high-end graphics processing units (GPUs), the resulting code remains quite thin, passing the instructions on to the GPU with minimal changes. On systems with low-end GPUs, LLVM will compile optional procedures that run on the local central processing unit (CPU) that emulate instructions that the GPU cannot run internally. LLVM improved performance on low-end machines using Intel GMA chipsets. A similar system was developed under the Gallium3D LLVMpipe, and incorporated into the GNOME shell to allow it to run without a proper 3D hardware driver loaded.[19]
+For run-time performance of the compiled programs, GCC formerly outperformed LLVM by 10% on average.[20][21] Newer results indicate that LLVM has now caught up with GCC in this area, and is now compiling binaries of approximately equal performance.[22]
+Components[edit]
+LLVM has become an umbrella project containing multiple components.
+Front ends[edit]
+LLVM was originally written to be a replacement for the existing code generator in the GCC stack,[23] and many of the GCC front ends have been modified to work with it. LLVM currently supports compiling of Ada, C, C++, D, Delphi, Fortran, Haskell, Objective-C and Swift using various front ends, some derived from version 4.0.1 and 4.2 of the GNU Compiler Collection (GCC).
+Widespread interest in LLVM has led to several efforts to develop new front ends for a variety of languages. The one that has received the most attention is Clang, a new compiler supporting C, C++, and Objective-C. Primarily supported by Apple, Clang is aimed at replacing the C/Objective-C compiler in the GCC system with a system that is more easily integrated with integrated development environments (IDEs) and has wider support for multithreading. Support for OpenMP directives has been included in Clang since release 3.8.[24]
+The Utrecht Haskell compiler can generate code for LLVM. Though the generator is in the early stages of development, in many cases it has been more efficient than the C code generator.[25] The Glasgow Haskell Compiler (GHC) has a working LLVM backend that achieves a 30% speed-up of the compiled code relative to native code compiling via GHC or C code generation followed by compiling, missing only one of the many optimizing techniques implemented by the GHC.[26]
+Many other components are in various stages of development, including, but not limited to, the Rust compiler, a Java bytecode front end, a Common Intermediate Language (CIL) front end, the MacRuby implementation of Ruby 1.9, various front ends for Standard ML, and a new graph coloring register allocator.[citation needed]
+Intermediate representation[edit]
+
+
+
+
+LLVM IR is used e.g., by radeonsi and by llvmpipe. Both are part of Mesa 3D.
+
+
+The core of LLVM is the intermediate representation (IR), a low-level programming language similar to assembly. IR is a strongly typed reduced instruction set computing (RISC) instruction set which abstracts away details of the target. For example, the calling convention is abstracted through call and ret instructions with explicit arguments. Also, instead of a fixed set of registers, IR uses an infinite set of temporaries of the form %0, %1, etc. LLVM supports three isomorphic (i.e., functionally equivalent) forms of IR: a human-readable assembly format, a C++ object format suitable for frontends, and a dense bitcode format for serializing. A simple "Hello, world!" program in the assembly format:[27]
+
+
+@.str = internal constant [14 x i8] c"hello, world\0A\00"
+
+declare i32 @printf(i8*, ...)
+
+define i32 @main(i32 %argc, i8** %argv) nounwind {
+entry:
+    %tmp1 = getelementptr [14 x i8], [14 x i8]* @.str, i32 0, i32 0
+    %tmp2 = call i32 (i8*, ...) @printf( i8* %tmp1 ) nounwind
+    ret i32 0
+}
+
+Back ends[edit]
+At version 3.4, LLVM supports many instruction sets, including ARM, Qualcomm Hexagon, MIPS, Nvidia Parallel Thread Execution (PTX; called NVPTX in LLVM documentation), PowerPC, AMD TeraScale,[28] AMD Graphics Core Next (GCN), SPARC, z/Architecture (called SystemZ in LLVM documentation), x86, x86-64, and XCore. Some features are not available on some platforms. Most features are present for x86, x86-64, z/Architecture, ARM, and PowerPC.[29]
+The LLVM machine code (MC) subproject is LLVM's framework for translating machine instructions between textual forms and machine code. Formerly, LLVM relied on the system assembler, or one provided by a toolchain, to translate assembly into machine code. LLVM MC's integrated assembler supports most LLVM targets, including x86, x86-64, ARM, and ARM64. For some targets, including the various MIPS instruction sets, integrated assembly support is usable but still in the beta stage.
+Linker[edit]
+The lld subproject is an attempt to develop a built-in, platform-independent linker for LLVM.[30] lld aims to remove dependence on a third-party linker. As of May 2017[update], lld supports ELF, PE/COFF, and Mach-O in descending order of completeness.[30] In cases where lld is insufficient, another linker such as GNU ld can be used.
+Using lld allows link-time optimization. When link-time optimization is enabled, the compiler generates LLVM bitcode instead of native code, and native code generation is done by the linker.
+C++ Standard Library[edit]
+The LLVM project includes an implementation of the C++ Standard Library, dual-licensed under the MIT License and the UIUC license.[31]
+Debugger[edit]
+Main article: LLDB (debugger)
+Version history[edit]
+
+Revision history[32]
+
+Version
+Release date
+
+
+6.0.0
+8 March 2018
+
+
+5.0.1
+19 December 2017
+
+
+5.0.0
+7 September 2017
+
+
+4.0.1
+4 July 2017
+
+
+4.0
+13 March 2017
+
+
+3.9.1
+23 December 2016
+
+
+3.9.0
+2 September 2016
+
+
+3.8.1
+11 July 2016
+
+
+3.8.0
+8 March 2016
+
+
+3.7.1
+5 January 2016
+
+
+3.7.0
+1 September 2015
+
+
+3.6.2
+16 Jul 2015
+
+
+3.6.1
+26 May 2015
+
+
+3.6.0
+27 February 2015
+
+
+3.5.2
+2 April 2015
+
+
+3.5.1
+20 January 2015
+
+
+3.5.0
+3 September 2014
+
+
+3.4.2
+19 June 2014
+
+
+3.4.1
+7 May 2014
+
+
+3.4.0
+2 January 2014
+
+
+3.3
+17 June 2013
+
+
+3.2
+20 December 2012
+
+
+3.1
+22 May 2012
+
+
+3.0
+1 December 2011
+
+
+2.9
+6 April 2011
+
+
+2.8
+5 October 2010
+
+
+2.7
+27 April 2010
+
+
+2.6
+23 October 2009
+
+
+2.5
+2 March 2009
+
+
+2.4
+9 November 2008
+
+
+2.3
+9 June 2008
+
+
+2.2
+11 February 2008
+
+
+2.1
+26 September 2007
+
+
+2.0
+23 May 2007
+
+
+1.9
+19 November 2006
+
+
+1.8
+9 August 2006
+
+
+1.7
+20 April 2006
+
+
+1.6
+8 November 2005
+
+
+1.5
+18 May 2005
+
+
+1.4
+9 December 2004
+
+
+1.3
+13 August 2004
+
+
+1.2
+19 March 2004
+
+
+1.1
+17 December 2003
+
+
+1.0
+24 October 2003
+
+
+See also[edit]
+
+
+Free software portal
+
+
+
+AMD Optimizing C/C++ Compiler
+C--
+Amsterdam Compiler Kit (ACK)
+LLDB (debugger)
+GNU lightning
+GNU Compiler Collection (GCC)
+Pure
+OpenCL
+Emscripten
+TenDRA Distribution Format
+Architecture Neutral Distribution Format (ANDF)
+Comparison of application virtual machines
+SPIR-V
+University of Illinois at Urbana Champaign discoveries & innovations
+
+Literature[edit]
+
+Chris Lattner - The Architecture of Open Source Applications - Chapter 11 LLVM, ISBN 978-1257638017, released 2012 under CC BY 3.0 (Open Access).[33]
+LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, a published paper by Chris Lattner, Vikram Adve
+
+References[edit]
+
+
+^ Wennborg, Hans (8 March 2018). "LLVM 6.0.0 Release". llvm-announce (Mailing list). Retrieved 8 March 2018. 
+^ a b "License", LLVM: Frequently Asked Questions, llvm.org, retrieved 27 January 2012 
+^ "The LLVM Compiler Infrastructure Project". Retrieved 2016-03-11. 
+^ Announcing LLILC - A new LLVM-based Compiler for .NET, retrieved 17 April 2015 
+^ Mono LLVM, retrieved 10 March 2013 
+^ LLVM, Chris Lattner, in The architecture of Open Source Applications, edited by Amy Brown, Greg Wilson, 2011
+^ "The LLVM Compiler Infrastructure Project". llvm.org. Retrieved 2016-05-25. 
+^ "Features". RubyMotion. Scratchwork Development LLC. Retrieved 17 June 2017. RubyMotion transforms the Ruby source code of your project into ... machine code using a[n] ... ahead-of-time (AOT) compiler, based on LLVM. 
+^ Reedy, Geoff (24 September 2012). "Compiling Scala to LLVM". St. Louis, Missouri, United States. Retrieved 19 February 2013. 
+^ Adam Treat (19 February 2005), mkspecs and patches for LLVM compile of Qt4, archived from the original on 4 October 2011, retrieved 27 January 2012 
+^ "Apple LLVM Compiler", Developer Tools, Apple, retrieved 27 January 2012 
+^ Developer Toolchain for ps4 (PDF), retrieved 24 February 2015 
+^ Lattner, Chris (21 December 2011). "The name of LLVM". llvm-dev (Mailing list). Retrieved 2 March 2016. 
+^ ""libc++" C++ Standard Library". 
+^ Chris Lattner (3 April 2014). "The LLVM Foundation". LLVM Project Blog. 
+^ "ACM Software System Award". ACM. 
+^ "LLVM Language Reference Manual". Retrieved 16 April 2012. 
+^ Chris Lattner (15 August 2006). "A cool use of LLVM at Apple: the OpenGL stack". llvm-dev (Mailing list). Retrieved 1 March 2016. 
+^ Michael Larabel, "GNOME Shell Works Without GPU Driver Support", phoronix, 6 November 2011
+^ V. Makarov. "SPEC2000: Comparison of LLVM-2.9 and GCC4.6.1 on x86". Retrieved 3 October 2011. 
+^ V. Makarov. "SPEC2000: Comparison of LLVM-2.9 and GCC4.6.1 on x86_64". Retrieved 3 October 2011. 
+^ Michael Larabel (27 December 2012). "LLVM/Clang 3.2 Compiler Competing With GCC". Retrieved 31 March 2013. 
+^ Lattner, Chris; Vikram Adve (May 2003). Architecture For a Next-Generation GCC. First Annual GCC Developers' Summit. Retrieved 6 September 2009. 
+^ "Clang 3.8 Release Notes". Retrieved 24 August 2016. 
+^ "Compiling Haskell To LLVM". Retrieved 22 February 2009. 
+^ "LLVM Project Blog: The Glasgow Haskell Compiler and LLVM". Retrieved 13 August 2010. 
+^ For the full documentation, refer to llvm.org/docs/LangRef.html.
+^ Stellard, Tom (26 March 2012). "[LLVMdev] RFC: R600, a new backend for AMD GPUs". llvm-dev (Mailing list). 
+^ Target-specific Implementation Notes: Target Feature Matrix // The LLVM Target-Independent Code Generator, LLVM site.
+^ a b "lld - The LLVM Linker". The LLVM Project. Retrieved 10 May 2017. 
+^ ""libc++" C++ Standard Library". 
+^ "Download LLVM releases". llvm.org. Retrieved 2017-11-23. 
+^ Chris Lattner (March 15, 2012). "Chapter 11". The Architecture of Open Source Applications. Amy Brown, Greg Wilson. ISBN 978-1257638017. 
+
+
+External links[edit]
+
+Official website
+LLVM Language Reference Manual, describes the LLVM intermediate representation
+LLVM - 2.0 and beyond! on YouTube
+Discussion of LLVM by John Siracusa at Ars Technica
+The Design of LLVM by Chris Lattner, Dr. Dobb's Journal, May 2012
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Free and open-source software
+
+
+
+General
+
+
+
+Alternative terms for free software
+Comparison of open-source and closed-source software
+Comparison of source code hosting facilities
+Free software
+Free software project directories
+Gratis versus libre
+Long-term support
+Open-source software
+Open-source software development
+Outline
+
+
+
+
+
+Software
+packages
+
+
+
+Audio
+Bioinformatics
+Codecs
+Collaboration
+Configuration management
+Device drivers
+
+Graphics
+Wireless
+
+
+Geophysics
+Health
+Mathematics
+Operating systems
+Programming languages
+Routing
+Statistics
+Television
+Video games
+Web applications
+
+Content management systems
+E-commerce
+
+
+Word processors
+Android apps
+iOS apps
+Commercial
+Trademarked
+Formerly proprietary
+
+
+
+
+
+Community
+
+
+
+Free software movement
+History
+Open-source software movement
+Organizations
+Events
+
+
+
+
+
+Licenses
+
+
+
+AFL
+Apache
+APSL
+Artistic
+Beerware
+Boost
+BSD
+CC0
+CDDL
+EPL
+Free Software Foundation
+
+GNU GPL
+GNU LGPL
+
+
+ISC
+MIT
+MPL
+Ms-PL/RL
+Python
+Python Software Foundation License
+Sleepycat
+Unlicense
+WTFPL
+zlib
+
+
+
+
+
+License types
+and standards
+
+
+
+Comparison of free and open-source software licenses
+Contributor License Agreement
+Copyleft
+Debian Free Software Guidelines
+Definition of Free Cultural Works
+Free license
+The Free Software Definition
+The Open Source Definition
+Open-source license
+Permissive software licence
+Public domain
+Viral license
+
+
+
+
+
+Challenges
+
+
+
+Binary blob
+Digital rights management
+Hardware restrictions
+License proliferation
+Mozilla software rebranding
+Proprietary software
+SCO/Linux controversies
+Secure boot
+Software patents
+Software security
+Trusted Computing
+
+
+
+
+
+Related topics
+
+
+
+The Cathedral and the Bazaar
+Forking
+Microsoft Open Specification Promise
+Open-source hardware
+Revolution OS
+
+
+
+
+
+
+
+
+ Book
+ Category
+ Commons
+ Portal
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=LLVM&oldid=832526271"					
+				Categories: CompilersFree compilers and interpretersRegister-based virtual machinesSoftware using the NCSA licenseHidden categories: Pages using deprecated image syntaxAll articles with unsourced statementsArticles with unsourced statements from June 2012Articles containing potentially dated statements from May 2017All articles containing potentially dated statementsUse dmy dates from March 2016				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia Commons				
+							
+		
+			
+			Languages
+			
+								
+					CatalàČeštinaDanskDeutschEspañolEsperantoفارسیFrançais한국어ՀայերենItalianoMagyar日本語NorskਪੰਜਾਬੀPolskiPortuguêsРусскийSlovenčinaСрпски / srpskiSuomiSvenskaУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 26 March 2018, at 15:00.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.476","walltime":"0.605","ppvisitednodes":{"value":3024,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":80728,"limit":2097152},"templateargumentsize":{"value":3275,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":30691,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  525.553      1 -total"," 39.69%  208.597      1 Template:Reflist"," 29.22%  153.557      2 Template:Infobox"," 26.22%  137.818      1 Template:Infobox_software"," 12.94%   68.000     16 Template:Cite_web","  9.75%   51.245      4 Template:Cite_mailing_list","  8.08%   42.449      1 Template:Citation_needed","  7.06%   37.113      1 Template:Fix","  5.74%   30.190      1 Template:Infobox_software/simple","  5.35%   28.113      6 Template:Citation"]},"scribunto":{"limitreport-timeusage":{"value":"0.219","limit":"10.000"},"limitreport-memusage":{"value":7759410,"limit":52428800}},"cachereport":{"origin":"mw1329","timestamp":"20180331102058","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":108,"wgHostname":"mw1238"});});
+	
+

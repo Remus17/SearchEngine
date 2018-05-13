@@ -1,0 +1,323 @@
+
+
+
+
+There's more than one way to do it - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"There's_more_than_one_way_to_do_it","wgTitle":"There's more than one way to do it","wgCurRevisionId":779739104,"wgRevisionId":779739104,"wgArticleId":6780462,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software development philosophies","Perl"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"There's_more_than_one_way_to_do_it","wgRelevantArticleId":6780462,"wgRequestId":"WsEDOwpAAD8AAEqrLuAAAABF","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"There_is_more_than_one_way_to_do_it","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/There%27s_more_than_one_way_to_do_it","wgWikibaseItemId":"Q2043867","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+There's more than one way to do it			
+				From Wikipedia, the free encyclopedia				  (Redirected from There is more than one way to do it)
+								
+					Jump to:					navigation, 					search
+				
+				There's more than one way to do it (TMTOWTDI or TIMTOWTDI, pronounced Tim Toady) is a Perl programming motto. The language was designed with this idea in mind, in that it “doesn't try to tell the programmer how to program.” As proponents of this motto argue, this philosophy makes it easy to write concise statements like
+
+
+print if 1..3 or /match/
+
+or the more traditional
+
+
+if (1..3 or /match/) { print }
+
+or even the more verbose:
+
+
+use English;
+if ($INPUT_LINE_NUMBER >= 1 and $INPUT_LINE_NUMBER <= 3 or $ARG =~ m/match/) {
+    print $ARG;
+}
+
+This motto has been very much discussed in the Perl community, and eventually extended to There’s more than one way to do it, but sometimes consistency is not a bad thing either (TIMTOWTDIBSCINABTE, pronounced Tim Toady Bicarbonate).[1]
+In contrast, part of the Zen of Python is, "There should be one — and preferably only one — obvious way to do it."[2]
+See also[edit]
+
+Extensible programming
+Don't repeat yourself
+You aren't gonna need it
+
+References[edit]
+
+
+
+^ "Can EPO (or TPF) tame TIMTOWTDI?". dev411.com. 2009-01-24. 
+^ https://www.python.org/dev/peps/pep-0020/
+
+
+
+External links[edit]
+
+Perl, the first postmodern computer language by Larry Wall
+There Is More Than One Way To Do It on the WikiWikiWeb
+Perl 6, the little sister of Perl 5 released on Christmas Day, 2015, by Larry Wall and the Perl 6 community.
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Perl
+
+
+
+People
+
+
+
+Larry Wall
+Randal L. Schwartz
+Damian Conway
+Allison Randal
+Audrey Tang
+Sean M. Burke
+chromatic
+Adam Kennedy
+brian d foy
+Jesse Vincent
+
+
+
+
+
+Things
+
+
+
+CPAN
+Perl Foundation
+
+Perl Mongers
+PerlMonks
+archives
+
+
+module
+Perl VM
+Parrot
+YAPC
+
+
+
+
+
+Frameworks
+
+
+
+Bioperl
+Catalyst
+Dancer
+DBI
+DBIx::Class
+LWP
+Mason
+Maypole
+Mojolicious
+Moose
+Plack
+PSGI
+Template Toolkit
+
+
+
+
+
+Software
+
+
+
+Amavis
+Argus
+@SSP
+AWStats
+BackupPC
+Bricolage
+Bugzilla
+Dada Mail
+ikiwiki
+Makepp
+Movable Type
+Munin
+OTRS
+SpamAssassin
+TWiki/Foswiki
+W3Perl
+Webmin
+
+
+
+
+
+
+
+
+Outline
+Category
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=There%27s_more_than_one_way_to_do_it&oldid=779739104"					
+				Categories: Software development philosophiesPerl				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					CatalàEspañol한국어Русский中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 10 May 2017, at 18:17.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.060","walltime":"0.084","ppvisitednodes":{"value":187,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":11460,"limit":2097152},"templateargumentsize":{"value":102,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":2796,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   63.233      1 -total"," 79.60%   50.334      1 Template:Reflist"," 66.13%   41.813      1 Template:Cite_web"," 20.21%   12.780      1 Template:Perl"," 16.15%   10.212      1 Template:Navbox","  2.65%    1.676      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.024","limit":"10.000"},"limitreport-memusage":{"value":1501845,"limit":52428800}},"cachereport":{"origin":"mw1262","timestamp":"20180311152650","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":83,"wgHostname":"mw1268"});});
+	
+

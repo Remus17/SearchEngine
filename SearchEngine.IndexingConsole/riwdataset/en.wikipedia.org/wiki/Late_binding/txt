@@ -1,0 +1,317 @@
+
+
+
+
+Late binding - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Late_binding","wgTitle":"Late binding","wgCurRevisionId":817324561,"wgRevisionId":817324561,"wgArticleId":916502,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from January 2011","All articles needing additional references","Articles needing expert attention with no reason or talk parameter","Articles needing unspecified expert attention","Articles needing expert attention from January 2011","All articles needing expert attention","Articles with multiple maintenance issues","Method (computer programming)","Programming language concepts"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Late_binding","wgRelevantArticleId":916502,"wgRequestId":"Wr@NsApAIEIAAIXsjtkAAABP","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q6495369","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Late binding			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				This article is about associating a name with an operation. For the selection of an implementation of a polymorphic operation, see Dynamic dispatch.
+
+
+
+
+
+
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (January 2011) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+
+
+This article needs attention from an expert on the subject. Please add a reason or a talk parameter to this template to explain the issue with the article.
+When placing this tag, consider associating this request with a WikiProject. (January 2011)
+
+
+
+
+
+(Learn how and when to remove this template message)
+
+
+
+Late binding, or dynamic binding,[1] is a computer programming mechanism in which the method being called upon an object or the function being called with arguments is looked up by name at runtime.
+With early binding, or static binding, in an object-oriented language, the compilation phase fixes all types of variables and expressions. This is usually stored in the compiled program as an offset in a virtual method table ("v-table") and is very efficient. With late binding the compiler does not read enough information to verify the method exists or bind its slot on the v-table. Instead the method is looked up by name at runtime.
+The primary advantage of using late binding in Component Object Model (COM) programming is that it does not require the compiler to reference the libraries that contain the object at compile time. This makes the compilation process more resistant to version conflicts, in which the class's v-table may be accidentally modified. (This is not a concern in JIT-compiled platforms such as .NET or Java, because the v-table is created at runtime by the virtual machine against the libraries as they are being loaded into the running application.[2])
+
+
+
+Contents
+
+
+1 History
+2 Late binding implementations
+
+2.1 Late binding in dynamically-typed object-oriented languages
+2.2 Late binding in Lisp
+2.3 Late binding in C++
+2.4 Late binding in COM languages
+2.5 Late binding in .NET
+2.6 Late binding in Java
+2.7 Early vs. late binding in PL/SQL and Ada
+
+
+3 Criticism
+4 See also
+5 References
+
+
+
+History[edit]
+The term "late binding" dates back to at least the 1960s, where it can be found in Communications of the ACM. The term was widely used to describe calling conventions in languages like Lisp, though usually with negative connotations about performance.[3]
+In the 1980s Smalltalk popularized object-oriented programming (OOP) and with it late binding. Alan Kay once said, "OOP to me means only messaging, local retention, and protection and hiding of state-process, and extreme late-binding of all things. It can be done in Smalltalk and in LISP. There are possibly other systems in which this is possible, but I'm not aware of them."[4]
+In the early to mid-1990s, Microsoft heavily promoted its COM standard as a binary interface between different OOP programming languages. COM programming equally promoted early and late binding, with many languages supporting both at the syntax level.
+In 2000, Alex Martelli coined the term "duck typing" to refer to a similar concept, but with a different emphasis. While late binding generally focuses on implementation details, duck typing focuses on the ability to ignore types and concentrate on the methods an object currently has.
+Late binding implementations[edit]
+Late binding in dynamically-typed object-oriented languages[edit]
+In most dynamically-typed languages, the list of methods on an object can be altered at runtime. This requires late binding.
+Late binding in Lisp[edit]
+In Lisp. late bound global function calls are efficiently looked up at runtime via a symbol's function cell. These function bindings are mutable.
+Example using an interactive Clozure Common Lisp session:
+
+
+? (defun foo ()
+    (bar pi))   ; a still undefined function BAR gets called
+;Compiler warnings :
+;   In FOO: Undefined function BAR
+FOO
+
+? (defun bar (x)   ; now we define it
+    (* x 2))
+BAR
+
+? (foo)    ; calling foo and it uses the recent definition of BAR
+6.283185307179586D0
+
+? (defun bar (x)   ; now we redefine BAR
+    (* x 1000))
+BAR
+
+? (foo)    ;  FOO now calls the new function, there is no need to recompile/link/load FOO
+3141.592653589793D0
+
+? (type-of 'bar)   ;  BAR is a symbol
+SYMBOL
+
+? (symbol-function 'bar)  ; the symbol BAR has a function binding
+#<Compiled-function BAR #x302000D1B21F>
+
+Late binding in C++[edit]
+In C++, late binding (also called "dynamic binding") normally happens when the virtual keyword is used in a method's declaration. C++ then creates a so-called virtual table, which is a look-up table for such functions that will always be consulted when they are called.[5] Usually, the "late binding" term is used in favor of "dynamic dispatch".
+Late binding in COM languages[edit]
+In COM programming a late-bound method call is performed using the IDispatch interface. Some COM-based languages such as Visual Basic 6 have syntactical support for calling this interface.[6] This is done by defining the variable's type as Object. Others such as C++ require that you explicitly call GetIDsOfNames to look up a method and Invoke to call it.
+Late binding in .NET[edit]
+Like COM and Java, the Common Language Runtime provides reflection APIs that make late binding calls possible. The use of these calls varies by language (C# and Visual Basic).
+Prior to version 4, C# only allowed late binding via the appropriate reflection API. A different API would be needed for each of .NET, COM, and DLR objects. With C# 4, the language gained the "dynamic" pseudo-type. This would be used in place of the Object type to indicate that late binding is desired. The specific late binding mechanism needed is determined at runtime using the Dynamic Language Runtime as a starting point.
+Visual Basic uses them whenever the variable is of type Object and the compiler directive "Option Strict Off" is in force. This is the default setting for a new VB project. Prior to version 9, only .NET and COM objects could be late bound. With VB 10, this has been extended to DLR-based objects.
+Late binding in Java[edit]
+There are three definitions for late binding in Java.
+Early documents on Java discussed how classes were not linked together at compile time. While types are statically checked at compile time, different implementations for classes could be swapped out just prior to runtime simply by overwriting the class file. As long as the new class definition had the same class and method names, the code would still work. In this sense it is similar to the traditional definition of late binding.
+Currently, it is popular to use the term late binding in Java programming as a synonym for dynamic dispatch. Specifically, this refers to Java's single dispatch mechanism used with virtual methods.
+Finally, Java can use late binding using its reflection APIs and type introspection much in the same way it is done in COM and .NET programming. Generally speaking those who only program in Java do not call this late binding. Likewise the use of "duck typing" techniques is frowned upon in Java programming, with abstract interfaces used instead.
+It should be noted that Oracle, the current owner of Java, has been known to use the term late binding in the "duck typing" sense when discussing both Java and other languages in the same documentation.[7]
+Early vs. late binding in PL/SQL and Ada[edit]
+When using early binding between Ada and a database-stored procedure, a timestamp is checked to verify that the stored procedure has not changed since the code was compiled. This allows for faster executions and prevents the application from running against the wrong version of a stored procedure.[8]
+When using late binding the timestamp check is not performed, and the stored procedure is executed via an anonymous PL/SQL block. While this can be slower, it removes the need to recompile all of the client applications when a stored procedure changes.
+This distinction appears to be unique to PL/SQL and Ada. Other languages that can call PL/SQL procedures, as well as other database engines, only use late binding.
+Criticism[edit]
+Late binding has poorer performance than an early bound method call. Under most implementations the correct method address must be looked up by name with each call, requiring relatively expensive dictionary search and possibly overload resolution logic.
+Late binding necessarily prevents the use of static type checking. When making a late bound call, the compiler has to assume that the method exists. This means a simple spelling error can cause a runtime error to be thrown. The exact exception varies by language, but it is usually named something like "Method Not Found" or "Method Missing".
+Late binding prevents many forms of static analysis needed by an integrated development environment (IDE). For example, an IDE's "go to definition" feature cannot be used on a late-bound call, because the IDE has no way to know which class the call may refer to. Another problem is that the lack of typing information prevents the creation of dependency graphs. However, other programming methods such as abstract interfaces can result in the same problems.
+See also[edit]
+
+
+Computer programming portal
+
+
+
+Late linking
+Dynamic linking
+Dynamic dispatch
+Name binding
+
+References[edit]
+
+
+^ Booch, Grady. Object-oriented Analysis and Design. Addison-Wesley, 1994. p71
+^ "The Structure of the Java Virtual Machine: Dynamic Linking". Sun Microsystems. 1999. sec. 3.6.3. Retrieved 2013-09-21. 
+^ Software engineering techniques, J. N. Buxton, Brian Randell, NATO Science Committee, NATO Science Committee, 1970
+^ "Dr. Alan Kay on the Meaning of "Object-Oriented Programming"". Purl.org. Retrieved 2013-08-16. 
+^ "12.5 — The virtual table « Learn C". Learncpp.com. 2008-02-08. Retrieved 2013-08-16. 
+^ "Using early binding and late binding in Automation". Support.microsoft.com. Retrieved 2011-01-15. 
+^ "Calling into WebLogic Server from a COM Client Application". Download.oracle.com. Retrieved 2013-08-16. 
+^ "Early and Late Binding, Oracle SQL *Module for Ada Programmer's Guide". Download.oracle.com. Retrieved 2011-01-15. 
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Late_binding&oldid=817324561"					
+				Categories: Method (computer programming)Programming language conceptsHidden categories: Articles needing additional references from January 2011All articles needing additional referencesArticles needing expert attention with no reason or talk parameterArticles needing unspecified expert attentionArticles needing expert attention from January 2011All articles needing expert attentionArticles with multiple maintenance issues				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					日本語				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 27 December 2017, at 17:21.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.140","walltime":"0.200","ppvisitednodes":{"value":629,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":31449,"limit":2097152},"templateargumentsize":{"value":5784,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":8969,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  169.987      1 -total"," 38.43%   65.329      1 Template:Reflist"," 38.18%   64.896      3 Template:Ambox"," 32.43%   55.127      1 Template:Multiple_issues"," 30.29%   51.483      6 Template:Cite_web"," 21.20%   36.035      1 Template:About"," 10.09%   17.157      1 Template:Refimprove","  8.54%   14.511      1 Template:Expert-subject","  4.85%    8.244      1 Template:Portal","  3.23%    5.497      1 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.071","limit":"10.000"},"limitreport-memusage":{"value":3378032,"limit":52428800}},"cachereport":{"origin":"mw1241","timestamp":"20180331103141","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":68,"wgHostname":"mw1329"});});
+	
+

@@ -1,0 +1,341 @@
+
+
+
+
+Python Software Foundation - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_Software_Foundation","wgTitle":"Python Software Foundation","wgCurRevisionId":832815745,"wgRevisionId":832815745,"wgArticleId":696712,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All stub articles","501(c)(3) nonprofit organizations","Free software project foundations","Python (programming language)","Organization stubs"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_Software_Foundation","wgRelevantArticleId":696712,"wgRequestId":"WsBddQpAICgAACbwxPIAAAAN","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q83818","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Python Software Foundation			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+Python Software Foundation
+
+
+
+
+Abbreviation
+PSF
+
+
+Formation
+March 6, 2001
+
+
+Type
+501(c)(3) nonprofit organization
+
+
+Purpose
+Promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers[1]
+
+
+Headquarters
+Delaware, United States
+
+
+
+Region served
+
+Worldwide
+
+
+
+Official language
+
+English
+
+
+
+President
+
+Guido van Rossum
+
+
+
+Chairman
+
+Naomi Ceder
+
+
+
+Revenue (2015)
+
+$2.9 million[2]
+
+
+Website
+www.python.org/psf/
+
+
+The Python Software Foundation (PSF) is a nonprofit organization devoted to the Python programming language,[3] launched on March 6, 2001. The mission of the foundation is to foster development of the Python community and is responsible for various processes within the Python community, including developing the core Python distribution, managing intellectual rights, developer conferences including PyCon, and raising funds.
+In 2005, the Python Software Foundation received the Computerworld Horizon Award for "cutting-edge" technology.[4][5]
+Code of Conduct[edit]
+Since late 2012, the Python Software Foundation started recommending that all Python conferences create and apply a Code of Conduct. This is mandatory to any event to be granted funds by the PSF.[6]
+Notes[edit]
+
+
+
+^ "Mission". Python Software Foundation. Retrieved 28 March 2018. 
+^ "GuideStar report for Python Software Foundation". GuideStar. GuideStar. Retrieved 28 March 2018. 
+^ Deibel, Stephan (March 2008). "Executive Summary: The Python Software Foundation". Retrieved 2016-10-05. 
+^ "Python Software Foundation Wins Computerworld Horizon Award for Popular Python Programming Lanaguage" (Press release). 2005-09-15. Archived from the original on 2015-05-01. Retrieved 2016-10-05. 
+^ "Computerworld Horizon Awards 2005 Honorees". Computerworld. 2005-09-12. Retrieved 2016-10-05. 
+^ Endsley, Rikki. "7 open source projects to cut your teeth on (and the ones to avoid)". IT World. Retrieved 17 June 2017. 
+
+
+
+External links[edit]
+
+Python Software Foundation
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Python
+
+
+
+Implementations
+
+
+
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+
+
+
+
+
+
+
+
+IDE
+
+
+
+Boa
+Eric Python IDE
+IDLE
+PyDev
+SPE
+Ninja-IDE
+more...
+
+
+
+
+
+Topics
+
+
+
+WSGI
+
+
+
+
+
+
+
+
+software (list)
+Python Software Foundation
+PyCon
+
+
+
+
+
+
+
+
+
+This organization-related article is a stub. You can help Wikipedia by expanding it.
+
+
+v
+t
+e
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Python_Software_Foundation&oldid=832815745"					
+				Categories: 501(c)(3) nonprofit organizationsFree software project foundationsPython (programming language)Organization stubsHidden categories: All stub articles				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةবাংলাCatalàDeutschEspañolFrançaisBahasa MelayuNederlands日本語PolskiPortuguêsРусскийతెలుగుไทยTürkçeУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 28 March 2018, at 04:18.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.192","walltime":"0.237","ppvisitednodes":{"value":1197,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":27659,"limit":2097152},"templateargumentsize":{"value":981,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":6440,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  211.028      1 -total"," 49.48%  104.416      1 Template:Infobox_organization"," 40.93%   86.377      1 Template:Infobox"," 37.85%   79.871      1 Template:Reflist"," 28.89%   60.959      5 Template:Cite_web","  6.30%   13.304      2 Template:Unbulleted_list","  6.07%   12.815      4 Template:If_empty","  5.91%   12.468      1 Template:Python_(programming_language)","  5.70%   12.019      1 Template:Org-stub","  4.96%   10.468      1 Template:Asbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.092","limit":"10.000"},"limitreport-memusage":{"value":3338105,"limit":52428800}},"cachereport":{"origin":"mw1286","timestamp":"20180328041759","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":80,"wgHostname":"mw1319"});});
+	
+

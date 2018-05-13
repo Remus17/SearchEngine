@@ -1,0 +1,1208 @@
+
+
+
+
+SageMath - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"SageMath","wgTitle":"SageMath","wgCurRevisionId":833457824,"wgRevisionId":833457824,"wgArticleId":4012438,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using deprecated image syntax","All articles with dead external links","Articles with dead external links from March 2018","Articles with permanently dead external links","Articles with example Python code","Computer algebra system software for Linux","Computer algebra system software for MacOS","Computer algebra system software for Windows","Free and open-source Android software","Free computer algebra systems","Free educational software","Free mathematics software","Free software programmed in Python","Mathematical software","Python scientific libraries"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"SageMath","wgRelevantArticleId":4012438,"wgRequestId":"Wr-RFwpAADsAABy@cekAAACP","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1165184","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+SageMath			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+SageMath
+
+
+
+
+
+The SageMath notebook document interface in a web browser
+
+
+
+Initial release
+24 February 2005; 13 years ago (2005-02-24)
+
+
+
+
+
+Stable release
+
+8.1 / 7 December 2017; 3 months ago (2017-12-07)
+
+
+
+Preview release
+
+8.2.rc1 / 31 March 2018; 0 days ago (2018-03-31)
+
+
+
+
+
+
+Repository
+
+
+
+https://git.sagemath.org/sage.git/
+
+
+
+
+
+Written in
+Python, Cython
+
+
+Operating system
+Linux, macOS, Microsoft Windows, Solaris, Android, iOS
+
+
+Platform
+
+
+
+Personal computers and web platform
+IA-32, x86-64, ARM, Itanium, SPARC
+
+
+
+
+
+Size
+Approx. 112–3319 MB
+
+
+Type
+Computer algebra system
+
+
+License
+GPLv3[1]
+
+
+Website
+www.sagemath.org
+
+
+SageMath (previously Sage or SAGE, "System for Algebra and Geometry Experimentation"[2]) is a computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus and statistics.
+The first version of SageMath was released on 24 February 2005 as free and open-source software under the terms of the GNU General Public License version 2, with the initial goals of creating an "open source alternative to Magma, Maple, Mathematica, and MATLAB".[3] The originator and leader of the SageMath project, William Stein, is a mathematician at the University of Washington.
+SageMath uses a syntax resembling Python's[4] supporting procedural, functional and object-oriented constructs.
+
+
+
+Contents
+
+
+1 Features
+2 Development
+
+2.1 Release history
+
+
+3 Achievements
+4 Performance
+5 Licensing and availability
+6 Software packages contained in SageMath
+7 Usage examples
+
+7.1 Algebra and calculus
+7.2 Differential equations
+7.3 Linear algebra
+7.4 Number theory
+
+
+8 See also
+9 References
+10 External links
+
+10.1 Related projects
+
+
+
+
+
+Features[edit]
+
+
+
+
+Equation solving and typesetting using the SageMath notebook web interface
+
+
+Features of SageMath include:[5]
+
+A browser-based notebook for review and re-use of previous inputs and outputs, including graphics and text annotations. Compatible with Firefox, Opera, Konqueror, Google Chrome and Safari. Notebooks can be accessed locally or remotely and the connection can be secured with HTTPS.
+A text-based command-line interface using IPython.
+Support for parallel processing using multi-core processors, multiple processors, or distributed computing.
+Calculus using Maxima and SymPy.
+Numerical linear algebra using the GSL, SciPy and NumPy.
+Libraries of elementary and special mathematical functions.
+2D and 3D graphs of symbolic functions and numerical data.
+Matrix manipulation, including sparse arrays.
+Multivariate statistics libraries, using R and SciPy.
+A toolkit for adding user interfaces to calculations and applications[6].
+Graph theory visualization and analysis tools.
+Libraries of number theory functions.
+Support for complex numbers, arbitrary precision and symbolic computation.
+Technical word processing including formula editing and embedding SageMath within LaTeX documents[7].
+The Python standard library, including tools for connecting to SQL, HTTP, HTTPS, NNTP, IMAP, SSH, IRC, FTP and others.
+Interfaces to some third-party applications like Mathematica, Magma, R, and Maple.
+MoinMoin as a Wiki system for knowledge management.
+Documentation using Sphinx.
+An automated test-suite.
+Execution of Fortran, C, C++, and Cython code[8].
+SageMath can pull up Mathematica within a program.[9] Interfacing this way is documented officially to Sage.[10]
+
+Development[edit]
+
+
+
+
+William A. Stein
+
+
+William Stein realized when designing Sage that there were many open-source mathematics software packages already written in different languages, namely C, C++, Common Lisp, Fortran and Python.
+Rather than reinventing the wheel, Sage (which is written mostly in Python and Cython) integrates many specialized mathematics software packages into a common interface, for which a user needs to know only Python. However, Sage contains hundreds of thousands of unique lines of code adding new functions and creating the interface between its components.[11]
+SageMath uses both students and professionals for development. The development of SageMath is supported by both volunteer work and grants.[12] However, it was not until 2016 that the first full-time Sage developer was hired (funded by an EU grant).[13] The same year, Stein described his disappointment with a lack of academic funding and credentials for software development, citing it as the reason for his decision to leave his tenured academic position to work full-time on the project in a newly founded company, SageMath, Inc.[13]
+Release history[edit]
+Only the major releases are listed below. SageMath practices the "release early, release often" concept, with releases every few weeks or months. In total, there have been over 300 releases, although their frequency has decreased.[14]
+
+SageMath versions
+
+Version
+Release Date
+Description
+
+
+0.1
+January 2005
+Included PARI, but not GAP or Singular
+
+
+0.2–0.4
+March to July 2005
+Cremona's database, multivariate polynomials, large finite fields and more documentation
+
+
+0.5–0.7
+August to September 2005
+Vector spaces, rings, modular symbols, and windows usage
+
+
+0.8
+October 2005
+Full distribution of GAP, Singular
+
+
+0.9
+November 2005
+Maxima and clisp added
+
+
+1.0
+February 2006
+
+
+
+2.0
+January 2007
+
+
+
+3.0
+April 2008
+Interacts, R interface
+
+
+4.0
+May 2009
+Solaris 10 support, 64-bit OS X support
+
+
+5.0
+May 2012[15]
+OS X Lion support
+
+
+6.0
+December 2013
+SageMath Development moved to Git[16]
+
+
+7.0
+January 2016
+Massive GUI improvement
+
+
+8.0
+July 2017
+First version with fully working Windows support
+
+
+Achievements[edit]
+
+2007: first prize in the scientific software division of Les Trophées du Libre, an international competition for free software.[17]
+2012: one of the projects selected for the Google Summer of Code.[18]
+2013: ACM/SIGSAM Jenks Prize.[19]
+SageMath has been cited in a variety of publications.[20][21]
+
+Performance[edit]
+Both binaries and source code are available for SageMath from the download page. If SageMath is built from source code, many of the included libraries such as ATLAS, FLINT, and NTL will be tuned and optimized for that computer, taking into account the number of processors, the size of their caches, whether there is hardware support for SSE instructions, etc.
+Cython can increase the speed of SageMath programs, as the Python code is converted into C.[22]
+Licensing and availability[edit]
+SageMath is free software, distributed under the terms of the GNU General Public License version 3.[1] SageMath is available in many ways:
+
+The source code can be downloaded from the downloads page. Although not recommended for end users, development releases of SageMath are also available. Many Linux distributions also include SageMath in their repositories [see below].
+Binaries can be downloaded for Linux, macOS and Solaris (both x86 and SPARC).
+A live CD containing a bootable Linux operating system is also available. This allows usage of SageMath without Linux installation.
+Users could have used an online version of SageMath at sagenb.org[permanent dead link], but it has been discontinued in April 2015.
+Users can use an online "single cell" version of SageMath at sagecell.sagemath.org or embed a single SageMath cell into any web page. Users can also create permalinks to SageMath computations using the cell server.[23]
+A new online SageMath notebook is available at cocalc.com.
+
+Full documentation for installation is provided at doc.sagemath.org/html/en/installation/.
+Although Microsoft was sponsoring a native version of SageMath for the Windows operating system, prior to 2016 there were no plans for a native port, and users of Windows had to use virtualization technology such as VirtualBox to run SageMath.[24] As of SageMath 8.0 (July 2017), with development funded by the OpenDreamKit project[13], it successfully builds on Cygwin, and a binary installer for 64-bit versions of Windows is available.[25]
+Linux distributions in which SageMath is available as a package are Mandriva, Fedora, Arch Linux, Debian and NixOS. It is also available as a dedicated Ubuntu PPA.[26] In Gentoo, it's available via layman in the "sage-on-gentoo"[27] overlay. However, SageMath can be installed to any Linux distribution.
+Gentoo prefix also provides Sage on other operating systems.
+Software packages contained in SageMath[edit]
+The philosophy of SageMath is to use existing open-source libraries wherever they exist. Therefore, it uses many libraries from other projects.
+
+
+Mathematics
+packages
+contained in
+SageMath[28]
+Algebra
+GAP, Singular, FLINT
+
+
+Algebraic geometry
+Singular
+
+
+Arbitrary precision arithmetic
+MPIR, MPFR, MPFI, NTL, mpmath, Arb
+
+
+Arithmetic geometry
+PARI/GP, NTL, mwrank, ECM
+
+
+Calculus
+Maxima, SymPy, GiNaC, Giac, FriCAS
+
+
+Combinatorics
+Symmetrica, Sage-Combinat
+
+
+Linear algebra
+ATLAS, BLAS, LAPACK, NumPy, LinBox, IML, GSL
+
+
+Graph theory
+NetworkX
+
+
+Group theory
+GAP
+
+
+Numerical computation
+GSL, SciPy, NumPy, ATLAS
+
+
+Number theory
+PARI/GP, FLINT, NTL
+
+
+Statistical computing
+R, SciPy
+
+
+Other
+packages
+contained in
+SageMath
+Command-line shell
+IPython
+
+
+Database
+ZODB, SQLite
+
+
+Graphical interface
+SageMath Notebook, jsMath
+
+
+Graphics
+matplotlib, Tachyon, GD, Jmol
+
+
+Interactive programming language
+Python
+
+
+Networking
+Twisted
+
+
+Other
+Mathematics
+package
+available for
+SageMath
+Differential Geometry
+and Tensor Calculus
+Sage Manifolds
+
+
+Usage examples[edit]
+Algebra and calculus[edit]
+
+
+x, a, b, c = var('x, a, b, c')
+# Note that IPython also supports a faster way to do this, by calling 
+# this equivalent expression starting with a comma:
+# ,var x a b c
+
+log(sqrt(a)).simplify_log() # returns 1/2*log(a)
+log(a / b).expand_log() # returns log(a) - log(b)
+sin(a + b).simplify_trig() # returns sin(a)*cos(b) + sin(b)*cos(a)
+cos(a + b).simplify_trig() # returns -sin(a)*sin(b) + cos(a)*cos(b)
+(a + b)^5 # returns (a + b)^5
+expand((a + b) ^ 5) # a^5 + 5*a^4*b + 10*a^3*b^2 + 10*a^2*b^3 + 5*a*b^4 + b^5
+
+limit((x ^ 2 + 1) / (2 + x + 3 * x ^ 2), x=Infinity) # returns 1/3
+limit(sin(x) / x, x=0) # returns 1
+
+diff(acos(x), x) # returns -1/sqrt(-x^2 + 1)
+f = exp(x) * log(x)
+f.diff(x, 3) # returns e^x*log(x) + 3*e^x/x - 3*e^x/x^2 + 2*e^x/x^3
+
+solve(a * x ^ 2 + b * x + c, x) # returns [x == -1/2*(b + sqrt(-4*a*c + b^2))/a, 
+                                # x == -1/2*(b - sqrt(-4*a*c + b^2))/a]
+
+f = x ^ 2 + 432 / x
+solve(f.diff(x) == 0, x) # returns [x == 3*I*sqrt(3) - 3, 
+                         # x == -3*I*sqrt(3) - 3, x == 6]
+
+Differential equations[edit]
+
+
+t = var('t') # define a variable t
+x = function('x')(t) # define x to be a function of that variable
+de = (diff(x, t) + x == 1)
+desolve(de, [x, t]) # returns (c + e^t)*e^(-t)
+
+Linear algebra[edit]
+
+
+A = matrix([[1, 2, 3], [3, 2, 1], [1, 1, 1]])
+y = vector([0, -4, -1])
+A.solve_right(y) # returns (-2, 1, 0)
+A.eigenvalues() # returns [5, 0, -1]
+
+B = matrix([[1, 2, 3], [3, 2, 1], [1, 2, 1]])
+B.inverse() # returns
+   [   0  1/2 -1/2]
+   [-1/4 -1/4    1]
+   [ 1/2    0 -1/2]
+
+# same matrix, but over the ring of doubles (not rationals, as above)
+sage: B = matrix(RDF, [[1, 2, 3], [3, 2, 1], [1, 2, 1]])
+sage: B.inverse()
+
+[-5.55111512313e-17                0.5               -0.5]
+[             -0.25              -0.25                1.0]
+[               0.5                0.0               -0.5]
+
+# Call NumPy for the Moore-Penrose pseudo-inverse, 
+# since SageMath does not support that yet.
+
+import numpy
+C = matrix([[1 , 1], [2 , 2]])
+matrix(numpy.linalg.pinv(C)) # returns
+   [0.1 0.2]
+   [0.1 0.2]
+
+Number theory[edit]
+
+
+prime_pi(1000000) # returns 78498, the number of primes less than one million
+
+E = EllipticCurve('389a') # construct an elliptic curve from its Cremona label
+P, Q = E.gens()
+7 * P + Q # returns (24187731458439253/244328192262001 : 
+          # 3778434777075334029261244/3819094217575529893001 : 1)
+
+
+
+sage: E2 = EllipticCurve(CC, [0,0,-2,1,1])
+sage: E2
+Elliptic Curve defined by y^2 + (-2.00000000000000)*y = 
+         x^3 + 1.00000000000000*x + 1.00000000000000 over 
+         Complex Field with 53 bits of precision
+sage: E2.j_invariant()
+61.7142857142857
+
+See also[edit]
+
+
+Free software portal
+Mathematics portal
+
+
+
+List of computer algebra systems
+Comparison of numerical analysis software
+Comparison of statistical packages
+
+References[edit]
+
+
+^ a b "COPYING.txt – sage.git". The Sage Repository. Retrieved 4 April 2017. 
+^ Stein, William. "SAGE: A Computer System for Algebra and Geometry Experimentation". Retrieved 30 March 2012. 
+^ Stein, William (12 June 2007). "Sage Days 4" (PDF). Archived from the original (PDF) on 27 June 2007. Retrieved 2 August 2007. 
+^ Anastassiou, George A.; Mezei, Razvan A. (2015). Numerical Analysis Using Sage. New York: Springer. pp. x1 and 1. ISBN 9783319167381. 
+^ "Sage Documentation". SageMath Help. Retrieved 6 January 2017. 
+^ "Sage Interactions". SageWiki. 9 October 2016. Retrieved 6 January 2017. 
+^ "Using SageTeX". Sage Online Documentation. Retrieved 6 January 2016. 
+^ "Using Compiled Code Interactively". Sage Online Documentation. Retrieved 6 January 2017. 
+^ "Using Mathematica within Sagemath | LSUMath". www.math.lsu.edu. Retrieved 8 January 2017. 
+^ "Interface to Mathematica — Sage Reference Manual v7.4: Interpreter Interfaces". doc.sagemath.org. Retrieved 8 January 2017. 
+^ "Sage Days 7: Combinatorics". SageWiki. 14 November 2008. Retrieved 9 December 2013. 
+^ "Sage – Acknowledgement to Supporters". Retrieved 6 January 2017. 
+^ a b c William Stein: The origins of SageMath – creating a viable open source alternative to Magma, Maple, Mathematica, and Matlab (presentation, 11 June 2016)
+^ "Source Code for Old Versions". 18 December 2015. Retrieved 6 January 2017. 
+^ "sage-5.0.txt". Retrieved 6 January 2017. 
+^ "Installing and using SageMath just got even easier". 18 December 2013. Retrieved 6 January 2017. 
+^ "Free Software Brings Affordability, Transparency To Mathematics". Science Daily. 7 December 2007. Retrieved 6 January 2017. 
+^ "Sage Mathematical Software System". Google Summer of Code / Code-in Archive. Retrieved 6 January 2017. 
+^ "Richard Dimick Jenks Memorial Prize 2013 Award". Association for Computing Machinery – SIGSAM. Retrieved 6 January 2017. 
+^ "Publications Citing Sage". Retrieved 6 January 2017. 
+^ "Publications Citing Sage-Combinat". Retrieved 6 January 2017. 
+^ Stein, William (3 November 2010). "Cython, Sage, and the Need for Speed". Retrieved 6 January 2017. 
+^ "About SageMathCell". sagecell.sagemath.org. Retrieved 6 January 2017. 
+^ Stein, William (16 March 2012). "Re: Question about Sage". Retrieved 6 January 2017. 
+^ Lelievre, Samuel (18 August 2017). "SageMath 8.0 installer for Windows". Retrieved 28 August 2017. 
+^ ""AIMS" team: Sage". launchpad.net/~aims. African Institute for Mathematical Sciences. Retrieved 6 January 2017. 
+^ "sage-on-gentoo Wiki". Retrieved 6 January 2017. 
+^ "Standard Packages". doc.sagemath.org. Retrieved 6 January 2017. 
+
+
+External links[edit]
+
+
+
+Wikibooks has a book on the topic of: Sage
+
+
+
+
+
+Wikimedia Commons has media related to Sage (mathematics software).
+
+
+
+Official website
+Official SageMath documentation, reference, and tutorials
+SageMath introduction videos
+SageMath Cloud – Use SageMath online
+AMS Notices Opinion – Open Source Mathematical Software
+W. Stein's blog post on history of Sage
+Sage on GitHub (main)
+Sage Math on Google Play
+Sage Android package at the F-Droid repository
+
+Related projects[edit]
+
+cloud.sagemath.com computational mathematics in the cloud
+LMFDB database of L-functions, modular forms, and related objects
+FindStat database of combinatorial statistics
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Computer algebra systems
+
+
+
+Open-source
+
+
+
+Axiom
+CoCoA
+Erable
+FriCAS
+FORM
+GAP
+GiNaC
+Macaulay
+Macaulay2
+Maxima
+Normaliz
+PARI/GP
+Reduce
+SageMath
+Singular
+SymPy
+Xcas/Giac
+Yacas
+
+
+
+
+
+Proprietary
+
+
+
+ClassPad Manager
+Fermat
+KANT
+Magma
+Maple
+Mathcad
+Mathematica
+muPAD (MATLAB symbolic math toolbox)
+SMath Studio
+TI InterActive!
+
+
+
+
+
+Discontinued
+
+
+
+CAMAL
+Derive
+LiveMath
+Macsyma
+Mathomatic
+muMATH
+
+
+
+
+
+
+
+
+Category
+Comparison
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Numerical analysis software
+
+
+
+Free
+
+
+
+Advanced Simulation Library
+ADMB
+Chapel
+Euler
+FeatFlow
+FEATool
+Fortress
+FreeFem++
+FreeMat
+Genius
+Gmsh
+GNU Octave
+gretl
+Julia
+Maxima
+OpenFOAM
+R
+SageMath
+Salome
+ScicosLab
+Scilab
+X10
+Weka
+
+
+
+
+
+Proprietary
+
+
+
+DADiSP
+GAUSS
+LabVIEW
+Maple
+Mathcad
+Mathematica
+MATLAB
+Speakeasy
+VisSim
+
+
+
+
+
+
+
+
+List of numerical analysis software
+Comparison of numerical analysis software
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Statistical software
+
+
+
+Public domain
+
+
+
+Dataplot
+Epi Info
+CSPro
+X-12-ARIMA
+
+
+
+
+
+Open-source
+
+
+
+ADMB
+DAP
+gretl
+JASP
+JAGS
+JMulTi
+Julia
+GNU Octave
+H2O
+OpenBUGS
+Orange
+PSPP
+R (RStudio)
+SageMath
+SimFiT
+SOFA Statistics
+Stan
+XLispStat
+
+
+
+
+
+Freeware
+
+
+
+BV4.1
+CumFreq
+SegReg
+XploRe
+WinBUGS
+
+
+
+
+
+Commercial
+
+
+
+
+Cross-platform
+
+
+
+Data Desk
+GAUSS
+GraphPad InStat
+GraphPad Prism
+IBM SPSS Statistics
+IBM SPSS Modeler
+JMP
+Maple
+Mathcad
+Mathematica
+MATLAB
+OxMetrics
+RATS
+Revolution Analytics
+SAS
+SmartPLS
+Stata
+StatView
+SUDAAN
+S-PLUS
+TSP
+World Programming System (WPS)
+
+
+
+
+
+Windows only
+
+
+
+BMDP
+EViews
+GenStat
+LIMDEP
+LISREL
+MedCalc
+Microfit
+Minitab
+MLwiN
+NCSS
+SHAZAM
+SigmaStat
+Statistica
+StatsDirect
+StatXact
+SYSTAT
+The Unscrambler
+UNISTAT
+
+
+
+
+
+Excel add-ons
+
+
+
+Analyse-it
+SPC XL
+SigmaXL
+UNISTAT for Excel
+XLfit
+RExcel
+
+
+
+
+
+
+
+
+
+
+
+Category
+Comparison
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Free and open-source software
+
+
+
+General
+
+
+
+Alternative terms for free software
+Comparison of open-source and closed-source software
+Comparison of source code hosting facilities
+Free software
+Free software project directories
+Gratis versus libre
+Long-term support
+Open-source software
+Open-source software development
+Outline
+
+
+
+
+
+Software
+packages
+
+
+
+Audio
+Bioinformatics
+Codecs
+Collaboration
+Configuration management
+Device drivers
+
+Graphics
+Wireless
+
+
+Geophysics
+Health
+Mathematics
+Operating systems
+Programming languages
+Routing
+Statistics
+Television
+Video games
+Web applications
+
+Content management systems
+E-commerce
+
+
+Word processors
+Android apps
+iOS apps
+Commercial
+Trademarked
+Formerly proprietary
+
+
+
+
+
+Community
+
+
+
+Free software movement
+History
+Open-source software movement
+Organizations
+Events
+
+
+
+
+
+Licenses
+
+
+
+AFL
+Apache
+APSL
+Artistic
+Beerware
+Boost
+BSD
+CC0
+CDDL
+EPL
+Free Software Foundation
+
+GNU GPL
+GNU LGPL
+
+
+ISC
+MIT
+MPL
+Ms-PL/RL
+Python
+Python Software Foundation License
+Sleepycat
+Unlicense
+WTFPL
+zlib
+
+
+
+
+
+License types
+and standards
+
+
+
+Comparison of free and open-source software licenses
+Contributor License Agreement
+Copyleft
+Debian Free Software Guidelines
+Definition of Free Cultural Works
+Free license
+The Free Software Definition
+The Open Source Definition
+Open-source license
+Permissive software licence
+Public domain
+Viral license
+
+
+
+
+
+Challenges
+
+
+
+Binary blob
+Digital rights management
+Hardware restrictions
+License proliferation
+Mozilla software rebranding
+Proprietary software
+SCO/Linux controversies
+Secure boot
+Software patents
+Software security
+Trusted Computing
+
+
+
+
+
+Related topics
+
+
+
+The Cathedral and the Bazaar
+Forking
+Microsoft Open Specification Promise
+Open-source hardware
+Revolution OS
+
+
+
+
+
+
+
+
+ Book
+ Category
+ Commons
+ Portal
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=SageMath&oldid=833457824"					
+				Categories: Computer algebra system software for LinuxComputer algebra system software for MacOSComputer algebra system software for WindowsFree and open-source Android softwareFree computer algebra systemsFree educational softwareFree mathematics softwareFree software programmed in PythonMathematical softwarePython scientific librariesHidden categories: Pages using deprecated image syntaxAll articles with dead external linksArticles with dead external links from March 2018Articles with permanently dead external linksArticles with example Python code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia Commons				
+							
+		
+			
+			Languages
+			
+								
+					CatalàČeštinaDeutschΕλληνικάEspañolFrançaisहिन्दीBahasa IndonesiaItalianoNederlands日本語PolskiPortuguêsRomânăРусскийСрпски / srpskiSuomi中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 31 March 2018, at 17:47.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.480","walltime":"0.607","ppvisitednodes":{"value":3175,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":117490,"limit":2097152},"templateargumentsize":{"value":4260,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":39869,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  486.884      1 -total"," 36.79%  179.138      1 Template:Reflist"," 35.63%  173.497      2 Template:Infobox"," 32.49%  158.172      1 Template:Infobox_software"," 28.39%  138.239     26 Template:Cite_web","  8.59%   41.811      5 Template:Navbox","  6.25%   30.445      1 Template:Infobox_software/simple","  5.76%   28.042      3 Template:Start_date_and_age","  5.69%   27.688      1 Template:Dead_link","  4.97%   24.198      2 Template:Plainlist"]},"scribunto":{"limitreport-timeusage":{"value":"0.220","limit":"10.000"},"limitreport-memusage":{"value":7003800,"limit":52428800}},"cachereport":{"origin":"mw1339","timestamp":"20180331174710","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":90,"wgHostname":"mw1264"});});
+	
+

@@ -1,0 +1,127 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.4.1 Connection Methods
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.4 Connection Object (mp_conn) 
+Up:
+4.5.4 Connection Object (mp_conn) 
+Next:
+4.5.4.2 Connection Members
+
+
+
+
+ 
+
+4.5.4.1 Connection Methods
+
+
+
+
+  read(
+  [length])
+
+  Reads at most length bytes from the client. The read blocks
+  indefinitely until there is at least one byte to read. If length is
+  -1, keep reading until the socket is closed from the other end (This
+  is known as EXHAUSTIVE mode in the http server code).
+
+
+This method should only be used inside Connection Handlers.
+
+
+Note:
+The behaviour of this method has changed since version 3.0.3. In
+    3.0.3 and prior, this method would block until length bytes
+    was read.
+  
+
+
+
+
+
+
+  readline(
+  [length])
+
+
+
+Reads a line from the connection or up to length bytes.
+
+
+This method should only be used inside Connection Handlers.
+
+
+
+
+
+
+  write(
+  string)
+
+
+
+Writes string to the client.
+
+
+This method should only be used inside Connection Handlers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.4 Connection Object (mp_conn) 
+Up:
+4.5.4 Connection Object (mp_conn) 
+Next:
+4.5.4.2 Connection Members
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

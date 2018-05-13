@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.2.2 Running make
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.2.1 Running ./configure
+Up:
+2.2 Compiling
+Next:
+2.3 Installing
+
+
+
+
+ 
+
+2.2.2 Running make
+
+
+
+
+
+To start the build process, simply run
+  
+    $ make
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.2.1 Running ./configure
+Up:
+2.2 Compiling
+Next:
+2.3 Installing
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

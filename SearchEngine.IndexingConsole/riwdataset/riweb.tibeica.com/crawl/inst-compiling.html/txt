@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.2 Compiling
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.1 Prerequisites
+Up:
+2. Installation
+Next:
+2.2.1 Running ./configure
+
+
+
+
+ 
+
+2.2 Compiling
+
+ 
+
+There are two ways in which modules can be compiled and linked to
+Apache - statically, or as a DSO (Dynamic Shared Object).
+
+
+DSO is a more popular approach nowadays and is the recommended
+one for mod_python. The module gets compiled as a shared library which
+is dynamically loaded by the server at run time.
+
+
+The advantage of DSO is that a module can be installed without
+recompiling Apache and used as needed.  A more detailed description of
+the Apache DSO mechanism is available at
+http://httpd.apache.org/docs-2.0/dso.html.
+
+
+At this time only DSO is supported by mod_python.
+
+
+Static linking is an older approach. With dynamic linking
+available on most platforms it is used less and less. The main
+drawback is that it entails recompiling Apache, which in many
+instances is not a favorable option.
+
+
+
+
+
+Subsections
+
+
+2.2.1 Running ./configure
+2.2.2 Running make
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+2.1 Prerequisites
+Up:
+2. Installation
+Next:
+2.2.1 Running ./configure
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

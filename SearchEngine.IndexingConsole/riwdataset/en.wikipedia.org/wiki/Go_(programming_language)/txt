@@ -1,0 +1,1612 @@
+
+
+
+
+Go (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Go_(programming_language)","wgTitle":"Go (programming language)","wgCurRevisionId":833381482,"wgRevisionId":833381482,"wgArticleId":25039021,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from December 2016","Articles that may contain original research from January 2018","All articles that may contain original research","Articles lacking reliable references from November 2015","All articles lacking reliable references","All articles with self-published sources","Articles with self-published sources from November 2015","Articles with unsourced statements from July 2016","Articles with unsourced statements from November 2015","Articles prone to spam from June 2013","Wikipedia articles with LCCN identifiers","Wikipedia articles with GND identifiers","Use dmy dates from August 2011","American inventions","C programming language family","Concurrent programming languages","Cross-platform software","Free compilers and interpreters","Google software","Procedural programming languages","Programming languages created in 2009","Software using the BSD license","Statically typed programming languages","Systems programming languages","Programming languages","Go (programming language)","High-level programming languages","2009 software","Cross-platform free software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Go_(programming_language)","wgRelevantArticleId":25039021,"wgRequestId":"WsGDlgpAMFkAAGGZKXAAAABV","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q37227","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.math.scripts","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Go (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				For the agent-based language released in 2007, see Go! (programming language).
+"Google Go" redirects here. For the computer program by Google to play the board game Go, see AlphaGo.
+
+Go
+
+
+Go's mascot is a gopher, designed by Renée French.[1]
+
+
+
+Paradigm
+Compiled, concurrent, imperative, structured
+
+
+Designed by
+Robert Griesemer
+Rob Pike
+Ken Thompson
+
+
+Developer
+Google LLC.
+
+
+First appeared
+November 10, 2009; 8 years ago (2009-11-10)
+
+
+
+
+
+Stable release
+
+1.10.1 / March 28, 2018; 5 days ago (2018-03-28)[2]
+
+
+
+
+
+
+Typing discipline
+Strong, static, inferred, structural[3][4]
+
+
+Implementation language
+Go, assembly language, previously C (gc); C++ (gccgo)
+
+
+OS
+Linux, macOS, FreeBSD, NetBSD, OpenBSD,[5] Windows, Plan 9,[6] DragonFly BSD, Solaris
+
+
+License
+BSD-style[7] + patent grant[8]
+
+
+Filename extensions
+.go
+
+
+Website
+golang.org
+
+
+Major implementations
+
+
+gc, gccgo
+
+
+Influenced by
+
+
+Alef, APL,[9] BCPL,[9] C, CSP, Limbo, Modula, Newsqueak, Oberon, occam, Pascal,[10] Smalltalk[11]
+
+
+Influenced
+
+
+Crystal
+
+
+Go (often referred to as golang) is a programming language created at Google[12] in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson.[10] It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing,[3] memory safety features and CSP-style concurrent programming features added.[13] The compiler and other language tools originally developed by Google are all free and open source.[14]
+
+
+
+Contents
+
+
+1 History
+2 Language design
+
+2.1 Syntax
+2.2 Types
+
+2.2.1 Interface system
+
+
+2.3 Package system
+2.4 Concurrency: goroutines and channels
+
+2.4.1 Suitability for parallel programming
+2.4.2 Lack of race condition safety
+
+
+2.5 Omissions
+2.6 Criticism
+
+
+3 Conventions and code style
+4 Language tools
+5 Examples
+
+5.1 Hello world
+5.2 Concurrency example
+
+
+6 Projects using Go
+7 Reception
+8 Naming dispute
+9 See also
+10 Notes
+11 References
+12 External links
+
+
+
+History[edit]
+The language was announced in November 2009. It is used in some of Google's production systems, as well as by other firms.[15]
+Two major implementations exist :
+
+Google's Go compiler, "gc", developed as open-source software. It targets various platforms including Linux, OS X, Windows, various BSD and Unix versions, and also (since 2015) mobile devices (including smartphones).[16]
+A second compiler, gccgo, is a GCC frontend.[17][18]
+
+The "gc" toolchain has been self-hosting since version 1.5.[19]
+Go originated as an experiment by Google engineers Robert Griesemer, Rob Pike, and Ken Thompson to design a new programming language that would resolve common criticisms of other languages while maintaining their positive characteristics. The developers envisaged the new language as:[20]
+
+statically typed, scalable to large systems (as Java and C++)
+productive and readable, without too many mandatory keywords and repetition[21] ("light on the page" like dynamic languages)
+not requiring integrated development environments, but supporting them well
+supporting networking and multiprocessing
+
+In later interviews, all three of the language designers cited their shared dislike of C++'s complexity as a primary motivation for designing a new language.[22][23][24]
+Google released Go 1.0 in March 2012.[25][26]
+Language design[edit]
+Go is recognizably in the tradition of C, but makes many changes to improve brevity, simplicity, and safety. Go consists of:
+
+A syntax and environment adopting patterns more common in dynamic languages:[27]
+
+Optional concise variable declaration and initialization through type inference (x := 0 not int x = 0; or var x = 0;).
+Fast compilation times.[28]
+Remote package management (go get)[29] and online package documentation.[30]
+
+
+Distinctive approaches to particular problems:
+
+Built-in concurrency primitives: light-weight processes (goroutines), channels, and the select statement.
+An interface system in place of virtual inheritance, and type embedding instead of non-virtual inheritance.
+A toolchain that, by default, produces statically linked native binaries without external dependencies.
+
+
+A desire to keep the language specification simple enough to hold in a programmer's head,[31] in part by omitting features which are common in similar languages.
+
+Syntax[edit]
+Go's syntax includes changes from C aimed at keeping code concise and readable. A combined declaration/initialization operator was introduced that allows the programmer to write i := 3 or s := "Hello, world!", without specifying the types of variables. This contrasts with C's int i = 3; and const char *s = "Hello, world!";. Semicolons still terminate statements, but are implicit when the end of a line occurs. Functions may return multiple values, and returning a result, err pair is the conventional way a function indicates an error to its caller in Go.[a] Go adds literal syntaxes for initializing struct parameters by name, and for initializing maps and slices. As an alternative to C's three-statement for loop, Go's range expressions allow concise iteration over arrays, slices, strings, maps, and channels.[citation needed]
+Types[edit]
+Go has a number of built-in types, including numeric ones (byte, int64, float32, etc.), booleans, and character strings (string). Strings are immutable; built-in operators and keywords (rather than functions) provide concatenation, comparison, and UTF-8 encoding and decoding.[32] Record types can be defined with the struct keyword.[citation needed]
+For each type T and each non-negative integer constant n, there is an array type denoted [n]T; arrays of differing lengths are thus of different types. Dynamic arrays are available as "slices", denoted []T for some type T. These have a length and a capacity specifying when new memory needs to be allocated to expand the array. Several slices may share their underlying memory.[33][34][35]
+Pointers are available for all types, and the pointer-to-T type is denoted *T. Address-taking and indirection use the & and * operators as in C, or happen implicitly through the method call or attribute access syntax.[36] There is no pointer arithmetic, except via the special unsafe.Pointer type in the standard library.[citation needed]
+For a pair of types K, V, the type map[K]V is the type of hash tables mapping type-K keys to type-V values. Hash tables are built into the language, with special syntax and built-in functions. chan T is a channel that allows sending values of type T between concurrent Go processes.[citation needed]
+Aside from its support for interfaces, Go's type system is nominal: the type keyword can be used to define a new named type, which is distinct from other named types that have the same layout (in the case of a struct, the same members in the same order). Some conversions between types (e.g., between the various integer types) are pre-defined and adding a new type may define additional conversions, but conversions between named types must always be invoked explicitly.[37] For example, the type keyword can be used to define a type for IPv4 addresses, which are 32-bit unsigned integers.[citation needed]
+
+
+type ipv4addr uint32
+
+With this type definition, ipv4addr(x) interprets the uint32 value x as an IP address. Simply assigning x to a variable of type ipv4addr is a type error.[citation needed]
+Constant expressions may be either typed or "untyped"; they are given a type when assigned to a typed variable if the value they represent passes a compile-time check.[38]
+Function types are indicated by the func keyword; they take zero or more parameters and return zero or more values, all of which are typed. The parameter and return values determine a function type; thus, func(string, int32) (int, error) is the type of functions that take a string and a 32-bit signed integer, and return a signed integer (of default width) and a value of the built-in interface type error.[citation needed]
+Any named type has a method set associated with it. The IP address example above can be extended with a method for checking if its value is a known standard.
+
+
+// ZeroBroadcast reports whether addr is 255.255.255.255.
+func (addr ipv4addr) ZeroBroadcast() bool {
+    return addr == 0xFFFFFFFF
+}
+
+Due to nominal typing, this method definition adds a method to ipv4addr, but not on uint32. While methods have special definition and call syntax, there is no distinct method type.[39]
+ Interface system[edit]
+Go provides two features that replace class inheritance.[citation needed]
+The first is embedding, which can be viewed as an automated form of composition[40] or delegation.[41]:255
+The second are its interfaces, which provides runtime polymorphism.[42]:266 Interfaces provide a limited form of structural typing in the otherwise nominal type system of Go. Any type that implements all methods of an interface conforms to that interface. Go interfaces were designed after protocols from the Smalltalk programming language.[43] Multiple sources use the term duck typing when describing Go interface.[44][45] Although the term duck typing is not precisely defined and therefore not wrong, it usually implies that type conformance is not statically checked. Since conformance to a Go interface is checked statically by the Go compiler (except when performing a type assertion), the Go authors prefer to use the term structural typing.[citation needed]
+An interface specifies a set of types by listing required methods and their types and is satisfied by any type that has the required methods. Implementing types do not need to specify their implementing of interfaces, so if Shape, Square and Circle are defined as:
+
+
+import "math"
+
+type Shape interface {
+    Area() float64
+}
+
+type Square struct { // Note: no "implements" declaration
+    side float64
+}
+
+func (sq Square) Area() float64 { return sq.side * sq.side }
+
+type Circle struct { // No "implements" declaration here either
+    radius float64
+}
+
+func (c Circle) Area() float64 { return math.Pi * math.Pow(c.radius, 2) }
+
+Both Square and Circle are implicitly a Shape and can be assigned to a Shape-typed variable.[42]:263–268 In formal language, Go's interface system provides structural rather than nominal typing. Interfaces can embed other interfaces with the effect of creating a combined interface that is satisfied by exactly the types that implement the embedded interface and any methods that the newly defined interface adds.[42]:270
+The Go standard library uses interfaces to provide genericity in several places, including the input/output system that is based on the concepts of Reader and Writer.[42]:282–283
+Besides calling methods via interfaces, Go allows converting interface values to other types with a run-time type check. The language constructs to do so are the type assertion,[46] which checks against a single potential type, and the type switch,[47] which checks against multiple types.[citation needed]
+The empty interface interface{} is an important corner case because it can refer to an item of any concrete type. It is similar to the Object class in Java or C# and is satisfied by any type, including built-in types like int.[42]:284 Code using the empty interface cannot simply call methods (or built-in operators) on the referred-to object, but it can store the interface{} value, try to convert it to a more useful type via a type assertion or type switch, or inspect it with Go's reflect package.[48] Because interface{} can refer to any value, it is a limited way to escape the restrictions of static typing, like void* in C but with additional run-time type checks.[citation needed]
+Interface values are implemented using pointer to data and a second pointer to run-time type information.[49] Like some other types implemented using pointers in Go, interface values are nil if uninitialized.[50]
+Package system[edit]
+In Go's package system, each package has a path (e.g., "compress/bzip2" or "golang.org/x/net/html") and a name (e.g., bzip2 or html). References to other packages' definitions must always be prefixed with the other package's name, and only the capitalized names from other packages are accessible: io.Reader is public but bzip2.reader is not.[51] The go get command can retrieve packages stored in a remote repository such as GitHub,[52] and developers are encouraged to develop packages inside a base path corresponding to a source repository (such as github.com/user_name/package_name) to reduce the likelihood of name collision with future additions to the standard library or other external libraries.[53]
+Proposals exist to introduce a proper package management solution for Go similar to Rust's cargo system or Node's npm system.[54]
+ Concurrency: goroutines and channels[edit]
+The Go language has built-in facilities, as well as library support, for writing concurrent programs. Concurrency refers not only to CPU parallelism, but also to asynchrony: letting slow operations like a database or network-read run while the program does other work, as is common in event-based servers.[55]
+The primary concurrency construct is the goroutine, a type of light-weight process. A function call prefixed with the go keyword starts a function in a new goroutine. The language specification does not specify how goroutines should be implemented, but current implementations multiplex a Go process's goroutines onto a smaller set of operating system threads, similar to the scheduling performed in Erlang.[56]:10
+While a standard library package featuring most of the classical concurrency control structures (mutex locks, etc.) is available,[56]:151–152 idiomatic concurrent programs instead prefer channels, which provide send messages between goroutines.[57] Optional buffers store messages in FIFO order[41]:43 and allow sending goroutines to proceed before their messages are received.[citation needed]
+Channels are typed, so that a channel of type chan T can only be used to transfer messages of type T. Special syntax is used to operate on them; <-ch is an expression that causes the executing goroutine to block until a value comes in over the channel ch, while ch <- x sends the value x (possibly blocking until another goroutine receives the value). The built-in switch-like select statement can be used to implement non-blocking communication on multiple channels; see below for an example. Go has a memory model describing how goroutines must use channels or other operations to safely share data.[58]
+The existence of channels sets Go apart from actor model-style concurrent languages like Erlang, where messages are addressed directly to actors (corresponding to goroutines). The actor style can be simulated in Go by maintaining a one-to-one correspondence between goroutines and channels, but the language allows multiple goroutines to share a channel or a single goroutine to send and receive on multiple channels.[56]:147
+From these tools one can build concurrent constructs like worker pools, pipelines (in which, say, a file is decompressed and parsed as it downloads), background calls with timeout, "fan-out" parallel calls to a set of services, and others.[59] Channels have also found uses further from the usual notion of interprocess communication, like serving as a concurrency-safe list of recycled buffers,[60] implementing coroutines (which helped inspire the name goroutine),[61] and implementing iterators.[62]
+Concurrency-related structural conventions of Go (channels and alternative channel inputs) are derived from Tony Hoare's communicating sequential processes model. Unlike previous concurrent programming languages such as Occam or Limbo (a language on which Go co-designer Rob Pike worked),[63] Go does not provide any built-in notion of safe or verifiable concurrency.[64] While the communicating-processes model is favored in Go, it is not the only one: all goroutines in a program share a single address space. This means that mutable objects and pointers can be shared between goroutines; see § Lack of race condition safety, below.[citation needed]
+Suitability for parallel programming[edit]
+Although Go's concurrency features are not aimed primarily at parallel processing,[55] they can be used to program shared memory multi-processor machines. Various studies have been done into the effectiveness of this approach.[65] One of these studies compared the size (in lines of code) and speed of programs written by a seasoned programmer not familiar with the language and corrections to these programs by a Go expert (from Google's development team), doing the same for Chapel, Cilk and Intel TBB. The study found that the non-expert tended to write divide-and-conquer algorithms with one go statement per recursion, while the expert wrote distribute-work-synchronize programs using one goroutine per processor. The expert's programs were usually faster, but also longer.[66]
+Lack of race condition safety[edit]
+There are no restrictions on how goroutines access shared data, making race conditions possible. Specifically, unless a program explicitly synchronizes via channels or other means, writes from one goroutine might be partly, entirely, or not at all visible to another, often with no guarantees about ordering of writes.[64] Furthermore, Go's internal data structures like interface values, slice headers, hash tables, and string headers are not immune to race conditions, so type and memory safety can be violated in multithreaded programs that modify shared instances of those types without synchronization.[67][68]. An internal Google document states that one of of agreed upon design goals for Go is that all three of the language's designers would have to agree that a specific feature could be included.
+Instead of language support, safe concurrent programming thus relies on conventions; for example, Chisnall recommends an idiom called "aliases xor mutable", meaning that passing a mutable value (or pointer) over a channel signals a transfer of ownership over the value to its receiver.[56]:155
+Omissions[edit]
+Go deliberately omits certain features common in other languages, including (implementation) inheritance, generic programming, assertions, pointer arithmetic, and implicit type conversions.[citation needed]
+Of these language features, the Go authors express an openness to generic programming, explicitly argue against assertions and pointer arithmetic, while defending the choice to omit type inheritance as giving a more useful language, encouraging instead the use of interfaces to achieve dynamic dispatch[b] and composition to reuse code. Composition and delegation are in fact largely automated by struct embedding; according to researchers Schmager et al., this feature "has many of the drawbacks of inheritance: it affects the public interface of objects, it is not fine-grained (i.e, no method-level control over embedding), methods of embedded objects cannot be hidden, and it is static", making it "not obvious" whether programmers will not overuse it to the extent that programmers in other languages are reputed to overuse inheritance.[40]
+Regarding generic programming, some built-in functions are in fact type-generic, but these are treated as special cases; Rob Pike calls this a weakness of the language that may at some point be changed.[33] The Google team that designed the language built at least one compiler for an experimental Go dialect with generics, but did not release it.[69]
+After initially omitting exceptions, the exception-like panic/recover mechanism was eventually added to the language, which the Go authors advise using for unrecoverable errors such as those that should halt an entire program or server request, or as a shortcut to propagate errors up the stack within a package (but not across package boundaries; there, error returns are the standard API).[70][71][72][73]
+Criticism[edit]
+Go critics assert that:
+
+lack of compile-time generics leads to code duplication, metaprogramming cannot be statically checked[74][75] and the standard library cannot offer generic algorithms[76]
+lack of exceptions makes difficult some error handling patterns like treating multiple statements that fail as a block [77]
+lack of language extensibility (through, for instance, operator overloading) makes certain tasks more verbose[74][78]
+the type system's lack of Hindley–Milner typing inhibiting safety and/or expressiveness[74][79][80]
+the pauses and overhead of garbage collection (GC) limit Go's use in systems programming compared to languages with manual memory management.[74][79]
+
+The language designers argue that these trade-offs are important to Go's success,[81] and explain some particular decisions at length,[82] though they do express openness to adding some form of generic programming in the future, and to pragmatic improvements in areas like standardizing ways to apply code generation.[83]
+GC has been improved to sub-millisecond pause times in later versions.[84][85][86] However, the developers acknowledge that this GC algorithm is not hard real-time.[citation needed]
+Conventions and code style[edit]
+
+
+
+
+
+
+This section possibly contains original research. Please improve it by verifying the claims made and adding inline citations. Statements consisting only of original research should be removed. (January 2018) (Learn how and when to remove this template message)
+
+
+
+The Go authors put substantial effort into molding the style and design of Go programs:
+
+Indentation, spacing, and other surface-level details of code are automatically standardized by the gofmt tool. golint does additional style checks automatically.
+Tools and libraries distributed with Go suggest standard approaches to things like API documentation (godoc),[87] testing (go test), building (go build), package management (go get), and so on.
+Go enforces rules that are recommendations in other languages, for example banning cyclic dependencies, unused variables or imports, and implicit type conversions.
+The omission of certain features (for example, functional-programming shortcuts like map and Java-style try/finally blocks) tends to encourage a particular explicit, concrete, and imperative programming style.
+On day one the Go team published a collection of Go idioms, and later also collected code review comments, talks, official blog posts to teach Go style and coding philosophy.
+
+Language tools[edit]
+Go includes the same sort of debugging, testing, and code-vetting tools as many language distributions. The Go distribution includes, among other tools,
+
+go build, which builds Go binaries using only information in the source files themselves, no separate makefiles
+go test, for unit testing and microbenchmarks
+go fmt, for formatting code
+go get, for retrieving and installing remote packages
+go vet, a static analyzer looking for potential errors in code
+go run, a shortcut for building and executing code
+godoc, for displaying documentation or serving it via HTTP
+gorename, for renaming variables, functions, and so on in a type-safe way
+go generate, a standard way to invoke code generators
+
+It also includes profiling and debugging support, runtime instrumentation (to, for example, track garbage collection pauses), and a race condition tester.
+There is an ecosystem of third-party tools that add to the standard distribution, such as gocode, which enables code autocompletion in many text editors, goimports (by a Go team member), which automatically adds/removes package imports as needed, errcheck, which detects code that might unintentionally ignore errors, and more. Plugins exist for adding language support to several widely used text editors. Additionally, several IDEs are available. For instance, LiteIDE, which is branded as "a simple, open source, cross-platform Go IDE",[88] and GoLand, which claims to be "capable and ergonomic."[89]
+Examples[edit]
+Hello world[edit]
+Here is a Hello world program in Go:
+
+
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World")
+}
+
+Concurrency example[edit]
+The following simple program demonstrates Go's concurrency features to implement an asynchronous program. It launches two "goroutines" (lightweight threads): one waits for the user to type some text, while the other implements a timeout. The select statement waits for either of these goroutines to send a message to the main routine, and acts on the first message to arrive (example adapted from David Chisnall book).[56]:152
+
+
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func readword(ch chan string) {
+    fmt.Println("Type a word, then hit Enter.")
+    var word string
+    fmt.Scanf("%s", &word)
+    ch <- word
+}
+
+func timeout(t chan bool) {
+    time.Sleep(5 * time.Second)
+    t <- true
+}
+
+func main() {
+    t := make(chan bool)
+    go timeout(t)
+
+    ch := make(chan string)
+    go readword(ch)
+
+    select {
+    case word := <-ch:
+        fmt.Println("Received", word)
+    case <-t:
+        fmt.Println("Timeout.")
+    }
+}
+
+Projects using Go[edit]
+
+
+
+
+
+
+This section relies too much on references to primary sources. Please improve this section by adding secondary or tertiary sources. (November 2015) (Learn how and when to remove this template message)
+
+
+
+Some notable open-source applications in Go include:[90]
+
+The "Lightning Network", a bitcoin network that allows for fast Bitcoin transactions and scalability.[91]
+Decred, a cryptocurrency with on-chain governance integrated into its blockchain.[92]
+Caddy, an open source HTTP/2 web server with automatic HTTPS support.
+CockroachDB, an open source, survivable, strongly consistent, scale-out SQL database.
+Docker, a set of tools for deploying Linux containers
+InfluxDB, an open source database specifically to handle time series data with high availability and high performance requirements.
+Juju, a service orchestration tool by Canonical, packagers of Ubuntu Linux
+Kubernetes container management software
+OpenShift, a cloud computing platform as a service by Red Hat
+Snappy, a package manager for Ubuntu Touch developed by Canonical.
+Syncthing, an open-source file synchronization client/server application
+Terraform, an open-source, multiple cloud infrastructure provisioning tool from HashiCorp.
+
+Other notable companies and sites using Go (generally together with other languages, not exclusively) include:[93][self-published source?][94]
+
+Chango, a programmatic advertising company uses Go in its real-time bidding systems.[95]
+Cloud Foundry, a platform as a service[citation needed]
+CloudFlare, for their delta-coding proxy Railgun, their distributed DNS service, as well as tools for cryptography, logging, stream processing, and accessing SPDY sites.[96][97]
+CoreOS, a Linux-based operating system that utilizes Docker containers[98] and rkt containers.
+Couchbase, Query and Indexing services within the Couchbase Server[99]
+Dropbox, migrated some of their critical components from Python to Go[100]
+Google, for many projects, notably including download server dl.google.com[101][102][103]
+Heroku, for Doozer, a lock service[13]
+Hyperledger Fabric, an open source, enterprise-focused distributed ledger project
+MercadoLibre, for several public APIs.[citation needed]
+MongoDB, tools for administering MongoDB instances[104]
+Netflix, for two portions of their server architecture[105]
+Novartis, for an internal inventory system[106]
+Plug.dj, an interactive online social music streaming website.[107]
+SendGrid, a Boulder, Colorado-based transactional email delivery and management service.[108]
+SoundCloud, for "dozens of systems"[109]
+Splice, for the entire backend (API and parsers) of their online music collaboration platform.[110]
+ThoughtWorks, some tools and applications around continuous delivery and instant messages (CoyIM).[111]
+Twitch.tv, for their IRC-based chat system (migrated from Python).[112]
+Uber, for handling high volumes of geofence-based queries.[113]
+Zerodha, for realtime peering and streaming of market data[citation needed]
+
+Reception[edit]
+The interface system, and the deliberate omission of inheritance, were praised by Michele Simionato, who likened these language characteristics to those of Standard ML, calling it "a shame that no popular language has followed [this] particular route in the design space".[114]
+Dave Astels at Engine Yard wrote:[115]
+
+Go is extremely easy to dive into. There are a minimal number of fundamental language concepts and the syntax is clean and designed to be clear and unambiguous. Go is still experimental and still a little rough around the edges.
+
+Ars Technica interviewed Rob Pike, one of the authors of Go, and asked why a new language was needed. He replied that:[116]
+
+It wasn't enough to just add features to existing programming languages, because sometimes you can get more in the long run by taking things away. They wanted to start from scratch and rethink everything. ... [But they did not want] to deviate too much from what developers already knew because they wanted to avoid alienating Go's target audience.
+
+Go was named Programming Language of the Year by the TIOBE Programming Community Index in its first year, 2009, for having a larger 12-month increase in popularity (in only 2 months, after its introduction in November) than any other language that year, and reached 13th place by January 2010,[117] surpassing established languages like Pascal. By June 2015, its ranking had dropped to below 50th in the index, placing it lower than COBOL and Fortran.[118] But as of January 2017, its ranking had surged to 13th again, indicating significant growth in popularity and adoption. Go was awarded TIOBE programming language of the year 2016.
+Regarding Go, Bruce Eckel has stated:[119]
+
+The complexity of C++ (even more complexity has been added in the new C++), and the resulting impact on productivity, is no longer justified. All the hoops that the C++ programmer had to jump through in order to use a C-compatible language make no sense anymore -- they're just a waste of time and effort. Go makes much more sense for the class of problems that C++ was originally intended to solve.
+
+A 2011 evaluation of the language and its gc implementation in comparison to C++ (GCC), Java and Scala by a Google engineer found that:
+
+Go offers interesting language features, which also allow for a concise and standardized notation. The compilers for this language are still immature, which reflects in both performance and binary sizes.
+— R. Hundt[120]
+
+The evaluation got a rebuttal from the Go development team. Ian Lance Taylor, who had improved the Go code for Hundt's paper, had not been aware of the intention to publish his code, and says that his version was "never intended to be an example of idiomatic or efficient Go"; Russ Cox then did optimize the Go code, as well as the C++ code, and got the Go code to run slightly faster than C++ and more than an order of magnitude faster than the "optimized" code in the paper.[121]
+Naming dispute[edit]
+On 10 November 2009, the day of the general release of the language, Francis McCabe, developer of the Go! programming language (note the exclamation point), requested a name change of Google's language to prevent confusion with his language, which he had spent 10 years developing.[122] McCabe raised concerns that "the 'big guy' will end up steam-rollering over" him, and this concern resonated with the more than 120 developers who commented on Google's official issues thread saying they should change the name, with some[123] even saying the issue contradicts Google's motto of: Don't be evil.[124]
+On 12 October 2010, the issue was closed by Google developer Russ Cox (@rsc) with the custom status "Unfortunate" accompanied by the following comment:
+
+"There are many computing products and services named Go. In the 11 months since our release, there has been minimal confusion of the two languages."[124]
+
+See also[edit]
+
+
+Free software portal
+
+
+
+Comparison of programming languages
+Dart, another Google programming language
+UFCS, a way of having "open methods" in other languages
+
+Notes[edit]
+
+
+
+^ Usually, exactly one of the result and error values has a value other than the type's zero value; sometimes both do, as when a read or write can only be partially completed, and sometimes neither, as when a read returns 0 bytes. See Semipredicate problem: Multivalued return.
+^ Questions "How do I get dynamic dispatch of methods?" and "Why is there no type inheritance?" in the language FAQ.[10]
+
+
+
+References[edit]
+This article incorporates material from the official Go tutorial, which is licensed under the Creative Commons Attribution 3.0 license.
+
+
+^ "FAQ — The Go Programming Language". Golang.org. Retrieved 2013-06-25. 
+^ "Release History - The Go Programming Language". Retrieved 28 March 2018. 
+^ a b "Why doesn't Go have "implements" declarations?". golang.org. Retrieved 1 October 2015. 
+^ Pike, Rob (2014-12-22). "Rob Pike on Twitter". Retrieved 2016-03-13. Go has structural typing, not duck typing. Full interface satisfaction is checked and required. 
+^ "lang/go: go-1.4 – Go programming language". OpenBSD ports. 2014-12-23. Retrieved 2015-01-19. 
+^ "Go Porting Efforts". Go Language Resources. cat-v. 12 January 2010. Retrieved 18 January 2010. 
+^ "Text file LICENSE". The Go Programming Language. Google. Retrieved 5 October 2012. 
+^ "Additional IP Rights Grant". The Go Programming Language. Google. Retrieved 5 October 2012. 
+^ a b Pike, Rob (2014-04-24). "Hello Gophers". Retrieved 2016-03-11. 
+^ a b c "Language Design FAQ". golang.org. 16 January 2010. Retrieved 27 February 2010. 
+^ "The Evolution of Go". Retrieved 2015-09-26. 
+^ Kincaid, Jason (10 November 2009). "Google's Go: A New Programming Language That's Python Meets C++". TechCrunch. Retrieved 18 January 2010. 
+^ a b Metz, Cade (5 May 2011). "Google Go boldly goes where no code has gone before". The Register. 
+^ https://golang.org/LICENSE
+^ "Go FAQ: Is Google using Go internally?". Retrieved 2013-03-09. 
+^ "Google's In-House Programming Language Now Runs on Phones". wired.com. 19 August 2015. 
+^ "FAQ: Implementation". golang.org. 16 January 2010. Retrieved 2010-01-18. 
+^ "Installing GCC: Configuration". Retrieved 2011-12-03. Ada, Go and Objective-C++ are not default languages 
+^ "Go 1.5 Release Notes". Retrieved 28 January 2016. The compiler and runtime are now implemented in Go and assembler, without C. 
+^ Pike, Rob (28 April 2010). "Another Go at Language Design". Stanford EE Computer Systems Colloquium. Stanford University.  Video available.
+^ "Frequently Asked Questions (FAQ) - The Go Programming Language". golang.org. Retrieved 2016-02-26. 
+^ Andrew Binstock (18 May 2011). "Dr. Dobb's: Interview with Ken Thompson". Retrieved 2014-02-07. 
+^ Pike, Rob (2012). "Less is exponentially more". 
+^ Robert Griesemer (2015). "The Evolution of Go". 
+^ Shankland, Stephen (2012-03-30). "Google's Go language turns one, wins a spot at YouTube: The lower-level programming language has matured enough to sport the 1.0 version number. And it's being used for real work at Google". News. CNet. CBS Interactive Inc. Retrieved 2017-08-06. Google has released version 1 of its Go programming language, an ambitious attempt to improve upon giants of the lower-level programming world such as C and C++. 
+^ "Release History". 
+^ Pike, Rob. "The Go Programming Language". YouTube. Retrieved 2011-07-01. 
+^ Rob Pike (10 November 2009). The Go Programming Language (flv) (Tech talk). Google. Event occurs at 8:53. 
+^ Download and install packages and dependencies - go - The Go Programming Language; see godoc.org for addresses and documentation of some packages
+^ "GoDoc". godoc.org. 
+^ Rob Pike, on The Changelog podcast
+^ Rob Pike, Strings, bytes, runes and characters in Go, 23 October 2013
+^ a b Pike, Rob (26 September 2013). "Arrays, slices (and strings): The mechanics of 'append'". The Go Blog. Retrieved 7 March 2015. 
+^ Andrew Gerrand, Go Slices: usage and internals
+^ The Go Authors, Effective Go: Slices
+^ The Go authors Selectors - The Go Programming Language Specification and Calls - The Go Programming Language Specification
+^ "The Go Programming Language Specification". golang.org. 
+^ "The Go Programming Language Specification". golang.org. 
+^ "The Go Programming Language Specification". golang.org. 
+^ a b Schmager, Frank; Cameron, Nicholas; Noble, James (2010). GoHotDraw: evaluating the Go programming language with design patterns. Evaluation and Usability of Programming Languages and Tools. ACM. 
+^ a b Summerfield, Mark (2012). Programming in Go: Creating Applications for the 21st Century. Addison-Wesley. 
+^ a b c d e Balbaert, Ivo (2012). The Way to Go: A Thorough Introduction to the Go Programming Language. iUniverse. 
+^ "The Evolution of Go". talks.golang.org. Retrieved 2016-03-13. 
+^ Diggins, Christopher (2009-11-24). "Duck Typing and the Go Programming Language". Dr. Dobb's. Retrieved 2016-03-10. 
+^ Ryer, Mat (2015-12-01). "Duck typing in Go". Retrieved 2016-03-10. 
+^ "The Go Programming Language Specification". golang.org. 
+^ "The Go Programming Language Specification". golang.org. 
+^ reflect.ValueOf(i interface{}) converts an interface{} to a reflect.Value that can be further inspected
+^ "Go Data Structures: Interfaces". Retrieved 15 November 2012. 
+^ "The Go Programming Language Specification". golang.org. 
+^ "A Tutorial for the Go Programming Language". The Go Programming Language. Google. Retrieved 10 March 2013. In Go the rule about visibility of information is simple: if a name (of a top-level type, function, method, constant or variable, or of a structure field or method) is capitalized, users of the package may see it. Otherwise, the name and hence the thing being named is visible only inside the package in which it is declared. 
+^ "go - The Go Programming Language". golang.org. 
+^ "How to Write Go Code". golang.org. The packages from the standard library are given short import paths such as "fmt" and "net/http". For your own packages, you must choose a base path that is unlikely to collide with future additions to the standard library or other external libraries. If you keep your code in a source repository somewhere, then you should use the root of that source repository as your base path. For instance, if you have a GitHub account at github.com/user, that should be your base path 
+^ "Go Packaging Proposal Process". 
+^ a b Rob Pike, Concurrency is not Parallelism
+^ a b c d e Chisnall, David (2012). The Go Programming Language Phrasebook. Addison-Wesley. 
+^ "Effective Go". golang.org. 
+^ "The Go Memory Model". Retrieved 10 April 2017. 
+^ "Go Concurrency Patterns". golang.org. 
+^ John Graham-Cumming, Recycling Memory Buffers in Go
+^ tree.go
+^ Ewen Cheslack-Postava, Iterators in Go
+^ Brian W. Kernighan, A Descent Into Limbo
+^ a b "The Go Memory Model". Google. Retrieved 5 January 2011. 
+^ Tang, Peiyi (2010). Multi-core parallel programming in Go (PDF). Proc. First International Conference on Advanced Computing and Communications. 
+^ Nanz, Sebastian; West, Scott; Soares Da Silveira, Kaue. Examining the expert gap in parallel programming (PDF). Euro-Par 2013. CiteSeerX 10.1.1.368.6137 . 
+^ Russ Cox, Off to the Races
+^ Pike, Rob (October 25, 2012). "Go at Google: Language Design in the Service of Software Engineering". Google, Inc.  "There is one important caveat: Go is not purely memory safe in the presence of concurrency."
+^ "E2E: Erik Meijer and Robert Griesemer – Going Go". Channel 9. Microsoft. 7 May 2012. 
+^ Panic And Recover, Go wiki
+^ "Weekly Snapshot History". golang.org. 
+^ "Proposal for an exception-like mechanism". golang-nuts. 25 March 2010. Retrieved 25 March 2010. 
+^ "Effective Go". golang.org. 
+^ a b c d Will Yager, Why Go is not Good
+^ Egon Elbre, Summary of Go Generics discussions
+^ Fitzpatrick, Brad. "Go: 90% Perfect, 100% of the time". Retrieved 28 January 2016. 
+^ Andrew Morgan, "What I Don’t Like About Error Handling in Go, and How to Work Around It"
+^ Danny Gratzer, Leaving Go
+^ a b Jared Forsyth, Rust vs. Go
+^ Janos Dobronszki, Everyday Hassles in Go
+^ Rob Pike, Less is exponentially more
+^ The Go Authors, Frequently Asked Questions (FAQ)
+^ Rob Pike, Generating code
+^ Rhys Hiltner (2016-07-05). "Go's march to low-latency GC". Twitch.tv. It’s the story of how improvements to the Go runtime between Go 1.4 and Go 1.6 gave us a 20x improvement in garbage collection (GC) pause time, of how we’ve gotten another 10x improvement in Go 1.6’s pauses, and of how sharing our experience with the Go runtime team helped them give us an additional 10x speedup in Go 1.7 while obsoleting our manual tuning. 
+^ Richard Hudson, Go 1.4+ Garbage Collection (GC) Plan and Roadmap
+^ Hatfield, Brian (2016-12-01). "SUB. MILLISECOND. PAUSE. TIME. ON. AN. 18. GIG. HEAP". Retrieved 2017-10-07. 
+^ "Effective Go". golang.org. 
+^ LiteIDE
+^ GoLand
+^ avelino/awesome-go: A curated list of awesome Go frameworks, libraries and software, retrieved 2018-01-10 
+^ Lightning Developers Network installation guide 
+^ dcrd: Decred daemon in Go (golang), Decred, 2017-12-18, retrieved 2017-12-19 
+^ Erik Unger, The Case For Go
+^ Andrew Gerrand, Four years of Go, The Go Blog
+^ "Chango". GitHub. 
+^ John Graham-Cumming, Go at CloudFlare
+^ John Graham-Cumming, What we've been doing with Go
+^ "Go at CoreOS". 
+^ "Couchbase". GitHub. 
+^ Patrick Lee, Open Sourcing Our Go Libraries, 7 July 2014.
+^ "dl.google.com: Powered by Go". golang.org. 
+^ Matt Welsh, Rewriting a Large Production System in Go
+^ David Symonds, High Performance Apps on Google App Engine
+^ "Mongo DB". GitHub. 
+^ "The Netflix Tech Blog: Application data caching using SSDs". 
+^ "Google+ post by Don Dwoske". Google+. Retrieved 2017-01-21. 
+^ Steven Sacks. "Search & Advances". plug.dj tech blog. 
+^ Tim Jenkins. "How to Convince Your Company to Go With Golang". SendGrid's Email Deliverability Blog. 
+^ Peter Bourgon, Go at SoundCloud
+^ "Go at Google I/O and Gopher SummerFest - The Go Blog". golang.org. 
+^ TWSTRIKE. "CoyIM". ThoughtWorks STRIKE team. 
+^ Rhys Hiltner, Go’s march to low-latency GC, 5 July 2016.
+^ "How We Built Uber Engineering's Highest Query per Second Service Using Go". Uber Engineering Blog. Retrieved 2016-03-02. 
+^ Simionato, Michele (15 November 2009). "Interfaces vs Inheritance (or, watch out for Go!)". artima. Retrieved 15 November 2009. 
+^ Astels, Dave (9 November 2009). "Ready, Set, Go!". engineyard. Retrieved 9 November 2009. 
+^ Paul, Ryan (10 November 2009). "Go: new open source programming language from Google". Ars Technica. Retrieved 13 November 2009. 
+^ jt. "Google's Go Wins Programming Language Of The Year Award". jaxenter. Retrieved 5 December 2012. 
+^ "TIOBE Programming Community Index for June 2015". TIOBE Software. June 2015. Retrieved 5 July 2015. 
+^ Bruce Eckel (27 August 2011). "Calling Go from Python via JSON-RPC". Retrieved 29 August 2011. 
+^ Hundt, Robert (2011). Loop recognition in C++/Java/Go/Scala (PDF). Scala Days. 
+^ Metz, Cade (1 July 2011). "Google Go strikes back with C++ bake-off". The Register. 
+^ Brownlee, John (13 November 2009). "Google didn't google "Go" before naming their programming language'". 
+^ Claburn, Thomas (11 November 2009). "Google 'Go' Name Brings Accusations Of Evil'". InformationWeek. Retrieved 18 January 2010. 
+^ a b "Issue 9 - go — I have already used the name for *MY* programming language". Google Code. Google Inc. Retrieved 12 October 2010. 
+
+
+External links[edit]
+
+
+
+Wikimedia Commons has media related to Go (programming language).
+
+
+
+Official website
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Programming languages
+
+
+
+
+
+
+Comparison
+Timeline
+History
+
+
+
+
+
+
+
+
+APL
+Assembly
+BASIC
+C
+C++
+C#
+COBOL
+Fortran
+Go
+Groovy
+Haskell
+Java
+JavaScript (JS)
+Lisp
+Lua
+Objective-C
+Pascal
+Perl
+PHP
+Python
+Ruby
+Shell
+Smalltalk
+Swift
+Visual Basic .NET (VB.NET)
+more...
+
+
+
+
+
+
+
+
+ Category
+ Lists
+
+Alphabetical
+Categorical
+Generational
+Non-English-based
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Google
+
+
+
+Overview
+
+
+
+Alphabet Inc.
+History
+List of mergers and acquisitions by Alphabet
+Products
+Criticism
+
+Privacy concerns
+
+
+Censorship
+Easter eggs
+Don't be evil
+
+
+
+
+
+Advertising
+
+
+
+AdMob
+Adscape
+AdSense
+AdWords
+Analytics
+Contributor
+Partners
+DoubleClick
+DoubleClick for Publishers
+Wallet
+
+
+
+
+
+Communication
+
+
+
+Allo
+Alerts
+Apps Script
+Duo
+Calendar
+Contacts
+Gmail
+
+history
+interface
+
+
+Google+
+Groups
+Hangouts
+Inbox
+Sync
+Text-to-Speech
+Translate
+Transliteration
+Voice
+
+
+
+
+
+Software
+
+
+
+Assistant
+
+Lens
+
+
+Chrome
+
+for Android
+for iOS
+Chrome Web Store
+Apps
+Extensions
+
+
+Cloud Print
+Earth
+
+Sky
+Moon
+Mars
+
+
+Gadgets
+Gboard
+Goggles
+IME
+
+Japanese
+Pinyin
+
+
+Photos
+Keep
+News & Weather
+Now
+OpenRefine
+Search
+
+
+
+
+
+Operating
+systems
+
+
+
+Android
+
+version history
+software development
+Android Auto
+Android TV
+
+
+Chrome OS
+
+Chromebit
+Chromebook
+Chromebox
+Chrome Zone
+
+
+Fuchsia
+Wear OS
+
+
+
+
+
+Programming
+languages
+
+
+
+Dart
+Go
+Sawzall
+
+
+
+
+
+Platforms
+
+
+
+Account
+Authenticator
+Body
+Books
+
+Library Project
+
+
+Caja
+Virtual reality
+
+Cardboard
+Daydream
+
+
+Cast
+Chromecast
+Cloud Platform
+
+App Engine
+BigQuery
+Bigtable
+Compute Engine
+Storage
+
+
+Contact Lens
+Custom Search
+Daydream
+Earth Engine
+Fit
+GFS
+Firebase
+G Suite
+
+Classroom
+
+
+Home
+Jamboard
+Marketplace
+Native Client
+Nexus
+OnHub
+OpenSocial
+Pay
+
+Send
+
+
+Primer
+Pixel
+Play
+
+Books
+Games
+Movies & TV
+Music
+Newsstand
+
+
+Public DNS
+Safe Browsing
+URL Shortener
+Wifi
+
+
+
+
+
+Development
+tools
+
+
+
+AJAX APIs
+App Inventor
+Closure Tools
+Developers
+Dialogflow
+Flutter
+GData
+Googlebot
+Guava
+Guice
+GWS
+KML
+Kythe
+MapReduce
+Mediabot
+Sitemaps
+Summer of Code
+Web Toolkit
+Search Console
+Website Optimizer
+Swiffy
+
+
+
+
+
+Publishing
+
+
+
+Blogger
+Bookmarks
+Drive
+Docs, Sheets, Slides, Forms
+Drawings
+My Maps
+Sites
+Fusion Tables
+Domains
+FeedBurner
+Map Maker
+YouTube
+YouTube Instant
+YouTube Red
+Vevo
+Zagat
+
+
+
+
+
+Search
+(timeline)
+
+
+
+Appliance
+Blog Search
+Books
+
+Ngram Viewer
+
+
+Custom Search
+Finance
+Flights
+Images
+Maps
+
+Mars
+Moon
+Sky
+Street View
+
+Coverage
+Competition
+Privacy concerns
+
+
+
+
+News
+
+Archive
+
+
+Patents
+Public Data
+Scholar
+Shopping
+Tenor
+Usenet
+Videos
+
+
+
+
+Algorithms
+
+
+
+PageRank
+Panda
+Penguin
+Hummingbird
+
+
+
+
+
+Features
+
+
+
+Personalized
+Real-Time
+Instant Search
+SafeSearch
+Voice Search
+
+
+
+
+
+Analysis
+
+
+
+Insights for Search
+Trends
+Knowledge Graph
+Knowledge Vault
+
+
+
+
+
+
+
+
+Discontinued
+
+
+
+Aardvark
+Answers
+Ara
+Browser Sync
+Base
+Buzz
+Checkout
+Chrome Frame
+Click-to-Call
+Cloud Connect
+Code Search
+Currents
+Desktop
+Dictionary
+Directory
+Dodgeball
+Fast Flip
+Friend Connect
+Gears
+Glass
+Glass OS
+GOOG-411
+Google TV
+Jaiku
+Knol
+Health
+iGoogle
+Image Labeler
+Labs
+Latitude
+Lively
+Mashup Editor
+Notebook
+Offers
+Orkut
+Pack
+Page Creator
+Panoramio
+Picasa
+Picasa Web Albums
+Picnik
+PowerMeter
+Questions and Answers
+Reader
+Script Converter
+SearchWiki
+Sidewiki
+Slide
+Squared
+Talk
+Toolbar
+Updater
+Urchin
+Videos
+Wallet
+Wave
+Web Accelerator
+
+
+
+
+
+Other
+
+
+
+Arts & Culture
+Calico
+Current
+Chrome Experiments
+Code-in
+Code Jam
+Developer Day
+Google Business Groups
+Made with Code
+Data Liberation
+
+Takeout
+
+
+Google Developer Expert
+Google for Work
+Self-driving car
+Earth Outreach
+Fiber
+GV
+"Google"
+Google China
+Google Express
+Googlization
+Grants
+Google.org
+Lunar X Prize
+Project Fi
+Material Design
+Motorola Mobility
+reCAPTCHA
+WiFi
+X
+
+
+
+
+Events
+
+
+
+Science Fair
+Searchology
+I/O
+Developer Day
+Code Jam
+Highly Open Participation Contest
+Code-in
+
+
+
+
+
+Projects
+
+
+
+Loon
+Tango
+Sunroof
+
+
+
+
+
+Real estate
+
+
+
+111 Eighth Avenue
+Chelsea Market
+Googleplex
+
+
+
+
+
+Logo
+
+
+
+Doodle4Google
+Google Doodles
+
+
+
+
+
+
+
+
+People
+
+
+
+Al Gore
+Alan Eustace
+Alan Mulally
+Amit Singhal
+Ann Mather
+David Drummond
+Eric Schmidt
+Jeff Dean
+John Doerr
+John L. Hennessy
+Krishna Bharat
+Matt Cutts
+Patrick Pichette
+Paul Otellini
+Omid Kordestani
+Rachel Whetstone
+Rajen Sheth
+Ram Shriram
+Ray Kurzweil
+Ruth Porat
+Salar Kamangar
+Sanjay Ghemawat
+Shirley M. Tilghman
+Sundar Pichai
+Susan Wojcicki
+Urs Hölzle
+Vint Cerf
+Hal Varian
+Gayglers
+
+
+
+
+Founders
+
+
+
+Larry Page
+Sergey Brin
+
+
+
+
+
+
+
+
+Related
+
+
+
+AI Challenge
+Bomb
+GmailFS
+"Google: Behind the Screen" (2006 documentary)
+Google: The Thinking Factory (2008 documentary)
+Google and the World Brain (2013 documentary)
+Goojje
+Monopoly City Streets
+Unity
+
+
+
+
+
+
+
+
+ Category
+ Portal
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Rob Pike
+
+
+
+Operating systems
+
+
+
+Plan 9 from Bell Labs
+Inferno
+
+
+
+
+
+Programming languages
+
+
+
+Newsqueak
+Limbo
+Go
+Sawzall
+
+
+
+
+
+Software
+
+
+
+acme
+Blit
+sam
+rio
+8½
+
+
+
+
+
+Publications
+
+
+
+The Practice of Programming
+The Unix Programming Environment
+
+
+
+
+
+Other
+
+
+
+Renée French
+Mark V. Shaney
+UTF-8
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Ken Thompson
+
+
+
+Operating systems
+
+
+
+Unix
+Plan 9 from Bell Labs
+
+
+
+
+
+Programming languages
+
+
+
+B
+Bon
+Go
+
+
+
+
+
+Software
+
+
+
+Belle
+ed
+grep
+sam
+Space Travel
+Thompson shell
+
+
+
+
+
+Other
+
+
+
+UTF-8
+
+
+
+
+
+
+
+
+
+Authority control
+
+
+
+LCCN: sh2012000746
+GND: 7725033-3
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Go_(programming_language)&oldid=833381482"					
+				Categories: American inventionsC programming language familyConcurrent programming languagesCross-platform softwareFree compilers and interpretersGoogle softwareProcedural programming languagesProgramming languages created in 2009Software using the BSD licenseStatically typed programming languagesSystems programming languagesProgramming languagesGo (programming language)High-level programming languages2009 softwareCross-platform free softwareHidden categories: All articles with unsourced statementsArticles with unsourced statements from December 2016Articles that may contain original research from January 2018All articles that may contain original researchArticles lacking reliable references from November 2015All articles lacking reliable referencesAll articles with self-published sourcesArticles with self-published sources from November 2015Articles with unsourced statements from July 2016Articles with unsourced statements from November 2015Articles prone to spam from June 2013Wikipedia articles with LCCN identifiersWikipedia articles with GND identifiersUse dmy dates from August 2011				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia Commons				
+							
+		
+			
+			Languages
+			
+								
+					AfrikaansالعربيةবাংলাБългарскиCatalàČeštinaDanskDeutschEspañolEuskaraفارسیFrançaisગુજરાતી한국어ՀայերենBahasa IndonesiaÍslenskaItalianoעבריתMagyarBahasa MelayuNederlands日本語NorskPolskiPortuguêsРусскийSlovenščinaСрпски / srpskiSuomiSvenskaதமிழ்TürkçeУкраїнськаاردوTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 31 March 2018, at 06:03.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.016","walltime":"1.321","ppvisitednodes":{"value":9011,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":276444,"limit":2097152},"templateargumentsize":{"value":16041,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":11,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":108485,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 1152.311      1 -total"," 37.80%  435.531      2 Template:Reflist"," 22.11%  254.794     69 Template:Cite_web"," 16.29%  187.663     18 Template:Citation_needed"," 15.35%  176.931     19 Template:Fix","  9.02%  103.906      2 Template:Infobox","  8.94%  103.009     19 Template:Delink","  7.94%   91.456      1 Template:Infobox_programming_language","  5.62%   64.737     37 Template:Category_handler","  3.37%   38.888      7 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.529","limit":"10.000"},"limitreport-memusage":{"value":7727192,"limit":52428800}},"cachereport":{"origin":"mw1254","timestamp":"20180402011255","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":1422,"wgHostname":"mw1254"});});
+	
+

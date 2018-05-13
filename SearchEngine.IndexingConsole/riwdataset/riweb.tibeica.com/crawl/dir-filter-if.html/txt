@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.2.1 PythonInputFilter
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.2 Filters
+Up:
+5.2 Filters
+Next:
+5.2.2 PythonOutputFilter
+
+
+
+
+ 
+ 
+
+5.2.1 PythonInputFilter
+
+
+
+Syntax:
+PythonInputFilter handler name
+Context:
+server config
+Module:
+mod_python.c
+
+
+Registers an input filter handler under name
+name. Handler is a module name optionally followed
+:: and a callable object name. If callable object name is
+omitted, it will default to "inputfilter". Name is the name under
+which the filter is registered, by convention filter names are usually
+in all caps.
+
+
+To activate the filter, use the AddInputFilter directive.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.2 Filters
+Up:
+5.2 Filters
+Next:
+5.2.2 PythonOutputFilter
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

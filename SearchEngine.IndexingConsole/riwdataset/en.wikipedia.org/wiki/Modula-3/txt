@@ -1,0 +1,597 @@
+
+
+
+
+Modula-3 - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Modula-3","wgTitle":"Modula-3","wgCurRevisionId":827985116,"wgRevisionId":827985116,"wgArticleId":241545,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using deprecated image syntax","Articles to be expanded from July 2011","All articles to be expanded","Articles using small message boxes","All articles with unsourced statements","Articles with unsourced statements from March 2014","Webarchive template wayback links","Wikipedia articles with GND identifiers","Modula programming language family","Object-oriented programming languages","Systems programming languages","Programming languages created in 1988"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Modula-3","wgRelevantArticleId":241545,"wgRequestId":"WsEAOQpAIEIAAEaozJcAAAAB","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1928222","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Modula-3			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+Modula-3
+
+
+
+
+Paradigm
+imperative, structured, procedural, modular, concurrent
+
+
+Designed by
+DEC and Olivetti
+
+
+Developer
+elego Software Solutions GmbH
+
+
+First appeared
+1980s
+
+
+
+
+
+Stable release
+
+5.8.6 / July 14, 2010
+
+
+
+Preview release
+
+5.8.6 / July 14, 2010
+
+
+
+
+
+
+Typing discipline
+strong, static, safe or if unsafe explicitly safe isolated
+
+
+OS
+Cross-platform (multi-platform)
+
+
+License
+Open source
+
+
+Website
+[1]
+
+
+Major implementations
+
+
+SRC Modula-3, CM3, PM3, EZM3, M3/PC Klagenfurt
+
+
+Dialects
+
+
+functional, persistent, multimedia, parallel, distributed and Network Modula-3
+
+
+Influenced by
+
+
+Modula-2+, Modula-2, Pascal, ALGOL, Oberon, Mesa, Euclid
+
+
+Influenced
+
+
+Java, Python,[1] Caml, C#, Nim[2]
+
+
+Modula-3 is a programming language conceived as a successor to an upgraded version of Modula-2 known as Modula-2+. While it has been influential in research circles (influencing the designs of languages such as Java, C#, and Python) it has not been adopted widely in industry. It was designed by Luca Cardelli, James Donahue, Lucille Glassman, Mick Jordan (before at the Olivetti Software Technology Laboratory), Bill Kalsow and Greg Nelson at the Digital Equipment Corporation (DEC) Systems Research Center (SRC) and the Olivetti Research Center (ORC) in the late 1980s.
+Modula-3's main features are simplicity and safety while preserving the power of a systems-programming language. Modula-3 aimed to continue the Pascal tradition of type safety, while introducing new constructs for practical real-world programming. In particular Modula-3 added support for generic programming (similar to templates), multithreading, exception handling, garbage collection, object-oriented programming, partial revelation and explicit mark of unsafe code. The design goal of Modula-3 was a language that implements the most important features of modern imperative languages in quite basic forms. Thus allegedly dangerous and complicating features such as multiple inheritance and operator overloading were omitted.
+
+
+
+Contents
+
+
+1 Historical development
+2 Syntax
+3 Language features
+
+3.1 Modularity
+3.2 Safe vs Unsafe
+3.3 Generics
+3.4 Traceability
+3.5 Dynamic Programming
+3.6 Object Oriented
+3.7 Exceptions
+3.8 Multi-Threaded
+3.9 Summary
+
+
+4 Standard library features
+5 Implementations
+6 Books
+7 Projects using Modula-3
+8 Influences on other Programming Languages
+9 References
+10 External links
+
+
+
+Historical development[edit]
+The Modula-3 project started in November 1986 when Maurice Wilkes wrote to Niklaus Wirth with some ideas for a new version of Modula. Wilkes had been working at DEC just prior to this point, and had returned to England and joined Olivetti's Research Strategy Board. Wirth had already moved on to Oberon, but had no problems with Wilkes's team continuing development under the Modula name. The language definition was completed in August 1988, and an updated version in January 1989. Compilers from DEC and Olivetti soon followed, and 3rd party implementations after that.
+Its design was heavily influenced by work on the Modula-2+ language in use at SRC and at the Acorn Computers Research Center (ARC, later ORC when Olivetti bought out Acorn) at the time, which was the language in which the operating system for the DEC Firefly multiprocessor VAX workstation was written and in which the Acorn Compiler for Acorn C and Modula Execution Library (CAMEL) at ARC for the ARX operating system project of ARM based Acorn Archimedes range of computers was written. As the revised Modula-3 Report states, the language was influenced by other languages such as Mesa, Cedar, Object Pascal, Oberon and Euclid.[3]
+During the 1990s, Modula-3 gained considerable currency as a teaching language, but it was never widely adopted for industrial use. Contributing to this may have been the demise of DEC, a key Modula-3 supporter (specially when it ceased to maintain it effectively any more before DEC was sold to Compaq in 1998). In any case, in spite of Modula-3's simplicity and power, it appears that there was little demand for a procedural compiled language with restricted implementation of object-oriented programming. For a time, a commercial compiler called CM3 maintained by one of the chief implementors prior at DEC SRC who was hired before DEC being sold to Compaq, an integrated development environment called Reactor and an extensible Java Virtual Machine (licensed in binary and source formats and buildable with Reactor) were offered by Critical Mass, Inc., but that company ceased active operations in 2000 and gave some of the sources of its products to elego Software Solutions GmbH. Modula-3 is now taught in universities mostly in comparative programming language courses, and its textbooks are out of print. Essentially the only corporate supporter of Modula-3 is elego Software Solutions GmbH, which inherited the sources from Critical Mass and has since made several releases of the CM3 system in source and binary form. The Reactor IDE has been open source released after several years it had not, with the new name CM3-IDE. In March 2002 elego also took over the repository of another active Modula-3 distribution, PM3, till then maintained at the École Polytechnique de Montréal but which later continued by the work on HM3 improved over the years later until it was obsoleted.
+Syntax[edit]
+
+
+
+
+This section needs expansion. You can help by adding to it. (July 2011)
+
+
+
+A common example of a language's syntax is the Hello world program.
+
+
+ MODULE Main; 
+ IMPORT IO;
+ BEGIN
+   IO.Put("Hello World\n")
+ END Main.
+
+All programs in Modula-3 have at least a module file, while most also include an interface file that is used by clients to access data from the module. Like in other languages, a Modula-3 program must export a Main module, which can either be a file named Main.m3, or a file can call EXPORT to export the Main module.
+
+
+MODULE Foo EXPORTS Main
+
+Module file names are suggested to be the same as the actual module name, but the compiler will only warn you if they are different.
+Other conventions in the syntax include naming the exported type of an interface T, since types are usually qualified by their full names, so a type T inside a module named Foo will be named Foo.T. This aids in readability. Another similar convention is naming a public object Public as in the OOP examples above.
+Language features[edit]
+Modularity[edit]
+First and foremost, all compilation units are either INTERFACE or implementation MODULEs, of one flavor or another. An interface compilation unit, beginning with the keyword INTERFACE, defines constants, types, variables, exceptions, and procedures. The implementation module, beginning with the keyword MODULE, provides the actual code, and any further constants, types, or variables needed to implement the interface. By default an implementation module will implement the interface of the same name, but a module may explicitly EXPORT to a module not of the same name. For example, the main program exports an implementation module for the Main interface.
+
+
+ MODULE HelloWorld EXPORTS Main; 
+ IMPORT IO;
+ BEGIN
+   IO.Put("Hello World\n")
+ END HelloWorld.
+
+Any compilation unit may IMPORT other interfaces, although circular imports are forbidden. This may be resolved by doing the import from the implementation MODULE. The entities within the imported module may be imported, instead of just the module name, using the FROM Module IMPORT Item [, Item]* syntax:
+
+
+ MODULE HelloWorld EXPORTS Main; 
+ FROM IO IMPORT Put;
+ BEGIN
+   Put("Hello World\n")
+ END HelloWorld.
+
+Typically, one only imports the interface, and uses the 'dot' notation to access the items within the interface (similar to accessing the fields within a record). A typical usage is to define one data structure (record or object) per interface along with any support procedures. Here the main type will get the name 'T', and one uses as in MyModule.T.
+In the event of a name collision between an imported module and other entity within the module, the reserved word AS can be used as in IMPORT CollidingModule AS X;
+Safe vs Unsafe[edit]
+Some capability is deemed unsafe, where the compiler can no longer guarantee the results will be consistent (for example, when interfacing to the C programming language). The keyword UNSAFE prefixed in front of INTERFACE or MODULE, may be used to tell the compiler to enable certain low level features of the language. For example, an unsafe operation is bypassing the type system using LOOPHOLE to copy the bits of an integer into a floating point REAL number.
+An interface that imports an unsafe module must itself be unsafe. A safe interface may be exported by an unsafe implementation module. This is the typical usage when interfacing to external libraries, where two interfaces are built (one unsafe, the other safe).
+Generics[edit]
+A generic interface and its corresponding generic module, prefix the INTERFACE or MODULE keyword with GENERIC, and take as formal arguments other interfaces. Thus (like C++ templates) one can easily define and use abstract data types, but unlike C++, the granularity is at the module level. An interface is passed to the generic interface and implementation modules as actual arguments, and the compiler will generate concrete modules.
+For example, one could define a GenericStack, then instantiate it with interfaces such as IntegerElem, or RealElem or even interfaces to Objects, as long as each of those interfaces defines the properties required by the generic modules.
+NOTE: The bare types INTEGER, or REAL can't be used, because they are not modules, and the system of generics is based upon using modules as arguments. By comparison, in a C++ template, a bare type would be used.
+FILE: IntegerElem.i3
+
+
+ INTERFACE IntegerElem;
+ CONST Name = "Integer";
+ TYPE T = INTEGER;
+ PROCEDURE Format(x: T): TEXT;
+ PROCEDURE Scan(txt: TEXT; VAR x: T): BOOLEAN;
+ END IntegerElem.
+
+FILE: GenericStack.ig
+
+
+ GENERIC INTERFACE GenericStack(Element);
+ (* Here Element.T is the type to be stored in the generic stack. *)
+ TYPE
+    T = Public OBJECT;
+    Public = OBJECT
+    METHODS
+        init(): TStack;
+        format(): TEXT;
+        isEmpty(): BOOLEAN;
+        count(): INTEGER;
+        push(elm: Element.T);
+        pop(VAR elem: Element.T): BOOLEAN;
+    END;
+ END GenericStack.
+
+FILE: GenericStack.mg
+
+
+ GENERIC MODULE GenericStack(Element);
+ < ... generic implementation details... >
+ PROCEDURE Format(self: T): TEXT =
+ VAR
+    str: TEXT;
+ BEGIN
+    str := Element.Name & "Stack{";
+    FOR k := 0 TO self.n -1 DO
+        IF k > 0 THEN str := str & ", "; END;
+            str := str & Element.Format(self.arr[k]);
+    END;
+    str := str & "};";
+    RETURN str;
+ END Format;
+ < ... more generic implementation details... >
+ END GenericStack.
+
+FILE: IntegerStack.i3
+
+
+INTERFACE IntegerStack = GenericStack(IntegerElem) END IntegerStack.
+
+FILE: IntegerStack.m3
+
+
+MODULE IntegerStack = GenericStack(IntegerElem) END IntegerStack.
+
+Traceability[edit]
+Any identifier can be traced back to where it originated, unlike the 'include' feature of other languages. A compilation unit must import identifiers from other compilation units, using an IMPORT statement. Even enumerations make use of the same 'dot' notation as used when accessing a field of a record.
+
+
+INTERFACE A;
+
+TYPE Color = {Black, Brown, Red, Orange, Yellow, Green, Blue, Violet, Gray, White};
+
+END A;
+
+
+
+MODULE B;
+
+IMPORT A;
+FROM A IMPORT Color;
+
+VAR
+  aColor: A.Color;  (* Uses the module name as a prefix *)
+  theColor: Color;  (* Does not have the module name as a prefix *)
+  anotherColor: A.Color;
+
+BEGIN
+  aColor := A.Color.Brown;
+  theColor := Color.Red;
+  anotherColor := Color.Orange;  (* Can't simply use Orange *)
+END B.
+
+Dynamic Programming[edit]
+Modula-3 supports the allocation of data at runtime. There are two kinds of memory that can be allocated TRACED and UNTRACED, the difference being whether the garbage collector can see it or not. NEW() is used to allocate data of either of these classes of memory. In an UNSAFE module, DISPOSE is available to free untraced memory.
+Object Oriented[edit]
+Object Oriented Programming techniques may be used in Modula-3, but their use is not required. Many of the other features provided in Modula-3 (modules, generics) can usually take the place of object orientation.
+Object support is intentionally kept to its simplest terms. An object type (Termed a "class" in other object oriented languages) is introduced with the OBJECT declaration, which has essentially the same syntax as a RECORD declaration, although an object type is a reference type, whereas RECORDs in Modula-3 are not (similar to structs in C). Exported types are usually named T by convention, and create a separate "Public" type to expose the methods and data. For instance:
+
+
+INTERFACE Person;
+
+TYPE T <: Public;
+  Public = OBJECT 
+  METHODS
+    getAge(): INTEGER;
+    init(name: TEXT; age: INTEGER): T;
+  END;
+
+END Person.
+
+This defines an interface Person with two types, T, and Public, which is defined as an object with two methods, getAge() and init(). T is defined as a subtype of Public by the use of the <: operator.
+To create a new Person.T object, we use the built in procedure NEW with the method init() as
+
+
+VAR jim := NEW(Person.T).init("Jim", 25);
+
+Modula-3's REVEAL construct provides a conceptually simple and clean yet very powerful mechanism for hiding implementation details from clients, with arbitrarily many levels of "friendliness". We use REVEAL to show the full implementation of the Person interface from above.
+
+
+MODULE Person;
+
+REVEAL T = Public BRANDED 
+OBJECT 
+  name: TEXT;   (* These two variables *)
+  age: INTEGER; (* are private. *)
+OVERRIDES
+  getAge := Age;
+  init := Init;
+END;
+
+PROCEDURE Age(self: T): INTEGER =
+  BEGIN
+    RETURN self.age;
+  END Age;
+
+PROCEDURE Init(self: T; name: TEXT; age: INTEGER): T =
+  BEGIN
+    self.name := name;
+    self.age := age;
+  RETURN self;
+  END Init;
+
+BEGIN
+END Person.
+
+Note the use of the BRANDED keyword, which "brands" objects to make them unique as to avoid structural equivalence. BRANDED can also take a string as an argument, but when omitted, a unique string is generated for you.
+Modula-3 is one of the few programming languages that requires that external references from a module be strictly qualified. That is, a reference in module A to the object x exported from module B must take the form B.x. It is not possible in Modula-3 to import "all exported names" from a module.
+Because of the language's requirements on name qualification and method overriding, it is impossible to break a working program simply by adding new declarations to an interface (any interface). This makes it possible for large programs to be edited concurrently by many programmers without any worries about naming conflicts; and it also makes it possible to edit core language libraries with the firm knowledge that no existing programs will be "broken" in the process.
+Exceptions[edit]
+Exception handling is based on a TRY...EXCEPT block system, which has since[citation needed] become common. One feature that has not been adopted in other languages[citation needed], with the notable exceptions of Delphi, Python[2], Scala[3] and Visual Basic.NET, is that the EXCEPT construct defined a form of switch statement with each possible exception as a case in its own EXCEPT clause. Modula-3 also supports a LOOP...EXIT...END construct that loops until an EXIT occurs, a structure equivalent to a simple loop inside a TRY...EXCEPT clause.
+Multi-Threaded[edit]
+The language supports the use of multi-threading, and synchronization between threads. There is a standard module within the runtime library (m3core) named Thread, which supports the use of multi-threaded applications. In fact, the Modula-3 runtime may make use of a separate thread for internal tasks such as garbage collection.
+A built-in data structure MUTEX is used to synchronize multiple threads and protect data structures from simultaneous access with possible corruption or race conditions. The LOCK and corresponding UNLOCK statements, lock and unlock a MUTEX. The MUTEX is an object, and as such, other objects may be derived from it.
+For example, in the I/O section of the libm3 library, readers and writers (Rd.T, and Wr.T) are derived from MUTEX, and they lock themselves before accessing or modifying any internal data such as buffers.
+Summary[edit]
+In summary, the language features:
+
+Modules and interfaces
+Explicit marking of unsafe code
+Generics
+Automatic garbage collection
+Strong typing, structural equivalence of types
+Objects
+Exceptions
+Threads
+
+Modula-3 is one of the rare languages whose evolution of features is documented.
+In Systems Programming with Modula-3, four essential points of the language design are intensively discussed. These topics are: structural vs. name equivalence, subtyping rules, generic modules, and parameter modes like READONLY.
+Standard library features[edit]
+Continuing a trend started with the C programming language, many of the features required to write real programs were left out of the language definition itself and instead provided via a number of standard libraries. Most of the interfaces below are described in detail in[4]
+Standard libraries providing the following features. These are called standard interfaces and are required (must be provided) in the language.
+
+Text: Operations on immutable string references, called TEXTs
+Thread: Operations relating to threading, including MUTEX, condition variable, and thread pausing. The threading library provides pre-emptive threads switching
+Word: Bitwise operations on unsigned integers (or machine words). Normally implemented directly by the compiler
+Floating-point interfaces
+
+Some recommended interfaces implemented in the available implementations but are not required
+
+Lex: For parsing number and other data
+Fmt: Formatting various datatypes for printing
+Pkl (or Pickle): Object serialization of any reference types reachable by the garbage collector
+Table: Generic modules for maps
+
+As in C, I/O is also provided via libraries, in Modula-3 called Rd and Wr. The object-oriented design of the Rd and Wr (readers and writers respectively) libraries is covered in detail in the book by Greg Nelson. An interesting aspect of Modula-3 is that it is one of few programming languages whose standard libraries have been formally verified not to contain various types of bugs, including locking bugs. This was done under the auspices of the Larch/Modula-3 (see Larch family)[5] and Extended static checking[6] projects at DEC Systems Research Center.
+Implementations[edit]
+Several compilers are available, most of them open source.
+
+DEC-SRC M3, the original.[7]
+Olivetti Research Center (ORC) Modula-3 toolkit, originally a compiler, now available as a library for syntactic, lexical and semantic analysis of Modula-3 programs.[8]
+Critical Mass CM3, a different successor of DEC-SRC M3
+Polytechnique Montreal Modula-3 PM3, a successor of DEC-SRC M3, currently merging with CM3
+EzM3, an independent lightweight and easily portable implementation, developed in connection with CVSup
+HM3, a successor of the pm3-1.1.15 release of PM3, with support of native threading using NPTL
+CM3, the successor to Critical Mass CM3. This is the only up to date, maintained and developed implementation. Releases are available from http://www.opencm3.net/releng/.
+
+Since the only aspect of C data structures that is missing from Modula-3 is the union type, all existing Modula-3 implementations are able to provide good binary compatibility with C language type declarations of arrays and structs.
+Books[edit]
+None of these books are still in print, although used copies are obtainable and some are digitized or partially digitized and some chapters of one them have previous or posterior versions obtainable as research reports from web.
+
+Greg Nelson, ed. Systems Programming with Modula-3 The definitive reference on the Modula-3 language with interesting articles on object-oriented systems software construction and a documentation of the discussion leading to the final features of the language. There are some previously (see[3] for Chapter two,[9] for chapter four,[10] for chapter five,[11] for chapter six) and some posteriorly (see[12] for Chapter one and more updated two, thus of both previous versions of language definition[3] and,[4] for chapter three and[13] for chapter seven) of publishing versions of the majority of its eight chapters individually available from prior DEC Systems Research Center (SRC) as research reports for download.
+Samuel P. Harbison, Modula-3 Easy to use class textbook.
+Robert Sedgewick, Algorithms in Modula-3
+Laszlo Boszormenyi & Carsten Weich, Programming in Modula-3: An Introduction in Programming with Style
+Renzo Orsini, Agostino Cortesi Programmare in Modula-3 : introduzione alla programmazione imperativa e a oggetti an Italian book of the language explaining its main features.
+
+Projects using Modula-3[edit]
+
+The SPIN operating system was implemented using Modula-3 as its programming language.
+The CVSup repository synchronization program was implemented in Modula-3.
+The Obliq programming language which uses Modula-3 network objects ability to migrate objects over local networks transparently, allowing a distributed capability to Modula-3 object oriented programming paradigm. It has been used for building distributed applications, computer animations and web programming applications in the form of scripting extension to Modula-3.
+
+Influences on other Programming Languages[edit]
+Although Modula-3 itself did not gain mainstream status, several parts of the DEC-SRC M3 distribution did. Arguably the most influential part was the Network Objects library, which formed the basis for Java's first RMI implementation, including the actual network protocol. Only when Sun moved to the IIOP based protocol from the CORBA standard, was it dropped. The documentation on garbage collection of remote objects still refer to the pioneering work done for Modula-3 Network Objects.[14] Class mechanism in python is also inspired by the class mechanism found in C++ and Modula-3.[15]
+References[edit]
+
+
+^ https://www.python.org/doc/essays/foreword/ Foreword for "Programming Python" (1st ed.)
+^ http://nim-lang.org/question.html
+^ a b c Modula-3 report (revised) Luca Cardelli, James Donahue, Lucille Glassman, Mick Jordan, Bill Kalsow, Greg Nelson. DEC Systems Research Center (SRC) Research Report 52 (November 1989)
+^ a b Some Useful Modula-3 Interfaces Jim Horning, Bill Kalsow, Paul McJones, Greg Nelson. DEC Systems Research Center (SRC) Research Report 113 (December 1993)
+^ LM3 Kevin D. Jones. DEC Systems Research Center (SRC) Research Report 72 (June 1991)
+^ Extended Static Checking David L. Detlefs, K. Rustan M. Leino, Greg Nelson, James B. Saxe. Compaq SRC Research Report 159 (December 1998)
+^ SRC Modula-3 3.3 Bill Kalsow and Eric Muller. Digital Equipment Corporation (January 1995)
+^ Jordan, Mick (1990). "An extensible programming environment for Modula-3". SIGSOFT Softw. Eng. Notes. 15 (6): 66–76. doi:10.1145/99278.99285. Retrieved 2009-09-08. 
+^ An Introduction to Programming with Threads Andrew D. Birrell. DEC Systems Research Center (SRC) Research Report 35 (January 1989)
+^ Synchronization Primitives for a Multiprocessor: A Formal Specification A. D. Birrell, J. V. Guttag, J. J. Horning, R. Levin. DEC Systems Research Center (SRC) Research Report 20 (August 1987)
+^ IO Streams: Abstract Types, Real Programs Mark R. Brown and Greg Nelson. DEC Systems Research Center (SRC) Research Report 53 (November 1989)
+^ Modula-3 Reference Manual Luca Cardelli, James Donahue, Lucille Glassman, Mick Jordan, Bill Kalsow, Greg Nelson. DEC Systems Research Center (SRC) (February 1995)
+^ Trestle Tutorial Mark S. Manasse and Greg Nelson. DEC Systems Research Center (SRC) Research Report 69 (May 1992)
+^ Garbage Collection of Remote Objects in Java Remote Method Invorcation documentation for Java SE 8
+^ Classes in Python documentation states that.
+
+
+External links[edit]
+
+Modula-3 Resource Page
+CM3 Implementation Website
+Modula-3 Home Page (now long dead, mirror)
+Modula-3: Language definition
+elego Software Solutions
+Modula-3 newsgroup (Mostly deserted)
+Modula-3 Development Mailing List (active)
+Notes from Caltech's CS2 class, taught in Modula-3 in 2002 and 2003.
+Caltech's CS3 class 2009 at the Wayback Machine (archived May 23, 2013).
+mirror Programming in Modula-3: program examples
+Building Distributed OO Applications: Modula-3 Objects at Work. Michel R. Dagenais. Draft Version (January 1997)
+Modula-3: Language, Libraries and Tools. Presentation on Modula-3 over 120 slides. Michael R. Dagenais (dead)
+Object-Oriented Data Abstraction in Modula-3. Joseph Bergin (1997)
+Computerworld Interview with Luca Cardelli on Modula-3
+
+
+
+
+Authority control
+
+
+
+GND: 4294172-6
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Modula-3&oldid=827985116"					
+				Categories: Modula programming language familyObject-oriented programming languagesSystems programming languagesProgramming languages created in 1988Hidden categories: Pages using deprecated image syntaxArticles to be expanded from July 2011All articles to be expandedArticles using small message boxesAll articles with unsourced statementsArticles with unsourced statements from March 2014Webarchive template wayback linksWikipedia articles with GND identifiers				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					ČeštinaDeutschEspañolفارسیItaliano日本語PortuguêsРусский中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 27 February 2018, at 21:55.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.220","walltime":"2.859","ppvisitednodes":{"value":1183,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":22277,"limit":2097152},"templateargumentsize":{"value":3513,"limit":2097152},"expansiondepth":{"value":17,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":24620,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 2810.233      1 -total","  2.40%   67.552      2 Template:Infobox","  2.00%   56.216      1 Template:Infobox_programming_language","  1.75%   49.211      1 Template:Reflist","  1.18%   33.079      1 Template:Expand_section","  1.12%   31.377      1 Template:Cite_journal","  1.08%   30.336      2 Template:Citation_needed","  1.01%   28.320      1 Template:Ambox","  0.94%   26.466      2 Template:Fix","  0.92%   25.936      1 Template:Authority_control"]},"scribunto":{"limitreport-timeusage":{"value":"0.086","limit":"10.000"},"limitreport-memusage":{"value":2644078,"limit":52428800}},"cachereport":{"origin":"mw1332","timestamp":"20180316144357","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":75,"wgHostname":"mw1329"});});
+	
+

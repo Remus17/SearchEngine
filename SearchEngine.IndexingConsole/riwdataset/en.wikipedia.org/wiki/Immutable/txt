@@ -1,0 +1,548 @@
+
+
+
+
+Immutable object - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Immutable_object","wgTitle":"Immutable object","wgCurRevisionId":820893126,"wgRevisionId":820893126,"wgArticleId":197824,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from February 2011","All articles needing additional references","All articles lacking reliable references","Articles lacking reliable references from July 2017","Articles with example C++ code","Articles with example Java code","Articles with example Perl code","Articles with example Python code","Object (computer science)","Functional programming","Articles with example Racket code","Functional data structures"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Immutable_object","wgRelevantArticleId":197824,"wgRequestId":"Wr-3ngpAMFcAACn7oaMAAABL","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Immutable","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Immutable_object","wgWikibaseItemId":"Q23828","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Immutable object			
+				From Wikipedia, the free encyclopedia				  (Redirected from Immutable)
+								
+					Jump to:					navigation, 					search
+				
+				"Immutable" and "Immutability" redirect here. For the Christian doctrine, see Immutability (theology).
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (February 2011) (Learn how and when to remove this template message)
+
+
+
+In object-oriented and functional programming, an immutable object (unchangeable[1] object) is an object whose state cannot be modified after it is created.[2] This is in contrast to a mutable object (changeable object), which can be modified after it is created. In some cases, an object is considered immutable even if some internally used attributes change but the object's state appears to be unchanging from an external point of view. For example, an object that uses memoization to cache the results of expensive computations could still be considered an immutable object.
+Strings and other concrete objects are typically expressed as immutable objects to improve readability and runtime efficiency in object-oriented programming. Immutable objects are also useful because they are inherently thread-safe.[2] Other benefits are that they are simpler to understand and reason about and offer higher security than mutable objects.[2]
+
+
+
+Contents
+
+
+1 Concepts
+
+1.1 Immutable variables
+1.2 Weak vs strong immutability
+1.3 References to objects
+1.4 Copying objects
+1.5 Copy-on-write
+1.6 Interning
+1.7 Thread safety
+1.8 Violating immutability
+
+
+2 Language-specific details
+
+2.1 Ada
+2.2 C#
+2.3 C++
+2.4 Java
+2.5 Perl
+2.6 Python
+2.7 JavaScript
+2.8 Racket
+2.9 Scala
+
+
+3 See also
+4 References
+5 External links
+
+
+
+Concepts[edit]
+Immutable variables[edit]
+In imperative programming, values held in program variables whose content never changes are known as constants to differentiate them from variables that could be altered during execution. Examples include conversion factors from meters to feet, or the value of pi to several decimal places.
+Read-only fields may be calculated when the program runs (unlike constants, which are known beforehand), but never change after they are initialized.
+Weak vs strong immutability[edit]
+Sometimes, one talks of certain fields of an object being immutable. This means that there is no way to change those parts of the object state, even though other parts of the object may be changeable (weakly immutable). If all fields are immutable, then the object is immutable. If the whole object cannot be extended by another class, the object is called strongly immutable.[3] This might, for example, help to explicitly enforce certain invariants about certain data in the object staying the same through the lifetime of the object. In some languages, this is done with a keyword (e.g. const in C++, final in Java) that designates the field to be immutable. In some languages, it is reversed: in OCaml, fields of an object or record are by default immutable and need to be explicitly marked with mutable to be so.
+References to objects[edit]
+In most object-oriented languages, objects can be referred to using references. Some examples of such languages are Java, C++, C#, VB.NET, and many scripting languages, such as Perl, Python, and Ruby. In this case, it matters whether the state of an object can vary when objects are shared via references.
+Copying objects[edit]
+If an object is known to be immutable, it can be copied simply by making a copy of a reference to it instead of copying the entire object. Because a reference (typically only the size of a pointer) is usually much smaller than the object itself, this results in memory savings and a potential boost in execution speed.
+The reference copying technique is much more difficult to use for mutable objects, because if any user of a reference to a mutable object changes it, all other users of that reference will see the change. If this is not the intended effect, it can be difficult to notify the other users to have them respond correctly. In these situations, defensive copying of the entire object rather than the reference is usually an easy but costly solution. The observer pattern is an alternative technique for handling changes to mutable objects.
+Copy-on-write[edit]
+A technique that blends the advantages of mutable and immutable objects, and is supported directly in almost all modern hardware, is copy-on-write (COW). Using this technique, when a user asks the system to copy an object, it will instead merely create a new reference that still points to the same object. As soon as a user attempts to modify the object through a particular reference, the system makes a real copy, applies the modification to that, and sets the reference to refer to the new copy. The other users are unaffected, because they still refer to the original object. Therefore, under COW, all users appear to have a mutable version of their objects, although in the case that users do not modify their objects, the space-saving and speed advantages of immutable objects are preserved. Copy-on-write is popular in virtual memory systems because it allows them to save memory space while still correctly handling anything an application program might do.
+Interning[edit]
+The practice of always using references in place of copies of equal objects is known as interning. If interning is used, two objects are considered equal if and only if their references, typically represented as pointers or integers, are equal. Some languages do this automatically: for example, Python automatically interns short strings. If the algorithm that implements interning is guaranteed to do so in every case that it is possible, then comparing objects for equality is reduced to comparing their pointers – a substantial gain in speed in most applications. (Even if the algorithm is not guaranteed to be comprehensive, there still exists the possibility of a fast path case improvement when the objects are equal and use the same reference.) Interning is generally only useful for immutable objects.
+Thread safety[edit]
+Immutable objects can be useful in multi-threaded applications. Multiple threads can act on data represented by immutable objects without concern of the data being changed by other threads. Immutable objects are therefore considered to be more thread-safe than mutable objects.
+Violating immutability[edit]
+Immutability does not imply that the object as stored in the computer's memory is unwriteable. Rather, immutability is a compile-time construct that indicates what a programmer can do through the normal interface of the object, not necessarily what they can absolutely do (for instance, by circumventing the type system or violating const correctness in C or C++).
+Language-specific details[edit]
+In Python, Java and the .NET Framework, strings are immutable objects. Both Java and the .NET Framework have mutable versions of string. In Java these are StringBuffer and StringBuilder (mutable versions of Java String) and in .NET this is StringBuilder (mutable version of .Net String). Python 3 has a mutable string (bytes) variant, named bytearray.[4]
+Additionally, all of the primitive wrapper classes in Java are immutable.
+Similar patterns are the Immutable Interface and Immutable Wrapper.
+In pure functional programming languages it is not possible to create mutable objects without extending the language (e.g. via a mutable references library or a foreign function interface), so all objects are immutable.
+Ada[edit]
+In Ada, any object is declared either variable (i.e. mutable; typically the implicit default), or constant (i.e. immutable) via the constant keyword.
+
+
+  type Some_type is new Integer; -- could be anything more complicated
+  x: constant Some_type:= 1; -- immutable
+  y: Some_type; -- mutable
+
+Subprogram parameters are immutable in the in mode, and mutable in the in out and out modes.
+
+
+  procedure Do_it(a: in Integer; b: in out Integer; c: out Integer) is
+  begin
+    -- a is immutable
+    b:= b + a;
+    c:= a;
+  end Do_it;
+
+C#[edit]
+In C# you can enforce immutability of the fields of a class with the readonly statement. By enforcing all the fields to be immutable, you will obtain an immutable type.
+
+
+class AnImmutableType
+{
+    public readonly double _value;
+    public AnImmutableType(double x) 
+    { 
+      _value = x; 
+    }
+    public AnImmutableType Square() 
+    { 
+      return new AnImmutableType(_value*_value); 
+    }
+}
+
+C++[edit]
+In C++, a const-correct implementation of Cart would allow the user to declare new instances of the class as either const (immutable) or mutable, as desired, by providing two different versions of the getItems() method. (Notice that in C++ it is not necessary — and in fact impossible — to provide a specialized constructor for const instances.)
+
+
+template<typename T>
+class Cart {
+  private:
+   std::vector<T> items;
+
+  public:
+   Cart(const std::vector<T>& v): items(v) { }
+
+   std::vector<T>& getItems() { return items; }
+   const std::vector<T>& getItems() const { return items; }
+   int total() const { /* return sum of the prices */ }
+ };
+
+Note that, if there were a field that is a pointer or reference to another object, then it might still be possible to mutate the object pointed to by such a pointer or reference within a const method, without violating const-correctness. It can be argued that in such a case the object is not really immutable.
+C++ also provides abstract (as opposed to bitwise) immutability via the mutable keyword, which allows a member variable to be changed from within a const method.
+
+
+template<typename T>
+class Cart {
+  private:
+   std::vector<T> items;
+   mutable int    costInCents;
+   mutable bool   totaled;
+
+  public:
+   Cart(const std::vector<T>& v): items(v), totaled(false) { }
+
+   const std::vector<T>& getItems() const { return items; }
+   int total() const {
+      if (!totaled) {
+         costInCents = 0;
+         for (std::vector<T>::const_iterator itor = items.begin(); itor != items.end(); ++itor)
+            costInCents += itor->costInCents();
+
+         totaled = true;
+      }
+      return costInCents;
+   }
+ };
+
+Java[edit]
+A classic example of an immutable object is an instance of the Java String class
+
+
+String s = "ABC";
+s.toLowerCase();
+
+The method toLowerCase() will not change the data "ABC" that s contains. Instead, a new String object is instantiated and given the data "abc" during its construction. A reference to this String object is returned by the toLowerCase() method. To make the String s contain the data "abc", a different approach is needed.
+
+
+s = s.toLowerCase();
+
+Now the String s references a new String object that contains "abc". There is nothing in the syntax of the declaration of the class String that enforces it as immutable; rather, none of the String class's methods ever affect the data that a String object contains, thus making it immutable.
+The keyword final (detailed article) is used in implementing immutable primitive types and object references,[5] but it cannot, by itself, make the objects themselves immutable. See below examples:
+Primitive type variables (int, long, short, etc.) can be reassigned after being defined. This can be prevented by using final.
+
+
+int i = 42; //int is of primitive type
+i = 43; // OK
+
+final int j = 42;
+j = 43; // does not compile. j is final so can't be reassigned
+
+Reference types cannot be made immutable just by using the final keyword. final only prevents reassignment.
+
+
+final MyObject m = new MyObject(); //m is of reference type
+m.data = 100; // OK. We can change state of object m (m is mutable and final doesn't change this fact)
+m = new MyObject(); // does not compile. m is final so can't be reassigned
+
+Primitive wrappers (Integer, Long, Short, Double, Float, Character, Byte, Boolean) are also all immutable. Immutable classes can be implemented by following a few simple guidelines.[6]
+Perl[edit]
+In Perl, one can create an immutable class with the Moo library by simply declaring all the attributes to be read only:
+
+
+package Immutable;
+use Moo;
+
+has value => (
+    is      => 'ro',   # read only
+    default => 'data', # can be overridden by supplying the constructor with
+                       # a value: Immutable->new(value => 'something else');
+);
+
+1;
+
+Creating an immutable class used to require two steps: first, creating accessors (either automatically or manually) that prevent modification of object attributes, and secondly, preventing direct modification of the instance data of instances of that class (this was usually stored in a hash reference, and could be locked with Hash::Util's lock_hash function):
+
+
+package Immutable;
+use strict;
+use warnings;
+use base qw(Class::Accessor);
+# create read-only accessors
+__PACKAGE__->mk_ro_accessors(qw(value));
+use Hash::Util 'lock_hash';
+
+sub new {
+    my $class = shift;
+    return $class if ref($class);
+    die "Arguments to new must be key => value pairs\n"
+        unless (@_ % 2 == 0);
+    my %defaults = (
+        value => 'data',
+    );
+    my $obj = {
+        %defaults,
+        @_,
+    };
+    bless $obj, $class;
+    # prevent modification of the object data
+    lock_hash %$obj;
+}
+1;
+
+Or, with a manually written accessor:
+
+
+package Immutable;
+use strict;
+use warnings;
+use Hash::Util 'lock_hash';
+
+sub new {
+    my $class = shift;
+    return $class if ref($class);
+    die "Arguments to new must be key => value pairs\n"
+        unless (@_ % 2 == 0);
+    my %defaults = (
+        value => 'data',
+    );
+    my $obj = {
+        %defaults,
+        @_,
+    };
+    bless $obj, $class;
+    # prevent modification of the object data
+    lock_hash %$obj;
+}
+
+# read-only accessor
+sub value {
+    my $self = shift;
+    if (my $new_value = shift) {
+        # trying to set a new value
+        die "This object cannot be modified\n";
+    } else {
+        return $self->{value}
+    }
+}
+1;
+
+Python[edit]
+In Python, some built-in types (numbers, booleans, strings, tuples, frozensets) are immutable, but custom classes are generally mutable. To simulate immutability in a class, one should override attribute setting and deletion to raise exceptions:
+
+
+class ImmutablePoint(object):
+    """An immutable class with 2 attributes 'x', 'y'."""
+
+    __slots__ = ['x', 'y']
+
+    def __setattr__(self, *args):
+        raise TypeError("Can not modify immutable instance")
+
+    __delattr__ = __setattr__
+
+    def __init__(self, x, y):
+        # We can no longer use self.value = value to store the instance data
+        # so we must explicitly call the superclass
+        super(ImmutablePoint, self).__setattr__('x', x)
+        super(ImmutablePoint, self).__setattr__('y', y)
+
+The standard library helper namedtuple creates simple immutable classes:
+
+
+Point = collections.namedtuple('Point', ['x', 'y'])
+
+is roughly equivalent to the above, plus some tuple-like features.
+JavaScript[edit]
+In JavaScript, some built-in types (numbers, strings) are immutable, but custom objects are generally mutable.
+
+
+function doSomething(x) { /* does changing x here change the original? */ };
+var str = 'a string';
+var obj = { an: 'object' };
+doSomething(str);         // strings, numbers and bool types are immutable, function gets a copy
+doSomething(obj);         // objects are passed in by reference and are mutable inside function
+doAnotherThing(str, obj); // `str` has not changed, but `obj` may have.
+
+To simulate immutability in an object, one may define properties as read-only (writable: false).
+
+
+var obj = {};
+Object.defineProperty(obj, 'foo', { value: 'bar', writable: false });
+obj.foo = 'bar2'; // silently ignored
+
+However, the approach above will still allow new properties to be added. Alternatively, one may use Object.freeze to make existing objects immutable.
+
+
+var obj = { foo: 'bar' };
+Object.freeze(obj);
+obj.foo = 'bars'; // cannot edit property, silently ignored
+obj.foo2 = 'bar2'; // cannot add property, silently ignored
+
+The use of immutable state has become a rising trend in JavaScript since the introduction of React, which favours Flux-like state management patterns such as Redux.[7]
+Racket[edit]
+Racket substantially diverges from other Scheme implementations by making its core pair type ("cons cells") immutable. Instead, it provides a parallel mutable pair type, via mcons, mcar, set-mcar! etc. In addition, many immutable types are supported, for example, immutable strings and vectors, and these are used extensively. New structs are immutable by default, unless a field is specifically declared mutable, or the whole struct:
+
+
+(struct foo1 (x y))             ; all fields immutable
+(struct foo2 (x [y #:mutable])) ; one mutable field
+(struct foo3 (x y) #:mutable)   ; all fields mutable
+
+The language also supports immutable hash tables, implemented functionally, and immutable dictionaries.
+Scala[edit]
+In Scala, any entity (narrowly, a binding) can be defined as mutable or immutable: in the declaration, one can use val (value) for immutable entities and var (variable) for mutable ones. Note that even though an immutable binding can not be reassigned, it may still refer to a mutable object and it is still possible to call mutating methods on that object: the binding is immutable, but the underlying object may be mutable.
+For example, the following code snippet:
+
+
+val maxValue = 100
+var currentValue = 1
+
+defines an immutable entity maxValue (the integer type is inferred at compile-time) and a mutable entity named currentValue.
+By default, collection classes such as List and Map are immutable, so update-methods return a new instance rather than mutating an existing one. While this may sound inefficient, the implementation of these classes and their guarantees of immutability mean that the new instance can re-use existing nodes, which, especially in the case of creating copies, is very efficient.[8][better source needed]
+See also[edit]
+
+Clojure
+Erlang
+F#
+Haskell
+Prolog
+Tcl
+Scala
+Mutator method
+
+References[edit]
+This article contains some material from the Perl Design Patterns Book
+
+
+
+^ "immutable adjective - Definition, pictures, pronunciation and usage notes - Oxford Advanced Learner's Dictionary at OxfordLearnersDictionaries.com". www.oxfordlearnersdictionaries.com. 
+^ a b c Goetz et al. Java Concurrency in Practice. Addison Wesley Professional, 2006, Section 3.4. Immutability
+^ David O'Meara (April 2003). "Mutable and Immutable Objects: Make sure methods can't be overridden". Java Ranch. Retrieved 2012-05-14. The preferred way is to make the class final. This is sometimes referred to as "Strong Immutability". It prevents anyone from extending your class and accidentally or deliberately making it mutable. 
+^ "Built-in Functions — Python v3.0 documentation". docs.python.org. 
+^ "How to create Immutable Class and Object in Java – Tutorial Example". Javarevisited.blogspot.co.uk. 2013-03-04. Retrieved 2014-04-14. 
+^ "Immutable objects". javapractices.com. Retrieved November 15, 2012. 
+^ "Immutability in JavaScript: A Contrarian View". Desalasworks. 
+^ "Scala 2.8 Collections API – Concrete Immutable Collection Classes". Scala-lang.org. Retrieved 2014-04-14. 
+
+
+
+External links[edit]
+
+
+
+Look up mutable in Wiktionary, the free dictionary.
+
+
+
+Immutable objects in C# using 3 simple steps.
+Article Java theory and practice: To mutate or not to mutate? by Brian Goetz, from IBM DeveloperWorks -- saved copy at Internet Archive by Brian Goetz, from IBM DeveloperWorks -- saved copy at Internet Archive
+Immutable objects from JavaPractices.com
+Immutable objects from Portland Pattern Repository
+Objects Should Be Immutable by Yegor Bugayenko
+Immutable.js by Facebook
+Immutable structures in C# opensource project in Codeplex
+Immutable collections in .NET official library by Microsoft (NuGet Package)
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Immutable_object&oldid=820893126"					
+				Categories: Object (computer science)Functional programmingArticles with example Racket codeFunctional data structuresHidden categories: Articles needing additional references from February 2011All articles needing additional referencesAll articles lacking reliable referencesArticles lacking reliable references from July 2017Articles with example C++ codeArticles with example Java codeArticles with example Perl codeArticles with example Python code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					БългарскиČeštinaEspañolFrançais한국어日本語PortuguêsРусскийУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 17 January 2018, at 06:12.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.172","walltime":"0.245","ppvisitednodes":{"value":820,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":18841,"limit":2097152},"templateargumentsize":{"value":948,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":32954,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  200.761      1 -total"," 35.20%   70.665      1 Template:Reflist"," 26.36%   52.922      7 Template:Cite_web"," 22.28%   44.727      1 Template:Refimprove"," 18.51%   37.160      1 Template:Ambox"," 13.69%   27.480      1 Template:Redirect2"," 12.63%   25.364      1 Template:Better_source"," 10.92%   21.917      1 Template:Fix","  5.91%   11.858      1 Template:Delink","  4.60%    9.233      1 Template:Wiktionary"]},"scribunto":{"limitreport-timeusage":{"value":"0.074","limit":"10.000"},"limitreport-memusage":{"value":3124433,"limit":52428800}},"cachereport":{"origin":"mw1327","timestamp":"20180331104805","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":78,"wgHostname":"mw1252"});});
+	
+

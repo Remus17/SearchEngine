@@ -1,0 +1,225 @@
+
+
+
+
+Python Package Index - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_Package_Index","wgTitle":"Python Package Index","wgCurRevisionId":831320301,"wgRevisionId":831320301,"wgArticleId":24193668,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Archive networks","Python (programming language)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_Package_Index","wgRelevantArticleId":24193668,"wgRequestId":"Wr-aYwpAADkAABZdrhwAAAAS","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q2984686","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Python Package Index			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				"PyPI" redirects here. It is not to be confused with PyPy, a Python interpreter and JIT compiler.
+The Python Package Index, abbreviated as PyPI and also known as the Cheese Shop (a reference to the Monty Python's Flying Circus sketch Cheese Shop),[1][2] is the official third-party software repository for Python.[3] It is analogous to CPAN, the repository for Perl.[4] Some package managers, including pip, use PyPI as the default source for packages and their dependencies.[5][6] Over 113,000 Python packages can be accessed through PyPI.[7] PyPI is solely developed and maintained by Donald Stufft.[8]
+PyPI primarily hosts Python packages in the form of archives called sdists (source distributions) or precompiled "wheels."[9]
+PyPI as an index allows users to search for packages by keywords or by filters against their metadata, such as free software license or compatibility with POSIX.[10] A single entry on PyPI is able to store, aside from just a package and its metadata, previous releases of the package, precompiled wheels (e.g. containing DLLs on Windows), as well as different forms for different operating systems and Python versions.
+
+
+
+Contents
+
+
+1 History
+2 Notes
+
+2.1 References
+2.2 Bibliography
+
+
+3 External links
+
+
+
+History[edit]
+The Python Distribution Utilities (distutils) Python module was first added to the Python standard library in the 1.6.1 release, in September 2000,[11] and in the 2.0 release, in October 2000[12], nine years after first python release in February 1991, with the goal of simplifying the process of installing third-party Python packages.
+However, distutils only provided the tools for packaging Python code, and no more. It was able to collect and distribute metadata but did not use it for other purposes.[13] Python still lacked a centralised catalog for packages on the internet. PEP 241, a proposal to standardize metadata for indexes, was finalized in March 2001.[14] A proposal to create a comprehensive centralised catalog,[3] hosted at the python.org domain, was later finalized in November 2002.[13]
+Notes[edit]
+References[edit]
+
+
+^ Lutz 2006, p. 8.
+^ Ramalho 2015, p. 742.
+^ a b Hylton, Jeremy (24 September 2003). "Python Package Index Tutorial". Jeremy Hylton. Archived from the original on 23 April 2012. Retrieved 22 April 2012. 
+^ Barry 2010, p. 36.
+^ "Usage". pip 1.1.post1 documentation. The pip developers. Archived from the original on 23 April 2012. 
+^ "PyPI mirrors". Python Package Index. Python Software Foundation. Archived from the original on 23 April 2012. Retrieved 22 April 2012. 
+^ "PyPI - the Python Package Index". Python Package Index. Python Software Foundation. Retrieved 18 August 2016. 
+^ [1]
+^ "PEP 427 -- The Wheel Binary Package Format 1.0". Python Software Foundation. 15 February 2013. Retrieved 28 October 2017. 
+^ "Browse : Python Package Index". Python Software Foundation. Retrieved 2 August 2016. 
+^ "Python 1.6.1". Python Software Foundation. Retrieved 24 April 2012. 
+^ "What's New in Python 2.0". Python Software Foundation. Retrieved 2 August 2016. 
+^ a b "PEP 301 -- Package Index and Metadata for Distutils". Python Software Foundation. 24 October 2002. Retrieved 3 June 2012. 
+^ "PEP 241 -- Metadata for Python Software Packages". Python Software Foundation. 19 October 2001. Retrieved 18 August 2016. 
+
+
+Bibliography[edit]
+
+Barry, Paul (2010). Head First Python. O'Reilly Media, Inc. ISBN 978-1-4493-8267-4. 
+Alchin, Marty (2010). Pro Python. Apress. ISBN 978-1-4302-2757-1. 
+Hussain, Zahid (2011). "Proceedings of the Fall 2010 Future SOC Lab Day". Technische Berichte des Hasso-Plattner-Instituts für Softwaresystemtechnik an der Universität Potsdam. Universitätsverlag Potsdam (42). ISBN 978-3-86956-114-1. 
+Martelli, Alex (2006). Python in a Nutshell. O'Reilly Media, Inc. ISBN 9780596100469. 
+Lutz, Mark (2006). Programming Python. 10 (3 ed.). O'Reilly Media, Inc. ISBN 9780596009250. 
+Ramalho, Luciano (2015). Fluent Python. O'Reilly Media, Inc. ISBN 9781491946268. 
+
+External links[edit]
+
+Official website
+Warehouse (Beta) pre-production deployment of future PyPI website.
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Python_Package_Index&oldid=831320301"					
+				Categories: Archive networksPython (programming language)				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					EspañolFrançais日本語PortuguêsРусскийУкраїнська				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 19 March 2018, at 23:59.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.180","walltime":"0.211","ppvisitednodes":{"value":780,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":22532,"limit":2097152},"templateargumentsize":{"value":630,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":11933,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  186.877      1 -total"," 49.85%   93.157      1 Template:Reflist"," 35.11%   65.604     10 Template:Cite_web"," 12.86%   24.040      5 Template:Cite_book"," 12.17%   22.746      1 Template:Official_website"," 11.70%   21.856      1 Template:Redirect-distinguish2"," 10.38%   19.402      1 Template:Hatnote","  5.60%   10.470      3 Template:Sfn","  3.78%    7.065      1 Template:Cite_journal","  1.15%    2.148      2 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.099","limit":"10.000"},"limitreport-memusage":{"value":3471476,"limit":52428800}},"cachereport":{"origin":"mw1232","timestamp":"20180319235853","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":81,"wgHostname":"mw1262"});});
+	
+

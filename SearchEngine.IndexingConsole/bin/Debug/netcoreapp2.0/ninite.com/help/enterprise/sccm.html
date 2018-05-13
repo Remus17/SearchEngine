@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+
+Using Ninite With SCCM | Ninite Help
+
+</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="https://d8f7mp21btv4f.cloudfront.net/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="https://d8f7mp21btv4f.cloudfront.net/css/crystal-2f9dde9064cc1885f150d6ae84e9c1d7.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<link href="https://d8f7mp21btv4f.cloudfront.net/crystal/js/respond-proxy-1ac71ee4ee5fb602995fbd6fca5468b4.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/robots.txt" id="respond-redirect" rel="respond-redirect" />
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/oldie-78ee42ef96d2d8f3e4cd3a939f7231d8.js"></script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-10831845-1']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'https://ssl.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="ninite-brand" href="/">
+<img src="https://d8f7mp21btv4f.cloudfront.net/crystal/img/brand-95c4357c0068bf934474cf8b7721890a.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="/help/">Help</a></li>
+<li><a href="/feedback">Feedback</a></li>
+
+<li><a href="/pro">Ninite Pro</a></li>
+<li><a href="/signin">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+
+<h3>Using Ninite With SCCM</h3>
+
+<p>Kristjan Hansen of <a href="http://www.statnett.no/">Statnett</a> has kindly contributed
+some notes on using <a href="https://ninite.com/pro">Ninite Pro</a> with SCCM.</p>
+
+<hr />
+
+<p>We use Ninite for two things:</p>
+
+<ul>
+<li>Make programs available for the users in (Config manager)Run Advertised
+programs</li>
+<li>Update programs the user has Installed for Run Advertised programs and update
+programs from Adobe and Oracle (Reader, Flash, Java..) the we have in our
+standard image.</li>
+</ul>
+
+<p>The first thing we do is to make a package, we called this package Ninite
+Online Installer</p>
+
+<p><img src="https://d8f7mp21btv4f.cloudfront.net/help/sccm1-f7523af7d97acabc4ef50c92c77b6520.png"
+alt="Ninite Online Installer Package"></p>
+
+<p>In this package source we have the NinitePro.exe file and a command file that
+is used to copy the Ninite file to a computer.</p>
+
+<p>Under package programs we have the programs for installing a selected software,
+Copying the Ninite file to a local folder and one for updating all
+applications.</p>
+
+<p>To install a selected software like Adobe Reader we use the following command:
+NinitePro.exe /select reader /silent "C:\Ninite\Logs\Install-Reader.txt"
+/disableautoupdate /disableshortcuts /allusers This program runs
+from c:\Ninite on the users computer where we have stored the NinitePro.exe
+file</p>
+
+<p>The program to update all applications has the following command: NinitePro.exe
+/updateonly /silent C:\ninite\logs\log.txt /disableautoupdate
+/disableshortcuts /allusers</p>
+
+<p>And looks like this:</p>
+
+<p><img src="https://d8f7mp21btv4f.cloudfront.net/help/sccm2-f0edaf5eefc352a8deef8971501d52c8.png" alt="Setting up the command"></p>
+
+<p>We have advertised this program to a collection containing all Windows 7
+computers, we run this advertisement on a schedule every 2. Days. The
+advertisement is also set to Always rerun</p>
+
+<p><img src="https://d8f7mp21btv4f.cloudfront.net/help/sccm3-42b976428a491328d45b315905b25c7a.png" alt="Setting up the schedule"></p>
+
+<p>This way all our computers are allways updated with the latest sofware
+versions, and we don't have to make a new package everytime a new software
+version from for example Adobe comes.</p>
+
+<hr />
+
+<p>Thanks Kristjan!</p>
+
+<p>If you have other tips or feedback on using Ninite with SCCM,
+<a href="/feedback">please let us know</a>. Thanks!</p>
+
+
+<div class="panel panel-primary help-panel-pro">
+<div class="panel-heading">
+<h3 class="panel-title">Pro only</h3>
+</div>
+<div class="panel-body">
+<p>
+These features are only available in Ninite Pro.
+</p>
+<p>
+<a href="/request_trial" class="btn btn-primary">Get a Free Trial</a> or <a href="/pro" class="btn btn-default">Learn more about Ninite Pro</a>
+</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="/jobs">jobs</a></li>
+<li><a class="footer-link" href="/about">about</a></li>
+<li><a class="footer-link" href="/press">press</a></li>
+<li><a class="footer-link" href="/news">updates</a></li>
+<li><a class="footer-link" href="/security">security</a></li>
+<li><a class="footer-link" href="/privacy">privacy</a></li>
+<li><a class="footer-link" href="/terms">terms</a></li>
+</ul>
+<p class="small">
+&copy;2018 Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/bundle-3737f22be190c9564031d54327c43962.js"></script>
+</body>
+</html>

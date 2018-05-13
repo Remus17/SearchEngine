@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.8 PythonAuthzHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.7 PythonAuthenHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.9 PythonTypeHandler
+
+
+
+
+ 
+ 
+
+5.1.8 PythonAuthzHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+This handler runs after AuthenHandler and is intended for checking
+whether a user is allowed to access a particular resource. But more
+often than not it is done right in the AuthenHandler.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.7 PythonAuthenHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.9 PythonTypeHandler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

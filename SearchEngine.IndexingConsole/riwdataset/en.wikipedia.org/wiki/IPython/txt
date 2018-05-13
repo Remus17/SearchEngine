@@ -1,0 +1,378 @@
+
+
+
+
+IPython - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"IPython","wgTitle":"IPython","wgCurRevisionId":831208613,"wgRevisionId":831208613,"wgArticleId":11322015,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from August 2015","Articles lacking reliable references from October 2016","All articles lacking reliable references","Command shells","Computational notebook","Free mathematics software","Free software programmed in Python","Python development tools"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"IPython","wgRelevantArticleId":11322015,"wgRequestId":"Wr@DCQpAADoAAFlPmTcAAAAQ","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q2659957","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+IPython			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				For the implementation of Python under the .NET Framework, see IronPython.
+
+IPython
+
+
+
+
+
+IPython Shell
+
+
+
+Original author(s)
+Fernando Perez[1]
+
+
+Developer(s)
+Others
+
+
+Initial release
+2001; 17 years ago (2001)[1]
+
+
+
+
+
+Stable release
+
+6.2.1 / 29 September 2017; 5 months ago (2017-09-29)[2]
+
+
+
+
+
+
+Repository
+
+
+
+https://github.com/ipython/ipython
+
+
+
+
+
+Written in
+Python, JavaScript, CSS, HTML
+
+
+Operating system
+Cross-platform
+
+
+Type
+Shell
+
+
+License
+BSD
+
+
+Website
+ipython.org
+
+
+IPython is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers introspection, rich media, shell syntax, tab completion, and history. IPython provides the following features:
+
+Interactive shells (terminal and Qt-based).
+A browser-based notebook with support for code, text, mathematical expressions, inline plots and other media.
+Support for interactive data visualization and use of GUI toolkits.
+Flexible, embeddable interpreters to load into one's own projects.
+Tools for parallel computing.
+
+
+
+
+Contents
+
+
+1 Parallel computing
+2 Notebook
+3 Other features
+4 Project Jupyter
+5 In the media
+6 Grants and awards
+7 See also
+8 References
+9 External links
+
+
+
+Parallel computing[edit]
+
+
+
+
+Architectural View of IPython's parallel machinery
+
+
+IPython is based on an architecture that provides parallel and distributed computing. IPython enables parallel applications to be developed, executed, debugged and monitored interactively. Hence, the I (Interactive) in IPython.[3] This architecture abstracts out parallelism, which enables IPython to support many different styles of parallelism[4] including:
+
+Single program, multiple data (SPMD) parallelism
+Multiple program, multiple data (MIMD) parallelism
+Message passing using MPI
+Task parallelism
+Data parallelism
+Combinations of these approaches
+Custom user defined approaches
+
+Notebook[edit]
+IPython Notebook is a web-based interactive computational environment for creating IPython notebooks. An IPython notebook is a JSON document containing an ordered list of input/output cells which can contain code, text, mathematics, plots and rich media.
+IPython notebooks can be converted to a number of open standard output formats (HTML, presentation slides, LaTeX, PDF, ReStructuredText, Markdown, Python) through 'Download As' in the web interface and 'ipython nbconvert' in a shell.
+
+
+
+
+IPython Notebook workflows
+
+
+
+
+
+
+IPython Notebook interface
+
+
+IPython Notebook provides a browser-based REPL built upon a number of popular open-source libraries:
+
+IPython
+ØMQ
+Tornado (web server)
+jQuery
+Bootstrap (front-end framework)
+MathJax
+
+IPython Notebook connects to an IPython kernel. As of the 2.3 release[5][6] (October 2014), there are currently 49 IPython-compatible kernels for as many programming languages, including Python, R, Julia and Haskell.[7]
+IPython Notebook was added to IPython in the 0.12 release[8] (December 2011). IPython Notebook is similar to the notebook interface of other programs such as Maple, Mathematica, and SageMath, a computational interface style that originated with Mathematica in the 1980s.
+IPython notebooks frequently draw from SciPy stack[9] libraries like NumPy and SciPy, often installed along with IPython from one of many Scientific Python distributions.[9]
+Other features[edit]
+IPython allows non-blocking interaction with Tkinter, PyGTK, PyQt/PySide and wxPython (the standard Python shell only allows interaction with Tkinter). IPython can interactively manage parallel computing clusters using asynchronous status callbacks and/or MPI. IPython can also be used as a system shell replacement.[10] Its default behavior is largely similar to Unix shells, but it allows customization and the flexibility of executing code in a live Python environment.
+Project Jupyter[edit]
+
+
+
+
+
+
+This section may rely excessively on sources too closely associated with the subject, potentially preventing the article from being verifiable and neutral. Please help improve it by replacing them with more appropriate citations to reliable, independent, third-party sources. (October 2016) (Learn how and when to remove this template message)
+
+
+
+In 2014, Fernando Pérez announced a spin-off project from IPython called Project Jupyter.[11] IPython will continue to exist as a Python shell and a kernel for Jupyter, while the notebook and other language-agnostic parts of IPython will move under the Jupyter name.[12][13] Jupyter added support for Julia, R, Haskell and Ruby.[14]
+In the media[edit]
+IPython has been mentioned in the popular computing press,[15] and it has a presence at scientific conferences.[16] For scientific and engineering work, it is often presented as a companion tool to matplotlib.[17]
+Grants and awards[edit]
+Beginning 1 January 2013, the Alfred P. Sloan Foundation announced that it would support IPython development for two years.[18]
+On 23 March 2013, Fernando Perez was awarded the Free Software Foundation Advancement of Free Software award for IPython.
+In August 2013, Microsoft made a donation of $100,000 to sponsor IPython’s continued development.[19]
+In January 2014, it won the Jolt Productivity Award[20] from Dr. Dobb's in the category of coding tools. In July 2015, the project won a funding of $6 million from Gordon and Betty Moore Foundation, Alfred P. Sloan Foundation and Leona M. and Harry B. Helmsley Charitable Trust.[21]
+See also[edit]
+
+
+Free software portal
+Python programming portal
+Computer programming portal
+
+
+
+Python (programming language)
+Electronic lab notebook
+
+References[edit]
+
+
+^ a b "The IPython notebook: a historical retrospective". Fernando Perez Blog. 8 January 2012. 
+^ "GitHub - Release 6.2.1". Retrieved 17 February 2018. 
+^ Helen, Shen (2014). "Interactive notebooks: Sharing the code". Nature. 515 (7525): 151–152. doi:10.1038/515151a. PMID 25373681. 
+^ "Using IPython for Parallel computing - IPython docs". 
+^ "What's new in IPython > Issues closed in the 2.x development cycle". 
+^ "What's new in IPython > 2.0 Series". 
+^ "Projects using IPython > List of (some) IPython compatible kernels". 
+^ "Notebook's announcement- 0.12 release note". 
+^ a b "SciPy Stack". 
+^ McKinney, Wes (2012). "Chapter 3". Python for Data Analysis. ISBN 978-1-449-31979-3. 
+^ "Project Jupyter // Speaker Deck". 
+^ "The Notebook, Qt console and a number of other pieces are now parts of Jupyter". 
+^ "The Big Split™". 
+^ "Project Jupyter | Home". 
+^ Koziol, Conrad (12 September 2005). "Introducing IPython". NewsForge. 
+^ "IPython Presentations". 
+^ Pérez, Fernando; Granger, Brian E. (2007). "IPython: A System for Interactive Scientific Computing" (PDF). Computing in Science & Engineering. 9 (3). Archived from the original (PDF) on 2 June 2010. Retrieved 30 July 2015. 
+^ "Announcement in scipy mailing list". 
+^ "IPython Announcement". 
+^ "Jolt Productivity Award write-up in Dr. Dobb's". 
+^ "$6M for UC Berkeley and Cal Poly to expand and enhance open-source software for scientific computing and data science". Retrieved 13 August 2015. 
+
+
+External links[edit]
+
+Official website
+Project Jupyter
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=IPython&oldid=831208613"					
+				Categories: Command shellsComputational notebookFree mathematics softwareFree software programmed in PythonPython development toolsHidden categories: Use dmy dates from August 2015Articles lacking reliable references from October 2016All articles lacking reliable references				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia Commons				
+							
+		
+			
+			Languages
+			
+								
+					CatalàDeutschEspañolفارسیFrançais日本語PortuguêsРусскийதமிழ்Українська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 19 March 2018, at 11:10.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.356","walltime":"0.466","ppvisitednodes":{"value":1907,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":45425,"limit":2097152},"templateargumentsize":{"value":2443,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":19225,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  408.172      1 -total"," 41.88%  170.930      2 Template:Infobox"," 37.12%  151.498      1 Template:Infobox_software"," 36.14%  147.522      1 Template:Reflist"," 23.36%   95.341     17 Template:Cite_web","  8.82%   35.987      1 Template:Infobox_software/simple","  7.88%   32.180      1 Template:Third-party","  7.09%   28.941      2 Template:Start_date_and_age","  6.91%   28.191      1 Template:Plainlist","  6.55%   26.735      1 Template:Wikidata"]},"scribunto":{"limitreport-timeusage":{"value":"0.183","limit":"10.000"},"limitreport-memusage":{"value":7726768,"limit":52428800}},"cachereport":{"origin":"mw1238","timestamp":"20180331102440","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":89,"wgHostname":"mw1263"});});
+	
+

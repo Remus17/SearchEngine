@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.6 PythonInterpreter
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.5 PythonInterpPerDirective
+Up:
+5.4 Other Directives
+Next:
+5.4.7 PythonHandlerModule
+
+
+
+
+ 
+ 
+
+5.4.6 PythonInterpreter
+
+
+
+Syntax:
+PythonInterpreter name 
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+Forces mod_python to use interpreter named name, overriding the
+default behaviour or behaviour dictated by
+PythonInterpPerDirectory or
+PythonInterpPerDirective directive.
+
+
+This directive can be used to force execution that would normally
+occur in different subinterpreters to run in the same one. When
+specified in the DocumentRoot, it forces the whole server to run in one
+subinterpreter.
+
+
+
+  See Also:
+
+  
+    Section 4.1 Multiple Interpreters
+    for more information
+  
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.5 PythonInterpPerDirective
+Up:
+5.4 Other Directives
+Next:
+5.4.7 PythonHandlerModule
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

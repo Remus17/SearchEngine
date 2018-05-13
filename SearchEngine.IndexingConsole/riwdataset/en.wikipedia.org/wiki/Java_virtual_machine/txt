@@ -1,0 +1,793 @@
+
+
+
+
+Java virtual machine - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Java_virtual_machine","wgTitle":"Java virtual machine","wgCurRevisionId":833615665,"wgRevisionId":833615665,"wgArticleId":16389,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: invisible characters","Articles containing potentially dated statements from 2006","All articles containing potentially dated statements","Articles containing potentially dated statements from June 2015","Articles with Curlie links","Java (programming language)","Java platform","Java platform software","Java specification requests","Java virtual machine","Stack-based virtual machines"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Java_virtual_machine","wgRelevantArticleId":16389,"wgRequestId":"WsEJoApAAEYAACqZq60AAAAF","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q193321","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Java virtual machine			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				"JRE" redirects here. For the podcast, see Joe Rogan Experience.
+
+Java virtual machine
+
+Designer
+Sun Microsystems
+
+
+Bits
+32-bit (or partially 64-bit; see main text)
+
+
+Introduced
+1994
+
+
+Type
+Stack and register–register
+
+
+Endianness
+Big
+
+
+Registers
+
+
+General purpose
+Per-method operand stack (up to 65535 operands) plus per-method local variables (up to 65535)
+
+
+
+
+
+
+Overview of a Java virtual machine (JVM) architecture based on The Java Virtual Machine Specification Java SE 7 Edition
+
+
+A Java virtual machine (JVM) is an abstract computing machine that enables a computer to run a Java program. There are three notions of the JVM: specification, implementation, and instance. The specification is a document that formally describes what is required of a JVM implementation. Having a single specification ensures all implementations are interoperable. A JVM implementation is a computer program that meets the requirements of the JVM specification. An instance of a JVM is an implementation running in a process that executes a computer program compiled into Java bytecode.
+Java Runtime Environment (JRE) is a software package that contains what is required to run a Java program. It includes a Java Virtual Machine implementation together with an implementation of the Java Class Library. The Oracle Corporation, which owns the Java trademark, distributes a Java Runtime environment with their Java Virtual Machine called HotSpot.
+Java Development Kit (JDK) is a superset of a JRE and contains tools for Java programmers, e.g. a javac compiler. The Java Development Kit is provided free of charge either by Oracle Corporation directly, or by the OpenJDK open source project, which is governed by Oracle.
+
+
+
+Contents
+
+
+1 JVM specification
+
+1.1 Class loader
+1.2 Virtual machine architecture
+
+1.2.1 64-bit JVM
+
+
+1.3 Bytecode instructions
+1.4 JVM languages
+1.5 Bytecode verifier
+
+1.5.1 Secure execution of remote code
+
+
+1.6 Bytecode interpreter and just-in-time compiler
+
+
+2 JVM in the web browser
+
+2.1 Java applets
+2.2 JavaScript JVMs and interpreters
+2.3 Compilation to JavaScript
+
+
+3 Java Runtime Environment
+
+3.1 Performance
+3.2 Generational heap
+3.3 Security
+
+
+4 See also
+5 Notes
+6 References
+7 External links
+
+
+
+JVM specification[edit]
+The Java virtual machine is an abstract (virtual) computer defined by a specification. This specification omits implementation details that are not essential to ensure interoperability: the memory layout of run-time data areas, the garbage-collection algorithm used, and any internal optimization of the Java virtual machine instructions (their translation into machine code). The main reason for this omission is to not unnecessarily constrain implementers. Any Java application can be run only inside some concrete implementation of the abstract specification of the Java virtual machine.[1]
+Starting with Java Platform, Standard Edition (J2SE) 5.0, changes to the JVM specification have been developed under the Java Community Process as JSR 924.[2] As of 2006[update], changes to specification to support changes proposed to the class file format (JSR 202)[3] are being done as a maintenance release of JSR 924. The specification for the JVM was published as the blue book,[4] The preface states:
+
+We intend that this specification should sufficiently document the Java Virtual Machine to make possible compatible clean-room implementations. Oracle provides tests that verify the proper operation of implementations of the Java Virtual Machine.
+
+One of Oracle's JVMs is named HotSpot, the other, inherited from BEA Systems is JRockit. Clean-room Java implementations include Kaffe and IBM J9. Oracle owns the Java trademark and may allow its use to certify implementation suites as fully compatible with Oracle's specification.
+Class loader[edit]
+Main article: Java Class loader
+One of the organizational units of JVM byte code is a class. A class loader implementation must be able to recognize and load anything that conforms to the Java class file format. Any implementation is free to recognize other binary forms besides class files, but it must recognize class files.
+The class loader performs three basic activities in this strict order:
+
+Loading: finds and imports the binary data for a type
+Linking: performs verification, preparation, and (optionally) resolution
+
+Verification: ensures the correctness of the imported type
+Preparation: allocates memory for class variables and initializing the memory to default values
+Resolution: transforms symbolic references from the type into direct references.
+
+
+Initialization: invokes Java code that initializes class variables to their proper starting values.
+
+In general, there are two types of class loader: bootstrap class loader and user defined class loader.
+Every Java virtual machine implementation must have a bootstrap class loader, capable of loading trusted classes. The Java virtual machine specification doesn't specify how a class loader should locate classes.
+Virtual machine architecture[edit]
+The JVM operates on primitive values (integers and floating-point numbers) and references. The original JVM is fundamentally a 32-bit machine. long and double types, which are 64-bits, are supported natively, but consume two units of storage in a frame's local variables or operand stack, since each unit is 32 bits. boolean, byte, short, and char types are all sign-extended (except char which is zero-extended) and operated on as 32-bit integers, the same as int types. The smaller types only have a few type-specific instructions for loading, storing, and type conversion. boolean is not known at all to the JVM; booleans are operated on as 8-bit byte values, with 0 representing false and 1 representing true.
+The JVM has a garbage-collected heap for storing objects and arrays. Code, constants, and other class data are stored in the "method area". The method area is logically part of the heap, but implementations may treat the method area separately from the heap, and for example might not garbage collect it. Each JVM thread also has its own call stack (called a "Java Virtual Machine stack" for clarity), which stores frames. A new frame is created each time a method is called, and the frame is destroyed when that method exits.
+Each frame provides an "operand stack" and an array of "local variables". The operand stack is used for operands to computations and for receiving the return value of a called method, while local variables serve the same purpose as registers and are also used to pass method arguments. Thus, the JVM is both a stack machine and a register machine.
+64-bit JVM[edit]
+A 64-bit version of Java is available[5] but as array indexes are still 32-bit, each array can't be bigger, but cumulatively the heap can be bigger.
+Bytecode instructions[edit]
+Main article: Java bytecode
+The JVM has instructions for the following groups of tasks:
+
+
+Load and store
+Arithmetic
+Type conversion
+Object creation and manipulation
+Operand stack management (push / pop)
+Control transfer (branching)
+Method invocation and return
+Throwing exceptions
+Monitor-based concurrency
+
+
+The aim is binary compatibility. Each particular host operating system needs its own implementation of the JVM and runtime. These JVMs interpret the bytecode semantically the same way, but the actual implementation may be different. More complex than just emulating bytecode is compatibly and efficiently implementing the Java core API that must be mapped to each host operating system.
+These instructions operate on a set of common abstracted data types rather the native data types of any specific instruction set architecture.
+JVM languages[edit]
+Main article: List of JVM languages
+A JVM language is any language with functionality that can be expressed in terms of a valid class file which can be hosted by the Java Virtual Machine. A class file contains Java Virtual Machine instructions (Java byte code) and a symbol table, as well as other ancillary information. The class file format is the hardware- and operating system-independent binary format used to represent compiled classes and interfaces.[6]
+There are several JVM languages, both old languages ported to JVM and completely new languages. JRuby and Jython are perhaps the most well-known ports of existing languages, i.e. Ruby and Python respectively. Of the new languages that have been created from scratch to compile to Java bytecode, Clojure, Apache Groovy, Scala and Kotlin may be the most popular ones. A notable feature with the JVM languages is that they are compatible with each other, so that, for example, Scala libraries can be used with Java programs and vice versa.[7]
+Java 7 JVM implements JSR 292: Supporting Dynamically Typed Languages[8] on the Java Platform, a new feature which supports dynamically typed languages in the JVM. This feature is developed within the Da Vinci Machine project whose mission is to extend the JVM so that it supports languages other than Java.[9][10]
+Bytecode verifier[edit]
+A basic philosophy of Java is that it is inherently safe from the standpoint that no user program can crash the host machine or otherwise interfere inappropriately with other operations on the host machine, and that it is possible to protect certain methods and data structures belonging to trusted code from access or corruption by untrusted code executing within the same JVM. Furthermore, common programmer errors that often led to data corruption or unpredictable behavior such as accessing off the end of an array or using an uninitialized pointer are not allowed to occur. Several features of Java combine to provide this safety, including the class model, the garbage-collected heap, and the verifier.
+The JVM verifies all bytecode before it is executed. This verification consists primarily of three types of checks:
+
+Branches are always to valid locations
+Data is always initialized and references are always type-safe
+Access to private or package private data and methods is rigidly controlled
+
+The first two of these checks take place primarily during the verification step that occurs when a class is loaded and made eligible for use. The third is primarily performed dynamically, when data items or methods of a class are first accessed by another class.
+The verifier permits only some bytecode sequences in valid programs, e.g. a jump (branch) instruction can only target an instruction within the same method. Furthermore, the verifier ensures that any given instruction operates on a fixed stack location,[11] allowing the JIT compiler to transform stack accesses into fixed register accesses. Because of this, that the JVM is a stack architecture does not imply a speed penalty for emulation on register-based architectures when using a JIT compiler. In the face of the code-verified JVM architecture, it makes no difference to a JIT compiler whether it gets named imaginary registers or imaginary stack positions that must be allocated to the target architecture's registers. In fact, code verification makes the JVM different from a classic stack architecture, of which efficient emulation with a JIT compiler is more complicated and typically carried out by a slower interpreter.
+The original specification for the bytecode verifier used natural language that was incomplete or incorrect in some respects. A number of attempts have been made to specify the JVM as a formal system. By doing this, the security of current JVM implementations can more thoroughly be analyzed, and potential security exploits prevented. It will also be possible to optimize the JVM by skipping unnecessary safety checks, if the application being run is proven to be safe.[12]
+Secure execution of remote code[edit]
+A virtual machine architecture allows very fine-grained control over the actions that code within the machine is permitted to take. It assumes the code is "semantically" correct, that is, it successfully passed the (formal) bytecode verifier process, materialized by a tool, possibly off-board the virtual machine. This is designed to allow safe execution of untrusted code from remote sources, a model used by Java applets, and other secure code downloads. Once bytecode-verified, the downloaded code runs in a restricted "sandbox", which is designed to protect the user from misbehaving or malicious code. As an addition to the bytecode verification process, publishers can purchase a certificate with which to digitally sign applets as safe, giving them permission to ask the user to break out of the sandbox and access the local file system, clipboard, execute external pieces of software, or network.
+Formal proof of bytecode verifiers have been done by the Javacard industry (Formal Development of an Embedded Verifier for Java Card Byte Code[13])
+Bytecode interpreter and just-in-time compiler[edit]
+For each hardware architecture a different Java bytecode interpreter is needed. When a computer has a Java bytecode interpreter, it can run any Java bytecode program, and the same program can be run on any computer that has such an interpreter.
+When Java bytecode is executed by an interpreter, the execution will always be slower than the execution of the same program compiled into native machine language. This problem is mitigated by just-in-time (JIT) compilers for executing Java bytecode. A JIT compiler may translate Java bytecode into native machine language while executing the program. The translated parts of the program can then be executed much more quickly than they could be interpreted. This technique gets applied to those parts of a program frequently executed. This way a JIT compiler can significantly speed up the overall execution time.
+There is no necessary connection between the Java programming language and Java bytecode. A program written in Java can be compiled directly into the machine language of a real computer and programs written in other languages than Java can be compiled into Java bytecode.
+Java bytecode is intended to be platform-independent and secure.[14] Some JVM implementations do not include an interpreter, but consist only of a just-in-time compiler.[15]
+JVM in the web browser[edit]
+Since the very early stages of the design process, Java (and JVM) has been marketed as a web technology for creating Rich Internet Applications.
+Java applets[edit]
+Main article: Java applet
+On the client side, web browsers may be extended with a NPAPI Java plugin which executes so called Java applets embedded into HTML pages. The applet is allowed to draw into a rectangular region on the page assigned to it and use a restricted set of APIs that allow for example access to user's microphone or 3D acceleration. Java applets were superior to JavaScript both in performance and features until approximately 2011, when JavaScript engines in browsers were made significantly faster and the HTML 5 suite of web technologies started enhancing JavaScript with new APIs. Java applets are not able to modify the page outside its rectangular region which is not true about JavaScript. Adobe Flash Player, the main competing technology, works in the same way in this respect. Java applets are not restricted to Java and in general can be created in any JVM language.
+As of April 2014, Google Chrome does not allow the use of any NPAPI plugins.[16] Mozilla Firefox will also ban NPAPI plugins by the end of 2016. This means that Java applets can no longer be used in either browser.[17] Oracle ultimately announced in January 2016 that it will discontinue the Java web browser plugin effective Java 9.[18]
+As of June 2015[update] according to W3Techs, Java applet use had fallen to 0.1% of all web sites. Flash had fallen to 10.8% and Silverlight to 0.1% of web sites.[19]
+JavaScript JVMs and interpreters[edit]
+As of May 2016, JavaPoly allows users to import unmodified Java libraries, and invoke them directly from JavaScript. JavaPoly allows websites to use run unmodified Java libraries, even if the user does not have Java installed on their computer.[20]
+Compilation to JavaScript[edit]
+With the continuing improvements in JavaScript execution speed, combined with the increased use of mobile devices whose web browsers do not implement support for plugins, there are efforts to target those users through compilation to JavaScript. It is possible to either compile the source code or JVM bytecode to JavaScript.
+Compiling the JVM bytecode, which is universal across JVM languages, allows building upon the language's existing compiler to bytecode. The main JVM bytecode to JavaScript compilers are TeaVM,[21] the compiler contained in Dragome Web SDK,[22] Bck2Brwsr,[23] and j2js-compiler.[24]
+Leading compilers from JVM languages to JavaScript include the Java-to-JavaScript compiler contained in Google Web Toolkit, Clojurescript (Clojure), GrooScript (Apache Groovy), Scala.js (Scala) and others.[25]
+Java Runtime Environment[edit]
+Main article: HotSpot
+The Java Runtime Environment (JRE) released by Oracle is a software distribution containing a stand-alone Java VM (HotSpot), a browser plugin (discontinued since Java 9), the Java standard library (Java Class Library) and a configuration tool. It is the most common Java environment installed on Windows computers. It is freely available for download at the website java.com.
+Performance[edit]
+Main article: Java performance
+The JVM specification gives a lot of leeway to implementors regarding the implementation details. Since Java 1.3, JRE from Oracle contains a JVM called HotSpot. It has been designed to be a high-performance JVM.
+To speed-up code execution, HotSpot relies on just-in-time compilation. To speed-up object allocation and garbage collection, HotSpot uses generational heap.
+Generational heap[edit]
+The Java virtual machine heap is the area of memory used by the JVM for dynamic memory allocation.[26]
+In HotSpot the heap is divided into generations:
+
+The young generation stores short-lived objects that are created and immediately garbage collected.
+Objects that persist longer are moved to the old generation (also called the tenured generation). This memory is subdivided into (two) Survivors spaces where the objects that survived the first and next garbage collections are stored.
+
+The permanent generation (or permgen) was used for class definitions and associated metadata prior to Java 8. Permanent generation was not part of the heap.[27][28] The permanent generation was removed from Java 8.[29]
+Originally there was no permanent generation, and objects and classes were stored together in the same area. But as class unloading occurs much more rarely than objects are collected, moving class structures to a specific area allowed significant performance improvements.[27]
+Security[edit]
+Oracle's JRE is installed on a large number of computers. Since any web page the user visits may run Java applets, Java provides an easily accessible attack surface to malicious web sites that the user visits. Kaspersky Labs reports that the Java web browser plugin is the method of choice for computer criminals. Java exploits are included in many exploit packs that hackers deploy onto hacked web sites.[30]
+In the past, end users were often using an out-of-date version of JRE which was vulnerable to many known attacks. This led to the widely shared belief between users that Java is inherently insecure.[31] Since Java 1.7, Oracle's JRE for Windows includes automatic update functionality.
+See also[edit]
+
+
+Java portal
+
+
+
+List of Java virtual machines
+Comparison of Java virtual machines
+Comparison of application virtual machines
+Automated exception handling
+Java performance
+List of JVM languages
+Java processor
+Common Language Runtime
+
+Notes[edit]
+
+
+^ Bill Venners, Inside the Java Virtual Machine Chapter 5
+^ "The Java Community Process(SM) Program - JSRs: Java Specification Requests - detail JSR# 924". Jcp.org. Retrieved 2015-06-26. 
+^ "The Java Community Process(SM) Program - JSRs: Java Specification Requests - detail JSR# 202". Jcp.org. Retrieved 2015-06-26. 
+^ The Java Virtual Machine Specification (the first and second editions are also available online).
+^ "Frequently Asked Questions About the Java HotSpot VM". www.oracle.com. since the 1.4.0 release of J2SE. A 64-bit capable J2SE is an implementation of the Java SDK (and the JRE along with it) that runs in the 64-bit environment of a 64-bit OS on a 64-bit processor. You can think of this environment as being just another platform to which we've ported the SDK. The primary advantage of running Java in a 64-bit environment is the larger address space. This allows for a much larger Java heap size and an increased maximum number of Java Threads, which is needed for certain kinds of large or long-running applications. The primary complication in doing such a port is that the sizes of some native data types are changed. Not surprisingly the size of pointers is increased to 64 bits. On Solaris and most Unix platforms, the size of the C language long is also increased to 64 bits. [..] What it is NOT: Many Java users and developers assume that a 64-bit implementation means that many of the built-in Java types are doubled in size from 32 to 64. This is not true. We did not increase the size of Java integers from 32 to 64 and since Java longs were already 64 bits wide, they didn't need updating. Array indexes, which are defined in the Java Virtual Machine Specification, are not widened from 32 to 64.access-date=2018-04-01  line feed character in |quote= at position 820 (help)
+^ "The Java Virtual Machine Specification : Java SE 7 Edition" (PDF). Docs.oracle.com. Retrieved 2015-06-26. 
+^ "Frequently Asked Questions - Java Interoperability". scala-lang.org. Retrieved 2015-11-18. 
+^ "The Java Community Process(SM) Program - JSRs: Java Specification Requests - detail JSR# 292". Jcp.org. Retrieved 2015-06-26. 
+^ "Da Vinci Machine project". Openjdk.java.net. Retrieved 2015-06-26. 
+^ "New JDK 7 Feature: Support for Dynamically Typed Languages in the Java Virtual Machine". Oracle.com. Retrieved 2015-06-26. 
+^ "The Verification process". The Java Virtual Machine Specification. Sun Microsystems. 1999. Retrieved 2009-05-31. 
+^ Stephen N. Freund and John C. Mitchell. 1999. A formal framework for the Java bytecode language and verifier. In Proceedings of the 14th ACM SIGPLAN conference on Object-oriented programming, systems, languages, and applications (OOPSLA '99), A. Michael Berman (Ed.) Association for Computing Machinery, New York, pp.147–166. doi:10.1145/320384.320397
+^ http://www-sop.inria.fr/everest/Lilian.Burdy/CBR02dsn.pdf
+^ David J. Eck, Introduction to Programming Using Java, Seventh Edition, Version 7.0, August 2014 at Section 1.3 "The Java Virtual Machine"
+^ Oracle JRockit Introduction Release R28 at 2. "Understanding Just-In-Time Compilation and Optimization"
+^ "Chrome starts pushing Java off the Web by disabling plugins". Ars Technica. Retrieved 9 December 2015. 
+^ "Firefox will stop supporting plugins by end of 2016, following Chrome's lead". PC World. Retrieved 9 December 2015. 
+^ "Oracle deprecates the Java browser plugin, prepares for its demise". Ars Technica. Retrieved 15 April 2016. 
+^ "Historical yearly trends in the usage of client-side programming languages, June 2015". W3techs.com. Retrieved 2015-06-26. 
+^ Krill, Paul (13 May 2016). "JavaPoly.js imports existing Java code and invokes it directly from JavaScript". InfoWorld. Retrieved 18 July 2016. 
+^ "TeaVM project home page". Teavm.org. Retrieved 2015-06-26. 
+^ "Dragome Web SDK". Dragome.com. Retrieved 2015-06-26. 
+^ "Bck2Brwsr - APIDesign". Wiki.apidesign.org. Retrieved 2015-06-26. 
+^ Wolfgang Kuehn (decatur). j2js-compiler GitHub
+^ "List of languages that compile to JS · jashkenas/coffeescript Wiki · GitHub". Github.com. 2015-06-19. Retrieved 2015-06-26. 
+^ "Frequently Asked Questions about Garbage Collection in the Hotspot Java Virtual Machine". Sun Microsystems. 6 February 2003. Retrieved 7 February 2009. 
+^ a b Masamitsu, Jon (28 November 2006). "Presenting the Permanent Generation". Retrieved 7 February 2009. 
+^ Nutter, Charles (11 September 2008). "A First Taste of InvokeDynamic". Retrieved 7 February 2009. 
+^ "JEP 122: Remove the Permanent Generation". Oracle Corporation. 2012-12-04. Retrieved 2014-03-23. 
+^ "Is there any protection against Java exploits? | Kaspersky Lab". Kaspersky.com. 2013-09-09. Retrieved 2015-06-26. 
+^ "What Is Java, Is It Insecure, and Should I Use It?". Lifehacker.com. 2013-01-14. Retrieved 2015-06-26. 
+
+
+References[edit]
+
+
+Clarifications and Amendments to the Java Virtual Machine Specification, Second Edition includes list of changes to be made to support J2SE 5.0 and JSR 45
+JSR 45, specifies changes to the class file format to support source-level debugging of languages such as JavaServer Pages (JSP) and SQLJ that are translated to Java
+
+
+External links[edit]
+
+What is Java virtual machine (JVM)?
+The Java Virtual Machine Specification
+Java implementations at Curlie (based on DMOZ)
+How to download and install prebuilt OpenJDK packages
+How to Install Java? (JRE from Oracle)
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Java virtual machines (comparison)
+
+
+
+Sun/Oracle
+
+
+
+HotSpot
+KVM
+OpenJDK
+Maxine VM
+
+
+
+
+
+Major implementations
+
+
+
+Excelsior JET
+JamVM
+Jikes RVM
+IBM J9
+
+
+
+
+
+Embedded
+
+
+
+Excelsior JET Embedded
+JamaicaVM
+Mika VM
+Mysaifu
+Squawk (Sun)
+
+
+
+
+
+Others
+
+
+
+CACAO
+IcedTea
+JX
+more…
+
+
+
+
+
+Discontinued
+
+
+
+Apache Harmony
+Dalvik
+GCJ
+IKVM.NET
+JRockit
+Kaffe
+Microsoft JVM
+SableVM
+Jupiter
+more…
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Java
+
+
+
+Platforms
+
+
+
+Java language
+JVM
+Micro Edition
+Standard Edition
+Enterprise Edition
+Java Card
+Android SDK
+
+
+
+
+
+
+
+
+Oracle technologies
+
+
+
+Squawk
+Java Development Kit
+OpenJDK
+Java virtual machine
+JavaFX
+Maxine VM
+
+
+
+
+
+Platform technologies
+
+
+
+Applets
+Servlets
+MIDlets
+JSP
+Web Start (JNLP)
+
+
+
+
+
+Major third-party technologies
+
+
+
+Blackdown
+Eclipse
+GNU Classpath
+GWT
+Harmony
+Hibernate
+IcedTea
+Jazelle
+Spring
+Struts
+TopLink
+WildFly
+
+
+
+
+
+History
+
+
+
+Java version history
+Java Community Process
+Sun Microsystems
+Free Java implementations
+
+
+
+
+
+Major JVM languages
+
+
+
+BeanShell
+Clojure
+Groovy
+Oxygene
+JRuby
+Jython
+Kotlin
+Processing
+Rhino
+Scala
+Tcl/Java
+
+
+
+
+
+Conferences
+
+
+
+JavaOne
+Devoxx
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Sun Microsystems (acquired by Oracle Corp, 2010)
+
+
+
+People
+
+
+
+Bill Joy
+Andy Bechtolsheim
+Scott McNealy
+Vinod Khosla
+List of notable employees
+
+
+
+
+
+Hardware
+
+
+
+Sun-1
+Sun-2
+Sun-3
+Sun386i
+Sun-4
+SPARCstation
+Netra
+Ultra
+Enterprise
+Sun Blade
+Sun Fire
+SPARC Enterprise
+SPARC
+JavaStation
+Sun Ray
+Sun Modular Datacenter
+more...
+
+
+
+
+
+Software
+
+
+
+SunOS
+Solaris
+NIS (+)
+NFS
+ZFS
+SunView
+NeWS
+OpenWindows
+Java Desktop System
+Sun Studio
+Java
+StarOffice
+iPlanet/Sun ONE/Java Enterprise System
+Sun Secure Global Desktop
+MySQL
+Sun xVM
+GlassFish
+more...
+
+
+
+
+
+Storage
+
+
+
+StorageTek
+Sun Open Storage
+QFS
+ZFS
+
+
+
+
+
+High-performance computing
+
+
+
+Sun Cloud
+Sun Constellation System
+Sun Visualization System
+Sun Grid Engine
+Lustre
+
+
+
+
+
+Research
+
+
+
+Sun Labs
+picoJava
+Fortress
+Project Looking Glass
+
+
+
+
+
+Education
+
+
+
+SCPs
+BlueJ
+
+
+
+
+
+Community
+
+
+
+Common Development and Distribution License
+Java Community Process
+NetBeans
+OpenOffice.org
+OpenSolaris
+OpenSPARC
+OpenJDK
+OSUM
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Java_virtual_machine&oldid=833615665"					
+				Categories: Java (programming language)Java platformJava platform softwareJava specification requestsJava virtual machineStack-based virtual machinesHidden categories: CS1 errors: invisible charactersArticles containing potentially dated statements from 2006All articles containing potentially dated statementsArticles containing potentially dated statements from June 2015Articles with Curlie links				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					አማርኛالعربيةAzərbaycancaবাংলাБългарскиBosanskiCatalàČeštinaDeutschEspañolفارسیFrançais한국어हिन्दीHrvatskiBahasa IndonesiaInterlinguaItalianoעבריתҚазақшаMagyarമലയാളംМонголမြန်မာဘာသာNederlands日本語ਪੰਜਾਬੀPolskiPortuguêsРусскийShqipSimple EnglishСрпски / srpskiSrpskohrvatski / српскохрватскиSvenskaTürkçeУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 1 April 2018, at 16:29.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.332","walltime":"0.410","ppvisitednodes":{"value":1886,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":85500,"limit":2097152},"templateargumentsize":{"value":2945,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":29221,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  335.065      1 -total"," 50.41%  168.893      1 Template:Reflist"," 38.61%  129.363     24 Template:Cite_web","  9.11%   30.539      1 Template:Redirect","  6.34%   21.256      1 Template:Infobox_CPU_architecture","  6.04%   20.247      2 Template:As_of","  5.60%   18.762      1 Template:Infobox","  5.25%   17.592      3 Template:Navbox","  5.02%   16.825      2 Template:DMCA","  4.62%   15.487      6 Template:Main_article"]},"scribunto":{"limitreport-timeusage":{"value":"0.149","limit":"10.000"},"limitreport-memusage":{"value":4695768,"limit":52428800}},"cachereport":{"origin":"mw1285","timestamp":"20180401162959","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":104,"wgHostname":"mw1275"});});
+	
+

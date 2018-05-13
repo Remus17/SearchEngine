@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ninite Pro - Automatic Patching and Updates for Popular Applications</title>
+<meta name="description" content="The easiest way to manage software. Ninite Pro integrates with remote management tools to silently install or update popular third-party apps like Flash, Java, and Reader.">
+<link rel="icon" type="image/png" href="https://d8f7mp21btv4f.cloudfront.net/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="https://d8f7mp21btv4f.cloudfront.net/css/crystal-2f9dde9064cc1885f150d6ae84e9c1d7.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<link href="https://d8f7mp21btv4f.cloudfront.net/crystal/js/respond-proxy-1ac71ee4ee5fb602995fbd6fca5468b4.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/robots.txt" id="respond-redirect" rel="respond-redirect" />
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/oldie-78ee42ef96d2d8f3e4cd3a939f7231d8.js"></script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-10831845-1']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'https://ssl.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="ninite-brand" href="/">
+<img src="https://d8f7mp21btv4f.cloudfront.net/crystal/img/brand-95c4357c0068bf934474cf8b7721890a.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="/help/">Help</a></li>
+<li><a href="/feedback">Feedback</a></li>
+
+<li><a href="/pro">Ninite Pro</a></li>
+<li><a href="/signin">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="text-center pro-section">
+<h1>Patch apps across your whole domain with Ninite Pro</h1>
+<h1>
+<img src="https://d8f7mp21btv4f.cloudfront.net/img/proremote/remote-d349459c4cb410722983f13f663927d9.png" alt="The new remote interface in Ninite Pro" class="img-responsive center-block">
+</h1>
+<p class="small">
+Extra Pro features include remote mode, offline installers, silent mode, more apps, disable app update prompts, RMM integration, and more.
+</p>
+</div>
+<div class="row pro-section">
+<div class="col-md-4">
+<h1>Manage all your PCs at once</h1>
+<p>Ninite finds computers on your network, so staying secure and up-to-date is as easy as clicking Update. You can also list your computers by name or network address.</p>
+<img src="https://d8f7mp21btv4f.cloudfront.net/img/proremote/machines-62bc58f2ae69661646c498f5b42d252c.png" alt="Select machines to update" class="img-responsive">
+<h1>Easier to stay safe</h1>
+<p>Pro has an Update mode that detects all supported programs on a computer and upgrades them with the latest versions and security patches. There's no need to pick a fixed set of apps or worry about forgetting one.</p>
+<h1>3 times faster</h1>
+<p>Installers finish 3 times faster because Pro saves and reuses app downloads.</p>
+<h1>More control</h1>
+<p>The options menu makes it simple to install apps without shortcuts or produce software audit reports for your machines.</p>
+<img src="https://d8f7mp21btv4f.cloudfront.net/img/proremote/options-958acd2262a900934596f86801d38527.png" alt="Extra Pro options" class="img-responsive">
+</div>
+<div class="col-md-4">
+<h1>Stop annoying notifications</h1>
+<p>Pro has an option to turn off the annoying and frequent update notifications from apps like Java and Reader. Ninite can handle their updates in the background.</p>
+<img src="https://d8f7mp21btv4f.cloudfront.net/img/proremote/annoying-42ecb12e11ebbf103af2c70433f1aa54.png" alt="Stop annoying notifications" class="img-responsive">
+<h1>Save bandwidth</h1>
+<p>Remote mode uses just one download for all your PCs. Even if they're firewalled Ninite gets the job done.</p>
+<h1>No setup needed</h1>
+<p>There's no client to install and Ninite discovers and updates apps even if they weren't installed with Ninite. Just run it and get started right away.</p>
+<h1>Totally silent mode</h1>
+<p>Ninite Pro can run completely hidden in the background without interrupting users. It's easy to script, schedule, or customize using <a href="/help/features/switches.html">the command-line options</a>.</p>
+<img src="https://d8f7mp21btv4f.cloudfront.net/img/proremote/silent-426eb646bff2a9c70c573712e66de1d1.png" alt="Silent mode" class="img-responsive">
+</div>
+<div class="col-md-4">
+<h1>Offline installers</h1>
+<p>Ninite Pro can make offline installers that don't need any network access. They're great for housecalls or saving old versions of apps.</p>
+<h1>Extra apps</h1>
+<p>Ninite Pro can update and deploy more apps and popular plugins than our free home-use version. Check out the <a href="/applist/pro.html">full list</a>.</p>
+<h1>Simple software audits</h1>
+<p>Ninite Pro's audit mode shows you the apps on each machine and whether they are up-to-date. It's easy to use Ninite to fix any problems you discover.</p>
+<img src="https://d8f7mp21btv4f.cloudfront.net/img/proremote/audit-8ad56396cbf331efa69b2a4b42f30d0a.png" alt="An audit report" class="img-responsive">
+<h1>RMM Integration</h1>
+<p>We have <a href="/help/enterprise/rmm.html">instructions for easy integration</a> with many popular RMM tools.</p>
+<img src="https://d8f7mp21btv4f.cloudfront.net/img/proremote/rmm-db1cf35e7bdf6ea8440f81f9df6e1121.png" alt="RMMs" class="img-responsive">
+</div>
+</div>
+ <div class="row" id="pricing">
+<div class="col-sm-6 col-sm-offset-3">
+<div class="panel panel-primary help-panel-pro">
+<div class="panel-heading">
+<h3 class="panel-title">Ninite Pro Pricing</h3>
+</div>
+<div class="panel-body">
+<p>Ninite Pro is a subscription service and pricing is based on machine count. Here are some examples:</p>
+<p>
+<table class="table">
+<thead>
+<tr>
+<th>Machines</th>
+<th>Total Price</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td><input
+style="border: none; box-shadow: none; height: auto; padding-top: 0; padding-bottom: 0;"
+class="form-control js-pricing3-table-machines"
+type="number"
+min="1"
+placeholder="you can edit this table"
+value="20000"></td>
+<td style="vertical-align: middle;">$<span class="js-pricing3-table-monthly">5115</span> / month</td>
+</tr>
+
+<tr>
+<td><input
+style="border: none; box-shadow: none; height: auto; padding-top: 0; padding-bottom: 0;"
+class="form-control js-pricing3-table-machines"
+type="number"
+min="1"
+placeholder="you can edit this table"
+value="5000"></td>
+<td style="vertical-align: middle;">$<span class="js-pricing3-table-monthly">1365</span> / month</td>
+</tr>
+
+<tr>
+<td><input
+style="border: none; box-shadow: none; height: auto; padding-top: 0; padding-bottom: 0;"
+class="form-control js-pricing3-table-machines"
+type="number"
+min="1"
+placeholder="you can edit this table"
+value="1000"></td>
+<td style="vertical-align: middle;">$<span class="js-pricing3-table-monthly">365</span> / month</td>
+</tr>
+
+<tr>
+<td><input
+style="border: none; box-shadow: none; height: auto; padding-top: 0; padding-bottom: 0;"
+class="form-control js-pricing3-table-machines"
+type="number"
+min="1"
+placeholder="you can edit this table"
+value="250"></td>
+<td style="vertical-align: middle;">$<span class="js-pricing3-table-monthly">135</span> / month</td>
+</tr>
+
+<tr>
+<td><input
+style="border: none; box-shadow: none; height: auto; padding-top: 0; padding-bottom: 0;"
+class="form-control js-pricing3-table-machines"
+type="number"
+min="1"
+placeholder="you can edit this table"
+value="50"></td>
+<td style="vertical-align: middle;">$<span class="js-pricing3-table-monthly">35</span> / month</td>
+</tr>
+
+<tr>
+<td><input
+style="border: none; box-shadow: none; height: auto; padding-top: 0; padding-bottom: 0;"
+class="form-control js-pricing3-table-machines"
+type="number"
+min="1"
+placeholder="you can edit this table"
+value=""></td>
+<td style="vertical-align: middle;">$<span class="js-pricing3-table-monthly"></span> / month</td>
+</tr>
+
+</tbody>
+</table>
+</p>
+<p>
+Annual payment is available for 12 times the monthly price.
+Paying with a credit card is easiest but we can help you with quotes, purchase orders, invoices, etc. too.
+</p>
+<p>
+We encourage you to start with a 14-day free trial.
+It's great for making sure Ninite Pro works like you expect and there's no commitment.
+</p>
+<p class="text-center">
+<a href="/request_trial" class="btn btn-lg btn-success">Start your free trial</a>
+</p>
+<p class="text-center">
+<a href="/signup/">or subscribe now</a>
+</p>
+<p>
+Have questions about Ninite Pro or how it can fit in your environment? Are you an enterprise with more specific needs?
+You can call us at <a href="tel:+1.888.864.6483">+1.888.864.6483</a> or email <a href="mailto:sales@ninite.com">sales@ninite.com</a>.
+We're happy to answer any questions you have!
+</p>
+<h3>How our pricing works</h3>
+<p>
+Pricing is per machine per month and tiered. Here's the rate schedule:
+</p>
+<p>
+<table class="table">
+<thead>
+<tr>
+<th>Machines</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First 20 machines / month</td>
+<td>$1.00 per machine</td>
+</tr>
+<tr>
+<td>Next 400 machines / month</td>
+<td>$0.50 per machine</td>
+</tr>
+<tr>
+<td>Additional machines / month</td>
+<td>$0.25 per machine</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>
+Let's calculate a price for 700 machines: (20 * $1.00) + (400 * $0.50) + (280 * $0.25) = $290 / month.
+Pretty simple!
+</p>
+</div>
+</div>
+</div>
+</div>
+<h2>Answers to Common Questions</h2>
+<div class="row pro-questions">
+<div class="col-md-4">
+<dl>
+<dt>Which apps does it support?</dt>
+<dd>
+<a href="/applist/pro.html">Here's the full list.</a>
+</dd>
+<dt>Can I use one Ninite account at multiple locations and for multiple clients?</dt>
+<dd>
+Yes, you can use one account at multiple locations and with multiple clients.
+For licensing we just care about the total number of machines.
+</dd>
+<dt>Can I pay by wire transfer, purchase order, or check?</dt>
+<dd>
+Yes, we can do that for our annual prepaid plans. Email <a href="mailto:contact@ninite.com">contact@ninite.com</a>
+and we can help you.
+</dd>
+<dt>Do I need to install this on every PC?</dt>
+<dd>
+Nope. Ninite itself isn't actually installed. It's just a .exe that you run.
+You can run it on one machine in <a href="/help/features/remote.html">remote mode</a>
+and manage everything from there.
+Or set it up to run as a scheduled task or a startup script on each machine.
+We've designed Ninite to be extremely flexible.
+</dd>
+</dl>
+</div>
+<div class="col-md-4">
+<dl>
+<dt>Do my users need to have Administrator rights?</dt>
+<dd>
+No. Normal users actually never interact with Ninite Pro.
+You'll either manage things over the network with the
+<a href="/help/features/remote.html">remote mode</a>, or update things
+behind the scenes by having Ninite Pro run as a scheduled task or startup script.
+</dd>
+<dt>Do you support custom applications?</dt>
+<dd>
+We don't have custom application support built in right now. It is
+something we're looking at for a new feature though.
+</dd>
+<dt>Can all my technicians/staff use one Ninite account?</dt>
+<dd>
+Yes, one account is good for use by unlimited technicians.
+For licensing we just care about the total number of machines.
+</dd>
+<dt>
+How does the licensing work if I repair different computers
+all the time?
+</dt>
+<dd>
+The machine count resets every 30 days.
+We designed it this way so it would work for computer repair shops.
+Just pick the plan that matches your monthly volume.
+</dd>
+</dl>
+</div>
+<div class="col-md-4">
+<dl>
+<dt>
+What if I need to replace a PC, do I need to get more licenses?
+</dt>
+<dd>
+The machine count resets every 30 days, so when you replace a PC
+you shouldn't need to get more licenses.
+This count is a little flexible too,
+so it's fine to go over by a few machines temporarily.
+</dd>
+<dt>
+How do you count machines?
+</dt>
+<dd>
+When Ninite contacts our servers to get the latest configuration
+information it sends along a one-way hash of some stable values on the
+machine. Things like the MAC address, hard drive serial number, etc.
+Those hashes are the machine IDs that we count, so it doesn't matter
+if computers change IPs or get completely reloaded from time to time.
+</dd>
+<dt>Can I change my machine count later?</dt>
+<dd>
+Yes, just email <a href="mailto:contact@ninite.com">contact@ninite.com</a> when the number of machines
+you're managing changes and we can get you set up on a new plan.
+</dd>
+<dt>My question isn't here.</dt>
+<dd>
+<a href="/feedback">Ask us</a> and we'll get back to you.
+Don't forget to leave your email address or we can't respond.
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="/jobs">jobs</a></li>
+<li><a class="footer-link" href="/about">about</a></li>
+<li><a class="footer-link" href="/press">press</a></li>
+<li><a class="footer-link" href="/news">updates</a></li>
+<li><a class="footer-link" href="/security">security</a></li>
+<li><a class="footer-link" href="/privacy">privacy</a></li>
+<li><a class="footer-link" href="/terms">terms</a></li>
+</ul>
+<p class="small">
+&copy;2018 Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/bundle-3737f22be190c9564031d54327c43962.js"></script>
+</body>
+</html>

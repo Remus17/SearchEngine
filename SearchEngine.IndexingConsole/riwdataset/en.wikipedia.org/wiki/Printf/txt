@@ -1,0 +1,975 @@
+
+
+
+
+printf format string - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Printf_format_string","wgTitle":"Printf format string","wgCurRevisionId":831322592,"wgRevisionId":831322592,"wgArticleId":473394,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from February 2015","All articles needing additional references","Use dmy dates from January 2012","Articles with example C code","C standard library","Unix software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Printf_format_string","wgRelevantArticleId":473394,"wgRequestId":"Wr0WSgpAAEIAAIF65x4AAAAW","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Printf","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Printf_format_string","wgWikibaseItemId":"Q838016","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+printf format string			
+				From Wikipedia, the free encyclopedia				  (Redirected from Printf)
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (February 2015) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+An example of the printf function.
+
+
+Printf format string (of which "printf" stands for "print formatted") refers to a control parameter used by a class of functions in the string-processing libraries of various programming languages. The format string is written in a simple template language, and specifies a method for rendering an arbitrary number of varied data type parameters into a string. This string is then by default printed on the standard output stream, but variants exist that perform other tasks with the result, such as returning it as the value of the function. Characters in the format string are usually copied literally into the function's output, as is usual for templates, with the other parameters being rendered into the resulting text in place of certain placeholders – points marked by format specifiers, which are typically introduced by a % character, though syntax varies. The format string itself is very often a string literal, which allows static analysis of the function call. However, it can also be the value of a variable, which allows for dynamic formatting but also a security vulnerability known as an uncontrolled format string exploit.
+The term "printf" is due to the C language, which popularized this type of function, but these functions predate C, and other names are used, notably "format". Printf format strings, which provide formatted output (templating), are complementary to scanf format strings, which provide formatted input (parsing). In both cases these provide simple functionality and fixed format compared to more sophisticated and flexible template engines or parsers, but are sufficient for many purposes.
+
+
+
+Contents
+
+
+1 Overview and history
+
+1.1 History
+
+
+2 Format placeholder specification
+
+2.1 Syntax
+2.2 Parameter field
+2.3 Flags field
+2.4 Width field
+2.5 Precision field
+2.6 Length field
+2.7 Type field
+2.8 Custom format placeholders
+
+
+3 Vulnerabilities
+
+3.1 Invalid conversion specifications
+3.2 Field width versus explicit delimiters in tabular output
+
+
+4 Programming languages with printf
+5 See also
+6 References
+7 External links
+
+
+
+Overview and history[edit]
+Many programming languages implement a printf function to output a formatted string. It originated from the C programming language, where it has a prototype similar to the following:
+
+
+int printf(const char *format, ...);
+
+The string constant format provides a description of the output, with placeholders marked by % escape characters, to specify both the relative location and the type of output that the function should produce. The return value yields the number of printed characters.
+
+
+printf("Color %s, number1 %d, number2 %05d, hex %#x, float %5.2f, unsigned value %u.\n",
+       "red", 123456, 89, 255, 3.14159, 250);
+
+will print the following line (including new-line character, \n):
+
+Color red, number1 123456, number2 00089, hex 0xff, float  3.14, unsigned value 250.
+
+The printf function returns the number of characters printed, or a negative value if an output error occurs.
+History[edit]
+C's variadic printf has its origins in BCPL's writef function (1966). For example, a statement to write the factorial equation 5! = 120 (assuming I is 5 and FACT computes the factorial) could be:[1]
+
+WRITEF("%N! = %I4*N", I, FACT(I))
+
+ALGOL 68 Draft and Final report had the functions inf and outf, subsequently these were revised out of the original language and replaced with the now more familiar readf/getf and printf/putf.
+
+printf(($"Color "g", number1 "6d,", number2 "4zd,", hex "16r2d,", float "-d.2d,", unsigned value"-3d"."l$,
+            "red", 123456, 89, BIN 255, 3.14, 250));
+
+Unix printf first appeared in Version 4, as part of the porting to C.[2]
+Format placeholder specification[edit]
+Formatting takes place via placeholders within the format string. For example, if a program wanted to print out a person's age, it could present the output by prefixing it with "Your age is ". To denote that we want the integer for the age to be shown immediately after that message, we may use the format string:
+
+"Your age is %d."
+
+Syntax[edit]
+The syntax for a format placeholder is
+
+%[parameter][flags][width][.precision][length]type
+
+Parameter field[edit]
+This is a POSIX extension and not in C99. The Parameter field can be omitted or can be:
+
+
+
+
+Character
+Description
+
+
+n$
+n is the number of the parameter to display using this format specifier, allowing the parameters provided to be output multiple times, using varying format specifiers or in different orders. If any single placeholder specifies a parameter, all the rest of the placeholders MUST also specify a parameter.
+For example, printf("%2$d %2$#x; %1$d %1$#x",16,17) produces 17 0x11; 16 0x10.
+
+
+
+
+Flags field[edit]
+The Flags field can be zero or more (in any order) of:
+
+
+
+
+Character
+Description
+
+
+-
+(minus)
+Left-align the output of this placeholder. (The default is to right-align the output.)
+
+
++
+(plus)
+Prepends a plus for positive signed-numeric types. positive = +, negative = -.
+(The default doesn't prepend anything in front of positive numbers.)
+
+
+ 
+(space)
+Prepends a space for positive signed-numeric types. positive =  , negative = -. This flag is ignored if the + flag exists.
+(The default doesn't prepend anything in front of positive numbers.)
+
+
+0
+(zero)
+When the 'width' option is specified, prepends zeros for numeric types. (The default prepends spaces.)
+For example, printf("%2X",3) produces  3, while printf("%02X",3) produces in 03.
+
+
+#
+(hash)
+Alternate form:
+For g and G types, trailing zeros are not removed.
+For f, F, e, E, g, G types, the output always contains a decimal point.
+For o, x, X types, the text 0, 0x, 0X, respectively, is prepended to non-zero numbers.
+
+
+
+
+Width field[edit]
+The Width field specifies a minimum number of characters to output, and is typically used to pad fixed-width fields in tabulated output, where the fields would otherwise be smaller, although it does not cause truncation of oversized fields.
+The width field may be omitted, or a numeric integer value, or a dynamic value when passed as another argument when indicated by an asterisk *. For example, printf("%*d", 5, 10) will result in    10 being printed, with a total width of 5 characters.
+Though not part of the width field, a leading zero is interpreted as the zero-padding flag mentioned above, and a negative value is treated as the positive value in conjunction with the left-alignment - flag also mentioned above.
+Precision field[edit]
+The Precision field usually specifies a maximum limit on the output, depending on the particular formatting type. For floating point numeric types, it specifies the number of digits to the right of the decimal point that the output should be rounded. For the string type, it limits the number of characters that should be output, after which the string is truncated.
+The precision field may be omitted, or a numeric integer value, or a dynamic value when passed as another argument when indicated by an asterisk *. For example, printf("%.*s", 3, "abcdef") will result in abc being printed.
+Length field[edit]
+The Length field can be omitted or be any of:
+
+
+
+
+Character
+Description
+
+
+hh
+For integer types, causes printf to expect an int-sized integer argument which was promoted from a char.
+
+
+h
+For integer types, causes printf to expect an int-sized integer argument which was promoted from a short.
+
+
+l
+For integer types, causes printf to expect a long-sized integer argument.
+For floating point types, this has no effect.[3]
+
+
+
+ll
+For integer types, causes printf to expect a long long-sized integer argument.
+
+
+L
+For floating point types, causes printf to expect a long double argument.
+
+
+z
+For integer types, causes printf to expect a size_t-sized integer argument.
+
+
+j
+For integer types, causes printf to expect a intmax_t-sized integer argument.
+
+
+t
+For integer types, causes printf to expect a ptrdiff_t-sized integer argument.
+
+
+
+
+Additionally, several platform-specific length options came to exist prior to widespread use of the ISO C99 extensions:
+
+
+
+
+Characters
+Description
+
+
+I
+For signed integer types, causes printf to expect ptrdiff_t-sized integer argument; for unsigned integer types, causes printf to expect size_t-sized integer argument. Commonly found in Win32/Win64 platforms.
+
+
+I32
+For integer types, causes printf to expect a 32-bit (double word) integer argument. Commonly found in Win32/Win64 platforms.
+
+
+I64
+For integer types, causes printf to expect a 64-bit (quad word) integer argument. Commonly found in Win32/Win64 platforms.
+
+
+q
+For integer types, causes printf to expect a 64-bit (quad word) integer argument. Commonly found in BSD platforms.
+
+
+
+
+ISO C99 includes the inttypes.h header file that includes a number of macros for use in platform-independent printf coding. These need to not be inside double-quotes, e.g. printf("%" PRId64 "\n", t);
+Example macros include:
+
+
+
+
+Macro
+Description
+
+
+PRId32
+Typically equivalent to I32d (Win32/Win64) or d
+
+
+PRId64
+Typically equivalent to I64d (Win32/Win64), lld (32-bit platforms) or ld (64-bit platforms)
+
+
+PRIi32
+Typically equivalent to I32i (Win32/Win64) or i
+
+
+PRIi64
+Typically equivalent to I64i (Win32/Win64), lli (32-bit platforms) or li (64-bit platforms)
+
+
+PRIu32
+Typically equivalent to I32u (Win32/Win64) or u
+
+
+PRIu64
+Typically equivalent to I64u (Win32/Win64), llu (32-bit platforms) or lu (64-bit platforms)
+
+
+PRIx32
+Typically equivalent to I32x (Win32/Win64) or x
+
+
+PRIx64
+Typically equivalent to I64x (Win32/Win64), llx (32-bit platforms) or lx (64-bit platforms)
+
+
+
+
+Type field[edit]
+The Type field can be any of:
+
+
+
+
+Character
+Description
+
+
+%
+Prints a literal % character (this type doesn't accept any flags, width, precision, length fields).
+
+
+d, i
+int as a signed decimal number. %d and %i are synonymous for output, but are different when used with scanf() for input (where using %i will interpret a number as hexadecimal if it's preceded by 0x, and octal if it's preceded by 0.)
+
+
+u
+Print decimal unsigned int.
+
+
+f, F
+double in normal (fixed-point) notation. f and F only differs in how the strings for an infinite number or NaN are printed (inf, infinity and nan for f, INF, INFINITY and NAN for F).
+
+
+e, E
+double value in standard form ([-]d.ddd e[+/-]ddd). An E conversion uses the letter E (rather than e) to introduce the exponent. The exponent always contains at least two digits; if the value is zero, the exponent is 00. In Windows, the exponent contains three digits by default, e.g. 1.5e002, but this can be altered by Microsoft-specific _set_output_format function.
+
+
+g, G
+double in either normal or exponential notation, whichever is more appropriate for its magnitude. g uses lower-case letters, G uses upper-case letters. This type differs slightly from fixed-point notation in that insignificant zeroes to the right of the decimal point are not included. Also, the decimal point is not included on whole numbers.
+
+
+x, X
+unsigned int as a hexadecimal number. x uses lower-case letters and X uses upper-case.
+
+
+o
+unsigned int in octal.
+
+
+s
+null-terminated string.
+
+
+c
+char (character).
+
+
+p
+void * (pointer to void) in an implementation-defined format.
+
+
+a, A
+double in hexadecimal notation, starting with 0x or 0X. a uses lower-case letters, A uses upper-case letters.[4][5] (C++11 iostreams have a hexfloat that works the same).
+
+
+n
+Print nothing, but writes the number of characters successfully written so far into an integer pointer parameter.
+Java: indicates a platform neutral newline/carriage return.[6]
+Note: This can be utilized in Uncontrolled format string exploits.
+
+
+
+
+Custom format placeholders[edit]
+There are a few implementations of printf-like functions that allow extensions to the escape-character-based mini-language, thus allowing the programmer to have a specific formatting function for non-builtin types. One of the most well-known is the (now deprecated) glibc's register_printf_function(). However, it is rarely used due to the fact that it conflicts with static format string checking. Another is Vstr custom formatters, which allows adding multi-character format names, and can work with static format checkers.
+Some applications (like the Apache HTTP Server) include their own printf-like function, and embed extensions into it. However these all tend to have the same problems that register_printf_function() has.
+The Linux kernel printk function supports a number of ways to display kernel structures using the generic %p specification, by appending additional format characters.[7] For example, %pI4 prints an IPV4 address in dotted-decimal form. This allows static format string checking (of the %p portion) at the expense of full compatibility with normal printf.
+Most non-C languages that have a printf-like function work around the lack of this feature by just using the %s format and converting the object to a string representation. C++ offers a notable exception, in that it has a printf function inherited from its C history, but also has a completely different mechanism that is preferred.
+Vulnerabilities[edit]
+Invalid conversion specifications[edit]
+If the syntax of a conversion specification is invalid, behavior is undefined, and can cause program termination. If there are too few function arguments provided to supply values for all the conversion specifications in the template string, or if the arguments are not of the correct types, the results are also undefined. Excess arguments are ignored. In a number of cases, the undefined behavior has led to "Format string attack" security vulnerabilities.
+Some compilers, like the GNU Compiler Collection, will statically check the format strings of printf-like functions and warn about problems (when using the flags -Wall or -Wformat). GCC will also warn about user-defined printf-style functions if the non-standard "format" __attribute__ is applied to the function.
+Field width versus explicit delimiters in tabular output[edit]
+Using only field widths to provide for tabulation, as with a format like %8d%8d%8d for three integers in three 8-character columns, will not guarantee that field separation will be retained if large numbers occur in the data. Loss of field separation can easily lead to corrupt output. In systems which encourage the use of programs as building blocks in scripts, such corrupt data can often be forwarded into and corrupt further processing, regardless of whether the original programmer expected the output would only be read by human eyes. Such problems can be eliminated by including explicit delimiters, even spaces, in all tabular output formats. Simply changing the dangerous example from before to  %7d %7d %7d addresses this, formatting identically until numbers become larger, but then explicitly preventing them from becoming merged on output due to the explicitly included spaces. Similar strategies apply to string data.
+Programming languages with printf[edit]
+Some languages, like AMPL and Elixir, use format strings that deviate from the style in this article. They are not included.
+Other languages, like Clojure and Scala, inherit their implementation from JVM or other environment. They are not included.
+Some languages, like JavaScript, do not have a standard native printf implementation but external libraries, like printj, emulate printf behavior. They are not included.
+
+awk (via sprintf)
+C
+
+C++ (also provides overloaded shift operators and manipulators as an alternative for formatted output – see iostream and iomanip)
+Objective-C
+
+
+D
+F#
+G (LabVIEW)
+GNU MathProg
+GNU Octave
+Go
+Haskell
+J
+Java (since version 1.5) and JVM languages
+Lua (string.format)
+Maple
+MATLAB
+Max (via the sprintf object)
+Mythryl
+PARI/GP
+Perl
+PHP
+Python ( via % operator)
+R
+Red/System
+Ruby
+Tcl (via format command)
+Transact-SQL (via xp_sprintf)
+Vala (via print() and FileStream.printf())
+The printf utility command, sometimes built in the shell like some implementations of the Korn shell (ksh), Bourne again shell (bash), or Z shell (zsh). These commands usually interpret C escapes in the format string.
+
+See also[edit]
+
+Format (Common Lisp)
+C standard library
+Format string attack
+iostream
+ML (programming language)
+printf debugging
+printf (Unix)
+printk (print kernel messages)
+scanf
+string interpolation
+
+References[edit]
+
+
+^ "BCPL". www.cl.cam.ac.uk. Retrieved 19 March 2018. 
+^ McIlroy, M. D. (1987). A Research Unix reader: annotated excerpts from the Programmer's Manual, 1971–1986 (PDF) (Technical report). CSTR. Bell Labs. 139. 
+^ ISO/IEC (1999). ISO/IEC 9899:1999(E): Programming Languages - C §7.19.6.1 para 7
+^ ""The GNU C Library Reference Manual", "12.12.3 Table of Output Conversions"". Gnu.org. Retrieved 2014-03-17. 
+^ "printf" (%a added in C99)
+^ "Formatting Numeric Print Output". The Java Tutorials. Oracle Inc. Retrieved 19 March 2018. 
+^ "Linux kernel Documentation/printk-formats.txt". Git.kernel.org. Retrieved 2014-03-17. 
+
+
+External links[edit]
+
+C++ reference for std::fprintf
+gcc printf format specifications quick reference
+printf: print formatted output – System Interfaces Reference, The Single UNIX Specification, Issue 7 from The Open Group
+The Formatter specification in Java 1.5
+GNU Bash printf(1) builtin
+
+
+
+
+
+
+
+v
+t
+e
+
+
+C programming language
+
+
+
+
+
+
+ANSI C
+
+C89 and C90
+
+
+C99
+C11
+Embedded C
+MISRA C
+
+
+
+
+
+Features
+
+
+
+Functions
+Header files
+Libraries
+Operators
+String
+Syntax
+Preprocessor
+Data types
+
+
+
+
+
+Standard library
+functions
+
+
+
+Char (ctype.h)
+File I/O (stdio.h)
+Math (math.h)
+Dynamic memory (stdlib.h)
+String (string.h)
+Time (time.h)
+Variadic (stdarg.h)
+POSIX
+
+
+
+
+
+Standard
+libraries
+
+
+
+Bionic
+
+libhybris
+
+
+dietlibc
+EGLIBC
+glibc
+klibc
+Microsoft Run-time Library
+musl
+Newlib
+uClibc
+BSD libc
+
+
+
+
+
+Compilers
+
+
+
+Comparison of compilers
+ACK
+Borland Turbo C
+Clang
+GCC
+ICC
+LCC
+Pelles C
+PCC
+SDCC
+TCC
+Microsoft Visual Studio / Express / C++
+Watcom C/C++
+
+
+
+
+
+IDEs
+
+
+
+Comparison of IDEs
+Anjuta
+Code::Blocks
+CodeLite
+Eclipse
+Geany
+Microsoft Visual Studio
+NetBeans
+
+
+
+
+
+Comparison with
+other languages
+
+
+
+Compatibility of C and C++
+Comparison with Embedded C
+Comparison with Pascal
+Comparison of programming languages
+
+
+
+
+
+Descendant
+languages
+
+
+
+C++
+C#
+D
+Objective-C
+Alef
+Limbo
+Go
+Vala
+
+
+
+
+
+
+
+
+ Category
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Unix command-line interface programs and shell builtins
+
+
+
+File system
+
+
+
+cat
+chmod
+chown
+chgrp
+cksum
+cmp
+cp
+dd
+du
+df
+file
+fuser
+ln
+ls
+mkdir
+mv
+pax
+pwd
+rm
+rmdir
+split
+tee
+touch
+type
+umask
+
+
+
+
+
+Processes
+
+
+
+at
+bg
+crontab
+fg
+kill
+nice
+ps
+time
+
+
+
+
+
+User environment
+
+
+
+env
+exit
+logname
+mesg
+talk
+tput
+uname
+who
+write
+
+
+
+
+
+Text processing
+
+
+
+awk
+basename
+comm
+csplit
+cut
+diff
+dirname
+ed
+ex
+fold
+head
+iconv
+join
+m4
+more
+nl
+paste
+printf
+sed
+sort
+strings
+tail
+tr
+uniq
+vi
+wc
+xargs
+
+
+
+
+
+Shell builtins
+
+
+
+alias
+cd
+echo
+test
+unset
+wait
+
+
+
+
+
+Searching
+
+
+
+find
+grep
+
+
+
+
+
+Documentation
+
+
+
+man
+
+
+
+
+
+Software development
+
+
+
+ar
+ctags
+lex
+make
+nm
+strip
+yacc
+
+
+
+
+
+Miscellaneous
+
+
+
+bc
+cal
+expr
+lp
+od
+sleep
+true and false
+
+
+
+
+
+
+
+
+ Categories
+
+Standard Unix programs
+Unix SUS2008 utilities
+
+
+ List
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Printf_format_string&oldid=831322592"					
+				Categories: C standard libraryUnix softwareHidden categories: Articles needing additional references from February 2015All articles needing additional referencesUse dmy dates from January 2012Articles with example C code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikibooks				
+							
+		
+			
+			Languages
+			
+								
+					DeutschEspañolFrançais한국어HrvatskiItalianoMagyar日本語PolskiPortuguêsRomânăРусский中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 20 March 2018, at 00:17.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.224","walltime":"0.311","ppvisitednodes":{"value":876,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":48133,"limit":2097152},"templateargumentsize":{"value":693,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":7111,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  222.866      1 -total"," 35.83%   79.861      1 Template:Reflist"," 24.34%   54.255      4 Template:Cite_web"," 24.31%   54.173      1 Template:Refimprove"," 15.44%   34.407      1 Template:Ambox"," 13.40%   29.854      2 Template:Navbox"," 12.74%   28.396      1 Template:CProLang"," 11.40%   25.415      1 Template:Use_dmy_dates"," 10.38%   23.124      1 Template:DMCA","  9.64%   21.473      1 Template:Dated_maintenance_category"]},"scribunto":{"limitreport-timeusage":{"value":"0.082","limit":"10.000"},"limitreport-memusage":{"value":2965674,"limit":52428800}},"cachereport":{"origin":"mw1310","timestamp":"20180329050548","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":108,"wgHostname":"mw1271"});});
+	
+

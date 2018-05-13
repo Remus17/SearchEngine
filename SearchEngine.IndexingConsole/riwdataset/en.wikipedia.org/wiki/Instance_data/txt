@@ -1,0 +1,207 @@
+
+
+
+
+Field (computer science) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Field_(computer_science)","wgTitle":"Field (computer science)","wgCurRevisionId":810309319,"wgRevisionId":810309319,"wgArticleId":491073,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Data modeling"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Field_(computer_science)","wgRelevantArticleId":491073,"wgRequestId":"WsI68wpAAEIAAFMvQX8AAADI","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Instance_data","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Field_(computer_science)","wgWikibaseItemId":"Q1172412","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Field (computer science)			
+				From Wikipedia, the free encyclopedia				  (Redirected from Instance data)
+								
+					Jump to:					navigation, 					search
+				
+				In computer science, data that has several parts, known as a record, can be divided into fields. Relational databases arrange data as sets of database records, also called rows. Each record consists of several fields; the fields of all records form the columns. Examples of fields: name, gender, hair colour.
+In object-oriented programming, field (also called data member or member variable) is the data encapsulated within a class or object. In the case of a regular field (also called instance variable), for each instance of the object there is an instance variable: for example, an Employee class has a Name field and there is one distinct name per employee. A static field (also called class variable) is one variable, which is shared by all instances.[1] Fields are abstracted by properties, which allow them to be read and written as if they were fields, but these can be translated to getter and setter method calls.
+
+
+
+Contents
+
+
+1 Fixed length
+2 Variable length
+3 See also
+4 References
+
+
+
+Fixed length[edit]
+Fields that contain a fixed number of bits are known as fixed length fields. A four byte field for example may contain a 31 bit binary integer plus a sign bit (32 bits in all). A 30 byte name field may contain a person's name typically padded with blanks at the end. The disadvantage of using fixed length fields is that some part of the field may be wasted but space is still required for the maximum length case. Also, where fields are omitted, padding for the missing fields is still required to maintain fixed start positions within a record for instance.
+Variable length[edit]
+A variable length field is not always the same physical size. Such fields are nearly always used for text fields that can be large, or fields that vary greatly in length. For example, a bibliographical database like PubMed has many small fields such as publication date and author name, but also has abstracts, which vary greatly in length. Reserving a fixed-length field of some length would be inefficient because it would enforce a maximum length on abstracts, and because space would be wasted in most records (particularly if many articles lacked abstracts entirely).
+Database implementations commonly store varying-length fields in special ways, in order to make all the records of a given type have a uniform small size. Doing so can help performance. On the other hand, data in serialized forms such as stored in typical file systems, transmitted across networks, and so on usually uses quite different performance strategies. The choice depends on factors such as the total size of records, performance characteristics of the storage medium, and the expected patterns of access.
+Database implementations typically store variable length fields in ways such as
+
+a sequence of characters or bytes, followed by an end-marker that is prohibited within the string itself. This makes it slower to access later fields in the same record because the later fields are not always at the same physical distance from the start of the record.
+a pointer to data in some other location, such as a URI, a file offset (and perhaps length), or a key identifying a record in some special place. This typically speeds up processes that don't need the contents of the variable length field(s), but slows processes that do.
+a length prefix followed by the specified number of characters or bytes. This avoids searches for an end-marker as in the first method, and avoids the loss of locality of reference as in the second method. On the other hand, it imposes a maximum length: the biggest number that can be represented using the (generally fixed length) prefix. In addition, records still vary in length, and must be traversed in order to reach later fields.
+
+If a varying-length field is often empty, additional optimizations come into play.
+See also[edit]
+
+Class variable
+Data hierarchy
+Instance variable
+Mutator method
+
+References[edit]
+
+
+^ "Data fields". SLICCWARE. Retrieved 2011-08-12. 
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Field_(computer_science)&oldid=810309319"					
+				Categories: Data modeling				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةCatalàDeutschEspañolFrançaisItalianoעבריתҚазақшаNederlands日本語PolskiPortuguêsРусскийTiếng Việt				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 14 November 2017, at 13:45.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.056","walltime":"0.074","ppvisitednodes":{"value":146,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":2028,"limit":2097152},"templateargumentsize":{"value":105,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":947,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   59.735      1 Template:Reflist","100.00%   59.735      1 -total"," 75.28%   44.967      1 Template:Cite_web","  6.94%    4.145      1 Template:Column-width","  3.80%    2.270      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.022","limit":"10.000"},"limitreport-memusage":{"value":1403727,"limit":52428800}},"cachereport":{"origin":"mw1265","timestamp":"20180311151024","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":69,"wgHostname":"mw1271"});});
+	
+

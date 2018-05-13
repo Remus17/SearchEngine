@@ -1,0 +1,473 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.3.1 Request Methods
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.3 Request Object 
+Up:
+4.5.3 Request Object 
+Next:
+4.5.3.2 Request Members
+
+
+
+
+ 
+
+4.5.3.1 Request Methods
+
+
+
+
+  add_common_vars(
+  )
+
+  Calls the Apache ap_add_common_vars() function. After a
+  call to this method, req.subprocess_env will contain a
+  lot of CGI information.
+
+
+
+
+  add_handler(
+  htype, handler[, dir])
+
+
+
+Allows dynamic handler registration. htype is a string
+  containing the name of any of the apache request (but not filter or
+  connection) handler directives,
+  e.g. "PythonHandler". handler is a string containing the
+  name of the module and the handler function.  Optional dir is
+  a string containing the name of the directory to be added to the
+  pythonpath. If no directory is specified, then, if there is already
+  a handler of the same type specified, its directory is inherited,
+  otherwise the directory of the presently executing handler is
+  used. If there is a PythonPath directive in effect, then
+  sys.path will be set exactly according to it (no directories
+  added, the dir argument is ignored).
+
+
+A handler added this way only persists throughout the life of the
+  request. It is possible to register more handlers while inside the
+  handler of the same type. One has to be careful as to not to create
+  an infinite loop this way.
+
+
+Dynamic handler registration is a useful technique that allows the
+  code to dynamically decide what will happen next. A typical example
+  might be a PythonAuthenHandler that will assign different
+  PythonHandlers based on the authorization level, something
+  like:
+
+
+
+if manager:
+    req.add_handler("PythonHandler", "menu::admin")
+else:
+    req.add_handler("PythonHandler", "menu::basic")
+                              
+
+
+Note:
+If you pass this function an invalid handler, an exception will be
+    generated at the time an attempt is made to find the handler. 
+  
+
+
+
+
+  allow_methods(
+  methods[, reset])
+
+  Adds methods to the req.allowed_methods list. This list
+  will be passed in Allowed: header if
+  HTTP_METHOD_NOT_ALLOWED or HTTP_NOT_IMPLEMENTED
+  is returned to the client. Note that Apache doesn't do anything to
+  restrict the methods, this list is only used to construct the
+  header. The actual method-restricting logic has to be provided in the
+  handler code.
+
+
+methods is a sequence of strings. If reset is 1, then
+  the list of methods is first cleared.
+
+
+
+
+  document_root(
+  )
+
+  Returns DocumentRoot setting.
+
+
+
+
+  get_basic_auth_pw(
+  )
+
+  Returns a string containing the password when Basic authentication is
+  used.
+
+
+
+
+  get_config(
+  )
+
+  Returns a reference to the table object containing the mod_python
+  configuration in effect for this request except for
+  Python*Handler and PythonOption (The latter can be
+  obtained via req.get_options(). The table has directives as
+  keys, and their values, if any, as values.
+
+
+
+
+  get_remote_host(
+  [type, str_is_ip])
+
+
+
+This method is used to determine remote client's DNS name or IP
+  number. The first call to this function may entail a DNS look up, but
+  subsequent calls will use the cached result from the first call.
+
+
+The optional type argument can specify the following: 
+
+
+
+
+apache.REMOTE_HOST Look up the DNS name. Return None if Apache
+    directive HostNameLookups is off or the hostname cannot
+    be determined.
+
+
+
+apache.REMOTE_NAME (Default) Return the DNS name if
+    possible, or the IP (as a string in dotted decimal notation)
+    otherwise.
+
+
+
+apache.REMOTE_NOLOOKUP Don't perform a DNS lookup, return an
+    IP. Note: if a lookup was performed prior to this call, then the
+    cached host name is returned.
+
+
+
+apache.REMOTE_DOUBLE_REV Force a double-reverse lookup. On 
+    failure, return None.
+
+
+
+
+
+
+If str_is_ip is None or unspecified, then the return
+  value is a string representing the DNS name or IP address.
+
+
+If the optional str_is_ip argument is not None, then the
+  return value is an (address, str_is_ip) tuple, where str_is_ip
+  is non-zero if address is an IP address string.
+
+
+On failure, None is returned.
+
+
+
+
+
+
+  get_options(
+  )
+
+  Returns a reference to the table object containing the options set by
+  the PythonOption directives.
+
+
+
+
+  internal_redirect(
+  new_uri)
+
+  Internally redirects the request to the new_uri. new_uri
+  must be a string.
+
+
+The httpd server handles internal redirection by creating a new
+  request object and processing all request phases. Within an internal
+  redirect, req.prev will contain a reference to a request
+  object from which it was redirected.
+
+
+
+
+
+
+  log_error(
+  message[, level])
+
+  An interface to the Apache ap_log_rerror
+  function. message is a string with the error message,
+  level is one of the following flags constants:
+
+
+
+    APLOG_EMERG
+    APLOG_ALERT
+    APLOG_CRIT
+    APLOG_ERR
+    APLOG_WARNING
+    APLOG_NOTICE
+    APLOG_INFO
+    APLOG_DEBUG
+    APLOG_NOERRNO
+            
+
+
+If you need to write to log and do not have a reference to a request object,
+  use the apache.log_error function.
+
+
+
+
+  meets_conditions(
+  )
+
+  Calls the Apache ap_meets_conditions() function which
+  returns a status code.  If status is apache.OK, generate
+  the content of the response normally.  If not, simply return status.
+  Note that req.headers_out should be set prior to calling this
+  function.  The same goes for req.status if the status differs
+  from apache.OK.
+
+
+Example:
+  
+...
+r.headers_out['ETag'] = "1130794f-3774-4584-a4ea-0ab19e684268"
+r.headers_out['Last-Modified'] = 'Wed, 23 Feb 2005 00:00:00 GMT'
+r.headers_out['Expires'] = 'Mon, 18 Apr 2005 17:30:00 GMT'
+
+status = r.meets_conditions()
+if status != apache.OK:
+  return status
+
+... do expensive generation of the response content ...
+
+
+
+
+
+
+
+  requires(
+  )
+
+
+
+Returns a tuple of strings of arguments to require directive.
+
+
+For example, with the following apache configuration:
+  
+AuthType Basic
+require user joe
+require valid-user
+
+  requires() would return ('user joe', 'valid-user').
+
+
+
+
+
+
+  read(
+  [len])
+
+
+
+Reads at most len bytes directly from the client, returning a
+  string with the data read. If the len argument is negative or
+  omitted, reads all data given by the client.
+
+
+This function is affected by the Timeout Apache configuration
+  directive. The read will be aborted and an IOError
+  raised if the Timeout is reached while reading client data.
+
+
+This function relies on the client providing the Content-length
+  header. Absence of the Content-length header will be treated as
+  if Content-length: 0 was supplied.
+
+
+Incorrect Content-length may cause the function to try to read
+  more data than available, which will make the function block until a
+  Timeout is reached.
+
+
+
+
+
+
+  readline(
+  [len])
+
+  Like read() but reads until end of line. 
+
+
+Note:
+In accordance with the HTTP specification, most clients will
+    be terminating lines with "\r\n" rather
+    than simply "\n".
+  
+
+
+
+
+
+
+  readlines(
+  [sizehint])
+
+  Reads all or up to sizehint bytes of lines using
+  readline and returns a list of the lines read.
+
+
+
+
+  register_cleanup(
+  callable[, data])
+
+
+
+Registers a cleanup. Argument callable can be any callable
+  object, the optional argument data can be any object (default is
+  None). At the very end of the request, just before the actual
+  request record is destroyed by Apache, callable will be called
+  with one argument, data.
+
+
+It is OK to pass the request object as data, but keep in mind that
+  when the cleanup is executed, the request processing is already
+  complete, so doing things like writing to the client is completely
+  pointless. 
+
+
+If errors are encountered during cleanup processing, they should be in
+  error log, but otherwise will not affect request processing in any
+  way, which makes cleanup bugs sometimes hard to spot.
+
+
+If the server is shut down before the cleanup had a chance to run,
+  it's possible that it will not be executed.
+
+
+
+
+
+
+  sendfile(
+  path[, offset, len])
+
+  Sends len bytes of file path directly to the client,
+  starting at offset offset using the server's internal
+  API. offset defaults to 0, and len defaults to -1 (send
+  the entire file). 
+
+
+Returns the number of bytes sent, or raises an IOError exception
+  on failure.
+
+
+This function provides the most efficient way to send a file to the
+  client.
+
+
+
+
+  write(
+  string[, flush=1])
+
+  Writes string directly to the client, then flushes the buffer,
+  unless flush is 0.
+
+
+
+
+  flush(
+  )
+
+  Flushes the output buffer.
+
+
+
+
+  set_content_length(
+  len)
+
+  Sets the value of req.clength and the "Content-Length"  header to len. Note that after the headers have been sent out (which
+  happens just before the first byte of the body is written,
+  i.e. first call to req.write()), calling the method is
+  meaningless.
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.3 Request Object 
+Up:
+4.5.3 Request Object 
+Next:
+4.5.3.2 Request Members
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

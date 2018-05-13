@@ -1,0 +1,288 @@
+
+
+
+
+View source for Python (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_(programming_language)","wgTitle":"Python (programming language)","wgCurRevisionId":833660930,"wgRevisionId":0,"wgArticleId":23862,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_(programming_language)","wgRelevantArticleId":23862,"wgRequestId":"WsJJvApAADkAADRYbRcAAABS","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.charinsert.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.charinsert","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+View source for Python (programming language)			
+								← Python (programming language)
+								
+					Jump to:					navigation, 					search
+				
+				You do not have permission to edit this page, for the following reasons:
+
+
+Your IP address is in a range which has been blocked on all wikis.
+
+The block was made by Vituzzu (meta.wikimedia.org).
+The reason given is hosting service with open proxies such as 67.207.94.79 .
+
+Start of block: 13:14, 23 October 2017
+Expiration of block: 13:14, 23 October 2022
+
+You can contact Vituzzu to discuss the block.
+You cannot use the "Email this user" feature unless a valid email address is specified in your account preferences and you have not been blocked from using it.
+Your current IP address is 67.207.88.228, and the blocked range is 67.207.64.0/19.
+Please include all above details in any queries you make.
+
+
+You are currently unable to edit Wikipedia.
+You are still able to view pages, but you are not currently able to edit, move, or create them.
+
+
+
+
+Editing from 67.207.64.0/19 has been blocked (disabled) by KrakatoaKatie for the following reason(s):
+
+
+
+
+The IP address that you are currently using has been blocked  because it is believed to be a web host provider. To prevent abuse, web hosts may be blocked from editing Wikipedia.
+
+
+You will not be able to edit Wikipedia using a web host provider.
+Since the web host acts like a proxy, because it hides your IP address, it has been blocked. To prevent abuse, these IPs may be blocked from editing Wikipedia. If you do not have any other way to edit Wikipedia, you will need to request an IP block exemption.
+If you do not believe you are using a web host, you may appeal this block by adding the following text on your talk page: {{unblock|reason=Caught by a web host block but this host or IP is not a web host. Place any further information here. ~~~~}}. If you are using a Wikipedia account you will need to request an IP block exemption by either using the unblock template or by submitting an appealing using the unblock ticket request system. If you wish to keep your IP address private you can email the functionaries team.
+Administrators: The IP block exemption user right should only be applied to allow users to edit using web host in exceptional circumstances, and they should usually be directed to the functionaries team via email. If you intend to give the IPBE user right, a CheckUser needs to take a look at the account. This can be requested most easily at SPI Quick Checkuser Requests. Unblocking an IP or IP range with this template is highly discouraged without at least contacting the blocking administrator.
+
+: 
+This block has been set to expire: 12:56, 12 August 2020.
+Even if blocked, you will usually still be able to edit your user talk page and email other editors and administrators.
+
+
+
+
+
+Other useful links: Blocking policy · Username policy ·  
+Appealing blocks: policy and guide
+
+If the block notice is unclear, or it does not appear to relate to your actions, please ask for assistance as described at Help:I have been blocked.
+
+
+
+You can view and copy the source of this page:
+=== Typing ===
+Python uses [[duck typing]] and has typed objects but untyped variable names. Type constraints are not checked at [[compile time]]; rather, operations on an object may fail, signifying that the given object is not of a suitable type. Despite being [[Type system#Dynamic type checking and runtime type information|dynamically typed]], Python is [[strongly typed programming language|strongly typed]], forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.
+
+Python allows programmers to define their own types using [[class (computer science)|classes]], which are most often used for [[object-oriented programming]]. New [[object (computer science)|instances]] of classes are constructed by calling the class (for example, <code>SpamClass()</code> or <code>EggsClass()</code>), and the classes are instances of the [[metaclass]] <code>type</code> (itself an instance of itself), allowing [[metaprogramming]] and [[reflection (computer science)|reflection]].
+
+Before version 3.0, Python had two kinds of classes: ''old-style'' and ''new-style''.<ref name="classy" /> The syntax of both styles is the same, the difference being whether the class <code>object</code> is inherited from, directly or indirectly (all new-style classes inherit from <code>object</code> and are instances of <code>type</code>). In versions of Python 2 from Python 2.2 onwards, both kinds of classes can be used. Old-style classes were eliminated in Python 3.0.
+
+The long term plan is to support [[gradual typing]]<ref>{{cite web |url=https://lwn.net/Articles/627418/ |title=Type hinting for Python |publisher=LWN.net |date=24 December 2014 |accessdate=5 May 2015}}</ref> and from Python 3.5, the syntax of the language allows specifying static types but they are not checked in the default implementation, CPython. An experimental optional static type checker named ''mypy'' supports compile-time type checking.<ref>{{cite web |url=http://mypy-lang.org/ |title=mypy - Optional Static Typing for Python |publisher= |accessdate=28 January 2017}}</ref>
+
+{|class="wikitable"
+|+Summary of Python 3's built-in types
+|-
+! Type
+! mutable
+! Description
+! Syntax example
+|-
+| <code>bool</code>
+| immutable
+| [[Boolean value]]
+| <code>True</code><br><code>False</code>
+|-
+| <code>bytearray</code>
+| mutable
+| Sequence of [[byte]]s
+| <code>bytearray(b'Some ASCII')</code><br><code>bytearray(b"Some ASCII")</code><br><code>bytearray([119, 105, 107, 105])</code>
+|-
+| <code>bytes</code>
+| immutable
+| Sequence of bytes
+| <code>b'Some ASCII'</code><br><code>b"Some ASCII"</code><br><code>bytes([119, 105, 107, 105])</code>
+|-
+| <code>complex</code>
+| immutable
+| [[Complex number]] with real and imaginary parts
+| <code>3+2.7j</code>
+|-
+| <code>dict</code>
+| mutable
+| [[Associative array]] (or dictionary) of key and value pairs; can contain mixed types (keys and values), keys must be a hashable type
+| <code>{'key1': 1.0, 3: False}</code>
+|-
+| <code>ellipsis</code>
+| 
+| An [[Ellipsis (programming operator)|ellipsis]] placeholder to be used as an index in [[NumPy]] arrays
+| <code>...</code>
+|-
+| <code>float</code>
+| immutable
+| [[Floating point]] number, system-defined precision
+| <code>3.1415927</code>
+|-
+| <code>frozenset</code>
+| immutable
+| Unordered [[set (computer science)|set]], contains no duplicates; can contain mixed types, if hashable
+| <code>frozenset([4.0, 'string', True])</code>
+|-
+| <code>int</code>
+| immutable
+| [[integer (computer science)|Integer]] of unlimited magnitude<ref name="pep0237" />
+| <code>42</code>
+|-
+| <code>list</code>
+| mutable
+| [[list (computer science)|List]], can contain mixed types
+| <code>[4.0, 'string', True]</code>
+|-
+| <code>set</code>
+| mutable
+| Unordered [[set (computer science)|set]], contains no duplicates; can contain mixed types, if hashable
+| <code>{4.0, 'string', True}</code>
+|-
+| <code>str</code>
+| [[immutable object|immutable]]
+| A [[character string]]: sequence of Unicode codepoints
+| <code>'Wikipedia'</code><br><code>"Wikipedia"</code><br><code>"""Spanning<br>multiple<br>lines"""</code>
+|-
+| <code>tuple</code>
+| immutable
+| Can contain mixed types
+| <code>(4.0, 'string', True)</code>But we can append elements using __add__ .
+
+a = (4.0, 'string' , True).__add__(('hi' ,))
+
+now a gives <code>(4.0, 'string', True ,'hi')</code>
+|}
+Return to Python (programming language).
+					
+						Retrieved from "https://en.wikipedia.org/wiki/Python_(programming_language)"					
+								
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPage informationWikidata item				
+							
+		
+			
+			Languages
+			
+								
+									
+							
+		
+				
+		
+				
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":106,"wgHostname":"mw1262"});});
+	
+

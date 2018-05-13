@@ -1,0 +1,113 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.5 PythonInterpPerDirective
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.4 PythonInterpPerDirectory
+Up:
+5.4 Other Directives
+Next:
+5.4.6 PythonInterpreter
+
+
+
+
+ 
+ 
+
+5.4.5 PythonInterpPerDirective
+
+
+
+Syntax:
+PythonInterpPerDirective {On, Off} 
+Default:
+PythonInterpPerDirective Off
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+Instructs mod_python to name subinterpreters using the directory in
+which the Python*Handler directive currently in effect was
+encountered.
+
+
+For example, assume there is a
+/directory/subdirectory. /directory has an .htaccess
+file with a PythonHandler directive.  /directory/subdirectory
+has another .htaccess file with another PythonHandler. By
+default, scripts in /directory and
+/directory/subdirectory would execute in the same interpreter
+assuming both directories are in the same virtual server. With
+PythonInterpPerDirective, there would be two different interpreters,
+one for each directive.
+
+
+
+  See Also:
+
+  
+    Section 4.1 Multiple Interpreters
+    for more information
+  
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.4 PythonInterpPerDirectory
+Up:
+5.4 Other Directives
+Next:
+5.4.6 PythonInterpreter
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

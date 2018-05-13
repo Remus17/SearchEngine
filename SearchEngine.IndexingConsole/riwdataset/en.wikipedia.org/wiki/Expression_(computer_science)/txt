@@ -1,0 +1,218 @@
+
+
+
+
+Expression (computer science) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Expression_(computer_science)","wgTitle":"Expression (computer science)","wgCurRevisionId":803727099,"wgRevisionId":803727099,"wgArticleId":938708,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Evaluation strategy","Programming language concepts"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Expression_(computer_science)","wgRelevantArticleId":938708,"wgRequestId":"WsG32QpAAEQAAIkzGE4AAAAI","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q778379","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Expression (computer science)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				An expression in a programming language is a combination of one or more explicit values, constants, variables, operators, and functions that the programming language interprets (according to its particular rules of precedence and of association) and computes to produce ("to return", in a stateful environment) another value. This process, as for mathematical expressions, is called evaluation.
+In simple settings, the resulting value is usually one of various primitive types, such as numerical, string, and logical; in more elaborate settings, it can be an arbitrary complex data type.
+For example, 2+3 is an arithmetic and programming expression which evaluates to 5. A variable is an expression because it denotes a value in memory, so y+6 is an expression. An example of a relational expression is 4≠4, which evaluates to false.[1][2]
+
+
+
+Contents
+
+
+1 Void as a result type
+2 Side effects and elimination
+
+2.1 Caveats
+
+
+3 See also
+4 References
+5 External links
+
+
+
+Void as a result type[edit]
+In C and most C-derived languages, a call to a function with a void return type is a valid expression, of type void.[3] Values of type void cannot be used, so the value of such an expression is always thrown away.
+Side effects and elimination[edit]
+In many programming languages a function, and hence an expression containing a function, may have side effects. An expression with side effects does not normally have the property of referential transparency. In many languages (e.g. C++), expressions may be ended with a semicolon (;) to turn the expression into an expression statement. This asks the implementation to evaluate the expression for its side-effects only and to disregard the result of the expression (e.g. "x+1;") unless it is a part of an expression statement that induces side-effects (e.g. "y=x+1;" or "func1(func2());").
+Caveats[edit]
+Note that the formal notion of a side effect is a change to the abstract state of the running program.
+Another class of side effects are changes to the concrete state of the computational system, such as loading data into cache memories. Languages which are often described as "side effect–free" will generally still have concrete side effects which can be exploited, for example, in side-channel attacks.
+Furthermore, the elapsed time evaluating an expression (even one with no other apparent side effects), is sometimes essential to the correct operation of a system, as behaviour in time is easily visible from outside the evaluation environment by other parts of the system with which it interacts, and might even be regarded as the primary effect such as when performing benchmark testing.
+It depends on the particular programming language specification whether an expression with no abstract side effects can legally be eliminated from the execution path by the processing environment in which the expression is evaluated.
+See also[edit]
+
+Statement (computer science) (contrast)
+Boolean expression
+Expression (mathematics)
+Evaluation strategy
+
+References[edit]
+
+
+
+^ Javascript expressions, Mozilla Accessed July 6, 2009
+^ Programming in C Accessed July 6, 2009
+^ ISO/IEC 9899:1999 section 6.3.2.2, accessed August 31, 2009
+
+
+
+External links[edit]
+
+This article is based on material taken from Expression at the Free On-line Dictionary of Computing prior to 1 November 2008 and incorporated under the "relicensing" terms of the GFDL, version 1.3 or later.
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=803727099"					
+				Categories: Evaluation strategyProgramming language concepts				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					ČeštinaDeutschEspañolFrançais한국어HrvatskiBahasa IndonesiaItalianoעבריתBahasa MelayuNederlands日本語PolskiPortuguêsРусскийSlovenčinaSuomiதமிழ்УкраїнськаTiếng Việt				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 4 October 2017, at 07:07.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.036","walltime":"0.043","ppvisitednodes":{"value":162,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":938,"limit":2097152},"templateargumentsize":{"value":133,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1227,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   28.233      1 -total"," 87.47%   24.695      1 Template:Reflist"," 12.16%    3.434      1 Template:Foldoc","  7.13%    2.013      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.004","limit":"10.000"},"limitreport-memusage":{"value":530460,"limit":52428800}},"cachereport":{"origin":"mw1261","timestamp":"20180329152355","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":91,"wgHostname":"mw1273"});});
+	
+

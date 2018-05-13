@@ -1,0 +1,220 @@
+
+
+
+
+View source for Python (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_(programming_language)","wgTitle":"Python (programming language)","wgCurRevisionId":833660930,"wgRevisionId":0,"wgArticleId":23862,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_(programming_language)","wgRelevantArticleId":23862,"wgRequestId":"WsJJsApAMEoAAIWO7JYAAADH","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.charinsert.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.charinsert","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+View source for Python (programming language)			
+								← Python (programming language)
+								
+					Jump to:					navigation, 					search
+				
+				You do not have permission to edit this page, for the following reasons:
+
+
+Your IP address is in a range which has been blocked on all wikis.
+
+The block was made by Vituzzu (meta.wikimedia.org).
+The reason given is hosting service with open proxies such as 67.207.94.79 .
+
+Start of block: 13:14, 23 October 2017
+Expiration of block: 13:14, 23 October 2022
+
+You can contact Vituzzu to discuss the block.
+You cannot use the "Email this user" feature unless a valid email address is specified in your account preferences and you have not been blocked from using it.
+Your current IP address is 67.207.88.228, and the blocked range is 67.207.64.0/19.
+Please include all above details in any queries you make.
+
+
+You are currently unable to edit Wikipedia.
+You are still able to view pages, but you are not currently able to edit, move, or create them.
+
+
+
+
+Editing from 67.207.64.0/19 has been blocked (disabled) by KrakatoaKatie for the following reason(s):
+
+
+
+
+The IP address that you are currently using has been blocked  because it is believed to be a web host provider. To prevent abuse, web hosts may be blocked from editing Wikipedia.
+
+
+You will not be able to edit Wikipedia using a web host provider.
+Since the web host acts like a proxy, because it hides your IP address, it has been blocked. To prevent abuse, these IPs may be blocked from editing Wikipedia. If you do not have any other way to edit Wikipedia, you will need to request an IP block exemption.
+If you do not believe you are using a web host, you may appeal this block by adding the following text on your talk page: {{unblock|reason=Caught by a web host block but this host or IP is not a web host. Place any further information here. ~~~~}}. If you are using a Wikipedia account you will need to request an IP block exemption by either using the unblock template or by submitting an appealing using the unblock ticket request system. If you wish to keep your IP address private you can email the functionaries team.
+Administrators: The IP block exemption user right should only be applied to allow users to edit using web host in exceptional circumstances, and they should usually be directed to the functionaries team via email. If you intend to give the IPBE user right, a CheckUser needs to take a look at the account. This can be requested most easily at SPI Quick Checkuser Requests. Unblocking an IP or IP range with this template is highly discouraged without at least contacting the blocking administrator.
+
+: 
+This block has been set to expire: 12:56, 12 August 2020.
+Even if blocked, you will usually still be able to edit your user talk page and email other editors and administrators.
+
+
+
+
+
+Other useful links: Blocking policy · Username policy ·  
+Appealing blocks: policy and guide
+
+If the block notice is unclear, or it does not appear to relate to your actions, please ask for assistance as described at Help:I have been blocked.
+
+
+
+You can view and copy the source of this page:
+=== Statements and control flow ===
+Python's [[Statement (computer science)|statements]] include (among others):
+
+* The assignment statement (token '=', the equals sign). This operates differently than in traditional [[imperative programming]] languages, and this fundamental mechanism (including the nature of Python's version of ''variables'') illuminates many other features of the language. Assignment in [[C (programming language)|C]], e.g., <code>x = 2</code>, translates to "typed variable name x receives a copy of numeric value 2". The (right-hand) value is copied into an [[Memory allocation|allocated storage location]] for which the (left-hand) [[Variable (computer science)|variable name]] is the symbolic address. The memory allocated to the variable is large enough (potentially quite large) for the declared [[Type system|type]]. In the simplest case of Python assignment, using the same example, <code>x = 2</code>, translates to "(generic) name x receives a [[Pointer (computer programming)|reference]] to a separate, dynamically allocated [[Object (computer science)|object]] of numeric (int) type of value 2." This is termed ''binding'' the name to the object. Since the name's storage location doesn't ''contain'' the indicated value, it is improper to call it a ''variable''. Names may be subsequently rebound at any time to objects of greatly varying types, including strings, procedures, complex objects with data and methods, etc. Successive assignments of a common value to multiple names, e.g., <code>x = 2</code>; <code>y = 2</code>; <code>z = 2</code> result in allocating storage to (at most) three names and one numeric object, to which all three names are bound. Since a name is a generic reference holder it is unreasonable to associate a fixed [[Type system|data type]] with it. However at a given time a name will be bound to ''some'' object, which '''will''' have a type; thus there is [[Dynamic type|dynamic typing]].
+* The <code>[[if-then-else|if]]</code> statement, which conditionally executes a block of code, along with <code>else</code> and <code>elif</code> (a contraction of else-if).
+* The <code>[[Foreach#Python|for]]</code> statement, which iterates over an iterable object, capturing each element to a local variable for use by the attached block.
+* The <code>[[While loop#Python|while]]</code> statement, which executes a block of code as long as its condition is true.
+* The <code>[[Exception handling syntax#Python|try]]</code> statement, which allows exceptions raised in its attached code block to be caught and handled by <code>except</code> clauses; it also ensures that clean-up code in a <code>finally</code> block will always be run regardless of how the block exits.
+* The <code>class</code> statement, which executes a block of code and attaches its local namespace to a [[class (computer science)|class]], for use in [[object-oriented programming]].
+* The <code>def</code> statement, which defines a [[function (computing)|function]] or [[method (computing)|method]].
+* The <code>with</code> statement, from Python 2.5 released on September 2006,<ref>https://www.python.org/download/releases/2.5/</ref> which encloses a code block within a context manager (for example, acquiring a [[lock (computer science)|lock]] before the block of code is run and releasing the lock afterwards, or opening a [[Computer file|file]] and then closing it), allowing [[Resource Acquisition Is Initialization]] (RAII)-like behavior and replaces a common try/finally idiom.<ref>https://www.python.org/download/releases/2.5/highlights/</ref>
+* The <code>pass</code> statement, which serves as a [[NOP]]. It is syntactically needed to create an empty code block.
+* The <code>[[assertion (programming)|assert]]</code> statement, used during debugging to check for conditions that ought to apply.
+* The <code>yield</code> statement, which returns a value from a [[generator (computer science)#Python|generator]] function. From Python 2.5, <code>yield</code> is also an operator. This form is used to implement [[coroutine]]s.
+* The <code>import</code> statement, which is used to import modules whose functions or variables can be used in the current program. There are four ways of using import: <code>import <module name></code> or <code>from <module name> import *</code> or <code>import numpy as np</code> or <code>from numpy import pi as Pie</code>.
+* The <code>print</code> statement was changed to the <code>print()</code> function in Python 3.<ref name="diff_py2-3">{{cite book |last=Sweigart |first=Al|year=2010|chapter=Appendix A: Differences Between Python 2 and 3 |title=Invent Your Own Computer Games with Python |url=http://inventwithpython.com/appendixa.html|edition=2|isbn=978-0-9821060-1-3 |accessdate=20 February 2014}}</ref>
+
+Python does not support [[tail call]] optimization or [[first-class continuations]], and, according to Guido van Rossum, it never will.<ref name="AutoNT-55" /><ref name="AutoNT-56" /> However, better support for [[coroutine]]-like functionality is provided in 2.5, by extending Python's [[generator (computer science)|generators]].<ref name="AutoNT-57" /> Before 2.5, generators were [[lazy evaluation|lazy]] [[iterator]]s; information was passed unidirectionally out of the generator. From Python 2.5, it is possible to pass information back into a generator function, and from Python 3.3, the information can be passed through multiple stack levels.<ref name="AutoNT-58" />
+Return to Python (programming language).
+					
+						Retrieved from "https://en.wikipedia.org/wiki/Python_(programming_language)"					
+								
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPage informationWikidata item				
+							
+		
+			
+			Languages
+			
+								
+									
+							
+		
+				
+		
+				
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":101,"wgHostname":"mw1239"});});
+	
+

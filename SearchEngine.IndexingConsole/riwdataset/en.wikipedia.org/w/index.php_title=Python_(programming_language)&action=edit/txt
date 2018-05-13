@@ -1,0 +1,766 @@
+
+
+
+
+View source for Python (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_(programming_language)","wgTitle":"Python (programming language)","wgCurRevisionId":833660930,"wgRevisionId":0,"wgArticleId":23862,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_(programming_language)","wgRelevantArticleId":23862,"wgRequestId":"WsJJwgpAME8AAIARcxoAAACO","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.charinsert.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.charinsert","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+View source for Python (programming language)			
+								← Python (programming language)
+								
+					Jump to:					navigation, 					search
+				
+				You do not have permission to edit this page, for the following reasons:
+
+
+Your IP address is in a range which has been blocked on all wikis.
+
+The block was made by Vituzzu (meta.wikimedia.org).
+The reason given is hosting service with open proxies such as 67.207.94.79 .
+
+Start of block: 13:14, 23 October 2017
+Expiration of block: 13:14, 23 October 2022
+
+You can contact Vituzzu to discuss the block.
+You cannot use the "Email this user" feature unless a valid email address is specified in your account preferences and you have not been blocked from using it.
+Your current IP address is 67.207.88.228, and the blocked range is 67.207.64.0/19.
+Please include all above details in any queries you make.
+
+
+You are currently unable to edit Wikipedia.
+You are still able to view pages, but you are not currently able to edit, move, or create them.
+
+
+
+
+Editing from 67.207.64.0/19 has been blocked (disabled) by KrakatoaKatie for the following reason(s):
+
+
+
+
+The IP address that you are currently using has been blocked  because it is believed to be a web host provider. To prevent abuse, web hosts may be blocked from editing Wikipedia.
+
+
+You will not be able to edit Wikipedia using a web host provider.
+Since the web host acts like a proxy, because it hides your IP address, it has been blocked. To prevent abuse, these IPs may be blocked from editing Wikipedia. If you do not have any other way to edit Wikipedia, you will need to request an IP block exemption.
+If you do not believe you are using a web host, you may appeal this block by adding the following text on your talk page: {{unblock|reason=Caught by a web host block but this host or IP is not a web host. Place any further information here. ~~~~}}. If you are using a Wikipedia account you will need to request an IP block exemption by either using the unblock template or by submitting an appealing using the unblock ticket request system. If you wish to keep your IP address private you can email the functionaries team.
+Administrators: The IP block exemption user right should only be applied to allow users to edit using web host in exceptional circumstances, and they should usually be directed to the functionaries team via email. If you intend to give the IPBE user right, a CheckUser needs to take a look at the account. This can be requested most easily at SPI Quick Checkuser Requests. Unblocking an IP or IP range with this template is highly discouraged without at least contacting the blocking administrator.
+
+: 
+This block has been set to expire: 12:56, 12 August 2020.
+Even if blocked, you will usually still be able to edit your user talk page and email other editors and administrators.
+
+
+
+
+
+Other useful links: Blocking policy · Username policy ·  
+Appealing blocks: policy and guide
+
+If the block notice is unclear, or it does not appear to relate to your actions, please ask for assistance as described at Help:I have been blocked.
+
+
+
+You can view and copy the source of this page:
+{{Infobox programming language
+|name                   = Python
+|logo                   = Python logo and wordmark.svg
+|logo size              = 200px
+|paradigm               = [[object-oriented programming|Object-oriented]], [[imperative programming|imperative]], [[functional programming|functional]], [[procedural programming|procedural]], [[reflective programming|reflective]]
+|released               = 1990<ref name=guttag />
+|designer               = [[Guido van Rossum]]
+|developer              = [[Python Software Foundation]]
+|latest release version = 3.6.5 / {{Start date and age|2018|03|28|df=yes}}<ref>{{cite web |url=https://blog.python.org/2018/03/python-365-is-now-available.html |title=Python 3.6.5 is now available |website=Python Insider |publisher=The Python Core Developers |first=Ned |last=Deily |date=28 March 2018 |accessdate=29 March 2018}}</ref><br/>2.7.14 / {{Start date and age|2017|09|16|df=yes}}<ref>{{cite web |url=http://blog.python.org/2017/09/python-2714-released.html |title=Python 2.7.14 released |website=Python Insider |publisher=The Python Core Developers |first=Benjamin |last=Peterson |date=16 September 2017 |accessdate=17 September 2017}}</ref> <!-- and security updates 3.5.5 and 3.4.8 "only been released in source code form; no more official binary installers will be produced."-->
+|latest preview version = 3.7.0b3<ref>{{Cite web|url=https://www.python.org/downloads/release/python-370b3/|title=Python Release Python 3.7.0b3|website=Python.org|language=en|access-date=2018-04-01}}</ref>
+|latest preview date    = {{Start date and age|2018|03|29|df=yes}}
+|typing                 = [[duck typing|Duck]], [[dynamic typing|dynamic]], [[strong typing|strong]]
+|implementations        = [[CPython]], [[IronPython]], [[Jython]], [[MicroPython]], [[Numba]], [[PyPy]], [[Stackless Python]]
+|dialects               = [[Cython]], [[RPython]]
+|influenced             = [[Boo (programming language)|Boo]], [[Cobra (programming language)|Cobra]], [[Coconut (programming language)|Coconut]],<ref>{{cite web|url=http://coconut-lang.org/|title=Coconut Programming Language|last=Hubinger|first=Evan|website=coconut-lang.org|language=en-us|access-date=18 August 2017}}</ref> [[CoffeeScript]],<ref>{{cite web |url=http://coffeescript.org/ |title=CoffeeScript borrows chained comparisons from Python}}</ref> [[D (programming language)|D]], [[F Sharp (programming language)|F#]], [[Falcon (programming language)|Falcon]], [[Genie (programming language)|Genie]],<ref>{{cite web 
+ |url=https://wiki.gnome.org/action/show/Projects/Genie
+ |title=Genie Language - A brief guide 
+ |accessdate=28 December 2015}}</ref> [[Go (programming language)|Go]], [[Groovy (programming language)|Groovy]], [[JavaScript]],<ref>{{cite web
+|title=Perl and Python influences in JavaScript
+ |date=24 February 2013
+|website= www.2ality.com
+ |url=http://www.2ality.com/2013/02/javascript-influences.html
+ |accessdate= 15 May 2015}}</ref><ref>{{cite web
+|title=Chapter 3: The Nature of JavaScript; Influences
+ |last=Rauschmayer
+ |first=Axel
+|website=O'Reilly, Speaking JavaScript
+ |url=http://speakingjs.com/es5/ch03.html
+ |accessdate= 15 May 2015}}</ref> [[Julia (programming language)|Julia]],<ref name=Julia/> [[Nim (programming language)|Nim]], [[Ring (programming language)|Ring]],<ref name="The Ring programming language and other languages">{{cite web |url=http://ring-lang.sourceforge.net/doc1.6/introduction.html#ring-and-other-languages |title=Ring and other languages  |author=Ring Team |date=4 December 2017 |work=ring-lang.net |publisher=[[ring-lang]]}}</ref> [[Ruby (programming language)|Ruby]],<ref name="bini"/> [[Swift (programming language)|Swift]]<ref name="lattner2014">{{cite web |url=http://nondot.org/sabre/ |title=Chris Lattner's Homepage |last=Lattner |first=Chris |date=3 June 2014 |accessdate=3 June 2014 |publisher=Chris Lattner|quote=The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.}}</ref>
+|license                = [[Python Software Foundation License]]
+|website                = {{URL|https://python.org}}
+|wikibooks              = Python Programming
+|influenced_by          = [[ABC (programming language)|ABC]],<ref name="faq-created"/> [[ALGOL 68]],<ref name="98-interview"/> [[C (programming language)|C]],<ref name="AutoNT-1"/> [[C++]],<ref name="classmix"/> [[CLU (programming language)|CLU]],<ref name="effbot-call-by-object"/> [[Dylan (programming language)|Dylan]],<ref name="AutoNT-2"/> [[Haskell (programming language)|Haskell]],<ref name="AutoNT-3"/> [[Icon (programming language)|Icon]],<ref name="AutoNT-4"/> [[Java (programming language)|Java]],<ref name="AutoNT-5"/> [[Lisp (programming language)|Lisp]],<ref name="AutoNT-6"/> [[Modula-3]],<ref name="classmix" /> [[Perl]]
+|file ext               = .py, .pyc, .pyd, .pyo (prior to 3.5),<ref>File extension .pyo was removed in Python 3.5. See [https://www.python.org/dev/peps/pep-0488/ PEP 0488]</ref> {{notatypo|.pyw}}, .pyz (since 3.5)<ref>{{cite web |url=https://www.python.org/dev/peps/pep-0441/ |last=Holth |first=Moore |date=30 March 2014 |accessdate=12 November 2015 |title=PEP 0441 -- Improving Python ZIP Application Support}}</ref>
+}}
+
+'''Python''' is an [[interpreted language|interpreted]] [[high-level programming language]] for [[general-purpose programming language|general-purpose programming]]. Created by [[Guido van Rossum]] and first released in 1991, Python has a design philosophy that emphasizes [[code readability]], notably using [[significant whitespace]]. It provides constructs that enable clear programming on both small and large scales.<ref name="AutoNT-7" />
+
+Python features a [[dynamic type]] system and automatic [[memory management]]. It supports multiple [[programming paradigm]]s, including [[object-oriented programming|object-oriented]], [[imperative programming|imperative]], [[functional programming|functional]] and [[procedural programming|procedural]], and has a large and comprehensive [[standard library]].<ref name="About" />
+
+<!-- Need at least one paragraph here on history and development -->
+Python interpreters are available for many [[operating system]]s. [[CPython]], the [[reference implementation]] of Python, is [[open source]] software<ref>{{cite web |url=https://docs.python.org/3/license.html |title=History and License |accessdate=5 December 2016}} "All Python releases are Open Source"</ref> and has a community-based development model, as do nearly all of its variant implementations. CPython is managed by the non-profit [[Python Software Foundation]].
+
+== History ==
+[[File:Guido van Rossum OSCON 2006.jpg|thumb|[[Guido van Rossum]], the creator of Python]]
+
+{{Main article|History of Python}}
+
+Python was conceived in the late 1980s,<ref name="venners-interview-pt-1" /> and its implementation began in December 1989<ref name="timeline-of-python" /> by [[Guido van Rossum]] at [[Centrum Wiskunde & Informatica]] (CWI) in the [[Netherlands]] as a successor to the [[ABC (programming language)|ABC language]] (itself inspired by [[SETL]])<ref name="AutoNT-12" /> capable of [[exception handling]] and interfacing with the [[Amoeba (operating system)|Amoeba]] operating system.<ref name="faq-created" /> Van Rossum remains Python's principal author. His continuing central role in Python's development is reflected in the title given to him by the Python community: ''[[Benevolent Dictator For Life]]'' (BDFL).
+
+On the origins of Python, Van Rossum wrote in 1996:<ref>{{cite web |url=https://www.python.org/doc/essays/foreword/ |title=Foreword for "Programming Python" (1st ed.) |last=van Rossum |first=Guido |date=1996 |accessdate=10 July 2014}}</ref>
+
+{{quote|...In December 1989, I was looking for a "hobby" programming project that would keep me occupied during the week around Christmas. My office ... would be closed, but I had a home computer, and not much else on my hands. I decided to write an interpreter for the new scripting language I had been thinking about lately: a descendant of [[ABC (programming language)|ABC]] that would appeal to [[Unix]]/[[C (programming language)|C]] [[Hacker (programmer subculture)|hackers]]. I chose Python as a working title for the project, being in a slightly irreverent mood (and a big fan of ''[[Monty Python's Flying Circus]]''). | Guido van Rossum}}
+
+Python 2.0 was released on 16 October 2000 and had many major new features, including a [[Cycle detection|cycle-detecting]] [[garbage collection (computer science)|garbage collector]] and support for [[Unicode]]. With this release, the development process became more transparent and community-backed.<ref name="newin-2.0" />
+
+Python 3.0 (initially called Python 3000 or py3k) was released on 3 December 2008 after a long testing period. It is a major revision of the language that is not completely [[backward compatibility|backward-compatible]] with previous versions.<ref name="3.0-release" /> However, many of its major features have been [[backporting|backported]] to the Python 2.6.x<ref name="pep-3000" /> and 2.7.x version series, and releases of Python 3 include the <code>2to3</code> utility, which automates the translation of Python 2 code to Python 3.<ref>{{cite web |url=https://docs.python.org/3/library/2to3.html |title=Automated Python 2 to 3 code translation — Python Documentation |accessdate=11 February 2018 }}</ref>
+
+Python 2.7's [[end-of-life (product)|end-of-life]] date was initially set at 2015, then postponed to 2020 out of concern that a large body of existing code could not easily be forward-ported to Python 3.<ref>{{cite web |url=http://legacy.python.org/dev/peps/pep-0373/ |title=PEP 373 -- Python 2.7 Release Schedule |work=python.org |accessdate=9 January 2017}}</ref><ref>{{cite web |url=https://www.python.org/dev/peps/pep-0466/ |title=PEP 466 -- Network Security Enhancements for Python 2.7.x |work=python.org |accessdate=9 January 2017}}</ref>
+
+Python 3.6 had changes regarding [[UTF-8]] (in Windows, PEP 528 and PEP 529) and Python 3.7.0b1 ([https://www.python.org/dev/peps/pep-0540/ PEP 540]) adds a new "UTF-8 Mode" (and overrides [[POSIX locale]]).
+
+In January 2017, Google announced work on a Python 2.7 to [[Go (programming language)|Go]] [[transcompiler]] to improve performance under concurrent workloads.<ref>{{cite web |url=https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html |title=Google Open Source Blog: Grumpy: Go running Python! |date=4 January 2017 |accessdate=7 March 2017}}</ref>
+
+== Features and philosophy ==
+Python is a [[multi-paradigm programming language]]. [[Object-oriented programming]] and [[structured programming]] are fully supported, and many of its features support [[functional programming]] and [[aspect-oriented programming]] (including by [[metaprogramming]]<ref name="AutoNT-13" /> and [[metaobject]]s (magic methods)).<ref name="AutoNT-14" /> Many other paradigms are supported via extensions, including [[design by contract]]<ref name="AutoNT-15" /><ref name="AutoNT-16" /> and [[logic programming]].<ref name="AutoNT-17" />
+
+Python uses [[dynamic typing]], and a combination of [[reference counting]] and a cycle-detecting garbage collector for [[memory management]]. It also features dynamic [[Name resolution (programming languages)|name resolution]] ([[late binding]]), which binds method and variable names during program execution.
+
+Python's design offers some support for [[functional programming]] in the [[Lisp (programming language)|Lisp]] tradition. It has <code>filter()</code>, <code>map()</code>, and <code>reduce()</code> functions; [[list comprehension]]s, [[Associative array|dictionaries]], and sets; and [[Generator (computer programming)|generator]] expressions.<ref name="AutoNT-59"/> The standard library has two modules (itertools and functools) that implement functional tools borrowed from [[Haskell (programming language)|Haskell]] and [[Standard ML]].<ref name="AutoNT-18" />
+
+The language's core philosophy is summarized in the document ''The [[Zen of Python]]'' (''PEP 20''), which includes [[aphorism]]s such as:<ref name="PEP20" />
+<!-- Note this isn't a full list, just some of the more significant aphorisms -->
+* Beautiful is better than ugly
+* Explicit is better than implicit
+* Simple is better than complex
+* Complex is better than complicated
+* Readability counts
+
+Rather than having all of its functionality built into its core, Python was designed to be highly extensible. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with [[ABC (programming language)|ABC]], which espoused the opposite approach.<ref name="venners-interview-pt-1" />
+
+While offering choice in coding methodology, the Python philosophy rejects exuberant syntax (such as that of [[Perl]]) in favor of a simpler, less-cluttered grammar. As [[Alex Martelli]] put it: "To describe something as 'clever' is ''not'' considered a compliment in the Python culture."<ref name="AutoNT-19" /> Python's philosophy rejects the Perl "[[there is more than one way to do it]]" approach to language design in favor of "there should be one—and preferably only one—obvious way to do it".<ref name="PEP20" />
+
+Python's developers strive to avoid [[premature optimization]], and reject patches to non-critical parts of CPython that would offer marginal increases in speed at the cost of clarity.<ref name="AutoNT-20" /> When speed is important, a Python programmer can move time-critical functions to extension modules written in languages such as C, or use [[PyPy]], a [[just-in-time compilation|just-in-time compiler]]. [[Cython]] is also available, which translates a Python script into C and makes direct C-level API calls into the Python interpreter.
+
+An important goal of Python's developers is keeping it fun to use. This is reflected in the language's name—a tribute to the British comedy group [[Monty Python]]<ref name="AutoNT-24"/>—and in occasionally playful approaches to tutorials and reference materials, such as examples that refer to spam and eggs (from a [[Spam (Monty Python)|famous Monty Python sketch]]) instead of the standard [[Foobar|foo and bar]].<ref>{{cite web |url=http://insidetech.monster.com/training/articles/8114-15-ways-python-is-a-powerful-force-on-the-web |title=15 Ways Python Is a Powerful Force on the Web}}</ref><ref>{{cite web |url=https://docs.python.org/2/library/pprint.html |title=pprint - Data pretty printer - Python Documentation}}</ref>
+
+A common [[neologism]] in the Python community is ''pythonic'', which can have a wide range of meanings related to program style. To say that code is pythonic is to say that it uses Python idioms well, that it is natural or shows fluency in the language, that it conforms with Python's minimalist philosophy and emphasis on readability. In contrast, code that is difficult to understand or reads like a rough transcription from another programming language is called ''unpythonic''.
+
+Users and admirers of Python, especially those considered knowledgeable or experienced, are often referred to as ''Pythonists'', ''Pythonistas'', and ''Pythoneers''.<ref name="AutoNT-27" /><ref name="AutoNT-25" />
+
+== Syntax and semantics ==
+{{Main article|Python syntax and semantics}}
+
+Python is meant to be an easily readable language. Its formatting is visually uncluttered, and it often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use [[curly bracket programming language|curly brackets]] to delimit blocks, and semicolons after statements are optional. It has fewer syntactic exceptions and special cases than [[C (programming language)|C]] or [[Pascal (programming language)|Pascal]].<ref name="AutoNT-52" />
+
+=== Indentation ===
+{{Main article|Python syntax and semantics#Indentation}}
+
+Python uses [[whitespace character|whitespace]] indentation, rather than [[curly bracket programming language|curly brackets]] or keywords, to delimit [[block (programming)|blocks]]. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block.<ref name="AutoNT-53" /> Thus, the program's visual structure accurately represents the program's semantic structure.<ref name=guttag>{{Cite book| publisher = MIT Press| isbn = 978-0-262-52962-4| last = Guttag| first = John V.| title = Introduction to Computation and Programming Using Python: With Application to Understanding Data| date = 2016-08-12}}</ref> This feature is also sometimes termed the [[off-side rule]].
+
+=== Statements and control flow ===
+Python's [[Statement (computer science)|statements]] include (among others):
+
+* The assignment statement (token '=', the equals sign). This operates differently than in traditional [[imperative programming]] languages, and this fundamental mechanism (including the nature of Python's version of ''variables'') illuminates many other features of the language. Assignment in [[C (programming language)|C]], e.g., <code>x = 2</code>, translates to "typed variable name x receives a copy of numeric value 2". The (right-hand) value is copied into an [[Memory allocation|allocated storage location]] for which the (left-hand) [[Variable (computer science)|variable name]] is the symbolic address. The memory allocated to the variable is large enough (potentially quite large) for the declared [[Type system|type]]. In the simplest case of Python assignment, using the same example, <code>x = 2</code>, translates to "(generic) name x receives a [[Pointer (computer programming)|reference]] to a separate, dynamically allocated [[Object (computer science)|object]] of numeric (int) type of value 2." This is termed ''binding'' the name to the object. Since the name's storage location doesn't ''contain'' the indicated value, it is improper to call it a ''variable''. Names may be subsequently rebound at any time to objects of greatly varying types, including strings, procedures, complex objects with data and methods, etc. Successive assignments of a common value to multiple names, e.g., <code>x = 2</code>; <code>y = 2</code>; <code>z = 2</code> result in allocating storage to (at most) three names and one numeric object, to which all three names are bound. Since a name is a generic reference holder it is unreasonable to associate a fixed [[Type system|data type]] with it. However at a given time a name will be bound to ''some'' object, which '''will''' have a type; thus there is [[Dynamic type|dynamic typing]].
+* The <code>[[if-then-else|if]]</code> statement, which conditionally executes a block of code, along with <code>else</code> and <code>elif</code> (a contraction of else-if).
+* The <code>[[Foreach#Python|for]]</code> statement, which iterates over an iterable object, capturing each element to a local variable for use by the attached block.
+* The <code>[[While loop#Python|while]]</code> statement, which executes a block of code as long as its condition is true.
+* The <code>[[Exception handling syntax#Python|try]]</code> statement, which allows exceptions raised in its attached code block to be caught and handled by <code>except</code> clauses; it also ensures that clean-up code in a <code>finally</code> block will always be run regardless of how the block exits.
+* The <code>class</code> statement, which executes a block of code and attaches its local namespace to a [[class (computer science)|class]], for use in [[object-oriented programming]].
+* The <code>def</code> statement, which defines a [[function (computing)|function]] or [[method (computing)|method]].
+* The <code>with</code> statement, from Python 2.5 released on September 2006,<ref>https://www.python.org/download/releases/2.5/</ref> which encloses a code block within a context manager (for example, acquiring a [[lock (computer science)|lock]] before the block of code is run and releasing the lock afterwards, or opening a [[Computer file|file]] and then closing it), allowing [[Resource Acquisition Is Initialization]] (RAII)-like behavior and replaces a common try/finally idiom.<ref>https://www.python.org/download/releases/2.5/highlights/</ref>
+* The <code>pass</code> statement, which serves as a [[NOP]]. It is syntactically needed to create an empty code block.
+* The <code>[[assertion (programming)|assert]]</code> statement, used during debugging to check for conditions that ought to apply.
+* The <code>yield</code> statement, which returns a value from a [[generator (computer science)#Python|generator]] function. From Python 2.5, <code>yield</code> is also an operator. This form is used to implement [[coroutine]]s.
+* The <code>import</code> statement, which is used to import modules whose functions or variables can be used in the current program. There are four ways of using import: <code>import <module name></code> or <code>from <module name> import *</code> or <code>import numpy as np</code> or <code>from numpy import pi as Pie</code>.
+* The <code>print</code> statement was changed to the <code>print()</code> function in Python 3.<ref name="diff_py2-3">{{cite book |last=Sweigart |first=Al|year=2010|chapter=Appendix A: Differences Between Python 2 and 3 |title=Invent Your Own Computer Games with Python |url=http://inventwithpython.com/appendixa.html|edition=2|isbn=978-0-9821060-1-3 |accessdate=20 February 2014}}</ref>
+
+Python does not support [[tail call]] optimization or [[first-class continuations]], and, according to Guido van Rossum, it never will.<ref name="AutoNT-55" /><ref name="AutoNT-56" /> However, better support for [[coroutine]]-like functionality is provided in 2.5, by extending Python's [[generator (computer science)|generators]].<ref name="AutoNT-57" /> Before 2.5, generators were [[lazy evaluation|lazy]] [[iterator]]s; information was passed unidirectionally out of the generator. From Python 2.5, it is possible to pass information back into a generator function, and from Python 3.3, the information can be passed through multiple stack levels.<ref name="AutoNT-58" />
+
+=== Expressions ===
+Some Python [[Expression (computer science)|expressions]] are similar to languages such as [[C (programming language)|C]] and [[Java (programming language)|Java]], while some are not:
+
+* Addition, subtraction, and multiplication are the same, but the behavior of division differs. There are two types of divisions in Python. They are floor division and integer division.<ref>{{cite web|title=division|url=https://docs.python.org|website=python.org}}</ref> Python also added the <code>**</code> operator for exponentiation.
+* From Python 3.5, the new <code>@</code> infix operator was introduced. It is intended to be used by libraries such as NumPy for [[matrix multiplication]].<ref name=PEP465>{{cite web |title=PEP 0465 -- A dedicated infix operator for matrix multiplication |url=https://www.python.org/dev/peps/pep-0465/|website=python.org |accessdate=1 January 2016}}</ref><ref name=Python3.5Changelog>{{cite web |title=Python 3.5.1 Release and Changelog |url=https://www.python.org/downloads/release/python-351/|website=python.org |accessdate=1 January 2016}}</ref>
+* In Python, <code>==</code> compares by value, versus Java, which compares numerics by value<ref>{{cite web |url=http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.21.1 |title=Chapter 15. Expressions - 15.21.1. Numerical Equality Operators == and != |publisher=[[Oracle Corporation]] |accessdate=28 August 2016}}</ref> and objects by reference.<ref>{{cite web |url=http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.21.3 |title=Chapter 15. Expressions - 15.21.3. Reference Equality Operators == and != |publisher=Oracle Corporation |accessdate=28 August 2016}}</ref> (Value comparisons in Java on objects can be performed with the <code>equals()</code> method.) Python's <code>is</code> operator may be used to compare object identities (comparison by reference). In Python, comparisons may be chained, for example <code>a <= b <= c</code>. 
+* Python uses the words <code>and</code>, <code>or</code>, <code>not</code> for its boolean operators rather than the symbolic <code>&&</code>, <code>||</code>, <code>!</code> used in Java and C.
+* Python has a type of expression termed a ''[[list comprehension#Python|list comprehension]]''. Python 2.4 extended list comprehensions into a more general expression termed a ''[[generator (computer science)|generator]] expression''.<ref name="AutoNT-59" />
+* [[Anonymous function]]s are implemented using [[Lambda (programming)|lambda expressions]]; however, these are limited in that the body can only be one expression.
+* Conditional expressions in Python are written as <code>x if c else y</code><ref name="AutoNT-60" /> (different in order of operands from the <code>[[?:|c ? x : y]]</code> operator common to many other languages).
+* Python makes a distinction between [[list (computer science)|lists]] and [[tuple]]s. Lists are written as <code>[1, 2, 3]</code>, are mutable, and cannot be used as the keys of dictionaries (dictionary keys must be [[immutable]] in Python). Tuples are written as <code>(1, 2, 3)</code>, are immutable and thus can be used as the keys of dictionaries, provided all elements of the tuple are immutable. The <code>+</code> operator can be used to concatenate two tuples, which does not directly modify their contents, but rather produces a new tuple containing the elements of both provided tuples. Thus, given the variable <code>t</code> initially equal to <code>(1, 2, 3)</code>, executing <code>t = t + (4, 5)</code> first evaluates <code>t + (4, 5)</code>, which yields <code>(1, 2, 3, 4, 5)</code>, which is then assigned back to <code>t</code>, thereby effectively "modifying the contents" of <code>t</code>, while conforming to the immutable nature of tuple objects. Parentheses are optional for tuples in unambiguous contexts.<ref>{{cite web|title=4. Built-in Types &#8212; Python 3.6.3rc1 documentation|url=https://docs.python.org/3/library/stdtypes.html#tuple|website=python.org|accessdate=1 October 2017}}</ref> 
+* Python features ''sequence unpacking'' where multiple expressions, each evaluating to anything that can be assigned to (a variable, a writable property, etc.), are associated in the identical manner to that forming tuple literals and, as a whole, are put on the left hand side of the equal sign in an assignment statement. The statement expects an ''iterable'' object on the right hand side of the equal sign that produces the same number of values as the provided writable expressions when iterated through, and will iterate through it, assigning each of the produced values to the corresponding expression on the left.{{citation needed|date=October 2017}} 
+* Python has a "string format" operator <code>%</code>. This functions analogous to <code>[[printf]]</code> format strings in [[C (programming language)|C]], e.g. <code>"spam=%s eggs=%d" % ("blah", 2)</code> evaluates to <code>"spam=blah eggs=2"</code>. In Python 3 and 2.6+, this was supplemented by the <code>format()</code> method of the <code>str</code> class, e.g. <code>"spam={0} eggs={1}".format("blah", 2)</code>. Python 3.6 added "f-strings": <code>blah = "blah"; eggs = 2; f'spam={blah} eggs={eggs}'</code>.<ref name="pep-0498">{{cite web |title=PEP 498 -- Literal String Interpolation |url=https://www.python.org/dev/peps/pep-0498/|website=python.org |accessdate=8 March 2017}}</ref>
+* Python has various kinds of [[string literal]]s:
+** Strings delimited by single or double quote marks. Unlike in [[Unix shell]]s, [[Perl]] and Perl-influenced languages, single quote marks and double quote marks function identically. Both kinds of string use the backslash (<code>\</code>) as an [[escape character]]. [[String interpolation]] became available in Python 3.6 as "formatted string literals".<ref name="pep-0498"/>
+** Triple-quoted strings, which begin and end with a series of three single or double quote marks. They may span multiple lines and function like [[here document]]s in shells, Perl and [[Ruby (programming language)|Ruby]].
+** [[Raw string]] varieties, denoted by prefixing the string literal with an <code>r</code>. Escape sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as [[regular expression]]s and [[Microsoft Windows|Windows]]-style paths. Compare "<code>@</code>-quoting" in [[C Sharp (programming language)|C#]].
+* Python has [[array index]] and [[array slicing]] expressions on lists, denoted as <code>a[key]</code>, <code>a[start:stop]</code> or <code>a[start:stop:step]</code>. Indexes are [[zero-based]], and negative indexes are relative to the end. Slices take elements from the ''start'' index up to, but not including, the ''stop'' index. The third slice parameter, called ''step'' or ''stride'', allows elements to be skipped and reversed. Slice indexes may be omitted, for example <code>a[:]</code> returns a copy of the entire list. Each element of a slice is a [[shallow copy]].
+
+In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as [[Common Lisp]], [[Scheme (programming language)|Scheme]], or [[Ruby (programming language)|Ruby]]. This leads to duplicating some functionality. For example:
+
+* [[List comprehensions]] vs. <code>for</code>-loops
+* [[Conditional (programming)|Conditional]] expressions vs. <code>if</code> blocks
+* The <code>eval()</code> vs. <code>exec()</code> built-in functions (in Python 2, <code>exec</code> is a statement); the former is for expressions, the latter is for statements.
+
+Statements cannot be a part of an expression, so list and other comprehensions or [[Lambda (programming)|lambda expressions]], all being expressions, cannot contain statements. A particular case of this is that an assignment statement such as <code>a = 1</code> cannot form part of the conditional expression of a conditional statement. This has the advantage of avoiding a classic C error of mistaking an assignment operator <code>=</code> for an equality operator <code>==</code> in conditions: <code>if (c = 1) { ... }</code> is syntactically valid (but probably unintended) C code but <code>if c = 1: ...</code> causes a syntax error in Python.
+
+=== Methods ===
+[[Method (programming)|Methods]] on objects are [[function (programming)|functions]] attached to the object's class; the syntax <code>instance.method(argument)</code> is, for normal methods and functions, [[syntactic sugar]] for <code>Class.method(instance, argument)</code>. Python methods have an explicit <code>[[this (computer programming)|self]]</code> parameter to access [[instance data]], in contrast to the implicit <code>self</code> (or <code>this</code>) in some other object-oriented programming languages (e.g., [[C++]], [[Java (programming language)|Java]], [[Objective-C]], or [[Ruby (programming language)|Ruby]]).<ref name="AutoNT-61" />
+
+=== Typing ===
+Python uses [[duck typing]] and has typed objects but untyped variable names. Type constraints are not checked at [[compile time]]; rather, operations on an object may fail, signifying that the given object is not of a suitable type. Despite being [[Type system#Dynamic type checking and runtime type information|dynamically typed]], Python is [[strongly typed programming language|strongly typed]], forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.
+
+Python allows programmers to define their own types using [[class (computer science)|classes]], which are most often used for [[object-oriented programming]]. New [[object (computer science)|instances]] of classes are constructed by calling the class (for example, <code>SpamClass()</code> or <code>EggsClass()</code>), and the classes are instances of the [[metaclass]] <code>type</code> (itself an instance of itself), allowing [[metaprogramming]] and [[reflection (computer science)|reflection]].
+
+Before version 3.0, Python had two kinds of classes: ''old-style'' and ''new-style''.<ref name="classy" /> The syntax of both styles is the same, the difference being whether the class <code>object</code> is inherited from, directly or indirectly (all new-style classes inherit from <code>object</code> and are instances of <code>type</code>). In versions of Python 2 from Python 2.2 onwards, both kinds of classes can be used. Old-style classes were eliminated in Python 3.0.
+
+The long term plan is to support [[gradual typing]]<ref>{{cite web |url=https://lwn.net/Articles/627418/ |title=Type hinting for Python |publisher=LWN.net |date=24 December 2014 |accessdate=5 May 2015}}</ref> and from Python 3.5, the syntax of the language allows specifying static types but they are not checked in the default implementation, CPython. An experimental optional static type checker named ''mypy'' supports compile-time type checking.<ref>{{cite web |url=http://mypy-lang.org/ |title=mypy - Optional Static Typing for Python |publisher= |accessdate=28 January 2017}}</ref>
+
+{|class="wikitable"
+|+Summary of Python 3's built-in types
+|-
+! Type
+! mutable
+! Description
+! Syntax example
+|-
+| <code>bool</code>
+| immutable
+| [[Boolean value]]
+| <code>True</code><br><code>False</code>
+|-
+| <code>bytearray</code>
+| mutable
+| Sequence of [[byte]]s
+| <code>bytearray(b'Some ASCII')</code><br><code>bytearray(b"Some ASCII")</code><br><code>bytearray([119, 105, 107, 105])</code>
+|-
+| <code>bytes</code>
+| immutable
+| Sequence of bytes
+| <code>b'Some ASCII'</code><br><code>b"Some ASCII"</code><br><code>bytes([119, 105, 107, 105])</code>
+|-
+| <code>complex</code>
+| immutable
+| [[Complex number]] with real and imaginary parts
+| <code>3+2.7j</code>
+|-
+| <code>dict</code>
+| mutable
+| [[Associative array]] (or dictionary) of key and value pairs; can contain mixed types (keys and values), keys must be a hashable type
+| <code>{'key1': 1.0, 3: False}</code>
+|-
+| <code>ellipsis</code>
+| 
+| An [[Ellipsis (programming operator)|ellipsis]] placeholder to be used as an index in [[NumPy]] arrays
+| <code>...</code>
+|-
+| <code>float</code>
+| immutable
+| [[Floating point]] number, system-defined precision
+| <code>3.1415927</code>
+|-
+| <code>frozenset</code>
+| immutable
+| Unordered [[set (computer science)|set]], contains no duplicates; can contain mixed types, if hashable
+| <code>frozenset([4.0, 'string', True])</code>
+|-
+| <code>int</code>
+| immutable
+| [[integer (computer science)|Integer]] of unlimited magnitude<ref name="pep0237" />
+| <code>42</code>
+|-
+| <code>list</code>
+| mutable
+| [[list (computer science)|List]], can contain mixed types
+| <code>[4.0, 'string', True]</code>
+|-
+| <code>set</code>
+| mutable
+| Unordered [[set (computer science)|set]], contains no duplicates; can contain mixed types, if hashable
+| <code>{4.0, 'string', True}</code>
+|-
+| <code>str</code>
+| [[immutable object|immutable]]
+| A [[character string]]: sequence of Unicode codepoints
+| <code>'Wikipedia'</code><br><code>"Wikipedia"</code><br><code>"""Spanning<br>multiple<br>lines"""</code>
+|-
+| <code>tuple</code>
+| immutable
+| Can contain mixed types
+| <code>(4.0, 'string', True)</code>But we can append elements using __add__ .
+
+a = (4.0, 'string' , True).__add__(('hi' ,))
+
+now a gives <code>(4.0, 'string', True ,'hi')</code>
+|}
+
+=== Mathematics ===
+Python has the usual C arithmetic operators (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>). It also has <code>**</code> for exponentiation, e.g. <code>5**3 == 125</code> and <code>9**0.5 == 3.0</code>, and a new matrix multiply <code>@</code> operator is included in version 3.5.<ref>{{cite web |url=http://legacy.python.org/dev/peps/pep-0465/ |title=PEP 465 -- A dedicated infix operator for matrix multiplication |work=python.org}}</ref> Additionally, it has a unary operator (<code>~</code>), which essentially inverts all the bits of its one argument. For integers, this means <code>~x=-x-1</code>.<ref>{{cite web |url=https://stackoverflow.com/questions/8305199/the-tilde-operator-in-python |title=The tilde operator in Python - Stackoverflow |work=stackoverflow.com}}</ref> Other operators include bitwise shift operators <code>x << y</code>, which shifts <code>x</code> to the left <code>y</code> places, the same as <code>x*(2**y) </code>, and <code>x >> y</code>, which shifts <code>x</code> to the right <code>y</code> places, the same as <code>x/(2**y) </code>.<ref>{{cite web |url=https://wiki.python.org/moin/BitwiseOperators |title=BitwiseOperators - Python Wiki |work=wiki.python.org}}</ref>
+
+The behavior of division has changed significantly over time:<ref name="pep0238"/>
+
+* Python 2.1 and earlier use the C division behavior. The <code>/</code> operator is integer division if both operands are integers, and floating-point division otherwise. Integer division rounds towards 0, e.g. {{nowrap|1=<code>7/3 == 2</code>}} and {{nowrap|1=<code>-7/3 == -2</code>.}}
+* Python 2.2 changes integer division to round towards negative infinity, e.g. <code>7/3 == 2</code> and <code>-7/3 == -3</code>. The floor division <code>//</code> operator is introduced. So <code>7//3 == 2</code>, <code>-7//3 == -3</code>, <code>7.5//3 == 2.0</code> and <code>-7.5//3 == -3.0</code>. Adding <code>from __future__ import division</code> causes a module to use Python 3.0 rules for division (see next).
+* Python 3.0 changes <code>/</code> to be always floating-point division. In Python terms, the pre-3.0 <code>/</code> is ''classic division'', the version-3.0 <code>/</code> is ''real division'', and <code>//</code> is ''floor division''.
+
+Rounding towards negative infinity, though different from most languages, adds consistency. For instance, it means that the equation <code>(a + b)//b == a//b + 1</code> is always true. It also means that the equation <code>b*(a//b) + a%b == a</code> is valid for both positive and negative values of <code>a</code>. However, maintaining the validity of this equation means that while the result of <code>a%b</code> is, as expected, in the [[half-open interval]] [0, ''b''), where <code>b</code> is a positive integer, it has to lie in the interval (''b'', 0] when <code>b</code> is negative.<ref name="AutoNT-62" />
+
+Python provides a <code>round</code> function for [[rounding]] a float to the nearest integer. For [[Rounding#Tie-breaking|tie-breaking]], versions before 3 use round-away-from-zero: <code>round(0.5)</code> is 1.0, <code>round(-0.5)</code> is −1.0.<ref name="AutoNT-63" /> Python 3 uses [[round to even]]: <code>round(1.5)</code> is 2, <code>round(2.5)</code> is 2.<ref name="AutoNT-64" />
+
+Python allows boolean expressions with multiple equality relations in a manner that is consistent with general use in mathematics. For example, the expression <code>a < b < c</code> tests whether <code>a</code> is less than <code>b</code> and <code>b</code> is less than <code>c</code>. C-derived languages interpret this expression differently: in C, the expression would first evaluate <code>a < b</code>, resulting in 0 or 1, and that result would then be compared with <code>c</code>.<ref name="AutoNT-65" />{{Page needed|date=January 2012}}
+
+Python has extensive built-in support for [[arbitrary precision arithmetic]]. Integers are transparently switched from the machine-supported maximum fixed-precision (usually 32 or 64 bits), belonging to the python type <code>int</code>, to arbitrary precision, belonging to the python type <code>long</code>, where needed. The latter have an "L" suffix in their textual representation.<ref>{{cite web|title = Built-in Type|url = https://docs.python.org/2.7/library/stdtypes.html|website = docs.python.org}}</ref> (In Python 3, the distinction between the <code>int</code> and <code>long</code> types was eliminated; this behavior is now entirely contained by the <code>int</code> class.) The <code>Decimal</code> type/class in module <code>decimal</code> (since version 2.4) provides decimal floating point numbers to arbitrary precision and several rounding modes.<ref>{{cite web|title = PEP 0327 -- Decimal Data Type|url = https://www.python.org/dev/peps/pep-0327/|website = Python.org|accessdate = 26 September 2015|last = Batista|first = Facundo}}</ref> The <code>Fraction</code> type in module <code>fractions</code> (since version 2.6) provides arbitrary precision for rational numbers.<ref>{{cite web|title = What’s New in Python 2.6 — Python v2.6.9 documentation|url = https://docs.python.org/2.6/whatsnew/2.6.html|website = docs.python.org|accessdate = 26 September 2015}}</ref>
+
+Due to Python's extensive mathematics library, and the third-party library [[NumPy]] that further extends the native capabilities, it is frequently used as a scientific scripting language to aid in problems such as numerical data processing and manipulation.
+
+== Libraries ==
+Python's large [[standard library]], commonly cited as one of its greatest strengths,<ref name="AutoNT-86" /> provides tools suited to many tasks. For Internet-facing applications, many standard formats and protocols such as [[MIME]] and [[Hypertext Transfer Protocol|HTTP]] are supported. It includes modules for creating [[graphical user interface]]s, connecting to [[relational database]]s, [[pseudorandom number generator|generating pseudorandom numbers]], arithmetic with arbitrary precision decimals,<ref name="AutoNT-88" /> manipulating [[regular expression]]s, and [[unit testing]].
+
+Some parts of the standard library are covered by specifications (for example, the [[Web Server Gateway Interface]] (WSGI) implementation <code>wsgiref</code> follows PEP 333<ref name="AutoNT-89" />), but most modules are not. They are specified by their code, internal documentation, and test suites (if supplied). However, because most of the standard library is cross-platform Python code, only a few modules need altering or rewriting for variant implementations.
+
+{{As of|2018|03|post=,}} the [[Python Package Index]] (PyPI), the official repository for third-party Python software, contains over 130,000<ref>{{cite web |url=http://www.modulecounts.com/ |title=Module Counts |date=|website=ModuleCounts |publisher=|last1=Debill|first1=Erik |accessdate=20 September 2017}}</ref> packages with a wide range of functionality, including:
+
+* Graphical user interfaces
+* Web frameworks
+* Multimedia
+* Databases
+* Networking 
+* Test frameworks
+* Automation
+* Web scraping<ref>{{cite web|url=https://likegeeks.com/python-web-scraping/|title=20+ Python Web Scraping Examples (Beautiful Soup & Selenium) - Like Geeks|date=5 December 2017|website=likegeeks.com|accessdate=12 March 2018}}</ref>
+* Documentation
+* System administration
+* Scientific computing
+* Text processing
+* Image processing
+
+== Development environments ==
+{{See also|Comparison of integrated development environments#Python}}
+
+Most Python implementations (including CPython) include a [[read–eval–print loop]] (REPL), permitting them to function as a [[command line interpreter]] for which the user enters statements sequentially and receives results immediately.
+
+Other shells, including [[IDLE (Python)|IDLE]] and [[IPython]], add further abilities such as auto-completion, session state retention and [[syntax highlighting]].
+
+As well as standard desktop [[integrated development environment]]s (see Wikipedia's "[[Python IDE]]" article), there are [[Web browser]]-based IDEs; [[SageMath]] (intended for developing science and math-related Python programs); [[PythonAnywhere]], a browser-based IDE and hosting environment; and Canopy IDE, a commercial Python IDE emphasizing scientific computing.<ref>{{cite web|last1=Enthought|first1=Canopy |title=Canopy |url=https://www.enthought.com/products/canopy/|website=www.enthought.com |accessdate=20 August 2016}}</ref>
+
+== Implementations ==
+{{See also|List of Python software#Python implementations}}
+
+=== Reference implementation ===
+[[CPython]] is the [[reference implementation]] of Python. It is written in [[C (programming language)|C]], meeting the [[C89 (C version)|C89]] standard with several select [[C99]] features.<ref name="AutoNT-66" /> It compiles Python programs into an intermediate [[bytecode]]<ref name="AutoNT-67" /> which is then executed by its [[virtual machine]].<ref name="AutoNT-68" /> CPython is distributed with a large standard library written in a mixture of C and native Python. It is available for many platforms, including [[Microsoft Windows|Windows]] and most modern [[Unix-like]] systems. Platform portability was one of its earliest priorities.<ref name="AutoNT-69" />
+
+=== Other implementations ===
+[[PyPy]] is a fast, compliant<ref name="AutoNT-70" /> interpreter of Python 2.7 and 3.5. Its [[Just-in-time compilation|just-in-time compiler]] brings a significant speed improvement over CPython.<ref name="AutoNT-71" />
+
+[[Stackless Python]] is a significant fork of CPython that implements [[microthread]]s; it does not use the C memory stack, thus allowing massively concurrent programs. PyPy also has a stackless version.<ref name="AutoNT-73" />
+
+[[MicroPython]] is a Python 3 variant optimised for [[microcontroller]]s.
+
+=== Unsupported implementations ===
+Other just-in-time Python compilers have been developed, but are now unsupported:
+
+* Google began a project named [[Unladen Swallow]] in 2009 with the aim of speeding up the Python interpreter fivefold by using the [[LLVM]], and of improving its multithreading ability to scale to thousands of cores.<ref name="AutoNT-74" />
+* [[Psyco]] is a [[Just-in-time compilation|just-in-time]] [[Run-time algorithm specialisation|specialising]] compiler that integrates with CPython and transforms bytecode to machine code at runtime. The emitted code is specialised for certain [[data type]]s and is faster than standard Python code.
+
+In 2005, [[Nokia]] released a Python interpreter for the [[Series 60]] mobile phones named [[PyS60]]. It includes many of the modules from the CPython implementations and some additional modules to integrate with the [[Symbian]] operating system. The project has been kept up-to-date to run on all variants of the S60 platform, and several third-party modules are available. The Nokia [[N900]] also supports Python with [[GTK]] widget libraries, enabling programs to be written and run on the target device.<ref>{{cite web |title=Python on the Nokia N900 |url=http://www.stochasticgeometry.ie/2010/04/29/python-on-the-nokia-n900/|website=Stochastic Geometry}}</ref>
+
+=== Cross-compilers to other languages ===
+There are several compilers to high-level [[object language]]s, with either unrestricted Python, a restricted subset of Python, or a language similar to Python as the source language:
+* [[Jython]] compiles into Java byte code, which can then be executed by every [[Java virtual machine]] implementation. This also enables the use of Java class library functions from the Python program.
+* [[IronPython]] follows a similar approach in order to run Python programs on the .NET [[Common Language Runtime]].
+* The [[RPython]] language can be compiled to [[C (programming language)|C]], [[Java bytecode]], or [[Common Intermediate Language]], and is used to build the PyPy interpreter of Python.
+* [[Pyjs]] compiles Python to [[JavaScript]].
+* [[Cython]] compiles Python to [[C (programming language)|C]] and [[C++]].
+* Pythran compiles Python to [[C++]].
+* Somewhat dated [[Pyrex (programming language)|Pyrex]] (latest release in 2010) and [[Shed Skin]] (latest release in 2013) compile to C and C++ respectively.
+* Google's Grumpy compiles Python to [[Go (programming language)|Go]].
+* [[Nuitka]] compiles Python into C++ <ref>{{cite web|url=http://nuitka.net/|title=Nuitka Home {{!}} Nuitka Home|website=nuitka.net|language=en|access-date=18 August 2017}}</ref>
+
+=== Performance ===
+A performance comparison of various Python implementations on a non-numerical (combinatorial) workload was presented at EuroSciPy '13.<ref>{{cite conference |title=Performance of Python runtimes on a non-numeric scientific code |last=Murri |first=Riccardo |conference=European Conference on Python in Science (EuroSciPy) |year=2013 |arxiv=1404.6388}}</ref>
+
+== Development ==
+Python's development is conducted largely through the ''Python Enhancement Proposal'' (PEP) process, the primary mechanism for proposing major new features, collecting community input on issues and documenting Python design decisions.<ref name="PepCite000" /> Outstanding PEPs are reviewed and commented on by the Python community and Guido Van Rossum, Python's [[Benevolent Dictator For Life]].<ref name="PepCite000" />
+
+Enhancement of the language corresponds with development of the CPython reference implementation. The mailing list python-dev is the primary forum for the language's development. Specific issues are discussed in the [[Roundup (issue tracker)|Roundup]] [[bug tracker]] maintained at python.org.<ref name="AutoNT-21" /> Development originally took place on a [[self-hosted]] source-code repository running [[Mercurial]], until Python moved to [[GitHub]] in January 2017.<ref name=py_dev_guide>{{cite web |title=Python Developer's Guide |url=https://docs.python.org/devguide/}}</ref>
+
+CPython's public releases come in three types, distinguished by which part of the version number is incremented:
+
+* Backward-incompatible versions, where code is expected to break and need to be manually [[ported]]. The first part of the version number is incremented. These releases happen infrequently—for example, version 3.0 was released 8 years after 2.0.
+* Major or "feature" releases, about every 18 months, are largely compatible but introduce new features. The second part of the version number is incremented. Each major version is supported by bugfixes for several years after its release.<ref name="release-schedule" />
+* Bugfix releases, which introduce no new features, occur about every 3 months and are made when a sufficient number of bugs have been fixed upstream since the last release. Security vulnerabilities are also patched in these releases. The third and final part of the version number is incremented.<ref name="AutoNT-22" />
+
+Many [[beta release|alpha, beta, and release-candidates]] are also released as previews and for testing before final releases. Although there is a rough schedule for each release, they are often delayed if the code is not ready. Python's development team monitors the state of the code by running the large [[unit test]] suite during development, and using the [[BuildBot]] [[continuous integration]] system.<ref name="AutoNT-23" />
+
+The community of Python developers has also contributed over 86,000<ref>{{cite web|last1=DeBill|first1=Erik |title=Module Counts |url=http://www.modulecounts.com/#|website=www.modulecounts.com |accessdate=20 August 2016}}</ref> software modules ({{as of|2016|08|20|lc=yes}}) to the [[Python Package Index]] (PyPI), the official repository of third-party Python libraries.
+
+The major [[academic conference]] on Python is [[PyCon]]. There are also special Python mentoring programmes, such as [[Pyladies]].
+
+== Naming ==
+Python's name is derived from the British comedy group [[Monty Python]], whom Python creator Guido van Rossum enjoyed while developing the language. Monty Python references appear frequently in Python code and culture;<ref name="tutorial-chapter1" /> for example, the [[metasyntactic variable]]s often used in Python literature are [[Spam (Monty Python)|''spam'' and ''eggs'']] instead of the traditional [[foobar|''foo'' and ''bar'']].<ref name="tutorial-chapter1" /><ref name="AutoNT-26" /> The official Python documentation also contains various references to Monty Python routines.<ref>{{cite book |last1=Lutz |first1=Mark |title=Learning Python: Powerful Object-Oriented Programming |year=2009 |publisher=O'Reilly Media, Inc. |isbn=9781449379322 |page=17 |url=https://books.google.com/books?id=1HxWGezDZcgC&pg=PA17 |language=en}}</ref><ref>{{cite book |last1=Fehily |first1=Chris |title=Python |year=2002 |publisher=Peachpit Press |isbn=9780201748840 |page=xv |url=https://books.google.com/books?id=carqdIdfVlYC&pg=PR15 |language=en}}</ref>
+
+The prefix ''Py-'' is used to show that something is related to Python. Examples of the use of this prefix in names of Python applications or libraries include [[Pygame]], a [[language binding|binding]] of [[Simple DirectMedia Layer|SDL]] to Python (commonly used to create games); [[Python for S60]], an implementation for the [[Symbian]] [[S60 (software platform)|S60]] operating system; [[PyQt]] and [[PyGTK]], which bind [[Qt (software)|Qt]] and [[GTK]] to Python respectively; and [[PyPy]], a Python implementation originally written in Python.
+
+== Uses ==
+{{Main article|List of Python software}}
+Since 2003, Python has consistently ranked in the top ten most popular programming languages in the [[TIOBE Programming Community Index]] where, {{as of|2018|1|lc=y}}, it is the fourth most popular language (behind [[Java (programming language)|Java]], [[C (programming language)|C]], and [[C++]]).<ref>{{cite web |url=http://www.tiobe.com/tiobe-index/ |title=TIOBE Index |publisher=TIOBE - The Software Quality Company |accessdate=7 March 2017}}</ref> It was selected Programming Language of the Year in 2007 and 2010.<ref name="AutoNT-34" />
+
+An empirical study found that scripting languages, such as Python, are more productive than conventional languages, such as C and Java, for programming problems involving string manipulation and search in a dictionary, and determined that memory consumption was often "better than Java and not much worse than C or C++".<ref name="AutoNT-28" />
+
+Large organizations that use Python include [[Wikipedia]], [[Google]],<ref name="quotes-about-python" /> [[Yahoo!]],<ref name="AutoNT-29" /> [[CERN]],<ref name="AutoNT-30" /> [[NASA]],<ref name="AutoNT-31" /> [[Facebook]], [[Amazon (company)|Amazon]], [[Instagram]], [[Spotify]]{{cn|date=March 2018}} and some smaller entities like [[Industrial Light & Magic|ILM]]<ref name="AutoNT-32" /> and [[ITA Software|ITA]].<ref name="AutoNT-33" /> The social news networking site [[Reddit]] is written entirely in Python.
+
+Python can serve as a [[scripting language]] for [[web application]]s, e.g., via [[mod_wsgi]] for the [[Apache web server]].<ref name="AutoNT-35" /> With [[Web Server Gateway Interface]], a standard API has evolved to facilitate these applications. [[Web framework]]s like [[Django (web framework)|Django]], [[Pylons (web framework)|Pylons]], [[Pyramid (web framework)|Pyramid]], [[TurboGears]], [[web2py]], [[Tornado (web server)|Tornado]], [[Flask (web framework)|Flask]], [[Bottle (web framework)|Bottle]] and [[Zope]] support developers in the design and maintenance of complex applications. [[Pyjs]] and [[IronPython]] can be used to develop the client-side of Ajax-based applications. [[SQLAlchemy]] can be used as [[Data mapper pattern|data mapper]] to a relational database. [[Twisted (software)|Twisted]] is a framework to program communications between computers, and is used (for example) by [[Dropbox (service)|Dropbox]].
+
+Libraries such as [[NumPy]], [[SciPy]] and [[Matplotlib]] allow the effective use of Python in scientific computing,<ref name="cise">{{cite journal |last=Oliphant |first=Travis |title=Python for Scientific Computing |journal=Computing in Science and Engineering |year=2007 |url=https://www.h2desk.com/blog/python-scientific-computing/}}</ref><ref name="millman">{{cite journal |first1=K. Jarrod |last1=Millman |first2=Michael |last2=Aivazis |title=Python for Scientists and Engineers |journal=Computing in Science and Engineering |volume=13 |number=2 |pages=9–12 |year=2011 |url=http://www.computer.org/csdl/mags/cs/2011/02/mcs2011020009.html}}</ref> with specialized libraries such as [[Biopython]] and [[Astropy]] providing domain-specific functionality. [[SageMath]] is a [[mathematical software]] with a "[[Electronic Notebook|notebook]]" programmable in Python: its library covers many aspects of [[mathematics]], including [[algebra]], [[combinatorics]], [[numerical mathematics]], [[number theory]], and [[calculus]]. The Python language re-implemented in [[Java (programming language)|Java]] platform is used for numeric and statistical calculations with 2D/3D visualization by the [[DataMelt|DMelt]] project.<ref name="schekanov">{{cite book |last=Chekanov |first=S. |date=April 2016 |title=Numeric Computation and Statistical Data Analysis on the Java Platform |url= https://www.springer.com/la/book/9783319285290|location=London |publisher=Springer |page=670 |isbn=978-3-319-28531-3}}</ref><ref name="schekanov2">{{cite book |last=Chekanov |first=S. |date=2010 |title=Scientific Data Analysis using Jython Scripting and Java |url=https://www.springer.com/la/book/9783319285290|location=London |publisher=Springer |page=600 |isbn=978-3-319-28531-3}}</ref>
+
+Python has been successfully embedded in many software products as a scripting language, including in [[finite element method]] software such as [[Abaqus]], 3D parametric modeler like [[FreeCAD]], 3D animation packages such as [[3ds Max]], [[Blender (software)|Blender]], [[Cinema 4D]], [[Lightwave]], [[Houdini (software)|Houdini]], [[Maya (software)|Maya]], [[modo (software)|modo]], [[MotionBuilder]], [[Autodesk Softimage|Softimage]], the visual effects compositor [[Nuke (software)|Nuke]], 2D imaging programs like [[GIMP]],<ref>{{cite web |url=http://gimp-win.sourceforge.net/faq.html |title=Installers for GIMP for Windows - Frequently Asked Questions |author=<!-- Staff writer(s); no by-line. --> |date=26 July 2013 |accessdate=26 July 2013 |deadurl=yes |archiveurl=https://web.archive.org/web/20130717070814/http://gimp-win.sourceforge.net/faq.html |archivedate=17 July 2013 |df=dmy-all }}</ref> [[Inkscape]], [[Scribus]] and [[Paint Shop Pro]],<ref name="AutoNT-38" /> and [[musical notation]] programs like [[scorewriter]] and [[Capella (notation program)|capella]]. [[GNU Debugger]] uses Python as a [[Prettyprint|pretty printer]] to show complex structures such as C++ containers. [[Esri]] promotes Python as the best choice for writing scripts in [[ArcGIS]].<ref name="AutoNT-39" /> It has also been used in several video games,<ref name="AutoNT-40" /><ref name="AutoNT-41" /> and has been adopted as first of the three available [[programming language]]s in [[Google App Engine]], the other two being [[Java (software platform)|Java]] and [[Go (programming language)|Go]].<ref name="AutoNT-42" /> Python is also used in [[algorithmic trading]] and quantitative finance.<ref>{{cite web |url=http://www.quantinsti.com/blog/python-best-programming-language-algorithmic-trading/ |title=Python - Best Programming Language for Algorithmic Trading Systems |date=9 March 2016|language=en-US|access-date=3 October 2016}}</ref> Python can also be implemented in APIs of online brokerages that run on other languages by using wrappers.<ref>{{cite web |url=http://www.quantinsti.com/blog/ibpy-tutorial-implement-python-interactive-brokers-api/ |title=Trading with Interactive Brokers using Python: An IBPy Tutorial |date=19 September 2016|language=en-US|access-date=3 October 2016}}</ref>
+
+Python has been used in [[artificial intelligence]] projects.<ref name="AutoNT-43" /><ref name="AutoNT-44" /><ref name="AutoNT-45" /><ref name="AutoNT-46" /> As a scripting language with [[modular programming|modular architecture]], simple syntax and rich text processing tools, Python is often used for [[natural language processing]].<ref name="AutoNT-47" />
+
+Many operating systems include Python as a standard component. It ships with most [[Linux distribution]]s, [[AmigaOS 4]], [[FreeBSD]], [[NetBSD]], [[OpenBSD]] and [[macOS]], and can be used from the command line (terminal). Many Linux distributions use installers written in Python: [[Ubuntu (operating system)|Ubuntu]] uses the [[Ubiquity (software)|Ubiquity]] installer, while [[Red Hat Linux]] and [[Fedora (operating system)|Fedora]] use the [[Anaconda (installer)|Anaconda]] installer. [[Gentoo Linux]] uses Python in its [[package management system]], [[Portage (software)|Portage]].
+
+Python is used extensively in the [[information security]] industry, including in exploit development.<ref name="AutoNT-49" /><ref name="AutoNT-50" />
+
+Most of the [[Sugar (software)|Sugar]] software for the [[One Laptop per Child]] XO, now developed at [[Sugar Labs]], is written in Python.<ref name="AutoNT-51" />
+
+The [[Raspberry Pi]] [[single-board computer]] project has adopted Python as its main user-programming language.
+
+[[LibreOffice]] includes Python, and intends to replace Java with Python. Its Python Scripting Provider is a core feature<ref>{{cite web |title=4.0 New Features and Fixes |publisher=[[The Document Foundation]] |work=LibreOffice.org |year=2013 |url=http://www.libreoffice.org/download/4-0-new-features-and-fixes/ |accessdate=25 February 2013}}</ref> since Version 4.0 from 7 February 2013.
+
+== Languages influenced by Python ==
+Python's design and philosophy have influenced many other programming languages:
+
+* [[Boo (programming language)|Boo]] uses indentation, a similar syntax, and a similar object model.<ref name="AutoNT-90" />
+* [[Cobra (programming language)|Cobra]] uses indentation and a similar syntax, and its "Acknowledgements" document lists Python first among languages that influenced it.<ref name="AutoNT-91" /> However, Cobra directly supports [[Design by contract|design-by-contract]], [[Unit testing|unit tests]], and optional [[static typing]].<ref name="AutoNT-92" />
+* [[CoffeeScript]], a programming language that cross-compiles to JavaScript, has Python-inspired syntax.
+* [[ECMAScript]] borrowed [[iterator]]s, [[generator (computer science)|generators]] and [[list comprehension]]s from Python.<ref name="AutoNT-93" />
+* [[Go (programming language)|Go]] is described as incorporating the "development speed of working in a dynamic language like Python".<ref name="AutoNT-94" />
+* [[Groovy (programming language)|Groovy]] was motivated by the desire to bring the Python design philosophy to [[Java (programming language)|Java]].<ref name="AutoNT-95" />
+* [[Julia (programming language)|Julia]] was designed "with [[hygienic macro|true macros]] [.. and to be] as usable for general programming as Python<!--, as easy for statistics as R, as natural for string processing as Perl, as powerful for linear algebra as Matlab, as good at gluing programs together as the shell. Something that is dirt simple to learn, yet keeps the most serious hackers happy. We want it interactive and we want it compiled.
+(Did we mention it --> [and] should be as fast as C<!--?-->".<ref name=Julia>{{cite web| title = Why We Created Julia| date= February 2012| website= Julia website| url= http://julialang.org/blog/2012/02/why-we-created-julia| accessdate= 5 June 2014}}</ref> Calling to or from Julia is possible; to with [https://github.com/stevengj/PyCall.jl PyCall.jl] and a Python package [https://github.com/JuliaLang/pyjulia pyjulia] allows calling, in the other direction, from Python.
+* [[Kotlin (programming language)]] is a functional programming language with an interactive shell similar to python. However, Kotlin is strongly typed with access to standard Java libraries.<ref>{{cite web|url=https://kotlinlang.org/docs/tutorials/command-line.html|title=Working with the Command Line Compiler - Kotlin Programming Language|website=Kotlin|accessdate=12 March 2018}}</ref>
+* [[OCaml]] has an optional syntax named twt (The Whitespace Thing), inspired by Python and [[Haskell (programming language)|Haskell]].<ref name="AutoNT-96" />
+* [[Ruby (programming language)|Ruby]]'s creator, [[Yukihiro Matsumoto]], has said: "I wanted a scripting language that was more powerful than Perl, and more object-oriented than Python. That's why I decided to design my own language."<ref name="linuxdevcenter" />
+* [[Swift (programming language)|Swift]], a programming language developed by Apple, has some Python-inspired syntax.<ref>{{cite web |url=http://nondot.org/sabre |title=Chris Lattner's Homepage |publisher=Chris Lattner |first=Chris |last=Lattner |authorlink=Chris Lattner |date=3 June 2014 |accessdate=3 June 2014 |quote=I started work on the Swift Programming Language in July of 2010. I implemented much of the basic language structure, with only a few people knowing of its existence. A few other (amazing) people started contributing in earnest late in 2011, and it became a major focus for the Apple Developer Tools group in July 2013 [...] drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.}}</ref>
+
+Python's development practices have also been emulated by other languages. For example, the practice of requiring a document describing the rationale for, and issues surrounding, a change to the language (in Python, a PEP) is also used in [[Tcl]]<ref name="AutoNT-99" /> and [[Erlang (programming language)|Erlang]].<ref name="AutoNT-100" />
+
+Python received TIOBE's Programming Language of the Year awards in 2007 and 2010. The award is given to the language with the greatest growth in popularity over the year, as measured by the [[TIOBE index]].<ref name="AutoNT-101" />
+
+== See also ==
+{{Portal|Free software|Python programming}}
+
+* [[List of integrated development environments for Python|Comparison of integrated development environments for Python]]
+* [[Comparison of programming languages]]
+* [[List of programming languages]]
+* [[pip (package manager)]]
+* [[Off-side rule]]
+
+== References ==
+{{Reflist|30em|refs=
+<ref name="faq-created">{{cite web |url=https://docs.python.org/faq/general.html#why-was-python-created-in-the-first-place |title=Why was Python created in the first place? |work=General Python FAQ |publisher=Python Software Foundation |accessdate=22 March 2007}}</ref>
+<ref name="98-interview">{{cite web |url=http://www.amk.ca/python/writing/gvr-interview |title=Interview with Guido van Rossum (July 1998) |last=Kuchling |first=Andrew M. |work=amk.ca |date=22 December 2006 |accessdate=12 March 2012 |deadurl=yes |archiveurl=https://web.archive.org/web/20070501105422/http://www.amk.ca/python/writing/gvr-interview |archivedate=1 May 2007 |df=dmy-all }}</ref>
+<ref name="AutoNT-1">{{ cite journal |last=van Rossum |first=Guido |year=1993 |title=An Introduction to Python for UNIX/C Programmers |journal=Proceedings of the NLUUG najaarsconferentie (Dutch UNIX users group) |quote=even though the design of C is far from ideal, its influence on Python is considerable. |url=http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.2023}}</ref>
+<ref name="classmix">{{cite web |url=https://docs.python.org/tutorial/classes.html |title=Classes |work=The Python Tutorial |publisher=Python Software Foundation |accessdate=20 February 2012 |quote=It is a mixture of the class mechanisms found in C++ and Modula-3}}</ref>
+<ref name="effbot-call-by-object">{{cite web |url=http://effbot.org/zone/call-by-object.htm |title=Call By Object |work=effbot.org |last=Lundh |first=Fredrik |quote=replace "CLU" with "Python", "record" with "instance", and "procedure" with "function or method", and you get a pretty accurate description of Python's object model. |accessdate=21 November 2017}}</ref>
+<ref name="AutoNT-2">{{cite web |url=https://www.python.org/download/releases/2.3/mro/ |title=The Python 2.3 Method Resolution Order |last=Simionato |first=Michele |publisher=Python Software Foundation |quote=The C3 method itself has nothing to do with Python, since it was invented by people working on Dylan and it is described in a paper intended for lispers}}</ref>
+<ref name="AutoNT-3">{{cite web |url=https://docs.python.org/howto/functional.html |title=Functional Programming HOWTO |last=Kuchling |first=A. M. |work=Python v2.7.2 documentation |publisher=Python Software Foundation |accessdate=9 February 2012}}</ref>
+<ref name="pep0238">{{cite web |url=https://www.python.org/dev/peps/pep-0238/ |title=PEP 238&nbsp;– Changing the Division Operator |first1=Moshe |last1=Zadka |first2=Guido |last2=van Rossum |date=11 March 2001 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=23 October 2013}}</ref>
+<ref name="AutoNT-4">{{cite web |url=https://www.python.org/dev/peps/pep-0255/ |title=PEP 255&nbsp;– Simple Generators |first1=Neil |last1=Schemenauer |first2=Tim |last2=Peters |first3=Magnus Lie |last3=Hetland |date=18 May 2001 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=9 February 2012}}</ref>
+<ref name="AutoNT-5">{{cite web |url=https://www.python.org/dev/peps/pep-0318/ |title=PEP 318&nbsp;– Decorators for Functions and Methods |first1=Kevin D. |last1=Smith |first2=Jim J. |last2=Jewett |first3=Skip |last3=Montanaro |first4=Anthony |last4=Baxter |date=2 September 2004 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=24 February 2012}}</ref>
+<ref name="AutoNT-6">{{cite web |url=https://docs.python.org/3.2/tutorial/controlflow.html |title=More Control Flow Tools |work=Python 3 documentation |publisher=Python Software Foundation |accessdate=24 July 2015}}</ref>
+<ref name="bini">{{ cite book |last=Bini |first=Ola |title=Practical JRuby on Rails Web 2.0 Projects: bringing Ruby on Rails to the Java platform |year=2007 |publisher=APress |location=Berkeley |isbn=978-1-59059-881-8 |page=3}}</ref>
+<ref name="AutoNT-7">{{cite web |last=Kuhlman |first=Dave |url=http://cutter.rexx.com/~dkuhlman/python_book_01.html |title=A Python Book: Beginning Python, Advanced Python, and Python Exercises |deadurl=yes |archiveurl=https://web.archive.org/web/20120623165941/http://cutter.rexx.com/~dkuhlman/python_book_01.html |archivedate=23 June 2012 |df=dmy-all }}</ref>
+<ref name="About">{{cite web |url=https://www.python.org/about |title=About Python |publisher=Python Software Foundation |accessdate=24 April 2012}}, second section "Fans of Python use the phrase "batteries included" to describe the standard library, which covers everything from asynchronous processing to zip files."</ref>
+<ref name="venners-interview-pt-1">{{cite web |url=http://www.artima.com/intv/pythonP.html |title=The Making of Python |last=Venners |first=Bill |date=13 January 2003 |work=Artima Developer |publisher=Artima |accessdate=22 March 2007}}</ref>
+<ref name="timeline-of-python">{{cite web |url=http://python-history.blogspot.com/2009/01/brief-timeline-of-python.html |title=A Brief Timeline of Python |last=van Rossum |first=Guido |date=20 January 2009 |work=The History of Python |publisher=Google |accessdate=20 January 2009}}</ref>
+<ref name="AutoNT-12">{{ cite mailing list |url=http://mail.python.org/pipermail/python-dev/2000-August/008881.html |title=SETL (was: Lukewarm about range literals) |date=29 August 2000 |accessdate=13 March 2011 |mailinglist=Python-Dev |last=van Rossum |first=Guido |authorlink=Guido van Rossum}}</ref>
+<ref name="newin-2.0">{{cite web |url=https://docs.python.org/whatsnew/2.0.html |title=What's New in Python 2.0 |last1=Kuchling |first1=A. M. |last2=Zadka |first2=Moshe |date=16 October 2000 |publisher=Python Software Foundation |accessdate=11 February 2012}}</ref>
+<ref name="3.0-release">{{cite web |url=https://www.python.org/download/releases/3.0/ |title=Python 3.0 Release |publisher=Python Software Foundation |accessdate=8 July 2009}}</ref>
+<ref name="pep-3000">{{cite web |url=https://www.python.org/dev/peps/pep-3000/ |title=PEP 3000&nbsp;– Python 3000 |last=van Rossum |first=Guido |date=5 April 2006 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=27 June 2009}}</ref>
+<ref name="AutoNT-13">{{cite web |url=https://www.python.org/community/pycon/dc2004/papers/24/metaclasses-pycon.pdf |archiveurl=https://www.webcitation.org/5lubkaJRc?url=http://www.python.org/community/pycon/dc2004/papers/24/metaclasses-pycon.pdf |archivedate=10 December 2009 |format=PDF |title=Python Metaclasses: Who? Why? When? |last=The Cain Gang Ltd. |accessdate=27 June 2009 |deadurl=yes |df=dmy-all }}</ref>
+<ref name="AutoNT-14">{{cite web |url=https://docs.python.org/3.0/reference/datamodel.html#special-method-names |title=3.3. Special method names |work=The Python Language Reference |publisher=Python Software Foundation |accessdate=27 June 2009}}</ref>
+<ref name="AutoNT-15">{{cite web |url=http://www.nongnu.org/pydbc/ |title=PyDBC: method preconditions, method postconditions and class invariants for Python |accessdate=24 September 2011}}</ref>
+<ref name="AutoNT-16">{{cite web |url=http://www.wayforward.net/pycontract/ |title=Contracts for Python |accessdate=24 September 2011}}</ref>
+<ref name="AutoNT-17">{{cite web |url=https://sites.google.com/site/pydatalog/ |title=PyDatalog |accessdate=22 July 2012}}</ref>
+<ref name="AutoNT-18">{{cite web |url=https://docs.python.org/3/library/itertools.html |title=6.5 itertools&nbsp;– Functions creating iterators for efficient looping |publisher=Docs.python.org |accessdate=22 November 2016}}</ref>
+<ref name="PEP20">{{cite web |url=https://www.python.org/dev/peps/pep-0020/ |title=PEP 20&nbsp;– The Zen of Python |last=Peters |first=Tim |date=19 August 2004 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=24 November 2008}}</ref>
+<ref name="AutoNT-19">{{cite book | url=http://shop.oreilly.com/product/9780596007973.do | title=Python Cookbook, 2nd Edition | publisher=[[O'Reilly Media]] |last1=Martelli |first1=Alex |last2=Ravenscroft |first2=Anna |last3=Ascher |first3=David | year=2005 | page=230 | isbn=978-0-596-00797-3}}</ref>
+<ref name="AutoNT-20">{{cite web |url=http://ebeab.com/2014/01/21/python-culture/ |title=Python Culture}}</ref>
+<ref name="PepCite000">{{cite web |url=https://www.python.org/dev/peps/pep-0001/ |title=PEP 1&nbsp;– PEP Purpose and Guidelines |last1=Warsaw |first1=Barry |last2=Hylton |first2=Jeremy |last3=Goodger |first3=David |date=13 June 2000 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=19 April 2011}}</ref>
+<ref name="AutoNT-21">{{cite web |url=https://www.python.org/dev/intro/ |title=Guido, Some Guys, and a Mailing List: How Python is Developed |last=Cannon |first=Brett |work=python.org |publisher=Python Software Foundation |accessdate=27 June 2009 |deadurl=yes |archiveurl=https://web.archive.org/web/20090601134342/http://www.python.org/dev/intro/ |archivedate=1 June 2009 }}</ref>
+<ref name="release-schedule">{{cite web |url=https://mail.python.org/pipermail/python-dev/2002-April/022739.html |title=&#91;Python-Dev&#93; Release Schedules (was Stability & change) |last=Norwitz |first=Neal |date=8 April 2002 |accessdate=27 June 2009}}</ref>
+<ref name="AutoNT-22">{{cite web |url=https://www.python.org/dev/peps/pep-0006/ |title=PEP 6&nbsp;– Bug Fix Releases |last1=Aahz |last2=Baxter |first2=Anthony |date=15 March 2001 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=27 June 2009}}</ref>
+<ref name="AutoNT-23">{{cite web |url=https://www.python.org/dev/buildbot/ |title=Python Buildbot |work=Python Developer’s Guide |publisher=Python Software Foundation |accessdate=24 September 2011}}</ref>
+<ref name="AutoNT-24">{{cite web |url=https://docs.python.org/2/faq/general.html#why-is-it-called-python |title=General Python FAQ |work=Python v2.7.3 documentation |publisher=Docs.python.org |date= |accessdate=3 December 2012}}</ref>
+<ref name="tutorial-chapter1">{{cite web |url=https://docs.python.org/tutorial/appetite.html |title=Whetting Your Appetite |work=The Python Tutorial |publisher=Python Software Foundation |accessdate=20 February 2012}}</ref>
+<ref name="AutoNT-25">{{cite web |url=http://python.net/crew/mwh/hacks/objectthink.html |title=How to think like a Pythonista}}</ref>
+<ref name="AutoNT-26">{{cite web |url=https://stackoverflow.com/questions/5033906/in-python-should-i-use-else-after-a-return-in-an-if-block |title=In Python, should I use else after a return in an if block? |date=17 February 2011 |work=[[Stack Overflow]] |publisher=Stack Exchange |accessdate=6 May 2011}}</ref>
+<ref name="AutoNT-27">{{cite web |url=http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html |title=Code Like a Pythonista: Idiomatic Python |last=Goodger |first=David}}</ref>
+<ref name="AutoNT-28">{{cite web |url=http://page.mi.fu-berlin.de/prechelt/Biblio/jccpprt_computer2000.pdf |title=An empirical comparison of C, C++, Java, Perl, Python, Rexx, and Tcl |first=Lutz |last=Prechelt <!-- "work" doesn't work.. |work=[http://page.mi.fu-berlin.de/prechelt/Biblio/ Bibliography of Lutz Prechelt]--> |date=14 March 2000 |accessdate=30 August 2013}}</ref>
+<ref name="quotes-about-python">{{cite web |url=https://www.python.org/about/quotes/ |title=Quotes about Python |publisher=Python Software Foundation |accessdate=8 January 2012}}</ref>
+<ref name="AutoNT-29">{{cite web |url=https://wiki.python.org/moin/OrganizationsUsingPython |title=Organizations Using Python |publisher=Python Software Foundation |accessdate=15 January 2009}}</ref>
+<ref name="AutoNT-30">{{ cite journal |title=Python : the holy grail of programming |journal=CERN Bulletin |issue=31/2006 |publisher=CERN Publications |date=31 July 2006 |url=http://cdsweb.cern.ch/journal/CERNBulletin/2006/31/News%20Articles/974627?ln=en |accessdate=11 February 2012}}</ref>
+<ref name="AutoNT-31">{{cite web |url=https://www.python.org/about/success/usa/ |title=Python Streamlines Space Shuttle Mission Design |last=Shafer |first=Daniel G. |date=17 January 2003 |publisher=Python Software Foundation |accessdate=24 November 2008}}</ref>
+<ref name="AutoNT-32">{{cite web |url=https://www.python.org/about/success/ilm/ |title=Industrial Light & Magic Runs on Python |last=Fortenberry |first=Tim |date=17 January 2003 |publisher=Python Software Foundation |accessdate=11 February 2012}}</ref>
+<ref name="AutoNT-33">{{cite web |url=http://www.eweek.com/c/a/Application-Development/Python-Slithers-into-Systems/ |title=Python Slithers into Systems |last=Taft |first=Darryl K. |date=5 March 2007 |work=eWeek.com |publisher=Ziff Davis Holdings |accessdate=24 September 2011}}</ref>
+<ref name="AutoNT-34">{{cite web |title=TIOBE Programming Community Index Python |author=TIOBE Software Index |year=2015 |url=http://www.tiobe.com/index.php/paperinfo/tpci/Python.html |accessdate=10 September 2015}}</ref>
+<ref name="AutoNT-35">{{cite web |title=Usage statistics and market share of Python for websites |year=2012 |url=http://w3techs.com/technologies/details/pl-python/all/all |accessdate=18 December 2012}}</ref>
+<ref name="AutoNT-38">{{cite web |url=http://www.jasc.com/support/customercare/articles/psp9components.asp |title=jasc psp9components |deadurl=yes |archiveurl=https://web.archive.org/web/20080319061519/http://www.jasc.com/support/customercare/articles/psp9components.asp |archivedate=19 March 2008 }}</ref>
+<ref name="AutoNT-39">{{cite web |url=http://webhelp.esri.com/arcgisdesktop/9.2/index.cfm?TopicName=About_getting_started_with_writing_geoprocessing_scripts |title=About getting started with writing geoprocessing scripts |date=17 November 2006 |work=ArcGIS Desktop Help 9.2 |publisher=Environmental Systems Research Institute |accessdate=11 February 2012}}</ref>
+<ref name="AutoNT-40">{{cite web |url=http://community.eveonline.com/news/dev-blogs/stackless-python-2.7/ |title=Stackless Python 2.7 |publisher=[[CCP Games]] |date=24 August 2010 |author=CCP porkbelly |work=EVE Community Dev Blogs |quote=As you may know, EVE has at its core the programming language known as Stackless Python.}}</ref>
+<ref name="AutoNT-41">{{cite web |url=http://www.2kgames.com/civ4/blog_03.htm |title=Modding Sid Meier's Civilization IV |last=Caudill |first=Barry |date=20 September 2005 |publisher=[[Firaxis Games]] |archiveurl=https://www.webcitation.org/5ru5VItfv?url=http://www.2kgames.com/civ4/blog_03.htm |archivedate=11 August 2010 |work=Sid Meier's Civilization IV Developer Blog |quote=we created three levels of tools ... The next level offers Python and XML support, letting modders with more experience manipulate the game world and everything in it. |deadurl=yes |df=dmy-all }}</ref>
+<ref name="AutoNT-42">{{cite web |url=https://code.google.com/apis/documents/docs/1.0/developers_guide_python.html |title=Python Language Guide (v1.0) |work=Google Documents List Data API v1.0 |publisher=Google |archiveurl=https://www.webcitation.org/5ru5FHxfV?url=http://code.google.com/apis/documents/docs/1.0/developers_guide_python.html |archivedate=11 August 2010 |deadurl=yes |df=dmy-all }}</ref>
+<ref name="AutoNT-43">{{cite web |url=https://wiki.python.org/moin/PythonForArtificialIntelligence |title=Python for Artificial Intelligence |publisher=Wiki.python.org |date=19 July 2012 |accessdate=3 December 2012 |deadurl=yes |archiveurl=https://web.archive.org/web/20121101045354/http://wiki.python.org/moin/PythonForArtificialIntelligence |archivedate=1 November 2012 }}</ref>
+<ref name="AutoNT-44">{{cite journal |editor-last=Paine |editor-first=Jocelyn |title=AI in Python |journal=AI Expert Newsletter |publisher=Amzi! |date=August 2005 |url=http://www.ainewsletter.com/newsletters/aix_0508.htm#python_ai_ai |accessdate=11 February 2012}}</ref>
+<ref name="AutoNT-45">{{cite web |url=https://pypi.python.org/pypi/PyAIML |title=PyAIML 0.8.5 : Python Package Index |publisher=Pypi.python.org |accessdate=17 July 2013}}</ref>
+<ref name="AutoNT-46">{{ cite book |title=Artificial Intelligence: A Modern Approach |url=http://aima.cs.berkeley.edu/ |last1=Russell |first1=Stuart J. |authorlink1=Stuart J. Russell |last2=Norvig |first2=Peter |authorlink2=Peter Norvig |lastauthoramp=y |edition=3rd |year=2009 |publisher=Prentice Hall |location=Upper Saddle River, NJ |isbn=978-0-13-604259-4 |page=1062 |accessdate=11 February 2012}}</ref>
+<ref name="AutoNT-47">{{cite web |url=http://www.nltk.org |title=Natural Language Toolkit}}</ref>
+<ref name="AutoNT-49">{{cite web |url=http://www.immunitysec.com/products-immdbg.shtml |title=Immunity: Knowing You're Secure |deadurl=yes |archiveurl=https://web.archive.org/web/20090216134332/http://immunitysec.com/products-immdbg.shtml |archivedate=16 February 2009 |df=dmy-all }}</ref>
+<ref name="AutoNT-50">{{cite web |url=http://oss.coresecurity.com/ |title=Corelabs site}}</ref>
+<ref name="AutoNT-51">{{cite web |url=http://sugarlabs.org/go/Sugar |title=What is Sugar? |publisher=Sugar Labs |accessdate=11 February 2012}}</ref>
+<ref name="AutoNT-52">{{cite web |title=Is Python a good language for beginning programmers? |url=https://docs.python.org/faq/general.html#is-python-a-good-language-for-beginning-programmers |work=General Python FAQ |publisher=Python Software Foundation |accessdate=21 March 2007}}</ref>
+<ref name="AutoNT-53">{{cite web |url=http://www.secnetix.de/~olli/Python/block_indentation.hawk |title=Myths about indentation in Python |publisher=Secnetix.de |accessdate=19 April 2011}}</ref>
+<!--ref name="AutoNT-54">{{cite web |url=http://c2.com/cgi/wiki?PythonWhiteSpaceDiscussion |title=White Space Discussion |accessdate=1 January 2013}}</ref-->
+<ref name="AutoNT-55">{{cite web |last=van Rossum |first=Guido |url=http://neopythonic.blogspot.be/2009/04/tail-recursion-elimination.html |title=Tail Recursion Elimination |publisher=Neopythonic.blogspot.be |date=22 April 2009 |accessdate=3 December 2012}}</ref>
+<ref name="AutoNT-56">{{cite web |title=Language Design Is Not Just Solving Puzzles |url=http://www.artima.com/weblogs/viewpost.jsp?thread=147358 |first=Guido |last=van Rossum |date=9 February 2006 |accessdate=21 March 2007 |work=Artima forums |publisher=Artima}}</ref>
+<ref name="AutoNT-57">{{cite web |url=https://www.python.org/dev/peps/pep-0342/ |title=PEP 342&nbsp;– Coroutines via Enhanced Generators |last1=van Rossum |first1=Guido |last2=Eby |first2=Phillip J. |date=10 May 2005 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=19 February 2012}}</ref>
+<ref name="AutoNT-58">{{cite web |url=https://www.python.org/dev/peps/pep-0380/ |title=PEP 380 |publisher=Python.org |date= |accessdate=3 December 2012}}</ref>
+<ref name="AutoNT-59">{{cite web |url=https://www.python.org/dev/peps/pep-0289/ |title=PEP 289&nbsp;– Generator Expressions |last=Hettinger |first=Raymond |date=30 January 2002 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=19 February 2012}}</ref>
+<ref name="AutoNT-60">{{cite web |url=https://www.python.org/dev/peps/pep-0308/ |title=PEP 308&nbsp;– Conditional Expressions |last1=van Rossum |first1=Guido |last2=Hettinger |first2=Raymond |date=7 February 2003 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=13 July 2011}}</ref>
+<ref name="AutoNT-61">{{cite web |url=https://docs.python.org/faq/design.html#why-must-self-be-used-explicitly-in-method-definitions-and-calls |title=Why must 'self' be used explicitly in method definitions and calls? |work=Design and History FAQ |publisher=Python Software Foundation |accessdate=19 February 2012}}</ref>
+<ref name="classy">{{cite web |title=The Python Language Reference, section 3.3. New-style and classic classes, for release 2.7.1 |accessdate=12 January 2011 |url=https://docs.python.org/reference/datamodel.html#new-style-and-classic-classes}}</ref>
+<ref name="pep0237">{{cite web |url=https://www.python.org/dev/peps/pep-0237/ |title=PEP 237&nbsp;– Unifying Long Integers and Integers |last1=Zadka |first1=Moshe |last2=van Rossum |first2=Guido |date=11 March 2001 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=24 September 2011}}</ref>
+<ref name="AutoNT-62">{{cite web |url=http://python-history.blogspot.com/2010/08/why-pythons-integer-division-floors.html |title=Why Python's Integer Division Floors |accessdate=25 August 2010}}</ref>
+<ref name="AutoNT-63">{{citation |url=https://docs.python.org/library/functions.html#round |accessdate=14 August 2011 |title=round |work=The Python standard library, release 2.7, §2: Built-in functions}}</ref>
+<ref name="AutoNT-64">{{citation |url=https://docs.python.org/py3k/library/functions.html#round |accessdate=14 August 2011 |title=round |work=The Python standard library, release 3.2, §2: Built-in functions}}</ref>
+<ref name="AutoNT-65">Python Essential Reference, [[David M. Beazley]]</ref>
+<ref name="AutoNT-66">{{cite web |url=https://www.python.org/dev/peps/pep-0007/ |title=PEP 7&nbsp;– Style Guide for C Code |last=van Rossum |first=Guido |date=5 June 2001 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=24 November 2008}}</ref>
+<ref name="AutoNT-67">{{cite web |url=https://docs.python.org/3/library/dis.html#python-bytecode-instructions |title=CPython byte code |publisher=Docs.python.org |accessdate=16 February 2016}}</ref>
+<ref name="AutoNT-68">{{cite web |url=http://www.troeger.eu/teaching/pythonvm08.pdf |title=Python 2.5 internals |format=PDF |accessdate=19 April 2011}}</ref>
+<ref name="AutoNT-69">{{cite web |url=http://www.oreilly.com/pub/a/oreilly/frank/rossum_1099.html |title=An Interview with Guido van Rossum |publisher=Oreilly.com |accessdate=24 November 2008}}</ref>
+<ref name="AutoNT-70">{{cite web |url=http://pypy.org/compat.html |title=PyPy compatibility |publisher=Pypy.org |date= |accessdate=3 December 2012}}</ref>
+<ref name="AutoNT-71">{{cite web |url=http://speed.pypy.org/ |title=speed comparison between CPython and Pypy |publisher=Speed.pypy.org |date= |accessdate=3 December 2012}}</ref>
+<ref name="AutoNT-73">{{cite web |url=http://doc.pypy.org/en/latest/stackless.html |title=Application-level Stackless features — PyPy 2.0.2 documentation |publisher=Doc.pypy.org |accessdate=17 July 2013}}</ref>
+<ref name="AutoNT-74">{{cite web |url=https://code.google.com/p/unladen-swallow/wiki/ProjectPlan |title=Plans for optimizing Python |work=Google Project Hosting |publisher=Google |date=15 December 2009 |accessdate=24 September 2011}}</ref>
+<ref name="AutoNT-86">{{cite web |first=Przemyslaw |last=Piotrowski |url=http://www.oracle.com/technetwork/articles/piotrowski-pythoncore-084049.html |title=Build a Rapid Web Development Environment for Python Server Pages and Oracle |work=Oracle Technology Network |publisher=Oracle |date=July 2006 |accessdate=12 March 2012}}</ref>
+<ref name="AutoNT-88">{{cite web |url=https://www.python.org/dev/peps/pep-0327/ |title=PEP 327&nbsp;– Decimal Data Type |last=Batista |first=Facundo |date=17 October 2003 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=24 November 2008}}</ref>
+<ref name="AutoNT-89">{{cite web |url=https://www.python.org/dev/peps/pep-0333/ |title=PEP 333&nbsp;– Python Web Server Gateway Interface v1.0 |last=Eby |first=Phillip J. |date=7 December 2003 |work=Python Enhancement Proposals |publisher=Python Software Foundation |accessdate=19 February 2012}}</ref>
+<ref name="AutoNT-90">{{cite web |url=http://boo.codehaus.org/Gotchas+for+Python+Users |title=Gotchas for Python Users |work=boo.codehaus.org |publisher=Codehaus Foundation |accessdate=24 November 2008 |deadurl=yes |archiveurl=https://web.archive.org/web/20081211062108/http://boo.codehaus.org/Gotchas+for+Python+Users |archivedate=11 December 2008 |df=dmy-all }}</ref>
+<ref name="AutoNT-91">{{cite web |url=http://cobra-language.com/docs/acknowledgements/ |title=Acknowledgements |last=Esterbrook |first=Charles |work=cobra-language.com |publisher=Cobra Language |accessdate=7 April 2010}}</ref>
+<ref name="AutoNT-92">{{cite web |url=http://cobra-language.com/docs/python/ |title=Comparison to Python |last=Esterbrook |first=Charles |work=cobra-language.com |publisher=Cobra Language |accessdate=7 April 2010}}</ref>
+<ref name="AutoNT-93">{{cite web |url=http://wiki.ecmascript.org/doku.php?id=proposals:iterators_and_generators |title=Proposals: iterators and generators [ES4 Wiki&#93; |publisher=wiki.ecmascript.org |accessdate=24 November 2008 }}{{dead link|date=March 2018 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+<ref name="AutoNT-94">{{ cite news |url=https://techcrunch.com/2009/11/10/google-go-language/ |title=Google’s Go: A New Programming Language That’s Python Meets C++ |last=Kincaid |first=Jason |date=10 November 2009 |publisher=TechCrunch |accessdate=29 January 2010}}</ref>
+<ref name="AutoNT-95">{{cite web |last=Strachan |first=James |date=29 August 2003 |title=Groovy&nbsp;– the birth of a new dynamic language for the Java platform |url=http://radio.weblogs.com/0112098/2003/08/29.html}}</ref>
+<ref name="AutoNT-96">{{cite web |url=http://people.csail.mit.edu/mikelin/ocaml+twt/ |title=The Whitespace Thing for OCaml |last=Lin |first=Mike |publisher=Massachusetts Institute of Technology |accessdate=12 April 2009}}</ref>
+<ref name="linuxdevcenter">{{cite web |url=http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html |title=An Interview with the Creator of Ruby |publisher=Linuxdevcenter.com |date= |accessdate=3 December 2012}}</ref>
+<ref name="AutoNT-99">{{cite web |url=http://www.tcl.tk/cgi-bin/tct/tip/3.html |title=TIP #3: TIP Format |last1=Kupries |first1=Andreas |last2=Fellows |first2=Donal K. |work=tcl.tk |publisher=Tcl Developer Xchange |date=14 September 2000 |accessdate=24 November 2008}}</ref>
+<ref name="AutoNT-100">{{cite web |url=http://www.erlang.org/eeps/eep-0001.html |title=EEP 1: EEP Purpose and Guidelines |last1=Gustafsson |first1=Per |last2=Niskanen |first2=Raimo |publisher=erlang.org |date=29 January 2007 |accessdate=19 April 2011}}</ref>
+<ref name="AutoNT-101">{{cite web |url=http://www.tiobe.com/index.php/content/paperinfo/tpci/ |title=TIOBE Programming Community Index for March 2012 |date=March 2012 |publisher=TIOBE Software |accessdate=25 March 2012}}</ref>
+}}
+
+== Further reading ==
+<!-- THIS IS *NOT* A LIST OF ALL PYTHON BOOKS
+According to [[Wikipedia:Further reading]], criteria for inclusion includes:
+1. Should clearly qualify as WP:RS, as indicated by reviews and citations to it.
+...
+5. There should be guidelines on limiting the number of sources.
+6. To avoid spam, any book included should have received more than one good review in RS: newspapers and scholarly journals being the norm, and the clear balance of RS reviews should be positive. This would avoid self-publish spamming, POV pushing, and attempts by publishers to get books promoted through inclusion on Wikipedia. At the moment "editorial recommendations" as described in the manual smacks of OR.
+7. Neutrality on the part of editors is essential. In terms of major debates, items representing all major positions should be included, with annotations indicating the specific POV of each. We may have to work out rules where topic disputes are irreconcilable.
+-->
+
+* {{cite book |last=Downey |first=Allen B. |title=Think Python: How to Think Like a Computer Scientist |edition=Version 1.6.6 |date=May 2012 |isbn=978-0-521-72596-5 |url=http://www.greenteapress.com/thinkpython/html/}}
+* {{cite news |url=http://www.computerworld.com.au/index.php/id;66665771 |title=The A-Z of Programming Languages: Python |last=Hamilton |first=Naomi |date=5 August 2008 |work=Computerworld |accessdate=31 March 2010 |deadurl=yes |archiveurl=https://web.archive.org/web/20081229095320/http://www.computerworld.com.au/index.php/id%3B66665771 |archivedate=29 December 2008 |df=dmy-all }}
+* {{cite book |last=Lutz |first=Mark |title=Learning Python |publisher=O'Reilly Media |year=2013 |edition=5th |isbn=978-0-596-15806-4 |url=http://shop.oreilly.com/product/0636920028154.do}}
+* {{cite book |last=Pilgrim |first=Mark |title=Dive Into Python |publisher=Apress |year=2004 |isbn=978-1-59059-356-1 |url=http://diveintopython.net}}
+* {{cite book |last=Pilgrim |first=Mark |title=Dive Into Python 3 |publisher=Apress |year=2009 |isbn=978-1-4302-2415-0 |url=http://diveintopython3.net }}{{dead link|date=March 2018 |bot=InternetArchiveBot |fix-attempted=yes }}
+* {{cite book |last=Summerfield |first=Mark |title=Programming in Python 3 |publisher=Addison-Wesley Professional|year=2009|edition=2nd|isbn=978-0-321-68056-3 |url=http://www.qtrac.eu/py3book.html}}
+
+== External links ==
+<!-- ===================== {{No more links}} =========================
+| PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. Wikipedia  |
+| is not a collection of links nor should it be used for advertising. |
+|                                                                     |
+| Excessive or inappropriate links WILL BE DELETED.                   |
+| See [[Wikipedia:External links]] & [[Wikipedia:Spam]] for details.  |
+|                                                                     |
+| If there are already plentiful links, please propose additions or   |
+| replacements on this article's discussion page, or submit your link |
+| to the relevant category at the Open Directory Project (dmoz.org)   |
+| and link back to that category using the {{Dmoz}} template.         |
+========================== {{No more links}} ====================== -->
+
+{{Sister project links |wikt=no |commons=Category:Python (programming language) |b=Python Programming |n=no |q=Python |s=no |v=Python |voy=no |species=no |d=no }}
+* {{Official website}}
+* {{Dmoz|Computers/Programming/Languages/Python|Python}}
+
+{{Programming languages}}
+{{Python (programming language)}}
+{{Python web frameworks}}
+{{FOSS}}
+
+{{Authority control}}
+{{Good article}}
+{{Use dmy dates |date=August 2015}}
+
+[[Category:Programming languages]]
+[[Category:Class-based programming languages]]
+[[Category:Computational notebook]]
+[[Category:Computer science in the Netherlands]]
+[[Category:Cross-platform free software]]
+[[Category:Dutch inventions]]
+[[Category:Dynamically typed programming languages]]
+[[Category:Educational programming languages]]
+[[Category:High-level programming languages]]
+[[Category:Information technology in the Netherlands]]
+[[Category:Object-oriented programming languages]]
+[[Category:Programming languages created in 1991]]
+[[Category:Python (programming language)| ]]
+[[Category:Scripting languages]]
+[[Category:Text-oriented programming languages]]
+[[Category:Cross-platform software]]
+Pages transcluded onto the current version of this page (help) :
+
+Template:As of (view source) (template protected)Template:Authority control (view source) (template protected)Template:Category handler (view source) (template protected)Template:Citation (view source) (protected)Template:Citation needed (view source) (protected)Template:Cite book (view source) (protected)Template:Cite conference (view source) (protected)Template:Cite journal (view source) (protected)Template:Cite mailing list (view source) (protected)Template:Cite news (view source) (protected)Template:Cite web (view source) (protected)Template:Cn (view source) (template protected)Template:Column-width (view source) (template protected)Template:Comma separated entries (view source) (template protected)Template:Curlie (view source) (template protected)Template:DMCA (view source) (template protected)Template:Dated maintenance category (view source) (template protected)Template:Dead link (view source) (template protected)Template:Delink (view source) (template protected)Template:Dmoz (view source) (template protected)Template:FOSS (view source) (semi-protected)Template:FULLROOTPAGENAME (view source) (template protected)Template:Fix (view source) (protected)Template:Fix/category (view source) (template protected)Template:Good article (view source) (template protected)Template:Icon (view source) (template protected)Template:If empty (view source) (protected)Template:Infobox (view source) (template protected)Template:Infobox programming language (view source) (semi-protected)Template:Infobox software/simple (view source) (template protected)Template:MONTHNAME (view source) (template protected)Template:MONTHNUMBER (view source) (protected)Template:Main (view source) (template protected)Template:Main article (view source) (template protected)Template:Main other (view source) (protected)Template:Navbox (view source) (template protected)Template:Not a typo (view source) (template protected)Template:Notatypo (edit) Template:Nowrap (view source) (protected)Template:Ns has subpages (view source) (template protected)Template:Official website (view source) (template protected)Template:Page needed (view source) (template protected)Template:Portal (view source) (template protected)Template:Programming languages (edit) Template:Python (programming language) (edit) Template:Python web frameworks (edit) Template:Quote (view source) (template protected)Template:Reflist (view source) (protected)Template:See also (view source) (template protected)Template:Sic (view source) (template protected)Template:Sister project links (view source) (template protected)Template:Sister-inline (view source) (template protected)Template:Start date and age (view source) (template protected)Template:Time ago (view source) (template protected)Template:Top icon (view source) (template protected)Template:Trim (view source) (protected)Template:URL (view source) (template protected)Template:Use dmy dates (view source) (template protected)Template:Wikibooks-inline (view source) (template protected)Template:Yesno (view source) (protected)Template:Yesno-no (view source) (template protected)Module:Arguments (view source) (protected)Module:Authority control (view source) (template protected)Module:Category handler (view source) (template protected)Module:Category handler/blacklist (view source) (template protected)Module:Category handler/config (view source) (template protected)Module:Category handler/data (view source) (template protected)Module:Category handler/shared (view source) (template protected)Module:Check for unknown parameters (view source) (template protected)Module:Citation/CS1 (view source) (protected)Module:Citation/CS1/COinS (view source) (protected)Module:Citation/CS1/Configuration (view source) (protected)Module:Citation/CS1/Date validation (view source) (template protected)Module:Citation/CS1/Identifiers (view source) (protected)Module:Citation/CS1/Utilities (view source) (protected)Module:Citation/CS1/Whitelist (view source) (protected)Module:Delink (view source) (template protected)Module:Hatnote (view source) (template protected)Module:Hatnote list (view source) (template protected)Module:Icon (view source) (template protected)Module:Icon/data (view source) (template protected)Module:If empty (view source) (template protected)Module:Infobox (view source) (template protected)Module:InfoboxImage (view source) (template protected)Module:Labelled list hatnote (view source) (template protected)Module:Main (view source) (template protected)Module:Namespace detect/config (view source) (protected)Module:Namespace detect/data (view source) (protected)Module:Navbar (view source) (protected)Module:Navbox (view source) (template protected)Module:No globals (view source) (template protected)Module:Ns has subpages (view source) (template protected)Module:NumberSpell (view source) (template protected)Module:Official website (view source) (template protected)Module:Portal (view source) (template protected)Module:Portal/images/aliases (view source) (template protected)Module:Portal/images/f (view source) (template protected)Module:Portal/images/p (view source) (template protected)Module:Separated entries (view source) (template protected)Module:TableTools (view source) (template protected)Module:TimeAgo (view source) (template protected)Module:URL (view source) (template protected)Module:Unsubst (view source) (template protected)Module:Yesno (view source) (protected)Return to Python (programming language).
+					
+						Retrieved from "https://en.wikipedia.org/wiki/Python_(programming_language)"					
+								
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPage informationWikidata item				
+							
+		
+			
+			Languages
+			
+								
+									
+							
+		
+				
+		
+				
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":241,"wgHostname":"mw1244"});});
+	
+

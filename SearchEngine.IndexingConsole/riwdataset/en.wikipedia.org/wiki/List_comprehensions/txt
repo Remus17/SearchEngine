@@ -1,0 +1,812 @@
+
+
+
+
+List comprehension - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"List_comprehension","wgTitle":"List comprehension","wgCurRevisionId":816851839,"wgRevisionId":816851839,"wgArticleId":275744,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with example code","Articles with example Haskell code","Articles with example Python code","Programming constructs","Articles with example Racket code"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"List_comprehension","wgRelevantArticleId":275744,"wgRequestId":"WsAV9QpAIDEAADHWwoMAAABV","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"List_comprehensions","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/List_comprehension","wgWikibaseItemId":"Q795065","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","ext.pygments":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.math.scripts","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+List comprehension			
+				From Wikipedia, the free encyclopedia				  (Redirected from List comprehensions)
+								
+					Jump to:					navigation, 					search
+				
+				A list comprehension is a syntactic construct available in some programming languages for creating a list based on existing lists. It follows the form of the mathematical set-builder notation (set comprehension) as distinct from the use of map and filter functions.
+
+
+
+Contents
+
+
+1 Overview
+2 History
+3 Examples in different programming languages
+4 Similar constructs
+
+4.1 Monad comprehension
+4.2 Set comprehension
+4.3 Dictionary comprehension
+4.4 Parallel list comprehension
+4.5 XQuery and XPath
+4.6 LINQ in C#
+4.7 C++
+
+
+5 See also
+6 Notes and references
+
+6.1 Haskell
+6.2 OCaml
+6.3 Python
+6.4 Common Lisp
+6.5 Clojure
+6.6 Axiom
+
+
+7 External links
+
+
+
+Overview[edit]
+Consider the following example in set-builder notation.
+
+
+  
+    
+      
+        S
+        =
+        {
+        
+        2
+        ⋅
+        x
+        ∣
+        x
+        ∈
+        
+          N
+        
+        ,
+         
+        
+          x
+          
+            2
+          
+        
+        >
+        3
+        
+        }
+      
+    
+    {\displaystyle S=\{\,2\cdot x\mid x\in \mathbb {N} ,\ x^{2}>3\,\}}
+  
+
+
+This can be read, "
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is the set of all numbers "2 times 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+" where 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ is an item in the set of natural numbers (
+  
+    
+      
+        
+          N
+        
+      
+    
+    {\displaystyle \mathbb {N} }
+  
+), for which 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ squared is greater than 
+  
+    
+      
+        3
+      
+    
+    {\displaystyle 3}
+  
+."
+The smallest natural number, x = 1, fails to satisfy the condition x2>3 (the condition 12>3 is false) so 2 ·1 is not included in S. The next natural number, 2, does satisfy the condition (22>3) as does every other natural number. Thus S consists of 2 ·2, 2 ·3, 2 ·4... so S = 4, 6, 8, 10,... i.e., all even numbers greater than 2.
+In this annotated version of the example:
+
+
+  
+    
+      
+        S
+        =
+        {
+        
+        
+          
+            
+              
+                2
+                ⋅
+                x
+              
+              ⏟
+            
+          
+          
+            
+              
+                output expression
+              
+            
+          
+        
+        ∣
+        
+          
+            
+              x
+              ⏟
+            
+          
+          
+            
+              
+                variable
+              
+            
+          
+        
+        ∈
+        
+          
+            
+              
+                N
+              
+              ⏟
+            
+          
+          
+            
+              
+                input set
+              
+            
+          
+        
+        ,
+         
+        
+          
+            
+              
+                
+                  x
+                  
+                    2
+                  
+                
+                >
+                3
+              
+              ⏟
+            
+          
+          
+            
+              
+                predicate
+              
+            
+          
+        
+        
+        }
+      
+    
+    {\displaystyle S=\{\,\underbrace {2\cdot x} _{\color {Violet}{\text{output expression}}}\mid \underbrace {x} _{\color {Violet}{\text{variable}}}\in \underbrace {\mathbb {N} } _{\color {Violet}{\text{input set}}},\ \underbrace {x^{2}>3} _{\color {Violet}{\text{predicate}}}\,\}}
+  
+
+
+
+
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+  
+ is the variable representing members of an input set.
+
+  
+    
+      
+        
+          N
+        
+      
+    
+    {\displaystyle \mathbb {N} }
+  
+ represents the input set, which in this example is the set of natural numbers
+
+  
+    
+      
+        
+          x
+          
+            2
+          
+        
+        >
+        3
+      
+    
+    {\displaystyle x^{2}>3}
+  
+ is a predicate expression acting as a filter on members of the input set.
+
+  
+    
+      
+        2
+        ⋅
+        x
+      
+    
+    {\displaystyle 2\cdot x}
+  
+ is an output expression producing members of the new set from members of the input set that satisfy the predicate expression.
+
+  
+    
+      
+        {
+        }
+      
+    
+    {\displaystyle \{\}}
+  
+ braces indicate that the result is a set
+
+  
+    
+      
+        ∣
+      
+    
+    {\displaystyle \mid }
+  
+ 
+  
+    
+      
+        ,
+      
+    
+    {\displaystyle ,}
+  
+ the vertical bar and the comma are separators.
+
+A list comprehension has the same syntactic components to represent generation of a list in order from an input list or iterator:
+
+A variable representing members of an input list.
+An input list (or iterator).
+An optional predicate expression.
+And an output expression producing members of the output list from members of the input iterable that satisfy the predicate.
+
+The order of generation of members of the output list is based on the order of items in the input.
+In Haskell's list comprehension syntax, this set-builder construct would be written similarly, as:
+
+
+s = [ 2*x | x <- [0..], x^2 > 3 ]
+
+Here, the list [0..] represents 
+  
+    
+      
+        
+          N
+        
+      
+    
+    {\displaystyle \mathbb {N} }
+  
+, x^2>3 represents the predicate, and 2*x represents the output expression.
+List comprehensions give results in a defined order (unlike the members of sets); and list comprehensions may generate the members of a list in order, rather than produce the entirety of the list thus allowing, for example, the previous Haskell definition of the members of an infinite list.
+History[edit]
+The SETL programming language (1969) has a set formation construct which is similar to list comprehensions. This code prints all prime numbers from 2 to N:
+
+   print([n in [2..N] | forall m in {2..n - 1} | n mod m > 0]);
+
+The computer algebra system AXIOM (1973) has a similar construct that processes streams, but the first use of the term "comprehension" for such constructs was in Rod Burstall and John Darlington's description of their functional programming language NPL from 1977.
+Smalltalk block context messages which constitute list comprehensions have been in that language since at least Smalltalk-80.
+Burstall and Darlington's work with NPL influenced many functional programming languages during the 1980s, but not all included list comprehensions. An exception was the influential pure lazy functional programming language Miranda, which was released in 1985. The subsequently developed standard pure lazy functional language Haskell includes many of Miranda's features, including list comprehensions.
+Comprehensions were proposed as a query notation for databases[1] and were implemented in the Kleisli database query language.[2]
+Examples in different programming languages[edit]
+Main article: Comparison of programming languages (list comprehension)
+Similar constructs[edit]
+Monad comprehension[edit]
+In Haskell, a monad comprehension is a generalization of the list comprehension to other monads in functional programming.
+Set comprehension[edit]
+Version 3.x and 2.7 of the Python language introduces syntax for set comprehensions. Similar in form to list comprehensions, set comprehensions generate Python sets instead of lists.
+
+
+>>> s = {v for v in 'ABCDABCD' if v not in 'CB'}
+>>> print(s)
+{'A', 'D'}
+>>> type(s)
+<class 'set'>
+>>>
+
+Racket set comprehensions generate Racket sets instead of lists.
+
+
+(for/set ([v "ABCDABCD"] #:unless (member v (string->list "CB")))
+         v))
+
+Dictionary comprehension[edit]
+Version 3.x and 2.7 of the Python language introduced a new syntax for dictionary comprehensions, similar in form to list comprehensions but which generate Python dicts instead of lists.
+
+
+>>> s = {key: val for key, val in enumerate('ABCD') if val not in 'CB'}
+>>> s
+{0: 'A', 3: 'D'}
+>>>
+
+Racket hash table comprehensions generate Racket hash tables (one implementation of the Racket dictionary type).
+
+
+(for/hash ([(val key) (in-indexed "ABCD")]
+           #:unless (member val (string->list "CB")))
+  (values key val))
+
+Parallel list comprehension[edit]
+The Glasgow Haskell Compiler has an extension called parallel list comprehension (also known as zip-comprehension) that permits multiple independent branches of qualifiers within the list comprehension syntax. Whereas qualifiers separated by commas are dependent ("nested"), qualifier branches separated by pipes are evaluated in parallel (this does not refer to any form of multithreadedness: it merely means that the branches are zipped).
+
+
+-- regular list comprehension
+a = [(x,y) | x <- [1..5], y <- [3..5]]
+-- [(1,3),(1,4),(1,5),(2,3),(2,4) ...
+
+-- zipped list comprehension
+b = [(x,y) | (x,y) <- zip [1..5] [3..5]]
+-- [(1,3),(2,4),(3,5)]
+
+-- parallel list comprehension
+c = [(x,y) | x <- [1..5] | y <- [3..5]]
+-- [(1,3),(2,4),(3,5)]
+
+Racket's comprehensions standard library contains parallel and nested versions of its comprehensions, distinguished by "for" vs "for*" in the name. For example, the vector comprehensions "for/vector" and "for*/vector" create vectors by parallel versus nested iteration over sequences. The following is Racket code for the Haskell list comprehension examples.
+
+
+> (for*/list ([x (in-range 1 6)] [y (in-range 3 6)]) (list x y))
+'((1 3) (1 4) (1 5) (2 3) (2 4) (2 5) (3 3) (3 4) (3 5) (4 3) (4 4) (4 5) (5 3) (5 4) (5 5))
+> (for/list ([x (in-range 1 6)] [y (in-range 3 6)]) (list x y))
+'((1 3) (2 4) (3 5))
+
+In Python we could do as follows:
+
+
+# regular list comprehension
+>>> a = [(x, y) for x in range(1, 6) for y in range(3, 6)]
+[(1, 3), (1, 4), (1, 5), (2, 3), (2, 4), ...
+
+# parallel/zipped list comprehension
+>>> b = [x for x in zip(range(1, 6), range(3, 6))]
+[(1, 3), (2, 4), (3, 5)]
+
+XQuery and XPath[edit]
+Like the original NPL use, these are fundamentally database access languages.
+This makes the comprehension concept more important, because it is computationally infeasible to retrieve the entire list and operate on it (the initial 'entire list' may be an entire XML database).
+In XPath, the expression:
+
+
+ /library/book//paragraph[@style='first-in-chapter']
+
+is conceptually evaluated as a series of "steps" where each step produces a list and the next step applies a filter function to each element in the previous step's output.[3]
+In XQuery, full XPath is available, but FLWOR statements are also used, which is a more powerful comprehension construct.[4]
+
+
+ for $b in //book
+ where $b[@pages < 400]
+ order by $b//title
+ return
+   <shortBook>
+     <title>{$b//title}</title>
+     <firstPara>{($book//paragraph)[1]}</firstPara>
+   </shortBook>
+
+Here the XPath //book is evaluated to create a sequence (aka list); the where clause is a functional "filter", the order by sorts the result, and the <shortBook>...</shortBook> XML snippet is actually an anonymous function that builds/transforms XML for each element in the sequence using the 'map' approach found in other functional languages.
+So, in another functional language the above FLWOR statement may be implemented like this:
+
+
+ map(
+   newXML(shortBook, newXML(title, $1.title), newXML(firstPara, $1...))
+   filter(
+     lt($1.pages, 400),
+     xpath(//book)
+   )
+ )
+
+LINQ in C#[edit]
+C# 3.0 has a group of related features called LINQ, which defines a set of query operators for manipulating object enumerations.
+
+
+var s = Enumerable.Range(0, 100).Where(x => x*x > 3).Select(x => x*2);
+
+It also offers an alternative comprehension syntax, reminiscent of SQL:
+
+
+var s = from x in Enumerable.Range(0, 100) where x*x > 3 select x*2;
+
+LINQ provides a capability over typical List Comprehension implementations. When the root object of the comprehension implements the IQueryable interface, rather than just executing the chained methods of the comprehension, the entire sequence of commands are converted into an Abstract Syntax Tree (AST) object, which is passed to the IQueryable object to interpret and execute.
+This allows, amongst other things, for the IQueryable to
+
+rewrite an incompatible or inefficient comprehension
+translate the AST into another query language (e.g. SQL) for execution
+
+C++[edit]
+C++ does not have any language features directly supporting list comprehensions but operator overloading (e.g., overloading |, >>, >>=) has been used successfully to provide expressive syntax for "embedded" query DSLs. Alternatively, list comprehensions can be constructed using the erase-remove idiom to select elements in a container and the STL algorithm for_each to transform them.
+
+
+#include <algorithm>
+#include <list>
+#include <numeric>
+
+using namespace std;
+
+template<class C, class P, class T>
+C comprehend(C&& source, const P& predicate, const T& transformation)
+{
+  // initialize destination
+  C d = forward<C>(source);
+
+  // filter elements
+  d.erase(remove_if(begin(d), end(d), predicate), end(d));
+
+  // apply transformation
+  for_each(begin(d), end(d), transformation);
+
+  return d;
+}
+
+int main()
+{
+  list<int> range(10);  
+      // range is a list of 10 elements, all zero
+  iota(begin(range), end(range), 1);
+      // range now contains 1,2,...,10
+
+  list<int> result = comprehend(
+      range,
+      [](int x){return x*x <= 3;},
+      [](int &x){x *= 2;});
+      // result now contains 4,6,...,20
+}
+
+There is some effort in providing C++ with list-comprehension constructs/syntax similar to the set builder notation.
+
+In Boost.Range [1] library there is a notion of adaptors [2] that can be applied to any range and do filtering, transformation etc. With this library, the original Haskell example would look like (using Boost.Lambda [3] for anonymous filtering and transforming functions) (Full example):
+
+
+counting_range(1,10) | filtered( _1*_1 > 3 ) | transformed(ret<int>( _1*2 ))
+
+
+This[5] implementation uses a macro and overloads the << operator. It evaluates any expression valid inside an 'if', and any variable name may be chosen. It's not threadsafe, however. Usage example:
+
+
+list<int> N;
+list<double> S;
+
+for (int i = 0; i < 10; i++)
+     N.push_back(i);
+
+S << list_comprehension(3.1415 * x, x, N, x*x > 3)
+
+
+This[6] implementation provides head/tail slicing using classes and operator overloading, and the | operator for filtering lists (using functions). Usage example:
+
+
+bool even(int x) { return x % 2 == 0; }
+bool x2(int &x) { x *= 2; return true; }
+
+list<int> l, t;
+int x, y;
+
+for (int i = 0; i < 10; i++)
+     l.push_back(i);
+
+(x, t) = l | x2;
+(t, y) = t;
+
+t = l < 9;
+t = t < 7 | even | x2;
+
+
+Language for Embedded Query and Traversal (LEESA[7]) is an embedded DSL in C++ that implements X-Path-like queries using operator overloading. The queries are executed on richly typed xml trees obtained using xml-to-c++ binding from an XSD. There is absolutely no string encoding. Even the names of the xml tags are classes and therefore, there is no way for typos. If a LEESA expression forms an incorrect path that does not exist in the data model, the C++ compiler will reject the code.
+Consider a catalog xml.
+
+
+<catalog>
+  <book>
+    <title>Hamlet</title>
+    <price>9.99</price>
+    <author>
+      <name>William Shakespeare</name>
+      <country>England</country>
+    </author>
+  </book>
+  <book>...</book>
+...
+</catalog>
+
+
+
+LEESA provides >> for X-Path's / separator. Interestingly, X-Path's // separator that "skips" intermediate nodes in the tree is implemented in LEESA using what's known as Strategic Programming. In the example below, catalog_, book_, author_, and name_ are instances of catalog, book, author, and name classes, respectively.
+
+
+// Equivalent X-Path: "catalog/book/author/name"
+std::vector<name> author_names = 
+evaluate(root, catalog_ >> book_ >> author_ >> name_);
+
+// Equivalent X-Path: "catalog//name"
+std::vector<name> author_names = 
+evaluate(root, catalog_ >> DescendantsOf(catalog_, name_));
+
+// Equivalent X-Path: "catalog//author[country=="England"]"
+std::vector<name> author_names = 
+evaluate(root, catalog_  >> DescendantsOf(catalog_, author_)
+                         >> Select(author_, [](const author & a) { return a.country()=="England"; })
+                         >> name_);
+
+See also[edit]
+
+The SELECT statement together with its FROM and WHERE clauses in SQL
+
+Notes and references[edit]
+
+
+
+^ Comprehensions, a query notation for DBPLs
+^ The functional guts of the Kleisli query system
+^ "2.1 Location Steps". XML Path Language (XPath). W3C. 16 November 1999. 
+^ "XQuery FLWOR Expressions". W3Schools. Archived from the original on 2011-10-08. 
+^ "Single-variable List Comprehension in C++ using Preprocessor Macros". 
+^ "C++ list comprehensions". 
+^ "Language for Embedded Query and Traversal (LEESA)". 
+
+
+
+
+List Comprehension in The Free On-line Dictionary of Computing, Editor Denis Howe.
+Trinder, Phil (1992). "Comprehensions, a query notation for DBPLs". Proceedings of the third international workshop on Database programming languages: bulk types & persistent data, Nafplion, Greece. pp. 55–68. 
+Wadler, Philip (1990). "Comprehending Monads". Proceedings of the 1990 ACM Conference on LISP and Functional Programming, Nice. 
+Wong, Limsoon (2000). "The Functional Guts of the Kleisli Query System". Proceedings of the fifth ACM SIGPLAN international conference on Functional programming. International Conference on Functional Programming. pp. 1–10. 
+
+Haskell[edit]
+
+The Haskell 98 Report, chapter 3.11 List Comprehensions.
+The Glorious Glasgow Haskell Compilation System User's Guide, chapter 7.3.4 Parallel List Comprehensions.
+The Hugs 98 User's Guide, chapter 5.1.2 Parallel list comprehensions (a.k.a. zip-comprehensions).
+
+OCaml[edit]
+
+OCaml Batteries Included
+Language extensions introduced in OCaml Batteries Included
+
+Python[edit]
+
+The Python Tutorial, List Comprehensions.
+Python Language Reference, List displays.
+Python Enhancement Proposal PEP 202: List Comprehensions.
+Python Language Reference, Generator expressions.
+Python Enhancement Proposal PEP 289: Generator Expressions.
+
+Common Lisp[edit]
+
+Implementation of a Lisp comprehension macro by Guy Lapalme
+
+Clojure[edit]
+
+Clojure API documentation - for macro
+
+Axiom[edit]
+
+Axiom stream examples
+
+External links[edit]
+
+SQL-like set operations with list comprehension one-liners in the Python Cookbook
+Discussion on list comprehensions in Scheme and related constructs
+List Comprehensions across languages
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=List_comprehension&oldid=816851839"					
+				Categories: Programming constructsArticles with example Racket codeHidden categories: Articles with example codeArticles with example Haskell codeArticles with example Python code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					CatalàFrançais한국어ItalianoNederlandsPortuguêsРусскийУкраїнська				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 24 December 2017, at 04:20.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.148","walltime":"0.390","ppvisitednodes":{"value":646,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":11073,"limit":2097152},"templateargumentsize":{"value":118,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":35401,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  313.198      1 -total"," 26.95%   84.401      1 Template:Reflist"," 21.57%   67.570      5 Template:Cite_web","  9.07%   28.399      1 Template:Main_article","  4.55%   14.245      3 Template:Cite_conference","  0.98%    3.061      1 Template:Tag","  0.62%    1.941      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.057","limit":"10.000"},"limitreport-memusage":{"value":2478583,"limit":52428800}},"cachereport":{"origin":"mw1270","timestamp":"20180331102433","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":76,"wgHostname":"mw1328"});});
+	
+

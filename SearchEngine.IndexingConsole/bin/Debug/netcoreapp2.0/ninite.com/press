@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ninite - Install or Update Multiple Apps at Once</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="https://d8f7mp21btv4f.cloudfront.net/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="https://d8f7mp21btv4f.cloudfront.net/css/crystal-2f9dde9064cc1885f150d6ae84e9c1d7.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<link href="https://d8f7mp21btv4f.cloudfront.net/crystal/js/respond-proxy-1ac71ee4ee5fb602995fbd6fca5468b4.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/robots.txt" id="respond-redirect" rel="respond-redirect" />
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/oldie-78ee42ef96d2d8f3e4cd3a939f7231d8.js"></script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-10831845-1']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'https://ssl.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="ninite-brand" href="/">
+<img src="https://d8f7mp21btv4f.cloudfront.net/crystal/img/brand-95c4357c0068bf934474cf8b7721890a.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="/help/">Help</a></li>
+<li><a href="/feedback">Feedback</a></li>
+
+<li><a href="/pro">Ninite Pro</a></li>
+<li><a href="/signin">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<h2>Trusted by Millions</h2>
+<p>People around the world use Ninite to install about a million apps every day.</p>
+<p>Here are some of the reviews we're most proud of:</p>
+</div>
+</div>
+<div class="row press-row">
+
+
+<div class="col-md-3">
+<p>
+“<em>I&#39;ll bet the service saved me a couple hours</em>”
+<br>
+<a target="_blank" href="http://www.pcworld.com/article/174669/migrate_to_windows_7slowly_part_4_installing_your_apps.html">PCWorld</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>Ninite.com frees up your day</em>”
+<br>
+<a target="_blank" href="http://www.csmonitor.com/Innovation/Tech-Culture/2010/0107/Got-a-new-computer-Install-these-nine-programs-right-away">The Christian Science Monitor</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>This post can be fairly short because Ninite works exactly as advertised.</em>”
+<br>
+<a target="_blank" href="http://lifehacker.com/5388408/ninite-bulk+installs-great-free-windows-apps">Lifehacker</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>Save time. Grab the must have Ninite!</em>”
+<br>
+<a target="_blank" href="http://www.tomshardware.com/news/ninite-windows-7-win7,8929.html">Tom&#39;s Hardware</a>
+</p>
+</div>
+
+
+</div><div class="row press-row">
+
+<div class="col-md-3">
+<p>
+“<em>as useful as it is simple</em>”
+<br>
+<a target="_blank" href="http://www.techcrunch.com/2009/10/23/upgrading-to-windows-7-easily-install-multiple-software-programs-with-ninite/">TechCrunch</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>I can&#39;t think how it could get any easier</em>”
+<br>
+<a target="_blank" href="http://chris.pirillo.com/how-to-install-your-favorite-windows-software/">Chris Pirillo</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>it works beautifully.</em>”
+<br>
+<a target="_blank" href="http://dvice.com/archives/2009/10/ninite-installs.php">DVICE</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>installs the apps on your PC without introducing additional crapware</em>”
+<br>
+<a target="_blank" href="http://www.pcworld.com/article/181135/10_essential_windows_7_downloads.html">PCWorld</a>
+</p>
+</div>
+
+
+</div><div class="row press-row">
+
+<div class="col-md-3">
+<p>
+“<em>something I&#39;d feel safe sending to a tech-challenged friend</em>”
+<br>
+<a target="_blank" href="http://news.cnet.com/8301-27076_3-10382507-248.html">CNET News</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>one of the easiest ways to get many of your favorite apps</em>”
+<br>
+<a target="_blank" href="http://gizmodo.com/5388680/ninite-helps-you-upgrade-to-windows-7-by-installing-up-to-58-great-apps-at-once">Gizmodo</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>a hassle-free way to install great, free software</em>”
+<br>
+<a target="_blank" href="http://www.downloadsquad.com/2009/10/23/ninite-install-multiple-popular-free-apps-on-windows/">Download Squad</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>awesome free service</em>”
+<br>
+<a target="_blank" href="http://www.uncrate.com/men/culture/services/ninite/">Uncrate</a>
+</p>
+</div>
+
+
+</div><div class="row press-row">
+
+<div class="col-md-3">
+<p>
+“<em>Repair Tool of the Week</em>”
+<br>
+<a target="_blank" href="http://www.technibble.com/ninite-com-repair-tool-of-the-week/">Technibble</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>so easy that even Grandma can pull it off.</em>”
+<br>
+<a target="_blank" href="http://www.howtogeek.com/howto/4774/getvolery-makes-installing-software-incredibly-simple/">How-To Geek</a>
+</p>
+</div>
+
+
+<div class="col-md-3">
+<p>
+“<em>It&#39;s an awesome service</em>”
+<br>
+<a target="_blank" href="http://www.bit-tech.net/blog/2009/12/24/handy-software-ninite-and-wintoflash/">bit-tech</a>
+</p>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="/jobs">jobs</a></li>
+<li><a class="footer-link" href="/about">about</a></li>
+<li><a class="footer-link" href="/press">press</a></li>
+<li><a class="footer-link" href="/news">updates</a></li>
+<li><a class="footer-link" href="/security">security</a></li>
+<li><a class="footer-link" href="/privacy">privacy</a></li>
+<li><a class="footer-link" href="/terms">terms</a></li>
+</ul>
+<p class="small">
+&copy;2018 Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/bundle-3737f22be190c9564031d54327c43962.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+
+
+
+
+View source for Python (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_(programming_language)","wgTitle":"Python (programming language)","wgCurRevisionId":833660930,"wgRevisionId":0,"wgArticleId":23862,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_(programming_language)","wgRelevantArticleId":23862,"wgRequestId":"WsJJvwpAMEkAAGGrK3QAAABE","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.charinsert.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.charinsert","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+View source for Python (programming language)			
+								← Python (programming language)
+								
+					Jump to:					navigation, 					search
+				
+				You do not have permission to edit this page, for the following reasons:
+
+
+Your IP address is in a range which has been blocked on all wikis.
+
+The block was made by Vituzzu (meta.wikimedia.org).
+The reason given is hosting service with open proxies such as 67.207.94.79 .
+
+Start of block: 13:14, 23 October 2017
+Expiration of block: 13:14, 23 October 2022
+
+You can contact Vituzzu to discuss the block.
+You cannot use the "Email this user" feature unless a valid email address is specified in your account preferences and you have not been blocked from using it.
+Your current IP address is 67.207.88.228, and the blocked range is 67.207.64.0/19.
+Please include all above details in any queries you make.
+
+
+You are currently unable to edit Wikipedia.
+You are still able to view pages, but you are not currently able to edit, move, or create them.
+
+
+
+
+Editing from 67.207.64.0/19 has been blocked (disabled) by KrakatoaKatie for the following reason(s):
+
+
+
+
+The IP address that you are currently using has been blocked  because it is believed to be a web host provider. To prevent abuse, web hosts may be blocked from editing Wikipedia.
+
+
+You will not be able to edit Wikipedia using a web host provider.
+Since the web host acts like a proxy, because it hides your IP address, it has been blocked. To prevent abuse, these IPs may be blocked from editing Wikipedia. If you do not have any other way to edit Wikipedia, you will need to request an IP block exemption.
+If you do not believe you are using a web host, you may appeal this block by adding the following text on your talk page: {{unblock|reason=Caught by a web host block but this host or IP is not a web host. Place any further information here. ~~~~}}. If you are using a Wikipedia account you will need to request an IP block exemption by either using the unblock template or by submitting an appealing using the unblock ticket request system. If you wish to keep your IP address private you can email the functionaries team.
+Administrators: The IP block exemption user right should only be applied to allow users to edit using web host in exceptional circumstances, and they should usually be directed to the functionaries team via email. If you intend to give the IPBE user right, a CheckUser needs to take a look at the account. This can be requested most easily at SPI Quick Checkuser Requests. Unblocking an IP or IP range with this template is highly discouraged without at least contacting the blocking administrator.
+
+: 
+This block has been set to expire: 12:56, 12 August 2020.
+Even if blocked, you will usually still be able to edit your user talk page and email other editors and administrators.
+
+
+
+
+
+Other useful links: Blocking policy · Username policy ·  
+Appealing blocks: policy and guide
+
+If the block notice is unclear, or it does not appear to relate to your actions, please ask for assistance as described at Help:I have been blocked.
+
+
+
+You can view and copy the source of this page:
+=== Mathematics ===
+Python has the usual C arithmetic operators (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>). It also has <code>**</code> for exponentiation, e.g. <code>5**3 == 125</code> and <code>9**0.5 == 3.0</code>, and a new matrix multiply <code>@</code> operator is included in version 3.5.<ref>{{cite web |url=http://legacy.python.org/dev/peps/pep-0465/ |title=PEP 465 -- A dedicated infix operator for matrix multiplication |work=python.org}}</ref> Additionally, it has a unary operator (<code>~</code>), which essentially inverts all the bits of its one argument. For integers, this means <code>~x=-x-1</code>.<ref>{{cite web |url=https://stackoverflow.com/questions/8305199/the-tilde-operator-in-python |title=The tilde operator in Python - Stackoverflow |work=stackoverflow.com}}</ref> Other operators include bitwise shift operators <code>x << y</code>, which shifts <code>x</code> to the left <code>y</code> places, the same as <code>x*(2**y) </code>, and <code>x >> y</code>, which shifts <code>x</code> to the right <code>y</code> places, the same as <code>x/(2**y) </code>.<ref>{{cite web |url=https://wiki.python.org/moin/BitwiseOperators |title=BitwiseOperators - Python Wiki |work=wiki.python.org}}</ref>
+
+The behavior of division has changed significantly over time:<ref name="pep0238"/>
+
+* Python 2.1 and earlier use the C division behavior. The <code>/</code> operator is integer division if both operands are integers, and floating-point division otherwise. Integer division rounds towards 0, e.g. {{nowrap|1=<code>7/3 == 2</code>}} and {{nowrap|1=<code>-7/3 == -2</code>.}}
+* Python 2.2 changes integer division to round towards negative infinity, e.g. <code>7/3 == 2</code> and <code>-7/3 == -3</code>. The floor division <code>//</code> operator is introduced. So <code>7//3 == 2</code>, <code>-7//3 == -3</code>, <code>7.5//3 == 2.0</code> and <code>-7.5//3 == -3.0</code>. Adding <code>from __future__ import division</code> causes a module to use Python 3.0 rules for division (see next).
+* Python 3.0 changes <code>/</code> to be always floating-point division. In Python terms, the pre-3.0 <code>/</code> is ''classic division'', the version-3.0 <code>/</code> is ''real division'', and <code>//</code> is ''floor division''.
+
+Rounding towards negative infinity, though different from most languages, adds consistency. For instance, it means that the equation <code>(a + b)//b == a//b + 1</code> is always true. It also means that the equation <code>b*(a//b) + a%b == a</code> is valid for both positive and negative values of <code>a</code>. However, maintaining the validity of this equation means that while the result of <code>a%b</code> is, as expected, in the [[half-open interval]] [0, ''b''), where <code>b</code> is a positive integer, it has to lie in the interval (''b'', 0] when <code>b</code> is negative.<ref name="AutoNT-62" />
+
+Python provides a <code>round</code> function for [[rounding]] a float to the nearest integer. For [[Rounding#Tie-breaking|tie-breaking]], versions before 3 use round-away-from-zero: <code>round(0.5)</code> is 1.0, <code>round(-0.5)</code> is −1.0.<ref name="AutoNT-63" /> Python 3 uses [[round to even]]: <code>round(1.5)</code> is 2, <code>round(2.5)</code> is 2.<ref name="AutoNT-64" />
+
+Python allows boolean expressions with multiple equality relations in a manner that is consistent with general use in mathematics. For example, the expression <code>a < b < c</code> tests whether <code>a</code> is less than <code>b</code> and <code>b</code> is less than <code>c</code>. C-derived languages interpret this expression differently: in C, the expression would first evaluate <code>a < b</code>, resulting in 0 or 1, and that result would then be compared with <code>c</code>.<ref name="AutoNT-65" />{{Page needed|date=January 2012}}
+
+Python has extensive built-in support for [[arbitrary precision arithmetic]]. Integers are transparently switched from the machine-supported maximum fixed-precision (usually 32 or 64 bits), belonging to the python type <code>int</code>, to arbitrary precision, belonging to the python type <code>long</code>, where needed. The latter have an "L" suffix in their textual representation.<ref>{{cite web|title = Built-in Type|url = https://docs.python.org/2.7/library/stdtypes.html|website = docs.python.org}}</ref> (In Python 3, the distinction between the <code>int</code> and <code>long</code> types was eliminated; this behavior is now entirely contained by the <code>int</code> class.) The <code>Decimal</code> type/class in module <code>decimal</code> (since version 2.4) provides decimal floating point numbers to arbitrary precision and several rounding modes.<ref>{{cite web|title = PEP 0327 -- Decimal Data Type|url = https://www.python.org/dev/peps/pep-0327/|website = Python.org|accessdate = 26 September 2015|last = Batista|first = Facundo}}</ref> The <code>Fraction</code> type in module <code>fractions</code> (since version 2.6) provides arbitrary precision for rational numbers.<ref>{{cite web|title = What’s New in Python 2.6 — Python v2.6.9 documentation|url = https://docs.python.org/2.6/whatsnew/2.6.html|website = docs.python.org|accessdate = 26 September 2015}}</ref>
+
+Due to Python's extensive mathematics library, and the third-party library [[NumPy]] that further extends the native capabilities, it is frequently used as a scientific scripting language to aid in problems such as numerical data processing and manipulation.
+Return to Python (programming language).
+					
+						Retrieved from "https://en.wikipedia.org/wiki/Python_(programming_language)"					
+								
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPage informationWikidata item				
+							
+		
+			
+			Languages
+			
+								
+									
+							
+		
+				
+		
+				
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":121,"wgHostname":"mw1238"});});
+	
+

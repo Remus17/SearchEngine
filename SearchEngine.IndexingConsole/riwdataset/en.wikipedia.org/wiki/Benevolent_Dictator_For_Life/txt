@@ -1,0 +1,394 @@
+
+
+
+
+Benevolent dictator for life - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Benevolent_dictator_for_life","wgTitle":"Benevolent dictator for life","wgCurRevisionId":833118424,"wgRevisionId":833118424,"wgArticleId":17402165,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use mdy dates from April 2014","Free software culture and documents","Computer programming folklore","Software engineering folklore"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Benevolent_dictator_for_life","wgRelevantArticleId":17402165,"wgRequestId":"WsI6NgpAADgAAHT0OZQAAABS","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Benevolent_Dictator_For_Life","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Benevolent_dictator_for_life","wgWikibaseItemId":"Q11271","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.tablesorter","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Benevolent dictator for life			
+				From Wikipedia, the free encyclopedia				  (Redirected from Benevolent Dictator For Life)
+								
+					Jump to:					navigation, 					search
+				
+				For the political term, see Benevolent dictatorship.
+Benevolent Dictator For Life (BDFL) is a title given to a small number of open-source software development leaders, typically project founders who retain the final say in disputes or arguments within the community. The phrase originated in 1995 with reference to Guido van Rossum, creator of the Python programming language.[1][2] Shortly after van Rossum joined the Corporation for National Research Initiatives, the term appeared in a follow-up mail by Ken Manheimer to a meeting trying to create a semi-formal group that would oversee Python development and workshops; this initial use included the additional joke of naming van Rossum the "First Interim BDFL".[1]
+BDFL should not be confused with the more common term for open-source leaders, "benevolent dictator", which was popularized by Eric S. Raymond's essay "Homesteading the Noosphere" (1999).[3] Among other topics related to hacker culture, Raymond elaborates on how the nature of open source forces the "dictatorship" to keep itself benevolent, since a strong disagreement can lead to the forking of the project under the rule of new leaders.
+Persons sometimes referred to as "Benevolent dictators for life"[edit]
+
+
+Name
+Project
+Type
+Reference
+
+
+Vitalik Buterin
+Ethereum
+blockchain-based cryptocurrency
+[4]
+
+
+Dries Buytaert
+Drupal
+content management framework
+[5]
+
+
+Shaun Walker
+DotNetNuke
+web application framework
+[6]
+
+
+David Heinemeier Hansson
+Ruby on Rails
+web framework
+[7]
+
+
+Adrian Holovaty and Jacob Kaplan-Moss
+Django
+web framework
+[8]
+
+
+Taylor Otwell
+Laravel
+web framework
+[9][10]
+
+
+Theo de Raadt
+OpenBSD
+Unix-like operating system
+[11]
+
+
+Daniel Robbins
+Funtoo Linux
+Linux distribution
+[12]
+
+
+Sébastien Ros
+Orchard Project
+content management system
+[13]
+
+
+Guido van Rossum
+Python
+programming language
+[7][14]
+
+
+Linus Torvalds
+Linux
+operating system kernel
+[7][15]
+
+
+Patrick Volkerding
+Slackware
+Linux distribution
+[16]
+
+
+Mark Shuttleworth
+Ubuntu Linux
+Linux distribution
+[17]
+
+
+Larry Wall
+Perl
+programming language
+[18]
+
+
+Matt Mullenweg
+WordPress
+content management framework
+[19]
+
+
+Nathan Voxland
+Liquibase
+database schema management
+[20]
+
+
+Xavier Leroy
+OCaml
+programming language
+[21][22]
+
+
+Ton Roosendaal
+Blender
+3D computer graphics software
+[23]
+
+
+Bram Moolenaar
+Vim
+text editor
+[24]
+
+
+Don Syme
+F#
+programming language
+[25]
+
+
+Rich Hickey
+Clojure
+programming language
+[26]
+
+
+Wes McKinney
+Pandas
+Python data analysis library
+[27]
+
+
+Martin Odersky
+Scala
+programming language
+[28]
+
+
+Yukihiro Matsumoto (Matz)
+Ruby
+programming language
+[29]
+
+
+Evan Czaplicki
+Elm
+front-end web framework
+[30][31]
+
+
+Juan Benet
+InterPlanetary File System
+decentralized internet
+[32]
+
+
+Sylvain Benner
+Spacemacs
+community-driven Emacs distribution
+[33]
+
+
+Pauli Virtanen
+SciPy
+Python library used for scientific and technical computing
+[34][35]
+
+
+José Valim
+Elixir
+programming language
+[36]
+
+
+References[edit]
+
+
+^ a b Guido van Rossum (July 31, 2008). "Origin of BDFL". Retrieved August 1, 2008. 
+^ "Python Creator Scripts Inside Google". www.eweek.com. Retrieved May 13, 2008. 
+^ Eric S. Raymond. "Homesteading the Noosphere". Retrieved August 1, 2008. 
+^ "Ethereum's Boy King Is Thinking About Giving Up the Mantle"
+^ Randy Fay, "How Do Open Source Communities Govern Themselves?"
+^ Book: Building Websites with DotNetNuke 5, Michael Washington and Ian Lackey, Packt Publishing. Page 14 "The core team comprises individuals invited to join the team by Shaun Walker, whom they affectionately call the "Benevolent Dictator"."
+^ a b c Constine, Josh (December 7, 2012). "Dropbox Hires Away Google's Guido Van Rossum, The Father Of Python". TechCrunch. Retrieved June 1, 2015. 
+^ "Adrian and Jacob retiring as Django BDFLs". Adrian Holovaty. January 12, 2014. Retrieved June 14, 2015. 
+^ "Taylor Otwell, Twitter". Taylor Otwell. October 9, 2014. Retrieved October 9, 2014. 
+^ "Taylor Otwell, Creator of the Laravel PHP Framework". August 5, 2014. Retrieved August 5, 2014. 
+^ Hildebrand, Matthew (July 5, 2005). "Interview: Theo de Raadt on Industry and Free Software". The Epoch Times. The Epoch Times. Archived from the original on June 21, 2015. Retrieved June 20, 2015. 
+^ "Welcome to Funtoo Linux". 
+^ "Orchard Project Steering Committee". Archived from the original on August 12, 2015. 
+^ "The Four Hundred—Next Up on the System i: Python". www.itjungle.com. Retrieved May 13, 2008. 
+^ Dee-Ann LeBlanc (31 July 2006). Linux For Dummies (7th ed.). John Wiley & Sons. p. 15. ISBN 978-0-470-04793-4. 
+^ "Stories of Linux: A Look at Slackware Linux". linux.com. 
+^ "Ubuntu carves niche in Linux landscape". CNET. Archived from the original on 6 November 2015. 
+^ "The Art of Ballistic Programming". Archived from the original on June 17, 2013. 
+^ "Thesis, Automattic, and WordPress | Post Status". Retrieved 2015-07-24. 
+^ "User and Developer Community | Post Status". Retrieved 2015-08-13. 
+^ "A History of OCaml | OCaml.org". Retrieved 2015-09-18. 
+^ "OCaml Infrastructure mailing list". Retrieved 2015-09-18. 
+^ "New Developer Info". Retrieved 21 September 2015. 
+^ "Why Neovim is Better than Vim". Retrieved 30 September 2015. 
+^ "Contributing to the F# Language and Compiler". Retrieved 29 September 2015. 
+^ "Clojure JIRA Workflow". Retrieved 3 October 2015. 
+^ "pandas 0.20.3 documentation: Tutorials". Retrieved 2017-07-24.  "Wes McKinney’s (pandas BDFL) blog"
+^ "Programming in Scala Leaps onto the World Stage!". Retrieved 2015-11-25. 
+^ "A Ruby Design Process". Retrieved 2016-04-17. 
+^ "56: Ember vs. Elm: The Showdown with Philip Poots | The Frontside Podcast". The Frontside Podcast. Retrieved 2017-08-14. 
+^ elm-conf (2016-09-19), "Code is the Easy Part" by Evan Czaplicki, retrieved 2017-08-14 
+^ "Understanding the IPFS White Paper part 2". Retrieved 2017-08-21. 
+^ "Spacemacs COMMUNITY.org". Retrieved 2017-08-24. 
+^ "SciPy 1.0.0". Retrieved 2017-10-27. 
+^ "SciPy project governance". Retrieved 2017-10-27. 
+^ "Elixir Companies". Retrieved 2017-11-01. 
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Benevolent_dictator_for_life&oldid=833118424"					
+				Categories: Free software culture and documentsComputer programming folkloreSoftware engineering folkloreHidden categories: Use mdy dates from April 2014				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					বাংলাDeutschEspañolEsperantoفارسیFrançais한국어ItalianoNederlands日本語NorskPolskiPortuguêsРусский				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 29 March 2018, at 19:20.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.252","walltime":"0.289","ppvisitednodes":{"value":1254,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":43314,"limit":2097152},"templateargumentsize":{"value":228,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":32572,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  263.014      1 -total"," 77.75%  204.481      1 Template:Reflist"," 52.80%  138.876     30 Template:Cite_web","  8.61%   22.640      1 Template:For","  5.98%   15.730      1 Template:Use_mdy_dates","  4.19%   11.011      1 Template:DMCA","  3.64%    9.576      1 Template:Dated_maintenance_category","  3.08%    8.108      1 Template:Citation","  2.50%    6.569      1 Template:FULLROOTPAGENAME","  2.45%    6.439      1 Template:Cite_book"]},"scribunto":{"limitreport-timeusage":{"value":"0.135","limit":"10.000"},"limitreport-memusage":{"value":3460847,"limit":52428800}},"cachereport":{"origin":"mw1347","timestamp":"20180331102623","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":84,"wgHostname":"mw1261"});});
+	
+

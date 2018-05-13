@@ -1,0 +1,356 @@
+
+
+
+
+Bytecode - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Bytecode","wgTitle":"Bytecode","wgCurRevisionId":830669705,"wgRevisionId":830669705,"wgArticleId":89997,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from January 2009","All articles needing additional references","Virtualization software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Bytecode","wgRelevantArticleId":89997,"wgRequestId":"Wr9pFwpAMFYAAFzqxF4AAABK","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q837330","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Bytecode			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				"Portable code" redirects here. For other uses, see software portability.
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (January 2009) (Learn how and when to remove this template message)
+
+
+
+Bytecode, also termed portable code or p-code, is a form of instruction set designed for efficient execution by a software interpreter. Unlike human-readable source code, bytecodes are compact numeric codes, constants, and references (normally numeric addresses) that encode the result of compiler parsing and semantic analysis of things like type, scope, and nesting depths of program objects.
+
+
+Program execution
+
+
+General concepts
+
+
+
+
+Code
+Translation
+
+Compiler
+Optimizing compiler
+
+
+Intermediate representation (IR)
+Execution
+
+Runtime system
+Executable
+Interpreter
+Virtual machine
+
+
+
+
+
+
+Types of code
+
+
+
+
+Source code
+Object code
+Bytecode
+Machine code
+Microcode
+
+
+
+
+Compilation strategies
+
+
+
+
+Just-in-time (JIT)
+
+Tracing just-in-time
+
+
+Ahead-of-time (AOT)
+Transcompilation
+Recompilation
+
+
+
+
+Notable runtimes
+
+
+
+
+Android Runtime (ART)
+Common Language Runtime (CLR)
+crt0
+Java virtual machine (JVM)
+Node.js
+Zend Engine
+
+
+
+
+Notable compilers & toolchains
+
+
+
+
+GNU Compiler Collection (GCC)
+LLVM
+
+
+
+
+
+
+
+v
+t
+e
+
+
+
+
+
+
+
+
+Look up bytecode in Wiktionary, the free dictionary.
+
+
+The name bytecode stems from instruction sets that have one-byte opcodes followed by optional parameters. Intermediate representations such as bytecode may be output by programming language implementations to ease interpretation, or it may be used to reduce hardware and operating system dependence by allowing the same code to run cross-platform, on different devices. Bytecode may often be either directly executed on a virtual machine (a p-code machine i.e., interpreter), or it may be further compiled into machine code for better performance.
+Since bytecode instructions are processed by software, they may be arbitrarily complex, but are nonetheless often akin to traditional hardware instructions: virtual stack machines are the most common, but virtual register machines have been built also.[1][2] Different parts may often be stored in separate files, similar to object modules, but dynamically loaded during execution.
+Execution[edit]
+A bytecode program may be executed by parsing and directly executing the instructions, one at a time. This kind of bytecode interpreter is very portable. Some systems, called dynamic translators, or just-in-time (JIT) compilers, translate bytecode into machine code as necessary at runtime. This makes the virtual machine hardware-specific, but doesn't lose the portability of the bytecode. For example, Java and Smalltalk code is typically stored in bytecoded format, which is typically then JIT compiled to translate the bytecode to machine code before execution. This introduces a delay before a program is run, when bytecode is compiled to native machine code, but improves execution speed considerably compared to interpreting source code directly, normally by several orders of magnitude.[3]
+Because of its performance advantage, today many language implementations execute a program in two phases, first compiling the source code into bytecode, and then passing the bytecode to the virtual machine. There are bytecode based virtual machines of this sort for Java, Python, PHP,[4] Tcl, mawk and Forth (however, Forth is seldom compiled via bytecodes in this way, and its virtual machine is more generic instead). The implementation of Perl and Ruby 1.8 instead work by walking an abstract syntax tree representation derived from the source code.
+More recently, the authors of V8[5] and Dart[6] have challenged the notion that intermediate bytecode is needed for fast and efficient VM implementation. Both of these language implementations currently do direct JIT compiling from source code to machine code with no bytecode intermediary.[7]
+Examples[edit]
+
+ActionScript executes in the ActionScript Virtual Machine (AVM), which is part of Flash Player and AIR. ActionScript code is typically transformed into bytecode format by a compiler. Examples of compilers include one built into Adobe Flash Professional and one built into Adobe Flash Builder and available in the Adobe Flex SDK.
+Adobe Flash objects
+BANCStar, originally bytecode for an interface-building tool but used also as a language
+Berkeley Packet Filter
+Byte Code Engineering Library
+C to Java virtual machine compilers
+CLISP implementation of Common Lisp used to compile only to bytecode for many years; however, now it also supports compiling to native code with the help of GNU lightning
+CMUCL and Scieneer Common Lisp implementations of Common Lisp can compile either to native code or to bytecode, which is far more compact
+Common Intermediate Language executed by Common Language Runtime, used by .NET Framework languages such as C#
+Dalvik bytecode, designed for the Android platform, is executed by the Dalvik virtual machine
+Dis bytecode, designed for the Inferno (operating system), is executed by the Dis virtual machine
+EiffelStudio for the Eiffel programming language
+EM, the Amsterdam Compiler Kit virtual machine used as an intermediate compiling language and as a modern bytecode language
+Emacs is a text editor with most of its functions implemented by Emacs Lisp, its built-in dialect of Lisp. These features are compiled into bytecode. This architecture allows users to customize the editor with a high level language, which after compiling into bytecode yields reasonable performance.
+Embeddable Common Lisp implementation of Common Lisp can compile to bytecode or C code
+Ericsson implementation of Erlang uses BEAM bytecodes
+Icon[8] and Unicon[9] programming languages
+Infocom used the Z-machine to make its software applications more portable
+Java bytecode, which is executed by the Java virtual machine
+
+ASM
+BCEL
+Javassist
+JMangler
+
+
+KEYB, the DOS keyboard driver with its resource file KEYBOARD.SYS containing layout information and short p-code sequences executed by an interpreter inside the resident driver.[10][11]
+LLVM, a modular bytecode compiler and virtual machine
+LSL, a scripting language used in virtual worlds compiles in bytecode running on a virtual machine. Second Life has the original Mono version, Inworldz developed the Phlox version.
+Lua language uses a register-based bytecode virtual machine
+m-code of the MATLAB language[12]
+O-code of the BCPL programming language
+OCaml language optionally compiles to a compact bytecode form
+p-code of UCSD Pascal implementation of the Pascal language
+Parrot virtual machine
+Pick BASIC also referred to as Data BASIC or MultiValue BASIC
+The R environment for statistical computing offers a bytecode compiler through the compiler package, now standard with R version 2.13.0. It is possible to compile this version of R so that the base and recommended packages exploit this.[13]
+Scheme 48 implementation of Scheme using bytecode interpreter
+Bytecodes of many implementations of the Smalltalk language
+The Spin interpreter built into the Parallax Propeller microcontroller
+The SQLite database engine translates SQL statements into a bespoke byte-code format.[14]
+SWEET16
+Tcl
+Visual FoxPro compiles to bytecode
+YARV and Rubinius for Ruby
+
+References[edit]
+
+
+^ The Implementation of Lua 5.0 involves a register-based virtual machine.
+^ "Dalvik VM".  is register based
+^ "Byte Code Vs Machine Code". www.allaboutcomputing.net. Retrieved 2017-10-23. 
+^ Although PHP opcodes are generated each time the program is launched, and are always interpreted and not just-in-time compiled
+^ "Dynamic Machine Code Generation". Google. 
+^ Loitsch, Florian. "Why Not a Bytecode VM?". Google. 
+^ "JavaScript myth: JavaScript needs a standard bytecode". 
+^ The Implementation of the Icon Programming Language
+^ The Implementation of Icon and Unicon a Compendium
+^ Paul, Matthias (2001-12-30). "KEYBOARD.SYS internal structure". comp.os.msdos.programmer. Archived from the original on 2017-09-09. Retrieved 2016-09-17. […] In fact, the format is basically the same in MS-DOS 3.3 - 8.0, PC DOS 3.3 - 2000, including Russian, Lithuanian, Chinese and Japanese issues, as well as in Windows NT, 2000, and XP […]. There are minor differences and incompatibilities, but the general format has not changed over the years. […] Some of the data entries contain normal tables […]. However, most entries contain executable code interpreted by some kind of p-code interpreter at *runtime*, including conditional branches and the like. This is why the KEYB driver has such a huge memory footprint compared to table-driven keyboard drivers which can be done in 3 - 4 Kb getting the same level of function except for the interpreter. […] 
+^ Mendelson, Edward (2001-07-20). "How to Display the Euro in MS-DOS and Windows DOS". Display the euro symbol in full-screen MS-DOS (including Windows 95 or Windows 98 full-screen DOS). Archived from the original on 2016-09-17. Retrieved 2016-09-17. […] Matthias Paul […] warns that the IBM PC DOS version of the keyboard driver uses some internal procedures that are not recognized by the Microsoft driver, so, if possible, you should use the IBM versions of both KEYB.COM and KEYBOARD.SYS instead of mixing Microsoft and IBM versions […]  (NB. What is meant by "procedures" here are some additional bytecodes in the IBM KEYBOARD.SYS file not supported by the Microsoft version of the KEYB driver.)
+^ For the details refer to "United States Patent 6,973,644". 
+^ For the details refer to "R Installation and Administration". 
+^ "The SQLite Bytecode Engine". 
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Bytecode&oldid=830669705"					
+				Categories: Virtualization softwareHidden categories: Articles needing additional references from January 2009All articles needing additional references				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					বাংলাCatalàČeštinaDanskDeutschEspañolEsperantoفارسیFrançais한국어ՀայերենItalianoעבריתКыргызчаNederlands日本語PolskiPortuguêsРусскийShqipSlovenščinaСрпски / srpskiSuomiSvenskaతెలుగుTürkçeУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 16 March 2018, at 07:19.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.144","walltime":"0.194","ppvisitednodes":{"value":727,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":25722,"limit":2097152},"templateargumentsize":{"value":291,"limit":2097152},"expansiondepth":{"value":8,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":12146,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  161.226      1 -total"," 49.19%   79.304      1 Template:Reflist"," 36.11%   58.222     10 Template:Cite_web"," 20.46%   32.988      1 Template:Refimprove"," 16.75%   27.011      1 Template:Ambox"," 15.22%   24.544      1 Template:Redirect","  5.24%    8.448      1 Template:Wiktionary","  5.22%    8.416      1 Template:Program_execution","  3.98%    6.409      1 Template:Sister_project","  2.78%    4.484      1 Template:Side_box"]},"scribunto":{"limitreport-timeusage":{"value":"0.068","limit":"10.000"},"limitreport-memusage":{"value":3831046,"limit":52428800}},"cachereport":{"origin":"mw1251","timestamp":"20180331105519","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":275,"wgHostname":"mw1251"});});
+	
+

@@ -1,0 +1,1039 @@
+
+
+
+
+  
+
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    Welcome to Python.org
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+
+    
+
+    
+    
+     {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "url": "https://www.python.org/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "https://www.python.org/search/?q={search_term_string}",
+         "query-input": "required name=search_term_string"
+       }
+     }
+    
+
+    
+    
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39055973-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    
+    
+
+
+
+
+    
+
+        
+            Notice: While Javascript is not essential for this website, your interaction with the content will be limited. Please turn Javascript on for the full experience. 
+        
+
+        
+
+        
+        
+
+            
+
+                
+                
+                    Skip to content
+                
+
+                
+                
+                    ▼ Close
+                
+
+                
+
+
+    
+    
+        Python
+    
+    
+    
+        PSF
+    
+    
+    
+        Docs
+    
+    
+    
+        PyPI
+    
+    
+    
+        Jobs
+    
+    
+    
+        Community
+    
+    
+
+
+
+                
+                    ▲ The Python Network
+                
+
+            
+
+        
+
+        
+        
+            
+
+                
+                    
+                
+
+                
+
+                    
+                    ≡ Menu
+                        
+
+                            
+
+                            Search This Site
+                            
+
+                            
+                                GO
+                            
+
+                            
+                            
+
+                        
+                    
+                        
+                            
+                                A A
+                                
+                                    Smaller
+                                    Larger
+                                    Reset
+                                
+                            
+                        
+                    
+                        
+                            
+                                Socialize
+                                
+                                    Google+
+                                    Facebook
+                                    Twitter
+                                    Chat on IRC
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                Sign In
+                                
+                                    Sign Up / Register
+                                    Sign In
+                                
+                                
+                            
+                        
+                    
+
+                
+
+                
+                    
+                        
+
+  
+    
+    
+    
+        About
+        
+            
+
+
+    
+        Applications
+    
+        Quotes
+    
+        Getting Started
+    
+        Help
+    
+        Python Brochure
+    
+
+
+        
+    
+    
+    
+    
+    
+        Downloads
+        
+            
+
+
+    
+        All releases
+    
+        Source code
+    
+        Windows
+    
+        Mac OS X
+    
+        Other Platforms
+    
+        License
+    
+        Alternative Implementations
+    
+
+
+        
+    
+    
+    
+    
+    
+        Documentation
+        
+            
+
+
+    
+        Docs
+    
+        Audio/Visual Talks
+    
+        Beginner's Guide
+    
+        Developer's Guide
+    
+        FAQ
+    
+        Non-English Docs
+    
+        PEP Index
+    
+        Python Books
+    
+        Python Essays
+    
+
+
+        
+    
+    
+    
+    
+    
+        Community
+        
+            
+
+
+    
+        Diversity
+    
+        Mailing Lists
+    
+        IRC
+    
+        Forums
+    
+        Python Conferences
+    
+        Special Interest Groups
+    
+        Python Wiki
+    
+        Python Logo
+    
+        Merchandise
+    
+        Community Awards
+    
+        Code of Conduct
+    
+
+
+        
+    
+    
+    
+    
+    
+        Success Stories
+        
+            
+
+
+    
+        Arts
+    
+        Business
+    
+        Education
+    
+        Engineering
+    
+        Government
+    
+        Scientific
+    
+        Software Development
+    
+
+
+        
+    
+    
+    
+    
+    
+        News
+        
+            
+
+
+    
+        Python News
+    
+        Community News
+    
+        PSF News
+    
+        PyCon News
+    
+
+
+        
+    
+    
+    
+    
+    
+        Events
+        
+            
+
+
+    
+        Python Events
+    
+        User Group Events
+    
+        Python Events Archive
+    
+        User Group Events Archive
+    
+        Submit an Event
+    
+
+
+        
+    
+    
+    
+    
+    
+  
+
+
+                    
+                
+
+                 
+                    
+        
+
+            
+                
+                    >_
+                        Launch Interactive Shell
+                    
+                
+            
+
+            
+                
+                
+                    # Python 3: Fibonacci series up to n
+>>> def fib(n):
+>>>     a, b = 0, 1
+>>>     while a < n:
+>>>         print(a, end=' ')
+>>>         a, b = b, a+b
+>>>     print()
+>>> fib(1000)
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+                    Functions Defined
+The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists. More about defining functions in Python 3
+                
+                
+                
+                    # Python 3: List comprehensions
+>>> fruits = ['Banana', 'Apple', 'Lime']
+>>> loud_fruits = [fruit.upper() for fruit in fruits]
+>>> print(loud_fruits)
+['BANANA', 'APPLE', 'LIME']
+
+# List and the enumerate function
+>>> list(enumerate(fruits))
+[(0, 'Banana'), (1, 'Apple'), (2, 'Lime')]
+                    Compound Data Types
+Lists (known as arrays in other languages) are one of the compound data types that Python understands. Lists can be indexed, sliced and manipulated with other built-in functions. More about lists in Python 3
+                
+                
+                
+                    # Python 3: Simple arithmetic
+>>> 1 / 2
+0.5
+>>> 2 ** 3
+8
+>>> 17 / 3  # classic division returns a float
+5.666666666666667
+>>> 17 // 3  # floor division
+5
+                    Intuitive Interpretation
+Calculations are simple with Python, and expression syntax is straightforward: the operators +, -, * and / work as expected; parentheses () can be used for grouping. More about simple math functions in Python 3.
+                
+                
+                
+                    # Python 3: Simple output (with Unicode)
+>>> print("Hello, I'm Python!")
+Hello, I'm Python!
+
+# Input, assignment
+>>> name = input('What is your name?\n')
+>>> print('Hi, %s.' % name)
+What is your name?
+Python
+Hi, Python.
+                    Quick & Easy to Learn
+Experienced programmers in any other language can pick up Python very quickly, and beginners find the clean syntax and indentation structure easy to learn. Whet your appetite with our Python 3 overview.
+                   
+                
+                
+                
+                    # For loop on a list
+>>> numbers = [2, 4, 6, 8]
+>>> product = 1
+>>> for number in numbers:
+...    product = product * number
+... 
+>>> print('The product is:', product)
+The product is: 384
+                    All the Flow You’d Expect
+Python knows the usual control flow statements that other languages speak — if, for, while and range — with some of its own twists, of course. More control flow tools in Python 3
+                
+                
+            
+        
+
+
+                
+
+                
+        
+            Python is a programming language that lets you work quickly and integrate systems more effectively. Learn More
+        
+
+
+             
+        
+
+        
+            
+            
+
+                
+
+                    
+                    
+
+                    
+
+                    
+
+    
+        
+            
+        
+    
+
+                
+
+                    
+                        Get Started
+Whether you're new to programming or an experienced developer, it's easy to learn and use Python.
+Start with our Beginner’s Guide
+                    
+
+                    
+                        Download
+Python source code and installers are available for download for all versions! Not sure which version to use? Check here.
+Latest: Python 3.6.5 - Python 2.7.14
+                    
+
+                    
+                        Docs
+Documentation for Python's standard library, along with tutorials and guides, are available online.
+docs.python.org
+                    
+
+                    
+                        Jobs
+Looking for work or have a Python related position that you're trying to hire for? Our relaunched community-run job board is the place to go.
+jobs.python.org
+                    
+
+                
+
+                
+
+                    
+                        
+                        
+                        
+                            Latest News
+                            More
+                            
+                            
+                                
+                                
+                                
+2018-03-31
+ On behalf of the PyPA, I am pleased to announce ...
+                                
+                                
+2018-03-30
+ Python 3.7.0b3 is the third of four planned beta previews of Python ...
+                                
+                                
+2018-03-28
+ Python 3.6.5 is now available.  3.6.5 is the fifth maintenance release of ...
+                                
+                                
+2018-03-26
+ The new Python Package Index at https://pypi.org is now in ...
+                                
+                                
+2018-03-14
+ Python 3.6.5rc1 is the first release candidate for Python 3.6.5, ...
+                                
+                            
+                        
+
+                    
+
+                    
+                        
+                        
+                        
+                            Upcoming Events
+                            More
+                            
+                            
+                                
+                                
+                                
+                                
+2018-04-04
+ Jupyter notebook en el aula de clase & Tutormagic y librerias de Python
+                                
+                                
+                                
+                                
+2018-04-05
+ APIStar: la revolución para desarrollo de APIs Web que llega con Python 3
+                                
+                                
+                                
+                                
+2018-04-06
+ Django Girls Santa Maria
+                                
+                                
+                                
+                                
+2018-04-07
+ PythonCamp 2018 - Cologne
+                                
+                                
+                                
+                                
+2018-04-07
+ Django Girls Kumasi
+                                
+                                
+                            
+                        
+
+                    
+
+                
+
+                
+
+                    
+                        
+
+
+
+                        
+                            
+
+                            Success Stories
+                            More
+
+                            
+                            
+
+                            
+                                ILM runs a batch processing environment capable of modeling, rendering and compositing tens of thousands of motion picture frames per day. Thousands of machines running Linux, IRIX, Compaq Tru64, OS X, Solaris, and Windows join together to provide a production pipeline used by ~800 users daily. Speed of development is key, and Python was a faster way to code (and re-code) the programs that control this production pipeline.
+                            
+
+                            
+                                
+                                    
+                                        
+                                        Industrial Light & Magic Runs on Python by Tim Fortenberry
+                                    
+                                
+                            
+                            
+                            
+
+                        
+
+                    
+
+                    
+                        
+                            Use Python for…
+More
+
+
+    Web Development:
+        Django, Pyramid, Bottle, Tornado, Flask, web2py
+    GUI Development:
+        tkInter, PyGObject, PyQt, PySide, Kivy, wxPython
+    Scientific and Numeric:
+        
+SciPy, Pandas, IPython
+    Software Development:
+        Buildbot, Trac, Roundup
+    System Administration:
+        Ansible, Salt, OpenStack
+
+
+                        
+                    
+
+                
+
+                
+                
+
+                    
+                        >>> Python Enhancement Proposals (PEPs): The future of Python is discussed here.
+                         RSS
+                    
+
+
+                    
+                    
+                
+
+                                
+
+                    
+                    
+                    
+    >>> Python Software Foundation
+
+The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. Learn more 
+
+    Become a Member
+    Donate to the PSF
+
+                
+
+
+
+
+                
+
+                
+                
+
+                
+                
+
+
+            
+        
+
+        
+        
+            
+                
+
+                    
+                    ▲ Back to Top
+
+                    
+
+
+    
+    
+        About
+        
+            
+
+
+    
+        Applications
+    
+        Quotes
+    
+        Getting Started
+    
+        Help
+    
+        Python Brochure
+    
+
+
+        
+    
+    
+    
+        Downloads
+        
+            
+
+
+    
+        All releases
+    
+        Source code
+    
+        Windows
+    
+        Mac OS X
+    
+        Other Platforms
+    
+        License
+    
+        Alternative Implementations
+    
+
+
+        
+    
+    
+    
+        Documentation
+        
+            
+
+
+    
+        Docs
+    
+        Audio/Visual Talks
+    
+        Beginner's Guide
+    
+        Developer's Guide
+    
+        FAQ
+    
+        Non-English Docs
+    
+        PEP Index
+    
+        Python Books
+    
+        Python Essays
+    
+
+
+        
+    
+    
+    
+        Community
+        
+            
+
+
+    
+        Diversity
+    
+        Mailing Lists
+    
+        IRC
+    
+        Forums
+    
+        Python Conferences
+    
+        Special Interest Groups
+    
+        Python Wiki
+    
+        Python Logo
+    
+        Merchandise
+    
+        Community Awards
+    
+        Code of Conduct
+    
+
+
+        
+    
+    
+    
+        Success Stories
+        
+            
+
+
+    
+        Arts
+    
+        Business
+    
+        Education
+    
+        Engineering
+    
+        Government
+    
+        Scientific
+    
+        Software Development
+    
+
+
+        
+    
+    
+    
+        News
+        
+            
+
+
+    
+        Python News
+    
+        Community News
+    
+        PSF News
+    
+        PyCon News
+    
+
+
+        
+    
+    
+    
+        Events
+        
+            
+
+
+    
+        Python Events
+    
+        User Group Events
+    
+        Python Events Archive
+    
+        User Group Events Archive
+    
+        Submit an Event
+    
+
+
+        
+    
+    
+    
+        Contributing
+        
+            
+
+
+    
+        Developer's Guide
+    
+        Issue Tracker
+    
+        python-dev list
+    
+        Core Mentorship
+    
+
+
+        
+    
+    
+
+
+
+                    ▲ Back to Top
+                    
+
+                
+             
+
+            
+                
+                    
+                    
+                        Help & General Contact
+                        Diversity Initiatives
+                        Submit Website Bug
+                        
+                            Status 
+                        
+                    
+
+                    
+                        
+                            Copyright ©2001-2018.
+                             Python Software Foundation
+                             Legal Statements
+                             Privacy Policy
+                             Powered by Rackspace
+                        
+                    
+
+                
+            
+
+        
+
+    
+
+    
+    
+    window.jQuery || document.write('<script src="/static/js/libs/jquery-1.8.2.min.js"><\/script>')
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+
+

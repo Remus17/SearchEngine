@@ -1,0 +1,204 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6.1.2.3 Authentication
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1.2.2 Argument Matching and
+Up:
+6.1.2 The Publishing Algorithm
+Next:
+6.1.3 Form Data
+
+
+
+
+ 
+
+6.1.2.3 Authentication
+
+
+
+The publisher handler provides simple ways to control access to
+modules and functions.
+
+
+At every traversal step, the Publisher handler checks for presence of
+__auth__ and __access__ attributes (in this order), as 
+well as __auth_realm__ attribute. 
+
+
+If __auth__ is found and it is callable, it will be called
+with three arguments: the Request object, a string containing
+the user name and a string containing the password. If the return
+value of
+__auth__ is false, then HTTP_UNAUTHORIZED is
+returned to the client (which will usually cause a password dialog box
+to appear).
+
+
+If __auth__ is a dictionary, then the user name will be
+matched against the key and the password against the value associated
+with this key. If the key and password do not match, 
+HTTP_UNAUTHORIZED is returned. Note that this requires
+storing passwords as clear text in source code, which is not very secure.
+
+
+__auth__ can also be a constant. In this case, if it is false
+(i.e. None, 0, "", etc.), then 
+HTTP_UNAUTHORIZED is returned.
+
+
+If there exists an __auth_realm__ string, it will be sent
+to the client as Authorization Realm (this is the text that usually
+appears at the top of the password dialog box).
+
+
+If __access__ is found and it is callable, it will be called
+with two arguments: the Request object and a string containing
+the user name. If the return value of __access__ is false, then
+HTTP_FORBIDDEN is returned to the client.
+
+
+If __access__ is a list, then the user name will be matched
+against the list elements. If the user name is not in the list, 
+HTTP_FORBIDDEN is returned.
+
+
+Similarly to __auth__, __access__ can be a constant.
+
+
+In the example below, only user "eggs" with password "spam"can access the hello function:
+
+
+
+  __auth_realm__ = "Members only"
+
+  def __auth__(req, user, passwd):
+
+  if user == "eggs" and passwd == "spam" or \
+  user == "joe" and passwd == "eoj":
+  return 1
+  else:
+  return 0
+
+  def __access__(req, user):
+  if user == "eggs":
+  return 1
+  else:
+  return 0
+
+  def hello(req):
+  return "hello"
+
+
+
+Here is the same functionality, but using an alternative technique:
+
+
+
+  __auth_realm__ = "Members only"
+  __auth__ = {"eggs":"spam", "joe":"eoj"}
+  __access__ = ["eggs"]
+
+  def hello(req):
+  return "hello"
+
+
+
+Since functions cannot be assigned attributes, to protect a function,
+an __auth__ or __access__ function can be defined within
+the function, e.g.:
+
+
+
+  def sensitive(req):
+
+  def __auth__(req, user, password):
+  if user == 'spam' and password == 'eggs':
+  # let them in
+  return 1
+  else:
+  # no access
+  return 0
+
+  # something involving sensitive information
+  return 'sensitive information`
+
+
+
+Note that this technique will also work if __auth__ or
+__access__ is a constant, but will not work is they are
+a dictionary or a list. 
+
+
+The __auth__ and __access__ mechanisms exist
+independently of the standard 
+PythonAuthenHandler. It
+is possible to use, for example, the handler to authenticate, then the
+__access__ list to verify that the authenticated user is
+allowed to a particular function. 
+
+
+Note:
+In order for mod_python to access __auth__,
+the module containing it must first be imported. Therefore, any
+module-level code will get executed during the import even if
+__auth__ is false.  To truly protect a module from
+being accessed, use other authentication mechanisms, e.g. the Apache
+mod_auth or with a mod_python PythonAuthenHandler handler.
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1.2.2 Argument Matching and
+Up:
+6.1.2 The Publishing Algorithm
+Next:
+6.1.3 Form Data
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

@@ -1,0 +1,753 @@
+
+
+
+
+While loop - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"While_loop","wgTitle":"While loop","wgCurRevisionId":832104305,"wgRevisionId":832104305,"wgArticleId":468915,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages with syntax highlighting errors","Articles needing additional references from October 2016","All articles needing additional references","Articles with example Ada code","Articles with example C code","Articles with example Pascal code","Articles with example Perl code","Articles with example Python code","Control flow","Articles with example Fortran code","Articles with example Racket code","Articles with example Smalltalk code"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"While_loop","wgRelevantArticleId":468915,"wgRequestId":"WrzfSgpAAEYAAGYQ@4YAAACJ","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q838101","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+While loop			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (October 2016) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+While loop flow diagram
+
+
+
+
+Loop constructs
+
+
+Do while loop
+
+
+While loop
+
+
+For loop
+
+
+Foreach loop
+
+
+Infinite loop
+
+
+Control flow
+
+
+In most computer programming languages, a while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement.
+
+
+
+Contents
+
+
+1 Overview
+2 Equivalent constructs
+3 Demonstrating while loops
+
+3.1 ActionScript 3
+3.2 Ada
+3.3 Microsoft Small Basic
+3.4 Visual Basic
+3.5 Bourne (Unix) shell
+3.6 Fortran
+3.7 Java, C#, D
+3.8 JavaScript
+3.9 Lua
+3.10 MATLAB
+3.11 Mathematica
+3.12 Oberon, Oberon-2 (programming language), Oberon-07, or Component Pascal
+3.13 Maya Embedded Language
+3.14 Pascal
+3.15 Perl
+3.16 PHP
+3.17 PL/I
+3.18 Python
+3.19 Racket
+3.20 Ruby
+3.21 Smalltalk
+3.22 Swift
+3.23 Tcl
+3.24 VEX
+3.25 Windows PowerShell
+3.26 While programming language
+
+
+4 See also
+5 References
+
+
+
+Overview[edit]
+The while construct consists of a block of code and a condition/expression.[1] The condition/expression is evaluated, and if the condition/expression is true,[1] the code within the block is executed. This repeats until the condition/expression becomes false. Because the while loop checks the condition/expression before the block is executed, the control structure is often also known as a pre-test loop. Compare this with the do while loop, which tests the condition/expression after the loop has executed.
+For example, in the C programming language (as well as Java, C#,[2] Objective-C, and C++, which use the same syntax in this case), the code fragment
+
+
+int x = 0;
+while (x < 5) 
+{
+    printf ("x = %d\n", x);
+    x++;
+}
+
+first checks whether x is less than 5, which it is, so then the {loop body} is entered, where the printf function is run and x is incremented by 1. After completing all the statements in the loop body, the condition, (x < 5), is checked again, and the loop is executed again, this process repeating until the variable x has the value 5.
+Note that it is possible, and in some cases desirable, for the condition to always evaluate to true, creating an infinite loop. When such a loop is created intentionally, there is usually another control structure (such as a break statement) that controls termination of the loop. For example:
+
+
+while (true) 
+{
+    //do complicated stuff
+    if (someCondition) break;
+    //more stuff
+}
+
+Equivalent constructs[edit]
+In the C programming language,
+
+
+while (condition) 
+{
+   statements;
+}
+
+is equivalent to
+
+
+if (condition) 
+{
+   do 
+   {
+      statements;
+   } while (condition);
+}
+
+or
+
+
+while (true) 
+{
+   if (!condition) break;
+   statements;
+}
+
+or
+
+
+   goto TEST;
+LOOPSTART:
+   statements;
+TEST:
+   if (condition) goto LOOPSTART;
+
+or
+
+
+TEST:
+   if (!condition) goto LOOPEND;
+   statements
+   goto TEST;
+LOOPEND:
+
+Those last two are not recommended because the use of "goto" statements makes it hard for a programmer to understand the flow of control, and is generally regarded as a last resort.
+Also, in C and its descendants, a while loop is a for loop with no initialization or counting expressions, i.e.,
+
+
+for ( ; condition; )
+{
+   statements;
+}
+
+Demonstrating while loops[edit]
+These while loops will calculate the factorial of the number 5:
+ActionScript 3[edit]
+
+
+var counter:int = 5;
+var factorial:int = 1;
+
+while ( counter > 1 )
+{
+  factorial *= counter;
+  counter--;
+}
+Printf ("Factorial =%d", factorial);
+
+Ada[edit]
+
+
+
+The Wikibook Ada_Programming has a page on the topic of: Control
+
+
+
+
+with Ada.Integer_Text_IO;
+
+procedure Factorial is
+  Counter   : Integer := 5;
+  Factorial : Integer := 1;
+begin
+  while Counter > 0 loop
+    Factorial := Factorial * Counter;
+    Counter   := Counter - 1;
+  end loop;
+
+  Ada.Integer_Text_IO.Put (Factorial);
+end Factorial;
+
+Microsoft Small Basic[edit]
+
+
+counter = 5    ' Counter = 5
+factorial = 1  ' initial value of variable "factorial"
+
+While counter > 0
+   factorial = factorial * counter
+   counter = counter - 1
+   TextWindow.WriteLine(counter)
+EndWhile
+
+Visual Basic[edit]
+
+
+Dim counter As Integer = 5    ' init variable and set value
+Dim factorial As Integer = 1  ' initialize factorial variable
+
+Do While counter > 0
+    factorial = factorial * counter
+    counter = counter - 1
+Loop     ' program goes here, until counter = 0
+
+'Debug.Print factorial         ' Console.WriteLine(factorial) in Visual Basic .NET
+
+Bourne (Unix) shell[edit]
+
+
+counter=5
+factorial=1
+while [ $counter -gt 0 ]; do
+    factorial=$((factorial * counter))
+    counter=$((counter - 1))
+done
+
+echo $factorial
+
+
+include <stdio.h>
+
+int main() {
+
+ int i=10;
+ while (i==10);
+ {
+ printf("%d",i);
+ i++;
+ }
+
+}
+Fortran[edit]
+
+
+program FactorialProg
+  integer :: counter = 5
+  integer :: factorial = 1
+  do while (counter > 0)
+    factorial = factorial * counter
+    counter = counter - 1
+  end do
+  print *, factorial
+end program FactorialProg
+
+Java, C#, D[edit]
+The code for the loop is the same for Java, C# and D:
+
+
+int counter = 5;
+long factorial = 1;
+
+while (counter > 1)
+{
+   factorial *= counter--;
+}
+
+For Java the result is printed as follows:
+
+
+System.out.println(factorial);
+
+The same in C#
+
+
+System.Console.WriteLine(factorial);
+
+And finally in D
+
+
+writefln(factorial);
+
+JavaScript[edit]
+
+
+var counter = 5;
+var factorial = 1;
+
+while ( counter > 1 )
+{
+  factorial *= counter--;
+}
+
+document.write(factorial);
+
+Lua[edit]
+
+
+counter = 5
+factorial = 1
+
+while counter > 0 do
+  factorial = factorial * counter
+  counter = counter - 1
+end
+
+print(factorial)
+
+MATLAB[edit]
+
+
+counter = 5;
+factorial = 1;
+
+while (counter > 0)
+  factorial = factorial * counter;      %Multiply
+  counter = counter - 1;                %Decrement
+end
+
+factorial
+
+Mathematica[edit]
+
+
+ Block[{counter=5,factorial=1},          (*localize counter and factorial*)
+         While[counter>0,                (*While loop*)
+                factorial*=counter;      (*Multiply*)
+                counter--;               (*Decrement*)
+              ];
+      factorial
+     ]
+
+Oberon, Oberon-2 (programming language), Oberon-07, or Component Pascal[edit]
+
+
+MODULE Factorial;
+IMPORT Out;
+VAR
+  Counter, Factorial: INTEGER;
+BEGIN
+  Counter := 5;
+  Factorial := 1;
+  WHILE Counter > 0 DO
+    Factorial := Factorial * Counter;
+    DEC(Counter)
+  END;
+  Out.Int(Factorial,0)
+END Factorial.
+
+Maya Embedded Language[edit]
+
+
+int $counter = 5;
+int $factorial = 1;
+
+int $multiplication;
+
+while ($counter > 0)
+{
+    $multiplication = ($factorial * $counter);
+     
+    $counter -= 1;
+    
+    print ("Counter is: " + $counter + ", multiplication is: " + $multiplication + "\n");
+}
+
+Pascal[edit]
+
+
+program Factorial1;
+var
+  Counter, Factorial: integer;
+begin
+  Counter := 5;
+  Factorial := 1;
+  while Counter > 0 do
+  begin
+    Factorial := Factorial * Counter;
+    Counter := Counter - 1
+  end;
+  WriteLn(Factorial)
+end.
+
+Perl[edit]
+
+
+my $counter   = 5;
+my $factorial = 1;
+
+while ( $counter > 0 ) {
+    $factorial *= $counter--; # Multiply, then decrement
+}
+
+print $factorial;
+
+While loops are frequently used for reading data line by line (as defined by the $/ line separator) from open filehandles:
+
+
+open IN, "<test.txt";
+while ( <IN> ) {
+  print;
+}
+close IN;
+
+PHP[edit]
+
+
+$counter = 5;
+$factorial = 1;
+while($counter > 0) {
+  $factorial *= $counter; // Multiply first.
+  $counter--; // then decrement.
+}
+print $factorial;
+
+PL/I[edit]
+
+
+declare counter   fixed initial(5);
+declare factorial fixed initial(1);
+
+do while(counter > 0)
+  factorial = factorial * counter;
+  counter = counter - 1;
+  end;
+
+Python[edit]
+
+
+counter = 5                           # Set the value to 5 
+factorial = 1                         # Set the value to 1
+
+while counter > 0:                    # While counter(5) is greater than 0  
+    factorial *= counter              # Set new value of factorial to 
+                                      # factorial x counter.
+    
+    counter -= 1                      # Set the new value of counter to
+                                      # counter - 1.
+
+print(factorial)                      # Print the value of factorial.
+
+Non-terminating while loop:
+
+
+while True:
+    print("Help! I'm stuck in a loop!")
+
+Racket[edit]
+In Racket, as in other Scheme implementations, a named-let is a popular way to implement loops:
+
+
+#lang racket
+(define counter 5)
+(define factorial 1)
+(let loop ()
+  (when (> counter 0)
+    (set! factorial (* factorial counter))
+    (set! counter (sub1 counter))
+    (loop)))
+(displayln factorial)
+
+Using a macro system, implementing a while loop is a trivial exercise (commonly used to introduce macros):
+
+
+#lang racket
+(define-syntax-rule (while test body ...) ; implements a while loop
+  (let loop () (when test body ... (loop))))
+(define counter 5)
+(define factorial 1)
+(while (> counter 0)
+  (set! factorial (* factorial counter))
+  (set! counter (sub1 counter)))
+(displayln factorial)
+
+But note that an imperative programming style is often discouraged in Racket (as in Scheme).
+Ruby[edit]
+
+
+# Calculate the factorial of 5
+i = 1
+factorial = 1
+while i < 5
+  factorial *= i
+  i += 1
+end
+puts factorial
+
+Smalltalk[edit]
+Contrary to other languages, in Smalltalk a while loop is not a language construct but defined in the class BlockClosure as a method with one parameter, the body as a closure, using self as the condition.
+Smalltalk also has a corresponding whileFalse: method.
+
+
+| count factorial |
+count := 5.
+factorial := 1.
+[ count > 0 ] whileTrue: 
+    [ factorial := factorial * count.
+    count := count - 1 ].
+Transcript show: factorial
+
+Swift[edit]
+
+
+var counter = 5                 // Set the value to 5 
+var factorial = 1               // Set the value to 1
+
+while counter > 0 {             // While counter(5) is greater than 0  
+    factorial *= counter        // Set new value of factorial to factorial x counter.
+    counter -= 1                // Set the new value of counter to  counter - 1.
+}
+
+print(factorial)                // Print the value of factorial.
+
+Tcl[edit]
+
+
+set counter 5
+set factorial 1
+
+while {$counter > 0} {
+  set factorial [expr $factorial * $counter] 
+  incr counter -1 
+}
+
+puts $factorial
+
+VEX[edit]
+
+
+int counter = 5;
+int factorial = 1;
+while (counter > 1)
+   factorial *= counter--;
+
+printf("%d", factorial);
+
+Windows PowerShell[edit]
+
+
+$number = 5
+$counter = $number
+$factorial = 1
+while ($counter) {
+    $factorial *= $counter--
+}
+$factorial
+
+While programming language[edit]
+The While programming language[3] is a simple programming language constructed from assignments, sequential composition, conditionals and while statements, used in the theoretical analysis of imperative programming language semantics.[4][5]
+
+
+C := 5;
+F := 1;
+while (C > 1) do
+    F := F * C;
+    C := C - 1;
+
+See also[edit]
+
+Do while loop
+For loop
+Foreach
+LOOP (programming language) – a programming language with the property that the functions it can compute are exactly the primitive recursive functions
+
+References[edit]
+
+
+
+^ a b "The while and do-while Statements (The Java™ Tutorials > Learning the Java Language > Language Basics)". Dosc.oracle.com. Retrieved 2016-10-21. 
+^ "while (C# reference)". Msdn.microsoft.com. Retrieved 2016-10-21. 
+^ "Chapter 3 : The While programming language" (PDF). Profs.sci.univr.it. Retrieved 2016-10-21. 
+^ Flemming Nielson; Hanne R. Nielson; Chris Hankin (1999). Principles of Program Analysis. Springer. ISBN 978-3-540-65410-0. Retrieved 29 May 2013. 
+^ Illingworth, Valerie (11 December 1997). Dictionary of Computing. Oxford Paperback Reference (4th ed.). Oxford University Press. ISBN 9780192800466. 
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=While_loop&oldid=832104305"					
+				Categories: Control flowArticles with example Fortran codeArticles with example Racket codeArticles with example Smalltalk codeHidden categories: Pages with syntax highlighting errorsArticles needing additional references from October 2016All articles needing additional referencesArticles with example Ada codeArticles with example C codeArticles with example Pascal codeArticles with example Perl codeArticles with example Python code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					CatalàČeštinaDanskΕλληνικάEspañolEuskaraFrançais한국어Hrvatski日本語PortuguêsСрпски / srpskiSuomiSvenskaTürkçe中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 23 March 2018, at 21:35.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.172","walltime":"4.876","ppvisitednodes":{"value":944,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":17745,"limit":2097152},"templateargumentsize":{"value":561,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":40710,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 4840.991      1 -total","  1.39%   67.106      1 Template:Reflist","  1.07%   51.729      1 Template:Refimprove","  0.88%   42.822      3 Template:Cite_web","  0.71%   34.356      1 Template:Ambox","  0.29%   14.094      1 Template:Wikibooks","  0.28%   13.703      1 Template:Loop_constructs","  0.25%   12.073      1 Template:Helpbox","  0.24%   11.398      1 Template:Sister_project","  0.19%    9.252      2 Template:Cite_book"]},"scribunto":{"limitreport-timeusage":{"value":"0.060","limit":"10.000"},"limitreport-memusage":{"value":3008847,"limit":52428800}},"cachereport":{"origin":"mw1342","timestamp":"20180323213503","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":96,"wgHostname":"mw1275"});});
+	
+

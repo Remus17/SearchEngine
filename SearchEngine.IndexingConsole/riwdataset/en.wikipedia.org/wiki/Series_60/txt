@@ -1,0 +1,1527 @@
+
+
+
+
+S60 (software platform) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"S60_(software_platform)","wgTitle":"S60 (software platform)","wgCurRevisionId":823535913,"wgRevisionId":823535913,"wgArticleId":282340,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 German-language sources (de)","Use dmy dates from September 2013","All articles with unsourced statements","Articles with unsourced statements from June 2010","S60 (software platform)","Nokia platforms","Smartphones","Software that uses Qt"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"S60_(software_platform)","wgRelevantArticleId":282340,"wgRequestId":"Wr-EUApAMEwAAGvZX6oAAABU","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Series_60","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/S60_(software_platform)","wgWikibaseItemId":"Q941283","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+S60 (software platform)			
+				From Wikipedia, the free encyclopedia				  (Redirected from Series 60)
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+Symbian S60v3 (3rd Edition) menu on a Nokia N73.
+
+
+The S60 Platform (formerly Series 60 User Interface) was a software platform for smartphones that runs on the Symbian operating system. It was created by Nokia in 2001, and was first released in 2002 with the Nokia 7650 smartphone. The platform has since seen 5 updated editions. Series 60 was renamed to S60 in November 2005. It was essentially a user interface able to access the core Symbian OS.
+In 2008, the Symbian Foundation was formed to consolidate all the assets of different Symbian platforms (S60, UIQ, MOAP), making it open source. In 2009, based on the code base of S60, the first iteration of the platform since the creation of Symbian Foundation was launched as S60 5th Edition, or Symbian^1, on top of Symbian OS 9.4 as its base. Subsequent iterations were named Symbian^2 (Japanese market only) and Symbian^3.
+The S60 software is a multivendor standard for smartphones that supports application development in Java MIDP, C++, Python[1] and Adobe Flash. Its API was called Avkon UI.[2] S60 consists of a suite of libraries and standard applications, such as telephony, personal information manager (PIM) tools, and Helix-based multimedia players. It was intended to power fully featured modern phones with large colour screens, which are commonly known as smartphones.
+Originally, the most distinguishing feature of S60 phones was that they allowed users to install new applications after purchase. Unlike a standard desktop platform, however, the built-in apps are rarely upgraded by the vendor beyond bug fixes. New features are only added to phones while they are being developed rather than after public release. Certain buttons are standardized, such as a menu key, a four way joystick or d-pad, left and right soft keys and a clear key.
+S60 was mainly used by Nokia but has also been used by a few other manufacturers, including Lenovo, LG Electronics, Panasonic, Samsung,[3] Sendo,[4] Siemens Mobile and Sony Ericsson.
+In addition to the manufacturers the community includes:
+
+Software integration companies such as Sasken, Elektrobit, Teleca, Digia, Mobica, Atelier.tm
+Semiconductor companies Texas Instruments, STMicroelectronics, Broadcom, Sony, Freescale Semiconductor, Samsung Electronics
+Operators such as Vodafone and Orange who develop and provide S60-based mobile applications and services
+Software developers and independent software vendors (ISVs).
+
+
+
+
+Contents
+
+
+1 Editions
+2 Versions and supported devices
+3 Symbian Anna
+4 Symbian Belle
+5 Symbian Carla and Donna
+6 Symbian ends
+7 See also
+8 References
+9 External links
+
+
+
+Editions[edit]
+
+
+
+
+S60 5th edition idle screen. Bottom left "button" brings up a virtual number pad, to compensate for removal of actual numerical keys.
+
+
+There have been four major releases of S60: "Series 60" (2001), "Series 60 Second Edition" (2002), "S60 3rd Edition" (2005) and "S60 5th Edition" (2008). Each release had an updated version called Feature Pack, sometimes known as relay. Each runs on a different Symbian version.
+
+
+Series 60 1st Edition
+The devices' display resolution was fixed to 176×208. The Siemens SX1 meanwhile had 176×220.
+
+
+
+Version 0.9 was the original and first shipped with Nokia 7650.
+Version 1.2 (marketed as Feature Pack 1) first shipped with Nokia 3600/3650 in 2003.
+
+
+
+Series 60 2nd Edition
+Also known as S60v2.
+
+
+Version 2 was the original and first shipped with Nokia 6600.
+Version 2.1 (Feature Pack 1) first came with Nokia 6620.
+Version 2.6 (Feature Pack 2) first came with Nokia 6630.
+Version 2.8 (Feature Pack 3) first started shipping with Nokia N70 in September 2005. FP3 now supports multiple resolutions, i.e. Basic (176×208), and Double (352×416). The N90 was the first Series 60 device to support a higher resolution (352×416).
+
+
+
+
+S60 3rd Edition
+S60v3 uses a hardened version of Symbian OS (v9.1), which has mandatory code signing. In S60v3, a user may install only programs that have a certificate from a registered developer, unless the user disables that feature or modify the phone's firmware through third-party hacks that circumvent the mandatory signing restrictions. This makes software written for S60 1st Edition or 2nd Edition not binary-compatible with S60v3.
+
+
+Version 3 was first introduced with Nokia N91 in 2005.
+Version 3.1 (Feature Pack 1) first shipped with Nokia N95.
+Version 3.2 (Feature Pack 2) first shipped with Nokia N78.
+
+
+In 2006, a "Designed for S60 Devices" logo program for developers was launched. The logotype can be used with conforming programs regardless of them being native Symbian or Java.
+
+
+
+
+S60 5th Edition
+In October 2008 Symbian^1 was launched as the first OS under the Symbian Foundation, based on the S60 code so therefore also called S60 5th Edition. Nokia skipped the number 4 as they traditionally always do (due to East Asian tetraphobia).[5] S60 5th Edition runs on Symbian OS version 9.4.[6] The major feature of 5th Edition is support for high-resolution 640×360 touchscreens; before 5th Edition, all S60 devices had a button-based user interface. S60 5th Edition also integrates standard C/C++ APIs and includes Adobe Flash Lite 3.0 with S60-specific ActionScript extensions that give Flash Lite developers access to phone features like contacts, text messaging, sensors and device location information (GPS). Despite the introduction of S60 5th Edition, the 3rd Edition continued to be marketed new as well, as 5th Edition is specially designed for, and exclusively available on touchscreens.
+
+
+Version 5 was first introduced with Nokia 5800 XpressMusic in 2008.
+
+
+S60 5th Edition was the last edition of S60. It was succeeded by Symbian^2 (based on MOAP) and Symbian^3 in 2010.
+
+
+Versions and supported devices[edit]
+Many devices are capable of running the S60 software platform with the Symbian OS. Devices ranging from the early Nokia 7650 running S60 v0.9 on Symbian OS v6.1,[7][8] to the latest Samsung i8910 Omnia HD running S60 v5.0 on Symbian OS v9.4.[9] In Symbian^3 the version of the revised platform is v5.2.
+The table lists devices carrying each version of S60 as well as the Symbian OS version on what it is based. Note that new devices since Symbian^3 May be capable of upgrading to later systems, such as Symbian Anna and Symbian Belle. Therefore, you may see a device being listed in many systems.
+
+
+Product Name
+S60
+Version Number
+Symbian OS
+Version Number
+Devices[7][8][9]
+
+
+S60 1st Edition
+0.9
+6.1
+
+
+Nokia 7650
+
+
+
+
+S60 1st Edition,
+Feature Pack 1
+1.2
+6.1
+
+
+Nokia 3600
+Nokia 3620
+Nokia 3650
+Nokia 3660
+Nokia N-Gage
+Nokia N-Gage QD
+Sendo X
+Sendo X2 (canceled)
+Siemens SX1
+Samsung SGH-D700[10]
+Samsung SGH-D710[10]
+
+
+
+
+S60 2nd Edition
+2.0
+7.0s
+
+
+Nokia 6600
+Panasonic X700
+Panasonic X800
+Samsung SGH-D720
+Samsung SGH-D728
+Samsung SGH-D730
+Samsung SGH-Z600
+
+
+
+
+S60 2nd Edition,
+Feature Pack 1
+2.1
+7.0s
+
+
+Nokia 3230
+Nokia 6260
+Nokia 6620
+Nokia 6670
+Nokia 7610
+
+
+
+
+S60 2nd Edition,
+Feature Pack 2
+2.6
+8.0a
+
+
+Lenovo P930
+Nokia 6630
+Nokia 6680
+Nokia 6681
+Nokia 6682
+
+
+
+
+S60 2nd Edition,
+Feature Pack 3
+2.8
+8.1a
+
+
+Nokia N70
+Nokia N72
+Nokia N90
+
+
+
+
+S60 3rd Edition
+3.0
+9.1
+
+
+Nokia 3250
+Nokia 5500 Sport
+Nokia E50
+Nokia E60
+Nokia E61
+Nokia E61i
+Nokia E62
+Nokia E65
+Nokia E70
+Nokia N71
+Nokia N73
+Nokia N75
+Nokia N77
+Nokia N80
+Nokia N91
+Nokia N91 8GB
+Nokia N92
+Nokia N93
+Nokia N93i
+Samsung SGH-i570
+
+
+
+
+S60 3rd Edition,
+Feature Pack 1
+3.1
+9.2
+
+
+LG KS10
+LG KT610
+LG KT615
+Nokia 5700 XpressMusic
+Nokia 6110 Navigator
+Nokia 6120 Classic
+Nokia 6121 Classic
+Nokia 6124 classic
+Nokia 6290
+Nokia E51
+Nokia E63
+Nokia E66
+Nokia E71
+Nokia E90 Communicator
+Nokia N76
+Nokia N81
+Nokia N81 8GB
+Nokia N82
+Nokia N95
+Nokia N95 8GB
+Samsung SGH-G810
+Samsung SGH-i400
+Samsung SGH-i408
+Samsung SGH-i450
+Samsung SGH-i458
+Samsung SGH-i520
+Samsung SGH-i550
+Samsung SGH-i550w
+Samsung SGH-i560
+Samsung SGH-i568
+
+
+
+
+S60 3rd Edition,
+Feature Pack 2
+3.2
+9.3
+
+
+Nokia 5320 XpressMusic
+Nokia 5630 XpressMusic
+Nokia 5730 XpressMusic
+Nokia 6210 Navigator
+Nokia 6220 classic
+Nokia 6650 fold
+Nokia 6710 Navigator
+Nokia 6720 classic
+Nokia 6730 classic
+Nokia 6760 slide
+Nokia 6788
+Nokia 6788i
+Nokia 6790 slide
+Nokia 6790 Surge
+Nokia C5-00
+Nokia C5-00 5MP
+Nokia C5-01
+Nokia E5-00
+Nokia E52
+Nokia E55
+Nokia E71x
+Nokia E72
+Nokia E73 Mode
+Nokia E75
+Nokia N78
+Nokia N79
+Nokia N85
+Nokia N86 8MP
+Nokia N96
+Nokia X5-00
+Nokia X5-01
+Samsung GT-i8510 (INNOV8)
+Samsung GT-i7110
+Samsung SGH-L870
+Vertu Constellation Quest
+
+
+
+
+S60 5th Edition
+(Corresponds to Symbian^1)
+5.0
+9.4
+
+
+Nokia 5228
+Nokia 5230
+Nokia 5230 Nuron
+Nokia 5233
+Nokia 5235 Ovi Music Unlimited
+Nokia 5250
+Nokia 5530 XpressMusic
+Nokia 5800 XpressMusic
+Nokia 5800 Navigation Edition
+Nokia C5-03
+Nokia C5-04
+Nokia C5-05
+Nokia C5-06
+Nokia C6-00
+Nokia N97
+Nokia N97 mini
+Nokia X6-00
+Samsung i8910 Omnia HD[9]
+Sony Ericsson Satio
+Sony Ericsson Vivaz
+Sony Ericsson Vivaz Pro
+
+
+
+
+Symbian^2
+[citation needed]
+[citation needed]
+
+
+DoCoMo F-07B (Fujitsu)
+DoCoMo F-08B (Fujitsu)
+DoCoMo F-06B (Fujitsu)
+DoCoMo SH-07B (Sharp)
+
+
+
+
+Symbian^3
+5.2
+9.5
+
+
+Nokia N8-00 (original firmware)
+Nokia E7-00 (original firmware)
+Nokia C7-00 (original firmware)
+Nokia C6-01 (original firmware)
+Nokia C7 Astound (original firmware)
+
+
+
+
+Symbian Anna
+5.2
+9.5
+
+
+Nokia E6-00 (original firmware)
+Nokia X7-00 (original firmware)
+Nokia Oro (original firmware)
+Nokia T7-00 (original firmware)
+Nokia 702T (original firmware)
+Nokia 500 (original firmware)
+Nokia 801T (original firmware)
+Nokia N8-00 (updated firmware)
+Nokia E7-00 (updated firmware)
+Nokia C7-00 (updated firmware)
+Nokia C6-01 (updated firmware)
+Nokia C7 Astound (latest firmware)
+Vertu Constellation (original firmware)
+
+
+
+
+Nokia Belle
+(Renamed from Symbian Belle)
+5.3[11]
+101[12]
+
+
+Nokia 600 (canceled)
+Nokia 700 (original firmware)
+Nokia 701 (original firmware)
+Nokia 603 (original firmware)
+Nokia N8-00 (latest firmware)
+Nokia E7-00 (latest firmware)
+Nokia C7-00 (latest firmware)
+Nokia C6-01 (latest firmware)
+Nokia X7-00 (latest firmware)
+Nokia E6-00 (latest firmware)
+Nokia 500 (latest firmware)
+Nokia Oro (latest firmware)
+Vertu Constellation (latest firmware)
+Vertu Constellation Blue (original firmware)
+Vertu Constellation Quest Blue (original firmware)
+
+
+
+
+Nokia Belle,
+Feature Pack 1
+5.4[13]
+101[12]
+
+
+Nokia 808 PureView
+Nokia 700 (updated firmware)
+Nokia 701 (updated firmware)
+Nokia 603 (updated firmware)
+
+
+
+
+Nokia Belle,
+Feature Pack 2
+5.5[13]
+101[12]
+
+
+Nokia 808 PureView (latest firmware)
+Nokia 700 (latest firmware)
+Nokia 701 (latest firmware)
+Nokia 603 (latest firmware)
+
+
+
+
+Symbian is now progressing through a period of organisational change to metamorph into an open source software platform project. As an OS, Symbian OS originally provided no user interface (UI), the visual layer that runs atop an operating system. This was implemented separately. Examples of Symbian UIs are MOAP; Series 60; Series 80; Series 90 and UIQ. This separation of UI from underlying OS has created both flexibility and some confusion in the market place. The Nokia purchase of Symbian was brokered with the involvement of the other UI developers and all major user interface layers have been (or have been pledged to be) donated to the open source foundation who will independently own the Symbian operating system. The new Symbian Foundation has announced its intent to unify different Symbian UIs into a single UI based on the S60 platform. (Announcements made in March 2009 indicated this would be the S60 5th edition with feature pack 1).
+Symbian Anna[edit]
+On 12 April 2011, Nokia announced Symbian Anna as a software update to the Symbian^3 release. Three new devices (500, X7 and E6) were announced which will have Symbian Anna pre-installed. Symbian Anna will be available as a Software Update for Symbian^3 based devices as well. Most Significant updates that come with "Anna" are
+
+Portrait QWERTY with split-view data entry
+New Icon Set
+New internet browser with an improved user interface, search-integrated address field, faster navigation and page loading.
+Updated Ovi Maps (search public transport, download full country maps via WLAN or Nokia Ovi Suite, check-in to Facebook, Twitter and Foursquare).
+Java Runtime 2.2, Qt Mobility 1.1 and Qt4.7.
+
+Symbian Belle[edit]
+On 24 August 2011, Nokia announced Symbian Belle (later renamed Nokia Belle)[14] as a software update to the Symbian Anna release. Three new devices (603, 700 and 701) [Nokia 600 is cancelled and is replaced with Nokia 603] were announced which will have Symbian Belle pre-installed. Symbian Belle was available as a Software Update for Symbian Anna-based devices as well. Most Significant updates that came with "Belle" were
+
+Free-form, differently-sized, live widgets
+More homescreens
+Improved status bar
+Dropdown menu
+Modernised navigation
+New apps
+Informative lock screen
+NFC devices
+Visual multitasking
+
+Symbian Carla and Donna[edit]
+In November 2011, Nokia announced the Carla and Donna updates. Carla was expected to be released in late 2012 or early 2013 and feature a new web browser, new widgets, new NFC capabilities and Dolby Surround audio enhancement. Donna was going to be a dual-core processor exclusive, and was planned to be released late 2013 or early 2014.[15] In May 2012 a Nokia executive claimed that Carla and Donna were cancelled, and that Nokia would instead only release Belle Feature Pack 2 later in 2012, lacking many of the new features that were planned for Carla and Donna.[16]
+Symbian ends[edit]
+In February 2011, Nokia announced a partnership with Microsoft to adopt Windows Phone 7 as Nokia's primary operating system, leaving further Symbian development in question. Nokia has promised support for Symbian and its newer devices until at least 2016, but no new Symbian devices will be released after Nokia 808 PureView. On 29 April 2011, Nokia announce that it would transfer Symbian activities to Accenture along with 3,000 employees.
+See also[edit]
+
+Sailfish OS, the open source Linux platform based on MeeGo from Jolla, the company which was established by ex-Nokia employees.
+Android OS, a partly open-source mobile platform by Google
+Maemo, Nokia's Debian Linux-based platform
+MOAP, another Symbian-based platform
+Series 40, Nokia's non-Symbian-based platform for mass-market devices.
+Series 80
+Series 90
+UIQ, another Symbian-based platform
+Web Browser for S60
+
+References[edit]
+
+
+
+^ Python for S60, Nokia 
+^ http://www.phonesreview.co.uk/2009/08/05/s60-avkon-api-to-be-replaced-by-ui-toolkit-qt/
+^ Licensees, S60 
+^ Pakalski, Ingo (21 October 2003). "Symbian-Smartphone von Sendo mit Digitalkamera samt Blitz" (in German). Golem.de. Retrieved 15 January 2011. 
+^ S60 5th Edition and the Nokia 5800 XpressMusic are here!, 3rd comment
+^ "is now closed". S60.com. Retrieved 13 March 2011. 
+^ a b Forum Nokia Device Specifications for S60 models(operating system information)
+^ a b Sony Ericsson Satio Press Release (information about S60 version)
+^ a b c Samsung OMNIAHD Dazzles at Mobile World Congress with Its HD Brilliance
+^ a b "Fast moving phone viruses appear". BBC. 30 December 2004. Retrieved 16 January 2011. 
+^ Screenshot with Nokia 600
+^ a b c Z:\resource\versions\platform.txt
+^ a b How well does your browser support HTML5?. HTML5test. Retrieved on 2013-12-08.
+^ Nokia Belle coming soon – Nokia Conversations : the official Nokia blog
+^ http://www.gsmarena.com/symbian_carla_and_donna_to_come_next_but_not_for_everyone-news-3394.php
+^ http://www.itproportal.com/2012/05/25/symbian-carla-cancelled-beginning-of-the-end-for-symbian/
+
+
+
+Symbian Belle
+Symbian Belle – the facts, the features and the pictures
+External links[edit]
+
+
+
+Wikibooks has more on the topic of: S60 (software platform)
+
+
+
+Forum Nokia – S60 developer site
+Forum.Nokia.com – S60 2nd/3rd Edition: Differences in Features v1.5
+Forum Nokia Russia – S60 developer site
+Open Letter from Nokia CEO to Microsoft CEO
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Touch-screen Symbian phones
+
+
+
+Symbian^1 models
+(S60 5.0)
+
+
+
+5230
+5233
+5250
+5530 XpressMusic
+5800 XpressMusic
+C5-03
+C6-00
+N97
+N97 Mini
+X6-00
+i8910 Omnia HD
+Satio
+Vivaz
+Vivaz Pro
+
+
+
+
+
+Symbian^2 models
+
+
+
+Fujitsu: DoCoMo F-06B
+DoCoMo F-07B
+DoCoMo F-08B
+F-10B
+Raku-Raku Phone 7 / Sharp: DoCoMo SH-07B
+
+
+
+
+
+Symbian^3 models
+(S60 5.2)
+
+
+
+C6-01
+C7-00
+C7 Astound
+E7-00
+N8-00
+
+
+
+
+
+Symbian Anna models
+(S60 5.2)
+
+
+
+500
+702T
+801T
+E6-00
+Oro
+T7-00
+X7-00
+
+
+
+
+
+Symbian Belle models
+(S60 5.3)
+
+
+
+600
+603
+700
+701
+
+
+
+
+
+Symbian Belle FP1 models
+(S60 5.4)
+
+
+
+808 PureView
+
+
+
+
+
+Device manufacturers
+
+
+
+Fujitsu
+Nokia
+Samsung
+Sharp
+Sony Ericsson
+
+
+
+
+
+Related
+
+
+
+Comparison of Symbian devices
+MOAP
+S60
+Symbian Foundation
+Symbian Ltd.
+UIQ
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Nokia platforms
+
+
+
+Operating Systems
+
+
+
+Symbian
+Maemo
+MeeGo
+Nokia Asha Platform
+Nokia X Platform
+Smart Feature OS
+
+
+
+
+
+Software frameworks
+
+
+
+Series 30
+Series 30+
+Series 40
+Series 60 (N-Gage)
+Series 80
+Series 90
+
+
+
+
+
+Related Articles
+
+
+
+Accredited Symbian Developer
+Carbide.c++
+Symbian Foundation
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Nokia-branded mobile devices
+
+
+
+Nokia 1000 series
+
+
+
+1011
+1100/1101
+1110/1110i
+1112
+1200
+1202
+1208
+1280
+1600
+1610
+1616
+1650
+1661
+1680 classic
+1800
+
+
+
+
+
+Nokia 2000 series
+
+
+
+2010
+2110i
+2115i
+2310
+2600
+2600 classic
+2610
+2630
+2650
+2651
+2680 slide
+2690
+2700 classic
+2730 classic
+2760
+
+
+
+
+
+Nokia 3000 series
+
+
+
+3100/3100b/3105/3120
+3110
+3110 classic
+3120 classic
+3155
+3200/3200b/3205
+3210
+3220
+3230
+3250
+3300
+3310
+3310 (2017) (3310 3G/3310 4G)2
+3315
+3320
+3330
+3410
+3510 (3510i/3530/3590/3595)
+3500 classic
+3650 (3620/3660)
+3600 slide
+3710 fold
+3720 classic
+
+
+
+
+
+Nokia 5000 series
+
+
+
+5070
+5100
+5110
+5130 XpressMusic
+5200
+5210
+5220
+5230
+5233
+5250
+5300 XpressMusic
+5310 XpressMusic
+5320
+5330 Mobile TV Edition
+5500 Sport
+5510
+5530 XpressMusic
+5610
+5630
+5700
+5730
+5800 XpressMusic
+
+
+
+
+
+Nokia 6000 series
+
+
+
+6010
+6020/6021
+6030
+6070
+6080
+6085
+6100
+6101
+6103
+6110/6120
+6110 Navigator2
+6111
+6120/6121/6124 classic
+6131/6133
+6136
+6151
+6170
+6210
+6210 Navigator
+6220 classic
+6230
+6230i
+6233/6234
+6250
+6255i
+6260 Slide
+6263
+6265
+6270
+6275i
+6280/6288
+6290
+6300
+6300i
+6301
+6303 classic
+6310i
+6315i
+6500 classic
+6500 slide
+6510
+6555
+6600
+6600 fold
+6600 slide
+6610i
+6620
+6630
+6650
+6650 fold
+6670
+6680
+6681/6682
+6700 classic
+6700 slide
+6710 Navigator
+6720 classic
+6730
+6760 Slide
+6800
+6810
+6820
+6822
+
+
+
+
+
+Nokia 7000 series
+
+
+
+7110
+7160
+7210
+7230
+7250
+7280
+7360
+7370
+7373
+7380
+7390
+7500 Prism
+7510 Supernova
+7600
+7610
+7650
+7700
+7710
+7900 Prism
+7900 Crystal Prism
+
+
+
+
+
+Nokia 8000 series
+
+
+
+8110
+8110 4G2
+8210
+8250
+8310
+8600 Luna
+8800 Sirocco/Arte/Sapphire Arte/Carbon Arte/Gold Arte
+8810
+8850
+8910
+
+
+
+
+
+Nokia 9000 series
+(Nokia Communicator)
+
+
+
+9000
+9000i
+9110
+9110i
+9210
+9210i
+9290
+9300
+9300i
+9500
+
+
+
+
+
+Nokia 3-digit series
+(feature phone)
+
+
+
+100
+101
+103
+105
+105 (2015)1
+105 (2017)2
+106
+107
+108
+109
+110
+111
+112
+113
+114
+1301
+130 (2017)2
+1502
+206
+207
+208
+2151
+220
+2221
+225
+2301
+301
+515
+
+
+
+
+
+Nokia Asha
+
+
+
+Asha 200/201
+Asha 202
+Asha 203
+Asha 205
+Asha 210
+Asha 300
+Asha 302
+Asha 303
+Asha 305
+Asha 306
+Asha 308
+Asha 309
+Asha 310
+Asha 311
+
+
+
+
+
+Nokia Asha (Nokia Asha platform)
+
+
+
+Asha 230
+Asha 500
+Asha 501
+Asha 502
+Asha 503
+
+
+
+
+
+Nokia Cseries
+
+
+
+C1-00
+C1-01
+C1-02
+C2-00
+C2-01
+C2-02
+C2-03
+C2-05
+C2-06
+C3
+C3-01
+C5-00
+C5-03
+C6-00
+C6-01
+C7-00
+
+
+
+
+
+Nokia Eseries
+
+
+
+E5
+E50
+E51
+E52
+E55
+E6
+E60
+E61/E61i
+E62
+E63
+E65
+E66
+E7
+E70
+E71
+E72
+E73
+E75
+E90 Communicator
+
+
+
+
+
+Nokia Nseries
+
+
+
+N70
+N71
+N72
+N73
+N75
+N76
+N77
+N78
+N79
+N8
+N80
+
+Internet Edition
+
+
+N81
+
+N81 8GB
+
+
+N82
+N85
+N86 8MP
+N9
+N90
+N91
+
+N91 8GB
+
+
+N92
+N93
+N93i
+N95
+N95 8GB
+N96
+N97
+N97 mini
+
+
+
+
+Tablet
+
+
+
+N800
+N810
+
+WiMAX Edition
+
+
+N900
+N950
+
+
+
+
+
+
+
+
+Nokia Xseries
+
+
+
+X1-00
+X1-01
+X2-00
+X2-02
+X2-05
+X3-00
+X3-02
+X5
+X5-01
+X6
+X7-00
+
+
+
+
+
+Nokia 3-digit series
+(Symbian phone)
+
+
+
+500
+600
+603
+700
+701
+808 PureView
+
+
+
+
+
+Lumia
+
+
+
+Lumia 505
+Lumia 510
+Lumia 520
+Lumia 525
+Lumia 5301
+Lumia 610
+Lumia 620
+Lumia 625
+Lumia 630
+Lumia 635
+Lumia 6381
+Lumia 710
+Lumia 720
+Lumia 7301
+Lumia 7351
+Lumia 800
+Lumia 810
+Lumia 820
+Lumia 822
+Lumia 8301
+Lumia 900
+Lumia 920
+Lumia 925
+Lumia 928
+Lumia Icon
+Lumia 9301
+Lumia 1020
+Lumia 1320
+Lumia 1520
+
+
+
+
+Tablet
+
+
+
+Lumia 2520
+
+
+
+
+
+
+
+
+Nokia Internet Tablet
+
+
+
+N1
+770
+N800
+N810
+WiMAX Edition
+N900
+N950
+
+
+
+
+
+N-Gage
+
+
+
+Classic
+QD
+QD Silver Edition
+
+
+
+
+
+Nokia X family
+
+
+
+X
+X+
+XL
+X21
+XL 4G1
+
+
+
+
+
+Single-digit
+
+
+
+12
+22
+32
+52
+62
+6 (2018)2
+72
+7 plus2
+82
+8 Sirocco2
+
+
+
+
+
+Nokia Originals
+
+
+
+3310 (2017) (3310 3G/3310 4G)2
+8110 4G2
+
+
+
+
+
+Concept
+
+
+
+Nokia Morph
+
+
+
+
+
+
+1 Developed by Microsoft Mobile
+2 Developed by HMD Global
+
+List of Nokia products
+Nokia phone series
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=S60_(software_platform)&oldid=823535913"					
+				Categories: S60 (software platform)Nokia platformsSmartphonesSoftware that uses QtHidden categories: CS1 German-language sources (de)Use dmy dates from September 2013All articles with unsourced statementsArticles with unsourced statements from June 2010				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					ČeštinaDeutschEspañolفارسیItalianoLatviešuМакедонски日本語PolskiPortuguêsРусскийSuomiSvenskaTürkçe中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 1 February 2018, at 21:09.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.284","walltime":"0.357","ppvisitednodes":{"value":1616,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":92484,"limit":2097152},"templateargumentsize":{"value":1399,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":10830,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  231.217      1 -total"," 31.47%   72.757      1 Template:Reflist"," 23.22%   53.679      2 Template:Citation_needed"," 21.57%   49.872      2 Template:Fix"," 18.02%   41.663      5 Template:Navbox"," 16.30%   37.692      2 Template:Citation"," 13.69%   31.649      4 Template:Category_handler"," 13.10%   30.289      1 Template:Use_dmy_dates"," 12.68%   29.328      1 Template:Nokia_phones","  6.43%   14.872      2 Template:Delink"]},"scribunto":{"limitreport-timeusage":{"value":"0.087","limit":"10.000"},"limitreport-memusage":{"value":3631641,"limit":52428800}},"cachereport":{"origin":"mw1271","timestamp":"20180329012610","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":83,"wgHostname":"mw1241"});});
+	
+

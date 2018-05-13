@@ -1,0 +1,367 @@
+
+
+
+
+Guido van Rossum - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Guido_van_Rossum","wgTitle":"Guido van Rossum","wgCurRevisionId":830571807,"wgRevisionId":830571807,"wgArticleId":226402,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from January 2017","Articles with hCards","All articles with unsourced statements","Articles with unsourced statements from March 2018","Wikipedia articles needing clarification from April 2016","Wikipedia articles with VIAF identifiers","Wikipedia articles with LCCN identifiers","Wikipedia articles with ISNI identifiers","Wikipedia articles with GND identifiers","Wikipedia articles with DBLP identifiers","Wikipedia articles with ACM-DL identifiers","1956 births","Living people","Dutch computer programmers","Dutch emigrants to the United States","Programming language designers","Google employees","Free software programmers","Computer programmers","Web developers","Dutch computer scientists","Python (programming language)","University of Amsterdam alumni","People from Haarlem","Members of the Open Source Initiative board of directors","People from Belmont, California","Python people"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Guido_van_Rossum","wgRelevantArticleId":226402,"wgRequestId":"WsC3KQpAAEEAACHSSY4AAACI","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q30942","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Guido van Rossum			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+Guido van Rossum
+
+
+
+Guido van Rossum at the Dropbox headquarters in 2014
+
+
+
+Born
+(1956-01-31) 31 January 1956 (age 62)[1]
+Haarlem, Netherlands[2][3]
+
+
+Residence
+Belmont, California, U.S.
+
+
+Nationality
+Dutch
+
+
+Alma mater
+University of Amsterdam
+
+
+Occupation
+Computer programmer, author
+
+
+Employer
+Dropbox[4]
+
+
+Known for
+Creating the Python programming language
+
+
+Spouse(s)
+Kim Knapp (m. 2000)
+
+
+Children
+Orlijn Michiel Knapp-van Rossum[5]
+
+
+Awards
+Award for the Advancement of Free Software (2001)
+
+
+Website
+www.python.org/~guido/
+
+
+Guido van Rossum (Dutch pronunciation: [ˈɣido vɑn ˈrɔsʏm, -səm], born 31 January 1956) is a Dutch programmer best known as the author of the Python programming language, for which he is the "Benevolent Dictator For Life" (BDFL), which means he continues to oversee Python development, making decisions when necessary.[6] From 2005 to December 2012, he worked at Google, where he spent half of his time developing the Python language. In January 2013, he started working for Dropbox.[4]
+
+
+
+Contents
+
+
+1 Education and life
+2 Work
+
+2.1 Python
+2.2 Computer Programming for Everybody
+2.3 Mondrian
+2.4 Dropbox
+
+
+3 Awards
+4 References
+5 External links
+
+
+
+Education and life[edit]
+Van Rossum was born and raised in the Netherlands, where he received a master's degree in mathematics and computer science from the University of Amsterdam in 1982. He has a brother, Just van Rossum, who is a type designer and programmer who designed the typeface used in the "Python Powered" logo.[citation needed]
+Guido lives in Belmont, California, with his wife, Kim Knapp,[7] and their son.[8][9][10] According to his home page, the "van" in his name is capitalized when he is referred to by surname alone, but not when using his first and last name together.[11]
+Work[edit]
+While working at the Centrum Wiskunde & Informatica (CWI), Van Rossum wrote and contributed a glob() routine to BSD Unix in 1986[12][13] and helped develop the ABC programming language. He once stated, "I try to mention ABC's influence because I'm indebted to everything I learned during that project and to the people who worked on it."[14] He also created Grail, an early web browser written in Python, and engaged in discussions about the HTML standard.[15]
+He has worked for various research institutes, including the Centrum Wiskunde & Informatica (CWI) in the Netherlands, the U.S. National Institute of Standards and Technology (NIST), and the Corporation for National Research Initiatives (CNRI).
+Python[edit]
+
+
+
+
+Van Rossum at the 2008 Google I/O Developer's Conference.
+
+
+
+
+
+
+Van Rossum at the 2006 O'Reilly Open Source Convention (OSCON)
+
+
+In December 1989, Van Rossum had been looking for a "'hobby' programming project that would keep [him] occupied during the week around Christmas" as his office was closed when he decided to write an interpreter for a "new scripting language [he] had been thinking about lately: a descendant of ABC that would appeal to Unix/C hackers". He attributes choosing the name "Python" to "being in a slightly irreverent mood (and [being] a big fan of Monty Python's Flying Circus)".[16]
+He has explained that Python's predecessor, ABC, was inspired by SETL, noting that ABC co-developer Lambert Meertens had "spent a year with the SETL group at NYU before coming up with the final ABC design".[17]
+Computer Programming for Everybody[edit]
+In 1999, Van Rossum submitted a funding proposal to DARPA called Computer Programming for Everybody, in which he further defined his goals for Python:
+
+An easy and intuitive language just as powerful as major competitors
+Open source, so anyone can contribute to its development
+Code that is as understandable as plain English
+Suitability for everyday tasks, allowing for short development times
+
+Python has grown to become a popular programming language. As of October 2017, it was the second most popular language on GitHub, a social coding website, behind Javascript and ahead of Java.[18] According to a programming language popularity survey[19] it is consistently amongst the top 10 most mentioned languages in job postings. Furthermore, Python is consistently[clarification needed] in the top 10 most popular languages according to the TIOBE Programming Community Index.[20]
+Mondrian[edit]
+Not to be confused with Mondrian (software), data visualisation software, or Mondrian OLAP server.
+At Google, Van Rossum developed Mondrian, a web-based code review system written in Python and used within the company. He named the software after the Dutch painter Piet Mondrian.[21] He named another related software project after Gerrit Rietveld, a Dutch designer.[22]
+Dropbox[edit]
+In 2013, Van Rossum started working at the cloud file storage company Dropbox.[23]
+Awards[edit]
+
+At the 2002 FOSDEM conference in Brussels, Van Rossum received the 2001 Award for the Advancement of Free Software from the Free Software Foundation (FSF) for his work on Python.
+In May 2003, he received a NLUUG Award.[24]
+In 2006, he was recognized as a Distinguished Engineer by the Association for Computing Machinery.
+In 2018, he was made Fellow of the Computer History museum.[25]
+
+References[edit]
+
+
+^ van Rossum, Guido (31 January 2007). "(Python-Dev) Happy Birthday, Guido!". Python-Dev mailing list. Archived from the original on 8 September 2009. 
+^ "Old interview – Guido van Rossum". Archived from the original on 2 February 2014. Retrieved 28 January 2014. I only took some time to visit my family in Haarlem. 
+^ "Schoolbank profile". Archived from the original on 19 February 2014. Retrieved 28 January 2014. 
+^ a b Constine, Josh. "Dropbox Hires Away Google's Guido van Rossum, The Father Of Python". Techcrunch. Archived from the original on 9 December 2012. Retrieved 7 December 2012. 
+^ "Guido van Rossum". CodeCall Programming Wiki. Archived from the original on 31 October 2008. 
+^ "Benevolent dictator for life". Linux Format. 1 February 2005. Archived from the original on 1 October 2006. Retrieved 1 November 2007. 
+^ Manheimer, Ken (6 June 2000). "(Python-Dev) Guido and Kim married". Python-Dev -- Python core developers. Archived from the original on 28 September 2010. 
+^ "Guido van Rossum - Brief Bio". Archived from the original on 19 August 2014. 
+^ "(Mailman-Announce) forwarded message from Guido van Rossum". Archived from the original on 27 May 2008. Oh, and to top it all off, I'm going on vacation. I'm getting married and will be relaxing on my honeymoon. 
+^ van Rossum, Guido. "What's New in Python?" (PDF). "Not your usual list of new features". Stanford CSL Colloquium, 29 October 2003; BayPiggies, 13 November 2003. Elemental Security. Archived (PDF) from the original on 27 June 2010. 
+^ van Rossum, Guido. "Guido's Personal Home Page". Retrieved 2 Feb 2018. 
+^ "'Globbing' library routine". Archived from the original on 19 December 2007. 
+^ "File::Glob - Perl extension for BSD glob routine". metacpan.org. Archived from the original on 7 August 2013. 
+^ Venners, Bill. "The Making of Python". www.artima.com. Archived from the original on 1 September 2016. Retrieved 14 September 2016. 
+^ "Re: xmosaic experience". Archived from the original on 28 August 2016. 
+^ "Foreword for "Programming Python" (1st ed.)". Archived from the original on 24 July 2014. 
+^ "Python-Dev] SETL (was: Lukewarm about range literals)". Archived from the original on 14 May 2011. 
+^ Weinberger, Matt (11 October 2017). "The 15 most popular programming languages, according to the 'Facebook for programmers'". Business Insider. Retrieved 22 January 2018. 
+^ "Programming Language Popularity". Archived from the original on 12 April 2015. 
+^ "TIOBE Programming Community Index for November 2011". November 2011. Archived from the original on 27 May 2012. 
+^ van Rossum, Guido (May 2008). "An Open Source App: Rietveld Code Review Tool". Archived from the original on 17 October 2015. Retrieved 24 August 2012. ... the internal web app, which I code-named Mondrian after one of my favorite Dutch painters 
+^ "An Open Source App: Rietveld Code Review Tool". Archived from the original on 17 October 2015. 
+^ "Welcome Guido!". Dropbox Tech Blog. 7 December 2012. Archived from the original on 7 September 2013. Retrieved 6 September 2013. 
+^ "Guido van Rossum Ontvangt NLUUG Award". NLUUG. 28 May 2003. Retrieved 22 January 2018. 
+^ "Guido van Rossum | Computer History Museum". www.computerhistory.org. 
+
+
+External links[edit]
+
+
+Free software portal
+
+
+
+
+
+Wikimedia Commons has media related to Guido van Rossum.
+
+
+
+Official website
+The History of Python Guido's blog on the History of Python and design decisions
+Computer Programming for Everybody
+Interview with Guido van Rossum on FLOSS Weekly
+Guido van Rossum Guido's interview on Workspiration
+Computerworld Interview with Guido van Rossum on Python
+Google App Engine — Run your web applications on Google's infrastructure — technical talk on Google App Engine given by Guido van Rossum at Stanford University. (online video archive)
+
+
+
+
+Authority control
+
+
+
+WorldCat Identities
+VIAF: 28799390
+LCCN: n96080557
+ISNI: 0000 0000 3539 3853
+GND: 1067604243
+DBLP: r/GvRossum
+ACM DL: 81341495956
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Guido_van_Rossum&oldid=830571807"					
+				Categories: 1956 birthsLiving peopleDutch computer programmersDutch emigrants to the United StatesProgramming language designersGoogle employeesFree software programmersComputer programmersWeb developersDutch computer scientistsPython (programming language)University of Amsterdam alumniPeople from HaarlemMembers of the Open Source Initiative board of directorsPeople from Belmont, CaliforniaPython peopleHidden categories: Use dmy dates from January 2017Articles with hCardsAll articles with unsourced statementsArticles with unsourced statements from March 2018Wikipedia articles needing clarification from April 2016Wikipedia articles with VIAF identifiersWikipedia articles with LCCN identifiersWikipedia articles with ISNI identifiersWikipedia articles with GND identifiersWikipedia articles with DBLP identifiersWikipedia articles with ACM-DL identifiers				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia Commons				
+							
+		
+			
+			Languages
+			
+								
+					العربيةবাংলাБългарскиCatalàЧӑвашлаČeštinaDanskDeutschEestiEspañolEuskaraفارسیFrançais한국어ՀայերենBahasa IndonesiaItalianoMagyarMalagasyമലയാളംBahasa MelayuNederlands日本語PolskiPortuguêsРусскийSlovenčinaСрпски / srpskiSuomiSvenskaதமிழ்TürkçeУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 15 March 2018, at 17:12.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.384","walltime":"0.471","ppvisitednodes":{"value":2486,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":58397,"limit":2097152},"templateargumentsize":{"value":3239,"limit":2097152},"expansiondepth":{"value":13,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":26983,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  430.567      1 -total"," 38.53%  165.903      1 Template:Reflist"," 26.40%  113.666      1 Template:Infobox_person"," 25.63%  110.354     20 Template:Cite_web"," 18.03%   77.624      1 Template:Infobox","  8.41%   36.197      1 Template:Cn","  7.54%   32.468      1 Template:Fix","  6.46%   27.813      5 Template:Br_separated_entries","  5.67%   24.427      1 Template:Use_dmy_dates","  5.50%   23.669      5 Template:Cite_news"]},"scribunto":{"limitreport-timeusage":{"value":"0.199","limit":"10.000"},"limitreport-memusage":{"value":6270537,"limit":52428800}},"cachereport":{"origin":"mw1250","timestamp":"20180401103823","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":78,"wgHostname":"mw1270"});});
+	
+

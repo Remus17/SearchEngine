@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6.1.2 The Publishing Algorithm
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1.1 Introduction
+Up:
+6.1 Publisher Handler
+Next:
+6.1.2.1 Traversal
+
+
+
+
+ 
+
+6.1.2 The Publishing Algorithm
+
+
+
+The Publisher handler maps a URI directly to a Python variable or
+callable object, then, respectively, returns it's string
+representation or calls it returning the string representation of the
+return value.
+
+
+
+
+
+Subsections
+
+
+6.1.2.1 Traversal
+6.1.2.2 Argument Matching and Invocation
+6.1.2.3 Authentication
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1.1 Introduction
+Up:
+6.1 Publisher Handler
+Next:
+6.1.2.1 Traversal
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

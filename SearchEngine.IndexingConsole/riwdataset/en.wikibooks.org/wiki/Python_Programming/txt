@@ -1,0 +1,344 @@
+
+
+
+
+Python Programming - Wikibooks, open books for an open world
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_Programming","wgTitle":"Python Programming","wgCurRevisionId":3399464,"wgRevisionId":3399464,"wgArticleId":1672,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Books with print version","Books with PDF version","Subject:Python programming language/all books","Subject:Computer programming languages/all books","Subject:Computer programming/all books","Subject:Computer science/all books","Subject:Computing/all books","Subject:Books by subject/all books","Alphabetical/P","Books nearing completion","Books by completion status/all books","Book:Python Programming","Subject:Python programming language"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_Programming","wgRelevantArticleId":1672,"wgRequestId":"WsI67wpAADkAAA1gyzAAAAEL","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"value":{"levels":3,"quality":2,"pristine":3}}},"wgStableRevisionId":3399464,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":false,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgULSCurrentAutonym":"English","wgNoticeProject":"wikibooks","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q28865","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.inputBox.styles":"ready","mediawiki.ui.input":"ready","mediawiki.ui.checkbox":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.flaggedRevs.basic":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.ui.button":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.wikidialog","ext.gadget.commons-file","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.flaggedRevs.advanced","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Python Programming			
+				From Wikibooks, open books for an open world				
+								
+					Jump to:					navigation, 					search
+				
+				This book describes Python, an open-source general-purpose interpreted programming language available for a broad range of operating systems. There are currently three major implementations: the standard implementation written in C, Jython written in Java, and IronPython written in C# for the .NET environment. There are two common versions currently in use: 2.x and 3.x. This book describes primarily version 2, but does at times reference changes in version 3.
+Contents[edit]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Intro[edit]
+
+
+
+
+A printable version of Python Programming is available. (edit it)
+
+
+
+
+
+
+
+A PDF version is available. (info)
+
+
+
+
+
+
+
+An E-Book Reader optimized PDF Version is available.
+
+
+
+
+Overview 
+Getting Python 
+Setting it up
+Interactive mode 
+Self Help 
+
+Basics[edit]
+
+Creating Python programs 
+Variables and Strings 
+Basic syntax 
+Sequences  (Strings, Lists, Tuples, Dictionaries, Sets)
+Data types 
+
+Numbers 
+Strings 
+Lists 
+Tuples 
+Dictionaries 
+Sets 
+
+
+Basic Math  -- redundant to "Operators"
+Operators 
+Control Flow 
+Decision Control 
+
+Conditional Statements 
+Loops 
+
+
+Functions 
+Scoping 
+Input and output 
+Files 
+Text 
+Modules 
+Classes 
+Exceptions 
+Errors 
+Source Documentation and Comments 
+Idioms 
+
+Advanced[edit]
+
+Decorators 
+Context Managers 
+Reflection 
+Metaclasses 
+Namespace 
+Performance
+Tips and Tricks 
+
+Modules[edit]
+Standard library modules[edit]
+
+Standard Library 
+Regular Expression 
+External commands
+XML Tools 
+Email 
+Threading 
+Sockets 
+GUI Programming 
+Tkinter
+CGI interface 
+WSGI web programming 
+Extracting info from web pages 
+Internet 
+Networks 
+Math
+
+Third-party modules[edit]
+
+Databases -- to be merged with the following chapter
+Database Programming 
+numpy
+Game Programming in Python 
+Qt4 
+Dbus 
+pyFormex
+matplotlib
+Sorted Container Types
+Excel
+MS Word
+
+Writing extension modules[edit]
+
+Extending with C 
+Extending with C++ 
+Extending with Pyrex 
+Extending with ctypes 
+Extending with Perl 
+
+Appendices[edit]
+
+Popularity
+Links
+Authors
+Keywords
+Builtins
+Library Modules
+Naming conventions
+
+Other[edit]
+
+Easter Eggs
+
+See also[edit]
+
+
+
+
+Wikiversity has learning materials about Python
+
+
+
+
+Non-Programmer's Tutorial for Python 2.6
+Non-Programmer's Tutorial for Python 3
+Python as a scripting language in GIMP
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikibooks.org/w/index.php?title=Python_Programming&oldid=3399464"					
+				Subjects: Book:Python ProgrammingSubject:Python programming languageHidden categories: Books with print versionBooks with PDF versionSubject:Python programming language/all booksSubject:Computer programming languages/all booksSubject:Computer programming/all booksSubject:Computer science/all booksSubject:Computing/all booksSubject:Books by subject/all booksAlphabetical/PBooks nearing completionBooks by completion status/all books				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inDiscussion for this IP addressContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							BookDiscussion						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main PageHelpBrowseCookbookWikijuniorFeatured booksRecent changesDonationsRandom bookUsing Wikibooks				
+							
+		
+			
+			Community
+			
+								
+					Reading roomCommunity portalBulletin BoardHelp out!Policies and guidelinesContact us				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			In other languages
+			
+								
+					العربيةবাংলাDeutschEspañolEestiSuomiFrançaisGalegoעבריתÍslenskaItaliano日本語LietuviųMalagasyNederlandsPolskiPortuguêsРусскийTürkçeУкраїнська中文				
+				Edit links			
+		
+			
+			Sister projects
+			
+								
+					WikipediaWikiversityWiktionaryWikiquoteWikisourceWikinewsWikivoyageCommonsWikidata				
+							
+		
+			
+			Print/export
+			
+								
+					Create a collectionDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia CommonsWikipediaWikiquoteWikiversity				
+							
+		
+				
+		
+				
+						
+								 This page was last edited on 2 April 2018, at 14:09.
+								Text is available under the Creative Commons Attribution-ShareAlike License.; additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+							
+						
+								Privacy policy
+								About Wikibooks
+								Disclaimers
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.168","walltime":"0.225","ppvisitednodes":{"value":3585,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":39639,"limit":2097152},"templateargumentsize":{"value":5008,"limit":2097152},"expansiondepth":{"value":36,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":486,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  124.507      1 -total"," 62.25%   77.504      1 Template:Subjects"," 44.61%   55.544      1 Template:Subjects/leaf"," 43.27%   53.870      1 Template:Subjects/0"," 30.00%   37.347      2 Template:Subjects/1"," 24.63%   30.660      2 Template:Subjects/2"," 20.94%   26.068     16 Template:Parsable"," 19.09%   23.774      4 Template:Subjects/3"," 16.67%   20.755      8 Template:Subjects/allbooks"," 12.60%   15.686      1 Template:BOOKPAGENAME"]},"scribunto":{"limitreport-timeusage":{"value":"0.003","limit":"10.000"},"limitreport-memusage":{"value":539771,"limit":52428800}},"cachereport":{"origin":"mw1221","timestamp":"20180402140902","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":85,"wgHostname":"mw1262"});});
+	
+

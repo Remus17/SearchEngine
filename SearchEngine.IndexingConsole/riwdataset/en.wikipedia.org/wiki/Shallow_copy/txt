@@ -1,0 +1,283 @@
+
+
+
+
+Object copying - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Object_copying","wgTitle":"Object copying","wgCurRevisionId":831251333,"wgRevisionId":831251333,"wgArticleId":230418,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles needing clarification from November 2017","Object (computer science)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Object_copying","wgRelevantArticleId":230418,"wgRequestId":"WsIp@gpAAEIAABU6VB0AAABG","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Shallow_copy","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/Object_copying#Shallow_copy","wgWikibaseItemId":"Q1551768","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Object copying			
+				From Wikipedia, the free encyclopedia				  (Redirected from Shallow copy)
+								
+					Jump to:					navigation, 					search
+				
+				In object-oriented programming, object copying is creating a copy of an existing object, a unit of data in object-oriented programming. The resulting object is called an object copy or simply copy of the original object. Copying is basic but has subtleties and can have significant overhead. There are several ways to copy an object, most commonly by a copy constructor or cloning. Copying is done mostly so the copy can be modified or moved, or the current value preserved. If either of these is unneeded, a reference to the original data is sufficient and more efficient, as no copying occurs.
+Objects in general store composite data. While in simple cases copying can be done by allocating a new, uninitialized object and copying all fields (attributes) from the original object, in more complex cases this does not result in desired behavior.
+
+
+
+Contents
+
+
+1 Methods of copying
+
+1.1 Shallow copy
+1.2 Deep copy
+1.3 Combination
+
+
+2 Implementation
+
+2.1 Lazy copy
+2.2 In Java
+2.3 In Eiffel
+2.4 In other languages
+
+
+3 See also
+4 Notes
+5 References
+
+
+
+Methods of copying[edit]
+The design goal of most objects is to give the resemblance of being made out of one monolithic block even though most are not. As objects are made up of several different parts, copying becomes nontrivial. Several strategies exist to treat this problem.
+Consider an object A, which contains fields xi (more concretely, consider if A is a string and xi is an array of its characters). There are different strategies for making a copy of A, referred to as shallow copy and deep copy. Many languages allow generic copying by one or either strategy, defining either one copy operation or separate shallow copy and deep copy operations.[1] Note that even shallower is to use a reference to the existing object A, in which case there is no new object, only a new reference.
+The terminology of shallow copy and deep copy dates to Smalltalk-80.[2] The same distinction holds for comparing objects for equality: most basically there is a difference between identity (same object) and equality (same value), corresponding to shallow equality and (1 level) deep equality of two object references, but then further whether equality means comparing only the fields of the object in question or dereferencing some or all fields and comparing their values in turn (e.g., are two linked lists equal if they have the same nodes, or if they have same values?).[clarification needed]
+Shallow copy[edit]
+One method of copying an object is the shallow copy. In that case a new object B is created, and the fields values of A are copied over to B.[3][4][5][6] This is also known as a field-by-field copy,[7][8][9] field-for-field copy, or field copy.[10] If the field value is a reference to an object (e.g., a memory address) it copies the reference, hence referring to the same object as A does, and if the field value is a primitive type it copies the value of the primitive type. In languages without primitive types (where everything is an object), all fields of the copy B are references to the same objects as the fields of original A. The referenced objects are thus shared, so if one of these objects is modified (from A or B), the change is visible in the other. Shallow copies are simple and typically cheap, as they can be usually implemented by simply copying the bits exactly.
+Deep copy[edit]
+
+
+
+
+A deep copy in progress.
+
+
+
+A deep copy having been completed.
+
+
+
+
+An alternative is a deep copy, meaning that fields are dereferenced: rather than references to objects being copied, new copy objects are created for any referenced objects, and references to these placed in B. The result is different from the result a shallow copy gives in that the objects referenced by the copy B are distinct from those referenced by A, and independent. Deep copies are more expensive, due to needing to create additional objects, and can be substantially more complicated, due to references possibly forming a complicated graph.
+Combination[edit]
+In more complex cases, some fields in a copy should have shared values with the original object (as in a shallow copy), corresponding to an "association" relationship; and some fields should have copies (as in a deep copy), corresponding to an "aggregation" relationship. In these cases a custom implementation of copying is generally required; this issue and solution dates to Smalltalk-80.[11] Alternatively, fields can be marked as requiring a shallow copy or deep copy, and copy operations automatically generated (likewise for comparison operations).[1] This is not implemented in most object-oriented languages, however, though there is partial support in Eiffel.[1]
+Implementation[edit]
+Nearly all object-oriented programming languages provide some way to copy objects. As most languages do not provide most objects for programs, a programmer must define how an object should be copied, just as they must define if two objects are identical or even comparable in the first place. Many languages provide some default behavior.
+How copying is solved varies from language to language, and what concept of an object it has.
+Lazy copy[edit]
+A lazy copy is an implementation of a deep copy. When initially copying an object, a (fast) shallow copy is used. A counter is also used to track how many objects share the data. When the program wants to modify an object, it can determine if the data is shared (by examining the counter) and can do a deep copy if needed.
+Lazy copy looks to the outside just as a deep copy, but takes advantage of the speed of a shallow copy whenever possible. The downside are rather high but constant base costs because of the counter. Also, in certain situations, circular references can cause problems.
+Lazy copy is related to copy-on-write.
+In Java[edit]
+The following presents examples for one of the most widely used object-oriented languages, Java, which should cover nearly every way that an object-oriented language can treat this problem.
+Unlike in C++, objects in Java are always accessed indirectly through references. Objects are never created implicitly but instead are always passed or assigned by a reference variable. (Methods in Java are always pass by value, however, it is the value of the reference variable that is being passed.)[12] The Java Virtual Machine manages garbage collection so that objects are cleaned up after they are no longer reachable. There is no automatic way to copy any given object in Java.
+Copying is usually performed by a clone() method of a class. This method usually, in turn, calls the clone() method of its parent class to obtain a copy, and then does any custom copying procedures. Eventually this gets to the clone() method of Object (the uppermost class), which creates a new instance of the same class as the object and copies all the fields to the new instance (a "shallow copy"). If this method is used, the class must implement the Cloneable marker interface, or else it will throw a CloneNotSupportedException. After obtaining a copy from the parent class, a class' own clone() method may then provide custom cloning capability, like deep copying (i.e. duplicate some of the structures referred to by the object) or giving the new instance a new unique ID.
+The return type of clone() is Object, but implementers of a clone method could write the type of the object being cloned instead due to Java's support for covariant return types. One advantage of using clone() is that since it is an overridable method, we can call clone() on any object, and it will use the clone() method of its class, without the calling code needing to know what that class is (which would be needed with a copy constructor).
+A disadvantage is that one often cannot access the clone() method on an abstract type. Most interfaces and abstract classes in Java do not specify a public clone() method. Thus, often the only way to use the clone() method is if the class of an object is known, which is contrary to the abstraction principle of using the most generic type possible. For example, if one has a List reference in Java, one cannot invoke clone() on that reference because List specifies no public clone() method. Implementations of List like ArrayList and LinkedList all generally have clone() methods, but it is inconvenient and bad abstraction to carry around the class type of an object.
+Another way to copy objects in Java is to serialize them through the Serializable interface. This is typically used for persistence and wire protocol purposes, but it does create copies of objects and, unlike clone, a deep copy that gracefully handles cycled graphs of objects is readily available with minimal effort from a programmer.
+Both of these methods suffer from a notable problem: the constructor is not used for objects copied with clone or serialization. This can lead to bugs with improperly initialized data, prevents the use of final member fields, and makes maintenance challenging. Some utilities attempt to overcome these issues by using reflection to deep copy objects, such as the deep-cloning library.[13]
+In Eiffel[edit]
+Runtime objects in Eiffel are accessible either indirectly through references or as expanded objects which fields are embedded within the objects that use them. That is, fields of an object are stored either externally or internally.
+The Eiffel class ANY contains features for shallow and deep copying and cloning of objects. All Eiffel classes inherit from ANY, so these features are available within all classes, and are applicable both to reference and expanded objects.
+The copy feature effects a shallow, field-by-field copy from one object to another. In this case no new object is created. If y were copied to x, then the same objects referenced by y before the application of copy, will also be referenced by x after the copy feature completes.
+To effect the creation of a new object which is a shallow duplicate of y, the feature twin is used. In this case, one new object is created with its fields identical to those of the source.
+The feature twin relies on the feature copy, which can be redefined in descendants of ANY, if needed. The result of twin is of the anchored type like Current.
+Deep copying and creating deep twins can be done using the features deep_copy and deep_twin, again inherited from class ANY. These features have the potential to create many new objects, because they duplicate all the objects in an entire object structure. Because new duplicate objects are created instead of simply copying references to existing objects, deep operations will become a source of performance issues more readily than shallow operations.
+In other languages[edit]
+In C Sharp (C#), rather than using the interface ICloneable, a generic extension method can be used to create a deep copy using reflection. This has two advantages: First, it provides the flexibility to copy every object without having to specify each property and variable to be copied manually. Second, because the type is generic, the compiler ensures that the destination object and the source object have the same type.
+In Objective-C, the methods copy and mutableCopy are inherited by all objects and intended for performing copies; the latter is for creating a mutable type of the original object. These methods in turn call the copyWithZone and mutableCopyWithZone methods, respectively, to perform the copying. An object must implement the corresponding copyWithZone method to be copyable.
+In OCaml, the library function Oo.copy performs shallow copying of an object.
+In Python, the library's copy module provides shallow copy and deep copy of objects through the copy() and deepcopy() functions, respectively.[14] Programmers may define special methods __copy__() and __deepcopy__() in an object to provide custom copying implementation.
+In Ruby, all objects inherit two methods for performing shallow copies, clone and dup. The two methods differ in that clone copies an object's tainted state, frozen state, and any singleton methods it may have, whereas dup copies only its tainted state. Deep copies may be achieved by dumping and loading an object's byte stream or YAML serialization.[1] Alternatively, you can use the deep_dive gem to do a controlled deep copy of your object graphs. [2]
+In Perl, nested structures are stored by the use of references, thus a developer can either loop over the entire structure and re-reference the data or use the dclone() function from the module Storable.
+In VBA, an assignment of variables of type Object is a shallow copy, an assignment for all other types (numeric types, String, user defined types, arrays) is a deep copy. So the keyword Set for an assignment signals a shallow copy and the (optional) keyword Let signals a deep copy. There is no built-in method for deep copies of Objects in VBA.
+See also[edit]
+
+Copy constructor
+Operator overloading
+Reference counting
+Copy-on-write
+Clone (Java method)
+
+Notes[edit]
+
+
+
+^ a b c Grogono & Sakkinen 2000.
+^ Goldberg & Robson 1983, pp. 97–99. "There are two ways to make copies of an object. The distinction is whether or not the values of the object's variables are copied. If the values are not copied, then they are shared (shallowCopy); if the values are copied, then they are not shared (deepCopy)."
+^ "C++ Shallow vs Deep Copy Explanation". 
+^ ".NET Shallow vs Deep Copy Explanation". 
+^ "Java Shallow vs Deep Copy Explanation". 
+^ "Generic Shallow vs Deep Copy Explanation". 
+^ Core Java: Fundamentals, Volume 1, p. 295
+^ Effective Java, Second Edition, p. 54
+^ "What is this field-by-field copy done by Object.clone()?", Stack Overflow
+^ "Josh Bloch on Design: A Conversation with Effective Java Author, Josh Bloch", by Bill Venners, JavaWorld, January 4, 2002, p. 13
+^ Goldberg & Robson 1983, p. 97. "The default implementation of copy is shallowCopy. In subclasses in which copying must result in a special combination of shared and unshared variables, the method associated with copy is usually reimplemented, rather than the method associated with shallowCopy or deepCopy."
+^ "Passing Information to a Method or a Constructor". Retrieved 8 October 2013. 
+^ Java deep-cloning library
+^ Python copy module
+
+
+
+References[edit]
+
+Goldberg, Adele; Robson, David (1983). Smalltalk-80: The Language and its Implementation (PDF). Palo Alto, California: Xerox Palo Alto Research Center. ISBN 0-201-11371-6. 
+Grogono, Peter; Sakkinen, Markku (12 May 2000). "Copying and Comparing: Problems and Solutions" (PDF). In Elisa Bertino. Lecture Notes in Computer Science. ECOOP 2000 — Object-Oriented Programming. 1850. Springer Berlin Heidelberg. pp. 226–250. doi:10.1007/3-540-45102-1_11. Retrieved 2015-06-23. 
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Object_copying&oldid=831251333#Shallow_copy"					
+				Categories: Object (computer science)Hidden categories: Wikipedia articles needing clarification from November 2017				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					DeutschFrançaisInterlinguaItaliano				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 19 March 2018, at 16:21.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.168","walltime":"0.214","ppvisitednodes":{"value":786,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":15341,"limit":2097152},"templateargumentsize":{"value":901,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":9168,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  176.550      1 -total"," 43.46%   76.728      1 Template:Reflist"," 31.56%   55.715      5 Template:Cite_web"," 24.44%   43.152      1 Template:Clarify"," 21.44%   37.851      1 Template:Fix-span"," 14.88%   26.268      5 Template:Sfn"," 12.06%   21.289      2 Template:Category_handler","  7.67%   13.542      1 Template:Replace","  5.42%    9.569      1 Template:Delink","  3.67%    6.479      1 Template:Double_image"]},"scribunto":{"limitreport-timeusage":{"value":"0.073","limit":"10.000"},"limitreport-memusage":{"value":2901945,"limit":52428800}},"cachereport":{"origin":"mw1313","timestamp":"20180319162036","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":90,"wgHostname":"mw1271"});});
+	
+

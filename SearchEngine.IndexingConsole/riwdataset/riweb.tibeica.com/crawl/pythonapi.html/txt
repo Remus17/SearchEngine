@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Python API
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+3.5 Your Own 404
+Up:
+Mod_python Manual
+Next:
+4.1 Multiple Interpreters
+
+
+
+
+ 
+
+4. Python API
+
+
+
+
+
+
+Subsections
+
+
+4.1 Multiple Interpreters
+4.2 Overview of a Request Handler
+4.3 Overview of a Filter Handler
+4.4 Overview of a Connection Handler
+4.5 apache - Access to Apache Internals.
+
+4.5.1 Functions
+4.5.2 Table Object (mp_table) 
+4.5.3 Request Object 
+
+4.5.3.1 Request Methods
+4.5.3.2 Request Members
+
+4.5.4 Connection Object (mp_conn) 
+
+4.5.4.1 Connection Methods
+4.5.4.2 Connection Members
+
+4.5.5 Filter Object (mp_filter) 
+
+4.5.5.1 Filter Methods
+4.5.5.2 Filter Members
+
+4.5.6 Server Object (mp_server) 
+
+4.5.6.1 Server Methods
+4.5.6.2 Server Members
+
+
+4.6 util - Miscellaneous Utilities
+
+4.6.1 FieldStorage class
+4.6.2 Field class
+4.6.3 Other functions
+
+4.7 Cookie - HTTP State Management
+
+4.7.1 Classes
+4.7.2 Functions
+4.7.3 Examples
+
+4.8 Session - Session Management
+
+4.8.1 Classes
+4.8.2 Examples
+
+4.9 psp - Python Server Pages
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+3.5 Your Own 404
+Up:
+Mod_python Manual
+Next:
+4.1 Multiple Interpreters
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

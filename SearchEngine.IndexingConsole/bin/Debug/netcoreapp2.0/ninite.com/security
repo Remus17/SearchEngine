@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ninite - Install or Update Multiple Apps at Once</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="https://d8f7mp21btv4f.cloudfront.net/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="https://d8f7mp21btv4f.cloudfront.net/css/crystal-2f9dde9064cc1885f150d6ae84e9c1d7.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<link href="https://d8f7mp21btv4f.cloudfront.net/crystal/js/respond-proxy-1ac71ee4ee5fb602995fbd6fca5468b4.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/robots.txt" id="respond-redirect" rel="respond-redirect" />
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/oldie-78ee42ef96d2d8f3e4cd3a939f7231d8.js"></script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-10831845-1']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'https://ssl.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-collapse" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="ninite-brand" href="/">
+<img src="https://d8f7mp21btv4f.cloudfront.net/crystal/img/brand-95c4357c0068bf934474cf8b7721890a.png" alt="Ninite" class="ninite-brand-img">
+</a>
+</div>
+<div class="collapse navbar-collapse js-navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+
+
+<li><a href="/help/">Help</a></li>
+<li><a href="/feedback">Feedback</a></li>
+
+<li><a href="/pro">Ninite Pro</a></li>
+<li><a href="/signin">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+
+<h2>Security Details</h2>
+<p>
+Updating apps involves privileged operations and must be done carefully. Because of this Ninite ensures all app configuration data is transmitted securely and all downloads are validated before use.
+</p>
+<p>
+This starts with every Ninite .exe being signed by our company. Those exes then talk to ninite.com over a well-configured TLS connection to get the latest app configuration information.
+</p>
+<p>
+Each program is downloaded from its publisher's official mirrors and then checked for a matching SHA-1 hash (delivered over TLS) or valid file signature from the publisher before we run anything.
+If an official mirror is unreliable we may use our own mirror at software-update-mirror.com.
+Files retreived from Ninite Pro's cache are also validated immediately before use.
+</p>
+<p>
+If validation fails the app update fails. There are no options or prompts to ignore these issues or continue with questionable data.
+</p>
+<p>
+When we add new versions to our catalog we take care to verify the downloads from the origin site and run a virus scan.
+</p>
+<p>
+Ninite declines all toolbar offers and bundled junkware. You may get irrelevant warnings or experience download failures if you have security software configured to warn about the mere presence of junk offers in installers. It is safe to ignore these because Ninite opts out of the junk.
+</p>
+<p>
+We take similar care with our backend systems used to update the catalog. Updates are configured in clean snapshotted virtual machines and all communication with our servers is encrypted.
+</p>
+<h2>Ninite Pro Agent Security</h2>
+<p>
+These same precautions also apply to the Ninite Pro Agent.
+</p>
+<p>
+Protecting our systems that handle agent connections and app configuration updates is a big priority and we do that
+by strictly limiting access, running minimal services, and keeping our own servers
+patched and up-to-date.
+</p>
+<p>
+A compromise of our servers is a threat we take seriously and we're always looking for ways to improve our defenses.
+</p>
+<p>
+Please <a href="/feedback">get in touch</a> if you have more questions or need anything else. Thanks!
+</p>
+<h2>Security Response</h2>
+<p>
+To report a security issue please visit <a href="/security_response">our security response page</a>.
+</p>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer">
+<div class="container text-center">
+<ul class="list-inline">
+<li><a class="footer-link" href="/jobs">jobs</a></li>
+<li><a class="footer-link" href="/about">about</a></li>
+<li><a class="footer-link" href="/press">press</a></li>
+<li><a class="footer-link" href="/news">updates</a></li>
+<li><a class="footer-link" href="/security">security</a></li>
+<li><a class="footer-link" href="/privacy">privacy</a></li>
+<li><a class="footer-link" href="/terms">terms</a></li>
+</ul>
+<p class="small">
+&copy;2018 Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="https://d8f7mp21btv4f.cloudfront.net/crystal/js/bundle-3737f22be190c9564031d54327c43962.js"></script>
+</body>
+</html>

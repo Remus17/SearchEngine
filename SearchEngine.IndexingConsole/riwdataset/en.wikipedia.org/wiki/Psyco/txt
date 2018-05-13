@@ -1,0 +1,375 @@
+
+
+
+
+Psyco - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Psyco","wgTitle":"Psyco","wgCurRevisionId":795170004,"wgRevisionId":795170004,"wgArticleId":1561564,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All stub articles","Free software programmed in Python","Python implementations","Python software","Software using the MIT license","Free software stubs"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Psyco","wgRelevantArticleId":1561564,"wgRequestId":"WsC4oQpAAD8AAB8D12wAAACX","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1324413","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.math.scripts","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Psyco			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				Not to be confused with Psycho.
+
+Psyco
+
+Developer(s)
+Armin Rigo, Christian Tismer
+
+
+
+
+
+Stable release
+
+1.6 / December 16, 2007; 10 years ago (2007-12-16)
+
+
+
+
+
+
+Repository
+
+
+
+https://bitbucket.org/arigo/psyco
+
+
+
+
+
+Written in
+C, Python
+
+
+Operating system
+Cross-platform
+
+
+Platform
+32-bit only
+
+
+Type
+Just-in-time compiler
+
+
+License
+MIT License
+
+
+Website
+psyco.sourceforge.net
+
+
+Psyco is a specializing just-in-time compiler for Python originally developed by Armin Rigo and further maintained and developed by Christian Tismer.
+Psyco runs on BSD-derived operating systems, Linux, Mac OS X and Microsoft Windows using 32-bit Intel-compatible processors. Psyco is written in C and generates only x86-based code. A follow-up project to Psyco is PyPy, which incorporates an interpreter and a compiler that can generate C, improving its cross-platform compatibility over Psyco. Both parts are written in Python, but the interpreter is restricted to a subset of Python, called RPython.
+
+
+
+Contents
+
+
+1 Speed enhancement
+2 Further work
+3 See also
+4 References
+5 External links
+
+
+
+Speed enhancement[edit]
+Psyco can noticeably speed up CPU-bound applications. The actual performance depends greatly on the application and varies from a slight slowdown to a 100x speedup.[1][2][3][4] The average speed improvement is typically in the 1.5-4x range, making Python performance close to languages such as Smalltalk and Scheme, but still slower than compiled languages such as Fortran, C or some other JIT languages like C# and Java.[5]
+Psyco also advertises its ease of use: the simplest Psyco optimization involves adding only two lines to the top of a script:[6]
+
+
+import psyco
+psyco.full()
+
+These commands will import the psyco module, and have Psyco optimize the entire script. This approach is best suited to shorter scripts, but demonstrates the minimal amount of work needed to begin applying Psyco optimizations to an existing program.
+Further work[edit]
+On July 17, 2009, Christian Tismer announced that work is being done on Psyco V2.[7] However, on March 12, 2012, Psyco was announced to be "unmaintained and dead" and visitors are suggested to visit the PyPy website instead.[8]
+See also[edit]
+
+
+Free software portal
+
+
+
+Cython
+PyPy
+Unladen Swallow
+YARV (Yet another Ruby VM)
+
+References[edit]
+
+
+
+^ "Python Psyco benchmarks". Retrieved 2008-04-24. 
+^ "Python Psyco Homepage at sourceforge". Retrieved 2009-03-04. 
+^ "A beginners guide to using Python for performance computing at scipy.org". Retrieved 2009-03-04. 
+^ "Charming Python: Make Python run as fast as C with Psyco". Retrieved 2009-03-04. 
+^ "Boxplot Summary". Retrieved 2009-10-16. 
+^ Rigo, Armin. "Quick examples". The Ultimate Psyco Guide. Retrieved 3 June 2011. 
+^ "Announcement on pypy-dev mailing list with links to project page". 
+^ "Psyco Homepage". 
+
+
+
+External links[edit]
+
+Psyco on SourceForge.net
+David Mertz's IBM developerWorks article: Make Python run as fast as C with Psyco
+psyco notes, Poor Yorick
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Python
+
+
+
+Implementations
+
+
+
+CLPython
+CPython
+Cython
+MicroPython
+Numba
+IronPython
+Jython
+Psyco
+PyPy
+Python for S60
+Shed Skin
+Stackless Python
+Unladen Swallow
+more...
+
+
+
+
+
+
+
+
+IDE
+
+
+
+Boa
+Eric Python IDE
+IDLE
+PyDev
+SPE
+Ninja-IDE
+more...
+
+
+
+
+
+Topics
+
+
+
+WSGI
+
+
+
+
+
+
+
+
+software (list)
+Python Software Foundation
+PyCon
+
+
+
+
+
+
+
+
+
+
+This free-software-related article is a stub. You can help Wikipedia by expanding it.
+
+
+v
+t
+e
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Psyco&oldid=795170004"					
+				Categories: Free software programmed in PythonPython implementationsPython softwareSoftware using the MIT licenseFree software stubsHidden categories: All stub articles				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					DeutschEspañol한국어日本語PortuguêsРусскийСрпски / srpskiSuomi中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 12 August 2017, at 13:43.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.224","walltime":"0.288","ppvisitednodes":{"value":1060,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":32123,"limit":2097152},"templateargumentsize":{"value":1471,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":7300,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  260.555      1 -total"," 51.52%  134.226      2 Template:Infobox"," 44.14%  114.998      1 Template:Infobox_software"," 33.01%   86.012      1 Template:Reflist"," 28.48%   74.218      8 Template:Cite_web"," 13.23%   34.476      1 Template:Infobox_software/simple","  9.33%   24.302      1 Template:Plainlist","  8.64%   22.511      1 Template:Wikidata","  8.51%   22.176      1 Template:Distinguish","  7.56%   19.696      1 Template:Start_date_and_age"]},"scribunto":{"limitreport-timeusage":{"value":"0.115","limit":"10.000"},"limitreport-memusage":{"value":4231049,"limit":52428800}},"cachereport":{"origin":"mw1268","timestamp":"20180401104658","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":363,"wgHostname":"mw1268"});});
+	
+

@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6.1.1 Introduction
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1 Publisher Handler
+Up:
+6.1 Publisher Handler
+Next:
+6.1.2 The Publishing Algorithm
+
+
+
+
+ 
+
+6.1.1 Introduction
+
+
+
+To use the handler, you need the following lines in your configuration
+
+  <Directory /some/path>
+    SetHandler mod_python 
+    PythonHandler mod_python.publisher
+    </Directory>
+
+
+
+This handler allows access to functions and variables within a module
+via URL's. For example, if you have the following module, called 
+hello.py:
+
+
+
+  """ Publisher example """
+
+  def say(req, what="NOTHING"):
+  return "I am saying %s" % what
+
+
+
+A URL http://www.mysite.com/hello.py/say would return 
+"I am saying NOTHING". A URL 
+http://www.mysite.com/hello.py/say?what=hello would
+return "I am saying hello".
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1 Publisher Handler
+Up:
+6.1 Publisher Handler
+Next:
+6.1.2 The Publishing Algorithm
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

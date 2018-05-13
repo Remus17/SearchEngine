@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.1 PythonEnablePdb
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4 Other Directives
+Up:
+5.4 Other Directives
+Next:
+5.4.2 PythonDebug
+
+
+
+
+ 
+ 
+
+5.4.1 PythonEnablePdb
+
+
+
+Syntax:
+PythonEnablePdb {On, Off} 
+Default:
+PythonEnablePdb Off
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+When On, mod_python will execute the handler functions within the
+Python debugger pdb using the pdb.runcall() function.
+
+
+Because pdb is an interactive tool, start httpd from the command line
+with the -DONE_PROCESS option when using this directive. As soon as
+your handler code is entered, you will see a Pdb prompt allowing you
+to step through the code and examine variables.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4 Other Directives
+Up:
+5.4 Other Directives
+Next:
+5.4.2 PythonDebug
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

@@ -1,0 +1,384 @@
+
+
+
+
+Amoeba (operating system) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Amoeba_(operating_system)","wgTitle":"Amoeba (operating system)","wgCurRevisionId":788898235,"wgRevisionId":788898235,"wgArticleId":440784,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with dead external links","Articles with dead external links from July 2017","Articles with permanently dead external links","Microkernel-based operating systems","Distributed computing architecture","Distributed operating systems","Computer science in the Netherlands","Information technology in the Netherlands","Microkernels"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Amoeba_(operating_system)","wgRelevantArticleId":440784,"wgRequestId":"Wr6QbApAMEkAADZ3H5cAAABW","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q473800","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Amoeba (operating system)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+Amoeba
+
+Developer
+Andrew S. Tanenbaum
+
+
+Latest release
+5.3 / 30 July 1996; 21 years ago (1996-07-30)[1]
+
+
+Available in
+English
+
+
+Platforms
+i386/i486, MIPS, Motorola 68030, NS 32016, Sun 3/50 and 3/60, SPARC, VAX
+
+
+Kernel type
+Microkernel
+
+
+License
+MIT license[2]
+
+
+Official website
+http://www.cs.vu.nl/pub/amoeba/
+
+
+Amoeba is a distributed operating system developed by Andrew S. Tanenbaum and others at the Vrije Universiteit Amsterdam. The aim of the Amoeba project was to build a timesharing system that makes an entire network of computers appear to the user as a single machine. Development at the Vrije Universiteit was stopped: the source code of the latest version (5.3) were last modified on 30 July 1996.[1]
+The Python programming language was originally developed for this platform.[3]
+
+
+
+Contents
+
+
+1 Overview
+2 See also
+3 References
+4 External links
+
+
+
+Overview[edit]
+The goal of the Amoeba project was to construct an operating system for networks of computers that would present the network to the user as if it were a single machine. An Amoeba network consists of a number of workstations connected to a "pool" of processors, and executing a program from a terminal causes it to run on any of the available processors, with the operating system providing load balancing.[4] Unlike the contemporary Sprite, Amoeba does not support process migration.[5] The workstations would typically function as networked terminals only. Aside from workstations and processors, additional machines operate as servers for files, directory services, TCP/IP communications etc.[4]
+Amoeba is a microkernel-based operating system. It offers multithreaded programs and a remote procedure call (RPC) mechanism for communication between threads, potentially across the network; even kernel-threads use this RPC mechanism for communication. Each thread is assigned a 48-bit number called its "port", which serves as its unique, network-wide "address" for communication.[4]
+The user interface and APIs of Amoeba were modeled after Unix and compliance with the POSIX standard was partially implemented; some of the Unix emulation code consists of utilities ported over from Tanenbaum's other operating system, MINIX. Early versions used a "homebrew" window system, which the Amoeba authors considered "faster ... in our view, cleaner ... smaller and much easier to understand", but version 4.0 uses the X Window System (and allows X terminals as terminals).[4]
+The system uses FLIP as a network protocol.
+See also[edit]
+
+Distributed computing
+Multikernel
+Plan 9 from Bell Labs
+
+References[edit]
+
+
+
+^ a b "Amoeba FTP". [permanent dead link]
+^ [1]
+^ "Why was Python created in the first place?". Python FAQ. Archived from the original on 23 February 2008. Retrieved 2008-02-11. 
+^ a b c d Andrew S. Tanenbaum, M. Frans Kaashoek, Robbert van Renesse and Henri E. Bal (1991). The Amoeba distributed operating system — a status report. Computer Communications 14.
+^ Fred Douglis, M. Frans Kaashoek, Andrew S. Tanenbaum and John Ousterhout (1991). A comparison of two distributed systems: Amoeba and Sprite. Computing Systems 4(4), pp. 353–384.
+
+
+
+External links[edit]
+
+Amoeba home page
+FSD-Amoeba page at Sourceforge
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Microkernels-nanokernels
+
+
+
+Kernels
+
+
+
+ADEOS
+EPOC
+
+EKA1
+EKA2
+
+
+Eumel
+Exec
+
+ExecSG
+
+
+EROS
+K42
+L3
+L4
+Little Kernel
+Mac OS Kernel
+Mach
+
+GNU Mach
+
+
+MicroEmpix
+µ-velOSity
+nucleus
+Nukernel
+Off++
+Opus
+PowerUP
+Quark
+TI-RTOS kernel
+Vanguard
+WarpOS
+Zircon
+
+
+
+
+
+Operating
+systems
+
+
+
+AmigaOS
+Amoeba
+AROS
+
+AspireOS
+Broadway
+Icaros Desktop
+
+
+ARX
+BeRTOS
+ChibiOS/RT
+ChorusOS
+Copland
+Cosmos
+EROS
+FreeRTOS
+Fuchsia
+GNOSIS
+GNU Hurd
+HelenOS
+Hydra
+Integrity
+JX
+JavaOS
+KeyKOS
+Lites
+Classic Mac OS (PowerPC kernel)
+MachTen
+MacMach
+MeikOS
+MERT
+µC/OS
+Midori
+MINIX
+
+Minix-vmd
+MINIX 3
+
+
+MkLinux
+MorphOS
+MQX
+NLTSS
+Nucleus RTOS
+NuttX
+OS2000
+OSE
+Phantom OS
+PikeOS
+QNX
+RC 4000
+Redox
+REX OS
+RIOT
+SharpOS
+Singularity
+SPIN
+Spring
+Symbian
+Taligent
+ThreadX
+TI-RTOS
+Tinix
+UNICOS
+V
+Verve
+VRTX
+VSTa
+Wombat OS
+Workplace OS
+Zephyr
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Amoeba_(operating_system)&oldid=788898235"					
+				Categories: Microkernel-based operating systemsDistributed computing architectureDistributed operating systemsComputer science in the NetherlandsInformation technology in the NetherlandsMicrokernelsHidden categories: All articles with dead external linksArticles with dead external links from July 2017Articles with permanently dead external links				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةCatalàDeutschEspañolفارسی한국어ItalianoNederlands日本語NorskPolskiPortuguêsРусскийSlovenčinaTürkçeУкраїнська				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 4 July 2017, at 04:12.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.172","walltime":"0.216","ppvisitednodes":{"value":892,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":23244,"limit":2097152},"templateargumentsize":{"value":1505,"limit":2097152},"expansiondepth":{"value":20,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4189,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  187.131      1 -total"," 51.35%   96.094      1 Template:Reflist"," 39.23%   73.416      1 Template:Infobox_OS"," 28.50%   53.340      1 Template:Infobox"," 24.59%   46.013      2 Template:Cite_web"," 18.03%   33.737      1 Template:Dead_link"," 15.80%   29.565      1 Template:Fix"," 14.00%   26.198      2 Template:Category_handler"," 12.10%   22.642      1 Template:Start_date_and_age","  6.64%   12.427      1 Template:MicroKernel"]},"scribunto":{"limitreport-timeusage":{"value":"0.071","limit":"10.000"},"limitreport-memusage":{"value":2662794,"limit":52428800}},"cachereport":{"origin":"mw1308","timestamp":"20180327004439","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":69,"wgHostname":"mw1238"});});
+	
+

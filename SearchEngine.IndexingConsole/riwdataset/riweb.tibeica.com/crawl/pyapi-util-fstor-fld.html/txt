@@ -1,0 +1,159 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.6.2 Field class
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.6.1 FieldStorage class
+Up:
+4.6 util - Miscellaneous
+Next:
+4.6.3 Other functions
+
+
+
+
+ 
+
+4.6.2 Field class
+
+
+
+
+  class Field(
+  )
+
+  This class is used internally by FieldStorage and is not
+  meant to be instantiated by the user. Each instance of a Field
+  class represents an HTML Form input.
+
+
+Field instances have the following attributes:
+
+
+name
+
+    The input name.
+  
+
+
+value
+
+    The input value. This attribute can be used to read data from a file
+    upload as well, but one has to exercise caution when dealing with
+    large files since when accessed via value, the whole file is
+    read into memory.
+  
+
+
+file
+
+    This is a file-like object. For file uploads it points to a 
+    TemporaryFile instance. (For more information see the TemporaryFile
+    class in the standard python
+    tempfile module).
+
+
+For simple values, it is a StringIO object, so you can read
+    simple string values via this attribute instead of using the value
+    attribute as well.
+  
+
+
+filename
+
+    The name of the file as provided by the client.
+  
+
+
+type
+
+    The content-type for this input as provided by the client.
+  
+
+
+type_options
+
+    This is what follows the actual content type in the content-type
+    header provided by the client, if anything. This is a dictionary.
+  
+
+
+disposition
+
+    The value of the first part of the content-disposition header.
+  
+
+
+disposition_options
+
+    The second part (if any) of the content-disposition header in
+    the form of a dictionary.
+  
+
+
+
+  See Also:
+
+    
+    RFC 1867, Form-based File Upload in HTML
+    for a description of 
+      form-based file uploads
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.6.1 FieldStorage class
+Up:
+4.6 util - Miscellaneous
+Next:
+4.6.3 Other functions
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

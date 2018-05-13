@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.4 Overview of a Connection Handler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.3 Overview of a
+Up:
+4. Python API
+Next:
+4.5 apache - Access
+
+
+
+
+ 
+
+4.4 Overview of a Connection Handler
+
+ 
+
+A connection handler handles the connection, starting almost
+immediately from the point the TCP connection to the server was
+made. 
+
+
+Unlike HTTP handlers, connection handlers receive a connection
+object as an argument.
+
+
+Connection handlers can be used to implement protocols. Here is an
+example of a simple echo server:
+
+
+Apache configuration:
+
+  PythonConnectionHandler echo
+
+
+
+Contents of echo.py file:
+
+
+
+from mod_python import apache
+
+def connectionhandler(conn):
+
+    while 1:
+        conn.write(conn.readline())
+
+    return apache.OK
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.3 Overview of a
+Up:
+4. Python API
+Next:
+4.5 apache - Access
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.9 PythonOptimize
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.8 PythonAutoReload
+Up:
+5.4 Other Directives
+Next:
+5.4.10 PythonOption
+
+
+
+
+ 
+ 
+
+5.4.9 PythonOptimize
+
+
+
+Syntax:
+PythonOptimize {On, Off} 
+Default:
+PythonOptimize Off
+Context:
+server config
+Module:
+mod_python.c
+
+
+Enables Python optimization. Same as the Python -O option.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.8 PythonAutoReload
+Up:
+5.4 Other Directives
+Next:
+5.4.10 PythonOption
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

@@ -1,0 +1,428 @@
+
+
+
+
+Metaobject - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Metaobject","wgTitle":"Metaobject","wgCurRevisionId":828309560,"wgRevisionId":828309560,"wgArticleId":594313,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Object (computer science)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Metaobject","wgRelevantArticleId":594313,"wgRequestId":"WsIwfgpAMEsAAJzKx4QAAAAM","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q602271","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Metaobject			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				In computer science, a metaobject is an object that manipulates, creates, describes, or implements objects (including itself). The object that the metaobject pertains to is called the base object. Some information that a metaobject might define includes the base object's type, interface, class, methods, attributes, parse tree, etc. Metaobjects are examples of the computer science concept of reflection, where a system has access (usually at run time) to its own internal structure. Reflection enables a system to essentially rewrite itself on the fly, to alter its own implementation as it executes.[1]
+
+
+
+Contents
+
+
+1 Metaobject protocol
+
+1.1 Runtime and compile time
+1.2 Usage
+
+
+2 See also
+3 References
+4 External links
+
+
+
+Metaobject protocol[edit]
+A metaobject protocol (MOP) provides the vocabulary (protocol) to access and manipulate the structure and behaviour of systems of objects. Typical functions of a metaobject protocol include:[2]
+
+Create or delete a new class
+Create a new property or method
+Cause a class to inherit from a different class ("change the class structure")
+Generate or change the code defining the methods of a class
+
+Metaobject protocol is contrary to the "closed" aspect of Bertrand Meyer's open/closed principle, which holds that software object systems should be open for extension but closed for modification. Metaobject protocol, by contrast, transparently exposes the internal composition of objects and the entire object system in terms of the system itself. A metaobject protocol is not merely an interface to an "underlying" implementation; rather, through metaobject protocol the object system is recursively implemented in terms of a meta-object system, which itself is theoretically implemented in terms of a meta-metaobject system, and so on until an arbitrary base case (a consistent state of the object system) is determined, with the protocol as such being the recursive functional relationship between these implementation levels.
+Implementing object systems in such a way opens the possibility for radical discretionary redesign, providing deep flexibility but introducing possibly complex or difficult-to-understand metastability issues (for instance, the object system must not destructively update its own metaobject protocol - its internal self-representation - but the potential destructiveness of some updates is non-trivial to predict and may be hard to reason about), depending on the recursive depth to which the desired modifications are propagated.[3] For this reason, metaobject protocol, when present in a language, is usually used sparingly and for specialised purposes such as software that transforms other software or itself in sophisticated ways, for example in reverse engineering.[4]
+Runtime and compile time[edit]
+When compilation is not available at run-time there are additional complications for the implementation of metaobject protocol. For example, it is possible to change the type hierarchy with such a protocol but doing so may cause problems for code compiled with an alternative class model definition. Some environments have found innovative solutions for this, e.g., by handling metaobject issues at compile time. A good example of this is OpenC++.[5]
+It is noteworthy that the Semantic Web object-oriented model is more dynamic than most standard object systems, and is consistent with runtime metaobject protocols. For example, in the Semantic Web model classes are expected to change their relations to each other and there is a special inference engine known as a classifier that can validate and analyze evolving class models.[6]
+Usage[edit]
+The first metaobject protocol was in the Smalltalk object-oriented programming language developed at Xerox PARC. The Common Lisp Object System (CLOS) came later and was influenced by the Smalltalk protocol as well as by Brian C. Smith's original studies on 3-Lisp as an infinite tower of compilers.[7] The CLOS model, unlike the Smalltalk model, allows a class to have more than one superclass; this raises additional complexity in issues such as resolving the lineage of the class hierarchy on some object instance. CLOS also allows for dynamic multimethod dispatch, which is handled via generic functions rather than message passing like in Smalltalk's single dispatch.[8] The most influential book describing the semantics and implementation of the metaobject protocol in Common Lisp is The Art of the Metaobject Protocol by Gregor Kiczales et al.[9]
+Metaobject protocols are also extensively used in software engineering applications. In virtually all commercial CASE, re-engineering, and Integrated Development Environments there is some form of metaobject protocol to represent and manipulate the design artifacts.[10][11][12]
+A metaobject protocol is one way to implement aspect-oriented programming. Many of the early founders of MOPs, including Gregor Kiczales, have since moved on to be the primary advocates for aspect-oriented programming. Kiczales et al. of PARC were hired to design AspectJ for Java, a language which does not possess a native metaobject protocol.
+See also[edit]
+
+Kind (type theory)
+Metaclass
+Javassist
+Joose JavaScript meta object system
+Moose Perl meta object system
+OpenC++
+OpenJava
+Unified Modeling Language: UML
+Groovy
+
+References[edit]
+
+
+
+^ Smith, Brian C (1982-01-01). "Procedural Reflection In Programming Languages". MIT Technical Report (MIT-LCS-TR-272). Retrieved 16 December 2013. 
+^ Foote, Brian; Ralph Johnson (1–6 October 1989). "Reflective Facilities in Smalltalk-80". OOPSLA '89. Retrieved 16 December 2013. 
+^ The Art of the Metaobject Protocol, Appendix C — Living with Circularity
+^ Favre, Lilliana; Liliana Martinez; Claudia Pereira (2009). MDA-Based Reverse Engineering of Object Oriented Code. Springer. ISBN 978-3-642-01861-9. 
+^ Chiba, Shigeru (1995). "A Metaobject Protocol for C++". OOPSLA '95. Retrieved 27 December 2013. 
+^ Knublauch, Holger; Oberle, Daniel; Tetlow, Phil; Wallace, Evan (2006-03-09). "A Semantic Web Primer for Object-Oriented Software Developers". W3C. Retrieved 2008-07-30. 
+^ Daniel P. Friedman; Mitchell Wand (1988). "The mystery of the tower revealed: A non-reflective description of the reflective tower". Retrieved 2017-01-16. 
+^ "Integrating Object-Oriented and Functional Programming" (PDF). Retrieved 7 July 2016. 
+^ Kiczales, Gregor; Jim des Rivieres; Daniel G. Bobrow (July 30, 1991). The Art of the Metaobject Protocol. The MIT Press. ISBN 978-0262610742. 
+^ Johnson, Lewis; David R. Harris; Kevin M. Benner; Martin S. Feather (October 1992). "Aries: The Requirements/Specification Facet for KBSA". Rome Laboratory Final Technical Report. RL-TR-92-248. 
+^ "The Origin of Refine" (PDF). www.metaware.fr. Metaware White Paper. Archived from the original (PDF) on 7 January 2014. Retrieved 6 January 2014. 
+^ "OMG's MetaObject Facility". omg.org. Object Management Group. Retrieved 7 January 2014. 
+
+
+
+External links[edit]
+
+The Guile MOP specification (GOOPS, based on Tiny CLOS)
+Metaobjects and the Metaobject Protocol
+Common Lisp Object System Metaobject Protocol (contains two chapters from The Art of the Metaobject Protocol)
+Python 3 Metaprogramming
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Data types
+
+
+
+Uninterpreted
+
+
+
+Bit
+Byte
+Trit
+Tryte
+Word
+Bit array
+
+
+
+
+
+Numeric
+
+
+
+Arbitrary-precision or bignum
+Complex
+Decimal
+Fixed point
+Floating point
+
+Double precision
+Extended precision
+Half precision
+Long double
+Minifloat
+Octuple precision
+Quadruple precision
+Single precision
+
+
+Integer
+
+signedness
+
+
+Interval
+Rational
+
+
+
+
+
+Pointer
+
+
+
+Address
+
+physical
+virtual
+
+
+Reference
+
+
+
+
+
+Text
+
+
+
+Character
+String
+
+null-terminated
+
+
+
+
+
+
+
+Composite
+
+
+
+Algebraic data type
+
+generalized
+
+
+Array
+Associative array
+Class
+Dependent
+Equality
+Inductive
+List
+Object
+
+metaobject
+
+
+Option type
+Product
+Record
+Set
+Union
+
+tagged
+
+
+
+
+
+
+
+Other
+
+
+
+Boolean
+Bottom type
+Collection
+Enumerated type
+Exception
+Function type
+Opaque data type
+Recursive data type
+Semaphore
+Stream
+Top type
+Type class
+Unit type
+Void
+
+
+
+
+
+Related
+topics
+
+
+
+Abstract data type
+Data structure
+Generic
+Kind
+
+metaclass
+
+
+Parametric polymorphism
+Primitive data type
+Protocol
+
+interface
+
+
+Subtyping
+Type constructor
+Type conversion
+Type system
+Type theory
+
+
+
+
+
+
+See also platform-dependent and independent units of information
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Metaobject&oldid=828309560"					
+				Categories: Object (computer science)				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					Français				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 1 March 2018, at 20:25.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.132","walltime":"0.166","ppvisitednodes":{"value":614,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":33381,"limit":2097152},"templateargumentsize":{"value":74,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":12148,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  127.983      1 -total"," 88.37%  113.099      1 Template:Reflist"," 47.86%   61.258      4 Template:Cite_journal"," 15.89%   20.338      5 Template:Cite_web"," 11.56%   14.798      1 Template:Data_types","  9.72%   12.434      1 Template:Navbox","  7.02%    8.987      2 Template:Cite_book","  1.77%    2.262      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.064","limit":"10.000"},"limitreport-memusage":{"value":2904758,"limit":52428800}},"cachereport":{"origin":"mw1328","timestamp":"20180323202706","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":75,"wgHostname":"mw1240"});});
+	
+

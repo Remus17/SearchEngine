@@ -1,0 +1,228 @@
+
+
+
+
+View source for Python (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Python_(programming_language)","wgTitle":"Python (programming language)","wgCurRevisionId":833660930,"wgRevisionId":0,"wgArticleId":23862,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Python_(programming_language)","wgRelevantArticleId":23862,"wgRequestId":"WsJJtApAIC0AABqO1yIAAACJ","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.charinsert.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.edit.collapsibleFooter","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.charinsert","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+View source for Python (programming language)			
+								← Python (programming language)
+								
+					Jump to:					navigation, 					search
+				
+				You do not have permission to edit this page, for the following reasons:
+
+
+Your IP address is in a range which has been blocked on all wikis.
+
+The block was made by Vituzzu (meta.wikimedia.org).
+The reason given is hosting service with open proxies such as 67.207.94.79 .
+
+Start of block: 13:14, 23 October 2017
+Expiration of block: 13:14, 23 October 2022
+
+You can contact Vituzzu to discuss the block.
+You cannot use the "Email this user" feature unless a valid email address is specified in your account preferences and you have not been blocked from using it.
+Your current IP address is 67.207.88.228, and the blocked range is 67.207.64.0/19.
+Please include all above details in any queries you make.
+
+
+You are currently unable to edit Wikipedia.
+You are still able to view pages, but you are not currently able to edit, move, or create them.
+
+
+
+
+Editing from 67.207.64.0/19 has been blocked (disabled) by KrakatoaKatie for the following reason(s):
+
+
+
+
+The IP address that you are currently using has been blocked  because it is believed to be a web host provider. To prevent abuse, web hosts may be blocked from editing Wikipedia.
+
+
+You will not be able to edit Wikipedia using a web host provider.
+Since the web host acts like a proxy, because it hides your IP address, it has been blocked. To prevent abuse, these IPs may be blocked from editing Wikipedia. If you do not have any other way to edit Wikipedia, you will need to request an IP block exemption.
+If you do not believe you are using a web host, you may appeal this block by adding the following text on your talk page: {{unblock|reason=Caught by a web host block but this host or IP is not a web host. Place any further information here. ~~~~}}. If you are using a Wikipedia account you will need to request an IP block exemption by either using the unblock template or by submitting an appealing using the unblock ticket request system. If you wish to keep your IP address private you can email the functionaries team.
+Administrators: The IP block exemption user right should only be applied to allow users to edit using web host in exceptional circumstances, and they should usually be directed to the functionaries team via email. If you intend to give the IPBE user right, a CheckUser needs to take a look at the account. This can be requested most easily at SPI Quick Checkuser Requests. Unblocking an IP or IP range with this template is highly discouraged without at least contacting the blocking administrator.
+
+: 
+This block has been set to expire: 12:56, 12 August 2020.
+Even if blocked, you will usually still be able to edit your user talk page and email other editors and administrators.
+
+
+
+
+
+Other useful links: Blocking policy · Username policy ·  
+Appealing blocks: policy and guide
+
+If the block notice is unclear, or it does not appear to relate to your actions, please ask for assistance as described at Help:I have been blocked.
+
+
+
+You can view and copy the source of this page:
+=== Expressions ===
+Some Python [[Expression (computer science)|expressions]] are similar to languages such as [[C (programming language)|C]] and [[Java (programming language)|Java]], while some are not:
+
+* Addition, subtraction, and multiplication are the same, but the behavior of division differs. There are two types of divisions in Python. They are floor division and integer division.<ref>{{cite web|title=division|url=https://docs.python.org|website=python.org}}</ref> Python also added the <code>**</code> operator for exponentiation.
+* From Python 3.5, the new <code>@</code> infix operator was introduced. It is intended to be used by libraries such as NumPy for [[matrix multiplication]].<ref name=PEP465>{{cite web |title=PEP 0465 -- A dedicated infix operator for matrix multiplication |url=https://www.python.org/dev/peps/pep-0465/|website=python.org |accessdate=1 January 2016}}</ref><ref name=Python3.5Changelog>{{cite web |title=Python 3.5.1 Release and Changelog |url=https://www.python.org/downloads/release/python-351/|website=python.org |accessdate=1 January 2016}}</ref>
+* In Python, <code>==</code> compares by value, versus Java, which compares numerics by value<ref>{{cite web |url=http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.21.1 |title=Chapter 15. Expressions - 15.21.1. Numerical Equality Operators == and != |publisher=[[Oracle Corporation]] |accessdate=28 August 2016}}</ref> and objects by reference.<ref>{{cite web |url=http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.21.3 |title=Chapter 15. Expressions - 15.21.3. Reference Equality Operators == and != |publisher=Oracle Corporation |accessdate=28 August 2016}}</ref> (Value comparisons in Java on objects can be performed with the <code>equals()</code> method.) Python's <code>is</code> operator may be used to compare object identities (comparison by reference). In Python, comparisons may be chained, for example <code>a <= b <= c</code>. 
+* Python uses the words <code>and</code>, <code>or</code>, <code>not</code> for its boolean operators rather than the symbolic <code>&&</code>, <code>||</code>, <code>!</code> used in Java and C.
+* Python has a type of expression termed a ''[[list comprehension#Python|list comprehension]]''. Python 2.4 extended list comprehensions into a more general expression termed a ''[[generator (computer science)|generator]] expression''.<ref name="AutoNT-59" />
+* [[Anonymous function]]s are implemented using [[Lambda (programming)|lambda expressions]]; however, these are limited in that the body can only be one expression.
+* Conditional expressions in Python are written as <code>x if c else y</code><ref name="AutoNT-60" /> (different in order of operands from the <code>[[?:|c ? x : y]]</code> operator common to many other languages).
+* Python makes a distinction between [[list (computer science)|lists]] and [[tuple]]s. Lists are written as <code>[1, 2, 3]</code>, are mutable, and cannot be used as the keys of dictionaries (dictionary keys must be [[immutable]] in Python). Tuples are written as <code>(1, 2, 3)</code>, are immutable and thus can be used as the keys of dictionaries, provided all elements of the tuple are immutable. The <code>+</code> operator can be used to concatenate two tuples, which does not directly modify their contents, but rather produces a new tuple containing the elements of both provided tuples. Thus, given the variable <code>t</code> initially equal to <code>(1, 2, 3)</code>, executing <code>t = t + (4, 5)</code> first evaluates <code>t + (4, 5)</code>, which yields <code>(1, 2, 3, 4, 5)</code>, which is then assigned back to <code>t</code>, thereby effectively "modifying the contents" of <code>t</code>, while conforming to the immutable nature of tuple objects. Parentheses are optional for tuples in unambiguous contexts.<ref>{{cite web|title=4. Built-in Types &#8212; Python 3.6.3rc1 documentation|url=https://docs.python.org/3/library/stdtypes.html#tuple|website=python.org|accessdate=1 October 2017}}</ref> 
+* Python features ''sequence unpacking'' where multiple expressions, each evaluating to anything that can be assigned to (a variable, a writable property, etc.), are associated in the identical manner to that forming tuple literals and, as a whole, are put on the left hand side of the equal sign in an assignment statement. The statement expects an ''iterable'' object on the right hand side of the equal sign that produces the same number of values as the provided writable expressions when iterated through, and will iterate through it, assigning each of the produced values to the corresponding expression on the left.{{citation needed|date=October 2017}} 
+* Python has a "string format" operator <code>%</code>. This functions analogous to <code>[[printf]]</code> format strings in [[C (programming language)|C]], e.g. <code>"spam=%s eggs=%d" % ("blah", 2)</code> evaluates to <code>"spam=blah eggs=2"</code>. In Python 3 and 2.6+, this was supplemented by the <code>format()</code> method of the <code>str</code> class, e.g. <code>"spam={0} eggs={1}".format("blah", 2)</code>. Python 3.6 added "f-strings": <code>blah = "blah"; eggs = 2; f'spam={blah} eggs={eggs}'</code>.<ref name="pep-0498">{{cite web |title=PEP 498 -- Literal String Interpolation |url=https://www.python.org/dev/peps/pep-0498/|website=python.org |accessdate=8 March 2017}}</ref>
+* Python has various kinds of [[string literal]]s:
+** Strings delimited by single or double quote marks. Unlike in [[Unix shell]]s, [[Perl]] and Perl-influenced languages, single quote marks and double quote marks function identically. Both kinds of string use the backslash (<code>\</code>) as an [[escape character]]. [[String interpolation]] became available in Python 3.6 as "formatted string literals".<ref name="pep-0498"/>
+** Triple-quoted strings, which begin and end with a series of three single or double quote marks. They may span multiple lines and function like [[here document]]s in shells, Perl and [[Ruby (programming language)|Ruby]].
+** [[Raw string]] varieties, denoted by prefixing the string literal with an <code>r</code>. Escape sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as [[regular expression]]s and [[Microsoft Windows|Windows]]-style paths. Compare "<code>@</code>-quoting" in [[C Sharp (programming language)|C#]].
+* Python has [[array index]] and [[array slicing]] expressions on lists, denoted as <code>a[key]</code>, <code>a[start:stop]</code> or <code>a[start:stop:step]</code>. Indexes are [[zero-based]], and negative indexes are relative to the end. Slices take elements from the ''start'' index up to, but not including, the ''stop'' index. The third slice parameter, called ''step'' or ''stride'', allows elements to be skipped and reversed. Slice indexes may be omitted, for example <code>a[:]</code> returns a copy of the entire list. Each element of a slice is a [[shallow copy]].
+
+In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as [[Common Lisp]], [[Scheme (programming language)|Scheme]], or [[Ruby (programming language)|Ruby]]. This leads to duplicating some functionality. For example:
+
+* [[List comprehensions]] vs. <code>for</code>-loops
+* [[Conditional (programming)|Conditional]] expressions vs. <code>if</code> blocks
+* The <code>eval()</code> vs. <code>exec()</code> built-in functions (in Python 2, <code>exec</code> is a statement); the former is for expressions, the latter is for statements.
+
+Statements cannot be a part of an expression, so list and other comprehensions or [[Lambda (programming)|lambda expressions]], all being expressions, cannot contain statements. A particular case of this is that an assignment statement such as <code>a = 1</code> cannot form part of the conditional expression of a conditional statement. This has the advantage of avoiding a classic C error of mistaking an assignment operator <code>=</code> for an equality operator <code>==</code> in conditions: <code>if (c = 1) { ... }</code> is syntactically valid (but probably unintended) C code but <code>if c = 1: ...</code> causes a syntax error in Python.
+Return to Python (programming language).
+					
+						Retrieved from "https://en.wikipedia.org/wiki/Python_(programming_language)"					
+								
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPage informationWikidata item				
+							
+		
+			
+			Languages
+			
+								
+									
+							
+		
+				
+		
+				
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":136,"wgHostname":"mw1324"});});
+	
+

@@ -1,0 +1,162 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6.1.2.1 Traversal
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1.2 The Publishing Algorithm
+Up:
+6.1.2 The Publishing Algorithm
+Next:
+6.1.2.2 Argument Matching and
+
+
+
+
+ 
+
+6.1.2.1 Traversal
+
+
+
+The Publisher handler locates and imports the module specified in the
+URI. The module location is determined from the req.filename
+attribute. Before importing, the file extension, if any, is
+discarded. 
+
+
+If req.filename is empty, the module name defaults to
+"index".
+
+
+Once module is imported, the remaining part of the URI up to the
+beginning of any query data (a.k.a. PATH_INFO) is used to find an
+object within the module. The Publisher handler traverses the 
+path, one element at a time from left to right, mapping the elements
+to Python object within the module.
+
+
+If no path_info was given in the URL, the Publisher handler will use
+the default value of "index". If the last element is an object inside
+a module, and the one immediately preceding it is a directory
+(i.e. no module name is given), then the module name will also default
+to "index".
+
+
+The traversal will stop and HTTP_NOT_FOUND will be returned to
+the client if:
+
+
+
+
+Any of the traversed object's names begin with an underscore
+  ("_"). Use underscores to protect objects that should not be
+  accessible from the web.
+
+
+
+A module is encountered. Published objects cannot be modules for
+  security reasons.
+
+
+
+
+
+
+If an object in the path could not be found, HTTP_NOT_FOUND
+is returned to the client.
+
+
+For example, given the following configuration:
+
+
+
+  DocumentRoot /some/dir
+
+  <Directory /some/dir>
+  SetHandler mod_python
+  PythonHandler mod_python.publisher
+  </Directory>
+
+
+
+And the following /some/dir/index.py file:
+
+
+
+  def index(req):
+
+  return "We are in index()"
+
+  def hello(req):
+
+  return "We are in hello()"
+
+
+
+Then:
+
+
+http://www.somehost/index/index will return "We are in index()"
+
+http://www.somehost/index/ will return "We are in index()"
+
+http://www.somehost/index/hello will return "We are in hello()"
+
+http://www.somehost/hello will return "We are in hello()"
+
+http://www.somehost/spam will return "404 Not Found"
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+6.1.2 The Publishing Algorithm
+Up:
+6.1.2 The Publishing Algorithm
+Next:
+6.1.2.2 Argument Matching and
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

@@ -1,0 +1,363 @@
+
+
+
+
+Cobra (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Cobra_(programming_language)","wgTitle":"Cobra (programming language)","wgCurRevisionId":816088586,"wgRevisionId":816088586,"wgArticleId":13862555,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[".NET programming languages","Object-oriented programming languages","Programming languages created in 2006","Software using the MIT license"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Cobra_(programming_language)","wgRelevantArticleId":13862555,"wgRequestId":"Wr292ApAAEYAACmX2M4AAAAQ","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q608565","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Cobra (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+Cobra
+
+Paradigm
+Multi-paradigm: object-oriented
+
+
+Designed by
+Charles Esterbrook
+
+
+Developer
+Cobra Language LLC
+
+
+First appeared
+2006; 12 years ago (2006)
+
+
+
+
+
+Stable release
+
+0.9.6 / December 23, 2013; 4 years ago (2013-12-23)
+
+
+
+
+
+
+Typing discipline
+strong, static, dynamic, inferred
+
+
+OS
+Microsoft .NET, Mono
+
+
+License
+MIT
+
+
+Filename extensions
+.cobra
+
+
+Website
+cobra-language.com
+
+
+Influenced by
+
+
+Python, Eiffel, C#, Objective-C
+
+
+
+
+Free software portal
+
+
+Cobra is a general-purpose, object-oriented programming language.[1] Cobra is designed by Charles Esterbrook, and runs on the Microsoft .NET and Mono platforms.[2] It is strongly influenced by Python, C#, Eiffel, Objective-C, and other programming languages.[3] It supports both static and dynamic typing.[4][5] It has support for unit tests and contracts.[4] It has lambda expressions, closures, list comprehensions, and generators.[6]
+Cobra is an open-source project; it was released under the MIT License on February 29, 2008.[7][8]
+Updates are posted to the Cobra news forum with progress on features, fixes, documentation and related projects since the last update.[9]
+
+
+
+Contents
+
+
+1 Features
+2 Examples
+
+2.1 Hello World
+2.2 A simple class
+
+
+3 References
+4 External links
+
+
+
+Features[edit]
+
+Object-oriented
+
+
+Namespaces
+Classes, interfaces, structs, extensions, enumerations
+Methods, properties, indexers
+Mixins, extension methods
+Generics, attributes
+
+
+
+
+Quality control
+
+
+Contracts, assertions
+Unit tests, docstrings
+Compile-time nil-tracking
+
+
+
+
+Expressiveness
+
+
+Static and dynamic binding
+List, dictionary, and set literals
+in and implies operator
+for expressions
+Slicing
+Interpolated strings
+Compile-time type inference
+Lambdas and closures
+
+
+
+
+General productivity
+
+
+Exception handling
+Postmortem exception report
+Garbage collection
+
+
+
+
+Scripting conveniences
+
+
+Clean syntax
+Dynamic binding
+One-step run
+Shebang line (#!)
+
+
+
+
+Miscellaneous
+
+
+Documentation tool (cobra -doc)
+Syntax highlighting tool (cobra -highlight)
+
+
+
+Examples[edit]
+The following examples can be run from a file using cobra <filename>.
+Hello World[edit]
+
+
+class Hello
+    def main
+        print 'Hello World'
+
+A simple class[edit]
+
+
+class Person
+
+    var _name as String
+    var _age as int
+
+    cue init(name as String, age as int)
+        _name, _age = name, age
+
+    def toString as String is override
+        return 'My name is [_name] and I am [_age] years old'
+
+References[edit]
+
+
+
+^ "The Cobra Programming Language". Cobra Language LLC. Retrieved 2012-09-26. 
+^ Charles Esterbrook (Jan 28, 2008). Lang.NET Symposium 2008 – The Cobra Programming Language (wmv). Microsoft. Retrieved 2010-08-31. 
+^ Bridgwater, Adrian (5 March 2008). "Cobra takes a bite at open source". ZDNet UK. Retrieved 2010-08-31. 
+^ a b Neward, Ted (June 2009). "Reaping the Benefits of Cobra". MSDN Magazine. 
+^ Erickson, Jonathan (April 2008). "Was George Costanza a Computer Programmer?". Dr. Dobb's Journal. 
+^ Morris, Richard (April 2010). "Chuck Esterbrook: Geek of the Week". simple-talk. 
+^ Krill, Paul (Feb 7, 2008). "Cobra language slithering to open source". InfoWorld. Retrieved 2010-08-31. 
+^ "The Cobra Programming Language". Cobra Language LLC. Retrieved 2008-02-29. 
+^ Cobra News Forum
+
+
+
+External links[edit]
+
+Official website
+The Cobra blog by Charles Esterbrook
+Cobra News Index
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Cobra_(programming_language)&oldid=816088586"					
+				Categories: .NET programming languagesObject-oriented programming languagesProgramming languages created in 2006Software using the MIT license				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					DeutschFrançaisItalianoРусскийSvenska				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 19 December 2017, at 05:10.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.220","walltime":"0.271","ppvisitednodes":{"value":1173,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":22365,"limit":2097152},"templateargumentsize":{"value":2002,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":10196,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  246.980      1 -total"," 55.16%  136.227      2 Template:Infobox"," 42.45%  104.834      1 Template:Infobox_programming_language"," 38.59%   95.299      1 Template:Reflist"," 17.91%   44.233      2 Template:Cite_web"," 17.42%   43.018      1 Template:Infobox_software/simple"," 13.60%   33.592      2 Template:Start_date_and_age","  9.60%   23.709      1 Template:Official_website","  5.91%   14.586      1 Template:Portal","  5.74%   14.167      1 Template:Time_ago"]},"scribunto":{"limitreport-timeusage":{"value":"0.106","limit":"10.000"},"limitreport-memusage":{"value":3928001,"limit":52428800}},"cachereport":{"origin":"mw1347","timestamp":"20180330022815","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":69,"wgHostname":"mw1275"});});
+	
+

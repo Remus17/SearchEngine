@@ -1,0 +1,948 @@
+
+
+
+
+Design by contract - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Design_by_contract","wgTitle":"Design by contract","wgCurRevisionId":823442116,"wgRevisionId":823442116,"wgArticleId":39289,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from September 2012","Software design","Programming paradigms"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Design_by_contract","wgRelevantArticleId":39289,"wgRequestId":"WsFc9ApAIDEAAK40XHMAAAAX","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1200691","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Design by contract			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+A design by contract scheme
+
+
+Design by contract (DbC), also known as contract programming, programming by contract and design-by-contract programming, is an approach for designing software. It prescribes that software designers should define formal, precise and verifiable interface specifications for software components, which extend the ordinary definition of abstract data types with preconditions, postconditions and invariants. These specifications are referred to as "contracts", in accordance with a conceptual metaphor with the conditions and obligations of business contracts.
+The DbC approach assumes all client components that invoke an operation on a server component will meet the preconditions specified as required for that operation. Where this assumption is considered too risky (as in multi-channel client-server or distributed computing) the opposite "defensive design" approach is taken, meaning that a server component tests (before or while processing a client's request) that all relevant preconditions hold true, and replies with a suitable error message if not.
+
+
+
+Contents
+
+
+1 History
+2 Description
+3 Performance implications
+4 Relationship to software testing
+5 Language support
+
+5.1 Languages with native support
+5.2 Languages with third-party support
+
+
+6 See also
+7 Notes
+8 Bibliography
+9 External links
+
+
+
+History[edit]
+The term was coined by Bertrand Meyer in connection with his design of the Eiffel programming language and first described in various articles starting in 1986[1][2][3] and the two successive editions (1988, 1997) of his book Object-Oriented Software Construction. Eiffel Software applied for trademark registration for Design by Contract in December 2003, and it was granted in December 2004.[4][5] The current owner of this trademark is Eiffel Software.[6][7]
+Design by contract has its roots in work on formal verification, formal specification and Hoare logic. The original contributions include:
+
+A clear metaphor to guide the design process
+The application to inheritance, in particular a formalism for redefinition and dynamic binding
+The application to exception handling
+The connection with automatic software documentation
+
+Description[edit]
+The central idea of DbC is a metaphor on how elements of a software system collaborate with each other on the basis of mutual obligations and benefits. The metaphor comes from business life, where a "client" and a "supplier" agree on a "contract" that defines, for example, that:
+
+The supplier must provide a certain product (obligation) and is entitled to expect that the client has paid its fee (benefit).
+The client must pay the fee (obligation) and is entitled to get the product (benefit).
+Both parties must satisfy certain obligations, such as laws and regulations, applying to all contracts.
+
+Similarly, if a routine from a class in object-oriented programming provides a certain functionality, it may:
+
+Expect a certain condition to be guaranteed on entry by any client module that calls it: the routine's precondition—an obligation for the client, and a benefit for the supplier (the routine itself), as it frees it from having to handle cases outside of the precondition.
+Guarantee a certain property on exit: the routine's postcondition—an obligation for the supplier, and obviously a benefit (the main benefit of calling the routine) for the client.
+Maintain a certain property, assumed on entry and guaranteed on exit: the class invariant.
+
+The contract is semantically equivalent to a Hoare triple which formalises the obligations. This can be summarised by the "three questions" that the designer must repeatedly answer in the contract:
+
+What does contract expect?
+What does contract guarantee?
+What does contract maintain?
+
+Many programming languages have facilities to make assertions like these. However, DbC considers these contracts to be so crucial to software correctness that they should be part of the design process. In effect, DbC advocates writing the assertions first. Contracts can be written by code comments, enforced by a test suite, or both, even if there is no special language support for contracts.
+The notion of a contract extends down to the method/procedure level; the contract for each method will normally contain the following pieces of information:[citation needed]
+
+Acceptable and unacceptable input values or types, and their meanings
+Return values or types, and their meanings
+Error and exception condition values or types that can occur, and their meanings
+Side effects
+Preconditions
+Postconditions
+Invariants
+(more rarely) Performance guarantees, e.g. for time or space used
+
+Subclasses in an inheritance hierarchy are allowed to weaken preconditions (but not strengthen them) and strengthen postconditions and invariants (but not weaken them). These rules approximate behavioural subtyping.
+All class relationships are between client classes and supplier classes. A client class is obliged to make calls to supplier features where the resulting state of the supplier is not violated by the client call. Subsequently, the supplier is obliged to provide a return state and data that does not violate the state requirements of the client. For instance, a supplier data buffer may require that data is present in the buffer when a delete feature is called. Subsequently, the supplier guarantees to the client that when a delete feature finishes its work, the data item will, indeed, be deleted from the buffer. Other design contracts are concepts of "class invariant". The class invariant guarantees (for the local class) that the state of the class will be maintained within specified tolerances at the end of each feature execution.
+When using contracts, a supplier should not try to verify that the contract conditions are satisfied; the general idea is that code should "fail hard", with contract verification being the safety net. DbC's "fail hard" property simplifies the debugging of contract behavior, as the intended behaviour of each routine is clearly specified. This distinguishes it markedly from a related practice known as defensive programming, where the supplier is responsible for figuring out what to do when a precondition is broken. More often than not, the supplier throws an exception to inform the client that the precondition has been broken, and in both cases—DbC and defensive programming—the client must figure out how to respond to that. DbC makes the supplier's job easier.
+Design by contract also defines criteria for correctness for a software module:
+
+If the class invariant AND precondition are true before a supplier is called by a client, then the invariant AND the postcondition will be true after the service has been completed.
+When making calls to a supplier, a software module should not violate the supplier's preconditions.
+
+Design by contract can also facilitate code reuse, since the contract for each piece of code is fully documented. The contracts for a module can be regarded as a form of software documentation for the behavior of that module.
+Performance implications[edit]
+Contract conditions should never be violated during execution of a bug-free program. Contracts are therefore typically only checked in debug mode during software development. Later at release, the contract checks are disabled to maximize performance.
+In many programming languages, contracts are implemented with assert. Asserts are by default compiled away in release mode in C/C++, and similarly deactivated in C#[8] and Java. This effectively eliminates the run-time costs of contracts in release.
+Relationship to software testing[edit]
+Design by contract does not replace regular testing strategies, such as unit testing, integration testing and system testing. Rather, it complements external testing with internal self-tests that can be activated both for isolated tests and in production code during a test-phase. The advantage of internal self-tests is that they can detect errors before they manifest themselves as invalid results observed by the client. This leads to earlier and more specific error detection.
+The use of assertions can be considered to be a form of test oracle, a way of testing the design by contract implementation.
+Language support[edit]
+Languages with native support[edit]
+Languages that implement most DbC features natively include:
+
+Ada 2012
+Ciao
+Clojure
+Perl6
+Cobra
+D[9]
+Eiffel
+Fortress
+Lisaac
+Mercury
+Nice
+Oxygene (formerly Chrome and Delphi Prism[10])
+Racket (including higher order contracts, and emphasizing that contract violations must blame the guilty party and must do so with an accurate explanation[11])
+RPS-Obix
+Sather
+SPARK (via static analysis of Ada programs)
+Spec#
+Vala
+VDM
+
+Languages with third-party support[edit]
+Various libraries, preprocessors and other tools have been developed for existing programming languages without native Design by Contract support:
+
+Ada, via GNAT pragmas for preconditions and postconditions.
+C and C++, via the DBC for C preprocessor, GNU Nana, eCv and eCv++ formal verification tools, or the Digital Mars C++ compiler, via CTESK extension of C. Loki Library provides a mechanism named ContractChecker that verifies a class follows design by contract.
+C# (and other .NET languages), via Code Contracts (a Microsoft Research project integrated into the .NET Framework 4.0)
+Groovy via GContracts
+Java:
+
+Active:
+
+OVal with AspectJ
+Contracts for Java (Cofoja)
+Java Modeling Language (JML)
+Bean Validation (only pre- and postconditions)[12]
+valid4j
+
+
+Inactive/unknown:
+
+Jtest (active but DbC seems not to be supported anymore)[13]
+iContract2/JContracts
+Contract4J
+jContractor
+C4J
+Google CodePro Analytix
+SpringContracts for the Spring Framework
+Jass
+Modern Jass (successor is Cofoja)[14][15]
+JavaDbC using AspectJ
+JavaTESK using extension of Java
+chex4j using javassist
+highly customizable java-on-contracts
+
+
+
+
+JavaScript, via AspectJS (specifically, AJS_Validator), Cerny.js, ecmaDebug, jsContract, dbc-code-contracts or jscategory.
+Common Lisp, via the macro facility or the CLOS metaobject protocol.
+Nemerle, via macros.
+Nim, via macros.
+Perl, via the CPAN modules Class::Contract (by Damian Conway) or Carp::Datum (by Raphael Manfredi).
+PHP, via PhpDeal, Praspel or Stuart Herbert's ContractLib.
+Python, using packages like PyContracts, Decontractors, dpcontracts, zope.interface, PyDBC or Contracts for Python. A permanent change to Python to support Design by Contracts was proposed in PEP-316, but deferred.
+Ruby, via Brian McCallister's DesignByContract, Ruby DBC ruby-contract or contracts.ruby.
+Rust via the Hoare library
+Tcl, via the XOTcl object-oriented extension.
+
+See also[edit]
+
+Component-based software engineering
+Correctness (computer science)
+Defensive programming
+Fail-fast
+Formal methods
+Hoare logic
+Modular programming
+Program derivation
+Program refinement
+Test-driven development
+
+Notes[edit]
+
+
+
+^ Meyer, Bertrand: Design by Contract, Technical Report TR-EI-12/CO, Interactive Software Engineering Inc., 1986
+^ Meyer, Bertrand: Design by Contract, in Advances in Object-Oriented Software Engineering, eds. D. Mandrioli and B. Meyer, Prentice Hall, 1991, pp. 1–50
+^ Meyer, Bertrand: Applying "Design by Contract", in Computer (IEEE), 25, 10, October 1992, pp. 40–51, also available online
+^ "United States Patent and Trademark Office registration for "DESIGN BY CONTRACT"". 
+^ "United States Patent and Trademark Office registration for the graphic design with words "Design by Contract"". 
+^ "Trademark Status & Document Retrieval". tarr.uspto.gov. 
+^ "Trademark Status & Document Retrieval". tarr.uspto.gov. 
+^ "Assertions in Managed Code". msdn.microsoft.com. 
+^ Bright, Walter (2014-11-01). "D Programming Language, Contract Programming". Digital Mars. Retrieved 2014-11-10. 
+^ Hodges, Nick. "Write Cleaner, Higher Quality Code with Class Contracts in Delphi Prism". Embarcadero Technologies. Retrieved 20 January 2016. 
+^ Findler, Felleisen Contracts for Higher-Order Functions
+^ "Bean Validation specification". beanvalidation.org. 
+^ https://www.parasoft.com/wp-content/uploads/pdf/JtestDataSheet.pdf
+^ "Archived copy" (PDF). Archived from the original (PDF) on 2016-03-28. Retrieved 2016-03-25.  p. 2
+^ "No chance of releasing under Apache/Eclipse/MIT/BSD license? · Issue #5 · nhatminhle/cofoja". GitHub. 
+
+
+
+Bibliography[edit]
+
+
+Mitchell, Richard, and McKim, Jim: Design by Contract: by example, Addison-Wesley, 2002
+A wikibook describing DBC closely to the original model.
+McNeile, Ashley: A framework for the semantics of behavioral contracts. Proceedings of the Second International Workshop on Behaviour Modelling: Foundation and Applications (BM-FA '10). ACM, New York, NY, USA, 2010. This paper discusses generalized notions of Contract and Substitutability.
+
+
+External links[edit]
+
+The Power of Design by Contract(TM) A top-level description of DbC, with links to additional resources.
+Building bug-free O-O software: An introduction to Design by Contract(TM) Older material on DbC.
+Benefits and drawbacks; implementation in RPS-Obix
+Bertrand Meyer, Applying "Design by Contract", IEEE Computer, October 1992.
+Using Code Contracts for Safer Code
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Design
+
+
+
+
+
+
+Outline
+Portal
+Designer
+
+
+
+
+
+
+
+
+
+
+Disciplines
+
+
+
+
+
+
+
+Communication
+design
+
+
+
+Advertising
+Book design
+Corporate design
+Exhibit design
+Film title design
+Graphic design
+
+Motion
+Postage stamp design
+Print design
+
+
+Illustration
+Information design
+Instructional design
+News design
+Photography
+Retail design
+Signage / Traffic sign design
+Typography / Type design
+Video design
+Visual merchandising
+
+
+
+
+
+Environmental
+design
+
+
+
+Architecture
+Architectural lighting design
+Building design
+
+Passive solar
+
+
+Ecological design
+Environmental impact design
+Garden design
+
+Computer-aided
+
+
+Healthy community design
+Hotel design
+Interior architecture
+Interior design
+
+EID
+
+
+Keyline design
+Landscape architecture
+
+Sustainable
+
+
+Landscape design
+Spatial design
+Urban design
+
+
+
+
+
+Industrial
+design
+
+
+
+Automotive design
+Automotive suspension design
+CMF design
+Corrugated box design
+Electric guitar design
+Furniture design
+
+Sustainable
+
+
+Hardware interface design
+Motorcycle design
+Packaging and labeling
+Photographic lens design
+Product design
+Production design
+Sensory design
+Service design
+
+
+
+
+
+Interaction
+design
+
+
+
+Experience design
+
+EED
+
+
+Game design
+
+Level design
+Video game design
+
+
+Hardware interface design
+Icon design
+Immersive design
+Information design
+Sonic interaction design
+User experience design
+User interface design
+Web design
+
+
+
+
+
+Other
+applied arts
+
+
+
+Public art design
+Ceramic / glass design
+Fashion design
+
+Costume design
+Jewelry design
+
+
+Floral design
+Game art design
+Property design
+Scenic design
+Sound design
+Stage/set lighting design
+Textile design
+
+
+
+
+
+Other
+design
+& engineering
+
+
+
+Algorithm design
+Boiler design
+Conceptual design
+Database design
+Drug design
+Electrical system design
+Experimental design
+Filter design
+Job design
+Integrated circuit design
+
+Circuit design
+Physical design
+Power network design
+
+
+Mechanism design
+Nuclear weapon design
+Nucleic acid design
+Organization design
+Process design
+Processor design
+Protein design
+Research design
+Social design
+Software design
+Spacecraft design
+Strategic design
+Systems design
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Approaches
+
+
+
+
+
+
+Activity-centered
+Adaptive web
+Affective
+Brainstorming
+By committee
+By contract
+C-K theory
+Closure
+Co-design
+Concept-oriented
+Configuration
+Contextual
+Continuous
+Cradle-to-cradle
+Creative problem-solving
+Creativity techniques
+Critical
+
+Design fiction
+
+
+Defensive
+Design–bid–build
+Design–build
+
+architect-led
+
+
+Domain-driven
+Ecodesign
+Energy neutral
+Engineering design process
+
+Probabilistic design
+
+
+Error-tolerant
+Fault-tolerant
+Framework-oriented
+For assembly
+For behaviour change
+For manufacturability
+For Six Sigma
+For testing
+For X
+Functional
+Generative
+Geodesign
+High-level
+Integrated
+Integrated topside
+Intelligence-based
+Iterative
+KISS principle
+Low-level
+Metadesign
+Mind mapping
+Modular
+New Wave
+Object-oriented
+Open
+Parametric
+Participatory
+Platform-based
+Policy-based
+Process-centered
+Public interest
+Rational
+Regenerative
+Reliability engineering
+Research-based
+Responsibility-driven
+RWD
+Safe-life
+Sustainable
+Systemic
+
+SOD
+
+
+Tableless web
+Theory of constraints
+Top-down and bottom-up
+Transformation
+Transgenerational
+TRIZ
+Universal
+
+Design for All
+
+
+Usage-centered
+Use-centered
+User-centered
+
+Empathic
+
+
+User innovation
+Value-driven
+Value sensitive
+
+Privacy by
+
+
+
+
+Design choice
+computing
+controls
+flow
+leadership
+management
+marker
+methods
+pattern
+research
+science
+strategy
+theory
+thinking
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tools
+Intellectual property
+Organizations
+Awards
+
+
+
+
+
+
+
+
+
+
+Tools
+
+
+
+AAD
+Architectural model
+Blueprint
+Comprehensive layout
+CAD
+
+CAID
+Virtual home design software
+
+
+CAutoD
+Design quality indicator
+Electronic design automation
+Flowchart
+Mockup
+Product design specification
+Prototype
+Sketch
+Storyboard
+Technical drawing
+Web design program
+Website wireframe
+
+
+
+
+
+Intellectual
+property
+
+
+
+Community design
+Design around
+Design patent
+Fashion design copyright
+Geschmacksmuster
+Industrial design rights
+
+European Union
+
+
+
+
+
+
+
+Organizations
+
+
+
+AIGA
+Chartered Society of Designers
+Design and Industries Association
+Design Council
+International Forum Design
+The Design Society
+Design Research Society
+
+
+
+
+
+Awards
+
+
+
+European Design Award
+German Design Award
+Good Design Award (Chicago)
+Good Design Award (Japan)
+Graphex
+IF product design award
+James Dyson Award
+Prince Philip Designers Prize
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Related topics
+
+
+
+
+
+
+Aesthetics
+Agile
+Concept art
+Creative industries
+Cultural icon
+.design
+Enterprise architecture
+Futures studies
+Innovation Management
+Intelligent design
+Lean Startup
+New product development
+OODA Loop
+Philosophy of design
+Process simulation
+Slow design
+STEAM fields
+Unintelligent design
+Visualization
+Wicked problem
+
+
+Design brief
+change
+classic
+director
+education
+elements and principles
+engineer
+firm
+history
+knowledge
+language
+life
+load
+museum
+paradigm
+rationale
+review
+specification
+studio
+technology
+
+
+
+
+
+
+
+
+
+
+
+Commons
+Wikibooks
+Wikinews
+Wikiquote
+Wikisource
+Wiktionary
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Design_by_contract&oldid=823442116"					
+				Categories: Software designProgramming paradigmsHidden categories: All articles with unsourced statementsArticles with unsourced statements from September 2012				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةDanskDeutschEspañolEsperantoFrançaisItalianoעברית日本語PolskiPortuguêsРусскийSlovenčinaSuomiУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 1 February 2018, at 07:47.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.224","walltime":"0.288","ppvisitednodes":{"value":1372,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":105027,"limit":2097152},"templateargumentsize":{"value":13697,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":11603,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  201.592      1 -total"," 40.91%   82.467      1 Template:Reflist"," 31.57%   63.650     10 Template:Cite_web"," 30.02%   60.527      1 Template:Design"," 28.47%   57.390      1 Template:Navbox_with_collapsible_groups"," 25.52%   51.447      1 Template:Citation_needed"," 18.39%   37.068      1 Template:Fix"," 11.77%   23.723      2 Template:Category_handler","  5.32%   10.716      1 Template:Delink","  4.52%    9.113      2 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.086","limit":"10.000"},"limitreport-memusage":{"value":4093661,"limit":52428800}},"cachereport":{"origin":"mw1244","timestamp":"20180322124657","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":78,"wgHostname":"mw1328"});});
+	
+

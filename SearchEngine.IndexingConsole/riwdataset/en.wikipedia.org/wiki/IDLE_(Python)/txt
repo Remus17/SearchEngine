@@ -1,0 +1,253 @@
+
+
+
+
+IDLE - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"IDLE","wgTitle":"IDLE","wgCurRevisionId":832299373,"wgRevisionId":832299373,"wgArticleId":10849171,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Free computer libraries","Free integrated development environments","Python software","Software using the PSF license"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"IDLE","wgRelevantArticleId":10849171,"wgRequestId":"WsBCCQpAADwAABJUip4AAABE","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"IDLE_(Python)","wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgInternalRedirectTargetUrl":"/wiki/IDLE","wgWikibaseItemId":"Q427130","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+IDLE			
+				From Wikipedia, the free encyclopedia				  (Redirected from IDLE (Python))
+								
+					Jump to:					navigation, 					search
+				
+				For the IMAP feature for active email notification, see IMAP IDLE.
+
+IDLE
+
+
+IDLE in action under Windows: text editor with syntax highlight shell
+
+
+
+Original author(s)
+Guido van Rossum
+
+
+Initial release
+December 22, 1998; 19 years ago (1998-12-22)
+
+
+Repository
+
+
+
+https://github.com/python/cpython/tree/master/Lib/idlelib
+
+
+
+
+
+Written in
+Python
+
+
+Type
+Integrated development environment
+
+
+Website
+docs.python.org/library/idle.html
+
+
+IDLE (short for integrated development environment[1][2] or integrated development and learning environment[3]) is an integrated development environment for Python, which has been bundled with the default implementation of the language since 1.5.2b1.[4][5] It is packaged as an optional part of the Python packaging with many Linux distributions. It is completely written in Python and the Tkinter GUI toolkit (wrapper functions for Tcl/Tk).
+IDLE is intended to be a simple IDE and suitable for beginners, especially in an educational environment. To that end, it is cross-platform, and avoids feature clutter.
+According to the included README, its main features are:
+
+Multi-window text editor with syntax highlighting, autocompletion, smart indent and other.
+Python shell with syntax highlighting.
+Integrated debugger with stepping, persistent breakpoints, and call stack visibility.
+
+IDLE has been criticized for various usability issues, including losing focus, lack of copying to clipboard feature, lack of line numbering options, and general user interface design; it has been called a "disposable" IDE, because users frequently move on to a more advanced IDE as they gain experience.[6]
+Author Guido van Rossum says IDLE stands for "Integrated DeveLopment Environment",[1][7] and since van Rossum named the language Python partly to honor British comedy group Monty Python, the name IDLE was probably also chosen partly to honor Eric Idle, one of Monty Python's founding members.[8][9]
+See also[edit]
+
+
+Free software portal
+
+
+
+List of integrated development environments for Python
+
+References[edit]
+
+
+^ a b Subject: IDLE 0.2 -- Integrated DeveLopment Environment for Python, From: Guido van Rossum, Date: Fri, 8 Jan 1999 17:35:25 GMT
+^ Also from the Help> About screen
+^ https://docs.python.org/2/library/idle.html
+^ Subject: IDLE 0.1 -- a Python IDE, By Guido van Rossum - 16 Nov 1998 - comp.lang.python, At the conference I mentioned a few times that I was working on a Tkinter-based IDE for Python. I've decided to use the paradigm "release early and often" for this piece of software (especially since I don't expect I'll have much time to work on it), so version 0.1 (essentially a dump of my directory) is now sitting in the contrib directory ftp.python.org.
+^ IDLE 0.1 was distributed with the Python 1.5.2b1 release on 12/22/98., From: \Python-1.5.2\Tools\idle\NEWS.txt
+^ Sweigart AL. (2011) The Things I Hate About IDLE That I Wish Someone Would Fix. The Invent With Python Blog.
+^ Primer on Installing Python and VPython, Author: M. Haley
+^ Lutz, Mark & Ascher, David (2004). Learning Python, p. 40. O'Reilly Media, Inc. ISBN 0-596-00281-5.
+^ Hammond, Mark & Robinson, Andy (2000). Python Programming On Win32: Help for Windows Programmers, p. 59. O'Reilly Media, Inc. ISBN 978-1565926219.
+
+
+External links[edit]
+
+IDLE home page in the Python documentation
+IDLE page in the Python wiki
+A guide to using IDLE
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=IDLE&oldid=832299373"					
+				Categories: Free computer librariesFree integrated development environmentsPython softwareSoftware using the PSF license				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia CommonsWikibooks				
+							
+		
+			
+			Languages
+			
+								
+					CatalàفارسیFrançais日本語PolskiPortuguêsРусскийСрпски / srpski				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 25 March 2018, at 02:56.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.156","walltime":"0.214","ppvisitednodes":{"value":1255,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":11665,"limit":2097152},"templateargumentsize":{"value":2165,"limit":2097152},"expansiondepth":{"value":17,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4342,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  192.798      1 -total"," 58.83%  113.424      1 Template:Infobox_software"," 52.10%  100.457      1 Template:Infobox"," 18.97%   36.569      1 Template:Reflist"," 14.51%   27.981      1 Template:Plainlist"," 14.39%   27.747      1 Template:For"," 13.38%   25.794      1 Template:Wikidata"," 12.66%   24.403      2 Template:ISBN","  9.25%   17.834      1 Template:Start_date_and_age","  5.01%    9.661      1 Template:Portal"]},"scribunto":{"limitreport-timeusage":{"value":"0.051","limit":"10.000"},"limitreport-memusage":{"value":2203114,"limit":52428800}},"cachereport":{"origin":"mw1267","timestamp":"20180331105423","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":90,"wgHostname":"mw1265"});});
+	
+

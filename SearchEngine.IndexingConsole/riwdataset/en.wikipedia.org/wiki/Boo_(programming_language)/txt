@@ -1,0 +1,524 @@
+
+
+
+
+Boo (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Boo_(programming_language)","wgTitle":"Boo (programming language)","wgCurRevisionId":820235407,"wgRevisionId":820235407,"wgArticleId":1147624,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from July 2011","All articles needing additional references","Pages using deprecated image syntax","Programming languages",".NET programming languages","Brazilian inventions","Class-based programming languages","Free compilers and interpreters","Object-oriented programming languages","Procedural programming languages","Programming languages created in 2003","Software using the BSD license","Statically typed programming languages","2003 software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Boo_(programming_language)","wgRelevantArticleId":1147624,"wgRequestId":"Wr5T-gpAICEAAJXp920AAAAW","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q892948","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Boo (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (July 2011) (Learn how and when to remove this template message)
+
+
+
+
+Boo
+
+
+
+
+Paradigm
+Object oriented
+
+
+Designed by
+Rodrigo B. De Oliveira
+
+
+Developer
+Rodrigo B. De Oliveira
+
+
+First appeared
+2003; 15 years ago (2003)
+
+
+
+
+
+Stable release
+
+0.9.7 / 25 March 2013; 5 years ago (2013-03-25)
+
+
+
+
+
+
+Typing discipline
+static, strong, inferred, duck
+
+
+Implementation language
+C#
+
+
+Platform
+Common Language Infrastructure (.NET Framework & Mono)/
+
+
+License
+BSD 3-Clause[1]
+
+
+Website
+github.com/boo-lang, boo-lang.org
+
+
+Influenced by
+
+
+C#, Python
+
+
+Influenced
+
+
+Genie, Vala
+
+
+Boo is an object-oriented, statically typed, general-purpose programming language that seeks to make use of the Common Language Infrastructure's support for Unicode, internationalization, and web applications, while using a Python-inspired syntax[2] and a special focus on language and compiler extensibility. Some features of note include type inference, generators, multimethods, optional duck typing, macros, true closures, currying, and first-class functions.
+Boo was one of the three scripting languages for the Unity game engine (Unity Technologies employed De Oliveira), until it was dropped in 2014 due to the small userbase.[3]
+Boo is free software released under the BSD 3-Clause license. It is compatible with the Microsoft .NET and Mono frameworks.
+
+
+
+Contents
+
+
+1 Code samples
+
+1.1 Hello world program
+1.2 Fibonacci series generator function
+
+
+2 See also
+3 References
+4 External links
+
+
+
+Code samples[edit]
+Hello world program[edit]
+
+
+print "Hello World!"
+
+Fibonacci series generator function[edit]
+
+
+def fib():
+    a, b = 0L, 1L       # The 'L's make the numbers double word length (typically 64 bits)
+    while true:
+        yield b
+        a, b = b, a + b
+
+# Print the first 5 numbers in the series:
+for index as int, element in zip(range(5), fib()):
+    print("${index+1}: ${element}")
+
+See also[edit]
+
+
+Free software portal
+
+
+
+Fantom
+Apache Groovy
+IronPython
+IronRuby
+Nemerle
+REBOL
+
+References[edit]
+
+
+^ "license.txt". github.com. Retrieved August 5, 2015. 
+^ Rodrigo Barreto de Oliveira (2005). "The boo Programming Language" (PDF). Archived from the original (PDF) on February 6, 2009. Retrieved February 22, 2009. 
+^ aleksandr (September 3, 2014). "Documentation, Unity scripting languages and you". Unity Blogs. 
+
+
+External links[edit]
+
+Official website
+The sources of Boo hosted on GitHub
+The documentation of Boo hosted on GitHub
+Visual Boo, for Visual Studio 2010
+BooLangStudio VSIP for Visual Studio 2008
+#develop free IDE for C#, VB.NET and Boo projects on Microsoft's .NET platform
+Boo syntax highlighting for Visual Studio 2010
+How To Think Like a Computer Scientist: Learning to Program with Boo
+Boo Succinctly Revealed
+Bootorial
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Common Language Infrastructure
+
+
+
+Architecture
+
+
+
+Application domain
+Code Access Security
+Common Intermediate Language (CIL)
+
+CIL instructions
+
+
+Common Type System (CTS)
+Platform Invocation Services (P/Invoke)
+Virtual Execution System (VES)
+
+
+
+
+
+Components
+
+
+
+Assembly
+Delegate
+Global Assembly Cache (GAC)
+Manifest
+Metadata
+
+
+
+
+
+Standard
+Libraries
+
+
+
+
+Kernel Profile
+
+
+
+Base Class Library (BCL)
+Runtime Infrastructure Library
+
+
+
+
+
+Compact Profile
+
+
+
+Network Library
+Reflection Library
+XML Library
+
+
+
+
+
+
+
+
+Extended Array Library
+Extended Numerics Library
+Parallel Library
+Vararg Library
+
+
+
+
+
+
+
+
+Implementations
+
+
+
+
+Microsoft
+
+
+
+.NET Framework
+.NET Compact Framework
+.NET Micro Framework
+Shared Source Common Language Infrastructure
+
+
+
+
+
+Other
+
+
+
+.NET Core
+Mono
+Portable.NET
+
+
+
+
+
+
+
+
+Languages
+
+
+
+
+Microsoft
+
+
+
+C#
+Visual Basic .NET
+C++/CLI
+
+Managed
+
+
+F#
+Q#
+J#
+JScript .NET
+PowerShell
+
+
+
+
+
+Other
+
+
+
+Axum
+A#
+Boo
+Cobra
+IronScheme
+
+IronLisp
+
+
+IronPython
+IronRuby
+Nemerle
+Oxygene
+Phalanger
+P#
+Scala
+
+
+
+
+
+Comparison
+
+
+
+C# and Java
+C# and Visual Basic .NET
+Java and .NET platforms
+Visual Basic and Visual Basic .NET
+
+
+
+
+
+
+
+
+Organizations
+
+
+
+.NET Foundation
+DotGNU
+Microsoft
+Xamarin
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Boo_(programming_language)&oldid=820235407"					
+				Categories: Programming languages.NET programming languagesBrazilian inventionsClass-based programming languagesFree compilers and interpretersObject-oriented programming languagesProcedural programming languagesProgramming languages created in 2003Software using the BSD licenseStatically typed programming languages2003 softwareHidden categories: Articles needing additional references from July 2011All articles needing additional referencesPages using deprecated image syntax				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةБългарскиČeštinaDeutschEspañolفارسیFrançaisGalegoՀայերենItaliano日本語PolskiPortuguêsРусскийSvenskaУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 13 January 2018, at 20:46.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.156","walltime":"0.232","ppvisitednodes":{"value":1113,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":49924,"limit":2097152},"templateargumentsize":{"value":2159,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4816,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  193.714      1 -total"," 45.06%   87.279      2 Template:Infobox"," 35.11%   68.009      1 Template:Infobox_programming_language"," 27.54%   53.351      3 Template:Cite_web"," 21.70%   42.037      1 Template:Refimprove"," 14.73%   28.536      1 Template:Ambox"," 14.04%   27.204      1 Template:Infobox_software/simple"," 10.65%   20.640      2 Template:Start_date_and_age","  8.74%   16.933      4 Template:Navbox","  7.52%   14.574      1 Template:Common_Language_Infrastructure"]},"scribunto":{"limitreport-timeusage":{"value":"0.076","limit":"10.000"},"limitreport-memusage":{"value":3202287,"limit":52428800}},"cachereport":{"origin":"mw1241","timestamp":"20180330022712","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":82,"wgHostname":"mw1331"});});
+	
+

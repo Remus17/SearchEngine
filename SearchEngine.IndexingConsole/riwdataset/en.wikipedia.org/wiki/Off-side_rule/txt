@@ -1,0 +1,375 @@
+
+
+
+
+Off-side rule - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Off-side_rule","wgTitle":"Off-side rule","wgCurRevisionId":829460103,"wgRevisionId":829460103,"wgArticleId":605595,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from December 2011","All articles needing additional references","All articles with unsourced statements","Articles with unsourced statements from June 2012","Programming language topics"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Off-side_rule","wgRelevantArticleId":605595,"wgRequestId":"Wr@ehQpAADgAAEsd1IYAAAAB","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q3150006","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Off-side rule			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				This article is about the programming language syntax feature. For other uses, see Offside (disambiguation).
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (December 2011) (Learn how and when to remove this template message)
+
+
+
+A computer programming language is said to adhere to the off-side rule if blocks in that language are expressed by their indentation.[1][2] The term was coined by Peter J. Landin, after the offside rule in football. This is contrasted with free-form languages, notably curly-bracket programming languages, where indentation is not meaningful and indent style is only a matter of convention and code formatting.
+
+
+
+Contents
+
+
+1 Definition
+2 Code examples
+3 Implementation
+4 Alternatives
+5 Off-side rule languages
+6 See also
+7 References
+
+
+
+Definition[edit]
+Peter J. Landin, in an article called "The Next 700 Programming Languages", defined the off-side rule thus: "Any non-whitespace token to the left of the first such token on the previous line is taken to be the start of a new declaration."[3]
+Code examples[edit]
+The following is an example of indentation blocks in Python. The colons are part of the Python language syntax for readability;[4] they are not necessary to implement the off-side rule.
+In Python, the rule is taken to define the boundaries of statements rather than declarations.
+
+
+def is_even(a):
+    if a % 2 == 0:
+        print('Even!')
+        return True
+    print('Odd!')
+    return False
+
+Python also suspends the off-side rule within brackets. A statement within brackets continues until its brackets match (or mismatch).
+Implementation[edit]
+The off-side rule can be implemented in the lexical analysis phase, as in Python, where increasing the indentation results in the lexer outputting an INDENT token, and decreasing the indentation results in the lexer outputting a DEDENT token.[5] These tokens correspond to the opening brace { and closing brace } in languages that use braces for blocks, and means that the phrase grammar does not depend on whether braces or indentation are used. This requires that the lexer hold state, namely the current indentation level, and thus can detect changes in indentation when this changes, and thus the lexical grammar is not context-free – INDENT/DEDENT depend on the contextual information of previous indentation level.
+Alternatives[edit]
+The primary alternative to delimiting blocks, popularized by C, is to ignore whitespace and mark blocks explicitly with curly brackets (i.e. { and }) or some other delimiter. While this allows for more freedom – the developer might choose not to indent small pieces of code like the break and continue statements – sloppily indented code might lead the reader astray.
+Lisp and other S-expression based languages do not differentiate statements from expressions, and parentheses are enough to control the scoping of all statements within the language. As in curly bracket languages, whitespace is mostly ignored by the reader (i.e. the read function). Whitespace is used to separate tokens.[6] The explicit structure of Lisp code allows to perform automatic indentation, which acts as a visual cue for human Lisp readers.
+Another alternative is for each block to begin and end with explicit keywords. For example, in ALGOL 60 and its descendant Pascal blocks start with keyword begin and end with keyword end. In some languages (but not Pascal), this means that newlines are important[citation needed] (unlike in curly brace languages), but the indentation is not. In BASIC and FORTRAN, blocks begin with the block name (such as IF) and end with the block name prepended with END (e.g. END IF). ALGOL 68 and the Bourne shell (sh, and bash) are similar, but the ending of the block is usually given by the name of the block written backward (e.g. case starts a switch statement and it spans until the matching esac; similary conditionals if...then...[elif...[else...]]fi or for loops for...do...od in ALGOL68 or for...do...done in bash).
+One advantage to the BASIC approach is that it improves readability of long, nested, or otherwise complex code. A group of outdents or closing brackets alone does not provide any contextual cues as to which blocks are being closed, necessitating backtracking, and closer scrutiny while debugging. In addition, languages that allow a suffix for END-like keywords further improve such cues, such as continue versus continue for x. However, modern code editing applications often provide visual indicators and features such as folding to assist with these drawbacks.
+Off-side rule languages[edit]
+
+Programming languages
+
+
+ABC
+Boo
+BuddyScript
+Cobra
+CoffeeScript
+Converge
+Curry
+Elixir (, do: blocks)
+Elm
+F# (if #light "off" is not specified)
+Genie
+Haskell[7] (only for where, let, do, or case ... of clauses when braces are omitted)
+ISWIM, the abstract language that introduced the rule
+LiveScript
+Miranda
+Nemerle
+Nim
+occam
+PROMAL
+Python
+Scheme, when using one of several Scheme Requests for Implementations, the latest of which is SRFI 119
+Spin
+XL
+
+
+Other languages
+
+
+Haml
+Make (build tool - tabs introduce commands in Make rules)
+Sass
+YAML
+
+See also[edit]
+
+Python syntax and semantics § Indentation
+Prettyprint
+
+References[edit]
+
+
+
+^ Hutton, G. (Dec 6, 2012). "Parsing Using Combinators". In Davis, Kei; Hughes, John. Functional Programming: Proceedings of the 1989 Glasgow Workshop 21–23 August 1989, Fraserburgh, Scotland. Springer Science & Business Media. pp. 362–364. Retrieved September 3, 2015. 
+^ Turner, D.A. (August 13, 2013). "Some History of Functional Programming Languages (Invited Talk)". In Loidl, Hans Wolfgang; Peña, Ricardo. Trends in Functional Programming: 13th International Symposium, TFP 2012, St Andrews, UK, June 12–14, 2012, Revised Selected Papers. Springer. p. 8. Retrieved September 3, 2015. 
+^ Landin, P. J. (March 1966). "The next 700 programming languages" (PDF). Comm. ACM. 9 (3): 157–166. doi:10.1145/365230.365257. 
+^ Python FAQ on colons
+^ Python Documentation, 2. Lexical analysis: 2.1.8. Indentation
+^ http://clhs.lisp.se/Body/02_adg.htm
+^ The Haskell Report - Layout
+
+
+
+This article is based on material taken from the Free On-line Dictionary of Computing prior to 1 November 2008 and incorporated under the "relicensing" terms of the GFDL, version 1.3 or later.
+
+
+
+
+
+
+v
+t
+e
+
+
+Types of programming languages
+
+
+
+
+
+
+Actor-based
+Array
+Aspect-oriented
+Class-based
+Concatenative
+Concurrent
+Data-structured
+Dataflow
+Declarative
+Domain-specific
+Dynamic
+Esoteric
+Event-driven
+Extensible
+Functional
+Imperative
+Logic
+Macro
+Metaprogramming
+Multi-paradigm
+Object-based
+Object-oriented
+Pipeline
+Procedural
+Prototype-based
+Reflective
+Rule-based
+Scripting
+Synchronous
+Templating
+
+
+
+
+
+
+
+
+Assembly
+Compiled
+Interpreted
+Machine
+
+
+
+
+
+
+
+
+Low-level
+High-level
+Very high-level
+
+
+
+
+
+
+
+
+First generation
+Second generation
+Third generation
+Fourth generation
+Fifth generation
+
+
+
+
+
+
+
+
+Non-English-based
+Visual
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Off-side_rule&oldid=829460103"					
+				Categories: Programming language topicsHidden categories: Articles needing additional references from December 2011All articles needing additional referencesAll articles with unsourced statementsArticles with unsourced statements from June 2012				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					Français日本語中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 8 March 2018, at 19:48.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.160","walltime":"0.220","ppvisitednodes":{"value":588,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":24777,"limit":2097152},"templateargumentsize":{"value":552,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":6669,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  189.789      1 -total"," 37.27%   70.741      1 Template:Reflist"," 26.02%   49.378      2 Template:Cite_conference"," 20.65%   39.191      1 Template:About"," 15.92%   30.208      1 Template:Refimprove"," 13.18%   25.019      1 Template:Citation_needed"," 12.82%   24.336      1 Template:Ambox"," 11.42%   21.666      1 Template:Fix","  6.32%   11.994      1 Template:Programming_language","  5.98%   11.356      1 Template:Delink"]},"scribunto":{"limitreport-timeusage":{"value":"0.078","limit":"10.000"},"limitreport-memusage":{"value":2953313,"limit":52428800}},"cachereport":{"origin":"mw1264","timestamp":"20180331105549","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":101,"wgHostname":"mw1261"});});
+	
+

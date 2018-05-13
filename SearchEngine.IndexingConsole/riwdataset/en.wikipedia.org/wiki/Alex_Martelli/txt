@@ -1,0 +1,227 @@
+
+
+
+
+Alex Martelli - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Alex_Martelli","wgTitle":"Alex Martelli","wgCurRevisionId":817027552,"wgRevisionId":817027552,"wgArticleId":6073784,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with hCards","Wikipedia articles with VIAF identifiers","Wikipedia articles with ISNI identifiers","Wikipedia articles with BNF identifiers","1955 births","Living people","Google employees","Computer programmers","Italian computer scientists","People from Bologna","Python people","Italian expatriates in the United States"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Alex_Martelli","wgRelevantArticleId":6073784,"wgRequestId":"Wr8XLwpAAEEAAEMN03AAAAAA","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q4717433","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Alex Martelli			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+Alex Martelli
+
+
+
+Alex Martelli in Argentina (Cafeconf 2006)
+
+
+
+Born
+(1955-10-05) October 5, 1955 (age 62)
+
+
+Occupation
+computer engineer
+
+
+Known for
+contributions to the Python community
+
+
+Alex Martelli (born October 5, 1955) is an Italian computer engineer and Fellow of the Python Software Foundation. Since early 2005, he works for Google, Inc. in Mountain View, California, for the first few years as "Über Tech Lead", then as "Senior Staff Engineer", currently in charge of "long tail" community support for Google Cloud Platform.
+He holds a Laurea in Electrical Engineering from Bologna University (1980); he is the author of Python in a Nutshell (recently out in a third edition, which Martelli wrote with two co-authors), co-editor of the Python Cookbook's first two editions, and has written other (mostly Python-related) materials. Martelli won the 2002 Activators' Choice Award, and the 2006 Frank Willison award for outstanding contributions to the Python community.
+Before joining Google, Martelli spent a year designing chips with Texas Instruments; eight years with IBM Research, gradually shifting from hardware to software, and winning three Outstanding Technical Achievement Awards; 12 as Senior Software Consultant at think3, Inc., developing libraries, network protocols, GUI engines, event frameworks, and web access frontends; and three more as a freelance consultant, working mostly for Open End AB, a Python-centered software house (formerly known as Strakt AB) located in Gothenburg, Sweden.
+He has taught courses on programming, development methods, object-oriented design, cloud computing, and numerical computing, at Ferrara University and other schools. Martelli was also the keynote speaker for the 2008 SciPy Conference, and various editions of Pycon APAC and Pycon Italia conferences.
+Bibliography[edit]
+
+Martelli, Alex (July 2006). Python in a Nutshell. O'Reilly Media. ISBN 0-596-10046-9. 
+Martelli, Alex; David Ascher; Anna Ravenscroft (March 2005). Python Cookbook. O'Reilly Media. ISBN 0-596-00797-3. 
+
+References[edit]
+
+This article is based on autobiographical material at http://www.aleax.it/bio.txt, released as GFDL.
+
+External resources[edit]
+
+Much of Martelli's writing can be found at his personal home page.
+Introductory Lecture on Python on YouTube
+Stack Overflow profile
+
+
+
+
+Authority control
+
+
+
+WorldCat Identities
+VIAF: 71635234
+ISNI: 0000 0001 1769 6831
+SUDOC: 068907338
+BNF: cb14559889k (data)
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Alex_Martelli&oldid=817027552"					
+				Categories: 1955 birthsLiving peopleGoogle employeesComputer programmersItalian computer scientistsPeople from BolognaPython peopleItalian expatriates in the United StatesHidden categories: Articles with hCardsWikipedia articles with VIAF identifiersWikipedia articles with ISNI identifiersWikipedia articles with BNF identifiers				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					EspañolItaliano				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 25 December 2017, at 15:18.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.176","walltime":"0.213","ppvisitednodes":{"value":1015,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":9622,"limit":2097152},"templateargumentsize":{"value":785,"limit":2097152},"expansiondepth":{"value":10,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  191.435      1 -total"," 47.64%   91.207      1 Template:Infobox_person"," 30.24%   57.889      1 Template:Infobox"," 29.86%   57.168      2 Template:Cite_book"," 11.33%   21.688      1 Template:YouTube"," 10.36%   19.834      1 Template:Authority_control","  9.67%   18.520      5 Template:Br_separated_entries","  8.32%   15.935      2 Template:Main_other","  6.04%   11.567      1 Template:Namespace_detect","  4.37%    8.363      1 Template:Birth_date_and_age"]},"scribunto":{"limitreport-timeusage":{"value":"0.086","limit":"10.000"},"limitreport-memusage":{"value":2555724,"limit":52428800}},"cachereport":{"origin":"mw1240","timestamp":"20180331034805","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":89,"wgHostname":"mw1270"});});
+	
+

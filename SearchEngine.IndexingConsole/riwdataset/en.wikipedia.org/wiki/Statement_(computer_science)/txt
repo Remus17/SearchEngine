@@ -1,0 +1,280 @@
+
+
+
+
+Statement (computer science) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Statement_(computer_science)","wgTitle":"Statement (computer science)","wgCurRevisionId":816908549,"wgRevisionId":816908549,"wgArticleId":938656,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles with GND identifiers","Programming language concepts","Statements"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Statement_(computer_science)","wgRelevantArticleId":938656,"wgRequestId":"WsE@dQpAICIAACmY0VcAAACH","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q613299","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Statement (computer science)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out.[1] A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
+Many imperative languages (e.g. C) make a distinction between statements and definitions, with a statement only containing executable code and a definition instantiating an identifier, while an expression evaluates to a value only. A distinction can also be made between simple and compound statements; the latter may contain statements as components.
+
+
+
+Contents
+
+
+1 Kinds of statements
+
+1.1 Simple statements
+1.2 Compound statements
+
+
+2 Syntax
+3 Semantics
+4 Expressions
+5 Extensibility
+6 See also
+7 References
+8 External links
+
+
+
+Kinds of statements[edit]
+The following are some of the major generic kinds of statements, pseudocoded. These pseudocoded statements have an immediate corresponding syntax in any typical imperative language like Pascal, C, Fortran etc.:
+Simple statements[edit]
+
+assertion
+
+in C: assert(ptr != NULL);
+
+
+assignment
+
+in Pascal: A := A + 5
+in C and Fortran: A = A + 5
+
+
+goto
+
+in Fortran: goto label;
+
+
+return
+
+in C, Pascal and Fortran: return value;
+
+
+call
+
+in C and Pascal: CLEARSCREEN()
+in Fortran: call CLEARSCREEN()
+
+
+
+Compound statements[edit]
+
+block:
+
+in Pascal: begin ... end
+in C: { ... }
+
+
+do-loop: do { computation(&i); } while (i < 10);
+for-loop: for A := 1 to 10 do WRITELN(A) end
+if-statement: if A > 3 then WRITELN(A) else WRITELN("NOT YET"); end
+switch-statement: switch (c) { case 'a': alert(); break; case 'q': quit(); break; }
+while-loop: while NOT EOF do begin READLN end
+with-statement: with open(filename) as f: use(f)
+
+Syntax[edit]
+The appearance of statements shapes the look of programs. Programming languages are characterized by the type of statements they use (e.g. the curly brace language family). Many statements are introduced by identifiers like if, while or repeat. Often statement keywords are reserved such that they cannot be used as names of variables or functions. Imperative languages typically use special syntax for each statement, which looks quite different from function calls. Common methods to describe the syntax of statements are Backus–Naur form and syntax diagrams.
+Semantics[edit]
+Semantically many statements differ from subroutine calls by their handling of parameters. Usually an actual subroutine parameter is evaluated once before the subroutine is called. This contrasts to many statement parameters that can be evaluated several times (e.g. the condition of a while loop) or not at all (e.g. the loop body of a while loop). Technically such statement parameters are call-by-name parameters. Call-by-name parameters are evaluated when needed (see also lazy evaluation). When call-by-name parameters are available a statement like behaviour can be implemented with subroutines (see Lisp). For languages without call-by-name parameters the semantic description of a loop or conditional is usually beyond the capabilities of the language. Therefore, standard documents often refer to semantic descriptions in natural language.
+Expressions[edit]
+In most languages, statements contrast with expressions in that statements do not return results and are executed solely for their side effects, while expressions always return a result and often do not have side effects at all. Among imperative programming languages, Algol 68 is one of the few in which a statement can return a result. In languages that mix imperative and functional styles, such as the Lisp family, the distinction between expressions and statements is not made: even expressions executed in sequential contexts solely for their side effects and whose return values are not used are considered 'expressions'. In purely functional programming, there are no statements; everything is an expression.
+This distinction is frequently observed in wording: a statement is executed, while an expression is evaluated. This is found in the exec and eval functions found in some languages: in Python both are found, with exec applied to statements and eval applied to expressions.
+Extensibility[edit]
+Most languages have a fixed set of statements defined by the language, but there have been experiments with extensible languages that allow the programmer to define new statements.
+See also[edit]
+
+Comparison of Programming Languages - Statements
+Control flow
+Expression (contrast)
+Extensible languages
+
+References[edit]
+
+
+
+^ "statement". webopedia. Retrieved 2015-03-03. 
+
+
+
+External links[edit]
+
+PC ENCYCLOPEDIA: Definition of: program statement
+
+
+
+
+Authority control
+
+
+
+GND: 4458688-7
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Statement_(computer_science)&oldid=816908549"					
+				Categories: Programming language conceptsStatementsHidden categories: Wikipedia articles with GND identifiers				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					ČeštinaDanskDeutschEsperanto한국어HrvatskiമലയാളംNederlands日本語Олык марийPolskiРусскийСрпски / srpskiSuomiSvenskaУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 24 December 2017, at 16:01.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.080","walltime":"0.117","ppvisitednodes":{"value":420,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":3336,"limit":2097152},"templateargumentsize":{"value":308,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":897,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%   87.550      1 -total"," 60.90%   53.322      1 Template:Reflist"," 50.59%   44.294      1 Template:Cite_web"," 33.10%   28.977      1 Template:Authority_control","  5.34%    4.675      7 Template:Visible_anchor","  1.84%    1.612      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.039","limit":"10.000"},"limitreport-memusage":{"value":1583851,"limit":52428800}},"cachereport":{"origin":"mw1248","timestamp":"20180316142508","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":72,"wgHostname":"mw1332"});});
+	
+

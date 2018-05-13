@@ -1,0 +1,92 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.10 PythonOption
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.9 PythonOptimize
+Up:
+5.4 Other Directives
+Next:
+5.4.11 PythonPath
+
+
+
+
+ 
+ 
+
+5.4.10 PythonOption
+
+
+
+Syntax:
+PythonOption key [value] 
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+Assigns a key value pair to a table that can be later retrieved by the
+req.get_options() function. This is useful to pass information
+between the apache configuration files (httpd.conf,
+.htaccess, etc) and the Python programs. If the value is omitted or empty (""),
+then the key is removed from the local configuration.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.9 PythonOptimize
+Up:
+5.4 Other Directives
+Next:
+5.4.11 PythonPath
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

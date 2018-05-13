@@ -1,0 +1,100 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.2 PythonDebug
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.1 PythonEnablePdb
+Up:
+5.4 Other Directives
+Next:
+5.4.3 PythonImport
+
+
+
+
+ 
+ 
+
+5.4.2 PythonDebug
+
+
+
+Syntax:
+PythonDebug {On, Off} 
+Default:
+PythonDebug Off
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+Normally, the traceback output resulting from uncaught Python errors
+is sent to the error log. With PythonDebug On directive specified, the
+output will be sent to the client (as well as the log), except when
+the error is IOError while writing, in which case it will go
+to the error log.
+
+
+This directive is very useful during the development process. It is
+recommended that you do not use it production environment as it may
+reveal to the client unintended, possibly sensitive security
+information.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.1 PythonEnablePdb
+Up:
+5.4 Other Directives
+Next:
+5.4.3 PythonImport
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

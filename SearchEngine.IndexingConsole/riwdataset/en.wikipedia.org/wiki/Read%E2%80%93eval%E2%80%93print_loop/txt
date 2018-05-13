@@ -1,0 +1,274 @@
+
+
+
+
+Read–eval–print loop - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Read–eval–print_loop","wgTitle":"Read–eval–print loop","wgCurRevisionId":825944797,"wgRevisionId":825944797,"wgArticleId":2051964,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia external links cleanup from February 2012","Wikipedia spam cleanup from February 2012","Articles needing additional references from June 2015","All articles needing additional references","Articles with multiple maintenance issues","Command shells","Lisp (programming language)","Interpreters (computing)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Read–eval–print_loop","wgRelevantArticleId":2051964,"wgRequestId":"WsEA3QpAMFYAACVQQ9kAAAAQ","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q2032810","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Read–eval–print loop			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+
+
+
+
+
+
+
+This article's use of external links may not follow Wikipedia's policies or guidelines. Please improve this article by removing excessive or inappropriate external links, and converting useful links where appropriate into footnote references. (February 2012) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (June 2015) (Learn how and when to remove this template message)
+
+
+
+
+
+(Learn how and when to remove this template message)
+
+
+
+A Read–Eval–Print Loop (REPL), also known as an interactive toplevel or language shell, is a simple, interactive computer programming environment that takes single user inputs (i.e. single expressions), evaluates them, and returns the result to the user; a program written in a REPL environment is executed piecewise. The term is most usually used to refer to programming interfaces similar to the classic Lisp machine interactive environment. Common examples include command line shells and similar environments for programming languages, and is particularly characteristic of scripting languages.[1]
+
+
+
+Contents
+
+
+1 Overview
+2 Uses
+3 Lisp specifics
+
+3.1 Implementation
+3.2 Functionality
+
+
+4 References
+5 External links
+
+
+
+Overview[edit]
+In a REPL, the user enters one or more expressions (rather than an entire compilation unit) and the REPL evaluates them and displays the results. The name read–eval–print loop comes from the names of the Lisp primitive functions which implement this functionality:
+
+The read function accepts an expression from the user, and parses it into a data structure in memory. For instance, the user may enter the s-expression (+ 1 2 3), which is parsed into a linked list containing four data elements.
+The eval function takes this internal data structure and evaluates it. In Lisp, evaluating an s-expression beginning with the name of a function means calling that function on the arguments that make up the rest of the expression. So the function + is called on the arguments 1 2 3, yielding the result 6.
+The print function takes the result yielded by eval, and prints it out to the user. If it is a complex expression, it may be pretty-printed to make it easier to understand. In this example, though, the number 6 does not need much formatting to print.
+
+The development environment then returns to the read state, creating a loop, which terminates when the program is closed.
+REPLs facilitate exploratory programming and debugging because the programmer can inspect the printed result before deciding what expression to provide for the next read. The read–eval–print loop involves the programmer more frequently than the classic edit-compile-run-debug cycle.
+Because the print function outputs in the same textual format that the read function uses for input, most results are printed in a form that could (if it is useful) be copied and pasted back into the REPL. However, it's sometimes necessary to print representations of elements that can't sensibly be read back in, such as a socket handle or a complex class instance. In these cases, there must exist a syntax for unreadable objects. In Python, it is the <__module__.class instance> notation, and in Common Lisp, the #<whatever> form. The REPL of CLIM, SLIME, and the Symbolics Lisp Machine can also read back unreadable objects. They record for each output which object was printed. Later when the code is read back, the object will be retrieved from the printed output.
+REPLs can be created to support any text-based language. REPL support for compiled languages is usually achieved by implementing an interpreter on top of a virtual machine which provides an interface to the compiler. For example, starting with JDK 9, Java included JShell as a command line interface to the language. Various other languages have third party tools available for download that provide similar shell interaction with the language.
+Uses[edit]
+As a shell, a REPL environment allows users to access relevant features of an operating system in addition to providing access to programming capabilities.
+The most common use for REPLs outside of operating system shells is for instantaneous prototyping. Other uses include mathematical calculation, creating documents that integrate scientific analysis (e.g. IPython), interactive software maintenance, benchmarking, and algorithm exploration.
+A REPL can become an essential part of learning a new language as it gives quick feedback to the novice.
+Lisp specifics[edit]
+Implementation[edit]
+To implement a Lisp REPL, it is necessary only to implement these three functions and an infinite-loop function. (Naturally, the implementation of eval will be complicated, since it must also implement all the primitive functions like car and + and special operators like if.) This done, a basic REPL itself is but a single line of code:
+
+
+(loop (print (eval (read))))
+
+One possible implementation of eval is as a recursive interpreter that acts on the abstract syntax tree created by read. Another possibility is to compile the syntax tree into machine code and execute it.
+Functionality[edit]
+Typical functionality provided by a Lisp REPL includes:
+
+History of inputs and outputs.
+Variables are set for the input expressions and results. These variables are also available in the REPL. For example in Common Lisp * refers to the last result, ** and *** to the results before that.
+Levels of REPLs. In many Lisp systems if an error occurs during the reading, evaluation or printing of an expression, the system is not thrown back to the top-level with an error message. Instead a new REPL, one level deeper, is started in the error context. The user can then inspect the problem, fix it and continue - if possible. If an error occurs in such a debug REPL, another REPL, again a level deeper, is started. Often the REPL offers special debug commands.
+Error handling. The REPL provides restarts. These restarts can be used, when an error occurs, to go back to a certain REPL level.
+Mouse sensitive input and output of data objects.
+Input editing and context specific completion over symbols, pathnames, class names and other objects.
+Help and documentation for commands.
+Variables to control the reader. For example, the variable *read-base* controls in which base numbers are read by default.
+Variables to control the printer. Example: maximum length or maximum depth of expressions to print.
+Additional command syntax. Some REPLs have commands that follow not the s-expression syntax, but often work with Lisp data as arguments.
+Graphical REPLs. Some Lisp REPLs (the CLIM Listener is an example) accept also graphical input and output.
+
+References[edit]
+
+
+
+^ Hey, Tony; Pápay, Gyuri (2014). The Computing Universe: A Journey through a Revolution. Cambridge University Press. p. 76. ISBN 978-1-31612322-5, "A major characteristic of modern scripting languages is their interactivity, sometimes referred to as a REPL programming environment. ... The characteristics of ease of use and immediate execution with a REPL environment are sometimes taken as the definition of a scripting language." 
+
+
+
+External links[edit]
+
+Paul Graham has written a description of a REPL implementation in Common Lisp.
+Joël Franusic Online-REPs-and-REPLs list
+repl.it is a client-side web REPL for various programming languages.
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Read–eval–print_loop&oldid=825944797"					
+				Categories: Command shellsLisp (programming language)Interpreters (computing)Hidden categories: Wikipedia external links cleanup from February 2012Wikipedia spam cleanup from February 2012Articles needing additional references from June 2015All articles needing additional referencesArticles with multiple maintenance issues				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					AzərbaycancaEestiEspañolPolskiРусскийکوردیУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 16 February 2018, at 08:59.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.092","walltime":"0.125","ppvisitednodes":{"value":366,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":25103,"limit":2097152},"templateargumentsize":{"value":6512,"limit":2097152},"expansiondepth":{"value":10,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1888,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  102.043      1 -total"," 70.36%   71.795      3 Template:Ambox"," 60.41%   61.646      1 Template:Multiple_issues"," 37.72%   38.487      1 Template:Reflist"," 31.31%   31.950      1 Template:Cite_book"," 17.51%   17.865      1 Template:External_links","  5.80%    5.919      1 Template:More_references","  1.96%    2.003      2 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.040","limit":"10.000"},"limitreport-memusage":{"value":1977990,"limit":52428800}},"cachereport":{"origin":"mw1317","timestamp":"20180322130220","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":65,"wgHostname":"mw1251"});});
+	
+

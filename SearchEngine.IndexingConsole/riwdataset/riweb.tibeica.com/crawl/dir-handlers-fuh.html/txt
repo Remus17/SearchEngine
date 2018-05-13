@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.10 PythonFixupHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.9 PythonTypeHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.11 PythonHandler
+
+
+
+
+ 
+ 
+
+5.1.10 PythonFixupHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+This routine is called to perform any module-specific fixing of header
+fields, et cetera. It is invoked just before any content-handler.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.9 PythonTypeHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.11 PythonHandler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

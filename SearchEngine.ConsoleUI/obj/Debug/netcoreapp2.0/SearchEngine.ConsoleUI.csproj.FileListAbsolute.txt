@@ -1,0 +1,16 @@
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.deps.json
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.runtimeconfig.json
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.runtimeconfig.dev.json
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.dll
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.pdb
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.Database.dll
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.Tools.dll
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.Database.pdb
+D:\C#\RIW\SearchEngine.ConsoleUI\bin\Debug\netcoreapp2.0\SearchEngine.Tools.pdb
+D:\C#\RIW\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.csprojResolveAssemblyReference.cache
+D:\C#\RIW\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.csproj.CoreCompileInputs.cache
+D:\C#\RIW\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.AssemblyInfoInputs.cache
+D:\C#\RIW\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.AssemblyInfo.cs
+D:\C#\RIW\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.csproj.CopyComplete
+D:\C#\RIW\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.dll
+D:\C#\RIW\SearchEngine.ConsoleUI\obj\Debug\netcoreapp2.0\SearchEngine.ConsoleUI.pdb

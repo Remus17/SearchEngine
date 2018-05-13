@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.2.2 PythonOutputFilter
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.2.1 PythonInputFilter
+Up:
+5.2 Filters
+Next:
+5.3 Connection Handler
+
+
+
+
+ 
+ 
+
+5.2.2 PythonOutputFilter
+
+
+
+Syntax:
+PythonOutputFilter handler name
+Context:
+server config
+Module:
+mod_python.c
+
+
+Registers an output filter handler under name
+name. Handler is a module name optionally followed
+:: and a callable object name. If callable object name is
+omitted, it will default to "outputfilter". Name is the name under
+which the filter is registered, by convention filter names are usually
+in all caps.
+
+
+To activate the filter, use the AddOutputFilter directive.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.2.1 PythonInputFilter
+Up:
+5.2 Filters
+Next:
+5.3 Connection Handler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

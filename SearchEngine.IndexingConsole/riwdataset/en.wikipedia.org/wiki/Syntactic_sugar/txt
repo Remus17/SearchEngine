@@ -1,0 +1,251 @@
+
+
+
+
+Syntactic sugar - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Syntactic_sugar","wgTitle":"Syntactic sugar","wgCurRevisionId":831238058,"wgRevisionId":831238058,"wgArticleId":29054,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Programming language syntax","Computer jargon","Source code","Programming language design"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Syntactic_sugar","wgRelevantArticleId":29054,"wgRequestId":"WrvRfgpAAEAAAAmJrwIAAACG","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q734781","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Syntactic sugar			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				In computer science, syntactic sugar is syntax within a programming language that is designed to make things easier to read or to express. It makes the language "sweeter" for human use: things can be expressed more clearly, more concisely, or in an alternative style that some may prefer.
+For example, many programming languages provide special syntax for referencing and updating array elements. Abstractly, an array reference is a procedure of two arguments: an array and a subscript vector, which could be expressed as get_array(Array, vector(i,j)). Instead, many languages provide syntax like Array[i,j]. Similarly an array element update is a procedure of three arguments, something like set_array(Array, vector(i,j), value), but many languages provide syntax like Array[i,j] = value.
+A construct in a language is called "syntactic sugar" if it can be removed from the language without any effect on what the language can do: functionality and expressive power will remain the same.
+Language processors, including compilers, static analyzers, and the like, often expand sugared constructs into more fundamental constructs before processing, a process sometimes called "desugaring".
+
+
+
+Contents
+
+
+1 Origins
+2 Notable examples
+3 Criticism
+4 Derivative terms
+
+4.1 Syntactic salt
+4.2 Syntactic saccharin
+
+
+5 Notes
+6 References
+
+
+
+Origins[edit]
+The term syntactic sugar was coined by Peter J. Landin in 1964 to describe the surface syntax of a simple ALGOL-like programming language which was defined semantically in terms of the applicative expressions of lambda calculus,[1][2] centered on lexically replacing λ with "where".
+Later programming languages, such as CLU, ML and Scheme, extended the term to refer to syntax within a language which could be defined in terms of a language core of essential constructs; the convenient, higher-level features could be "desugared" and decomposed into that subset.[3] This is, in fact, the usual mathematical practice of building up from primitives.
+Building on Landin's distinction between essential language constructs and syntactic sugar, in 1991, Matthias Felleisen proposed a codification of "expressive power" to align with "widely held beliefs" in the literature. He defined "more expressive" to mean that without the language constructs in question, a program would have to be completely reorganized.[4]
+Notable examples[edit]
+
+In COBOL, many of the intermediate keywords are syntactic sugar that may optionally be omitted. For example, the sentence MOVE A B. and the sentence MOVE A TO B. perform exactly the same function, but the second makes what action is going to be performed somewhat clearer.
+Augmented assignment or compound assignment operators: For example, a += b is equivalent to a = a + b in C and similar languages, assuming a has no side effects such as if a is a regular variable.[5][6]
+In Perl, unless (condition) {...} is syntactic sugar for if (not condition) {...}. Additionally, any statement can be followed by a condition, so statement if condition is equivalent to if (condition) {statement}, but the former is more naturally formatted on a single line.
+In the C language, the a[i] notation is syntactic sugar for *(a + i).[7] Likewise, the a->x notation is syntactic sugar for accessing members using the dereference operator (*a).x.
+The using statement in C# ensures that certain objects are disposed of correctly. The compiler expands the statement into a try-finally block.[8]
+The C# language allows variables to be declared as var x = expr, which allows the compiler to deduce the type of x from the expression expr, instead of requiring an explicit type declaration.
+Python list comprehensions and decorators.
+In Haskell, a string, denoted in quotation marks, is semantically equivalent to a list of characters.
+
+Criticism[edit]
+Some programmers feel that these syntax usability features are either unimportant or outright frivolous. Notably, special syntactic forms make a language less uniform and its specification more complex, and may cause problems as programs become large and complex. This view is particularly widespread in the Lisp community, as Lisp has very simple and regular syntax, and the surface syntax can easily be modified.[2] For example, Alan Perlis once quipped in "Epigrams on Programming", in a reference to bracket-delimited languages, that "Syntactic sugar causes cancer of the semi-colons".[9]
+Derivative terms[edit]
+Syntactic salt[edit]
+The metaphor has been extended by coining the term syntactic salt, which indicates a feature designed to make it harder to write bad code.[10] Specifically, syntactic salt is a hoop programmers must jump through just to prove that they know what is going on, rather than to express a program action. For example, in Java and Pascal assigning a float value to a variable declared as an int without additional syntax explicitly stating that intention will result in a compile error, while C and C++ will automatically truncate any floats assigned to an int. However this is not syntax, but semantics.
+In C#, when hiding an inherited class member, a compiler warning is issued unless the new keyword is used to specify that the hiding is intentional.[11] To avoid potential bugs owing to the similarity of the switch statement syntax with that of C or C++, C# requires a break for each non-empty case label of a switch (unless goto, return, or throw is used) even though it does not allow implicit fall-through.[12] (Using goto and specifying the subsequent label produces a C/C++-like fall-through.)
+Syntactic salt may defeat its purpose by making the code unreadable and thus worsen its quality – in extreme cases, the essential part of the code may be shorter than the overhead introduced to satisfy language requirements.
+An alternative to syntactic salt is generating compiler warnings when there is high probability that the code is a result of a mistake – a practice common in modern C/C++ compilers.
+Syntactic saccharin[edit]
+Other extensions are syntactic saccharin and syntactic syrup, meaning gratuitous syntax that does not make programming any easier.[13][14][15][16]
+Notes[edit]
+
+
+
+^ Landin, Peter J. (1964). "The mechanical evaluation of expressions" (PDF). The Computer Journal. Computer Journal. 6 (4): 308–320. doi:10.1093/comjnl/6.4.308. Retrieved 21 July 2014. 
+^ a b Abelson & Sussman 1996, Chapter 1, footnote 11.
+^ Barbara Liskov, "A History of CLU", MIT Laboratory for Computer Science Technical Report 561 (1993)
+^ Felleisen, Matthias (December 1991). "On the Expressive Power of Programming Languages". Science of Computer Programming. Springer-Verlag. 17 (1–3): 35–75. doi:10.1016/0167-6423(91)90036-W. Retrieved 19 July 2014. 
+^ "C Compound Assignment". msdn.microsoft.com. Microsoft. Retrieved 20 June 2016. However, the compound-assignment expression is not equivalent to the expanded version because the compound-assignment expression evaluates expression1 only once, while the expanded version evaluates expression1 twice: in the addition operation and in the assignment operation. 
+^ Garavaglia, Emilio (26 July 2015). "Why are shortcuts like x += y considered good practice?". stackexchange.com. Retrieved 20 June 2016. optimization can [be done] if 'finding x' has no side effects 
+^ Eric S. Raymond (11 October 1996). The New Hacker's Dictionary – 3rd Edition. MIT Press. p. 432. ISBN 978-0-262-68092-9. Retrieved 5 August 2012. 
+^ "using Statement (C# Reference)". Retrieved 16 September 2014. 
+^ Perlis 1982, Epigram #3.
+^ "The Jargon File - syntactic salt". 2003-06-12. Archived from the original on 2003-06-12. Retrieved 2018-03-19. 
+^ "new Modifier (C# Reference)". microsoft.com. Microsoft. Retrieved 3 August 2015. 
+^ "switch (C# Reference)". microsoft.com. Microsoft. Retrieved 3 August 2015. 
+^ "syntactic sugar". catb.org. Retrieved 3 August 2015. 
+^ "Mathematics of Program Construction". google.com. Retrieved 3 August 2015. 
+^ Dean, Thomas (2004). Talking with Computers: Explorations in the Science and Technology of Computing. Cambridge University Press. p. 115. ISBN 9780521542043. 
+^ Harrison, William; Sheard, Tim (July 8–10, 2002). "Fine control of demand in Haskell" (PDF). Mathematics of Program Construction: 6th International Conference, MPC 2002, Dagstuhl Castle, Germany, July 8–10, 2002. Proceedings. International Conference on Mathematics of Program Construction. Dagstuhl Castle, Germany: Springer Berlin Heidelberg. p. 93. 
+
+
+
+References[edit]
+
+
+Abelson, Harold; Sussman, Gerald Jay; Sussman, Julie (1996) [1984]. Structure and Interpretation of Computer Programs. Cambridge, MA: MIT Press. ISBN 0-262-51087-1. 
+Landin, Peter J. (February–March 1965). "A Correspondence Between ALGOL 60 and Church's Lambda-Notation: Parts I and II". Communications of the ACM. 8 (2.3): 89–101, 158–165. doi:10.1145/363744.363749. 
+Landin, Peter J. (March 1965). "Programming Without Imperatives – An Example". UNIVAC Systems Programming Research. 
+Landin, Peter J. (July 1965). "Getting Rid of Labels". UNIVAC Systems Programming Research. 
+Landin, Peter J. (August 1965). "A Generalization of Jumps and Labels". UNIVAC Systems Programming Research. , reprinted in "Higher-Order and Symbolic Computation". 11. 1998: 125–143. CiteSeerX 10.1.1.85.2610 . 
+Perlis, A. J. (September 1982). "Epigrams on programming". ACM SIGPLAN Notices. New York, NY, USA: Association for Computing Machinery. 17 (9): 7–13. doi:10.1145/947955.1083808. Archived from the original on January 17, 1999. 
+
+
+This article is based on material taken from the Free On-line Dictionary of Computing prior to 1 November 2008 and incorporated under the "relicensing" terms of the GFDL, version 1.3 or later.
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Syntactic_sugar&oldid=831238058"					
+				Categories: Programming language syntaxComputer jargonSource codeProgramming language design				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					العربيةČeštinaDeutschEspañolFrançaisIdoItalianoעבריתNederlands日本語NorskPolskiPortuguêsРусскийSvenskaTürkçeУкраїнськаTiếng Việt中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 19 March 2018, at 15:03.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.200","walltime":"0.231","ppvisitednodes":{"value":912,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":32623,"limit":2097152},"templateargumentsize":{"value":107,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":17389,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  203.849      1 -total"," 61.27%  124.896      1 Template:Reflist"," 31.51%   64.236      8 Template:Cite_journal"," 16.99%   34.635      3 Template:Sfn"," 15.42%   31.430      8 Template:Cite_web","  9.85%   20.079      3 Template:Cite_book","  4.27%    8.705      1 Template:Cite_conference","  1.46%    2.984      1 Template:Refbegin","  1.32%    2.692      2 Template:SfnRef","  1.21%    2.464      1 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.108","limit":"10.000"},"limitreport-memusage":{"value":3179963,"limit":52428800}},"cachereport":{"origin":"mw1340","timestamp":"20180319150237","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":83,"wgHostname":"mw1269"});});
+	
+

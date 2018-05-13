@@ -1,0 +1,877 @@
+
+
+
+
+Falcon (programming language) - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Falcon_(programming_language)","wgTitle":"Falcon (programming language)","wgCurRevisionId":817796849,"wgRevisionId":817796849,"wgArticleId":21628757,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with topics of unclear notability from December 2015","All articles with topics of unclear notability","Articles lacking reliable references from December 2015","All articles lacking reliable references","Articles with multiple maintenance issues","All articles with unsourced statements","Articles with unsourced statements from December 2014","Official website different in Wikidata and Wikipedia","Programming languages","Class-based programming languages","Cross-platform software","Dynamically typed programming languages","Embedded systems","Free compilers and interpreters","Free computer libraries","Functional languages","High-level programming languages","Multi-paradigm programming languages","Object-oriented programming languages","Procedural programming languages","Programming languages created in 2003","Prototype-based programming languages","Scripting languages","Text-oriented programming languages","2003 software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Falcon_(programming_language)","wgRelevantArticleId":21628757,"wgRequestId":"Wr9-HgpAICoAAF1XTIYAAAAK","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q580448","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Falcon (programming language)			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+
+
+
+
+
+
+
+The topic of this article may not meet Wikipedia's notability guidelines for products and services. Please help to establish notability by citing reliable secondary sources that are independent of the topic and provide significant coverage of it beyond its mere trivial mention. If notability cannot be established, the article is likely to be merged, redirected, or deleted.
+Find sources: "Falcon" programming language – news · newspapers · books · scholar · JSTOR (December 2015) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+
+
+This article relies too much on references to primary sources. Please improve this by adding secondary or tertiary sources. (December 2015) (Learn how and when to remove this template message)
+
+
+
+
+
+(Learn how and when to remove this template message)
+
+
+
+
+Falcon
+
+
+
+
+Paradigm
+Multi-paradigm: Procedural, object-oriented (class-based and prototype-based), functional, tabular, message passing
+
+
+Designed by
+Giancarlo Niccolai
+
+
+Developer
+Falcon Committee
+
+
+First appeared
+2003; 15 years ago (2003)
+
+
+
+
+
+Stable release
+
+0.9.6.8 (Chimera) / December 31, 2010; 7 years ago (2010-12-31)[1]
+
+
+
+
+
+
+Typing discipline
+Dynamic
+
+
+OS
+Cross-platform
+
+
+License
+GPLv2, FPLLv1.1[2] (a modified version of the Apache License)
+
+
+Filename extensions
+.ftd, .fal, .fam
+
+
+Website
+falconpl.org
+
+
+Influenced by
+
+
+C++, Perl, Lua, Smalltalk, PHP, Lisp, Python, Ruby
+
+
+Falcon is an open source, multi-paradigm programming language. Design and implementation is led by Giancarlo Niccolai,[3][4] a native of Bologna, Italy and Information Technology graduate from Pistoia.
+Falcon translates computer source code to virtual machine instructions for evaluation. The virtual machine[5] is intended to be both a stand-alone interpreter as well as for integration in third-party embedding applications.
+A core design consideration for the Falcon programming language is to provide acceptably high performing scripting plug-ins to multi threaded data acquisition, reporting and dispersion applications.
+As programming languages go, Falcon design leans more towards conciseness of code and expressiveness than general readability. The Falcon implementation does provide facilities for source level documentation and this documentation may become important as the mixed paradigm potential of Falcon scripting attempts to meet the problems faced with programming in the large.
+
+
+
+Contents
+
+
+1 History
+2 Philosophy
+3 "Hello World" example
+4 Data types
+5 Paradigms
+
+5.1 Procedural
+5.2 Functional
+5.3 Class-based object-orientation
+5.4 Prototype-based object-orientation
+5.5 Message-oriented
+5.6 Tabular
+
+
+6 Features
+
+6.1 List comprehensions
+6.2 Template documents
+6.3 Exceptions
+6.4 Explicit string expansion
+6.5 Embeddable runtime
+6.6 Documentation generator
+6.7 Virtual filesystem
+6.8 Concurrency support
+6.9 Coroutines
+6.10 Metacompiler
+6.11 Native internationalization
+
+
+7 Feathers standard library
+8 Implementation
+9 Supported platforms
+10 Falcon Programming Language License
+11 See also
+12 References
+13 External links
+
+
+
+History[edit]
+A small project, HASTE,[6] developed in 2002, in an attempt to create a small fast virtual machine, soon evolved into the Falcon programming language. In early 2008, the package was first shipped under open source licensing as a package in Ubuntu, and included in the KDE 4 scripting framework.[citation needed]
+Philosophy[edit]
+Rather than focusing on one programming style or paradigm, Falcon merges several different styles into a single framework. At the same time, it targets multiple application domains (stand-alone, embedded into other applications and server-side dynamic pages), merging them into a single hood of a common architectural design.
+At the implementation level, Falcon is driven by the concept of service, where the scripting engine is seen as a service for scripts, modules and in embedded applications when not used as a stand-alone tool.
+"Hello World" example[edit]
+Although there are various forms of basic I/O, an example Hello world program using fast print:
+
+
+> "Hello World!"
+
+Supporting Unicode,[7] below is an internationalized example of introductions:
+
+
+ // International class; name and street
+ class 国際( なまえ, Straße )
+    // set class name and street address
+    नाम = なまえ
+    شَارِع   =  Straße
+    // Say who I am
+    function 言え()
+      >@"I am $(self.नाम) from ",self.شَارِع
+    end
+ end
+ // all the people of the world!
+ 民族 = [ 国際( "高田　Friederich", "台灣" ),
+    国際( "Smith Σωκράτης", "Cantù" ),
+    国際( "Stanisław Lec", "południow" ) ]
+ 
+ for garçon in 民族: garçon.言え()
+
+which, when evaluated, displays
+
+ I am 高田　Friederich from 台灣
+ I am Smith Σωκράτης from Cantù
+ I am Stanisław Lec from południow
+
+Data types[edit]
+
+Nil - The nil keyword, a non-value.
+Integer - an integer 64 bit value.
+Numeric - An IEEE 64 bit floating point value.
+Range - a triplet of lower bound, higher bound and step.
+MemBuf - Raw memory buffer, where each location is an unsigned 1, 2, 3, or 4 bytes integer.
+Function - Functions (callable entities).
+String - Mutable sequences of UNICODE characters (but they can be used as byte buffers).
+Array - Mutable sequences of items.
+Dictionary - Mutable ordered set of key/value pairs; the key can be any Falcon item.
+Object - Instances derived from classes or stand-alone classless objects.
+Class - Classes, entities that can create instances.
+Method - Immutable pairs of instances and functions to be applied on them.
+
+Paradigms[edit]
+Falcon merges six major programming paradigms:
+
+procedural
+functional
+object-oriented (OOP)
+
+class OOP
+prototype OOP
+
+
+message oriented
+Tabular Programming[8]
+
+Procedural[edit]
+Procedural programming is supported through classic function declarations and calls.[9] Every function supports implicitly variable parameter calls and named/positional parameters. A set of procedural style statements (e.g. for, while, if, switch statements) is provided.
+The following is a complete procedural program:
+
+
+ function sayList( saying )
+    for elem in saying
+        >> elem
+        formiddle: >> " "
+        forlast: > "!"
+    end
+ end
+ sayList( List("Have", "a", "nice", "day") )
+
+If the above is saved to a text file as niceday.fal, a command line of falcon niceday.fal produces:
+
+Have a nice day!
+
+on standard output.
+Functional[edit]
+Falcon has an evaluation engine called Sigma-reductor, which allows programmers to write completely functional programs without the need to use any procedural construct,[10] not differently from what is seen in Lisp. The intermixed programming style allows use of different paradigms (such as OOP or procedural approaches) in functional sequences, or to use functional evaluations during the course of otherwise procedural programs.
+Functional sequences are represented by standard language arrays; this means that sequences can be created, inspected and changed dynamically by the program itself, either across different evaluations or during the course of a Sigma-reduction evaluation. The following example does that by changing a special variable reference, called late binding in a list loop.
+
+
+  seq = [ printl, '"', &value, '"' ]
+
+  dolist( function(p); seq.value = p; eval(seq); end,
+          ["Have", "a", "nice", "day"] )
+
+Standard arrays can be called as functions if their first member is itself a callable item, as in the following example.
+
+
+  f = [printl, "Prompt> "]
+  f( "Real data to print" )
+
+One-level functional sequences (as in the above example) can be conceptually treated as cached calls, and once assigned to a variable, they are morphologically equivalent to a function symbol.
+The functional paradigm includes an out-of-band item marker. Items can receive an oob flag marker which can be tested through language operators and functions and indicate a special meaning for values traveling in functional sequences. For example, many functional loops, as floop and times, can perform loop restarts or can be interrupted by returning either an out-of-band 1 or 0 from any of the involved functions. The map function, transforming all the values in an array through a mapping function, will ignore the returned value (discarding it) if it's an out-of-band nil; in this way, it is possible to perform map-and-filter operations in place.
+Class-based object-orientation[edit]
+The Falcon programming language provides an OOP paradigm with classes, an inheritance model, class-static members, property initializers and instance constructor.[11] Multiple inheritance is supported under the condition that at most one underlying ancestor class is reflecting native data. Access to base class members is supported.
+Instance structure is fixed and immutable,[11] but due to Falcon's functional nature where functions are seen as just a special kind of data, it is possible to set instance members to plain data or functions (making them methods) dynamically. Functional sequences can be assigned to properties, in which case they become functional methods for the given OOP instance.
+Falcon supports stand-alone objects, which can be either classless or derived by class ancestors, which are instantiated and readied before the Virtual Machine executes the main script. Instance Resolution order is tracked by the Falcon Linker to ensure proper initialization of stand-alone objects, which may refer one another in program modules.
+Class instances can be created through functional sequences, as instancing a class is morphologically equivalent to calling its symbol, and so, evaluating a functional sequence whose first element is a class has the effect of creating an instance.
+Falcon OOP model is completed by operator overloading,[11] which allows to create classes on which the mathematical and logical operators have a special behavior.
+The C++ classes that build the Falcon engine are Doxygen indexed at falconpl.org.[12]
+Prototype-based object-orientation[edit]
+Prototype OOP[13] is similar to classic Class-based OOP, but it drops the concept of classes. Instances are all classless, and their structure can be dynamically changed. Falcon language dictionaries (ordered key/value pair collections) can include functions; dictionaries can then be blessed to inform the language that they are to be treated as classless instances, and applying dot accessor causes their values to be treated as properties or methods. In the following example, a dictionary becomes an object:
+
+
+ dict = bless([ 'state' => 0, 'incme' => function(); self.state++; end ])
+ dict.incme()
+ > dict.state  // will print '1'
+
+Bindings in arrays works similarly.
+
+
+ array = [1,2,3]
+ array.showMe = function()
+    for item in self
+        > item
+    end
+ end
+
+ array.showMe()
+
+Message-oriented[edit]
+Message-oriented programming allows indirect calls to one or more registered listeners when a message is broadcast. The contents of the message are arbitrary and can include any language item, including but not limited to classes from which to create instances, functional sequences or tables. Listeners can either compete to receive the message and exclude the others, or participate in building a common reply to the message in ordered steps. Messages can be broadcast and require an immediate reply or can be left in the environment to be received and processed by latecomers (termed assertions in Falcon[14]).
+Message oriented programming has a direct interface into the Virtual Machine, on which external native modules and embedding applications can interact. For example, a multithreaded application may throw into the virtual machine messages coming from different threads, for serialized processing at script level and later broadcast of processed solutions directly from within the scripts.
+Tabular[edit]
+Tabular programming[15] can be seen as a special extension of OOP programming, where a class is represented by a table, whose columns are properties and where each row is an instance. Other than keeping all the instances together, and allowing each instance to work on the surrounding rows of the parent table, modification on the table are dynamically reflected into every instance.
+Tables offer a means to select behaviors between a finite set of choices, or to mix behaviors and merge them, providing fuzzy logic engines. As each row, actually a Falcon array, can contain both table-specific data and logic or private logic (via array bindings), an entity selected in a table via global selection logic can provide specialized working abilities.
+Features[edit]
+Along with the multiple paradigms, Falcon presents a variety of different features for programmers.
+List comprehensions[edit]
+Further information: List comprehension
+Base types and classes exposing the sequence interface to the internal engine offer a "comp" method which offers all the functionality of a list comprehension[16] construct. The comp method takes a mandatory "source" parameter, which can be another sequence, an item of range type or a generator function returning one item at a time, and a special marker at termination.
+A function (or in general a callable item) can be provided as second optional parameter, and acts both as a filter and modifier.
+Associative pair sequences (as i.e. dictionaries) are supported as well.
+The following is a simple example using a range to create a list comprehension; the result is an array of even numbers 2..10:
+
+
+   even_array = [].comp( [2:11:2] )
+
+This generates a list of random integer numbers in the range 1,9; the list terminates when the random number is 10 (that is, each item as 1/10 probability to be the last).
+
+
+  random_list = List().comp( function(); n = random(1,10); return n == 10 ? oob(0): n; end )
+
+The next, more complete example, uses a generator to fill a set of exactly 10 unique random numbers chosen in the 1..100 range. In this occasion, the role of determining the end of the comprehension is delegated to the filter.
+
+
+  random_set = Set().comp(
+      [random, 1, 100],  // generator, callable array
+      function( number, myself )  // filter, using the optional "myself" param
+         if myself.len() == 10
+             return oob(0)  // return oob(0) as a generator to terminate
+         end
+         return number
+      end
+      )
+
+The "comp" method returns the same object it operates on. So, it is possible to apply it on an already existing sequence to add more data to it.
+Similarly, the "mfcomp" generic method allows to create list comprehensions using more input sets, as in the following example.
+
+
+ sums = [].mfcomp( {x,y=> x+y}, .[1 2 3], .[4 5 6] )
+
+The resulting array in "sums" contains the values obtained summing each element in the first set (x) with each element of the second set (y).
+Template documents[edit]
+Falcon allows scripts to be part of text documents, with the preprocessor <? .. ?> or <?fal .. ?> directive.[17] Scripts saved as ".ftd" files are treated as text documents and simply echoed until one of those processor directives is encountered. Inbound scripts are executed as in the following .ftd example:
+
+
+   You called this script with <? print( args.len() ) ?> parameters.
+
+FTD documents can be merged with normal Falcon scripts to form applications, where the presentation logic is in dynamic templates (the FTD files), and the application logic is stored in Falcon modules.
+FTD documents can be used in driving dynamic websites. Some popular webservers (currently Apache 2), have modules which directly parse and execute ".fal" and ".ftd" scripts, providing an API which integrates in the webserver engine. It is also possible to use dynamic FTD pages along with CGI scripts.
+Exceptions[edit]
+Falcon supports error handling via the raise, try and catch statements.[18] The raise statement can throw any Falcon item, including nil, numbers, strings, objects and so on. Library functions and external modules will usually raise instances of the Error class, or instances of a class derived from that.
+The catch statement can be used to catch any type of item, a certain type (i.e. strings or integers), or instances from a certain class. Caught classes are organized on a hierarchical base, so that it is possible to provide more generic error handlers like the following example (TypeError is a library class derived from Error):
+
+
+ try
+  // ... code that can raise ...
+ catch TypeError in error
+  // ... if we mixed up types ...
+ catch Error in error
+  // ... another generic error ...
+ catch StringType in error
+  // ... an explicit raise "something" was issued ...
+ catch in error
+  // ... some other exception has been raised, referenced in the variable ''error''.
+ end
+
+The in clause of the catch statement is optional (this means that the error itself may be discarded).
+The catch statement mimics the select statement, which can be used to switch on the type or class of a given variable.
+Explicit string expansion[edit]
+Falcon includes an '@' unary string expansion operator[19] that returns a string with inline '$' variable references replaced. This operation allows for formatting during the substitution.
+For example:
+
+
+  a = 123456.789
+  v = "formatted as"
+  s = "a = $a, $v $(a:12rg3,.2), rounded hex as $(a:C)"
+  printl( @ s)
+
+Which prints:
+
+ a = 123456.789, formatted as   123,456.79, rounded hex as 0x1E241
+
+
+a literal string, a = , the value of the variable a, and a literal comma
+an expanded string from the variable v
+the value of a, right-aligned in a width of 12, 12r, with a grouping of 3 using comma, 3g, and then rounded to 2 decimal places, .2
+the value in upper-case hexadecimal (rounded up to closest integer) prefixed with '0x'.
+
+Embeddable runtime[edit]
+Falcon is designed for embedding[20] into and extending other systems with a linkable runtime library, libfalcon.
+Documentation generator[edit]
+Falcon ships with an integrated documentation system, called faldoc,[21] which is specifically designed to provide Falcon based libraries (be they native C++ code or module sets written in Falcon) with maintainable documentation.
+Virtual filesystem[edit]
+All I/O operations happening at engine or at virtual machine (script execution) level are delegated to a centralized Virtual Filesystem Provider, to which external modules or embedding application facilities are allowed to register dynamically. Subscribed Virtual Filesystems abstract I/O operations as directory read, file creation and stream opening, and can be addressed from within scripts by URI. This makes it possible to load modules or open resources from any VFS (as network resources or compressed/crypted archives), which may include special virtual locations provided by third party modules and/or by applications embedding the engine.
+Concurrency support[edit]
+In versions 0.8.x, the separate Threading module provides full multithreading to scripts, while starting from version 0.9.x the "Threading" module is integrated in the standard modules and threading support is provided directly inside the main engine. The multithreading model is agent oriented, and data across threads must be explicitly shared through several possible sharing mechanisms. Each thread runs a different virtual machine, which runs separately from any operation happening in the others (as i.e. garbage collection). This allows for efficient parallel processing and zero contention outside the control of the script developer.
+Coroutines[edit]
+Falcon supports quasi-parallel coroutining.[22] Coroutines are code executed in time slices or during idle times by the Virtual Machine. They provide a lighter parallel approach than the full threading model and allow full visibility of program global data through different coroutines. Explicit cooperation of each coroutine is required, (i.e., each coroutine must check for data availability before blocking reads).
+Metacompiler[edit]
+The Falcon compiler contains a meta-compiler[23] that supports macro expansions. A Falcon Virtual Machine in the standard compiler drives the meta-compiler. Output generated from the meta-compiler is sent to the language lexer as if part of the original source. Using \[ ...\] escape sequences, it is possible to dynamically write the contents of the program being compiled by printing it:
+
+
+  \[ printl( "printl( 'Hello world' )" ) \]
+
+The keyword macro provides a simplified candy-grammar interface to compile-time meta-programming.
+Native internationalization[edit]
+Strings prefixed with an 'i' are recognized as exported (international) strings.[7] Declaring the language used in a module through the directive statement, it is possible to indicate which is the native language in which strings are written, as in the following example:
+
+ directive lang=fr_FR           // uses 5 characters ISO language code
+
+ > i"Bonjour à tout le monde!"
+
+A command line tool called fallc is provided to export 'i' strings into XML definition files, which can be used as templates to provide translations into different languages.
+The translated string table is applied to the modules at load time.
+Feathers standard library[edit]
+Supporting modular programming, Falcon ships with Feathers,[24] the standard module suite, which integrates the built-in core module, containing the basic I/O and language-integrated base functions, classes and objects.
+Feather modules currently include:
+
+Compiler - Reflexive compiler and dynamic plugin loader module.
+Configuration Parser - Complete configuration file parser support.
+DBI - Allows you to connect to various open source databases like MySql, PostgreSQL and SQLite.
+JSON - Module converting Falcon data and objects to and from JavaScript Object Notation.
+Logging - High performance parallel logging facility.
+MXML - Very fast and simple Minimal XML parser (compatible with XML 1.0).
+Process - Interface to cross platform process support (start, kill, pipes...)
+Regular Expressions - PCRE 7.x compatible regular expression library interface.
+Socket - implementation of BSD sockets cross platform networking support.
+Threading (since 0.9.0) - Multithreading structures support.
+ZLib - Interface for simple compression routines.
+
+Implementation[edit]
+The core VM and official modules, (including Feather modules and other community provided support modules) are all written in C++. Some very low level module and engine elements are written in C and Assembly.
+Supported platforms[edit]
+Falcon is distributed through installers on Mac OS X and Windows systems (where building and installing is a more articulated process), or through self-building source packages on various open systems as Linux or OpenSolaris.[25]
+On the latter systems, Falcon is usually supported and generally kept up to date on various distributions, among which:
+
+Ubuntu
+Fedora
+Debian
+Gentoo
+Slackware
+Arch Linux
+Mandriva
+openSUSE
+SUSE Enterprise Linux
+
+Falcon is available on Solaris based OS distributions through the Blastwave project, and through the DragonFly BSD system.
+Falcon Programming Language License[edit]
+
+Falcon Programming Language License
+
+Author
+Giancarlo Niccolai
+
+
+Latest version
+1.1
+
+
+Published
+March 2008
+
+
+DFSG compatible
+Yes
+
+
+FSF approved
+No
+
+
+OSI approved
+No
+
+
+GPL compatible
+No
+
+
+Copyleft
+Yes
+
+
+The Falcon Programming Language License is the free software license applied to the Falcon programming language and also available to be used in other projects.
+The original FPLL 1.0 was described by its creator as being "... mainly an Apache2 license modified to extend the openness of the license to the embedding application and to the scripts."
+Version 1.1 has been redesigned not to extend to the scripts.
+See also[edit]
+
+List of programming languages
+
+
+
+Free software portal
+
+
+References[edit]
+
+
+
+^ "Getting Falcon". 
+^ "Falcon Programming Licence 1.1". 
+^ "Falcon authors". 
+^ "Geek of the Week". 
+^ "Falcon VM Opcode Format". 
+^ "ComputerWorld interterview with Giancarlo Niccolai, with some background on HASTE". 
+^ a b "Falcon International strings". 
+^ "Tabular Programming". 
+^ "Falcon functions and procedural programming". 
+^ "Functional Falcon". 
+^ a b c "Class object-oriented Falcon". 
+^ "Falcon source code, class list". 
+^ "Falcon prototype-based object-orientation". 
+^ "Falcon message oriented assertions explained". 
+^ "Falcon Tabular Programming". 
+^ "Falcon list comprehension". 
+^ "Templates explained in the Falcon Showdown" (PDF). 
+^ "Falcon exception handling". 
+^ "String expansion". 
+^ "Embedding the Falcon engine in other applications". 
+^ "Faldoc". 
+^ "Falcon coroutines". 
+^ "Falcon runtime meta compilation". 
+^ "Falcon Feathers library". 
+^ "The Falcon programming language". Falconpl.org. Retrieved 2013-07-08. 
+
+
+
+External links[edit]
+
+Official website
+The Falcon Programming Language in a Nutshell (Linux Journal)
+The Falcon Programming Language: a brief tutorial (Free Software Magazine)
+The Falcon VM viewed as an organic virtual machine, with examples (Free Software Magazine)
+Interview with Giancarlo Niccolai on Falcon (Computerworld)
+Interview with Giancarlo Niccolai on Falcon (Simple-Talk).
+Text of the Falcon Programming Language License
+GPL Compatible Licenses
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Free and open-source software
+
+
+
+General
+
+
+
+Alternative terms for free software
+Comparison of open-source and closed-source software
+Comparison of source code hosting facilities
+Free software
+Free software project directories
+Gratis versus libre
+Long-term support
+Open-source software
+Open-source software development
+Outline
+
+
+
+
+
+Software
+packages
+
+
+
+Audio
+Bioinformatics
+Codecs
+Collaboration
+Configuration management
+Device drivers
+
+Graphics
+Wireless
+
+
+Geophysics
+Health
+Mathematics
+Operating systems
+Programming languages
+Routing
+Statistics
+Television
+Video games
+Web applications
+
+Content management systems
+E-commerce
+
+
+Word processors
+Android apps
+iOS apps
+Commercial
+Trademarked
+Formerly proprietary
+
+
+
+
+
+Community
+
+
+
+Free software movement
+History
+Open-source software movement
+Organizations
+Events
+
+
+
+
+
+Licenses
+
+
+
+AFL
+Apache
+APSL
+Artistic
+Beerware
+Boost
+BSD
+CC0
+CDDL
+EPL
+Free Software Foundation
+
+GNU GPL
+GNU LGPL
+
+
+ISC
+MIT
+MPL
+Ms-PL/RL
+Python
+Python Software Foundation License
+Sleepycat
+Unlicense
+WTFPL
+zlib
+
+
+
+
+
+License types
+and standards
+
+
+
+Comparison of free and open-source software licenses
+Contributor License Agreement
+Copyleft
+Debian Free Software Guidelines
+Definition of Free Cultural Works
+Free license
+The Free Software Definition
+The Open Source Definition
+Open-source license
+Permissive software licence
+Public domain
+Viral license
+
+
+
+
+
+Challenges
+
+
+
+Binary blob
+Digital rights management
+Hardware restrictions
+License proliferation
+Mozilla software rebranding
+Proprietary software
+SCO/Linux controversies
+Secure boot
+Software patents
+Software security
+Trusted Computing
+
+
+
+
+
+Related topics
+
+
+
+The Cathedral and the Bazaar
+Forking
+Microsoft Open Specification Promise
+Open-source hardware
+Revolution OS
+
+
+
+
+
+
+
+
+ Book
+ Category
+ Commons
+ Portal
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Falcon_(programming_language)&oldid=817796849"					
+				Categories: Programming languagesClass-based programming languagesCross-platform softwareDynamically typed programming languagesEmbedded systemsFree compilers and interpretersFree computer librariesFunctional languagesHigh-level programming languagesMulti-paradigm programming languagesObject-oriented programming languagesProcedural programming languagesProgramming languages created in 2003Prototype-based programming languagesScripting languagesText-oriented programming languages2003 softwareHidden categories: Articles with topics of unclear notability from December 2015All articles with topics of unclear notabilityArticles lacking reliable references from December 2015All articles lacking reliable referencesArticles with multiple maintenance issuesAll articles with unsourced statementsArticles with unsourced statements from December 2014Official website different in Wikidata and Wikipedia				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					EspañolفارسیFrançais한국어Italiano中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 30 December 2017, at 17:08.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.404","walltime":"0.500","ppvisitednodes":{"value":2379,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":106053,"limit":2097152},"templateargumentsize":{"value":11807,"limit":2097152},"expansiondepth":{"value":25,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":27847,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  412.871      1 -total"," 31.62%  130.533      3 Template:Ambox"," 30.44%  125.661      1 Template:Reflist"," 24.61%  101.622     25 Template:Cite_web"," 23.51%   97.079      3 Template:Infobox"," 21.92%   90.514      1 Template:Multiple_issues"," 15.64%   64.587      1 Template:Infobox_programming_language"," 11.80%   48.702      1 Template:Notability","  7.13%   29.454      1 Template:Official_website","  6.55%   27.027      1 Template:Infobox_software/simple"]},"scribunto":{"limitreport-timeusage":{"value":"0.205","limit":"10.000"},"limitreport-memusage":{"value":7616911,"limit":52428800}},"cachereport":{"origin":"mw1325","timestamp":"20180331113802","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":103,"wgHostname":"mw1321"});});
+	
+

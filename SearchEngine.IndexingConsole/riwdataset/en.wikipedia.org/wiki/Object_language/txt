@@ -1,0 +1,290 @@
+
+
+
+
+Object language - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Object_language","wgTitle":"Object language","wgCurRevisionId":818562337,"wgRevisionId":818562337,"wgArticleId":412014,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from July 2009","All articles needing additional references","All articles with unsourced statements","Articles with unsourced statements from July 2012","Programming language implementation","Linguistics","Mathematical logic","Metalogic"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Object_language","wgRelevantArticleId":412014,"wgRequestId":"WsDbCApAICMAAKrwYV4AAACG","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q4347052","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.math.scripts","ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Object language			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (July 2009) (Learn how and when to remove this template message)
+
+
+
+An object language is a language which is the "object" of study in various fields including logic, linguistics, mathematics, and theoretical computer science. The language being used to talk about an object language is called a metalanguage. An object language may be a formal or natural language.[citation needed]
+
+
+
+Contents
+
+
+1 Forms of object language
+
+1.1 Formal languages
+1.2 Computer languages
+
+1.2.1 Formal specification
+1.2.2 Object Code
+
+
+
+
+2 Expressions in an object language
+
+2.1 Symbols
+2.2 Formulas
+2.3 Formal systems
+2.4 Theorems
+2.5 Formal proofs
+2.6 Theories
+
+
+3 References
+
+
+
+Forms of object language[edit]
+Formal languages[edit]
+Mathematical logic and linguistics make use of metalanguages, which are languages for describing the nature of other languages. In mathematical logic, the object language is usually a formal language. The language which a metalanguage is used to describe is the object language. It is called that because that language is the object under discussion using the metalanguage.
+For instance, someone who says "In French, you say Bonjour to greet someone" uses English as a metalanguage to describe the object language French.
+Computer languages[edit]
+There are two ways the term object language can be used in computing: a language which is the object of formal specification, and a language which is the object (goal) of a compiler or interpreter.
+Formal specification[edit]
+Main article: Specification language
+Computer languages are object languages of the metalanguage in which their specification is written. In computer science this is referred to as the specification language. Backus–Naur form was one of the earliest used specification languages.
+When compilers are written using systems like lex and yacc, the rules the programmer writes look much like a formal specification, but it is considered an implementation instead. Many programming language implementations are not strictly the same as their specifications, adding features or making implementation-dependent design decisions.
+Object Code[edit]
+Main article: Object file
+At their basic level, computers act on what is given to them through a limited set of instructions which are understood by their CPUs. In the earliest computers, that meant programmers sometimes typed 1's and 0's to program. Since this requires considerable programmer training (and patience) to create instructions, later computer languages have gone to great lengths to simplify the programmer's task. For example, a high level programming language may allow a programmer to assign a value to a variable without specifying a memory location or a CPU instruction.
+In this context, the high level programming language is the source language, which is then translated by a compiler into object code that the CPU can read directly. This object code is the object language, and varies depending on what CPU is being given the instructions.
+Object language in this context means something akin to "the object of what the programmer is trying to achieve". If the source language and object languages are viewed as formal (logical) languages, what the compiler does is interpret the source into the target language (this is different from the computer science use of interpreted language meaning one which is not compiled).
+Object language in this context is synonymous with target language. The object language of a translation most often is a machine language, but can be some other kind of language, such as assembly language.
+Because the object language of compilation has usually been machine language, the term object file has come to mean a file containing machine instructions, and sometimes the translated program itself is simply called an object.
+Object language should also not be confused with object-oriented language, which is a type of computer programming language which changes the programmer's environment into convenient objects which can be used in something similar to a drag-and-drop fashion.
+Expressions in an object language[edit]
+Symbols[edit]
+Main article: Symbol (formal)
+A symbol is an idea, abstraction or concept, tokens of which may be marks or a configuration of marks which form a particular pattern. Although the term "symbol" in common use refers at some times to the idea being symbolized, and at other times to the marks on a piece of paper or chalkboard which are being used to express that idea; in the formal languages studied in mathematics and logic, the term "symbol" refers to the idea, and the marks are considered to be a token instance of the symbol.
+Formulas[edit]
+Main article: Well-formed formula
+In the formal languages used in mathematical logic and computer science, a well-formed formula or simply formula is an idea, abstraction or concept which is expressed using the symbols and formation rules (also called the formal grammar) of a particular formal language. To say that a string of symbols 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ is a well-formed formula with respect to a given formal grammar 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+  
+ is equivalent to saying that 
+  
+    
+      
+        S
+      
+    
+    {\displaystyle S}
+  
+ belongs to the language generated by 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+  
+.
+Formal systems[edit]
+Main article: Formal system
+A formal system is a formal language together with a deductive system which consists of a set of inference rules and/or axioms. A formal system is used to derive one expression from one or more other expressions previously expressed in the system. These expressions are called axioms, in the case of those previously supposed to be true, or theorems, in the case of those derived. A formal system may be formulated and studied for its intrinsic properties, or it may be intended as a description (i.e. a model) of external phenomena.
+Theorems[edit]
+Main article: Theorem
+A theorem is a symbol or string of symbols which is derived by using a formal system. The string of symbols is a logical consequence of the axioms and rules of the system.
+Formal proofs[edit]
+Main article: Formal proof
+A formal proof or derivation is a finite sequence of propositions (called well-formed formulas in the case of a formal language) each of which is an axiom or follows from the preceding sentences in the sequence by a rule of inference. The last sentence in the sequence is a theorem of a formal system. The concept of natural deduction is a generalization of the concept of proof.[1]
+Theories[edit]
+Main article: Theory (mathematical logic)
+A theory is a set of sentences in a formal language.
+References[edit]
+
+
+
+^ The Cambridge Dictionary of Philosophy, deduction.
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Object_language&oldid=818562337"					
+				Categories: Programming language implementationLinguisticsMathematical logicMetalogicHidden categories: Articles needing additional references from July 2009All articles needing additional referencesAll articles with unsourced statementsArticles with unsourced statements from July 2012				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					NederlandsPortuguêsSuomi				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 4 January 2018, at 07:28.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.096","walltime":"0.163","ppvisitednodes":{"value":452,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":7601,"limit":2097152},"templateargumentsize":{"value":550,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":467,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  108.799      1 -total"," 50.54%   54.990      1 Template:Refimprove"," 30.98%   33.710      1 Template:Ambox"," 21.80%   23.718      1 Template:Citation_needed"," 18.01%   19.591      8 Template:Main"," 16.98%   18.479      1 Template:Fix","  7.97%    8.668      1 Template:Delink","  7.81%    8.500      1 Template:Reflist","  6.33%    6.882      2 Template:Category_handler","  2.54%    2.767      1 Template:Fix/category"]},"scribunto":{"limitreport-timeusage":{"value":"0.037","limit":"10.000"},"limitreport-memusage":{"value":1681614,"limit":52428800}},"cachereport":{"origin":"mw1245","timestamp":"20180331102333","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":64,"wgHostname":"mw1333"});});
+	
+

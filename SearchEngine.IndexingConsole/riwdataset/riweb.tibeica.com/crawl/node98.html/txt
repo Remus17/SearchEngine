@@ -1,0 +1,223 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B. Changes from Version (3.1.4)
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+A. Changes from Version
+Up:
+Mod_python Manual
+Next:
+C. Changes from Previous
+
+
+
+
+ 
+
+B. Changes from Version (3.1.4)
+
+
+
+ 
+
+New Features
+
+
+
+
+New apache.register_cleanup() method.
+
+New apache.exists_config_define() method.
+
+New file-based session manager class.
+
+Session cookie name can be specified.
+
+The maximum number of mutexes mod_python uses for session locking
+      can now be specifed at compile time using 
+      configure --with-max-locks.
+
+New a version attribute in mod_python module.
+
+New test handler testhandler.py has been added.
+  
+
+
+
+
+Improvements
+
+
+
+
+Autoreload of a module using apache.import_module() now works if
+      modification time for the module is different from the file.
+      Previously, the module was only reloaded if the the modification 
+      time of the file was more recent. This allows for a more graceful
+      reload if a file with an older modification time needs to be
+      restored from backup.
+
+Fixed the publisher traversal security issue
+
+Objects hierarchy a la CherryPy can now be published.
+
+mod_python.c now logs reason for a 500 error
+
+Calls to PyErr_Print in mod_python.c are now followed by fflush()
+
+Using an empty value with PythonOption will unset a PythonOption key.
+
+req.path_info is now a read/write member.
+
+Improvements to FieldStorage allow uploading of large files. Uploaded
+      files are now streamed to disk, not to memory.
+
+Path to flex is now discovered at configuration time or can be
+      specifed using configure --with-flex=/path/to/flex.
+
+sys.argv is now initialized to ["mod_python"] so that modules
+      like numarray and pychart can work properly.
+  
+
+
+
+
+Bug Fixes
+
+
+
+
+Fixed memory leak which resulted from circular references starting 
+      from the request object.
+
+Fixed memory leak resulting from multiple PythonOption directives. 
+
+Fixed Multiple/redundant interpreter creation problem.
+
+Cookie attributes  with attribute names prefixed with 
+      $ are now ignored. See Section 4.7 for more 
+      information.
+
+Bug in setting up of config_dir from Handler directives fixed.
+
+mod_python.publisher will now support modules with the same name
+      but in different directories
+
+Fixed continual reloading of modules problem
+
+Fixed big marshalled cookies error.
+
+Fixed mod_python.publisher extension handling
+
+mod_python.publisher default index file traversal
+
+mod_python.publisher loading wrong module and giving no
+      warning/error
+
+apply_fs_data() now works with "new style" objects
+
+File descriptor fd closed after ap_send_fd() in req_sendfile()
+
+Bug in mem_cleanup in MemorySession fixed.
+
+Fixed bug in _apache._global_lock() which could cause a segfault 
+      if the lock index parameter is greater number of mutexes created
+      at mod_python startup.
+
+Fixed bug where local_ip and local_host in connection object 
+      were returning remote_ip and remote_host instead
+
+Fixed install_dso Makefile rule so it only installs the dso, not the
+      python files
+
+Potential deadlock in psp cache handling fixed
+
+Fixed bug where sessions are used outside <Directory> directive.
+
+Fixed compile problem on IRIX. ln -s requires both TARGET and LINK_NAME
+      on IRIX. ie. ln -s TARGET LINK_NAME
+
+Fixed ./configure problem on SuSE Linux 9.2 (x86-64). Python libraries
+      are in lib64/ for this platform.
+
+Fixed req.sendfile() problem where sendfile(filename) sends the incorrect
+      number of bytes when filename is a symlink. 
+
+Fixed problem where util.FieldStorage was not correctly checking the mime
+      types of POSTed entities
+
+Fixed conn.local_addr and conn.remote_addr for a better IPv6 support. 
+
+Fixed psp_parser.l to properly escape backslash-n, backslash-t
+      and backslash-r character sequences. 
+
+Fixed segfault bug when accessing some request object members 
+      (allowed_methods, allowed_xmethods, content_languages) and some server
+      object members (names, wild_names).
+
+Fixed request.add_handler() segfault bug when adding a handler to an empty
+      handler list.
+
+Fixed PythonAutoReload directive so that AutoReload can be turned off.
+
+Fixed connection object read() bug on FreeBSD.
+
+Fixed potential buffer corruption bug in connection object read().
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+A. Changes from Version
+Up:
+Mod_python Manual
+Next:
+C. Changes from Previous
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

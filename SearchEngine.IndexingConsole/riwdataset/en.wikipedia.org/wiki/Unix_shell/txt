@@ -1,0 +1,570 @@
+
+
+
+
+Unix shell - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Unix_shell","wgTitle":"Unix shell","wgCurRevisionId":829541952,"wgRevisionId":829541952,"wgArticleId":32035,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Unix shells","System administration"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Unix_shell","wgRelevantArticleId":32035,"wgRequestId":"Wr9nTgpAADsAAI1MZCQAAAAP","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q14663","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Unix shell			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+tcsh and sh shell windows on an OS X desktop
+
+
+A Unix shell is a command-line interpreter or shell that provides a traditional Unix-like command line user interface. Users direct the operation of the computer by entering commands as text for a command line interpreter to execute, or by creating text scripts of one or more such commands. Users typically interact with a Unix shell using a terminal emulator, however, direct operation via serial hardware connections, or networking session, are common for server systems. All Unix shells provide filename wildcarding, piping, here documents, command substitution, variables and control structures for condition-testing and iteration.
+
+
+
+Contents
+
+
+1 Concept
+2 Early shells
+
+2.1 Bourne shell
+2.2 C shell
+
+
+3 Configuration files
+4 Exotic shells
+5 See also
+6 References
+
+
+
+Concept[edit]
+The most generic sense of the term shell means any program that users employ to type commands. A shell hides the details of the underlying operating system and manages the technical details of the operating system kernel interface, which is the lowest-level, or "inner-most" component of most operating systems.
+In Unix-like operating systems, users typically have many choices of command-line interpreters for interactive sessions. When a user logs into the system interactively, a shell program is automatically executed for the duration of the session. The type of shell, which may be customized for each user, is typically stored in the user's profile, for example in the local passwd file or in a distributed configuration system such as NIS or LDAP; however, the user may execute any other available shell interactively.
+The Unix shell is both an interactive command language as well as a scripting programming language, and is used by the operating system as the facility to control (shell script) the execution of the system.[1] Shells created for other operating systems often provide similar functionality.
+On hosts with a windowing system, like macOS, some users may never use the shell directly. On Unix systems, the shell has historically been the implementation language of system startup scripts, including the program that starts a windowing system, configures networking, and many other essential functions. However, some system vendors have replaced the traditional shell-based startup system (init) with different approaches, such as systemd.
+Early shells[edit]
+The first Unix shell was the Thompson shell, sh, written by Ken Thompson at Bell Labs and distributed with Versions 1 through 6 of Unix, from 1971 to 1975.[2] Though rudimentary by modern standards, it introduced many of the basic features common to all later Unix shells, including piping, simple control structures using if and goto, and filename wildcarding. Though not in current use, it is still available as part of some Ancient UNIX Systems.
+It was modeled after the Multics shell developed by Glenda Schroeder, an American software engineer, in 1965. Schroeder's Multics shell was itself modeled after the RUNCOM program Louis Pouzin showed to the Multics Team. The "rc" suffix on some Unix configuration files (for example, ".vimrc"), is a remnant of the RUNCOM ancestry of Unix shells.[3][4]
+The PWB shell or Mashey shell, sh, was an upward-compatible version of the Thompson shell, augmented by John Mashey and others and distributed with the Programmer's Workbench UNIX, circa 1975-1977. It focused on making shell programming practical, especially in large shared computing centers. It added shell variables (precursors of environment variables, including the search path mechanism that evolved into $PATH), user-executable shell scripts, and interrupt-handling. Control structures were extended from if/goto to if/then/else/endif, switch/breaksw/endsw, and while/end/break/continue. As shell programming became widespread, these external commands were incorporated into the shell itself for performance.
+But the most widely distributed and influential of the early Unix shells were the Bourne shell and the C shell. Both shells have been used as the coding base and model for many derivative and work-alike shells with extended feature sets.[5]
+Bourne shell[edit]
+Main article: Bourne shell
+The Bourne shell, sh, was a complete rewrite by Stephen Bourne at Bell Labs.[6] Distributed as the shell for UNIX Version 7 in 1979, it introduced the rest of the basic features considered common to all the Unix shells, including here documents, command substitution, more generic variables and more extensive builtin control structures. The language, including the use of a reversed keyword to mark the end of a block, was influenced by ALGOL 68.[7] Traditionally, the Bourne shell program name is sh and its path in the Unix file system hierarchy is /bin/sh. But a number of compatible work-alikes are also available with various improvements and additional features. On many systems, sh may be a symbolic link or hard link to one of these alternatives:
+
+Almquist shell (ash): written as a BSD-licensed replacement for the Bourne Shell; often used in resource-constrained environments. The sh of FreeBSD, NetBSD (and their derivatives) are based on ash that has been enhanced to be POSIX conformant for the occasion.
+Bourne-Again shell (bash): written as part of the GNU Project to provide a superset of Bourne Shell functionality. This shell can be found installed and is the default interactive shell for users on most Linux and macOS systems.
+Debian Almquist shell (dash): a modern replacement for ash in Debian and Ubuntu
+Korn shell (ksh): written by David Korn based on the Bourne shell sources[8] while working at Bell Labs
+Public domain Korn shell (pdksh)
+MirBSD Korn shell (mksh): a descendant of the OpenBSD /bin/ksh and pdksh, developed as part of MirOS BSD
+Z shell (zsh): a relatively modern shell that is backward compatible with bash
+Busybox: a set of Unix utilities for small and embedded systems, which includes 2 shells: ash, a derivative of the Almquist shell; and hush, an independent implementation of a Bourne shell.
+
+The POSIX standard specifies its standard shell as a strict subset of the Korn shell, an enhanced version of the Bourne shell. From a user's perspective the Bourne shell was immediately recognized when active by its characteristic default command line prompt character, the dollar sign ($).
+C shell[edit]
+Main article: C shell
+The C shell, csh, was written by Bill Joy while a graduate student at University of California, Berkeley and widely distributed with BSD Unix.[9] The language, including the control structures and the expression grammar, was modeled on C. The C shell also introduced a large number of features for interactive work, including the history and editing mechanisms, aliases, directory stacks, tilde notation, cdpath, job control and path hashing. On many systems, csh may be a symbolic link or hard link to TENEX C shell (tcsh), an improved version of Joy's original csh. Though the C shell's interactive features have been copied in most other current shells, the language itself has not been widely copied. The only work-alike is Hamilton C shell, written by Nicole Hamilton, first distributed on OS/2 in 1988 and on Windows since 1992.[10]
+Configuration files[edit]
+Shells read configuration files on multiple circumstances that differ depending on the shell. These files usually contain commands for the particular shell and are executed when loaded; they are usually used to set important variables used to find executables, like $PATH, and others that control the behavior and appearance of the shell. The table in this section shows the configuration files for popular shells.[11]
+
+
+
+sh
+ksh
+csh
+tcsh
+bash
+zsh
+
+
+/etc/.login
+
+
+login
+login
+
+
+
+
+/etc/csh.cshrc
+
+
+yes
+yes
+
+
+
+
+/etc/csh.login
+
+
+login
+login
+
+
+
+
+~/.tcshrc
+
+
+
+yes
+
+
+
+
+~/.cshrc
+
+
+yes
+yes[a]
+
+
+
+
+~/etc/ksh.kshrc
+
+int.
+
+
+
+
+
+
+/etc/sh.shrc
+int.[b]
+
+
+
+
+
+
+
+$ENV (typically ~/.kshrc)[12]
+int.[c][d]
+int.
+
+
+int.[e]
+
+
+
+~/.login
+
+
+login
+login
+
+
+
+
+~/.logout
+
+
+login
+login
+
+
+
+
+/etc/profile
+login
+login
+
+
+login
+login[f]
+
+
+~/.profile
+login
+login
+
+
+login[g]
+login[f]
+
+
+~/.bash_profile
+
+
+
+
+login[g]
+
+
+
+~/.bash_login
+
+
+
+
+login[g]
+
+
+
+~/.bash_logout
+
+
+
+
+login
+
+
+
+~/.bashrc
+
+
+
+
+int.+n/login
+
+
+
+/etc/zshenv
+
+
+
+
+
+yes
+
+
+/etc/zprofile
+
+
+
+
+
+login
+
+
+/etc/zshrc
+
+
+
+
+
+int.
+
+
+/etc/zlogin
+
+
+
+
+
+login
+
+
+/etc/zlogout
+
+
+
+
+
+login
+
+
+~/.zshenv
+
+
+
+
+
+yes
+
+
+~/.zprofile
+
+
+
+
+
+login
+
+
+~/.zshrc
+
+
+
+
+
+int.
+
+
+~/.zlogin
+
+
+
+
+
+login
+
+
+Explanation:
+
+blank means a file is not read by a shell at all.
+"yes" means a file is always read by a shell upon startup.
+"login" means a file is read if the shell is a login shell.
+"n/login" means a file is read if the shell is not a login shell.
+"int." means a file is read if the shell is interactive.
+
+
+
+
+
+^ only if ~/.tcshrc not found
+^ Newer versions of the Bourne Shell only
+^ Available on systems that support the "User Portability Utilities option"; value of the variable must be an absolute path, and it is ignored "if the user's real and effective user IDs or real and effective group IDs are different."[13]
+^ $ENV is $HOME/.shrc in newer versions of the Bourne Shell
+^ Same behavior as sh, but only if invoked as sh (bash 2+) or, since bash 4.2, also if invoked explicitly in POSIX compatibility mode (with options --posix or -o posix).[14]
+^ a b Only in sh/ksh compatibility mode (when invoked as bash, sh, ksh)
+^ a b c in fact, the first readable of ~/.bash_profile, ~/.bash_login and ~/.profile; and only ~/.profile if invoked as sh or, as of at least Bash 4.2, if invoked explicitly in POSIX compatibility mode (with options --posix or -o posix)
+
+
+
+Exotic shells[edit]
+Other, more exotic variations on the Unix shell concept include the following:[15]
+
+es: A functional programming rc-compatible shell written in the mid-1990s.
+Friendly interactive shell (fish): First released in 2005.
+rc: The default shell on Plan 9 from Bell Labs and Version 10 Unix written by Tom Duff. Ports have been made to various Unix-like operating systems.
+scsh, a Scheme Shell.
+wish: A windowing shell for Tcl/Tk.
+
+See also[edit]
+
+
+Comparison of command shells
+List of Unix programs
+Restricted shell
+Shell (computing)
+Shell account
+Shell script
+Shell shoveling
+
+
+References[edit]
+
+
+^ Bourne, Stephen R. (October 1983). "The Unix Shell". BYTE. p. 187. Retrieved 30 January 2015. 
+^ "V6 Thompson Shell Port - History". V6shell.org. Retrieved 2012-08-14. 
+^ Tom Van Vleck (1995-02-05). "Unix and Multics". Multicians.org. Retrieved 2012-08-14. 
+^ Louis Pouzin (2000-11-25). "The Origin of the Shell". Multicians.org. Retrieved 2012-08-14. 
+^ Nikolai Bezroukov (2015-08-13). "Introduction to the Unix shell history". Softpanorama. Retrieved 2016-08-21. 
+^ "Bourne shell, or sh". Interview with Steve Bourne. Computerworld. 2009-03-05. Retrieved 2016-08-21. 
+^ "Re: Late Bloomers Revisited". Retrieved 20 September 2014. 
+^ Korn, David G. (October 26, 1994), "ksh - An Extensible High Level Language", Proceedings of the USENIX 1994 Very High Level Languages Symposium, USENIX Association, retrieved February 5, 2015, Instead of inventing a new script language, we built a form entry system by modifying the Bourne shell, adding built-in commands as necessary. 
+^ Harley Hahn, Harley Hahn's Guide to Unix and Linux.
+^ "Hamilton C shell for Windows Release Notes 4.0". Retrieved 20 September 2014. 
+^ "Different UNIX Shells". unixnote.com. 2010. Retrieved 2016-08-21. 
+^ SCO Unix Group, SCO Unixware 7 documentation, 22 Apr 2004, retrieved 18 Oct 2012.
+^ "Shell Command Language". opengroup.org. Retrieved 15 June 2015. 
+^ "Bash Reference Manual: Bash Startup Files". gnu.org. Retrieved 15 June 2015. 
+^ "FreeBSD Ports: Shells". Freebsd.org. 2014-03-30. Retrieved 2014-04-05. 
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Unix shells
+
+
+
+
+
+
+Bash
+Bourne
+Almquist
+csh
+es
+fish
+Hamilton
+Korn
+PWB
+rc
+sash
+tcsh
+Thompson
+Wish
+Zsh
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Unix_shell&oldid=829541952"					
+				Categories: Unix shellsSystem administration				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia Commons				
+							
+		
+			
+			Languages
+			
+								
+					العربيةAzərbaycancaCatalàČeštinaDanskDeutschEspañolفارسیFrançais한국어हिन्दीItalianoMagyar日本語NorskNorsk nynorskPortuguêsРусскийSimple EnglishСрпски / srpskiSrpskohrvatski / српскохрватскиSvenskaไทยТоҷикӣУкраїнська中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 9 March 2018, at 08:07.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.212","walltime":"0.257","ppvisitednodes":{"value":1199,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":26200,"limit":2097152},"templateargumentsize":{"value":1457,"limit":2097152},"expansiondepth":{"value":8,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":16707,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  214.215      1 -total"," 65.93%  141.241      2 Template:Reflist"," 25.30%   54.201     11 Template:Cite_web"," 20.04%   42.931      1 Template:Cite_news"," 12.69%   27.185      1 Template:Main_article","  8.01%   17.156      1 Template:Notelist","  6.17%   13.218     10 Template:Efn","  5.72%   12.243      1 Template:Unix_shells","  4.10%    8.783      1 Template:Navbox","  3.58%    7.669      1 Template:Div_col"]},"scribunto":{"limitreport-timeusage":{"value":"0.094","limit":"10.000"},"limitreport-memusage":{"value":3289855,"limit":52428800}},"cachereport":{"origin":"mw1266","timestamp":"20180331102059","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":84,"wgHostname":"mw1264"});});
+	
+

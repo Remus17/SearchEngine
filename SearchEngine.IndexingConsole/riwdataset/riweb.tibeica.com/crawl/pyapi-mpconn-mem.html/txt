@@ -1,0 +1,175 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.4.2 Connection Members
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.4.1 Connection Methods
+Up:
+4.5.4 Connection Object (mp_conn) 
+Next:
+4.5.5 Filter Object (mp_filter) 
+
+
+
+
+ 
+
+4.5.4.2 Connection Members
+
+
+
+base_server
+
+  A server object for the physical vhost that this connection came in
+  through.
+  (Read-Only)
+
+
+
+local_addr
+
+  The (address, port) tuple for the server.
+  (Read-Only)
+
+
+
+remote_addr
+
+  The (address, port) tuple for the client.
+  (Read-Only)
+
+
+
+remote_ip
+
+  String with the IP of the client. Same as CGI REMOTE_ADDR.
+  (Read-Only)
+
+
+
+remote_host
+
+  String. The DNS name of the remote client. None if DNS has not been
+  checked, "" (empty string) if no name found. Same as CGI REMOTE_HOST.
+  (Read-Only)
+
+
+
+remote_logname
+
+  Remote name if using RFC1413 (ident). Same as CGI REMOTE_IDENT.
+  (Read-Only)
+
+
+
+aborted
+
+  Boolean. True is the connection is aborted.
+  (Read-Only)
+
+
+
+keepalive
+
+  Integer. 1 means the connection will be kept for the next request, 0 means
+  ``undecided'', -1 means ``fatal error''.
+  (Read-Only)
+
+
+
+double_reverse
+
+  Integer. 1 means double reverse DNS lookup has been performed, 0 means
+  not yet, -1 means yes and it failed.
+  (Read-Only)
+
+
+
+keepalives
+
+  The number of times this connection has been used. (?)
+  (Read-Only)
+
+
+
+local_ip
+
+  String with the IP of the server.
+  (Read-Only)
+
+
+
+local_host
+
+  DNS name of the server.
+  (Read-Only)
+
+
+
+id
+
+  Long. A unique connection id.
+  (Read-Only)
+
+
+
+notes
+
+  A table object containing miscellaneous general purpose info that lives for
+  as long as the connection lives. 
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.4.1 Connection Methods
+Up:
+4.5.4 Connection Object (mp_conn) 
+Next:
+4.5.5 Filter Object (mp_filter) 
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

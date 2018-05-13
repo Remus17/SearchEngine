@@ -1,0 +1,249 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.3 So what Exactly does Mod-python do?
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+3.2 Quick Overview of
+Up:
+3. Tutorial
+Next:
+3.4 Now something More
+
+
+
+
+ 
+
+3.3 So what Exactly does Mod-python do?
+
+
+
+Let's pretend we have the following configuration: 
+
+  <Directory /mywebdir>
+      AddHandler mod_python .py
+      PythonHandler myscript
+      PythonDebug On
+  </Directory>
+
+
+
+NB: /mywebdir is an absolute physical path. 
+
+
+And let's say that we have a python program (Windows users: substitute
+forward slashes for backslashes) /mywedir/myscript.py that looks like
+this:
+
+
+
+from mod_python import apache
+
+def handler(req):
+
+    req.content_type = "text/plain"
+    req.write("Hello World!")
+
+    return apache.OK
+    
+
+
+Here is what's going to happen: The AddHandler directive tells
+Apache that any request for any file ending with .py in the
+/mywebdir directory or a subdirectory thereof needs to be
+processed by mod_python. The "PythonHandler myscript" directive
+tells mod_python to process the generic handler using the
+myscript script. The "PythonDebug On" directive instructs
+mod_python in case of an Python error to send error output to the
+client (in addition to the logs), very useful during development.
+
+
+When a request comes in, Apache starts stepping through its request
+processing phases calling handlers in mod_python. The mod_python
+handlers check whether a directive for that handler was specified in
+the configuration. (Remember, it acts as a dispatcher.)  In our
+example, no action will be taken by mod_python for all handlers except
+for the generic handler. When we get to the generic handler,
+mod_python will notice "PythonHandler myscript" directive and do
+the following:
+
+
+
+
+If not already done, prepend the directory in which the
+  PythonHandler directive was found to sys.path.
+
+
+
+Attempt to import a module by name myscript. (Note that if
+  myscript was in a subdirectory of the directory where
+  PythonHandler was specified, then the import would not work
+  because said subdirectory would not be in the sys.path. One
+  way around this is to use package notation, e.g. "PythonHandler
+  subdir.myscript".)
+
+
+
+Look for a function called handler in myscript.
+
+
+
+Call the function, passing it a request object. (More on what a
+  request object is later)
+
+
+
+At this point we're inside the script: 
+
+
+
+
+
+from mod_python import apache
+
+
+
+This imports the apache module which provides us the interface to
+    Apache. With a few rare exceptions, every mod_python program will have
+    this line.
+
+
+
+
+def handler(req):
+
+
+
+  This is our handler function declaration. It
+    is called "handler" because mod_python takes the name of the
+    directive, converts it to lower case and removes the word
+    "python". Thus "PythonHandler" becomes
+    "handler". You could name it something else, and specify it
+    explicitly in the directive using "::". For example, if the
+    handler function was called "spam", then the directive would
+    be "PythonHandler myscript::spam".
+
+
+Note that a handler must take one argument - the request
+    object. The request object is an object that provides all of the
+    information about this particular request - such as the IP of
+    client, the headers, the URI, etc. The communication back to the
+    client is also done via the request object, i.e. there is no
+    ``response'' object.
+
+
+
+
+req.content_type = "text/plain"
+
+
+
+This sets the content type to "text/plain". The default is usually
+    "text/html", but since our handler doesn't produce any html,
+    "text/plain" is more appropriate.
+    Important: you should always make sure this is set
+    before any call to "req.write". When you first call
+    "req.write", the response HTTP header is sent to the client and all
+    subsequent changes to the content type (or other HTTP headers) are simply
+    lost.
+
+
+
+
+req.write("Hello World!")
+
+
+
+This writes the "Hello World!" string to the client. (Did I really
+    have to explain this one?)
+
+
+
+
+return apache.OK
+
+
+
+This tells Apache that everything went OK and that the request has
+    been processed. If things did not go OK, that line could be return
+    apache.HTTP_INTERNAL_SERVER_ERROR or return
+    apache.HTTP_FORBIDDEN. When things do not go OK, Apache
+    will log the error and generate an error message for the client.
+  
+
+
+
+
+
+
+Some food for thought: If you were paying attention, you
+noticed that the text above didn't specify that in order for the
+handler code to be executed, the URL needs to refer to
+myscript.py. The only requirement was that it refers to a
+.py file. In fact the name of the file doesn't matter, and
+the file referred to in the URL doesn't have to exist. So, given the
+above configuration, "http://myserver/mywebdir/myscript.py" and
+"http://myserver/mywebdir/montypython.py" would give the exact
+same result. The important thing to understand here is that a handler
+augments the server behaviour when processing a specific type of file,
+not an individual file.
+
+
+At this point, if you didn't understand the above paragraph, go
+  back and read it again, until you do.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+3.2 Quick Overview of
+Up:
+3. Tutorial
+Next:
+3.4 Now something More
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

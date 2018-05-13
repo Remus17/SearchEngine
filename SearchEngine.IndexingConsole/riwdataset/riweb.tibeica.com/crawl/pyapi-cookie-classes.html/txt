@@ -1,0 +1,214 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.7.1 Classes
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.7 Cookie - HTTP
+Up:
+4.7 Cookie - HTTP
+Next:
+4.7.2 Functions
+
+
+
+
+ 
+
+4.7.1 Classes
+
+
+
+
+  class Cookie(
+  name, value[, attributes])
+
+
+
+This class is used to construct a single cookie named name
+  and having value as the value. Additionally, any of the 
+  attributes defined in the Netscape specification and RFC2109 can by
+  supplied as keyword arguments.
+
+
+The attributes of the class represent cookie attributes, and their
+  string representations become part of the string representation of
+  the cookie. The Cookie class restricts attribute names to
+  only valid values, specifically, only the following attributes are
+  allowed: name, value, version, path, domain, secure, comment,
+  expires, max_age, commentURL, discard, port, __data__.
+
+
+The __data__ attribute is a general-purpose dictionary that
+  can be used for storing arbitrary values, when necessary (This is
+  useful when subclassing Cookie).
+
+
+The expires attribute is a property whose value is checked
+  upon setting to be in format "Wdy, DD-Mon-YYYY HH:MM:SS GMT"  (as dictated per Netscape cookie specification), or a numeric value
+  representing time in seconds since beginning of epoch (which will be
+  automatically correctly converted to GMT time string). An invalid
+  expires value will raise ValueError.
+
+
+When converted to a string, a Cookie will be in correct
+  format usable as value in a "Cookie" or "Set-Cookie"  header.
+
+
+Note:
+Unlike the Python Standard Library Cookie classes, this
+    class represents a single cookie (referred to as Morsel in
+    Python Standard Library).
+  
+
+
+
+  parse(
+  string)
+
+    This is a class method that can be used to create a Cookie
+    instance from a cookie string string as passed in a header
+    value. During parsing, attribute names are converted to lower
+    case.
+
+
+Because this is a class method, it must be called explicitly
+    specifying the class.
+
+
+This method returns a dictionary of Cookie instances, not
+    a single Cookie instance.
+
+
+Here is an example of getting a single Cookie instance:
+    
+mycookies = Cookie.parse("spam=eggs; expires=Sat, 14-Jun-2003 02:42:36 GMT")
+spamcookie = mycookies["spam"]
+
+
+
+Note:
+Because this method uses a dictionary, it is not possible to
+      have duplicate cookies. If you would like to have more than one
+      value in a single cookie, consider using a MarshalCookie.
+    
+
+
+
+
+
+
+
+
+
+  class SignedCookie(
+  name, value, secret[, attributes])
+
+
+
+This is a subclass of Cookie. This class creates cookies
+  whose name and value are automatically signed using HMAC (md5) with
+  a provided secret secret, which must be a non-empty string.
+
+
+
+  parse(
+  string, secret)
+
+    This method acts the same way as Cookie.parse(), but also
+    verifies that the cookie is correctly signed. If the signature
+    cannot be verified, the object returned will be of class
+    Cookie.
+
+
+Note:
+Always check the types of objects returned by
+      SignedCookie.parse().If it is an instance of
+      Cookie (as opposed to SignedCookie), the
+      signature verification has failed:
+      
+# assume spam is supposed to be a signed cookie
+if type(spam) is not Cookie.SignedCookie:
+    # do something that indicates cookie isn't signed correctly
+
+    
+  
+
+
+
+
+
+
+  class MarshalCookie(
+  name, value, secret[, attributes])
+
+
+
+This is a subclass of SignedCookie. It allows for
+  value to be any marshallable objects. Core Python types such as
+  string, integer, list, etc. are all marshallable object. For a
+  complete list see
+  marshal
+  module documentation.
+
+
+When parsing, the signature is checked first, so incorrectly signed cookies
+  will not be unmarshalled.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.7 Cookie - HTTP
+Up:
+4.7 Cookie - HTTP
+Next:
+4.7.2 Functions
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

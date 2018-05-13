@@ -1,0 +1,125 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.4.4 PythonInterpPerDirectory
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.3 PythonImport
+Up:
+5.4 Other Directives
+Next:
+5.4.5 PythonInterpPerDirective
+
+
+
+
+ 
+ 
+
+5.4.4 PythonInterpPerDirectory
+
+
+
+Syntax:
+PythonInterpPerDirectory {On, Off} 
+Default:
+PythonInterpPerDirectory Off
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+Instructs mod_python to name subinterpreters using the directory of
+the file in the request (req.filename) rather than the the
+server name. This means that scripts in different directories will
+execute in different subinterpreters as opposed to the default policy
+where scripts in the same virtual server execute in the same
+subinterpreter, even if they are in different directories.
+
+
+For example, assume there is a
+/directory/subdirectory. /directory has an .htaccess
+file with a PythonHandler directive.  /directory/subdirectory
+doesn't have an .htaccess. By default, scripts in /directory and
+/directory/subdirectory would execute in the same interpreter assuming
+both directories are accessed via the same virtual server. With
+PythonInterpPerDirectory, there would be two different interpreters,
+one for each directory.
+
+
+Note:
+In early phases of the request prior to the URI translation
+  (PostReadRequestHandler and TransHandler) the path is not yet known
+  because the URI has not been translated. During those phases and
+  with PythonInterpPerDirectory on, all python code gets executed in
+  the main interpreter. This may not be exactly what you want, but
+  unfortunately there is no way around this.
+
+
+
+
+  See Also:
+
+  
+    Section 4.1 Multiple Interpreters
+    for more information
+  
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.4.3 PythonImport
+Up:
+5.4 Other Directives
+Next:
+5.4.5 PythonInterpPerDirective
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

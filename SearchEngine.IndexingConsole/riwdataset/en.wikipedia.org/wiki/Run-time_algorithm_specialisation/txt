@@ -1,0 +1,835 @@
+
+
+
+
+Run-time algorithm specialisation - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Run-time_algorithm_specialisation","wgTitle":"Run-time algorithm specialisation","wgCurRevisionId":710728928,"wgRevisionId":710728928,"wgArticleId":2935699,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Algorithms","Software optimization"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Run-time_algorithm_specialisation","wgRelevantArticleId":2935699,"wgRequestId":"WsIt6ApAMFMAAEaBkjsAAAAC","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q7379464","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.math.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.math.scripts","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Run-time algorithm specialisation			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				In computer science, run-time algorithm specialization is a methodology for creating efficient algorithms for costly computation tasks of certain kinds. The methodology originates in the field of automated theorem proving and, more specifically, in the Vampire theorem prover project.
+The idea is inspired by the use of partial evaluation in optimising program translation. Many core operations in theorem provers exhibit the following pattern. Suppose that we need to execute some algorithm 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+        (
+        A
+        ,
+        B
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}(A,B)}
+  
+ in a situation where a value of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ is fixed for potentially many different values of 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+. In order to do this efficiently, we can try to find a specialization of 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}}
+  
+ for every fixed 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+, i.e., such an algorithm 
+  
+    
+      
+        
+          
+            
+              a
+              l
+              g
+            
+          
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}_{A}}
+  
+, that executing 
+  
+    
+      
+        
+          
+            
+              a
+              l
+              g
+            
+          
+          
+            A
+          
+        
+        (
+        B
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}_{A}(B)}
+  
+ is equivalent to executing 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+        (
+        A
+        ,
+        B
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}(A,B)}
+  
+.
+The specialized algorithm may be more efficient than the generic one, since it can exploit some particular properties of the fixed value 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+. Typically, 
+  
+    
+      
+        
+          
+            
+              a
+              l
+              g
+            
+          
+          
+            A
+          
+        
+        (
+        B
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}_{A}(B)}
+  
+ can avoid some operations that 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+        (
+        A
+        ,
+        B
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}(A,B)}
+  
+ would have to perform, if they are known to be redundant for this particular parameter 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+. In particular, we can often identify some tests that are true or false for 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+, unroll loops and recursion, etc.
+
+
+
+Contents
+
+
+1 Difference from partial evaluation
+2 Specialization with compilation
+3 Data-and-algorithm specialization
+4 See also
+5 References
+6 Further reading
+
+
+
+Difference from partial evaluation[edit]
+The key difference between run-time specialization and partial evaluation is that the values of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ on which 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}}
+  
+ is specialised are not known statically, so the specialization takes place at run-time.
+There is also an important technical difference. Partial evaluation is applied to algorithms explicitly represented as codes in some programming language. At run-time, we do not need any concrete representation of 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}}
+  
+. We only have to imagine 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}}
+  
+ when we program the specialization procedure. All we need is a concrete representation of the specialized version 
+  
+    
+      
+        
+          
+            
+              a
+              l
+              g
+            
+          
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}_{A}}
+  
+. This also means that we cannot use any universal methods for specializing algorithms, which is usually the case with partial evaluation. Instead, we have to program a specialization procedure for every particular algorithm 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}}
+  
+. An important advantage of doing so is that we can use some powerful ad hoc tricks exploiting peculiarities of 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}}
+  
+ and the representation of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ and 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+, which are beyond the reach of any universal specialization methods.
+Specialization with compilation[edit]
+The specialized algorithm has to be represented in a form that can be interpreted. In many situations, usually when 
+  
+    
+      
+        
+          
+            
+              a
+              l
+              g
+            
+          
+          
+            A
+          
+        
+        (
+        B
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}_{A}(B)}
+  
+ is to be computed on many values 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ in a row, we can write 
+  
+    
+      
+        
+          
+            
+              a
+              l
+              g
+            
+          
+          
+            A
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}_{A}}
+  
+ as a code of a special abstract machine, and we often say that 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ is compiled. Then the code itself can be additionally optimized by answer-preserving transformations that rely only on the semantics of instructions of the abstract machine.
+Instructions of the abstract machine can usually be represented as records. One field of such a record stores an integer tag that identifies the instruction type, other fields may be used for storing additional parameters of the instruction, for example a pointer to another instruction representing a label, if the semantics of the instruction requires a jump. All instructions of a code can be stored in an array, or list, or tree.
+Interpretation is done by fetching instructions in some order, identifying their type and executing the actions associated with this type. In C or C++ we can use a switch statement to associate some actions with different instruction tags. Modern compilers usually compile a switch statement with integer labels from a narrow range rather efficiently by storing the address of the statement corresponding to a value 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+ in the 
+  
+    
+      
+        i
+      
+    
+    {\displaystyle i}
+  
+-th cell of a special array. One can exploit this by taking values for instruction tags from a small interval of integers.
+Data-and-algorithm specialization[edit]
+There are situations when many instances of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+ are intended for long-term storage and the calls of 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+        (
+        A
+        ,
+        B
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}(A,B)}
+  
+ occur with different 
+  
+    
+      
+        B
+      
+    
+    {\displaystyle B}
+  
+ in an unpredictable order. For example, we may have to check 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+        (
+        
+          A
+          
+            1
+          
+        
+        ,
+        
+          B
+          
+            1
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}(A_{1},B_{1})}
+  
+ first, then 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+        (
+        
+          A
+          
+            2
+          
+        
+        ,
+        
+          B
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}(A_{2},B_{2})}
+  
+, then 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+        (
+        
+          A
+          
+            1
+          
+        
+        ,
+        
+          B
+          
+            3
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}(A_{1},B_{3})}
+  
+, and so on. In such circumstances, full-scale specialization with compilation may not be suitable due to excessive memory usage. However, we can sometimes find a compact specialized representation 
+  
+    
+      
+        
+          A
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle A^{\prime }}
+  
+ for every 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+, that can be stored with, or instead of, 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+  
+. We also define a variant 
+  
+    
+      
+        
+          
+            
+              a
+              l
+              g
+            
+          
+          
+            ′
+          
+        
+      
+    
+    {\displaystyle {\mathit {alg}}^{\prime }}
+  
+ that works on this representation and any call to 
+  
+    
+      
+        
+          
+            a
+            l
+            g
+          
+        
+        (
+        A
+        ,
+        B
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}(A,B)}
+  
+ is replaced by 
+  
+    
+      
+        
+          
+            
+              a
+              l
+              g
+            
+          
+          
+            ′
+          
+        
+        (
+        
+          A
+          
+            ′
+          
+        
+        ,
+        B
+        )
+      
+    
+    {\displaystyle {\mathit {alg}}^{\prime }(A^{\prime },B)}
+  
+, intended to do the same job faster.
+See also[edit]
+
+Psyco, a specializing run-time compiler for Python
+multi-stage programming
+
+References[edit]
+
+A. Voronkov, "The Anatomy of Vampire: Implementing Bottom-Up Procedures with Code Trees", Journal of Automated Reasoning, 15(2), 1995 (original idea)
+
+Further reading[edit]
+
+A. Riazanov and A. Voronkov, "Efficient Checking of Term Ordering Constraints", Proc. IJCAR 2004, Lecture Notes in Artificial Intelligence 3097, 2004 (compact but self-contained illustration of the method)
+A. Riazanov and A. Voronkov, Efficient Instance Retrieval with Standard and Relational Path Indexing, Information and Computation, 199(1-2), 2005 (contains another illustration of the method)
+A. Riazanov, "Implementing an Efficient Theorem Prover", PhD thesis, The University of Manchester, 2003 (contains the most comprehensive description of the method and many examples)
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Run-time_algorithm_specialisation&oldid=710728928"					
+				Categories: AlgorithmsSoftware optimization				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+									
+				Add links			
+		
+				
+		
+				
+						
+								 This page was last edited on 18 March 2016, at 18:29.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.052","walltime":"0.097","ppvisitednodes":{"value":227,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1440,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"origin":"mw1342","timestamp":"20180315061930","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":65,"wgHostname":"mw1248"});});
+	
+

@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.4 PythonHeaderParserHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.3 PythonTransHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.5 PythonInitHandler
+
+
+
+
+ 
+ 
+
+5.1.4 PythonHeaderParserHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+This handler is called to give the module a chance to look at the
+request headers and take any appropriate specific actions early in the
+processing sequence.
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.3 PythonTransHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.5 PythonInitHandler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

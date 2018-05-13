@@ -1,0 +1,683 @@
+
+
+
+
+Iterator - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Iterator","wgTitle":"Iterator","wgCurRevisionId":830016188,"wgRevisionId":830016188,"wgArticleId":172640,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 German-language sources (de)","Articles needing expert attention from December 2013","All articles needing expert attention","Computer science articles needing expert attention","Articles needing additional references from June 2010","All articles needing additional references","Articles with example C Sharp code","Articles with example C++ code","Articles with example Java code","Articles with example PHP code","Articles with example Python code","Articles with example Ruby code","Iteration in programming","Object (computer science)","Abstract data types"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Iterator","wgRelevantArticleId":172640,"wgRequestId":"Wr9lBQpAAD0AAEVtEBMAAABC","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q1326388","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.tablesorter","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Iterator			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				In computer programming, an iterator is an object that enables a programmer to traverse a container, particularly lists.[1][2][3] Various types of iterators are often provided via a container's interface. Though the interface and semantics of a given iterator are fixed, iterators are often implemented in terms of the structures underlying a container implementation and are often tightly coupled to the container to enable the operational semantics of the iterator. An iterator performs traversal and also gives access to data elements in a container, but does not itself perform iteration (i.e., not without some significant liberty taken with that concept or with trivial use of the terminology). An iterator is behaviorally similar to a database cursor. Iterators date to the CLU programming language in 1974.
+
+
+
+Contents
+
+
+1 Description
+
+1.1 Internal Iterators
+1.2 External iterators and the iterator pattern
+
+1.2.1 Generators
+
+
+1.3 Implicit iterators
+1.4 Streams
+1.5 Contrasting with indexing
+1.6 Classifying iterators
+
+1.6.1 Iterator categories
+1.6.2 Iterator types
+
+
+
+
+2 In different programming languages
+
+2.1 C# and other .NET languages
+2.2 C++
+2.3 Java
+2.4 Scala
+2.5 MATLAB
+2.6 PHP
+2.7 Python
+2.8 Ruby
+
+
+3 See also
+4 References
+5 External links
+
+
+
+Description[edit]
+
+
+
+
+
+
+This section needs attention from an expert in Computer science. See the talk page for details. WikiProject Computer science may be able to help recruit an expert. (December 2013)
+
+
+
+Internal Iterators[edit]
+Internal iterators are higher order functions (often taking anonymous functions) such as map, reduce etc., implementing the traversal across a container, applying the given function to every element in turn.
+External iterators and the iterator pattern[edit]
+Main article: Iterator pattern
+An external iterator may be thought of as a type of pointer that has two primary operations: referencing one particular element in the object collection (called element access), and modifying itself so it points to the next element (called element traversal).[4] There must also be a way to create an iterator so it points to some first element as well as some way to determine when the iterator has exhausted all of the elements in the container. Depending on the language and intended use, iterators may also provide additional operations or exhibit different behaviors.
+The primary purpose of an iterator is to allow a user to process every element of a container while isolating the user from the internal structure of the container.[2] This allows the container to store elements in any manner it wishes while allowing the user to treat it as if it were a simple sequence or list. An iterator class is usually designed in tight coordination with the corresponding container class. Usually, the container provides the methods for creating iterators.
+A loop counter is sometimes also referred to as a loop iterator. A loop counter, however, only provides the traversal functionality and not the element access functionality.
+Generators[edit]
+Main article: Generator (computer science)
+One way of implementing iterators is to use a restricted form of coroutine, known as a generator. By contrast with a subroutine, a generator coroutine can yield values to its caller multiple times, instead of returning just once. Most iterators are naturally expressible as generators, but because generators preserve their local state between invocations, they're particularly well-suited for complicated, stateful iterators, such as tree traversers. There are subtle differences and distinctions in the use of the terms "generator" and "iterator", which vary between authors and languages.[5] In Python, a generator is an iterator constructor: a function that returns an iterator. An example of a Python generator returning an iterator for the Fibonacci numbers using Python's yield statement follows:
+
+
+def fibonacci(limit):
+    a, b = 0, 1
+    for _ in range(limit):
+        yield a
+        a, b = b, a+b
+
+for number in fibonacci(100):  # The generator constructs an iterator
+    print(number)
+
+Implicit iterators[edit]
+Some object-oriented languages such as C#, C++ (later versions), Delphi (later versions), Go, Java (later versions), Lua, Perl, Python, Ruby provide an intrinsic way of iterating through the elements of a container object without the introduction of an explicit iterator object. An actual iterator object may exist in reality, but if it does it is not exposed within the source code of the language.[4][6]
+Implicit iterators are often manifested by a "foreach" statement (or equivalent), such as in the following Python example:
+
+
+for value in iterable:
+    print value
+
+In Python, an iterable is an object which can be converted to an iterator, which is then iterated through during the for loop; this is done implicitly.
+Or other times they may be created by the collection object itself, as in this Ruby example:
+
+
+iterable.each do |value|
+  puts value
+end
+
+This iteration style is sometimes called "internal iteration" because its code fully executes within the context of the iterable object (that controls all aspects of iteration), and the programmer only provides the operation to execute at each step (using an anonymous function).
+Languages that support list comprehensions or similar constructs may also make use of implicit iterators during the construction of the result list, as in Python:
+
+
+names = [person.name for person in roster if person.male]
+
+Sometimes the implicit hidden nature is only partial. The C++ language has a few function templates for implicit iteration, such as for_each(). These functions still require explicit iterator objects as their initial input, but the subsequent iteration does not expose an iterator object to the user.
+Streams[edit]
+Further information: Stream (computing)
+Iterators are a useful abstraction of input streams – they provide a potentially infinite iterable (but not necessarily indexable) object. Several languages, such as Perl and Python, implement streams as iterators. Alternative implementations of stream include data-driven languages, such as AWK and sed.
+Contrasting with indexing[edit]
+In procedural languages it is common to use the subscript operator and a loop counter to loop through all the elements in a sequence such as an array. Although indexing may also be used with some object-oriented containers, the use of iterators may have some advantages:[7]
+
+Counting loops are not suitable to all data structures, in particular to data structures with no or slow random access, like lists or trees.
+Iterators can provide a consistent way to iterate on data structures of all kinds, and therefore make the code more readable, reusable, and less sensitive to a change in the data structure.
+An iterator can enforce additional restrictions on access, such as ensuring that elements cannot be skipped or that a previously visited element cannot be accessed a second time.
+An iterator may allow the container object to be modified without invalidating the iterator. For instance, once an iterator has advanced beyond the first element it may be possible to insert additional elements into the beginning of the container with predictable results. With indexing this is problematic since the index numbers must change.
+
+The ability of a container to be modified while iterating through its elements has become necessary in modern object-oriented programming, where the interrelationships between objects and the effects of operations may not be obvious. By using an iterator one is isolated from these sorts of consequences. This assertion must however be taken with a grain of salt, because more often than not, for efficiency reasons, the iterator implementation is so tightly bound to the container that it does preclude modification of the underlying container without invalidating itself.
+For containers that may move around their data in memory, the only way to not invalidate the iterator is, for the container, to somehow keep track of all the currently alive iterators and update them on the fly. Since the number of iterators at a given time may be arbitrarily large in comparison to the size of the tied container, updating them all will drastically impair the complexity guarantee on the container's operations.
+An alternative way to keep the number of updates bound relatively to the container size would be to use a kind of handle mechanism, that is a collection of indirect pointers to the container's elements that must be updated with the container, and let the iterators point to these handles instead of directly to the data elements. But this approach will negatively impact the iterator performance, since it must effectuate a double pointer following to access the actual data element. This is usually not desirable, because many algorithms using the iterators invoke the iterators data access operation more often than the advance method. It is therefore especially important to have iterators with very efficient data access.
+All in all, this is always a trade-off between security (iterators remain always valid) and efficiency. Most of the time, the added security is not worth the efficiency price to pay for it. Using an alternative container (for example a singly linked list instead of a vector) would be a better choice (globally more efficient) if the stability of the iterators is needed.
+Classifying iterators[edit]
+Iterator categories[edit]
+Iterators can be categorised according to their functionality. Here is a (non-exhaustive) list of iterator categories:[8][9]
+
+
+Category
+Languages
+
+
+Bidirectional iterator
+C++
+
+
+Forward iterator
+C++
+
+
+Input iterator
+C++
+
+
+Output iterator
+C++
+
+
+Random access iterator
+C++
+
+
+Trivial iterator
+C++ (old STL)[10]
+
+
+Iterator types[edit]
+Different languages or libraries used with these languages define iterator types. Some of them are[11]
+
+
+Type
+Languages
+
+
+Array iterator
+PHP, R[12]
+
+
+Caching iterator
+PHP
+
+
+Constant iterator
+C++,[13] PHP
+
+
+Directory iterator
+PHP, Python
+
+
+Filter iterator
+PHP, R
+
+
+Limit iterator
+PHP
+
+
+List iterator
+Java,[6] R
+
+
+Recursive array iterator
+PHP
+
+
+XML iterator
+PHP
+
+
+In different programming languages[edit]
+C# and other .NET languages[edit]
+Iterators in the .NET Framework are called "enumerators" and represented by the IEnumerator interface. IEnumerator provides a MoveNext() method, which advances to the next element and indicates whether the end of the collection has been reached; a Current property, to obtain the value of the element currently being pointed at; and an optional Reset() method, to rewind the enumerator back to its initial position. The enumerator initially points to a special value before the first element, so a call to MoveNext() is required to begin iterating.
+Enumerators are typically obtained by calling the GetEnumerator() method of an object implementing the IEnumerable interface. Container classes typically implement this interface. However, the foreach statement in C# can operate on any object providing such a method, even if it doesn't implement IEnumerable. Both interfaces were expanded into generic versions in .NET 2.0.
+The following shows a simple use of iterators in C# 2.0:
+
+
+// explicit version
+IEnumerator<MyType> iter = list.GetEnumerator();
+while (iter.MoveNext())
+    Console.WriteLine(iter.Current);
+
+// implicit version
+foreach (MyType value in list)
+    Console.WriteLine(value);
+
+C# 2.0 also supports generators: a method that is declared as returning IEnumerator (or IEnumerable), but uses the "yield return" statement to produce a sequence of elements instead of returning an object instance, will be transformed by the compiler into a new class implementing the appropriate interface.
+C++[edit]
+The C++ language makes wide use of iterators in its Standard Template Library, which provides several different kinds of iterators, including forward iterators, bidirectional iterators, and random access iterators. All of the standard container template types provide a rich and consistent set of iterator types. The syntax of standard iterators is designed to resemble that of ordinary C pointer arithmetic, where the * and -> operators are used to reference the element to which the iterator points, and pointer arithmetic operators like ++ are used to advance the iterator to the next element.
+Iterators are usually used in pairs, where one is used for the actual iteration and the second serves to mark the end of the collection. The iterators are created by the corresponding container class using standard methods such as begin() and end(). The iterator returned by begin() points to the first element, while the iterator returned by end() is a special value that does not reference any element. When an iterator is advanced beyond the last element it is by definition equal to the special end iterator value.
+The following example shows a typical use of an iterator.
+
+
+std::vector<int> items;
+items.push_back(1); // Append integer value '1' to vector 'items'
+items.push_back(2); // Append integer value '2' to vector 'items'
+items.push_back(3); // Append integer value '3' to vector 'items'
+
+for (std::vector<int>::iterator i = items.begin(); i != items.end(); ++i) { // Iterate through 'items'
+   std::cout << *i; // And print value of 'items' for current index
+}
+//in C++11
+for(auto i:items){
+   std::cout << i; // And print value of 'items'
+}
+//
+
+//Prints 123
+
+There are many varieties of iterators each with slightly different behavior, including: forward, reverse, and bidirectional iterators; random-access iterators; input and output iterators; and const iterators (that protect the container or its elements from modification). However, not every type of container supports every type of iterator. It is possible for users to create their own iterator types by deriving subclasses from the standard std::iterator class template.
+Iterator safety is defined separately for the different types of standard containers, in some cases the iterator is very permissive in allowing the container to change while iterating.
+Implicit iteration is also partially supported by C++ through the use of standard function templates, such as std::for_each(), std::copy() and std::accumulate().
+When used they must be initialized with existing iterators, usually begin and end, that define the range over which iteration occurs. But no explicit iterator object is subsequently exposed as the iteration proceeds. This example shows the use of for_each.
+
+
+ContainerType<ItemType> C; // Any standard container type of ItemType elements
+
+void ProcessItem(const ItemType& I) { // Function that will process each item of the collection
+   std::cout << I << std::endl;
+}
+
+std::for_each(C.begin(), C.end(), ProcessItem);  // A for-each iteration loop
+
+The same can be achieved using std::copy and std::ostream_iterator
+
+
+std::copy(C.begin(), C.end(), std::ostream_iterator<ItemType>(std::cout, "\n"));
+
+A limitation is that this technique does not allow the body of the for-each loop to be declared inline, requiring a function pointer or function object to be declared elsewhere and passed as an argument. This can be partially compensated for by using a library such as Boost and using lambda to implicitly generate function objects with familiar infix operator syntax. However, because Boost is implemented at the library level, rather than intrinsically in the language, certain operations have to be done via workarounds.
+The current standard of C++, C++11, natively supports lambda function syntax, allowing the function template body to be declared inline.
+Here is an example of for-each iteration using a lambda function:
+
+
+ContainerType<ItemType> C; // Any standard container type of ItemType elements
+
+// A for-each iteration loop with a lambda function
+std::for_each(C.begin(), C.end(), [](const ItemType& I){ std::cout << I << std::endl; });
+
+Java[edit]
+Introduced in the Java JDK 1.2 release, the java.util.Iterator interface allows the iteration of container classes. Each Iterator provides a next() and hasNext() method, and may optionally support a remove() method. Iterators are created by the corresponding container class, typically by a method named iterator().[14]
+The next() method advances the iterator and returns the value pointed to by the iterator. The first element is obtained upon the first call to next(). To determine when all the elements in the container have been visited the hasNext() test method is used. The following example shows a simple use of iterators:
+
+
+Iterator iter = list.iterator();
+//Iterator<MyType> iter = list.iterator();    in J2SE 5.0
+while (iter.hasNext()) {
+    System.out.print(iter.next());
+    if (iter.hasNext())
+        System.out.print(", ");
+}
+
+To show that hasNext() can be called repeatedly, we use it to insert commas between the elements but not after the last element.
+This approach does not properly separate the advance operation from the actual data access. If the data element must be used more than once for each advance, it needs to be stored in a temporary variable. When an advance is needed without data access (i.e. to skip a given data element), the access is nonetheless performed, though the returned value is ignored in this case.
+For collection types that support it, the remove() method of the iterator removes the most recently visited element from the container while keeping the iterator usable. Adding or removing elements by calling the methods of container (also from the same thread) makes the iterator unusable. An attempt to get the next element throws the exception. An exception is also thrown if there are no more elements remaining (hasNext() has previously returned false).
+Additionally, for java.util.List there is a java.util.ListIterator with a similar API but that allows forward and backward iteration, provides its current index in the list and allows setting of the list element at its position.
+The J2SE 5.0 release of Java introduced the Iterable interface to support an enhanced for (foreach) loop for iterating over collections and arrays. Iterable defines the iterator() method that returns an Iterator. Using the enhanced for loop, the preceding example can be rewritten as
+
+
+for (MyType obj : list) {
+    System.out.print(obj);
+}
+
+Some containers also use the older (since 1.0) Enumeration class. It provides hasMoreElements() and nextElement() methods but has no methods to modify the container.
+Scala[edit]
+In Scala, iterators have a rich set of methods similar to collections, and can be used directly in for loops. Indeed, both iterators and collections inherit from a common base trait - scala.collection.TraversableOnce. However, because of the rich set of methods available in the Scala collections library, such as map, collect, filter etc., it is often not necessary to deal with iterators directly when programming in Scala.
+Java iterators and collections can be automatically converted into Scala iterators and collections, respectively, simply by adding the single line
+
+
+import scala.collection.JavaConversions._
+
+to the file. The JavaConversions object provides implicit conversions to do this. Implicit conversions are a feature of Scala: methods that, when visible in the current scope, automatically insert calls to themselves into relevant expressions at the appropriate place to make them typecheck when they otherwise wouldn't.
+MATLAB[edit]
+MATLAB supports both external and internal implicit iteration using either "native" arrays or cell arrays. In the case of external iteration where the onus is on the user to advance the traversal and request next elements, one can define a set of elements within an array storage structure and traverse the elements using the for-loop construct. For example,
+
+
+% Define an array of integers
+myArray = [1,3,5,7,11,13];
+
+for n = myArray
+   % ... do something with n
+   disp(n)  % Echo integer to Command Window
+end
+
+traverses an array of integers using the for keyword.
+In the case of internal iteration where the user can supply an operation to the iterator to perform over every element of a collection, many built-in operators and MATLAB functions are overloaded to execute over every element of an array and return a corresponding output array implicitly. Furthermore, the arrayfun and cellfun functions can be leveraged for performing custom or user defined operations over "native" arrays and cell arrays respectively. For example,
+
+
+function simpleFun
+% Define an array of integers
+myArray = [1,3,5,7,11,13];
+
+% Perform a custom operation over each element 
+myNewArray = arrayfun(@(a)myCustomFun(a),myArray);
+
+% Echo resulting array to Command Window          
+myNewArray
+
+function outScalar = myCustomFun(inScalar)
+% Simply multiply by 2
+outScalar = 2*inScalar;
+
+defines a primary function simpleFun that implicitly applies custom subfunction myCustomFun to each element of an array using built-in function arrayfun.
+Alternatively, it may be desirable to abstract the mechanisms of the array storage container from the user by defining a custom object-oriented MATLAB implementation of the Iterator Pattern. Such an implementation supporting external iteration is demonstrated in MATLAB Central File Exchange item Design Pattern: Iterator (Behavioral). This is written in the new class-definition syntax introduced with MATLAB software version 7.6 (R2008a) and features a one-dimensional cell array realization of the List Abstract Data Type (ADT) as the mechanism for storing a heterogeneous (in data type) set of elements. It provides the functionality for explicit forward List traversal with the hasNext(), next() and reset() methods for use in a while-loop.
+PHP[edit]
+PHP’s foreach loop was introduced in version 4.0 and made compatible with objects as values in 4.0 Beta 4.[15] However, support for iterators was added in PHP 5 through the introduction of the internal[16] Traversable interface.[17] The two main interfaces for implementation in PHP scripts that enable objects to be iterated via the foreach loop are Iterator and IteratorAggregate. The latter does not require the implementing class to declare all required methods, instead it implements an accessor method (getIterator) that returns an instance of Traversable. The Standard PHP Library provides several classes to work with special iterators.[18] PHP also supports Generators since 5.5.[19]
+The simplest implementation is by wrapping an array, this can be useful for type hinting and information hiding.
+
+
+namespace Wikipedia\Iterator;
+
+final class ArrayIterator extends \Iterator {
+
+    private $array;
+
+    public function __construct(array $array) {
+        $this->array = $array;
+    }
+
+    public function rewind() {
+        echo 'rewinding' , PHP_EOL;
+        reset($this->array);
+    }
+
+    public function current() {
+        $value = current($this->array);
+        echo "current: {$value}" , PHP_EOL;
+        return $value;
+    }
+
+    public function key() {
+        $key = key($this->array);
+        echo "key: {$key}" , PHP_EOL;
+        return $key;
+    }
+
+    public function next() {
+        $value = next($this->array);
+        echo "next: {$value}" , PHP_EOL;
+        return $value;
+    }
+
+    public function valid() {
+        $valid = $this->current() !== false;
+        echo 'valid: ' , ($valid ? 'true' : 'false') , PHP_EOL;
+        return $valid;
+    }
+}
+
+All methods of the example class are used during the execution of a complete foreach loop (foreach ($iterator as $key => $current) {}). The iterator’s methods are executed in the following order:
+
+$iterator->rewind() ensures that the internal structure starts from the beginning.
+$iterator->valid() returns true in this example.
+$iterator->current() returned value is stored in $value.
+$iterator->key() returned value is stored in $key.
+$iterator->next() advances to the next element in the internal structure.
+$iterator->valid() returns false and the loop is aborted.
+
+The next example illustrates a PHP class that implements the Traversable interface, which could be wrapped in an IteratorIterator class to act upon the data before it is returned to the foreach loop. The usage together with the MYSQLI_USE_RESULT constant allows PHP scripts to iterate result sets with billions of rows with very little memory usage. These features are not exclusive to PHP nor to its MySQL class implementations (e.g. the PDOStatement class implement the Traversable interface as well).
+
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new \mysqli('host.example.com', 'username', 'password', 'database_name');
+
+// The \mysqli_result class that is returned by the method call implements the internal Traversable interface.
+foreach ($mysqli->query('SELECT `a`, `b`, `c` FROM `table`', MYSQLI_USE_RESULT) as $row) {
+    // Act on the returned row, which is an associative array.
+}
+
+Python[edit]
+Iterators in Python are a fundamental part of the language and in many cases go unseen as they are implicitly used in the for (foreach) statement, in list comprehensions, and in generator expressions. All of Python's standard built-in collection types support iteration, as well as many classes that are part of the standard library. The following example shows typical implicit iteration over a sequence:
+
+
+ for value in sequence:
+     print(value)
+
+Python dictionaries (a form of associative array) can also be directly iterated over, when the dictionary keys are returned; or the items method of a dictionary can be iterated over where it yields corresponding key,value pairs as a tuple:
+
+
+for key in dictionary:
+    value = dictionary[key]
+    print(key, value)
+
+
+
+for key, value in dictionary.items():
+    print(key, value)
+
+Iterators however can be used and defined explicitly. For any iterable sequence type or class, the built-in function iter() is used to create an iterator object. The iterator object can then be iterated with the next() function, which uses the __next__() method internally, which returns the next element in the container. (The previous statement applies to Python 3.x. In Python 2.x, the next() method is equivalent.) A StopIteration exception will be raised when no more elements are left. The following example shows an equivalent iteration over a sequence using explicit iterators:
+
+
+it = iter(sequence)
+while True:
+    try:
+        value = it.next() # in Python 2.x
+        value = next(it) # in Python 3.x
+    except StopIteration:
+        break
+    print(value)
+
+Any user-defined class can support standard iteration (either implicit or explicit) by defining an __iter__() method that returns an iterator object. The iterator object then needs to define a __next__() method that returns the next element.
+Python's generators implement this iteration protocol.
+Ruby[edit]
+Ruby implements iterators quite differently; all iterations are done by means of passing callback closures to container methods - this way Ruby not only implements basic iteration but also several patterns of iteration like function mapping, filters and reducing. Ruby also supports an alternative syntax for the basic iterating method each, the following three examples are equivalent:
+
+
+(0...42).each do |n|
+  puts n
+end
+
+…and…
+
+
+for n in 0...42
+  puts n
+end
+
+or even shorter
+
+
+42.times do |n|
+  puts n
+end
+
+Ruby can also iterate over fixed lists by using Enumerators and either calling their #next method or doing a for each on them, as above.
+See also[edit]
+
+Iteratee, in which, instead of the developer calling the iterator repeatedly to get new values, the iteratee is called repeatedly to process new chunks of data - an example of inversion of control.
+Design pattern
+Iteration
+Iterator pattern
+Range
+Visitor pattern
+
+References[edit]
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (June 2010) (Learn how and when to remove this template message)
+
+
+
+
+
+
+^ Gatcomb, Joshua. "Understanding and Using Iterators". Perl.com. Archived from the original on 2005-06-16. Retrieved 2012-08-08. A user-defined iterator usually takes the form of a code reference that, when executed, calculates the next item in a list and returns it. When the iterator reaches the end of the list, it returns an agreed-upon value. 
+^ a b Watt, Stephen M. "A Technique for Generic Iteration and Its Optimization" (PDF). The University of Western Ontario, Department of Computer Science. Archived from the original (PDF) on 2006-09-16. Retrieved 2012-08-08. Iterators were introduced as constructs to allow looping over abstract data structures without revealing their internal representation. 
+^ Alex Allain. "STL Iterators". Cprogramming.com - Your resource for C and C++. Retrieved 2012-08-08. You can think of an iterator as pointing to an item that is part of a larger container of items. 
+^ a b "Difference between an external iterator and an internal iterator". CareerRide.COM. 2009-04-03. Archived from the original on 2009-04-03. Retrieved 2012-08-08. An internal iterator is implemented by the member functions of the class which has the iteration logic. An external iterator is implemented by a separate class which can be attached to the object which has iteration logic. The advantage of external iterator is that, many iterators can be made active simultaneously on the existing or same object. 
+^ Watt, Stephen M. "A Technique for Generic Iteration and Its Optimization" (PDF). The University of Western Ontario, Department of Computer Science. Archived from the original (PDF) on 2006-09-16. Retrieved 2012-08-08. Some authors use the term iterator, and others the term generator. Some make subtle distinctions between the two. 
+^ a b Freeman, Eric; Freeman, Elisabeth; Kathy, Sierra; Bert, Bates (2004). Hendrickson, Mike; Loukides, Mike, eds. "Head First Design Patterns" (paperback). 1. O'REILLY: 338. ISBN 978-0-596-00712-6. Retrieved 2012-08-09. 
+^ Vecerina, Ivan (2006-02-01). "index vs iterator". BYTES. Archived from the original on 2006-02-01. Retrieved 2012-08-08. An index only can be used for containers that (efficiently) support random access (i.e. direct access to an element at a given position). An iterator is a more general concept. Iterators offer efficient traversal of linked lists, files, and a number of other data structures. It often leads to the generation of more efficient code. 
+^ Kevin Waterson. "C++ Iteratoren: Iterator-Kategorien" (in German). cppreference.com. Retrieved 2012-08-09. 
+^ Kevin Waterson. "Iterators: Concepts". sgi. Retrieved 2012-08-09. 
+^ larsmans (2011-03-06). "Types of iterator: Output vs. input vs. forward vs. random access iterator". stackoverflow. Archived from the original on 2011-03-06. Retrieved 2012-08-09. 
+^ Kevin Waterson. "Introduction to SPL: Introduction to Standard PHP Library (SPL)". PHPRO.ORG. Retrieved 2012-08-09. 
+^ Collier, Andrew. "Iterators in R". Retrieved 16 November 2013. 
+^ "concurrent_unordered_set Template Class". Intel Threading Building Blocks for Open Source. Retrieved 2012-08-09. •The iterator types iterator and const_iterator are of the forward iterator category 
+^ "java.util: Interface Iterator<E>: Method Summary". Oracle. Retrieved 2012-08-08. 
+^ "PHP 4 ChangeLog". The PHP Group. 2000-02-20. Retrieved 2015-10-13. 
+^ Internal refers to the fact that the interface cannot be implemented in PHP scripts, only in the C (programming language) source.
+^ "The Traversable interface". The PHP Group. Retrieved 2015-10-13. 
+^ "Iterators". The PHP Group. Retrieved 2015-10-13. 
+^ "PHP 5 ChangeLog". The PHP Group. 2013-06-20. Retrieved 2015-10-13. 
+
+
+
+External links[edit]
+
+
+
+Look up iterator in Wiktionary, the free dictionary.
+
+
+
+Java's Iterator, Iterable and ListIterator Explained
+.NET interface
+Article "Understanding and Using Iterators" by Joshua Gatcomb
+Article "A Technique for Generic Iteration and Its Optimization" (217 KB) by Stephen M. Watt
+Iterators
+Boost C++ Iterator Library
+Java interface
+PHP: Object Iteration
+STL Iterators
+What are iterators? - Reference description
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Iterator&oldid=830016188"					
+				Categories: Articles with example Ruby codeIteration in programmingObject (computer science)Abstract data typesHidden categories: CS1 German-language sources (de)Articles needing expert attention from December 2013All articles needing expert attentionComputer science articles needing expert attentionArticles needing additional references from June 2010All articles needing additional referencesArticles with example C Sharp codeArticles with example C++ codeArticles with example Java codeArticles with example PHP codeArticles with example Python code				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			In other projects
+			
+								
+					Wikimedia CommonsWikibooks				
+							
+		
+			
+			Languages
+			
+								
+					CatalàČeštinaDanskDeutschEspañolFrançais한국어ItalianoעבריתМакедонскиNederlands日本語PolskiPortuguêsРусскийСрпски / srpskiSvenska中文				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 12 March 2018, at 06:08.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.268","walltime":"0.558","ppvisitednodes":{"value":1591,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":39803,"limit":2097152},"templateargumentsize":{"value":926,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":45194,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  509.895      1 -total"," 33.35%  170.052      1 Template:Reflist"," 24.73%  126.099     17 Template:Cite_web","  9.21%   46.951      1 Template:Expert_needed","  6.05%   30.854      2 Template:Ambox","  2.09%   10.635      2 Template:Main_article","  1.87%    9.531      1 Template:Refimprove","  1.79%    9.152      1 Template:Cite_journal","  1.47%    7.494      1 Template:Wiktionary","  1.17%    5.988      1 Template:Sister_project"]},"scribunto":{"limitreport-timeusage":{"value":"0.133","limit":"10.000"},"limitreport-memusage":{"value":4372723,"limit":52428800}},"cachereport":{"origin":"mw1266","timestamp":"20180331103757","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":668,"wgHostname":"mw1266"});});
+	
+

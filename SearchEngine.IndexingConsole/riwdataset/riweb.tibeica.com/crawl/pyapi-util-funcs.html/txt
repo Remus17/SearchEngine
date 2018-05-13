@@ -1,0 +1,160 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.6.3 Other functions
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.6.2 Field class
+Up:
+4.6 util - Miscellaneous
+Next:
+4.7 Cookie - HTTP
+
+
+
+
+ 
+
+4.6.3 Other functions
+
+
+
+
+  parse_qs(
+  qs[, keep_blank_values, strict_parsing])
+
+
+
+This function is functionally equivalent to the standard library
+  cgi parse_qs, except that it is written in C and is
+  much faster. 
+
+
+Parse a query string given as a string argument (data of type
+  application/x-www-form-urlencoded).  Data are
+  returned as a dictionary.  The dictionary keys are the unique query
+  variable names and the values are lists of values for each name.
+
+
+The optional argument keep_blank_values is a flag indicating
+  whether blank values in URL encoded queries should be treated as blank
+  strings.  A true value indicates that blanks should be retained as
+  blank strings.  The default false value indicates that blank values
+  are to be ignored and treated as if they were not included.
+
+
+Note:
+The strict_parsing argument is not yet implemented.
+  
+
+
+
+
+
+
+  parse_qsl(
+  qs[, keep_blank_values, strict_parsing])
+
+
+
+This function is functionally equivalent to the standard library
+  cgi parse_qsl, except that it is written in C and is
+  much faster. 
+
+
+Parse a query string given as a string argument (data of type
+  application/x-www-form-urlencoded).  Data are
+  returned as a list of name, value pairs.
+
+
+The optional argument keep_blank_values is a flag indicating
+  whether blank values in URL encoded queries should be treated as blank
+  strings.  A true value indicates that blanks should be retained as
+  blank strings.  The default false value indicates that blank values
+  are to be ignored and treated as if they were not included.
+
+
+Note:
+The strict_parsing argument is not yet implemented.
+  
+
+
+
+
+
+
+  redirect(
+  req, location[, permanent=0, text=None])
+
+  This is a convenience function to redirect the browser to another
+  location. When permanent is true, MOVED_PERMANENTLY
+  status is sent to the client, otherwise it is
+  MOVED_TEMPORARILY. A short text is sent to the browser
+  informing that the document has moved (for those rare browsers that
+  do not support redirection); this text can be overridden by
+  supplying a text string.
+
+
+If this function is called after the headers have already been sent,
+  an IOError is raised.
+
+
+This function raises apache.SERVER_RETURN exception to
+  abandon any further processing of the handle. If you do not want
+  this, you can wrap the call to redirect in a try/except
+  block catching the apache.SERVER_RETURN.
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.6.2 Field class
+Up:
+4.6 util - Miscellaneous
+Next:
+4.7 Cookie - HTTP
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

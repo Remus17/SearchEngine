@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.1.12 PythonLogHandler
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.11 PythonHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.13 PythonCleanupHandler
+
+
+
+
+ 
+ 
+
+5.1.12 PythonLogHandler
+
+
+
+Syntax:
+Python*Handler Syntax
+Context:
+server config, virtual host, directory, htaccess
+Override:
+not None
+Module:
+mod_python.c
+
+
+This routine is called to perform any module-specific logging
+activities. 
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+5.1.11 PythonHandler
+Up:
+5.1 Request Handlers
+Next:
+5.1.13 PythonCleanupHandler
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.8.2 Examples
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.8.1 Classes
+Up:
+4.8 Session - Session
+Next:
+4.9 psp - Python
+
+
+
+
+ 
+
+4.8.2 Examples
+
+The following example demonstrates a simple hit counter.
+
+
+
+from mod_python import Session
+
+def handler(req):
+    session = Session.Session(req)
+
+    try:
+        session['hits'] += 1
+    except:
+        session['hits'] = 1
+
+    session.save()
+
+    req.content_type = 'text/plain'
+    req.write('Hits: %d\n' % session['hits'])
+    return apache.OK
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.8.1 Classes
+Up:
+4.8 Session - Session
+Next:
+4.9 psp - Python
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

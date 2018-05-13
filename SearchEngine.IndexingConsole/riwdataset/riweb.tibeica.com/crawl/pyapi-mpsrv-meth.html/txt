@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.5.6.1 Server Methods
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.6 Server Object (mp_server) 
+Up:
+4.5.6 Server Object (mp_server) 
+Next:
+4.5.6.2 Server Members
+
+
+
+
+ 
+
+4.5.6.1 Server Methods
+
+
+
+
+  get_config(
+  )
+
+  Similar to req.get_config(), but returns a config pointed to
+  by server->module_config Apache config vector. 
+
+
+
+
+  register_cleanup(
+  request, callable[, data])
+
+  Registers a cleanup. Very similar to req.register_cleanup(), except
+  this cleanup will be executed at child termination time. This function
+  requires one extra argument - the request object.
+
+
+
+
+
+
+
+
+
+
+
+Mod_python Manual
+
+
+
+
+Previous:
+4.5.6 Server Object (mp_server) 
+Up:
+4.5.6 Server Object (mp_server) 
+Next:
+4.5.6.2 Server Members
+
+Release 3.2.8, documentation updated on February 19, 2006.
+
+
+
+
+

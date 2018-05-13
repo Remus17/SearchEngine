@@ -1,0 +1,432 @@
+
+
+
+
+PythonAnywhere - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PythonAnywhere","wgTitle":"PythonAnywhere","wgCurRevisionId":826938754,"wgRevisionId":826938754,"wgArticleId":38007831,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with topics of unclear notability from December 2012","All articles with topics of unclear notability","Articles needing additional references from May 2012","All articles needing additional references","Articles with multiple maintenance issues","Pages using deprecated image syntax","Python (programming language)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PythonAnywhere","wgRelevantArticleId":38007831,"wgRequestId":"WsJJxQpAIC0AAIjE7FkAAAAB","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":[],"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFExpandAllSectionsUserOption":true,"wgMFEnableFontChanger":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q7263915","wgScoreNoteLanguages":{"arabic":"العربية","catalan":"català","deutsch":"Deutsch","english":"English","espanol":"español","italiano":"italiano","nederlands":"Nederlands","norsk":"norsk","portugues":"português","suomi":"suomi","svenska":"svenska","vlaams":"West-Vlams"},"wgScoreDefaultNoteLanguage":"nederlands","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.gadget.charinsert-styles":"ready","ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.tokens@1dqfd7l",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.3d","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+PythonAnywhere			
+				From Wikipedia, the free encyclopedia				
+								
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+
+
+
+
+
+
+
+The topic of this article may not meet Wikipedia's notability guidelines for products and services. Please help to establish notability by citing reliable secondary sources that are independent of the topic and provide significant coverage of it beyond its mere trivial mention. If notability cannot be established, the article is likely to be merged, redirected, or deleted.
+Find sources: "PythonAnywhere" – news · newspapers · books · scholar · JSTOR (December 2012) (Learn how and when to remove this template message)
+
+
+
+
+
+
+
+
+
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (May 2012) (Learn how and when to remove this template message)
+
+
+
+
+
+(Learn how and when to remove this template message)
+
+
+
+
+PythonAnywhere
+
+
+
+
+Developer(s)
+PythonAnywhere LLP
+
+
+Written in
+Python
+
+
+Operating system
+Cross-platform / HTML5
+
+
+Type
+Integrated development environment, Web hosting service
+
+
+License
+Proprietary
+
+
+Website
+www.pythonanywhere.com
+
+
+PythonAnywhere is an online integrated development environment (IDE) and web hosting service based on the Python programming language.[1] It provides in-browser access to server-based Python and Bash command-line interfaces, along with a code editor with syntax highlighting. Program files can be transferred to and from the service using the user's browser. Web applications hosted by the service can be written using any WSGI-based application framework.
+PythonAnywhere was created by Resolver Systems,[2] who also produced Resolver One, a Python-based Spreadsheet program. On 16 October 2012 the product was acquired by a new company, PythonAnywhere LLP, who will develop and maintain the product in the future, and have taken on the existing development team.[3]
+The development team uses PythonAnywhere to develop PythonAnywhere, and say that its collaboration features help because they use the extreme programming methodology.[4]
+
+
+
+Contents
+
+
+1 Features
+2 Uses
+3 See also
+4 References
+5 External links
+
+
+
+Features[edit]
+
+CPython, PyPy and IPython support, including Python versions 2.7, 3.3, 3.4, 3.5 and 3.6
+In-browser interactive consoles with code running on hosted servers, shareable between multiple users.
+WSGI-based web hosting, e.g. Django, Flask, web2py
+Support for coding from iPad and other mobile devices.
+Syntax-highlighting in-browser editor.
+Many popular Python modules pre-installed
+Cron-like scheduled tasks to run scripts at a given time of day.
+
+Uses[edit]
+PythonAnywhere is described as "the simplest way to deploy web2py applications" in the official book on the web framework,[5] is suggested when learning numpy,[6] and is recommended as a way of hosting machine learning-based web applications.[7]
+See also[edit]
+
+Comparison of Python integrated development environments
+List of Python software
+
+References[edit]
+
+
+
+^ "PythonAnywhere: un ambiente Python nel proprio browser". html.it. 
+^ "Products - Resolver Systems". Resolver Systems. 
+^ "Resolver Systems News: Acquisition". Resolver Systems. 
+^ "Installation-Free Programming in the Cloud". Develop in the Cloud. 
+^ Massimo Di Pierro (2013). web2py (5th Edition). Lulu.com. pp. 568–. ISBN 978-0-578-12021-8. 
+^ Ivan Idris (29 April 2015). NumPy Cookbook - Second Edition. Packt Publishing Ltd. pp. 85–. ISBN 978-1-78439-982-5. 
+^ Sebastian Raschka (23 September 2015). Python Machine Learning. Packt Publishing Ltd. pp. 272–. ISBN 978-1-78355-514-7. 
+
+
+
+External links[edit]
+
+PythonAnywhere Homepage
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Cloud computing
+
+
+
+Applications
+
+
+
+Box
+Google
+
+G Suite
+Docs, Sheets and Slides
+
+
+HP Cloud (closed)
+Microsoft Online
+Oracle Cloud
+Rackspace
+Salesforce
+Zoho
+
+
+
+
+
+Platforms
+
+
+
+Alpha7
+Amazon
+AppScale
+Box
+Bluemix
+Cloud Foundry
+Cocaine (PaaS)
+Engine Yard
+Helion
+GE Predix
+Google App Engine
+GreenQloud
+Heroku
+Inktank
+Jelastic
+Mendix
+Microsoft Azure
+MindSphere
+Oracle Cloud
+OutSystems
+openQRM
+OpenShift
+PythonAnywhere
+RightScale
+Force.com
+SAP Cloud Platform
+VMware vCloud Air
+WaveMaker
+
+
+
+
+
+Infrastructure
+
+
+
+Amazon
+Abiquo Enterprise Edition
+CloudStack
+Citrix Cloud
+CtrlS
+DigitalOcean
+EMC Atmos
+Eucalyptus
+Fujitsu
+GoGrid
+Google Cloud Platform
+GreenButton
+GreenQloud
+IBM cloud computing
+iland
+Joyent
+Lunacloud
+Mirantis
+Nimbula
+Nimbus
+OpenNebula
+OpenStack
+Oracle Cloud
+OrionVM
+Rackspace Cloud
+SoftLayer
+Zadara Storage
+libvirt
+libguestfs
+OVirt
+Virtual Machine Manager
+Wakame-vdc
+Virtual Private Cloud OnDemand
+
+
+
+
+
+Technologies
+
+
+
+Cloud database
+Data centers
+Distributed file system for cloud
+Hardware virtualization
+Internet
+Networking
+Security
+Structured storage
+Virtual appliance
+Web APIs
+Virtual private cloud
+
+
+
+
+
+
+
+
+ Category
+ Commons
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=PythonAnywhere&oldid=826938754"					
+				Categories: Python (programming language)Hidden categories: Articles with topics of unclear notability from December 2012All articles with topics of unclear notabilityArticles needing additional references from May 2012All articles needing additional referencesArticles with multiple maintenance issuesPages using deprecated image syntax				
+							
+		
+		
+			Navigation menu
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+							ArticleTalk						
+					
+										
+												
+						
+							Variants
+						
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+							ReadEditView history						
+					
+										
+						
+						More
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+			
+								
+					Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store				
+							
+		
+			
+			Interaction
+			
+								
+					HelpAbout WikipediaCommunity portalRecent changesContact page				
+							
+		
+			
+			Tools
+			
+								
+					What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page				
+							
+		
+			
+			Print/export
+			
+								
+					Create a bookDownload as PDFPrintable version				
+							
+		
+			
+			Languages
+			
+								
+					PortuguêsРусскийСрпски / srpski				
+				Edit links			
+		
+				
+		
+				
+						
+								 This page was last edited on 21 February 2018, at 21:02.
+								Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+							
+						
+								Privacy policy
+								About Wikipedia
+								Disclaimers
+								Contact Wikipedia
+								Developers
+								Cookie statement
+								Mobile view
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.220","walltime":"0.294","ppvisitednodes":{"value":914,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":56072,"limit":2097152},"templateargumentsize":{"value":9290,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":4,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":6784,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  242.271      1 -total"," 52.50%  127.183      3 Template:Ambox"," 39.31%   95.237      1 Template:Multiple_issues"," 32.70%   79.230      1 Template:Reflist"," 20.27%   49.117      4 Template:Cite_web"," 17.32%   41.953      1 Template:Notability"," 16.65%   40.350      1 Template:Infobox_software"," 13.52%   32.760      1 Template:Infobox","  9.54%   23.104      1 Template:Cloud_computing","  9.03%   21.872      1 Template:Find_sources_mainspace"]},"scribunto":{"limitreport-timeusage":{"value":"0.107","limit":"10.000"},"limitreport-memusage":{"value":4483786,"limit":52428800}},"cachereport":{"origin":"mw1306","timestamp":"20180330064354","ttl":1900800,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":93,"wgHostname":"mw1324"});});
+	
+
