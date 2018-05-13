@@ -9,6 +9,7 @@ namespace SearchEngine.Database.Models
   {
     public ObjectId Id { get; set; }
     public string Word { get; set; }
+    public float InverseDocumentFrequency { get; set; } // doc nr | doc nr with word
     public List<TermLocation> Locations {get;set;}
   }
 }

@@ -16,7 +16,7 @@ namespace SearchEngine.Database
         {
           try
           {
-            _client = new MongoClient("");
+            _client = new MongoClient("mongodb+srv://remus:remus123$%^@cluster0-tgjbo.mongodb.net/test");
             Console.WriteLine("Db connection successfully initialized");
           }
           catch (DnsClient.DnsResponseException e)
@@ -44,6 +44,7 @@ namespace SearchEngine.Database
     public static string DirectIndexCollectionName { get; } = "direct_index";
     public static string MappedReverseIndexCollectionName { get; } = "mapped_reverse_index";
     public static string ReducedReverseIndexCollectionName { get; } = "reduced_reverse_index";
+    public static string DocumentModulesCollectionName { get; } = "document_modules";
 
     public static void ClearDatabase()
     {
@@ -57,6 +58,9 @@ namespace SearchEngine.Database
 
       Database.DropCollection(ReducedReverseIndexCollectionName);
       Database.CreateCollection(ReducedReverseIndexCollectionName);
+
+      Database.DropCollection(DocumentModulesCollectionName);
+      Database.CreateCollection(DocumentModulesCollectionName);
 
     }
     public static void Init()

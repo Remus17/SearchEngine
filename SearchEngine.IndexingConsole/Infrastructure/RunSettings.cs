@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SearchEngine.IndexingConsole.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -21,6 +22,7 @@ namespace SearchEngine.IndexingConsole
 
     public static int DocumentBatchSize { get; set; } = 5;
     public static int GroupedWordsBatchSize { get; set; } = 30;
+    public static List<LinkToFileRelation> FilePaths{get;set;}
   }
 
   public enum LogType

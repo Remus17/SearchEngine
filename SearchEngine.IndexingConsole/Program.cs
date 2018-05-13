@@ -5,6 +5,7 @@ using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 using SearchEngine.Database;
 using SearchEngine.IndexingConsole.Indexing;
+using SearchEngine.IndexingConsole.Infrastructure;
 
 namespace SearchEngine.IndexingConsole
 {
@@ -22,13 +23,15 @@ namespace SearchEngine.IndexingConsole
       Console.WriteLine("\n\n--- Starting direct index creator ---\n\n");
       DirectIndexCreator.Start();
 
-
       Console.WriteLine("\n\n--- Starting the mapping process of reverse index collection from direct index collection  ---\n\n");
       ReverseIndexMapper.Start();
 
-
       Console.WriteLine("\n\n--- Starting the reduction of reverse index collection ---\n\n");
       ReverseIndexReducer.Start();
+
+      Console.WriteLine("\n\n--- Starting the module computation ---\n\n");
+      DocumentModuleComputer.Start();
+
       timer.Stop();
       Console.WriteLine($"Indexing elapsed seconds: {timer.Elapsed.TotalMilliseconds / (float)1000}");
     }
@@ -48,6 +51,8 @@ namespace SearchEngine.IndexingConsole
       RunSettings.LogType = LogType.Default;
       RunSettings.DocumentBatchSize = 5;
       RunSettings.GroupedWordsBatchSize = 300; //used for calculating idf
+
+      RunSettings.FilePaths = FileTreeTools.GetFileLinkRelations(RunSettings.DatasetPath);
     }
 
 

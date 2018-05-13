@@ -58,17 +58,25 @@ namespace SearchEngine.IndexingConsole.Indexing.Workers
       //get all word documents which contain the grouped words
       var wordDocs = GetMappedWords(groupedWords);
 
-      //group mapped words documents into single word document  
-      var reducedWords = wordDocs.GroupBy(x => x.Word, (key, g) => new ReducedWordDocument
+      //group mapped words documents into single word document
+      var reducedWords = new List<ReducedWordDocument>();
+      var wordsWithLocations = wordDocs.GroupBy(x => x.Word);
+      foreach (var item in wordsWithLocations)
       {
-        Word = key,
-        Locations = g.Select(word => new TermLocation
+        var groupCount = item.Count();
+        var idf = (float)Math.Log(RunSettings.DocumentNumber / (float)groupCount);
+        reducedWords.Add(new ReducedWordDocument
         {
-          Count = word.Count,
-          FinalWeight = ((float)Math.Log(RunSettings.DocumentNumber / (float)g.Count())) *  word.TermFrequency, 
-          Location = word.Url
-        }).ToList()
-      }).ToList();
+          Word = item.Key,
+          Locations = item.Select(word => new TermLocation
+          {
+            Count = word.Count,
+            FinalWeight = idf * word.TermFrequency,
+            Location=word.Url
+          }).ToList(),
+          InverseDocumentFrequency = idf
+        });
+      }    
 
       if (RunSettings.LogType == LogType.Debug)
       {
@@ -80,7 +88,35 @@ namespace SearchEngine.IndexingConsole.Indexing.Workers
 
     };
 
+    public static Action<IEnumerable<string>> ComputeDocumentsModule = documents =>
+    {
+      var modules = new List<ModuleDocument>();
+      foreach (var doc in documents)
+      {
+        var documentWords = GetDocumentReducedWords(doc);
+        var wordWeights = documentWords.Select(x => x.Locations.First().FinalWeight);
+        var module = new ModuleDocument
+        {
+          Location = doc,
+          Module = (float)Math.Sqrt(wordWeights.Select(x => x * x).Sum())
+        };
+        modules.Add(module);
+        if(RunSettings.LogType == LogType.Debug)
+        {
+          Console.WriteLine($"Computed document module:{module.Module} for {doc}");
+        }
 
+      }
+      FlushToDatabase(modules);
+    };
+
+    private static List<ReducedWordDocument> GetDocumentReducedWords(string doc)
+    {
+      var collection = DbClient.Database.GetCollection<ReducedWordDocument>(DbClient.ReducedReverseIndexCollectionName);
+      var findOptions = Builders<ReducedWordDocument>.Filter.Eq("Locations.Location", doc);
+      var projectionOptions = Builders<ReducedWordDocument>.Projection.Include(x => x.Locations[-1]).Include(x => x.Word);
+      return collection.Find(findOptions).Project<ReducedWordDocument>(projectionOptions).ToList();
+    }
 
     private static List<Term> CalculateTermFrequencies(Dictionary<string, int> wordFrequencies)
     {
@@ -101,6 +137,11 @@ namespace SearchEngine.IndexingConsole.Indexing.Workers
     {      
       var collection = DbClient.Database.GetCollection<ReducedWordDocument>(DbClient.ReducedReverseIndexCollectionName);
       collection.InsertMany(words);
+    }
+    private static void FlushToDatabase(List<ModuleDocument> modules)
+    {
+      var collection = DbClient.Database.GetCollection<ModuleDocument>(DbClient.DocumentModulesCollectionName);
+      collection.InsertMany(modules);
     }
   }
 }

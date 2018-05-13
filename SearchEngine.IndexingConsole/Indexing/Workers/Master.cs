@@ -53,5 +53,30 @@ namespace SearchEngine.IndexingConsole.Indexing.Workers
       }
 
     }
+
+    public static IEnumerable<IEnumerable<string>> Batch(IEnumerable<string> collection, int batchSize)
+    {
+      var nextbatch = new string[batchSize];
+      var index = 0;
+      foreach (var item in collection)
+      {
+        nextbatch[index++]=item;
+        if (index == batchSize)
+        {
+          yield return nextbatch;
+          index = 0;
+        }
+      }
+
+      if (index > 0)
+      {
+        var batch = new string[index];
+        for (int i = 0; i < index; i++)
+        {
+          batch[i] = nextbatch[i];
+        }
+        yield return batch;
+      }
+    }
   }
 }
